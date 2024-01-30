@@ -1,0 +1,18 @@
+---
+title: Publication of <em>A Dipolar Competitive Neural Network for Video Segmentation</em>
+author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Domínguez, Esteban J.
+  Palomo
+date: '2008-01-01'
+categories:
+- Competitive learning
+- Image processing
+- Neural networks
+---
+
+The work <u>A Dipolar Competitive Neural Network for Video Segmentation</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (5290 LNAI), <em>pp. 103-112</em></em>.
+
+<u>Abstract</u>:
+
+
+This paper present a video segmentation method which separate pixels corresponding to foreground from those corresponding to background. The proposed background model consists of a competitive neural network based on dipoles, which is used to classify the pixels as background or foreground. Using this kind of neural networks permits an easy hardware implementation to achieve a real time processing with good results. The dipolar representation is designed to deal with the problem of estimating the directionality of data. Experimental results are provided by using the standard PETS dataset and compared with the mixture of Gaussians and background subtraction methods. © 2008 Springer-Verlag.
+

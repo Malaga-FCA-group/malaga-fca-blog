@@ -1,0 +1,103 @@
+---
+author:
+- Manuel Ojeda‐Hernández
+- Francisco Pérez‐Gámez
+- Domingo López-Rodríguez
+- Nicolás Madrid
+- Ángel Mora
+Status: Published
+date: '2022-08-09T00:00:00Z'
+slug: 2022-ijcis
+title: 'Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge
+  Space of a Mathematics Course'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- E-learning
+header_image: ~
+details: <em>International Journal of Computational Intelligence Systems</em>, 15:58
+doi: 10.1007/s44196-022-00123-3
+link: 2022-ijcis/paper.pdf
+project: 2019-flair
+keywords: Formal concept analysis, Logic, Minimal generators, Mathematics education,
+  Negation
+---
+
+# Abstract
+
+Formal concept analysis is a data analysis framework based on lattice theory. In this paper, we analyse the use, inside this framework, of positive and negative (mixed) attributes of a dataset, which has proved to represent more information on the use of just positive attributes. From a theoretical point of view, in this paper we show the structure and the relationships between minimal generators of  the simple and mixed concept lattices. From a practical point of view, the obtained theoretical results allow us to ensure a greater granularity in the retrieved information. Furthermore, due to the relationship between FCA and Knowledge Space theory, on a practical level, we analyse the marks of a Mathematics course to establish the knowledge structure of the course and determine the key items providing new relevant information that is not evident without the use of the proposed tools.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'journals', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

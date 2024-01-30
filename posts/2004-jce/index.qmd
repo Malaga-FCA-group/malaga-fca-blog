@@ -1,0 +1,16 @@
+---
+title: Publication of <em>A Pedagogical Simulation of Maxwell's Demon</em>
+author:
+- Domingo López-Rodríguez
+- Carlos Criado
+date: '2004-11-01T00:00:00Z'
+categories: E-learning
+---
+
+The work <u>A Pedagogical Simulation of Maxwell's Demon</u> has been published in <em><em>Journal of Chemical Education</em>, 81(11), pp. 1679</em>.
+
+<u>Abstract</u>:
+
+
+This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level.
+

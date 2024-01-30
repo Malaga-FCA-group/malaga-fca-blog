@@ -1,0 +1,15 @@
+---
+title: Publication of <em>Memoria auto-asociativa y clasificación con redes neuronales
+  recurrentes</em>
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+date: '2005-04-01'
+categories: Neural networks
+---
+
+The work <u>Memoria auto-asociativa y clasificación con redes neuronales recurrentes</u> has been published in <em><em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados</em> 2005</em>.
+
+<u>Abstract</u>:
+
+
+El objetivo de este trabajo es presentar un nuevo modelo general de aprendizaje hebbiano para redes recurrentes discretas y dar una interpretación a la función de energía resultante cuando el número de patrones básicos sobrepasa la capacidad de la red. En este sentido, el modelo aquí presentado sostiene que aunque la capacidad de la red debe ser interpretada como una limitación de la red para aprender patrones individuales, cuando se sobrepasa dicha capacidad, la red tiende a identificar patrones similares formando grupos en torno a representantes típicos. Así, lo que en realidad se produce es el aprendizaje no supervisado de clases de patrones. De esta forma mediante la generalización del aprendizaje hebbiano aquí mostrado, pueden aprenderse grupos de patrones (conceptos) en lugar de patrones individuales y esto ocurre generalmente cuando se sobrepasa la capacidad de la red. Nuestro modelo presenta dos grandes ventajas sobre los algoritmos de clasificación típicos, no es necesario el ajuste de ningún parámetro, e incluso el numero de clases de patrones se aprende automáticamente, de forma que no hace falta ningún tipo de conocimiento a priori sobre el número de clases.
+

@@ -1,0 +1,19 @@
+---
+title: Publication of <em>Growing Competitive Network for Tracking Objects in Video
+  Sequences</em>
+author: Juan Miguel Ortiz-de-Lazcano-Lobato, Rafael Marcos Luque Baena, Domingo López-Rodríguez,
+  Esteban J. Palomo
+date: '2009-04-27'
+categories:
+- Neural networks
+- Image processing
+---
+
+The work <u>Growing Competitive Network for Tracking Objects in Video Sequences</u> has been published in <em>International Conference on Adaptive and Natural Computing Algorithms 2009, pp 109 &ndash; 118</em>.
+
+<u>Abstract</u>:
+
+
+In this paper, we investigate the use of artificial neural networks in order to solve the Shortest Common Superstring Problem. Concretely, the neural network used in this work is based on a multivalued model, MREM, very suitable for solving combinatorial optimization problems. We describe the foundations of this neural  model, and how it can be implemented in the context of this problem, by taking advantage of a better representation than in other models, which, in turn, contributes to ease the computational dynamics of the model. Experimental results prove that our model outperforms other heuristic approaches known from the specialized literature.
+
+

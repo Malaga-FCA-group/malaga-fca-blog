@@ -1,0 +1,22 @@
+---
+title: Publication of <em>Iterative Learning Reinforcement for Unsupervised Clustering
+  with Discrete Recurrent Networks</em>
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+date: '2005-11-01'
+categories:
+- Neural networks
+- Machine learning
+---
+
+The work <u>Iterative Learning Reinforcement for Unsupervised Clustering with Discrete Recurrent Networks</u> has been published in <em><em>XI Conferencia de la Asociación Española para la Inteligencia Artificial</em> 2005
+</em>.
+
+<u>Abstract</u>:
+
+
+In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters.
+
+This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships.
+
+As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented.
+

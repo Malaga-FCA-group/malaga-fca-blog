@@ -1,0 +1,13 @@
+---
+pagetitle: "Domingo López Rodríguez - Projects"
+sidebar: true
+listing:
+  contents: .
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: [date, title]
+  date-format: "DD MMM YYYY"
+  type: default
+  page-size: 999
+---

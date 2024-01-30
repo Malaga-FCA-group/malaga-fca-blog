@@ -1,0 +1,33 @@
+<link href='https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather' rel='stylesheet'>
+<script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script src="/prism.js"></script>
+<script>
+// Carga el archivo JavaScript de resaltado de sintaxis
+// (sustituye "prism.js" por el nombre del archivo que hayas descargado)
+
+// Crea una función que muestre una ventana popup con el contenido del archivo "cite.bib"
+function showPopup() {
+  // Abre la ventana popup
+  var popupWindow = window.open("", "Popup", "height=500,width=500");
+
+  // Lee el contenido del archivo "cite.bib" usando Ajax
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      // Cuando el archivo se haya cargado, muestra su contenido en la ventana popup
+      // usando resaltado de sintaxis
+      var text = xhr.responseText;
+      popupWindow.document.body.innerHTML = "<pre><code class='language-bibtex'>" + text + "</code></pre>";
+
+      // Aplica el resaltado de sintaxis a la ventana popup
+      Prism.highlightAll();
+    }
+  }
+  xhr.open("GET", "cite.bib", true);
+  xhr.send();
+}
+</script>

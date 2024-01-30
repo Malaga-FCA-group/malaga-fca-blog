@@ -1,0 +1,92 @@
+---
+author: Ángel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2010-07-01'
+slug: 2010-iceis
+title: Improving Moodle with WIRIS and M-QIT
+categories: E-learning
+header_image: ~
+details: <em>Proceedings of the 12th International Conference on Enterprise Information
+  Systems</em>, Volume 4
+doi: 10.5220/0002894500750080
+link: 2010-iceis/paper.pdf
+project: ~
+abstract: 'Moodle is one of the most extended LMS. Moodle allows the collaborative
+  learning where students and teachers collaborate on the daily work. But problems
+  with Moodle arise in our scientific context. Although Moodle can preview LaTeX code,
+  not all the possibilities of LaTeX are available and it is very good for scientific
+  teachers but hard for students, so, the mathematical formulas are usually replaced
+  by non-standard versions of them written in ASCII. Another problem with Moodle is
+  the difficulty of reusing quizzes. We present two tools that improve Moodle in three
+  aspects: representation of math formulas, mathematical computation, and improving
+  the learning units for the students. WIRIS is a powerful editor and allows interacting
+  by using mathematic formulas in an easy way and developing new learning units with
+  mathematical computation via web; M-QIT is a new tool able to manage and reutilize
+  quizzes and questions available in previous courses in Moodle.'
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: ''
+---
+# Abstract
+
+Moodle is one of the most extended LMS. Moodle allows the collaborative learning where students and teachers collaborate on the daily work. But problems with Moodle arise in our scientific context. Although Moodle can preview LaTeX code, not all the possibilities of LaTeX are available and it is very good for scientific teachers but hard for students, so, the mathematical formulas are usually replaced by non-standard versions of them written in ASCII. Another problem with Moodle is the difficulty of reusing quizzes. We present two tools that improve Moodle in three aspects: representation of math formulas, mathematical computation, and improving the learning units for the students. WIRIS is a powerful editor and allows interacting by using mathematic formulas in an easy way and developing new learning units with mathematical computation via web; M-QIT is a new tool able to manage and reutilize quizzes and questions available in previous courses in Moodle.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'conferences', '2010-iceis')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

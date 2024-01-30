@@ -1,0 +1,134 @@
+---
+author: 
+  - Dominik Dürrschnabel
+  - Domingo López Rodríguez
+Status: Published
+date: '2023-07-10'
+slug: 2023-icfca
+title: Formal Concept Analysis
+categories:
+- Formal concept analysis
+selected: true
+header_image: ~
+details: 17th International Conference, ICFCA 2023, Kassel, Germany, July 17-21, 2023, Proceedings
+doi: 10.1007/978-3-031-35949-1
+project: ''
+abstract: >
+  The field of {Formal Concept Analysis} (FCA) originated in the 1980s in Darmstadt, Germany, as a subfield of mathematical order theory, building on earlier research and developments by other groups. The original motivation for FCA was to explore complete lattices as lattices of concepts, drawing inspiration from both Philosophy and Mathematics. Over time, FCA has evolved into a broad research area with applications far beyond its initial focus, including but not limited to logic, knowledge representation, unsupervised learning, data mining, human learning, and psychology.
+
+  This volume features the contributions accepted for the 17th International Conference on Formal Concept Analysis (ICFCA 2023), held during July 17 – 21, 2023, at University of Kassel, Germany. The International Conference on Formal Concept Analysis serves as a platform for researchers from FCA and related disciplines to showcase and exchange their research findings. Since its inaugural edition in 2003 in Darmstadt, Germany, ICFCA has been held annually in multiple locations across Europe, Africa, America, and Australia. In 2015, ICFCA became a biennial event to alternate with the Conference on Concept Lattices and Their Applications (CLA).
+
+  The previous edition, ICFCA 2021, organized by the {\em Université de Strasbourg} in France, was held online due to the COVID-19 pandemic. Now that conditions are beginning to return to the pre-pandemic situation, this edition will once again offer face-to-face opportunities as well as an online mode for the audience, making this the first hybrid ICFCA edition.
+
+  This year's ICFCA received 19 submissions from authors from ten countries. At least two different program committee members and one member of the editorial board reviewed each submission. Reviewing was done in a single-blinded fashion. Thirteen high-quality papers were selected for publication in this volume. This represents an acceptance rate of 67\%. 
+
+  The research part of this volume is divided into two distinct sections. First, in ``Theory'', we have collected papers that propose and review advances in theoretical aspects of FCA. The second section, ``Applications and Visualization'', consists of advances that deal with new algorithms, applications, and different approaches to visualization techniques.
+
+  In addition to the regular contributions, this volume also includes the abstracts of the six invited talks by outstanding researchers whom we were pleased to welcome to ICFCA 2023. In detail, we were pleased to host the following talks:
+  \begin{itemize}
+    \item {\em How to Visualize Sets and Set Relations} by Oliver Deussen, Visual Computing, University of Konstanz, Germany
+    \item {\em Tangles: from Wittgenstein to graph minors and back} by Reinhard Diestel, Discrete Mathematics, University of Hamburg, Germany
+    \item {\em Formal Concept Analysis in Boolean Matrix Factorization: Algorithms and Extensions to Ordinal and Fuzzy-Valued Data} by Jan Konečný, Department of Computer Science, Palacký University Olomouc, Czech Republic
+    \item {\em On the $\varphi$-degree of inclusion} by Manuel Ojeda Aciego, Departmento de Matemática Aplicada, Universidad de Málaga, Spain 
+    \item {\em Logical foundations of categorization theory} by Alessandra Palmigiano, Department of Ethics, Governance and Society, Vrije Universiteit Amsterdam, Netherlands
+    \item {\em Modern Concepts of Dimension for Partially Ordered Sets} by William T. Trotter, School of Mathematics, Georgia Tech Institute, USA
+  \end{itemize}
+
+  Moreover, due to the recent computation of the ninth Dedekind number using techniques from FCA, this edition also includes a late-breaking result talk:
+  \begin{itemize}
+    \item {\em Breaking the Barrier: A Computation of the Ninth Dedekind Number} by Christian Jäkel, Methods of Applied Algebra, Dresden University of Technology, Germany
+  \end{itemize}
+
+  We are deeply grateful to all the authors who submitted their papers to ICFCA 2023 as a venue to present their work. Our sincere appreciation goes to the members of the Editorial Board and Program Committee, as well as all the additional reviewers, whose timely and thorough reviews enabled the fruitful discussions of the high quality papers during the conference. We would also like to express our gratitude to the local organizers who were always quick to solve any problems that arose. We are very grateful to Springer for supporting the International Conference on Formal Concept Analysis and to the Department of Electrical Engineering and Computer Science and to the Research Center for Information System Design of the University of Kassel for hosting the event.
+
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: Formal concept analysis
+---
+# Abstract
+
+The field of Formal Concept Analysis (FCA) originated in the 1980s in Darmstadt, Germany, as a subfield of mathematical order theory, building on earlier research and developments by other groups. The original motivation for FCA was to explore complete lattices as lattices of concepts, drawing inspiration from both Philosophy and Mathematics. Over time, FCA has evolved into a broad research area with applications far beyond its initial focus, including but not limited to logic, knowledge representation, unsupervised learning, data mining, human learning, and psychology.
+
+This volume features the contributions accepted for the 17th International Conference on Formal Concept Analysis (ICFCA 2023), held during July 17 – 21, 2023, at University of Kassel, Germany. The International Conference on Formal Concept Analysis serves as a platform for researchers from FCA and related disciplines to showcase and exchange their research findings. Since its inaugural edition in 2003 in Darmstadt, Germany, ICFCA has been held annually in multiple locations across Europe, Africa, America, and Australia. In 2015, ICFCA became a biennial event to alternate with the Conference on Concept Lattices and Their Applications (CLA).
+
+The previous edition, ICFCA 2021, organized by the *Université de Strasbourg* in France, was held online due to the COVID-19 pandemic. Now that conditions are beginning to return to the pre-pandemic situation, this edition will once again offer face-to-face opportunities as well as an online mode for the audience, making this the first hybrid ICFCA edition.
+
+This year's ICFCA received 19 submissions from authors from ten countries. At least two different program committee members and one member of the editorial board reviewed each submission. Reviewing was done in a single-blinded fashion. Thirteen high-quality papers were selected for publication in this volume. This represents an acceptance rate of 67\%. 
+
+The research part of this volume is divided into two distinct sections. First, in "Theory", we have collected papers that propose and review advances in theoretical aspects of FCA. The second section, "Applications and Visualization", consists of advances that deal with new algorithms, applications, and different approaches to visualization techniques.
+
+In addition to the regular contributions, this volume also includes the abstracts of the six invited talks by outstanding researchers whom we were pleased to welcome to ICFCA 2023. In detail, we were pleased to host the following talks:
+
+  - *How to Visualize Sets and Set Relations* by Oliver Deussen, Visual Computing, University of Konstanz, Germany
+  - *Tangles: from Wittgenstein to graph minors and back* by Reinhard Diestel, Discrete Mathematics, University of Hamburg, Germany
+  - *Formal Concept Analysis in Boolean Matrix Factorization: Algorithms and Extensions to Ordinal and Fuzzy-Valued Data* by Jan Konečný, Department of Computer Science, Palacký University Olomouc, Czech Republic
+  - *On the $\varphi$-degree of inclusion* by Manuel Ojeda Aciego, Departmento de Matemática Aplicada, Universidad de Málaga, Spain 
+  - *Logical foundations of categorization theory* by Alessandra Palmigiano, Department of Ethics, Governance and Society, Vrije Universiteit Amsterdam, Netherlands
+  - *Modern Concepts of Dimension for Partially Ordered Sets* by William T. Trotter, School of Mathematics, Georgia Tech Institute, USA
+
+
+Moreover, due to the recent computation of the ninth Dedekind number using techniques from FCA, this edition also includes a late-breaking result talk:
+
+  - *Breaking the Barrier: A Computation of the Ninth Dedekind Number* by Christian Jäkel, Methods of Applied Algebra, Dresden University of Technology, Germany
+
+We are deeply grateful to all the authors who submitted their papers to ICFCA 2023 as a venue to present their work. Our sincere appreciation goes to the members of the Editorial Board and Program Committee, as well as all the additional reviewers, whose timely and thorough reviews enabled the fruitful discussions of the high quality papers during the conference. We would also like to express our gratitude to the local organizers who were always quick to solve any problems that arose. We are very grateful to Springer for supporting the International Conference on Formal Concept Analysis and to the Department of Electrical Engineering and Computer Science and to the Research Center for Information System Design of the University of Kassel for hosting the event.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'books', '2023-icfca')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

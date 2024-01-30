@@ -1,0 +1,95 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2005-01-01'
+slug: 2005-iwann1
+title: Graph Partitioning via Recurrent Multivalued Neural Networks
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: International Work-Conference on Artificial Neural Networks (IWANN) 2005,
+  Lecture Notes in Computer Science, (3512), <em>pp. 1149&ndash;1156</em>
+doi: 10.1007/11494669_141
+link: 2005-iwann1/paper.pdf
+project: ''
+abstract: 'In this work, the well-known Graph Partitioning (GP) problem for undirected
+  weighted graphs has been studied from two points of view: maximizing (MaxCut) or
+  minimizing (MinCut) the cost of the cut induced in the graph by the partition. An
+  unified model, based on a neural technique for optimization problems, has been applied
+  to these two concrete problems. A detailed description of the model is presented,
+  and the technique to minimize an energy function, that measures the goodness of
+  solutions, is fully described. Some techniques to escape from local optima are presented
+  as well. It has proved to be a very competitive and efficient algorithm, in terms
+  of quality of solutions and computational time, when compared to the state-of-the-art
+  methods. Some simulation results are presented in this paper, to show the comparative
+  efficiency of the methods.'
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: Algorithms, Computational methods, Computer simulation, Graph theory, Optimization,
+  Problem solving, Computational time, Graph partitioning, Optimization problems,
+  Neural networks
+---
+# Abstract
+
+In this work, the well-known Graph Partitioning (GP) problem for undirected weighted graphs has been studied from two points of view: maximizing (MaxCut) or minimizing (MinCut) the cost of the cut induced in the graph by the partition. An unified model, based on a neural technique for optimization problems, has been applied to these two concrete problems. A detailed description of the model is presented, and the technique to minimize an energy function, that measures the goodness of solutions, is fully described. Some techniques to escape from local optima are presented as well. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'conferences', '2005-iwann1')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

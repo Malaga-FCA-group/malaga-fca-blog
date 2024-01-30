@@ -1,0 +1,98 @@
+---
+author: Francisco Pérez-Gámez, Manuel Ojeda-Hernández, Ángel Mora Bonilla, Domingo
+  López-Rodríguez, Nicolas Madrid
+Status: Published
+date: '2020-07-22'
+slug: 2020-e-learning
+title: Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessment
+  of a Math Course
+categories:
+- E-learning
+- Formal concept analysis
+header_image: ~
+details: IADIS International Conference e-Learning 2020 (part of MCCSIS 2020)
+doi: ''
+link: 2020-e-learning/paper.pdf
+project: 2019-PIE-clustering
+abstract: Since the emergence of COVID-19, online teaching and e-Learning has become
+  essential in education. Actually, in at our University, we have had to move to a
+  complete online teaching framework through the Moodle e-learning system. As a result,
+  we have had to deploy new material as videos in Youtube channels, new exercises,
+  tasks, live teaching, etc that have generated a huge amount of data that contains
+  interesting information. In particular, we have used randomly generated exams from
+  a bank of quizzes to evaluate the students. In this paper, we analyze the results
+  of these quizzes using Formal Concept Analysis tools in order to check the hidden
+  knowledge in the assessment process with the goal of improving the developed material
+  for next years. In addition, we will analyze how the different exercises and tests
+  relate to each other so that we can use this information in the following courses
+  to improve our lectures.
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: E-learning, Information analysis, Information systems, Information use,
+  Learning systems, Teaching, Assessment process, Formal concepts, Hidden knowledge,
+  Interesting information, Live teaching, Online teaching, YouTube, Formal concept
+  analysis
+---
+# Abstract
+
+Since the emergence of COVID-19, online teaching and e-Learning has become essential in education. Actually, in at our University, we have had to move to a complete online teaching framework through the Moodle e-learning system. As a result, we have had to deploy new material as videos in Youtube channels, new exercises, tasks, live teaching, etc that have generated a huge amount of data that contains interesting information. In particular, we have used randomly generated exams from a bank of quizzes to evaluate the students. In this paper, we analyze the results of these quizzes using Formal Concept Analysis tools in order to check the hidden knowledge in the assessment process with the goal of improving the developed material for next years. In addition, we will analyze how the different exercises and tests relate to each other so that we can use this information in the following courses to improve our lectures.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'conferences', '2020-e-learning')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

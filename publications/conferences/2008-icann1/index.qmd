@@ -1,0 +1,102 @@
+---
+author: R.M. Luque Baena, E. Dominguez, Domingo López-Rodríguez, E.J. Palomo
+Status: Published
+date: '2008-01-01'
+slug: 2008-icann1
+title: A Neighborhood-Based Competitive Network for Video Segmentation and Object
+  Detection
+categories:
+- Competitive learning
+- Image processing
+- Neural networks
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (5163), PART 1, <em>pp. 877&ndash;886</em>
+doi: 10.1007/978-3-540-87536-9_90
+link: 2008-icann1/paper.pdf
+project: ''
+keywords: Adaptive neighborhood, Background model, Competitive network, Competitive
+  neural network, Frame rate, Hardware implementations, Mixture of Gaussians, Object
+  Detection, Pixel level, Realtime processing, Segmentation performance, Synaptic
+  weight, Video segmentation, Algorithms, Backpropagation, Hardware, Image segmentation,
+  Neural networks
+---
+
+# Abstract
+
+This work proposes an unsupervised competitive neural network based on adaptive neighborhoods for video segmentation and object detection. The designed neural network is proposed to form a background model based on subtraction approach. The synaptic weights and the adaptive neighborhood of the neurons serve as a model of the background and are updated to reflect the statistics of the background. The segmentation performance of the proposed neural network is examined and compared to mixture of Gaussian models. The proposed algorithm is parallelized on a pixel level and designed to enable efficient hardware implementation to achieve real-time processing at great frame rates. © Springer-Verlag Berlin Heidelberg 2008.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

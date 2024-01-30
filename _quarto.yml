@@ -1,0 +1,39 @@
+project:
+  type: website
+render:
+    - "*.qmd"
+    - "*.md"
+
+website:
+  title: "Málaga FCA Group"
+  navbar:
+    right:
+      - href: members/index.qmd
+        text: Persons
+      - href: publications/index.qmd
+        text: Publications
+      - href: projects/index.qmd
+        text: Projects
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+
+date-format: "D MMMM YYYY"
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    include-in-header:
+      file: header.html
+
+editor: source
+
+resources:
+  - "assets/*"
+
+

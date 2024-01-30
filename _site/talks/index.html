@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.545">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Málaga FCA Group</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-seminars .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-venue',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-venue"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-seminars'] = new List('listing-seminars', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-regular .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-venue',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-venue"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-regular'] = new List('listing-regular', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script src="../prism.js"></script>
+<script>
+// Carga el archivo JavaScript de resaltado de sintaxis
+// (sustituye "prism.js" por el nombre del archivo que hayas descargado)
+
+// Crea una función que muestre una ventana popup con el contenido del archivo "cite.bib"
+function showPopup() {
+  // Abre la ventana popup
+  var popupWindow = window.open("", "Popup", "height=500,width=500");
+
+  // Lee el contenido del archivo "cite.bib" usando Ajax
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      // Cuando el archivo se haya cargado, muestra su contenido en la ventana popup
+      // usando resaltado de sintaxis
+      var text = xhr.responseText;
+      popupWindow.document.body.innerHTML = "<pre><code class='language-bibtex'>" + text + "</code></pre>";
+
+      // Aplica el resaltado de sintaxis a la ventana popup
+      Prism.highlightAll();
+    }
+  }
+  xhr.open("GET", "cite.bib", true);
+  xhr.send();
+}
+</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Málaga FCA Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../members/index.qmd"> 
+<span class="menu-text">Persons</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#invited-talks-and-seminars" id="toc-invited-talks-and-seminars" class="nav-link active" data-scroll-target="#invited-talks-and-seminars">Invited talks and seminars</a></li>
+  <li><a href="#conference-talks" id="toc-conference-talks" class="nav-link" data-scroll-target="#conference-talks">Conference talks</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+
+<section id="invited-talks-and-seminars" class="level2">
+<h2 class="anchored" data-anchor-id="invited-talks-and-seminars">Invited talks and seminars</h2>
+<div id="listing-seminars" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-seminars-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-seminars'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Venue
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1694383200000" data-listing-file-modified-sort="1705690669714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Formal Concept Analysis in R - the `fcaR` library" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Sep 2023</span>
+</td>
+<td>
+<a href="../talks/seminars/2023-ICCS/index.html" class="title listing-title">Formal Concept Analysis in R - the <code>fcaR</code> library</a>
+</td>
+<td>
+<span class="listing-venue">International Conference on Conceptual Structures 2023 in Berlin, Germany</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1693778400000" data-listing-file-modified-sort="1705690682778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Explainable Machine Learning using Formal Concept Analysis" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">04 Sep 2023</span>
+</td>
+<td>
+<a href="../talks/seminars/2023-XAI/index.html" class="title listing-title">Explainable Machine Learning using Formal Concept Analysis</a>
+</td>
+<td>
+<span class="listing-venue">Spanish+Polish Mathematical Meeting 2023 in Lodz, Poland</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1654725600000" data-listing-file-modified-sort="1706010726850" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="fcaR, Formal Concept Analysis with the R language" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">09 Jun 2022</span>
+</td>
+<td>
+<a href="../talks/seminars/2022-Ostrava/index.html" class="title listing-title">fcaR, Formal Concept Analysis with the R language</a>
+</td>
+<td>
+<span class="listing-venue">Institute for Research and Applications of Fuzzy Modeling, University of Ostrava</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1650492000000" data-listing-file-modified-sort="1706010783833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Formal Concept Analysis in R. Motivation, success stories and future work with the fcaR library" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">21 Apr 2022</span>
+</td>
+<td>
+<a href="../talks/seminars/2022-RudolfWille/index.html" class="title listing-title">Formal Concept Analysis in R. Motivation, success stories and future work with the fcaR library</a>
+</td>
+<td>
+<span class="listing-venue">Rudolf Wille seminar at Ernst Schröder Zentrum</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="conference-talks" class="level2">
+<h2 class="anchored" data-anchor-id="conference-talks">Conference talks</h2>
+<div id="listing-regular" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-regular-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-regular'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Venue
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1664920800000" data-listing-file-modified-sort="1706009843710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Knowledge Discovery in Malware Datasets using Formal Concept Analysis" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">05 Oct 2022</span>
+</td>
+<td>
+<a href="../talks/regular/2022-escim/index.html" class="title listing-title">Knowledge Discovery in Malware Datasets using Formal Concept Analysis</a>
+</td>
+<td>
+<span class="listing-venue">14th European Symposium on Computational Intelligence and Mathematics</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1657490400000" data-listing-file-modified-sort="1705923684225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Computing the Mixed Concept Lattice" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Jul 2022</span>
+</td>
+<td>
+<a href="../talks/regular/2022-ipmu/index.html" class="title listing-title">Computing the Mixed Concept Lattice</a>
+</td>
+<td>
+<span class="listing-venue">International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1656885600000" data-listing-file-modified-sort="1705923734921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mining Fuzzy Concept Lattices" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">04 Jul 2022</span>
+</td>
+<td>
+<a href="../talks/regular/2022-cmmse/index.html" class="title listing-title">Mining Fuzzy Concept Lattices</a>
+</td>
+<td>
+<span class="listing-venue">International Conference on Computational and Mathematical Methods in Science and Engineering 2022</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1655848800000" data-listing-file-modified-sort="1705923757470" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="fcaR, Spreading FCA to the Data Science World" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">22 Jun 2022</span>
+</td>
+<td>
+<a href="../talks/regular/2022-cla/index.html" class="title listing-title">fcaR, Spreading FCA to the Data Science World</a>
+</td>
+<td>
+<span class="listing-venue">Conference on Concept Lattices and their Applications 2022</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1625954400000" data-listing-file-modified-sort="1705923775420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Clustering and identification of core implications" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Jul 2021</span>
+</td>
+<td>
+<a href="../talks/regular/2021-icfca/index.html" class="title listing-title">Clustering and identification of core implications</a>
+</td>
+<td>
+<span class="listing-venue">International Conference on Formal Concept Analysis 2021</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="1381442400000" data-listing-file-modified-sort="1705922689752" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Predictive and Populational Model for Alzheimer's Disease Using Structural Neuroimaging" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Oct 2013</span>
+</td>
+<td>
+<a href="../talks/regular/2013-ifmb/index.html" class="title listing-title">Predictive and Populational Model for Alzheimer’s Disease Using Structural Neuroimaging</a>
+</td>
+<td>
+<span class="listing-venue">XIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="1195081200000" data-listing-file-modified-sort="1705923788181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree Problem" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">15 Nov 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-caepia/index.html" class="title listing-title">A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree Problem</a>
+</td>
+<td>
+<span class="listing-venue">Congreso de la Asociación Española para la Inteligencia Artificial 2007</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-date-sort="1190239200000" data-listing-file-modified-sort="1705950966434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Image Compression with Competitive Networks and Pre-fixed Prototypes" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">20 Sep 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-ifip/index.html" class="title listing-title">Image Compression with Competitive Networks and Pre-fixed Prototypes</a>
+</td>
+<td>
+<span class="listing-venue">4th IFIP International Conference on Artificial Intelligence Applications and Innovations (AIAI2007)</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-date-sort="1189461600000" data-listing-file-modified-sort="1705924350310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Stochastic Functional Annealing as Optimization Technique: Application to the Traveling Salesman Problem with Recurrent Networks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Sep 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-ki/index.html" class="title listing-title">Stochastic Functional Annealing as Optimization Technique: Application to the Traveling Salesman Problem with Recurrent Networks</a>
+</td>
+<td>
+<span class="listing-venue">30th Annual German Conference on AI, KI 2007</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-date-sort="1182290400000" data-listing-file-modified-sort="1705924147623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Two pages graph layout via recurrent multivalued neural networks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">20 Jun 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-iwann/index.html" class="title listing-title">Two pages graph layout via recurrent multivalued neural networks</a>
+</td>
+<td>
+<span class="listing-venue">9th International Work-Conference on Artificial Neural Networks (IWANN’2007)</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-date-sort="1176588000000" data-listing-file-modified-sort="1705923786145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Improved Production of Competitive Learning Rules with an Additional Term for Vector Quantization" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">15 Apr 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-icannga/index.html" class="title listing-title">Improved Production of Competitive Learning Rules with an Additional Term for Vector Quantization</a>
+</td>
+<td>
+<span class="listing-venue">8th International Conference on Adaptive and Natural Computing Algorithms</span>
+</td>
+</tr>
+<tr data-index="11" data-listing-date-sort="1173913200000" data-listing-file-modified-sort="1705923433486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">15 Mar 2007</span>
+</td>
+<td>
+<a href="../talks/regular/2007-maeb/index.html" class="title listing-title">Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut</a>
+</td>
+<td>
+<span class="listing-venue">Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2007</span>
+</td>
+</tr>
+<tr data-index="12" data-listing-date-sort="1157925600000" data-listing-file-modified-sort="1705924518460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Image Compression by Vector Quantization with Recurrent Discrete Networks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Sep 2006</span>
+</td>
+<td>
+<a href="../talks/regular/2006-icann/index.html" class="title listing-title">Image Compression by Vector Quantization with Recurrent Discrete Networks</a>
+</td>
+<td>
+<span class="listing-venue">International Conference on Artificial Neural Networks (ICANN 2006)</span>
+</td>
+</tr>
+<tr data-index="13" data-listing-date-sort="1132614000000" data-listing-file-modified-sort="1705951683554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">22 Nov 2005</span>
+</td>
+<td>
+<a href="../talks/regular/2005-caepia/index.html" class="title listing-title">Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks</a>
+</td>
+<td>
+<span class="listing-venue">Conference of the Spanish Association for Artificial Intelligence (CAEPIA 2005)</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-date-sort="1125093600000" data-listing-file-modified-sort="1705951729390" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hopfield Network as Associative Memory with Multiple Reference Points" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">27 Aug 2005</span>
+</td>
+<td>
+<a href="../talks/regular/2005-enformatika/index.html" class="title listing-title">Hopfield Network as Associative Memory with Multiple Reference Points</a>
+</td>
+<td>
+<span class="listing-venue">International Enformatika Conference, IEC’05</span>
+</td>
+</tr>
+<tr data-index="15" data-listing-date-sort="1118440800000" data-listing-file-modified-sort="1705951778759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Graph Partitioning via Recurrent Multivalued Neural Networks" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Jun 2005</span>
+</td>
+<td>
+<a href="../talks/regular/2005-iwann/index.html" class="title listing-title">Graph Partitioning via Recurrent Multivalued Neural Networks</a>
+</td>
+<td>
+<span class="listing-venue">International Work-Conference on Artificial Neural Networks (IWANN 2005)</span>
+</td>
+</tr>
+<tr data-index="16" data-listing-date-sort="1113170400000" data-listing-file-modified-sort="1705951819113" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Memoria auto-asociativa y clasificación con redes neuronales recurrentes" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">11 Apr 2005</span>
+</td>
+<td>
+<a href="../talks/regular/2005-maeb/index.html" class="title listing-title">Memoria auto-asociativa y clasificación con redes neuronales recurrentes</a>
+</td>
+<td>
+<span class="listing-venue">Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2005</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-date-sort="1100041200000" data-listing-file-modified-sort="1705951625872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Multivalued Neural Network for Graph Maxcut Problem" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">10 Nov 2004</span>
+</td>
+<td>
+<a href="../talks/regular/2004-iccmse/index.html" class="title listing-title">Multivalued Neural Network for Graph Maxcut Problem</a>
+</td>
+<td>
+<span class="listing-venue">International Congress of Computational Methods in Science and Engineering 2004</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+
+</body></html>

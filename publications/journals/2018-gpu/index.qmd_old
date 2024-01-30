@@ -1,0 +1,96 @@
+---
+author:
+- J. Pérez
+- A. Rodríguez
+- J.F. Chico
+- Domingo López-Rodríguez
+- M. Ujaldón
+Status: Published
+date: '2018-12-01'
+slug: 2018-gpu
+title: 'Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark'
+categories: Neuroimage
+header_image: ~
+details: '<em>Sustainable Computing: Informatics and Systems</em> vol. 20, pp. 88
+  -- 101'
+doi: 10.1016/j.suscom.2018.01.001
+link: 2018-gpu/paper.pdf
+project: ~
+abstract: 'This paper performs a complete study on performance and energy efficiency
+  of biomedical codes when accelerated on GPUs (Graphics Processing Units). We have
+  selected a benchmark composed of three different building blocks which constitute
+  the pillars of four popular biomedical applications: Q-norm, for the quantile normalization
+  of gene expressions, reg f3d, for the registration of 3D images within the NiftyReg
+  library, bedpostx (from the FSL neuroimaging package) and a multi-tensor tractography
+  for the analysis of diffusion images. We try to identify (1) potential scenarios
+  where performance per watt can be optimal in large-scale biomedical applications,
+  and (2) the ideal GPU platform among a wide range of models, including low power
+  Tegras, popular GeForces and high-end Titans. Experimental results conclude that
+  data locality and arithmetic intensity represent the most rewarding ways on the
+  road to high performance bioinformatics when power is a major concern.'
+howtocite: '`r library(RefManageR); s <- ReadBib("cite.bib"); NoCite(s); capture.output(PrintBibliography(s,
+  .opts = list(bib.style = "alphabetic", style = "markdown")))`'
+bibtex: '`r source("../../../format_bibtex.R");format_bibtex("cite.bib")`'
+keywords: ''
+---
+# Abstract
+
+This paper performs a complete study on performance and energy efficiency of biomedical codes when accelerated on GPUs (Graphics Processing Units). We have selected a benchmark composed of three different building blocks which constitute the pillars of four popular biomedical applications: Q-norm, for the quantile normalization of gene expressions, reg f3d, for the registration of 3D images within the NiftyReg library, bedpostx (from the FSL neuroimaging package) and a multi-tensor tractography for the analysis of diffusion images. We try to identify (1) potential scenarios where performance per watt can be optimal in large-scale biomedical applications, and (2) the ideal GPU platform among a wide range of models, including low power Tegras, popular GeForces and high-end Titans. Experimental results conclude that data locality and arithmetic intensity represent the most rewarding ways on the road to high performance bioinformatics when power is a major concern.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'journals', '2018-gpu')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

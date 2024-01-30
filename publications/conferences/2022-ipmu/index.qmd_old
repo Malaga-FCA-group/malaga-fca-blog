@@ -1,0 +1,83 @@
+---
+author: Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez,
+  Angel Mora
+Status: Published
+date: '2022-07-13T00:00:00Z'
+slug: 2022-ipmu
+title: Computing the Mixed Concept Lattice
+categories: Formal concept analysis
+header_image: ~
+details: <em>International Conference on Information Processing and Management of
+  Uncertainty in Knowledge-Based Systems</em>
+doi: 10.1007/978-3-031-08971-8_8
+link: 2022-ipmu/PAPER.pdf
+project: 2019-flair
+abstract: |
+  The classical approach on Formal Concept Analysis (FCA) extracts knowledge from a binary table $K = (G, M, I)$ taking into account the existing relationships (given by the binary relation I) between objects G and attributes M. Thus, this classical setting accounts only for positive information. Particularly, FCA allows to define and compute the concept lattice $B(K)$ from this positive information. As an extension of this framework, some works consider not only this positive information, but also the negative information that is explicit when objects have no relation to specific attributes (denoted by $K$). These works, therefore, use the apposition of positive and negative information to compute the mixed concept lattice $B^{\#}(K)$. In this paper, we propose to establish the relationships between extents and intents of concepts in $B(K)$, $B(\overline{K})$ and $B^{\#}(K)$ and how to address an incremental algorithm to compute $B^{\#}(K)$ merging the knowledge on $B(K)$, $B(\overline{K})$ previously obtained with classical methods.
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: Formal concept analysis, Mixed attributes, Concept lattice
+---
+# Abstract
+
+The classical approach on Formal Concept Analysis (FCA) extracts knowledge from a binary table $K = (G, M, I)$ taking into account the existing relationships (given by the binary relation I) between objects G and attributes M. Thus, this classical setting accounts only for positive information. Particularly, FCA allows to define and compute the concept lattice $B(K)$ from this positive information. As an extension of this framework, some works consider not only this positive information, but also the negative information that is explicit when objects have no relation to specific attributes (denoted by $K$). These works, therefore, use the apposition of positive and negative information to compute the mixed concept lattice $B^{\#}(K)$. In this paper, we propose to establish the relationships between extents and intents of concepts in $B(K)$, $B(\overline{K})$ and $B^{\#}(K)$ and how to address an incremental algorithm to compute $B^{\#}(K)$ merging the knowledge on $B(K)$, $B(\overline{K})$ previously obtained with classical methods.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'conferences', '2022-ipmu')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

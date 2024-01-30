@@ -1,0 +1,16 @@
+---
+title: Publication of <em>Clustering and identification of core implications</em>
+author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
+date: '2021-07-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+---
+
+The work <u>Clustering and identification of core implications</u> has been published in <em>International Conference on Formal Concept Analysis (ICFCA) 2021</em>.
+
+<u>Abstract</u>:
+
+
+FCA exhaustively uses the notion of cluster by grouping attributes and objects and providing a solid algebraic structure to them through the concept lattice. Our proposal explores how we can cluster implications.  This work opens a research line to study the knowledge inside the clusters computed from the Duquenne-Guigues basis. Some alternative measures to induce the clusters are analysed, taking into account the information that directly appears in the appearance  and the semantics of the implications.  This work also allows us to show the fcaR package,   which has the main methods of FCA and the Simplification Logic.  The paper ends with a motivation of the potential applications of performing clustering on the implications.
+

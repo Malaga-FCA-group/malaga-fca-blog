@@ -1,0 +1,17 @@
+---
+title: 'Publication of <em>Stochastic functional annealing as optimization technique:
+  Application to the traveling salesman problem with recurrent networks</em>'
+author: Domingo López-Rodríguez, E. Mérida-Casermeiro, G. Galán-Marín, J.M. Ortiz-de-Lazcano-Lobato
+date: '2007-01-01'
+categories:
+- Neural networks
+- Combinatorial optimization
+---
+
+The work <u>Stochastic functional annealing as optimization technique: Application to the traveling salesman problem with recurrent networks</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4667 LNAI), <em>pp. 397-411</em></em>.
+
+<u>Abstract</u>:
+
+
+In this work, a new stochastic method for optimization problems is developed. Its theoretical bases guaranteeing the convergence of the method to a minimum of the objective function are presented, by using quite general hypotheses. Its application to recurrent discrete neural networks is also developed, focusing in the multivalued MREM model, a generalization of Hopfield's. In order to test the efficiency of this new method, we study the well-known Traveling Salesman Problem. Experimental results will show that this new model outperforms other techniques, achieving better results, even on average, than other methods. © Springer-Verlag Berlin Heidelberg 2007.
+

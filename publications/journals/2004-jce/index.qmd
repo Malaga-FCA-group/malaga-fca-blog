@@ -1,0 +1,95 @@
+---
+author:
+- Domingo López-Rodríguez
+- Carlos Criado
+Status: Published
+date: '2004-11-01T00:00:00Z'
+slug: 2004-jce
+title: A Pedagogical Simulation of Maxwell's Demon
+categories: E-learning
+header_image: ~
+details: <em>Journal of Chemical Education</em>, 81(11), pp. 1679
+doi: 10.1021/ed081p1679.2
+link: 2004-jce/paper.pdf
+project: ~
+keywords: Computer-based learning, Statistical mechanics
+---
+
+# Abstract
+
+This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'journals', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

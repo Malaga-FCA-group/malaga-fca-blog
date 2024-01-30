@@ -1,0 +1,95 @@
+---
+author: G. Galán-Marín, E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-De-Lazcano-Lobato
+Status: Published
+date: '2007-01-01'
+slug: 2007-icannga
+title: A Study into the Improvement of Binary Hopfield Networks for Map Coloring
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4432 LNCS), PART 2, <em>pp.
+  98-106</em>
+doi: 10.1007/978-3-540-71629-7_12
+link: 2007-icannga/paper.pdf
+project: ''
+abstract: The map-coloring problem is a well known combinatorial optimization problem
+  which frequently appears in mathematics, graph theory and artificial intelligence.
+  This paper presents a study into the performance of some binary Hopfield networks
+  with discrete dynamics for this classic problem. A number of instances have been
+  simulated to demonstrate that only the proposed binary model provides optimal solutions.
+  In addition, for large-scale maps an algorithm is presented to improve the local
+  minima of the network by solving gradually growing submaps of the considered map.
+  Simulation results for several n-region 4-color maps showed that the proposed neural
+  algorithm converged to a correct colouring from at least 90% of initial states without
+  the fine-tuning of parameters required in another Hopfield models. © Springer-Verlag
+  Berlin Heidelberg 2007.
+howtocite: |
+  `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+bibtex: |
+  `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+keywords: Coloring, Graph theory, Large scale systems, Optimization, Problem solving,
+  Classic problems, Large-scale maps, Map coloring, Hopfield neural networks
+---
+# Abstract
+
+The map-coloring problem is a well known combinatorial optimization problem which frequently appears in mathematics, graph theory and artificial intelligence. This paper presents a study into the performance of some binary Hopfield networks with discrete dynamics for this classic problem. A number of instances have been simulated to demonstrate that only the proposed binary model provides optimal solutions. In addition, for large-scale maps an algorithm is presented to improve the local minima of the network by solving gradually growing submaps of the considered map. Simulation results for several n-region 4-color maps showed that the proposed neural algorithm converged to a correct colouring from at least 90% of initial states without the fine-tuning of parameters required in another Hopfield models. © Springer-Verlag Berlin Heidelberg 2007.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'conferences', '2007-icannga')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

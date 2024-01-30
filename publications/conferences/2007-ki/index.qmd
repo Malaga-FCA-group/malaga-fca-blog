@@ -1,0 +1,99 @@
+---
+author: Domingo López-Rodríguez, E. Mérida-Casermeiro, G. Galán-Marín, J.M. Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2007-01-01'
+slug: 2007-ki
+title: 'Stochastic functional annealing as optimization technique: Application to
+  the traveling salesman problem with recurrent networks'
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4667 LNAI), <em>pp. 397-411</em>
+doi: 10.1007/978-3-540-74565-5_30
+link: 2007-ki/paper.pdf
+project: ''
+keywords: Computational efficiency, Convergence of numerical methods, Finite difference
+  method, Hopfield neural networks, Traveling salesman problem, Discrete neural networks,
+  Stochastic functional annealing, Stochastic methods, Stochastic models
+---
+
+# Abstract
+
+In this work, a new stochastic method for optimization problems is developed. Its theoretical bases guaranteeing the convergence of the method to a minimum of the objective function are presented, by using quite general hypotheses. Its application to recurrent discrete neural networks is also developed, focusing in the multivalued MREM model, a generalization of Hopfield's. In order to test the efficiency of this new method, we study the well-known Traveling Salesman Problem. Experimental results will show that this new model outperforms other techniques, achieving better results, even on average, than other methods. © Springer-Verlag Berlin Heidelberg 2007.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

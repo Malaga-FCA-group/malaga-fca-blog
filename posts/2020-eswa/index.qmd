@@ -1,0 +1,19 @@
+---
+title: Publication of <em>A conversational recommender system for diagnosis using
+  fuzzy rules</em>
+author:
+- Pablo Cordero
+- Manuel Enciso
+- Domingo López-Rodríguez
+- Ángel Mora
+date: '2020-09-01'
+categories: Formal concept analysis
+---
+
+The work <u>A conversational recommender system for diagnosis using fuzzy rules</u> has been published in <em><em>Expert Systems with Applications</em>, volume 154, 2020</em>.
+
+<u>Abstract</u>:
+
+
+Graded implications in the framework of Fuzzy Formal Concept Analysis are used as the knowledge guiding the recommendations. An automated engine based on fuzzy Simplification Logic is proposed to make the suggestions to the users. Conversational recommender systems have proven to be a good approach in telemedicine, building a dialogue between the user and the recommender based on user preferences provided at each step of the conversation. Here, we propose a conversational recommender system for medical diagnosis using fuzzy logic. Specifically, fuzzy implications in the framework of Formal Concept Analysis are used to store the knowledge about symptoms and diseases and Fuzzy Simplification Logic is selected as an appropriate engine to guide the conversation to a final diagnosis. The recommender system has been used to provide differential diagnosis between schizophrenia and schizoaffective and bipolar disorders. In addition, we have enriched the conversational strategy with two strategies (namely critiquing and elicitation mechanism) for a better understanding of the knowledge-driven conversation, allowing user’s feedback in each step of the conversation and improving the performance of the method.
+

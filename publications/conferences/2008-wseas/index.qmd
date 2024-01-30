@@ -1,0 +1,96 @@
+---
+author: Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2008-09-01'
+slug: 2008-wseas
+title: A generalization of the Hopfield model for the graph isomorphism problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>Computing and Computational Techniques in Sciences</em> 2008
+doi: ''
+link: 2008-wseas/paper.pdf
+project: ~
+keywords: Graph isomorphism, Neural networks, Kinematic chains, Optimization, Computational
+  dynamics, Multivalued models
+---
+
+# Abstract
+
+Isomorphism identification between graphs is an important NP-complete problem with many science and engineering applications. Although excellent progresses have been made towards special graphs, no known polynomial-time algorithm for graph isomorphism has been found for general graphs. In this paper a generalization of the Hopfield neural network for isomorphism identification between general graphs is proposed. Simulation results show that this model is much superior to recently presented neural networks for this problem. The effectiveness of the resultant network does not seem to be decreased as the size of the graph is increased. This allows us to solve graph isomorphism problems with a big number of vertices, while many recently presented approaches only present results for graphs with up to 15 vertices.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

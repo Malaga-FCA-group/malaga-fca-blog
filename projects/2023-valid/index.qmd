@@ -1,0 +1,58 @@
+---
+title: 'VALID: Verifiable Algebraic and Logic tools for Imperfect Data'
+author: 
+- Manuel Ojeda-Aciego
+- Domingo López-Rodríguez
+date: '2023-09-01'
+slug: 2023-valid
+selected: true
+categories: 
+  - Formal Concept Analysis
+  - Fuzzy Logic
+  - Uncertainty
+  - Imprecise information
+tags: []
+image: "featured.png"
+link: "http://www.matap.uma.es/profesor/aciego/valid-web/"
+end_date: '2026-08-31'
+---
+
+# Abstract
+
+Uncertainty, imprecision, inconsistency, or incompleteness are common factors to all sources of information found in practice; consequently, learning to deal with imperfect information is a prerequisite for the development of society. Proper use of imperfect information is essential not only in disciplines considered technical but also in the humanities. Our long-term vision is that both representation and management of imperfect information must have a solid formal foundation, and this naturally leads to the need of developing tools based on mathematics and logic. The expected progress of this project is the advancement of knowledge, providing formal foundations for certain specific areas selected for their current interest, according to an analysis of the recent literature on imperfect information.
+
+The essential prerequisite for intelligently handling imperfect information is a good formal framework for representing and reasoning about it. A number of formal approaches for representing imperfect information, and several logics for reasoning about it, have been developed based on probability, possibility, plausibility measures, belief functions, fuzzy or rough set theory, or any combination of them. The main focus of this proposal is determined by our long-term vision. Certainly, in order to reach this long-term goal, the strategy should be established on a step-by-step basis. This project necessarily builds upon our previous research projects Fuzzy and Algebraic Computational Techniques for Society (FACTS) and Fuzzy, Logic and Algebraic tools for Information Resources (FLAIR), and inherits their general structure: from the mathematical foundations to the more logic-based approach.
+
+This proposal has been designed upon the state-of-the-art on algebraic, logic, and fuzzy tools for the management of imperfect information, together with several discussions with researchers on related disciplines which led to a transversal vision of the approach needed to attempt this study. This analysis, which justifies the coherence of this proposal, led to the following conclusions:
+
+1. Many real-world problems are difficult to formalize by using classical methods, and a more general formal framework is needed in which approximate reasoning and/or incomplete information comes into play.
+2. Further efforts need to be put on foundational research about imperfect information so that different approaches could be unified in terms of the abstraction of particular details and extracting the basic mechanism of execution.
+3. This foundational research has to be necessarily done on a step-by-step basis. We will focus on specific topics in which our research team has proven proficiency, and we propose a scheme in which we will work in parallel in several lines: from the fundamental study of generalizations of FCA and its underlying categorial semantics to applications of the F-transform, and from fuzzy modal symbolic learning to the analysis of indexes of inclusion and contradiction in the multi-adjoint paradigm.
+
+# Members
+**Principal Investigators**: Manuel Ojeda-Aciego (PI1); Domingo López-Rodríguez (PI2)
+
+**Investigators**: Carlos Bejines; Nicolás Madrid; Emilio Muñoz-Velasco
+
+**Collaborators**: Bernard De Baets; Ondrej Krídlo; Manuel Ojeda-Hernández; Irina Perfilieva; Marek Reformat; Guido Sciavicco
+
+# How to acknowledge
+
+*Insert your name here* acknowledge partial support by the project
+VALID (PID2022-140630NB-I00 funded by MCIN/ AEI/10.13039/501100011033).
+
+# Published works
+
+```{r papers}
+#| results: asis
+#| warning: false
+#| message: false
+#| echo: false
+source(here::here(
+  "scripts", 
+  "find_papers.R"))
+
+find_papers() |> 
+  stringr::str_flatten("<br/>") |> 
+  cat()
+```

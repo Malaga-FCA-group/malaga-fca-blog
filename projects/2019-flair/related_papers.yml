@@ -1,0 +1,385 @@
+- author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+  Status: Published
+  date: '2019-07-01'
+  slug: 2019-cmmse
+  title: Recommendations in CDSS using Fuzzy Formal Concept Analysis
+  categories:
+  - Formal concept analysis
+  - Fuzzy logic
+  header_image: ~
+  details: International Conference on Computational and Mathematical Methods in Science
+    and Engineering (CMMSE) 2019
+  doi: ''
+  link: 2019-cmmse/2019-cmmse.pdf
+  project: 2019-flair
+  abstract: One of the hot topics in  clinical research is  hidden knowledge discovery  in
+    datasets with a high number of features (variables or attributes). We approach
+    how to provide recommendations in Clinical Decision Support Systems (CDSS) to
+    guide the experts in the diagnostic process. The dataset used for this work is
+    an openly sharing neuroimaging data from 1100 subjects with 162 graded attributes,
+    that is, features with a degree of certainty. The knowledge retrieved from the
+    dataset is shaped like graded implications which will be manipulated using  some
+    automated methods based on logic. These methods guide the experts in the diagnostic
+    process  establishing a recommendation. In this paper, we work under the Fuzzy
+    Formal Concept Analysis (FCA) framework. The first result is the mining of the
+    graded implications from the dataset using the NEXTCLOSURE for Graded Attributes.
+    The problem of reasoning with these graded implications is approached with  the
+    so-called  Fuzzy Attribute Simplification Logic. This logic leads to some automatic
+    reasoning methods for implications in data with grades. As the number of graded
+    implications mined from the fuzzy formal context is huge and with a high degree
+    of redundancy, the objective is to obtain a equivalent set without redundancy,
+    by applying the rules of our logic.  Finally, we approach the medical diagnosis
+    problem in datasets with graded attributes using FASL to obtain a CDSS system,
+    being able to offer the expert a recommendation about the diagnosis process.  We
+    propose to use SLFD attribute closure algorithm as the engine for the recommendation
+    system based on features (symptoms, phenotypes, signs) of the items (diseases)
+    in the dataset.
+  cite: no
+  keywords: ''
+  rel_path: /../..//publications/conferences/2019-cmmse
+- author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+  Status: Published
+  date: '2021-07-20'
+  slug: 2021-cmmse
+  title: Topic Modelling in Social Networks with Formal Concept Analysis
+  categories:
+  - Formal concept analysis
+  - Text mining
+  header_image: cmmse21.png
+  details: International Conference on Computational and Mathematical Methods in Science
+    and Engineering (CMMSE) 2021
+  doi: ''
+  link: 2021-cmmse/paper.pdf
+  project: 2019-flair
+  abstract: 'In the age of social networks, the amount of the written material published
+    every day exceeds our processing capacity. Topic models can help to organise and
+    to understand extensive collections of unstructured text documents. In machine
+    learning and natural language processing, a topic model is a statistical model
+    for discovering the abstract ''topics'' in a collection of documents, uncovering
+    hidden semantic structures and clusters of similar words. Topic modelling formalises
+    this idea mathematically in a framework that allows discovering the topics and
+    each document''s balance of topics. One of the first topic models was latent semantic
+    indexing. Later, the probabilistic latent semantic analysis (PLSA) was presented,
+    serving as a basis for many others. Notably, its extension latent Dirichlet allocation
+    (LDA) is one of the most common topic model currently in use. To approach topic
+    modelling in social networks, we use Formal Concept Analysis, a mathematical tool
+    firmly based on lattice theory and logic. Our approach uses the knowledge contained
+    in the concept lattice to extract the topics. Thus, this approach to topic modelling
+    is not statistical. For example, we do not need to assume a prior distribution
+    of terms. Instead, the actual data structure is used to infer the semantic relationships
+    between attributes. The procedure is as follows: a formal context is built from
+    the document-term matrix of the set of documents. Then, we use FCA tools to construct
+    the concept lattice that contains, in each concept, knowledge about the topics
+    in the documents. Once this lattice is built, the concepts are clustered. Concept
+    clusters are then used to induce topic models on the original documents. An experiment
+    with a dataset with tweets about some hashtags is conducted with our approach
+    to show how Formal Concept Analysis can be used in Social Network Analysis. In
+    addition, a comparison with classical techniques is being addressed.'
+  cite: no
+  keywords: ''
+  rel_path: /../..//publications/conferences/2021-cmmse
+- author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
+  Status: Published
+  date: '2021-07-01'
+  slug: 2021-icfca
+  title: Clustering and identification of core implications
+  categories:
+  - Formal concept analysis
+  - Fuzzy logic
+  header_image: ICFCA2021.png
+  details: International Conference on Formal Concept Analysis (ICFCA) 2021
+  doi: 10.1007/978-3-030-77867-5_9
+  link: 2021-icfca/paper.pdf
+  project: 2019-flair
+  abstract: FCA exhaustively uses the notion of cluster by grouping attributes and
+    objects and providing a solid algebraic structure to them through the concept
+    lattice. Our proposal explores how we can cluster implications.  This work opens
+    a research line to study the knowledge inside the clusters computed from the Duquenne-Guigues
+    basis. Some alternative measures to induce the clusters are analysed, taking into
+    account the information that directly appears in the appearance  and the semantics
+    of the implications.  This work also allows us to show the fcaR package,   which
+    has the main methods of FCA and the Simplification Logic.  The paper ends with
+    a motivation of the potential applications of performing clustering on the implications.
+  howtocite: |
+    `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+  bibtex: |
+    `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+  keywords: ''
+  rel_path: /../..//publications/conferences/2021-icfca
+- author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
+  Status: Published
+  date: '2021-06-29'
+  slug: 2021-realdatafca
+  title: How to provide light to COVID data by means of FCA
+  categories: Formal concept analysis
+  header_image: ICFCA2021.png
+  details: RealDataFCA Workshop, jointly with International Conference on Formal Concept
+    Analysis (ICFCA) 2021
+  doi: ''
+  link: 2021-realdatafca/paper.pdf
+  project: 2019-flair
+  abstract: 'COVID data are usually presented in a non-structured format and mainly
+    focused on healthy issues (incidence, mortality, etc). At the same time, Governments
+    have designed a set of measures to deal with the Pandemic. In addition, several
+    institutions have studied the economical effects of the situation in each country.
+    In this work, we combine these three data sources and  illustrate how Formal Concept
+    Analysis can become a useful tool to discover relationships among these three
+    views of the situation: health, politics and economy. Our aim is to provide an
+    implication-driven approach to discover knowledge behind the data.'
+  keywords: ''
+  rel_path: /../..//publications/conferences/2021-realdatafca
+- author: Domingo López-Rodríguez, Ángel Mora, Manuel Ojeda-Hernández
+  Status: Published
+  date: '2022-06-21T00:00:00Z'
+  slug: 2022-cla
+  title: Revisiting Algorithms for Fuzzy Concept Lattices
+  categories: Formal concept analysis
+  header_image: ~
+  details: the <em>16th International Conference on Concept Lattices and Applications
+    2022</em>
+  doi: ''
+  link: 2022-cla/paper.pdf
+  project: 2019-flair
+  abstract: A central notion in Formal Concept Analysis is the concept lattice. This
+    lattice allows describing a hierarchical biclustering between objects and attributes
+    of a formal context, whose hierarchy is defined by an order that expresses the
+    specialisation-generalisation relationship between concepts. It is a fundamental
+    way of representing the knowledge implicit in the context. Therefore, in practice,
+    due to its theoretical complexity, it is necessary to define computationally efficient
+    algorithms for its calculation. In the literature, several algorithms, using different
+    approaches, have been proposed for the computation of the lattice in the classical
+    framework, where the presence of an attribute in an object is modelled as a binary
+    value, indicating that the attribute is either present or absent. However, it
+    is possible to extend this framework to take into account the different degrees
+    to which an attribute could be present in an object. Through this extension, it
+    is possible to model fuzzy situations where the attribute is not 100% present
+    in an object, giving flexibility to the model. In this paper, we review some of
+    the best known algorithms for the calculation of the concept lattice in the binary
+    version, and we extend them for the calculation of the fuzzy concept lattice,
+    presenting the most significant differences with respect to the original binary
+    versions. In addition, we will present examples of the execution of these new
+    versions of the algorithms.
+  howtocite: |
+    `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+  bibtex: |
+    `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+  keywords: Formal concept analysis, Concept lattice, Algorithms
+  rel_path: /../..//publications/conferences/2022-cla
+- author: Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
+  Status: Published
+  date: '2022-07-04T00:00:00Z'
+  slug: 2022-cmmse
+  title: Mining Fuzzy Concept Lattices
+  categories: Formal concept analysis
+  header_image: ~
+  details: the <em>22nd International Conference on Computational and Mathematical
+    Methods in Science and Engineering 2022</em>
+  doi: ''
+  link: 2022-cmmse/paper.pdf
+  project: 2019-flair
+  abstract: One of the ways to represent the implicit knowledge in a binary dataset
+    under the paradigm of Formal Concept Analysis is the concept lattice. This lattice
+    allows describing a hierarchical biclustering between objects and attributes of
+    a formal context. Concepts are the fixed points of a Galois connection, describing
+    a closure system. In practice, the computation of such lattice presents a high
+    complexity, the number of concepts can be exponential in the size of the input
+    context. Therefore, there is interest in developing new algorithms that take advantage
+    of the lattice structure to efficiently compute the concept set. Thus, many algorithms
+    have been proposed to compute the concept lattice in this binary setting in the
+    last years. To avoid the complete enumeration of subsets to check which of them
+    are closed, some pruning strategies have been proposed. For example, the NextClosure
+    algorithm defines a lectic order in which to explore closed sets. Other strategies
+    are based on a recursive tree search accompanied by canonicity tests that allow
+    a more efficient exploration. Those based on the CbO strategy, such as FastCbO
+    (FCbO), or InClose stand out. It is possible to extend this framework to take
+    into account the different degrees to which an attribute could be present in an
+    object. Through this extension, it is possible to model fuzzy situations where
+    the attribute is not 100% present in an object, giving flexibility to the model.
+    In this paper, we extend the previous algorithms for the calculation of the fuzzy
+    concept lattice. We show how the InClose family of algorithms can be extended
+    from the binary setting to the fuzzy one, detailing the differences and how new
+    canonicity tests can be employed in order to reduce the computational cost of
+    determining the set of concepts. We show that these new algorithms can compete
+    with the state of the art in terms of execution time and in number of operations
+    performed. These algorithms may open a new research line in which optimised algorithms
+    can be deduced and built ad hoc for the computation of the fuzzy concept lattice.
+  cite: no
+  keywords: Formal concept analysis, Concept lattice, Algorithms
+  rel_path: /../..//publications/conferences/2022-cmmse
+- author: Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+  Status: Published
+  date: '2022-06-22T00:00:00Z'
+  slug: 2022-etafca
+  title: fcaR, Spreading FCA to the Data Science World
+  categories:
+  - R package
+  - Formal concept analysis
+  header_image: ~
+  details: <em>Workshop on Existing Tools and Applications for Formal Context Analysis
+    2022</em>
+  doi: ''
+  link: 2022-etafca/paper.pdf
+  project: 2019-flair
+  abstract: Formal concept analysis (FCA) has become a mature tool for extracting
+    helpful knowledge for real problems based on solid mathematical foundations rooted
+    in logic and lattice theory. However, in areas such as machine learning, big data,
+    artificial intelligence, database, etc. remains a stranger. The R language is
+    one of the main languages used in data science, and this work describes an R package
+    called fcaR that implements FCA’s core notions and techniques. One of the main
+    goals is to spread FCA to the rest of the world. The main facilities of the tool
+    are shown with a running example.
+  howtocite: |
+    `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+  bibtex: |
+    `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+  keywords: R
+  rel_path: /../..//publications/conferences/2022-etafca
+- author: Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez,
+    Angel Mora
+  Status: Published
+  date: '2022-07-13T00:00:00Z'
+  slug: 2022-ipmu
+  title: Computing the Mixed Concept Lattice
+  categories: Formal concept analysis
+  header_image: ~
+  details: <em>International Conference on Information Processing and Management of
+    Uncertainty in Knowledge-Based Systems</em>
+  doi: 10.1007/978-3-031-08971-8_8
+  link: 2022-ipmu/PAPER.pdf
+  project: 2019-flair
+  abstract: |
+    The classical approach on Formal Concept Analysis (FCA) extracts knowledge from a binary table $K = (G, M, I)$ taking into account the existing relationships (given by the binary relation I) between objects G and attributes M. Thus, this classical setting accounts only for positive information. Particularly, FCA allows to define and compute the concept lattice $B(K)$ from this positive information. As an extension of this framework, some works consider not only this positive information, but also the negative information that is explicit when objects have no relation to specific attributes (denoted by $K$). These works, therefore, use the apposition of positive and negative information to compute the mixed concept lattice $B^{\#}(K)$. In this paper, we propose to establish the relationships between extents and intents of concepts in $B(K)$, $B(\overline{K})$ and $B^{\#}(K)$ and how to address an incremental algorithm to compute $B^{\#}(K)$ merging the knowledge on $B(K)$, $B(\overline{K})$ previously obtained with classical methods.
+  howtocite: |
+    `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+  bibtex: |
+    `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+  keywords: Formal concept analysis, Mixed attributes, Concept lattice
+  rel_path: /../..//publications/conferences/2022-ipmu
+- author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+  Status: Published
+  date: '2020-09-01'
+  slug: 2020-eswa
+  title: A conversational recommender system for diagnosis using fuzzy rules
+  categories: Formal concept analysis
+  header_image: eswa2020.png
+  details: <em>Expert Systems with Applications</em>, volume 154, 2020
+  doi: 10.1016/j.eswa.2020.113449
+  link: 2020-eswa/paper.pdf
+  project: 2019-flair
+  abstract: Graded implications in the framework of Fuzzy Formal Concept Analysis
+    are used as the knowledge guiding the recommendations. An automated engine based
+    on fuzzy Simplification Logic is proposed to make the suggestions to the users.
+    Conversational recommender systems have proven to be a good approach in telemedicine,
+    building a dialogue between the user and the recommender based on user preferences
+    provided at each step of the conversation. Here, we propose a conversational recommender
+    system for medical diagnosis using fuzzy logic. Specifically, fuzzy implications
+    in the framework of Formal Concept Analysis are used to store the knowledge about
+    symptoms and diseases and Fuzzy Simplification Logic is selected as an appropriate
+    engine to guide the conversation to a final diagnosis. The recommender system
+    has been used to provide differential diagnosis between schizophrenia and schizoaffective
+    and bipolar disorders. In addition, we have enriched the conversational strategy
+    with two strategies (namely critiquing and elicitation mechanism) for a better
+    understanding of the knowledge-driven conversation, allowing user’s feedback in
+    each step of the conversation and improving the performance of the method.
+  howtocite: |
+    `r library(RefManageR); s <- ReadBib('cite.bib'); NoCite(s);  capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))`
+  bibtex: |
+    `r source('../../../format_bibtex.R');format_bibtex('cite.bib')`
+  keywords: ''
+  rel_path: /../..//publications/journals/2020-eswa
+- author: Manuel Ojeda‐Hernández, Francisco Pérez‐Gámez, Domingo López-Rodríguez,
+    Nicolás Madrid, Ángel Mora
+  Status: Published
+  date: '2022-08-09T00:00:00Z'
+  slug: 2022-ijcis
+  title: 'Minimal Generators from Positive and Negative Attributes: Analysing the
+    Knowledge Space of a Mathematics Course'
+  categories:
+  - Formal concept analysis
+  - Fuzzy logic
+  - E-learning
+  header_image: ~
+  details: <em>International Journal of Computational Intelligence Systems</em>, 15:58
+  doi: 10.1007/s44196-022-00123-3
+  link: 2022-ijcis/paper.pdf
+  project: 2019-flair
+  abstract: Formal concept analysis is a data analysis framework based on lattice
+    theory. In this paper, we analyse the use, inside this framework, of positive
+    and negative (mixed) attributes of a dataset, which has proved to represent more
+    information on the use of just positive attributes. From a theoretical point of
+    view, in this paper we show the structure and the relationships between minimal
+    generators of  the simple and mixed concept lattices. From a practical point of
+    view, the obtained theoretical results allow us to ensure a greater granularity
+    in the retrieved information. Furthermore, due to the relationship between FCA
+    and Knowledge Space theory, on a practical level, we analyse the marks of a Mathematics
+    course to establish the knowledge structure of the course and determine the key
+    items providing new relevant information that is not evident without the use of
+    the proposed tools.
+  howtocite: '`r library(RefManageR); s <- ReadBib("cite.bib"); NoCite(s); capture.output(PrintBibliography(s,
+    .opts = list(bib.style = "alphabetic", style = "markdown")))`'
+  bibtex: '`r source("../../../format_bibtex.R");format_bibtex("cite.bib")`'
+  keywords: Formal concept analysis, Logic, Minimal generators, Mathematics education,
+    Negation
+  rel_path: /../..//publications/journals/2022-ijcis
+- author: Francisco Pérez-Gámez, Domingo López-Rodríguez, Pablo Cordero, Ángel Mora,
+    Manuel Ojeda-Aciego
+  Status: Published
+  date: '2022-02-16T00:00:00Z'
+  slug: 2022-mdpimathematics
+  title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based
+    Approach'
+  categories:
+  - Formal concept analysis
+  - Fuzzy logic
+  header_image: ~
+  details: <em>Mathematics, 10</em>(4) 607
+  doi: 10.3390/math10040607
+  link: 2022-mdpimathematics/PAPER.pdf
+  project: 2019-flair
+  abstract: Concepts and implications are two facets of the knowledge contained within
+    a binary relation between objects and attributes. Simplification logic (SL) has
+    proved to be valuable for the study of attribute implications in a concept lattice,
+    a topic of interest in the more general framework of formal concept analysis (FCA).
+    Specifically, SL has become the kernel of automated methods to remove redundancy
+    or obtain different types of bases of implications. Although originally FCA used
+    only the positive information contained in the dataset, negative information (explicitly
+    stating that an attribute does not hold) has been proposed by several authors,
+    but without an adequate set of equivalence-preserving rules for simplification.
+    In this work, we propose a mixed simplification logic and a method to automatically
+    remove redundancy in implications, which will serve as a foundational standpoint
+    for the automated reasoning methods for this extended framework.
+  howtocite: '`r library(RefManageR); s <- ReadBib("cite.bib"); NoCite(s); capture.output(PrintBibliography(s,
+    .opts = list(bib.style = "alphabetic", style = "markdown")))`'
+  bibtex: '`r source("../../../format_bibtex.R");format_bibtex("cite.bib")`'
+  keywords: Mixed attributes, Simplification Logic, Removal of redundancy
+  rel_path: /../..//publications/journals/2022-mdpimathematics
+- author: Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+  Status: Published
+  date: '2022-09-01T00:00:00Z'
+  slug: 2022-rjournal
+  title: fcaR, Formal Concept Analysis with R
+  categories:
+  - Formal concept analysis
+  - R package
+  header_image: ~
+  details: <em>The R Journal</em>
+  doi: 10.32614/RJ-2022-014
+  link: 2022-rjournal/paper.pdf
+  project: 2019-flair
+  abstract: Formal concept analysis (FCA) is a solid mathematical framework to manage
+    information based on logic and lattice theory. It defines two explicit representations
+    of the knowledge present in a dataset as concepts and implications. This paper
+    describes an R package called fcaR that implements FCA's core notions and techniques.
+    Additionally, it implements the extension of FCA to fuzzy datasets and a simplification
+    logic to develop automated reasoning tools. This package is the first to implement
+    FCA techniques in R. Therefore, emphasis has been put on defining classes and
+    methods that could be reusable and extensible by the community. Furthermore, the
+    package incorporates an interface with the arules package, probably the most used
+    package regarding association rules, closely related to FCA. Finally, we show
+    an application of the use of the package to design a recommender system based
+    on logic for diagnosis in neurological pathologies.
+  howtocite: '`r library(RefManageR); s <- ReadBib("cite.bib"); NoCite(s); capture.output(PrintBibliography(s,
+    .opts = list(bib.style = "alphabetic", style = "markdown")))`'
+  bibtex: '`r source("../../../format_bibtex.R");format_bibtex("cite.bib")`'
+  keywords: Formal concept analysis, R package
+  rel_path: /../..//publications/journals/2022-rjournal

@@ -1,0 +1,18 @@
+---
+title: Publication of <em>A Neighborhood-Based Competitive Network for Video Segmentation
+  and Object Detection</em>
+author: R.M. Luque Baena, E. Dominguez, Domingo López-Rodríguez, E.J. Palomo
+date: '2008-01-01'
+categories:
+- Competitive learning
+- Image processing
+- Neural networks
+---
+
+The work <u>A Neighborhood-Based Competitive Network for Video Segmentation and Object Detection</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (5163), PART 1, <em>pp. 877&ndash;886</em></em>.
+
+<u>Abstract</u>:
+
+
+This work proposes an unsupervised competitive neural network based on adaptive neighborhoods for video segmentation and object detection. The designed neural network is proposed to form a background model based on subtraction approach. The synaptic weights and the adaptive neighborhood of the neurons serve as a model of the background and are updated to reflect the statistics of the background. The segmentation performance of the proposed neural network is examined and compared to mixture of Gaussian models. The proposed algorithm is parallelized on a pixel level and designed to enable efficient hardware implementation to achieve real-time processing at great frame rates. © Springer-Verlag Berlin Heidelberg 2008.
+

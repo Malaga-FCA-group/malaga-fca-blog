@@ -1,0 +1,15 @@
+---
+title: Publication of <em>Development of a virtual learning community for the subject
+  Numerical Methods under Moodle</em>
+author: Ángel Mora, Enrique Mérida-Casermeiro, Domingo López-Rodríguez
+date: '2006-07-01'
+categories: E-learning
+---
+
+The work <u>Development of a virtual learning community for the subject Numerical Methods under Moodle</u> has been published in <em><em>Current Developments in Technology-Assisted Education</em> 2006</em>.
+
+<u>Abstract</u>:
+
+
+MetNum is a meeting point for the students of the subject “Numerical Methods” of the Engineering School of Informatics in the University of Málaga since 2003-2004. The former platform, existent in the University of Málaga, was firstly used, and results were improved quickly. The basic tools we worked with in MetNum were distribution lists and forums, as a means to encourage and guide students’ daily work. Since the year 2004-2005, MetNum has been developed under Moodle. The new tools provided by this platform have been exhaustively applied. We would like to emphasize the ability of Moodle to directly make a preview of LaTeX code, which is usually used to present mathematical material.
+

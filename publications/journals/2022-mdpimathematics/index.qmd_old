@@ -1,0 +1,99 @@
+---
+author:
+- Francisco Pérez-Gámez
+- Domingo López-Rodríguez
+- Pablo Cordero
+- Ángel Mora
+- Manuel Ojeda-Aciego
+Status: Published
+date: '2022-02-16T00:00:00Z'
+slug: 2022-mdpimathematics
+selected: true
+title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based
+  Approach'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+header_image: ~
+details: <em>Mathematics, 10</em>(4) 607
+doi: 10.3390/math10040607
+link: 2022-mdpimathematics/PAPER.pdf
+project: 2019-flair
+abstract: Concepts and implications are two facets of the knowledge contained within
+  a binary relation between objects and attributes. Simplification logic (SL) has
+  proved to be valuable for the study of attribute implications in a concept lattice,
+  a topic of interest in the more general framework of formal concept analysis (FCA).
+  Specifically, SL has become the kernel of automated methods to remove redundancy
+  or obtain different types of bases of implications. Although originally FCA used
+  only the positive information contained in the dataset, negative information (explicitly
+  stating that an attribute does not hold) has been proposed by several authors, but
+  without an adequate set of equivalence-preserving rules for simplification. In this
+  work, we propose a mixed simplification logic and a method to automatically remove
+  redundancy in implications, which will serve as a foundational standpoint for the
+  automated reasoning methods for this extended framework.
+howtocite: '`r library(RefManageR); s <- ReadBib("cite.bib"); NoCite(s); capture.output(PrintBibliography(s,
+  .opts = list(bib.style = "alphabetic", style = "markdown")))`'
+bibtex: '`r source("../../../format_bibtex.R");format_bibtex("cite.bib")`'
+keywords: Mixed attributes, Simplification Logic, Removal of redundancy
+---
+# Abstract
+
+Concepts and implications are two facets of the knowledge contained within a binary relation between objects and attributes. Simplification logic (SL) has proved to be valuable for the study of attribute implications in a concept lattice, a topic of interest in the more general framework of formal concept analysis (FCA). Specifically, SL has become the kernel of automated methods to remove redundancy or obtain different types of bases of implications. Although originally FCA used only the positive information contained in the dataset, negative information (explicitly stating that an attribute does not hold) has been proposed by several authors, but without an adequate set of equivalence-preserving rules for simplification. In this work, we propose a mixed simplification logic and a method to automatically remove redundancy in implications, which will serve as a foundational standpoint for the automated reasoning methods for this extended framework.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1, results='asis', echo = FALSE}
+this_folder <- here::here('publications', 'journals', '2022-mdpimathematics')
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+<!-- If you, like me, use $\LaTeX$, the following BibTeX entry will be helpful: -->
+  
+```{r citation2, warning=FALSE,  results='asis', echo = FALSE}
+source(here::here('format_bibtex.R'))
+cat(format_bibtex(file.path(this_folder, 'cite.bib')))
+```
+
+:::

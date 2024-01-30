@@ -1,0 +1,19 @@
+---
+title: Publication of <em>Probabilistic PCA self-organizing maps</em>
+author:
+- Ezequiel López-Rubio
+- Juan Miguel Ortiz-de-Lazcano-Lobato
+- Domingo López-Rodríguez
+date: '2009-08-19'
+categories:
+- Neural networks
+- Principal component analysis
+---
+
+The work <u>Probabilistic PCA self-organizing maps</u> has been published in <em><em>IEEE Transactions on Neural Networks</em> vol 20 (9), 1474-1489</em>.
+
+<u>Abstract</u>:
+
+
+In this paper, we present a probabilistic neural model, which extends Kohonen's self-organizing map (SOM) by performing a probabilistic principal component analysis (PPCA) at each neuron. Several SOMs have been proposed in the literature to capture the local principal subspaces, but our approach offers a probabilistic model while it has a low complexity on the dimensionality of the input space. This allows to process very high-dimensional data to obtain reliable estimations of the probability densities which are based on the PPCA framework. Experimental results are presented, which show the map formation capabilities of the proposal with high-dimensional data, and its potential in image and video compression applications.
+

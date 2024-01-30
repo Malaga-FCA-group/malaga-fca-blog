@@ -1,0 +1,77 @@
+---
+author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+Status: Published
+date: '2021-07-20'
+slug: 2021-cmmse
+title: Topic Modelling in Social Networks with Formal Concept Analysis
+categories:
+- Formal concept analysis
+- Text mining
+header_image: cmmse21.png
+details: International Conference on Computational and Mathematical Methods in Science
+  and Engineering (CMMSE) 2021
+doi: ''
+link: 2021-cmmse/paper.pdf
+project: 2019-flair
+cite: no
+keywords: ''
+---
+
+
+# Abstract
+
+In the age of social networks, the amount of the written material published
+  every day exceeds our processing capacity. Topic models can help to organise and
+  to understand extensive collections of unstructured text documents. In machine learning
+  and natural language processing, a topic model is a statistical model for discovering
+  the abstract ''topics'' in a collection of documents, uncovering hidden semantic
+  structures and clusters of similar words. Topic modelling formalises this idea mathematically
+  in a framework that allows discovering the topics and each document''s balance of
+  topics. One of the first topic models was latent semantic indexing. Later, the probabilistic
+  latent semantic analysis (PLSA) was presented, serving as a basis for many others.
+  Notably, its extension latent Dirichlet allocation (LDA) is one of the most common
+  topic model currently in use. To approach topic modelling in social networks, we
+  use Formal Concept Analysis, a mathematical tool firmly based on lattice theory
+  and logic. Our approach uses the knowledge contained in the concept lattice to extract
+  the topics. Thus, this approach to topic modelling is not statistical. For example,
+  we do not need to assume a prior distribution of terms. Instead, the actual data
+  structure is used to infer the semantic relationships between attributes. The procedure
+  is as follows: a formal context is built from the document-term matrix of the set
+  of documents. Then, we use FCA tools to construct the concept lattice that contains,
+  in each concept, knowledge about the topics in the documents. Once this lattice
+  is built, the concepts are clustered. Concept clusters are then used to induce topic
+  models on the original documents. An experiment with a dataset with tweets about
+  some hashtags is conducted with our approach to show how Formal Concept Analysis
+  can be used in Social Network Analysis. In addition, a comparison with classical
+  techniques is being addressed.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+

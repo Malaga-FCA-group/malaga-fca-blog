@@ -1,0 +1,15 @@
+---
+title: "Recent news"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, author, description]
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+

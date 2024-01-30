@@ -1,0 +1,53 @@
+---
+pagetitle: "Publications"
+listing:
+  - id: "journals"
+    contents: journals
+    template: pubs-journals.ejs
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 999
+  - id: "conferences"
+    contents: conferences
+    template: pubs-conferences.ejs
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 999
+  - id: "books"
+    contents: books
+    template: pubs-books.ejs
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: [date, title, author, details]
+    date-format: "YYYY"
+    page-size: 999
+sidebar: true
+page-layout: full
+title-block-banner: true
+language:
+  listing-page-field-categories: "Categories"
+---
+
+<!-- You can download a BibTeX file with all my citable publications <a href="all_refs.bib" download>here</a>. -->
+
+## Journals
+
+:::{#journals}
+:::
+
+## Conference papers
+
+:::{#conferences}
+:::
+
+## Books and book sections
+
+:::{#books}
+:::

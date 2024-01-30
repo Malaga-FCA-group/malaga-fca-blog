@@ -1,0 +1,20 @@
+---
+title: Publication of <em>Lexicon-based sentiment analysis in texts using Formal Concept
+  Analysis</em>
+author:
+- Manuel Ojeda-Hernández
+- Domingo López-Rodríguez
+- Ángel Mora
+date: '2023-02-03T00:00:00Z'
+categories:
+- Formal concept analysis
+- Text mining
+---
+
+The work <u>Lexicon-based sentiment analysis in texts using Formal Concept Analysis</u> has been published in <em><em>International Journal of Approximate Reasoning</em>, vol. 155, pp 104-112</em>.
+
+<u>Abstract</u>:
+
+
+In this paper, we present a novel approach for sentiment analysis that uses Formal Concept Analysis (FCA) to create dictionaries for classification. Unlike other methods that rely on pre-defined lexicons, our approach allows for the creation of customised dictionaries that are tailored to the specific data and tasks. By using a dataset of tweets categorised into positive and negative polarity, we show that our approach achieves a better performance than other standard dictionaries.
+

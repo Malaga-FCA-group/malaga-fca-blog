@@ -1,0 +1,20 @@
+---
+title: 'Publication of <em>Energy-aware acceleration on GPUs: Findings on a bioinformatics
+  benchmark</em>'
+author:
+- J. Pérez
+- A. Rodríguez
+- J.F. Chico
+- Domingo López-Rodríguez
+- M. Ujaldón
+date: '2018-12-01'
+categories: Neuroimage
+---
+
+The work <u>Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark</u> has been published in <em><em>Sustainable Computing: Informatics and Systems</em> vol. 20, pp. 88 -- 101</em>.
+
+<u>Abstract</u>:
+
+
+This paper performs a complete study on performance and energy efficiency of biomedical codes when accelerated on GPUs (Graphics Processing Units). We have selected a benchmark composed of three different building blocks which constitute the pillars of four popular biomedical applications: Q-norm, for the quantile normalization of gene expressions, reg f3d, for the registration of 3D images within the NiftyReg library, bedpostx (from the FSL neuroimaging package) and a multi-tensor tractography for the analysis of diffusion images. We try to identify (1) potential scenarios where performance per watt can be optimal in large-scale biomedical applications, and (2) the ideal GPU platform among a wide range of models, including low power Tegras, popular GeForces and high-end Titans. Experimental results conclude that data locality and arithmetic intensity represent the most rewarding ways on the road to high performance bioinformatics when power is a major concern.
+
