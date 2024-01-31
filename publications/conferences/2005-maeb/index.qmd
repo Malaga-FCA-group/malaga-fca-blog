@@ -16,81 +16,31 @@ project: ~
 keywords: Combinatorial optimization, Neural networks, Travelling salesman problem
 ---
 
+
+
 # Abstract
+
 
 El objetivo de este trabajo es presentar una nueva técnica de optimización discreta que permite reducir el número de mínimos locales en la función de energía de la red, consiguiendo así mejorar sensiblemente la calidad de las soluciones obtenidas. Debido a su generalidad, esta técnica puede ser aplicada a la mayoría de las redes neuronales discretas. Proponemos sus bases teóricas, así como mostramos su aplicación en el ámbito de las redes neuronales recurrentes, para ello utilizamos como banco de pruebas el problema del viajante de comercio por ser el problema de optimización combinatoria más conocido y el más comúnmente empleado como test para medir la eficacia de las técnicas algorítmicas aplicadas a este tipo de problemas. Hemos comparado esta técnica con métodos de probada eficacia, consiguiendo mejorar la calidad media de las soluciones de forma notable, logrando en la mayor parte de las simulaciones realizadas soluciones muy cercanas al óptimo global del problema.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-lopez2005aplicacion></a>[[LM05]](#cite-lopez2005aplicacion) D. López-Rodríguez and E. Mérida-Casermeiro. “Aplicación neuronal del enfriamiento funcional discreto al problema del viajante”. In: _IV Congreso Español sobre Meraheurísticas, Algoritmos Evolutivos y Bioinspirados_. CEDI. 2005, pp. 307-314.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{lopez2005aplicacion,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Aplicación neuronal del enfriamiento funcional discreto al problema del viajante},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={López-Rodríguez, Domingo and Mérida-Casermeiro, Enrique},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={IV Congreso Español sobre Meraheurísticas, Algoritmos Evolutivos y Bioinspirados},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={307--314},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={CEDI}<br>}
 
 :::
+
+

@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,6 +77,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <script src="../../../site_libs/plotly-binding-4.10.2/plotly.js"></script>
 <script src="../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
@@ -117,6 +148,22 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -139,8 +186,8 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../members/index.qmd"> 
-<span class="menu-text">Persons</span></a>
+    <a class="nav-link" href="../../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../publications/index.html"> 
@@ -181,6 +228,7 @@ function showPopup() {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
   <li><a href="#cites" id="toc-cites" class="nav-link" data-scroll-target="#cites">Cites</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
@@ -260,20 +308,76 @@ function showPopup() {
 <h1>Abstract</h1>
 <p>This paper seeks to identify the most unfavourable areas of a city in terms of high temperatures and the absence of green infrastructure. An automatic methodology based on remote sensing and data analysis has been developed and applied in sixteen Spanish cities with different characteristics. Landsat-8 satellite images were selected for each city from the July-August period of 2019 and 2020 to calculate the spatial variation of land surface temperature (LST). The Normalized Difference Vegetation Index (NDVI) was used to determine the abundance of vegetation across the city. Based on the NDVI and LST maps created, a k-means unsupervised classification clustering was performed to automatically identify the different clusters according to how favourable these areas were in terms of temperature and presence of vegetation. A Disadvantaged Area Index (DAI), combining both variables, was developed to produce a map showing the most unfavourable areas for each city. Overall, the percentage of the area susceptible to improvement with more vegetation in the cities studied ranged from 13 % in Huesca to 64–65 % in Bilbao and Valencia. The influence of several factors, such as the presence of water bodies or large buildings, is discussed. Detecting unfavourable areas is a very interesting tool for defining future planning strategy for green spaces.</p>
 </section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Projects funding this work
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div id="listing-funding" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Data mining,Sustainability" data-listing-date-sort="1569448800000">
+<div class="thumbnail">
+<p><a href="../../../projects/2019-ursus-dm" class="no-external"></a></p><a href="../../../projects/2019-ursus-dm" class="no-external">
+<p><img src="../../../projects/2019-ursus-dm/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../../../projects/2019-ursus-dm" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="funding">
+<a href="../../../projects/2019-ursus-dm" class="no-external">URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en la sostenibilidad urbana</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../projects/2019-ursus-dm" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data mining'); return false;">
+Data mining
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Sustainability'); return false;">
+Sustainability
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../projects/2019-ursus-dm" class="no-external">
+<div class="listing-date">
+26 September 2019
+</div>
+<div class="listing-author">
+Domingo López-Rodríguez
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="cites" class="level1">
 <h1>Cites</h1>
 <p>The following graph plots the number of cites received by this work from its publication, on a yearly basis.</p>
-<div class="plotly html-widget html-fill-item" id="htmlwidget-9bd14bc16796756171a7" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-9bd14bc16796756171a7">{"x":{"data":[{"x":[2022,2023,2024],"y":[0,3,0],"text":["year: 2022<br />cites: 0","year: 2023<br />cites: 3","year: 2024<br />cites: 0"],"type":"scatter","mode":"lines+markers","line":{"width":4.1574803149606305,"color":"rgba(14,177,210,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","opacity":1,"size":7.559055118110237,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":31.415525114155255},"plot_bgcolor":"rgba(250,248,248,1)","paper_bgcolor":"rgba(250,248,248,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2021.9000000000001,2024.0999999999999],"tickmode":"array","ticktext":["2022","2023","2024"],"tickvals":[2022,2023,2024],"categoryorder":"array","categoryarray":["2022","2023","2024"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.15000000000000002,3.1499999999999999],"tickmode":"array","ticktext":["0","1","2","3"],"tickvals":[0,0.99999999999999989,2,3],"categoryorder":"array","categoryarray":["0","1","2","3"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"1868e6a9d45ed":{"x":{},"y":{},"type":"scatter"},"1868e7b5a0149":{"x":{},"y":{}}},"cur_data":"1868e6a9d45ed","visdat":{"1868e6a9d45ed":["function (y) ","x"],"1868e7b5a0149":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-1c73832d8512cdb2ae10" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-1c73832d8512cdb2ae10">{"x":{"data":[{"x":[2022,2023,2024],"y":[0,3,0],"text":["year: 2022<br />cites: 0","year: 2023<br />cites: 3","year: 2024<br />cites: 0"],"type":"scatter","mode":"lines+markers","line":{"width":4.1574803149606305,"color":"rgba(14,177,210,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","opacity":1,"size":7.559055118110237,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":31.415525114155255},"plot_bgcolor":"rgba(250,248,248,1)","paper_bgcolor":"rgba(250,248,248,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2021.9000000000001,2024.0999999999999],"tickmode":"array","ticktext":["2022","2023","2024"],"tickvals":[2022,2023,2024],"categoryorder":"array","categoryarray":["2022","2023","2024"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.15000000000000002,3.1499999999999999],"tickmode":"array","ticktext":["0","1","2","3"],"tickvals":[0,0.99999999999999989,2,3],"categoryorder":"array","categoryarray":["0","1","2","3"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"993540f77873":{"x":{},"y":{},"type":"scatter"},"99353704e757":{"x":{},"y":{}}},"cur_data":"993540f77873","visdat":{"993540f77873":["function (y) ","x"],"99353704e757":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </section>
 <section id="citation" class="level1">
 <h1>Citation</h1>
 <p>Please, cite this work as:</p>
-<div class="cell" data-shortcodes="true">
 <p><a name="bib-ufug2022"></a><a href="#cite-ufug2022">[Rod+22]</a> F. Rodríguez-Gómez, R. Fernández-Cañero, G. Pérez, et al.&nbsp;“Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities”. In: <em>Urban Forestry &amp; Urban Greening</em> 78 (2022), p.&nbsp;127783. ISSN: 1618-8667. DOI: <a href="https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ufug.2022.127783">https://doi.org/10.1016/j.ufug.2022.127783</a>. URL: <a href="https://www.sciencedirect.com/science/article/pii/S1618866722003260">https://www.sciencedirect.com/science/article/pii/S1618866722003260</a>.</p>
-</div>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -282,12 +386,13 @@ BibTeX
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="citation" data-cites="article">@article</span>{ufug2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Urban Forestry &amp; Urban Greening},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {78},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {127783},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {1618-8667},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.ufug.2022.127783},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S1618866722003260},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Francisco Rodríguez-Gómez and Rafael Fernández-Cañero and Gabriel Pérez and José {del Campo-Ávila} and Domingo López-Rodríguez and Luis Pérez-Urrestarazu},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Urban greening, Remote sensing, Heat island, Normalized difference vegetation index, Landsat-8}<br>}</p>
 </div>
 </div>
 </div>
+
 
 
 </section>

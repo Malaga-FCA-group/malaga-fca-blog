@@ -18,81 +18,31 @@ keywords: Gaussian noise (electronic), Mathematical models, Parameter estimation
   Local noise variance, Parzen window approach, Probability density function
 ---
 
+
+
 # Abstract
+
 
 Here we present a novel probability density estimation model. The classical Parzen window approach builds a spherical Gaussian density around every input sample. Our proposal selects a Gaussian specifically tuned for each sample, with an automated estimation of the local intrinsic dimensionality of the embedded manifold and the local noise variance. This leads to outperform other proposals where local parameter selection is not allowed, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2006.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-LopezRubio2006a></a>[[Lóp+06]](#cite-LopezRubio2006a) E. López-Rubio, J. Ortiz-De-Lazcano-Lobato, D. López-Rodríguez, et al. “Local selection of model parameters in probability density function estimation”. In: _Artificial Neural Networks - ICANN 2006, 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part II_. Ed. by S. D. Kollias, A. Stafylopatis, W. Duch and E. Oja. Vol. 4132 LNCS - II. Lecture Notes in Computer Science. cited By 0; Conference of 16th International Conference on Artificial Neural Networks, ICANN 2006 ; Conference Date: 10 September 2006 Through 14 September 2006; Conference Code:68317. Athens: Springer Verlag, 2006, pp. 292-301. DOI: [10.1007/11840930_30](https://doi.org/10.1007%2F11840930_30). URL: [https://doi.org/10.1007/11840930_30](https://doi.org/10.1007/11840930_30).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{LopezRubio2006a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {E. López-Rubio and J.M. Ortiz-De-Lazcano-Lobato and D. López-Rodríguez and E. Mérida-Casermeiro and M. {Del Carmen Vargas-González}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Artificial Neural Networks - {ICANN} 2006, 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part {II}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Local selection of model parameters in probability density function estimation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Athens},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Stefanos D. Kollias and Andreas Stafylopatis and Wlodzislaw Duch and Erkki Oja},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 0; Conference of 16th International Conference on Artificial Neural Networks, ICANN 2006 ; Conference Date: 10 September 2006 Through 14 September 2006; Conference Code:68317},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {292-301},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer Verlag},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4132 LNCS - II},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Here we present a novel probability density estimation model. The classical Parzen window approach builds a spherical Gaussian density around every input sample. Our proposal selects a Gaussian specifically tuned for each sample, with an automated estimation of the local intrinsic dimensionality of the embedded manifold and the local noise variance. This leads to outperform other proposals where local parameter selection is not allowed, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2006.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icann/Lopez-RubioOLCV06.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11840930_30},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Gaussian noise (electronic); Mathematical models; Parameter estimation; Signal noise measurement, Automated estimation; Local intrinsic dimensionality; Local noise variance; Parzen window approach, Probability density function},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11840930_30},<br>}
 
 :::
+
+

@@ -21,81 +21,43 @@ keywords: Formal Concept Analysis, Sentiment analysis, Polarity analysis, Text m
 ---
 
 
+
 # Abstract
+
 
 In this paper, we present a novel approach for sentiment analysis that uses Formal Concept Analysis (FCA) to create dictionaries for classification. Unlike other methods that rely on pre-defined lexicons, our approach allows for the creation of customised dictionaries that are tailored to the specific data and tasks. By using a dataset of tweets categorised into positive and negative polarity, we show that our approach achieves a better performance than other standard dictionaries.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'journals', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-ijar2023></a>[[OLM23]](#cite-ijar2023) M. Ojeda-Hernández, D. López-Rodríguez, and Á. Mora. “Lexicon-based sentiment analysis in texts using Formal Concept Analysis”. In: _International Journal of Approximate Reasoning_ 155 (2023), pp. 104-112. ISSN: 0888-613X. DOI: [https://doi.org/10.1016/j.ijar.2023.02.001](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijar.2023.02.001). URL: [https://www.sciencedirect.com/science/article/pii/S0888613X23000130](https://www.sciencedirect.com/science/article/pii/S0888613X23000130).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@article{ijar2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {Lexicon-based sentiment analysis in texts using Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {International Journal of Approximate Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {155},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {104-112},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {0888-613X},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.ijar.2023.02.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S0888613X23000130},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Manuel Ojeda-Hernández and Domingo López-Rodríguez and Ángel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Formal Concept Analysis, Sentiment analysis, Polarity analysis, Text mining, Lexicon}<br>}
 
 :::
+
+

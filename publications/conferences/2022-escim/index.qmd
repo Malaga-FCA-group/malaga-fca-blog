@@ -14,9 +14,17 @@ details: <em>14th European Symposium on Computational Intelligence and Mathemati
 link: 2022-escim/PAPER.pdf
 project: 2019-flair
 keywords: Formal concept analysis, Mixed attributes, Concept lattice
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
 
+
+
 # Abstract
+
 
 Intelligent malware detection is a problem that is generating growing interest in the industry due to the increase in the diversity of threats and attacks suffered by small users to large organisations or governments, in many cases compromising sensitive information and without ruling out possible economic consequences.
 
@@ -30,77 +38,32 @@ On the other hand, the use of FCA itself enables the discovery of logical rules 
 
 In this sense, our proposal differs from previous ones in that it does not use statistical criteria, but rather an exhaustive analysis and mathematical modelling of the knowledge contained in malware databases, so that the models obtained are based on logical and algebraic tools and offer a greater degree of interpretability and explainability than previous proposals.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-escim2022></a>[[Bon+22]](#cite-escim2022) A. M. Bonilla, D. López-Rodríguez, M. Enciso, et al. “Knowledge Discovery in Malware Datasets using Formal Concept Analysis”. In: _Book of Abstracts, 14th European Symposium on Computational Intelligence and Mathematics, ESCIM 2022, Naples, Italy, October 2-5, 2022_. Ed. by L. T. Kóczy, J. Medina, R. G. Aragón, F. Chacón-Gómez, J. Kacprzyk, M. E. Cornejo-Piñero, D. Lobo, F. J. Ocaña-Alcázar and E. Ramírez-Poussa. 2022, pp. 6-7. URL: [http://escim2022.uca.es/wp-content/uploads/BoA_ESCIM2022_final.pdf](http://escim2022.uca.es/wp-content/uploads/BoA_ESCIM2022_final.pdf).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{escim2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Angel Mora Bonilla and Domingo López-Rodríguez and Manuel Enciso and Pablo Cordero},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {László T. Kóczy and Jesús Medina and Roberto G. Aragón and Fernando Chacón-Gómez and Janusz Kacprzyk and M. Eugenia Cornejo-Piñero and David Lobo and Francisco J. Ocaña-Alcázar and Eloísa Ramírez-Poussa},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Knowledge Discovery in Malware Datasets using Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Book of Abstracts, 14th European Symposium on Computational Intelligence and Mathematics, {ESCIM} 2022, Naples, Italy, October 2-5, 2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {6--7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {http://escim2022.uca.es/wp-content/uploads/BoA_ESCIM2022_final.pdf}<br>}
 
 :::
+
+

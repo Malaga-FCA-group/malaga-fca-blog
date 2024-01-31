@@ -214,5 +214,93 @@
       "/publications/books/2009-mrem/index.html",
       "/publications/books/2008-advancingai/index.html"
     ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/pcordero/index.html",
+      "/people/staff/dominlopez/index.html",
+      "/people/staff/amora/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/journals/2022-ijcis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-icfca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-cla/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-etafca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2020-e-learning/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-ijcis/index2.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020-eswa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-mdpimathematics/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/books/2021-complexfca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023-insci/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-ufug/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-rjournal/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-ipmu/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-realdatafca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-escim/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2019-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-e-learning/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2023-iccs/index.html",
+    "items": []
   }
 ]

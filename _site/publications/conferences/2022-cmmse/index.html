@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
@@ -104,6 +135,22 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -126,8 +173,8 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../members/index.qmd"> 
-<span class="menu-text">Persons</span></a>
+    <a class="nav-link" href="../../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../publications/index.html"> 
@@ -168,6 +215,7 @@ function showPopup() {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
   </ul>
 </nav>
     </div>
@@ -233,6 +281,71 @@ function showPopup() {
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
 <p>One of the ways to represent the implicit knowledge in a binary dataset under the paradigm of Formal Concept Analysis is the concept lattice. This lattice allows describing a hierarchical biclustering between objects and attributes of a formal context. Concepts are the fixed points of a Galois connection, describing a closure system. In practice, the computation of such lattice presents a high complexity, the number of concepts can be exponential in the size of the input context. Therefore, there is interest in developing new algorithms that take advantage of the lattice structure to efficiently compute the concept set. Thus, many algorithms have been proposed to compute the concept lattice in this binary setting in the last years. To avoid the complete enumeration of subsets to check which of them are closed, some pruning strategies have been proposed. For example, the NextClosure algorithm defines a lectic order in which to explore closed sets. Other strategies are based on a recursive tree search accompanied by canonicity tests that allow a more efficient exploration. Those based on the CbO strategy, such as FastCbO (FCbO), or InClose stand out. It is possible to extend this framework to take into account the different degrees to which an attribute could be present in an object. Through this extension, it is possible to model fuzzy situations where the attribute is not 100% present in an object, giving flexibility to the model. In this paper, we extend the previous algorithms for the calculation of the fuzzy concept lattice. We show how the InClose family of algorithms can be extended from the binary setting to the fuzzy one, detailing the differences and how new canonicity tests can be employed in order to reduce the computational cost of determining the set of concepts. We show that these new algorithms can compete with the state of the art in terms of execution time and in number of operations performed. These algorithms may open a new research line in which optimised algorithms can be deduced and built ad hoc for the computation of the fuzzy concept lattice.</p>
+</section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Projects funding this work
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div id="listing-funding" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Formal Concept Analysis,Fuzzy Logic,Uncertainty,Imprecise information" data-listing-date-sort="1569448800000">
+<div class="thumbnail">
+<p><a href="../../../projects/2019-flair" class="no-external"></a></p><a href="../../../projects/2019-flair" class="no-external">
+<p><img src="../../../projects/2019-flair/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../../../projects/2019-flair" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="funding">
+<a href="../../../projects/2019-flair" class="no-external">FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../projects/2019-flair" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal Concept Analysis'); return false;">
+Formal Concept Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy Logic'); return false;">
+Fuzzy Logic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Uncertainty'); return false;">
+Uncertainty
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Imprecise information'); return false;">
+Imprecise information
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../projects/2019-flair" class="no-external">
+<div class="listing-date">
+26 September 2019
+</div>
+<div class="listing-author">
+Manuel Ojeda Aciego, Nicolás Madrid Labrador
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+
 
 
 </section>

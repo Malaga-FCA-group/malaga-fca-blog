@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -173,8 +173,8 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../members/index.qmd"> 
-<span class="menu-text">Persons</span></a>
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
@@ -301,13 +301,18 @@ function showPopup() {
 <h1>Published works</h1>
 <div id="listing-published_works" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1664928000000">
+<div class="quarto-post image-right" data-index="0" data-categories="Formal concept analysis" data-listing-date-sort="1664928000000">
 <div class="body">
 <h3 class="no-anchor listing-title" data-anchor-id="published-works">
 <a href="../../publications/conferences/2022-escim" class="no-external">Knowledge Discovery in Malware Datasets using Formal Concept Analysis</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2022-escim" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2022-escim" class="no-external"><em>14th European Symposium on Computational Intelligence and Mathematics</em></a>
@@ -324,13 +329,21 @@ Angel Mora Bonilla, Domingo López-Rodríguez, Manuel Enciso, Pablo Cordero
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1661990400000">
+<div class="quarto-post image-right" data-index="1" data-categories="Formal concept analysis,R package" data-listing-date-sort="1661990400000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/journals/2022-rjournal" class="no-external">fcaR, Formal Concept Analysis with R</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/journals/2022-rjournal" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
+R package
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/journals/2022-rjournal" class="no-external"><em>The R Journal</em></a>
@@ -347,13 +360,24 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1660003200000">
+<div class="quarto-post image-right" data-index="2" data-categories="Formal concept analysis,Fuzzy logic,E-learning" data-listing-date-sort="1660003200000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/journals/2022-ijcis" class="no-external">Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/journals/2022-ijcis" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy logic'); return false;">
+Fuzzy logic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('E-learning'); return false;">
+E-learning
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/journals/2022-ijcis" class="no-external"><em>International Journal of Computational Intelligence Systems</em>, 15:58</a>
@@ -370,13 +394,18 @@ Manuel Ojeda‐Hernández, Francisco Pérez‐Gámez, Domingo López-Rodríguez,
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1657670400000">
+<div class="quarto-post image-right" data-index="3" data-categories="Formal concept analysis" data-listing-date-sort="1657670400000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2022-ipmu" class="no-external">Computing the Mixed Concept Lattice</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2022-ipmu" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2022-ipmu" class="no-external"><em>International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</em></a>
@@ -393,13 +422,18 @@ Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1656892800000">
+<div class="quarto-post image-right" data-index="4" data-categories="Formal concept analysis" data-listing-date-sort="1656892800000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2022-cmmse" class="no-external">Mining Fuzzy Concept Lattices</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2022-cmmse" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2022-cmmse" class="no-external">the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em></a>
@@ -416,13 +450,21 @@ Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1655856000000">
+<div class="quarto-post image-right" data-index="5" data-categories="R package,Formal concept analysis" data-listing-date-sort="1655856000000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2022-etafca" class="no-external">fcaR, Spreading FCA to the Data Science World</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2022-etafca" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R package'); return false;">
+R package
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2022-etafca" class="no-external"><em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em></a>
@@ -439,13 +481,18 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1655769600000">
+<div class="quarto-post image-right" data-index="6" data-categories="Formal concept analysis" data-listing-date-sort="1655769600000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2022-cla" class="no-external">Revisiting Algorithms for Fuzzy Concept Lattices</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2022-cla" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2022-cla" class="no-external">the <em>16th International Conference on Concept Lattices and Applications 2022</em></a>
@@ -462,13 +509,21 @@ Domingo López-Rodríguez, Ángel Mora, Manuel Ojeda-Hernández
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1644969600000">
+<div class="quarto-post image-right" data-index="7" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1644969600000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/journals/2022-mdpimathematics" class="no-external">Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/journals/2022-mdpimathematics" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy logic'); return false;">
+Fuzzy logic
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/journals/2022-mdpimathematics" class="no-external"><em>Mathematics, 10</em>(4) 607</a>
@@ -485,13 +540,21 @@ Francisco Pérez-Gámez, Domingo López-Rodríguez, Pablo Cordero, Ángel Mora, 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1638918000000">
+<div class="quarto-post image-right" data-index="8" data-categories="Formal concept analysis,Big data" data-listing-date-sort="1638918000000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/books/2021-complexfca" class="no-external">Formal methods in FCA and Big Data</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/books/2021-complexfca" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Big data'); return false;">
+Big data
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/books/2021-complexfca" class="no-external">Complex Data Analytics with Formal Concept Analysis, <em>pp.&nbsp;201 – 224</em></a>
@@ -508,13 +571,21 @@ Domingo López Rodríguez, Emilio Muñoz Velasco, Manuel Ojeda Aciego
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1626732000000">
+<div class="quarto-post image-right" data-index="9" data-categories="Formal concept analysis,Text mining" data-listing-date-sort="1626732000000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2021-cmmse" class="no-external">Topic Modelling in Social Networks with Formal Concept Analysis</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2021-cmmse" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Text mining'); return false;">
+Text mining
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2021-cmmse" class="no-external">International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021</a>
@@ -531,13 +602,21 @@ P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1625090400000">
+<div class="quarto-post image-right" data-index="10" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1625090400000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2021-icfca" class="no-external">Clustering and identification of core implications</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2021-icfca" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy logic'); return false;">
+Fuzzy logic
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2021-icfca" class="no-external">International Conference on Formal Concept Analysis (ICFCA) 2021</a>
@@ -554,13 +633,18 @@ Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1624917600000">
+<div class="quarto-post image-right" data-index="11" data-categories="Formal concept analysis" data-listing-date-sort="1624917600000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2021-realdatafca" class="no-external">How to provide light to COVID data by means of FCA</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2021-realdatafca" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2021-realdatafca" class="no-external">RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021</a>
@@ -577,13 +661,18 @@ Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1598911200000">
+<div class="quarto-post image-right" data-index="12" data-categories="Formal concept analysis" data-listing-date-sort="1598911200000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/journals/2020-eswa" class="no-external">A conversational recommender system for diagnosis using fuzzy rules</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/journals/2020-eswa" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/journals/2020-eswa" class="no-external"><em>Expert Systems with Applications</em>, volume 154, 2020</a>
@@ -600,13 +689,21 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1561932000000">
+<div class="quarto-post image-right" data-index="13" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1561932000000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/conferences/2019-cmmse" class="no-external">Recommendations in CDSS using Fuzzy Formal Concept Analysis</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2019-cmmse" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy logic'); return false;">
+Fuzzy logic
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2019-cmmse" class="no-external">International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019</a>

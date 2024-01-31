@@ -1,0 +1,28 @@
+---
+author: Ángel Mora Bonilla, Domingo López-Rodríguez, Enrique Mérida-Casermeiro
+Status: Published
+date: '2007-08-01T00:00:00Z'
+slug: 2007-blended
+title: 'HECACEJ: B-Learning Tool for Static Content Creation in Joomla!'
+categories: E-learning
+header_image: ~
+details: <em>Workshop on Blended Learning</em> 2007
+doi: ''
+link: 2007-blended/paper.pdf
+project: ~
+keywords: B-learning, LMS, CMS, Joomla!, Integration of tools
+---
+
+# Abstract
+
+
+In this work we have reviewed the concepts of Learning Managementystem (LMS), Learning Content Management System (LCMS) and Content Management System (CMS). Their main features are studied, and a comparison among them is presented, along with a summary of some well- known integrations between LMS and CMS. Another important point in this work is presenting HECACEJ, a B-learning tool designed to create static content in Joomla! This tool is a specific content manager for publishing the material for a subject, which does not need help from the administration menu of Joomla! (difficult to use by a non-expert professor) and is able to publish these contents in Joomla! main menu. This tool eases the publication of B- learning contents (class notes, past exams, professors' data, etc.) in a static web page that can be accessed from the main menu of the platform Joomla!, which provides facilities for manipulating the contents but it was not developed ad- hoc for our proposal.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

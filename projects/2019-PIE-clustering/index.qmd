@@ -1,21 +1,23 @@
 ---
-title: "Análisis e implementación de estrategias de enseñanza-aprendizaje en asignaturas de Matemáticas mediante detección de dependencias entre contenidos"
-author: "Domingo López-Rodríguez"
+title: Análisis e implementación de estrategias de enseñanza-aprendizaje en asignaturas
+  de Matemáticas mediante detección de dependencias entre contenidos
+author: Domingo López-Rodríguez
 date: '2019-10-01'
 slug: 2019-PIE-clustering
-selected: true
+selected: yes
 categories:
-  - Formal Concept Analysis
-  - Fuzzy Logic
-  - E-learning
-image: "featured.png"
+- Formal Concept Analysis
+- Fuzzy Logic
+- E-learning
+image: featured.png
 end_date: '2022-12-31'
 listing:
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
+- id: published_works
+  contents: published_works.yml
+  type: default
+  sort: date desc
 ---
+
 
 # Abstract
 

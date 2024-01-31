@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <script src="../../../site_libs/plotly-binding-4.10.2/plotly.js"></script>
 <script src="../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
@@ -150,8 +181,8 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../members/index.qmd"> 
-<span class="menu-text">Persons</span></a>
+    <a class="nav-link" href="../../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../publications/index.html"> 
@@ -192,6 +223,7 @@ function showPopup() {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
   <li><a href="#cites" id="toc-cites" class="nav-link" data-scroll-target="#cites">Cites</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
@@ -259,22 +291,83 @@ function showPopup() {
 
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
-<p>The classical approach on Formal Concept Analysis (FCA) extracts knowledge from a binary table <span class="math inline">K = (G, M, I)</span> taking into account the existing relationships (given by the binary relation I) between objects G and attributes M. Thus, this classical setting accounts only for positive information. Particularly, FCA allows to define and compute the concept lattice <span class="math inline">B(K)</span> from this positive information. As an extension of this framework, some works consider not only this positive information, but also the negative information that is explicit when objects have no relation to specific attributes (denoted by <span class="math inline">K</span>). These works, therefore, use the apposition of positive and negative information to compute the mixed concept lattice <span class="math inline">B^{\#}(K)</span>. In this paper, we propose to establish the relationships between extents and intents of concepts in <span class="math inline">B(K)</span>, <span class="math inline">B(\overline{K})</span> and <span class="math inline">B^{\#}(K)</span> and how to address an incremental algorithm to compute <span class="math inline">B^{\#}(K)</span> merging the knowledge on <span class="math inline">B(K)</span>, <span class="math inline">B(\overline{K})</span> previously obtained with classical methods.</p>
+</section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Projects funding this work
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div id="listing-funding" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Formal Concept Analysis,Fuzzy Logic,Uncertainty,Imprecise information" data-listing-date-sort="1569448800000">
+<div class="thumbnail">
+<p><a href="../../../projects/2019-flair" class="no-external"></a></p><a href="../../../projects/2019-flair" class="no-external">
+<p><img src="../../../projects/2019-flair/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../../../projects/2019-flair" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="funding">
+<a href="../../../projects/2019-flair" class="no-external">FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../projects/2019-flair" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal Concept Analysis'); return false;">
+Formal Concept Analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fuzzy Logic'); return false;">
+Fuzzy Logic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Uncertainty'); return false;">
+Uncertainty
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Imprecise information'); return false;">
+Imprecise information
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../projects/2019-flair" class="no-external">
+<div class="listing-date">
+26 September 2019
+</div>
+<div class="listing-author">
+Manuel Ojeda Aciego, Nicolás Madrid Labrador
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="cites" class="level1">
 <h1>Cites</h1>
 <p>The following graph plots the number of cites received by this work from its publication, on a yearly basis.</p>
-<div class="plotly html-widget html-fill-item" id="htmlwidget-a30fedfbe2ed53864d81" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-a30fedfbe2ed53864d81">{"x":{"data":[{"x":[2022,2023,2024],"y":[0,1,0],"text":["year: 2022<br />cites: 0","year: 2023<br />cites: 1","year: 2024<br />cites: 0"],"type":"scatter","mode":"lines+markers","line":{"width":4.1574803149606305,"color":"rgba(14,177,210,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","opacity":1,"size":7.559055118110237,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":48.949771689497723},"plot_bgcolor":"rgba(250,248,248,1)","paper_bgcolor":"rgba(250,248,248,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2021.9000000000001,2024.0999999999999],"tickmode":"array","ticktext":["2022","2023","2024"],"tickvals":[2022,2023,2024],"categoryorder":"array","categoryarray":["2022","2023","2024"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.050000000000000003,1.05],"tickmode":"array","ticktext":["0.00","0.25","0.50","0.75","1.00"],"tickvals":[0,0.25,0.5,0.75,1],"categoryorder":"array","categoryarray":["0.00","0.25","0.50","0.75","1.00"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"f277da8c5f2":{"x":{},"y":{},"type":"scatter"},"f27535bd351":{"x":{},"y":{}}},"cur_data":"f277da8c5f2","visdat":{"f277da8c5f2":["function (y) ","x"],"f27535bd351":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-eb2a0fd736d8b3b27631" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-eb2a0fd736d8b3b27631">{"x":{"data":[{"x":[2022,2023,2024],"y":[0,1,0],"text":["year: 2022<br />cites: 0","year: 2023<br />cites: 1","year: 2024<br />cites: 0"],"type":"scatter","mode":"lines+markers","line":{"width":4.1574803149606305,"color":"rgba(14,177,210,1)","dash":"solid"},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","opacity":1,"size":7.559055118110237,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":48.949771689497723},"plot_bgcolor":"rgba(250,248,248,1)","paper_bgcolor":"rgba(250,248,248,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2021.9000000000001,2024.0999999999999],"tickmode":"array","ticktext":["2022","2023","2024"],"tickvals":[2022,2023,2024],"categoryorder":"array","categoryarray":["2022","2023","2024"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.050000000000000003,1.05],"tickmode":"array","ticktext":["0.00","0.25","0.50","0.75","1.00"],"tickvals":[0,0.25,0.5,0.75,1],"categoryorder":"array","categoryarray":["0.00","0.25","0.50","0.75","1.00"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"9ec73366abd0":{"x":{},"y":{},"type":"scatter"},"9ec71999ff0d":{"x":{},"y":{}}},"cur_data":"9ec73366abd0","visdat":{"9ec73366abd0":["function (y) ","x"],"9ec71999ff0d":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </section>
 <section id="citation" class="level1">
 <h1>Citation</h1>
 <p>Please, cite this work as:</p>
-<div class="cell" data-shortcodes="true">
 <p><a name="bib-Mixed-IPMU"></a><a href="#cite-Mixed-IPMU">[Pér+22]</a> F. Pérez-Gámez, P. Cordero, M. Enciso, et al.&nbsp;“Computing the Mixed Concept Lattice”. In: <em>Information Processing and Management of Uncertainty in Knowledge-Based Systems - 19th International Conference, IPMU 2022, Milan, Italy, July 11-15, 2022, Proceedings, Part I</em>. Ed. by D. Ciucci, I. Couso, J. Medina, D. Slezak, D. Petturiti, B. Bouchon-Meunier and R. R. Yager. Vol. 1601. Communications in Computer and Information Science. Springer, 2022, pp.&nbsp;87-99. DOI: <a href="https://doi.org/10.1007%2F978-3-031-08971-8%5C_8">10.1007/978-3-031-08971-8_8</a>. URL: <a href="https://doi.org/10.1007/978-3-031-08971-8_8">https://doi.org/10.1007/978-3-031-08971-8_8</a>.</p>
-</div>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -283,12 +376,13 @@ BibTeX
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="citation" data-cites="inproceedings">@inproceedings</span>{Mixed-IPMU,<br>&nbsp;&nbsp;&nbsp;&nbsp; author = {Francisco Pérez{-}Gámez and<br>&nbsp;&nbsp;&nbsp;&nbsp; Pablo Cordero and<br>&nbsp;&nbsp;&nbsp;&nbsp; Manuel Enciso and<br>&nbsp;&nbsp;&nbsp;&nbsp; Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp; Angel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp; editor = {Davide Ciucci and<br>&nbsp;&nbsp;&nbsp;&nbsp; Inés Couso and<br>&nbsp;&nbsp;&nbsp;&nbsp; Jesús Medina and<br>&nbsp;&nbsp;&nbsp;&nbsp; Dominik Slezak and<br>&nbsp;&nbsp;&nbsp;&nbsp; Davide Petturiti and<br>&nbsp;&nbsp;&nbsp;&nbsp; Bernadette Bouchon{-}Meunier and<br>&nbsp;&nbsp;&nbsp;&nbsp; Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp; title = {Computing the Mixed Concept Lattice},<br>&nbsp;&nbsp;&nbsp;&nbsp; booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based<br>&nbsp;&nbsp;&nbsp;&nbsp; Systems - 19th International Conference, {IPMU} 2022, Milan, Italy,<br>&nbsp;&nbsp;&nbsp;&nbsp; July 11-15, 2022, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp; series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp; volume = {1601},<br>&nbsp;&nbsp;&nbsp;&nbsp; pages = {87–99},<br>&nbsp;&nbsp;&nbsp;&nbsp; publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp; year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp; url = {https://doi.org/10.1007/978-3-031-08971-8_8},<br>&nbsp;&nbsp;&nbsp;&nbsp; doi = {10.1007/978-3-031-08971-8_8},<br>&nbsp;&nbsp;&nbsp;&nbsp; timestamp = {Mon, 25 Jul 2022 08:39:18 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp; biburl = {https://dblp.org/rec/conf/ipmu/Perez-GamezCEL022.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp; bibsource = {dblp computer science bibliography, https://dblp.org}<br>}</p>
 </div>
 </div>
 </div>
+
 
 
 </section>

@@ -17,83 +17,46 @@ doi: 10.1007/978-3-030-93278-7_9
 link: 2021-complexfca/PAPER.pdf
 project: 2019-flair
 keywords: Context reduction, Simplification logic, Direct bases
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
+
 Formal Concept Analysis (FCA) plays an important role in knowledge representation and knowledge discovery, and has generated an increasingly growing research field. The use of FCA in the context of big data provides a basis for better interpretability and explainability of results, usually lacking in other statistical approaches to data analysis; however, scalability is an important issue for FCA logic-based tools and techniques, such as the generation and use of implicational systems. We survey the theoretical and technical foundations of some trends in FCA. Specifically, we present a summary of promising theoretical and practical applications of FCA that could be used to solve the problem of dealing with big data. Furthermore, we propose some directions for future research to solve this problem.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'books', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Lpez-Rodrguez2022></a>[[LMO22]](#cite-Lpez-Rodrguez2022) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Ed. by R. Missaoui, L. Kwuida and T. Abdessalem. Cham: Springer International Publishing, 2022, pp. 201-224. ISBN: 978-3-030-93278-7. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [https://doi.org/10.1007/978-3-030-93278-7_9](https://doi.org/10.1007/978-3-030-93278-7_9).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@Inbook{López-Rodríguez2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;author="López-Rodríguez, Domingo and Muñoz-Velasco, Emilio and Ojeda-Aciego, Manuel",<br>&nbsp;&nbsp;&nbsp;&nbsp;editor="Missaoui, Rokia and Kwuida, Léonard and Abdessalem, Talel",<br>&nbsp;&nbsp;&nbsp;&nbsp;title="Formal Methods in FCA and Big Data",<br>&nbsp;&nbsp;&nbsp;&nbsp;bookTitle="Complex Data Analytics with Formal Concept Analysis",<br>&nbsp;&nbsp;&nbsp;&nbsp;year="2022",<br>&nbsp;&nbsp;&nbsp;&nbsp;publisher="Springer International Publishing",<br>&nbsp;&nbsp;&nbsp;&nbsp;address="Cham",<br>&nbsp;&nbsp;&nbsp;&nbsp;pages="201--224",<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract="Formal Concept Analysis (FCA) plays an important role in knowledge representation and knowledge discovery, and has generated an increasingly growing research field. The use of FCA in the context of big data provides a basis for better interpretability and explainability of results, usually lacking in other statistical approaches to data analysis; however, scalability is an important issue for FCA logic-based tools and techniques, such as the generation and use of implicational systems. We survey the theoretical and technical foundations of some trends in FCA. Specifically, we present a summary of promising theoretical and practical applications of FCA that could be used to solve the problem of dealing with big data. Furthermore, we propose some directions for future research to solve this problem.",<br>&nbsp;&nbsp;&nbsp;&nbsp;isbn="978-3-030-93278-7",<br>&nbsp;&nbsp;&nbsp;&nbsp;doi="10.1007/978-3-030-93278-7_9",<br>&nbsp;&nbsp;&nbsp;&nbsp;url="https://doi.org/10.1007/978-3-030-93278-7_9"<br>}
 
 :::
+
+

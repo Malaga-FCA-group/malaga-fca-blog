@@ -13,83 +13,57 @@ doi: 10.1007/978-3-031-08971-8_8
 link: 2022-ipmu/PAPER.pdf
 project: 2019-flair
 keywords: Formal concept analysis, Mixed attributes, Concept lattice
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
-The classical approach on Formal Concept Analysis (FCA) extracts knowledge from a binary table $K = (G, M, I)$ taking into account the existing relationships (given by the binary relation I) between objects G and attributes M. Thus, this classical setting accounts only for positive information. Particularly, FCA allows to define and compute the concept lattice $B(K)$ from this positive information. As an extension of this framework, some works consider not only this positive information, but also the negative information that is explicit when objects have no relation to specific attributes (denoted by $K$). These works, therefore, use the apposition of positive and negative information to compute the mixed concept lattice $B^{\#}(K)$. In this paper, we propose to establish the relationships between extents and intents of concepts in $B(K)$, $B(\overline{K})$ and $B^{\#}(K)$ and how to address an incremental algorithm to compute $B^{\#}(K)$ merging the knowledge on $B(K)$, $B(\overline{K})$ previously obtained with classical methods.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Mixed-IPMU></a>[[Pér+22]](#cite-Mixed-IPMU) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Computing the Mixed Concept Lattice”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems - 19th International Conference, IPMU 2022, Milan, Italy, July 11-15, 2022, Proceedings, Part I_. Ed. by D. Ciucci, I. Couso, J. Medina, D. Slezak, D. Petturiti, B. Bouchon-Meunier and R. R. Yager. Vol. 1601. Communications in Computer and Information Science. Springer, 2022, pp. 87-99. DOI: [10.1007/978-3-031-08971-8\_8](https://doi.org/10.1007%2F978-3-031-08971-8%5C_8). URL: [https://doi.org/10.1007/978-3-031-08971-8\_8](https://doi.org/10.1007/978-3-031-08971-8\_8).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{Mixed-IPMU,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Francisco Pérez{-}Gámez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Pablo Cordero and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Manuel Enciso and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Angel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Davide Ciucci and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Inés Couso and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Jesús Medina and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Dominik Slezak and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Davide Petturiti and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Bernadette Bouchon{-}Meunier and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Computing the Mixed Concept Lattice},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based<br>&nbsp;&nbsp;&nbsp;&nbsp;               Systems - 19th International Conference, {IPMU} 2022, Milan, Italy,<br>&nbsp;&nbsp;&nbsp;&nbsp;               July 11-15, 2022, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series    = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {1601},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {87--99},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/978-3-031-08971-8\_8},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/978-3-031-08971-8\_8},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 25 Jul 2022 08:39:18 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/ipmu/Perez-GamezCEL022.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
 
 :::
+
+

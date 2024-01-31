@@ -14,81 +14,44 @@ project: ''
 keywords: ''
 ---
 
+
+
 # Abstract
+
 
 Hopfield model of associative memory is studied in this work. In particular, two main problems that it possesses: the apparition of spurious patterns in the learning phase, implying the well-known effect of storing the opposite pattern, and the problem of its reduced capacity, meaning that it is not possible to store a great amount of patterns without increasing the error probability in the retrieving phase. In this paper, a method to avoid spurious patterns is presented and studied, and an explanation of the previously mentioned effect is given. Another technique to increase the capacity of a network is proposed here, based on the idea of using several reference points when storing patterns. It is studied in depth, and an explicit formula for the capacity of the network with this technique is provided.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-LopezRodriguez2005></a>[[LCO05]](#cite-LopezRodriguez2005) D. López-Rodríguez, E. M. Casermeiro, and J. M. Ortiz-de-Lazcano-Lobato. “Hopfield Network as Associative Memory with Multiple Reference Points”. In: _International Enformatika Conference, IEC'05, August 26-28, 2005, Prague, Czech Republic, CDROM_. Ed. by C. Ardil. Enformatika, Çanakkale, Turkey, 2005, pp. 62-67.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{LopezRodriguez2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Domingo López-Rodríguez and Enrique Mérida Casermeiro and Juan Miguel Ortiz-de-Lazcano-Lobato},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {International Enformatika Conference, IEC'05, August 26-28, 2005, Prague, Czech Republic, {CDROM}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Hopfield Network as Associative Memory with Multiple Reference Points},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Cemal Ardil},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {62--67},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Enformatika, {\c{C}}anakkale, Turkey},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/wec/Lopez-RodriguezCO05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 13 Oct 2005 14:06:21 +0200},<br>}
 
 :::
+
+

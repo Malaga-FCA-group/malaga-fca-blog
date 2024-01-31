@@ -1,0 +1,34 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2007-01-01'
+slug: 2007-ifip
+title: Image Compression with Competitive Networks and Pre-fixed Prototypes
+categories:
+- Image processing
+- Competitive learning
+- Neural networks
+header_image: ~
+details: IFIP International Federation for Information Processing, (247), <em>pp.
+  339&ndash;346</em>
+doi: 10.1007/978-0-387-74161-1\_37
+link: 2007-ifip/paper.pdf
+project: ''
+keywords: Image compression, Image quality, Classical methods, Competitive network,
+  Competitive neural network, Compressed images, Computational time, Image compression
+  techniques, Peak signal to noise ratio, Artificial intelligence
+---
+
+# Abstract
+
+
+Image compression techniques have required much attention from the neural networks community for the last years. In this work we intend to develop a new algorithm to perform image compression based on adding some pre-fixed prototypes to those obtained by a competitive neural network. Prototypes are selected to get a better representation of the compressed image, improving the computational time needed to encode the image and decreasing the code-book storage necessities of the standard approach. This new method has been tested with some well-known images and results proved that our proposal outperforms classical methods in terms of maximizing peak-signal-to-noise-ratio values. © 2007 International Federation for Information Processing.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

@@ -1,0 +1,36 @@
+---
+author:
+- Domingo López-Rodríguez
+- E. Mérida-Casermeiro
+- J.M. Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2007-01-01'
+slug: 2007-wseastm
+title: Stochastic multivalued network for optimization. Application to the graph MaxCut
+  problem
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: WSEAS Transactions on Mathematics, (6), 3, <em>pp. 500-505</em>
+doi: ''
+link: 2007-wseastm/paper.pdf
+project: ''
+cite: yes
+keywords: Computational efficiency, Graph theory, Mathematical models, Optimization,
+  Stochastic models, Graph partition, Local minima, Stochastic dynamics, Neural networks
+---
+
+# Abstract
+
+
+The aim of this paper is to present the stochastic version of the multivalued neural model MREM, which has achieved very good results in many applications, as an optimization technique. The purpose of this stochastic version is to avoid certain local minima of the objective function minimized by the network, that is, the energy function. To this end, the description of the theoretical bases of this model, guaranteeing the convergence to minima, is carried out rigorously. In order to show the efficiency of this new model, the model, in its two versions, deterministic and stochastic, has been applied to the resolution of the well-known problem of graph partition, MaxCut. Computational experiments show that in most cases the stochastic model achieves better results than the deterministic one.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

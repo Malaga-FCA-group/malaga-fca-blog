@@ -1,0 +1,31 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2005-04-01'
+slug: 2005-maeb
+title: Aplicación neuronal del enfriamiento funcional discreto al problema del viajante
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: <em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados</em>
+  2005
+doi: ''
+link: 2005-maeb/paper.pdf
+project: ~
+keywords: Combinatorial optimization, Neural networks, Travelling salesman problem
+---
+
+# Abstract
+
+
+El objetivo de este trabajo es presentar una nueva técnica de optimización discreta que permite reducir el número de mínimos locales en la función de energía de la red, consiguiendo así mejorar sensiblemente la calidad de las soluciones obtenidas. Debido a su generalidad, esta técnica puede ser aplicada a la mayoría de las redes neuronales discretas. Proponemos sus bases teóricas, así como mostramos su aplicación en el ámbito de las redes neuronales recurrentes, para ello utilizamos como banco de pruebas el problema del viajante de comercio por ser el problema de optimización combinatoria más conocido y el más comúnmente empleado como test para medir la eficacia de las técnicas algorítmicas aplicadas a este tipo de problemas. Hemos comparado esta técnica con métodos de probada eficacia, consiguiendo mejorar la calidad media de las soluciones de forma notable, logrando en la mayor parte de las simulaciones realizadas soluciones muy cercanas al óptimo global del problema.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

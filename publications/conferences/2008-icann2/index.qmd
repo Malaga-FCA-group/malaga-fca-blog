@@ -19,81 +19,44 @@ keywords: Data sets, Gaussian density, Input sample, Kernel density, Local kerne
   Neural networks, Probability distributions, Windows, Probability density function
 ---
 
+
+
 # Abstract
+
 
 A method to estimate the probability density function of multivariate distributions is presented. The classical Parzen window approach builds a spherical Gaussian density around every input sample. This choice of the kernel density yields poor robustness for real input datasets. We use multivariate Student-t distributions in order to improve the adaptation capability of the model. Our method has a first stage where hard neighbourhoods are determined for every sample. Then soft clusters are considered to merge the information coming from several hard neighbourhoods. Hence, a specific mixture component is learned for each soft cluster. This leads to outperform other proposals where the local kernel is not as robust and/or there are no smoothing strategies, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2008.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-LopezRubio2008></a>[[Lóp+08]](#cite-LopezRubio2008) E. López-Rubio, J. Ortiz-De-Lazcano-Lobato, D. López-Rodríguez, et al. “Robust nonparametric probability density estimation by soft clustering”. In: _Artificial Neural Networks - ICANN 2008 , 18th International Conference, Prague, Czech Republic, September 3-6, 2008, Proceedings, Part I_. Ed. by V. K. á, R. Neruda and J. Koutník. Vol. 5163 LNCS. Lecture Notes in Computer Science PART 1. cited By 0; Conference of 18th International Conference on Artificial Neural Networks, ICANN 2008 ; Conference Date: 3 September 2008 Through 6 September 2008; Conference Code:73798. Prague: Springer, 2008, pp. 155-164. DOI: [10.1007/978-3-540-87536-9_17](https://doi.org/10.1007%2F978-3-540-87536-9_17). URL: [https://doi.org/10.1007/978-3-540-87536-9_17](https://doi.org/10.1007/978-3-540-87536-9_17).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{LopezRubio2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {E. López-Rubio and J.M. Ortiz-De-Lazcano-Lobato and D. López-Rodríguez and M. {Del Carmen Vargas-Gonzalez}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Artificial Neural Networks - {ICANN} 2008 , 18th International Conference, Prague, Czech Republic, September 3-6, 2008, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Robust nonparametric probability density estimation by soft clustering},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Prague},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Vera Kurko á and Roman Neruda and Jan Koutník},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 0; Conference of 18th International Conference on Artificial Neural Networks, ICANN 2008 ; Conference Date: 3 September 2008 Through 6 September 2008; Conference Code:73798},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {PART 1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {155-164},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {5163 LNCS},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {A method to estimate the probability density function of multivariate distributions is presented. The classical Parzen window approach builds a spherical Gaussian density around every input sample. This choice of the kernel density yields poor robustness for real input datasets. We use multivariate Student-t distributions in order to improve the adaptation capability of the model. Our method has a first stage where hard neighbourhoods are determined for every sample. Then soft clusters are considered to merge the information coming from several hard neighbourhoods. Hence, a specific mixture component is learned for each soft cluster. This leads to outperform other proposals where the local kernel is not as robust and/or there are no smoothing strategies, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2008.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icann/Lopez-RubioOLV08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-87536-9_17},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Data sets; Gaussian density; Input sample; Kernel density; Local kernel; Mixture components; Multivariate distributions; Multivariate Student; Non-parametric; Parzen windows; Probability density estimation; Soft clustering, Backpropagation; Neural networks; Probability distributions; Windows, Probability density function},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-87536-9_17},<br>}
 
 :::
+
+

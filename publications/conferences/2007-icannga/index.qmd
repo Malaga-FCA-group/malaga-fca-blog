@@ -18,81 +18,45 @@ keywords: Coloring, Graph theory, Large scale systems, Optimization, Problem sol
   Classic problems, Large-scale maps, Map coloring, Hopfield neural networks
 ---
 
+
+
 # Abstract
+
 
 The map-coloring problem is a well known combinatorial optimization problem which frequently appears in mathematics, graph theory and artificial intelligence. This paper presents a study into the performance of some binary Hopfield networks with discrete dynamics for this classic problem. A number of instances have been simulated to demonstrate that only the proposed binary model provides optimal solutions. In addition, for large-scale maps an algorithm is presented to improve the local minima of the network by solving gradually growing submaps of the considered map. Simulation results for several n-region 4-color maps showed that the proposed neural algorithm converged to a correct colouring from at least 90% of initial states without the fine-tuning of parameters required in another Hopfield models. © Springer-Verlag Berlin Heidelberg 2007.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-GalanMarin2007a></a>[[Gal+07]](#cite-GalanMarin2007a) G. Galán-Marín, E. Mérida-Casermeiro, D. López-Rodríguez, et al. “A Study into the Improvement of Binary Hopfield Networks for Map Coloring”. In: _Adaptive and Natural Computing Algorithms, 8th International Conference, ICANNGA 2007, Warsaw, Poland, April 11-14, 2007, Proceedings, Part II_. Ed. by B. Beliczynski, A. Dzielinski, M. Iwanowski and B. Ribeiro. Vol. 4432 LNCS. Lecture Notes in Computer Science PART 2. cited By 3; Conference of 8th International Conference on Adaptive and Natural Computing Algorithms, ICANNGA 2007 ; Conference Date: 11 April 2007 Through 14 April 2007; Conference Code:71057. Warsaw: Springer Verlag, 2007, pp. 98-106. DOI: [10.1007/978-3-540-71629-7_12](https://doi.org/10.1007%2F978-3-540-71629-7_12). URL:
+[https://doi.org/10.1007/978-3-540-71629-7_12](https://doi.org/10.1007/978-3-540-71629-7_12).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{GalanMarin2007a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {G. Galán-Marín and E. Mérida-Casermeiro and D. López-Rodríguez and J.M. Ortiz-De-Lazcano-Lobato},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Adaptive and Natural Computing Algorithms, 8th International Conference, {ICANNGA} 2007, Warsaw, Poland, April 11-14, 2007, Proceedings, Part {II}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Study into the Improvement of Binary Hopfield Networks for Map Coloring},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Warsaw},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Bartlomiej Beliczynski and Andrzej Dzielinski and Marcin Iwanowski and Bernardete Ribeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 3; Conference of 8th International Conference on Adaptive and Natural Computing Algorithms, ICANNGA 2007 ; Conference Date: 11 April 2007 Through 14 April 2007; Conference Code:71057},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {PART 2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {98-106},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer Verlag},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4432 LNCS},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {The map-coloring problem is a well known combinatorial optimization problem which frequently appears in mathematics, graph theory and artificial intelligence. This paper presents a study into the performance of some binary Hopfield networks with discrete dynamics for this classic problem. A number of instances have been simulated to demonstrate that only the proposed binary model provides optimal solutions. In addition, for large-scale maps an algorithm is presented to improve the local minima of the network by solving gradually growing submaps of the considered map. Simulation results for several n-region 4-color maps showed that the proposed neural algorithm converged to a correct colouring from at least 90% of initial states without the fine-tuning of parameters required in another Hopfield models. © Springer-Verlag Berlin Heidelberg 2007.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icannga/MarinCLO07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-71629-7_12},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Coloring; Graph theory; Large scale systems; Optimization; Problem solving, Classic problems; Large-scale maps; Map coloring, Hopfield neural networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-71629-7_12},<br>}
 
 :::
+
+

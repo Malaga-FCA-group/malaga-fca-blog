@@ -1,21 +1,21 @@
-- title: Aggregation Functions and Extent Structure Preservation in Formal Concept
-    Analysis
-  author:
+- title: 'Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis'
+  author: 
   - Carlos Bejines
   - Domingo López-Rodríguez
   - Manuel Ojeda-Hernández
-  date: '2023-09-12T00:00:00Z'
-  description: <em>International Conference on Conceptual Structures</em>, LNCS 14133,
-    pp. 28--35,
+  date: 2023-09-12T00:00:00Z
+  categories: [Formal concept analysis, Aggregation operators]
+  description: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,
   path: /publications/conferences/2023-iccs
-- title: Connecting concept lattices with bonds induced by external information
-  author:
+- title: 'Connecting concept lattices with bonds induced by external information'
+  author: 
   - Ondrej Krídlo
   - Domingo López-Rodríguez
   - Lubomir Antoni
   - Peter Eliaš
   - Stanislav Krajči
   - Manuel Ojeda-Aciego
-  date: '2023-08-03T00:00:00Z'
+  date: 2023-08-03T00:00:00Z
+  categories: [Formal concept analysis]
   description: <em>Information Sciences</em>, vol. 648, november 2023, article 119498
   path: /publications/journals/2023-insci

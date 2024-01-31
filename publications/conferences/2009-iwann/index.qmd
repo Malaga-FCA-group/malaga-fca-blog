@@ -14,81 +14,44 @@ project: ~
 keywords: ''
 ---
 
+
+
 # Abstract
+
 
 The self-organizing map (SOM) has been used in multiple areas and constitutes an excellent tool for data mining. However, SOM has two main drawbacks: the static architecture and the lack of representation of hierarchical relations among input data. The growing hierarchical SOM (GHSOM) was proposed in order to face these difficulties. The network architecture is adapted during the learning process and provides an intuitive representation of the hierarchical relations of the data. Some limitations of this model are the static topology of the maps (2-D grids) and the big amount of neurons created without necessity. A growing hierarchical self-organizing graph (GHSOG) based on the GHSOM is presented. The maps are graphs instead of 2-D rectangular grids, where the neurons are considered the vertices, and each edge of the graph represents a neighborhood relation between neurons. This new approach provides greater plasticity and a more flexible architecture, where the neurons arrangement is not restricted to a fixed topology, achieving a more faithfully data representation. The proposed neural model has been used to build an Intrusion Detection Systems (IDS), where experimental results confirm its good performance.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-PalomoOLL09></a>[[Pal+09]](#cite-PalomoOLL09) E. J. Palomo, J. M. Ortiz-de-Lazcano-Lobato, D. López-Rodríguez, et al. “Hierarchical Graphs for Data Clustering”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence, 10th International Work-Conference on Artificial Neural Networks, IWANN 2009, Salamanca, Spain, June 10-12, 2009. Proceedings, Part I_. Ed. by J. Cabestany, F. S. Hernández, A. Prieto and J. M. Corchado. Vol. 5517. Lecture Notes in Computer Science. Springer, 2009, pp. 432-439. DOI: [10.1007/978-3-642-02478-8\_54](https://doi.org/10.1007%2F978-3-642-02478-8%5C_54). URL: [https://doi.org/10.1007/978-3-642-02478-8\_54](https://doi.org/10.1007/978-3-642-02478-8\_54).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{PalomoOLL09,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Esteban J. Palomo and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Juan Miguel Ortiz{-}de{-}Lazcano{-}Lobato and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Rafael Marcos Luque},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Joan Cabestany and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Francisco Sandoval Hernández and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Alberto Prieto and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Juan M. Corchado},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Hierarchical Graphs for Data Clustering},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Bio-Inspired Systems: Computational and Ambient Intelligence, 10th<br>&nbsp;&nbsp;&nbsp;&nbsp;               International Work-Conference on Artificial Neural Networks, {IWANN}<br>&nbsp;&nbsp;&nbsp;&nbsp;               2009, Salamanca, Spain, June 10-12, 2009. Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series    = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {5517},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {432--439},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/978-3-642-02478-8\_54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/978-3-642-02478-8\_54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 06 Dec 2019 09:55:14 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/iwann/PalomoOLL09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
 
 :::
+
+

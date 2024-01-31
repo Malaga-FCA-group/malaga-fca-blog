@@ -1,12 +1,12 @@
 ---
 title: 'VALID: Verifiable Algebraic and Logic tools for Imperfect Data'
-author: 
+author:
 - Manuel Ojeda-Aciego
 - Domingo López-Rodríguez
 date: '2023-09-01'
 slug: 2023-valid
 selected: true
-categories: 
+categories:
   - Formal Concept Analysis
   - Fuzzy Logic
   - Uncertainty
@@ -15,11 +15,6 @@ tags: []
 image: "featured.png"
 link: "http://www.matap.uma.es/profesor/aciego/valid-web/"
 end_date: '2026-08-31'
-listing: 
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
 ---
 
 # Abstract

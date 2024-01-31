@@ -8,17 +8,15 @@ website:
   title: "Málaga FCA Group"
   navbar:
     right:
-      - href: members/index.qmd
-        text: Persons
+      - href: people/index.qmd
+        text: People
       - href: publications/index.qmd
         text: Publications
       - href: projects/index.qmd
         text: Projects
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/malaga-fca-group
 
 date-format: "D MMMM YYYY"
 

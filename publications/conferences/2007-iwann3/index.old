@@ -1,0 +1,98 @@
+---
+author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-De-Lazcano-Lobato,
+  G. Galán-Marín
+Status: Published
+date: '2007-01-01'
+slug: 2007-iwann3
+title: Two pages graph layout via recurrent multivalued neural networks
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 194-202</em>
+doi: 10.1007/978-3-540-73007-1_24
+link: 2007-iwann3/paper.pdf
+project: ''
+keywords: Algorithms, Computer simulation, Graph theory, Mathematical models, Problem
+  solving, Computational time, Energy function, Recurrent neural networks
+---
+
+# Abstract
+
+In this work, we propose the use of two neural models performing jointly in order to minimize the same energy function. This model is focused on obtaining good solutions for the two pages book crossing problem, although some others problems can be efficiently solved by the same model. The neural technique applied to this problem allows to reduce the energy function by changing outputs from both networks -outputs of first network representing location of nodes in the nodes line, while the outputs of the second one meaning the half-plane where the edges are drawn. Detailed description of the model is presented, and the technique to minimize an energy function is fully described. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2007.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

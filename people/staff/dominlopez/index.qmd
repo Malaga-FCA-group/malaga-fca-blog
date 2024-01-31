@@ -1,0 +1,38 @@
+---
+title: "Domingo López Rodríguez"
+sortby: lopezrodriguez
+subtitle: "Associate Professor"
+image: avatar.png
+started: "April 2018"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: https://dominlopez.netlify.app
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.es/citations?user=X24XQHIAAAAJ
+    - icon: github
+      text: github
+      href: https://www.github.com/neuroimaginador
+    - icon: twitter
+      text: twitter
+      href: https://www.twitter.com/dominlopez
+---
+
+<!-- ```{=html} -->
+<!-- <nav aria-label="breadcrumb"> -->
+<!--   <ol class="breadcrumb"> -->
+<!--     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li> -->
+<!--     <li class="breadcrumb-item"><a href="../../people.html">People</a></li> -->
+<!--     <li class="breadcrumb-item active">Research Staff</li> -->
+<!--     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li> -->
+<!--   </ol> -->
+<!-- </nav> -->
+<!-- ``` -->
+
+:::{#person-profile}
+:::

@@ -10,11 +10,6 @@ categories:
   - E-learning
 image: "featured.png"
 end_date: '2022-12-31'
-listing:
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
 ---
 
 # Abstract

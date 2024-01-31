@@ -1,0 +1,96 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2004-09-01'
+slug: 2004-iccmse1
+title: 'Matrix Bandwith Minimization: A Neural Approach'
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>International Congress of Computational Methods in Science and Engineering</em>
+  2004
+doi: ''
+link: 2004-iccmse1/paper.pdf
+project: ~
+keywords: Neural networks, Combinatorial optimization, Matrix bandwith
+---
+
+# Abstract
+
+The aim of this paper is to present a neural technique to tackle the bandwidth minimization problem. This neural model, successfully applied to other problems, presents better solutions than those of other classical approaches to this problem, as shown by the simulations performed.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

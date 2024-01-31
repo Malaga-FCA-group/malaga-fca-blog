@@ -18,84 +18,46 @@ doi: 10.1016/j.ins.2023.119498
 link: 2023-insci/paper.pdf
 project: 2023-valid
 keywords: Formal Concept Analysis, Intercontextual structures, Bonds
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
 
 
 # Abstract
 
+
 In Formal Concept Analysis (FCA), $\mathcal L$-bonds represent relationships between $\mathcal L$-formal contexts. Choosing the appropriate bond between $\mathcal L$-fuzzy formal contexts is an important challenge for its application in recommendation tasks. Recent work introduced two constructions of bonds, given by direct products of two $\mathcal L$-fuzzy formal contexts, and showed their usefulness in a particular application. In this paper, we present further theoretical and experimental results on these constructions; in particular, we provide extended interpretations of both rigorous and benevolent concept-forming operators, introduce new theoretical properties of the proposed bonds to connect two concept lattices given external information, and finally present the experimental study of the upper bounds.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'journals', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-insci2023></a>[[Krí+23]](#cite-insci2023) O. Krídlo, D. López-Rodríguez, L. Antoni, et al. “Connecting concept lattices with bonds induced by external information”. In: _Information Sciences_ (2023), p. 119498.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@article{insci2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Connecting concept lattices with bonds induced by external information},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Ondrej Krídlo and Domingo López-Rodríguez and Lubomir Antoni and Peter Eliaš and Stanislav Krajči and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal={Information Sciences},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={119498},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher={Elsevier}<br>}
 
 :::
+
+

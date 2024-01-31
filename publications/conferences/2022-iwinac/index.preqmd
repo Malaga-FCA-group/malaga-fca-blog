@@ -1,0 +1,33 @@
+---
+author: Clara Jiménez Valverde, Rosa María Maza Quiroga, Domingo López-Rodríguez,
+  Karl Thurnhofer-Hemsi, Ezequiel López Rubio, Rafael Marcos Luque Baena
+Status: Published
+date: '2022-05-31T00:00:00Z'
+slug: 2022-iwinac
+title: Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum
+  Disorders
+categories:
+- Machine learning
+- Neuroimage
+header_image: ~
+details: <em>9th International Work-Conference on the Interplay Between Natural and
+  Artificial Computation</em>
+doi: 10.1007/978-3-031-06527-9_21
+link: 2022-iwinac/PAPER.pdf
+project: ~
+keywords: Autism, Connectome, Machine learning, Classification
+---
+
+# Abstract
+
+
+This paper explores the effect of using different pipelines to compute connectomes (matrices representing brain connections) and use them to train machine learning models with the goal of diagnosing Autism Spectrum Disorder. Five different pipelines are used to train six different ML models, splitting the data into female, male and all subsets so we can also research the effect of considering male and female patients separately. Our results conclude that pipeline and model choice impact results, along with using general or specific models.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

@@ -1,0 +1,99 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Gloria Galán Marín, Juan
+  Miguel Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2007-01-01'
+slug: 2007-iwinac
+title: Theoretical Study on the Capacity of Associative Memory with Multiple Reference
+  Points
+categories:
+- Pattern recognition
+- Neural networks
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4527), PART 1, <em>pp. 292&ndash;302</em>
+doi: 10.1007/978-3-540-73053-8_29
+link: 2007-iwinac/paper.pdf
+project: ''
+keywords: Learning systems, Pattern recognition, Probability, Problem solving, Linear
+  dependence, Reference points, Computation theory
+---
+
+# Abstract
+
+An extension to Hopfield's model of associative memory is studied in the present work. In particular, this paper is focused in giving solutions to the two main problems present in the model: the apparition of spurious patterns in the learning phase (implying the well-known and undesirable effect of storing the opposite pattern) and the problem of its reduced capacity (the probability of error in the retrieving phase increases as the number of stored patterns grows). In this work, a method to avoid spurious patterns is presented and studied, and an explanation to the previously mentioned effect is given. Another novel technique to increase the capacity of a network is proposed here, based on the idea of using several reference points when storing patterns. It is studied in depth, and an explicit formula for the capacity of the network is provided. This formula shows the linear dependence of the capacity of the new model on the number of reference points, implying the increase of the capacity in mis model. © Springer-Verlag Berlin Heidelberg 2007.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

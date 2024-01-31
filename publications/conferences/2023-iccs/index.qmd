@@ -17,83 +17,46 @@ doi: 10.1007/978-3-031-40960-8_3
 link: 2023-iccs/paper.pdf
 project: 2023-valid
 keywords: Formal concept analysis, Aggregation operators
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
+
 Formal Concept Analysis (FCA) is a mathematical framework for analysing data tables that capture the relationship between objects and attributes. The concept lattice derived from such a table is a representation of the implicit knowledge about this relationship, where each concept corresponds to a bicluster of objects and attributes. FCA has been widely used for knowledge acquisition and representation, conceptual data analysis, information retrieval and other applications. In this paper, we use an extension of the classical FCA to deal with fuzzy formal contexts, where the relationship between objects and attributes is modelled by truth values indicating the degree to which an object possesses a property or attribute. Fuzzy Formal Concept Analysis (FFCA) allows us to capture vague or imprecise information and handle uncertainty or ambiguity in data analysis. Our purpose is to use aggregation functions in order to manipulate and explore fuzzy formal concepts in different ways depending on the desired properties or criteria. In this work, we will focus on the structure of the extents of the concept lattice. We define the aggregation of fuzzy extents point-wise and study how it affects its structure. We characterise the aggregation functions that preserve the fuzzy extent structure and show that they depend on the number of objects in the context. Our results contribute to a better understanding of how aggregation functions can be used to manipulate and explore fuzzy formal concepts.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-ICCS2023></a>[[BLO23]](#cite-ICCS2023) C. Bejines, D. López-Rodríguez, and M. Ojeda-Hernández. “Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis”. In: _Graph-Based Representation and Reasoning - 28th International Conference on Conceptual Structures, ICCS 2023, Berlin, Germany, September 11-13, 2023, Proceedings_. Ed. by M. Ojeda-Aciego, K. Sauerwald and R. Jäschke. Vol. 14133. Lecture Notes in Computer Science. Springer, 2023, pp. 28-35. DOI: [10.1007/978-3-031-40960-8\_3](https://doi.org/10.1007%2F978-3-031-40960-8%5C_3). URL: [https://doi.org/10.1007/978-3-031-40960-8\_3](https://doi.org/10.1007/978-3-031-40960-8\_3).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{ICCS2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author       = {Carlos Bejines and<br>&nbsp;&nbsp;&nbsp;&nbsp;                  Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;                  Manuel Ojeda{-}Hernández},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor       = {Manuel Ojeda{-}Aciego and<br>&nbsp;&nbsp;&nbsp;&nbsp;                  Kai Sauerwald and<br>&nbsp;&nbsp;&nbsp;&nbsp;                  Robert J{\"{a}}schke},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title        = {Aggregation Functions and Extent Structure Preservation in Formal<br>&nbsp;&nbsp;&nbsp;&nbsp;                  Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle    = {Graph-Based Representation and Reasoning - 28th International Conference<br>&nbsp;&nbsp;&nbsp;&nbsp;                  on Conceptual Structures, {ICCS} 2023, Berlin, Germany, September<br>&nbsp;&nbsp;&nbsp;&nbsp;                  11-13, 2023, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series       = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume       = {14133},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages        = {28--35},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher    = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year         = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url          = {https://doi.org/10.1007/978-3-031-40960-8\_3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi          = {10.1007/978-3-031-40960-8\_3}<br>}
 
 :::
+
+

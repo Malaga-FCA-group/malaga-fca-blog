@@ -19,81 +19,31 @@ project: ~
 keywords: MRI; Rician noise; Benford’s law; noise level estimation
 ---
 
+
+
 # Abstract
+
 
 This paper investigates the distribution characteristics of Fourier, discrete cosine, and discrete sine transform coefficients in T1 MRI images. This paper reveals their adherence to Benford’s law, characterized by a logarithmic distribution of first digits. The impact of Rician noise on the first digit distribution is examined, which causes deviations from the ideal distribution. A novel methodology is proposed for noise level estimation, employing metrics such as the Bhattacharyya distance, Kullback–Leibler divergence, total variation distance, Hellinger distance, and Jensen–Shannon divergence. Supervised learning techniques utilize these metrics as regressors. Evaluations on MRI scans from several datasets coming from a wide range of different acquisition devices of 1.5 T and 3 T, comprising hundreds of patients, validate the adherence of noiseless T1 MRI frequency domain coefficients to Benford’s law. Through rigorous experimentation, our methodology has demonstrated competitiveness with established noise estimation techniques, even surpassing them in numerous conducted experiments. This research empirically supports the application of Benford’s law in transforms, offering a reliable approach for noise estimation in denoising algorithms and advancing image quality assessment.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'journals', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-axioms12121117></a>[[Maz+23]](#cite-axioms12121117) R. Maza-Quiroga, K. Thurnhofer-Hemsi, D. López-Rodríguez, et al. “Regression of the Rician Noise Level in 3D Magnetic Resonance Images from the Distribution of the First Significant Digit”. In: _Axioms_ 12.12 (2023). ISSN: 2075-1680. DOI: [10.3390/axioms12121117](https://doi.org/10.3390%2Faxioms12121117). URL: [https://www.mdpi.com/2075-1680/12/12/1117](https://www.mdpi.com/2075-1680/12/12/1117).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@Article{axioms12121117,<br>&nbsp;&nbsp;&nbsp;&nbsp;AUTHOR = {Maza-Quiroga, Rosa and Thurnhofer-Hemsi, Karl and López-Rodríguez, Domingo and López-Rubio, Ezequiel},<br>&nbsp;&nbsp;&nbsp;&nbsp;TITLE = {Regression of the Rician Noise Level in 3D Magnetic Resonance Images from the Distribution of the First Significant Digit},<br>&nbsp;&nbsp;&nbsp;&nbsp;JOURNAL = {Axioms},<br>&nbsp;&nbsp;&nbsp;&nbsp;VOLUME = {12},<br>&nbsp;&nbsp;&nbsp;&nbsp;YEAR = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;NUMBER = {12},<br>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLE-NUMBER = {1117},<br>&nbsp;&nbsp;&nbsp;&nbsp;URL = {https://www.mdpi.com/2075-1680/12/12/1117},<br>&nbsp;&nbsp;&nbsp;&nbsp;ISSN = {2075-1680},<br>&nbsp;&nbsp;&nbsp;&nbsp;ABSTRACT = {This paper investigates the distribution characteristics of Fourier, discrete cosine, and discrete sine transform coefficients in T1 MRI images. This paper reveals their adherence to Benford&rsquo;s law, characterized by a logarithmic distribution of first digits. The impact of Rician noise on the first digit distribution is examined, which causes deviations from the ideal distribution. A novel methodology is proposed for noise level estimation, employing metrics such as the Bhattacharyya distance, Kullback&ndash;Leibler divergence, total variation distance, Hellinger distance, and Jensen&ndash;Shannon divergence. Supervised learning techniques utilize these metrics as regressors. Evaluations on MRI scans from several datasets coming from a wide range of different acquisition devices of 1.5 T and 3 T, comprising hundreds of patients, validate the adherence of noiseless T1 MRI frequency domain coefficients to Benford&rsquo;s law. Through rigorous experimentation, our methodology has demonstrated competitiveness with established noise estimation techniques, even surpassing them in numerous conducted experiments. This research empirically supports the application of Benford&rsquo;s law in transforms, offering a reliable approach for noise estimation in denoising algorithms and advancing image quality assessment.},<br>&nbsp;&nbsp;&nbsp;&nbsp;DOI = {10.3390/axioms12121117}<br>}
 
 :::
+
+

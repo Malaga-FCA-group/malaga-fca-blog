@@ -15,81 +15,45 @@ project: ''
 keywords: ''
 ---
 
+
+
 # Abstract
+
 
 Moodle is one of the most extended Learning Management Systems and is based on the open source (GPL) licenseagreement. We summarize the advantages of the use of this environment and show our six-year experience with the toolsthat Moodle provide. It would be of interest that any exhaustively used tool, such as quizzes, could reuse the knowledgethat teachers store year after year in the Moodle database. In this work, a web-based tool allowing us to create, integrate,reuse and manipulate questions and quizzes is presented.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Bonilla2008a></a>[[Bon+08]](#cite-Bonilla2008a) A. M. Bonilla, E. M. Casermeiro, D. López-Rodríguez, et al. “Integration Of Moodle Quizzes”. In: _IADIS International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings_. Ed. by M. B. Nunes and M. McPherson. IADIS, 2008, pp. 45-52.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
 
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
 
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
 
 :::
+
+

@@ -9,11 +9,6 @@ tags: [Data mining, Sustainability]
 link: "http://wp.iaia.lcc.uma.es/nuevos-desarrollos-en-mineria-de-datos-para-su-utilizacion-en-la-sostenibilidad-urbana/"
 image: "featured.jpg"
 end_date: '2022-12-31'
-listing:
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
 ---
 
 # Abstract

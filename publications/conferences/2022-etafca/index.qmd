@@ -14,83 +14,46 @@ doi: ''
 link: 2022-etafca/paper.pdf
 project: 2019-flair
 keywords: R
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
+
 Formal concept analysis (FCA) has become a mature tool for extracting helpful knowledge for real problems based on solid mathematical foundations rooted in logic and lattice theory. However, in areas such as machine learning, big data, artificial intelligence, database, etc. remains a stranger. The R language is one of the main languages used in data science, and this work describes an R package called fcaR that implements FCA’s core notions and techniques. One of the main goals is to spread FCA to the rest of the world. The main facilities of the tool are shown with a running example.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-fcaRCLA></a>[[Cor+22]](#cite-fcaRCLA) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Spreading FCA to the Data Science World”. In: _Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications_. CLA. 2022, pp. 201 - 207.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{fcaRCLA,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={fcaR, Spreading FCA to the Data Science World},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Cordero, Pablo, and Enciso, Manuel, and López-Rodríguez, Domingo, and Mora, Ángel},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={201 -- 207},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={CLA}<br>}
 
 :::
+
+

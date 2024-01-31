@@ -12,10 +12,17 @@ doi: ''
 link: 2021-realdatafca/paper.pdf
 project: 2019-flair
 keywords: ''
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
 
 
+
 # Abstract
+
 
 COVID data are usually presented in a non-structured format and mainly
   focused on healthy issues (incidence, mortality, etc). At the same time, Governments
@@ -27,33 +34,19 @@ COVID data are usually presented in a non-structured format and mainly
   approach to discover knowledge behind the data.
 
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
 
 

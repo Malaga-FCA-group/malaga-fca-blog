@@ -1,0 +1,31 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2004-09-01'
+slug: 2004-iccmse1
+title: 'Matrix Bandwith Minimization: A Neural Approach'
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>International Congress of Computational Methods in Science and Engineering</em>
+  2004
+doi: ''
+link: 2004-iccmse1/paper.pdf
+project: ~
+keywords: Neural networks, Combinatorial optimization, Matrix bandwith
+---
+
+# Abstract
+
+
+The aim of this paper is to present a neural technique to tackle the bandwidth minimization problem. This neural model, successfully applied to other problems, presents better solutions than those of other classical approaches to this problem, as shown by the simulations performed.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

@@ -15,10 +15,17 @@ link: 2021-cmmse/paper.pdf
 project: 2019-flair
 cite: no
 keywords: ''
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
 
 
+
 # Abstract
+
 
 In the age of social networks, the amount of the written material published
   every day exceeds our processing capacity. Topic models can help to organise and
@@ -45,33 +52,19 @@ In the age of social networks, the amount of the written material published
   can be used in Social Network Analysis. In addition, a comparison with classical
   techniques is being addressed.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
 
 

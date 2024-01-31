@@ -18,81 +18,44 @@ project: ~
 keywords: Autism, Connectome, Machine learning, Classification
 ---
 
+
+
 # Abstract
+
 
 This paper explores the effect of using different pipelines to compute connectomes (matrices representing brain connections) and use them to train machine learning models with the goal of diagnosing Autism Spectrum Disorder. Five different pipelines are used to train six different ML models, splitting the data into female, male and all subsets so we can also research the effect of considering male and female patients separately. Our results conclude that pipeline and model choice impact results, along with using general or specific models.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Clara2021></a>[[Jim+22]](#cite-Clara2021) C. Jiménez-Valverde, R. M. Maza-Quiroga, D. López-Rodríguez, et al. “Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum Disorders”. In: _Bio-inspired Systems and Applications: from Robotics to Ambient Intelligence_. Ed. by J. M. Ferrández Vicente, J. R. Álvarez-Sánchez, F. de la Paz López and H. Adeli. Cham: Springer International Publishing, 2022, pp. 213-222. ISBN: 978-3-031-06527-9.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{Clara2021,<br>&nbsp;&nbsp;&nbsp;&nbsp;author="Jiménez-Valverde, Clara and Maza-Quiroga, Rosa María and López-Rodríguez, Domingo and Thurnhofer-Hemsi, Karl and López-Rubio, Ezequiel and Luque-Baena, Rafael Marcos",<br>&nbsp;&nbsp;&nbsp;&nbsp;editor="Ferrández Vicente, José Manuel and Álvarez-Sánchez, José Ramón and de la Paz López, Félix and Adeli, Hojjat",<br>&nbsp;&nbsp;&nbsp;&nbsp;title="Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum Disorders",<br>&nbsp;&nbsp;&nbsp;&nbsp;booktitle="Bio-inspired Systems and Applications: from Robotics to Ambient Intelligence",<br>&nbsp;&nbsp;&nbsp;&nbsp;year="2022",<br>&nbsp;&nbsp;&nbsp;&nbsp;publisher="Springer International Publishing",<br>&nbsp;&nbsp;&nbsp;&nbsp;address="Cham",<br>&nbsp;&nbsp;&nbsp;&nbsp;pages="213--222",<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract="This paper explores the effect of using different pipelines to compute connectomes (matrices representing brain connections) and use them to train machine learning models with the goal of diagnosing Autism Spectrum Disorder. Five different pipelines are used to train six different ML models, splitting the data into female, male and all subsets so we can also research the effect of considering male and female patients separately. Our results conclude that pipeline and model choice impact results, along with using general or specific models.",<br>&nbsp;&nbsp;&nbsp;&nbsp;isbn="978-3-031-06527-9"<br>}
 
 :::
+
+

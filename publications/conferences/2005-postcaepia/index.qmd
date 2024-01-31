@@ -20,81 +20,45 @@ keywords: Database systems, Iterative methods, Learning systems, Neural networks
   recognition
 ---
 
+
+
 # Abstract
+
 
 In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters. This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships. As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Casermeiro2005></a>[[ML05]](#cite-Casermeiro2005) E. Mérida-Casermeiro and D. López-Rodríguez. “Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks”. In: _Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers_. Ed. by R. Marín, E. Onaindia, A. Bugarín and J. S. Reyes. Vol. 4177. Lecture Notes in Computer Science. cited By 3; Conference of 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005 ; Conference Date: 16 November 2005 Through 18 November 2005; Conference Code:68379. Santiago de Compostela: Springer, 2005, pp. 241-250. DOI: [10.1007/11881216\_26](https://doi.org/10.1007%2F11881216%5C_26). URL:
+[https://doi.org/10.1007/11881216\_26](https://doi.org/10.1007/11881216\_26).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{Casermeiro2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {E. Mérida-Casermeiro and D. López-Rodríguez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Santiago de Compostela},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Roque Marín and Eva Onaindia and Alberto Bugarín and José Santos Reyes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 3; Conference of 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005 ; Conference Date: 16 November 2005 Through 18 November 2005; Conference Code:68379},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {241--250},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4177},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters. This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships. As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented. © Springer-Verlag Berlin Heidelberg 2006.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/CasermeiroL05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11881216\_26},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Database systems; Iterative methods; Learning systems; Neural networks, Discrete recurrent networks; Hebbian iterative method; Retrieving patterns, Pattern recognition},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  sponsors = {CICYT - Minist. de Educ. y Ciencia; Direccion Xeral I+D Xunta de Galicia; Direccion Xeral Universidades Xunta de Galicia; Universidade de Santiago de Compostella; Universidade e Coruna},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:50 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11881216\_26},<br>}
 
 :::
+
+

@@ -17,81 +17,44 @@ project: ~
 keywords: ''
 ---
 
+
+
 # Abstract
+
 
 The aim of this work is to present a segmentation method to detect moving objects in video scenes, based on the use of a multivalued discrete neural network to improve the results obtained by an underlying segmentation algorithm. Specifically, the multivalued neural model (MREM) is used to detect and correct some of the deficiencies and errors off the well-known Mixture of Gaussians algorithm. Experimental results, using video scenes publicly available from the Internet, show an increase of the visual quality of the segmentation, that could improve for subsequent analysis phases, such as object tracking or behavior studies.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-DBLPconfhisLuqueLCP08></a>[[Luq+08]](#cite-DBLPconfhisLuqueLCP08) R. M. Luque, D. López-Rodríguez, E. M. Casermeiro, et al. “Video Object Segmentation with Multivalued Neural Networks”. In: _8th International Conference on Hybrid Intelligent Systems (HIS 2008), September 10-12, 2008, Barcelona, Spain_. Ed. by F. Xhafa, F. Herrera, A. Abraham, M. Köppen and J. M. Benítez. IEEE Computer Society, 2008, pp. 613-618. DOI: [10.1109/HIS.2008.130](https://doi.org/10.1109%2FHIS.2008.130). URL: [https://doi.org/10.1109/HIS.2008.130](https://doi.org/10.1109/HIS.2008.130).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{DBLP:conf/his/LuqueLCP08,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Rafael Marcos Luque and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Enrique Mérida Casermeiro and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Esteban J. Palomo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Fatos Xhafa and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Francisco Herrera and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Ajith Abraham and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Mario K{\"{o}}ppen and<br>&nbsp;&nbsp;&nbsp;&nbsp;               José Manuel Benítez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Video Object Segmentation with Multivalued Neural Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {8th International Conference on Hybrid Intelligent Systems {(HIS}<br>&nbsp;&nbsp;&nbsp;&nbsp;               2008), September 10-12, 2008, Barcelona, Spain},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {613--618},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE} Computer Society},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1109/HIS.2008.130},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1109/HIS.2008.130},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 16 Oct 2019 14:14:55 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/his/LuqueLCP08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
 
 :::
+
+

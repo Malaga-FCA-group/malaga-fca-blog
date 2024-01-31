@@ -17,82 +17,45 @@ project: ~
 keywords: ''
 ---
 
+
+
 # Abstract
+
 
 In this paper, we investigate the use of artificial neural networks in order to solve the Shortest Common Superstring Problem. Concretely, the neural network used in this work is based on a multivalued model, MREM, very suitable for solving combinatorial optimization problems. We describe the foundations of this neural  model, and how it can be implemented in the context of this problem, by taking advantage of a better representation than in other models, which, in turn, contributes to ease the computational dynamics of the model. Experimental results prove that our model outperforms other heuristic approaches known from the specialized literature.
 
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-OLLP09></a>[[Ort+09]](#cite-OLLP09) J. M. Ortiz-de-Lazcano-Lobato, R. M. Luque, D. López-Rodríguez, et al. “Growing Competitive Network for Tracking Objects in Video Sequences”. In: _Adaptive and Natural Computing Algorithms, 9th International Conference, ICANNGA 2009, Kuopio, Finland, April 23-25, 2009, Revised Selected Papers_. Ed. by M. Kolehmainen, P. J. Toivanen and B. Beliczynski. Vol. 5495. Lecture Notes in Computer Science. Springer, 2009, pp. 109-118. DOI: [10.1007/978-3-642-04921-7_12](https://doi.org/10.1007%2F978-3-642-04921-7_12). URL: [https://doi.org/10.1007/978-3-642-04921-7\_12](https://doi.org/10.1007/978-3-642-04921-7\_12).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{OLLP09,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Juan Miguel Ortiz{-}de{-}Lazcano{-}Lobato and Rafael Marcos Luque and Domingo López{-}Rodríguez and Esteban J. Palomo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Mikko Kolehmainen and Pekka J. Toivanen and Bartlomiej Beliczynski},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Growing Competitive Network for Tracking Objects in Video Sequences},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Adaptive and Natural Computing Algorithms, 9th International Conference, {ICANNGA} 2009, Kuopio, Finland, April 23-25, 2009, Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series    = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {5495},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {109--118},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/978-3-642-04921-7\_12},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/978-3-642-04921-7_12}<br>}
 
 :::
+
+

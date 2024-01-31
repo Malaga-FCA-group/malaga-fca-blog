@@ -1,12 +1,12 @@
 ---
 title: 'FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources'
-author: 
+author:
   - Manuel Ojeda Aciego
   - Nicolás Madrid Labrador
 date: '2019-09-26'
 slug: 2019-flair
 selected: true
-categories: 
+categories:
   - Formal Concept Analysis
   - Fuzzy Logic
   - Uncertainty
@@ -15,11 +15,6 @@ tags: []
 image: "featured.png"
 link: "http://sevein.matap.uma.es/~aciego/flair-web/"
 end_date: '2022-12-31'
-listing: 
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
 ---
 
 # Abstract

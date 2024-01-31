@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -173,8 +173,8 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../members/index.qmd"> 
-<span class="menu-text">Persons</span></a>
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
@@ -312,13 +312,21 @@ function showPopup() {
 <h1>Published works</h1>
 <div id="listing-published_works" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1694476800000">
+<div class="quarto-post image-right" data-index="0" data-categories="Formal concept analysis,Aggregation operators" data-listing-date-sort="1694476800000">
 <div class="body">
 <h3 class="no-anchor listing-title" data-anchor-id="published-works">
 <a href="../../publications/conferences/2023-iccs" class="no-external">Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/conferences/2023-iccs" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Aggregation operators'); return false;">
+Aggregation operators
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/conferences/2023-iccs" class="no-external"><em>International Conference on Conceptual Structures</em>, LNCS 14133, pp.&nbsp;28–35,</a>
@@ -335,13 +343,18 @@ Carlos Bejines, Domingo López-Rodríguez, Manuel Ojeda-Hernández
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1691020800000">
+<div class="quarto-post image-right" data-index="1" data-categories="Formal concept analysis" data-listing-date-sort="1691020800000">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../../publications/journals/2023-insci" class="no-external">Connecting concept lattices with bonds induced by external information</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../../publications/journals/2023-insci" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Formal concept analysis'); return false;">
+Formal concept analysis
+</div>
 </div>
 <div class="listing-description">
 <a href="../../publications/journals/2023-insci" class="no-external"><em>Information Sciences</em>, vol.&nbsp;648, november 2023, article 119498</a>

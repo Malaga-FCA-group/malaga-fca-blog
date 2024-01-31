@@ -18,83 +18,60 @@ keywords: E-learning, Information analysis, Information systems, Information use
   Learning systems, Teaching, Assessment process, Formal concepts, Hidden knowledge,
   Interesting information, Live teaching, Online teaching, YouTube, Formal concept
   analysis
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
+
 Since the emergence of COVID-19, online teaching and e-Learning has become essential in education. Actually, in at our University, we have had to move to a complete online teaching framework through the Moodle e-learning system. As a result, we have had to deploy new material as videos in Youtube channels, new exercises, tasks, live teaching, etc that have generated a huge amount of data that contains interesting information. In particular, we have used randomly generated exams from a bank of quizzes to evaluate the students. In this paper, we analyze the results of these quizzes using Formal Concept Analysis tools in order to check the hidden knowledge in the assessment process with the goal of improving the developed material for next years. In addition, we will analyze how the different exercises and tests relate to each other so that we can use this information in the following courses to improve our lectures.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-PerezGamez2020></a>[[Pér+20]](#cite-PerezGamez2020) F. Pérez-Gámez, M. Ojeda-Hernández, Á. Mora-Bonilla, et al. “Using formal concept analysis to explore hidden knowledge in the assessment of amath course”. In: _Proceedings of the 14th IADIS International Conference e-Learning 2020, EL 2020 - Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020_. cited By 0; Conference of 14th IADIS International Conference e-Learning 2020, EL 2020, Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020 ; Conference Date: 21 July 2020 Through 23 July 2020; Conference Code:166581. IADIS, 2020, pp. 39-46. URL:
+[https://www.scopus.com/inward/record.uri?eid=2-s2.0-85101161899&partnerID=40&md5=91ad6b849d5459061df3c0143b72bf5c](https://www.scopus.com/inward/record.uri?eid=2-s2.0-85101161899&partnerID=40&md5=91ad6b849d5459061df3c0143b72bf5c).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@InProceedings{PerezGamez2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {F. Pérez-Gámez and M. Ojeda-Hernández and Á. Mora-Bonilla and D. López-Rodríguez and N. Madrid},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 14th IADIS International Conference e-Learning 2020, EL 2020 - Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Using formal concept analysis to explore hidden knowledge in the assessment of amath course},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 0; Conference of 14th IADIS International Conference e-Learning 2020, EL 2020, Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020 ; Conference Date: 21 July 2020 Through 23 July 2020; Conference Code:166581},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {39-46},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {IADIS},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Since the emergence of COVID-19, online teaching and e-Learning has become essential in education. Actually, in at our University, we have had to move to a complete online teaching framework through the Moodle e-learning system. As a result, we have had to deploy new material as videos in Youtube channels, newexercises, tasks, live teaching, etc that have generated a huge amount of data that contains interesting information. In particular, we have used randomly generated exams from a bank of quizzes to evaluate the students. In this paper, we analyze the results of these quizzes using Formal Concept Analysis tools in order to check the hidden knowledge in the assessment process with the goal of improving the developed material for next years. In addition, we will analyze how the different exercises and tests relate to each other so that we can use this information in the following courses to improve our lectures. © Proceedings of the 14th IADIS International Conference e-Learning 2020, EL 2020 - Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020. All rights reserved.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author_keywords = {Concepts; E-Learning Assessment Tools; Formal Concept Analysis; Knowledge Mining; Quizzes; Random Exams},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {E-learning; Information analysis; Information systems; Information use; Learning systems; Teaching, Assessment process; Formal concepts; Hidden knowledge; Interesting information; Live teaching; Online teaching; YouTube, Formal concept analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85101161899&partnerID=40&md5=91ad6b849d5459061df3c0143b72bf5c},<br>}
 
 :::
+
+

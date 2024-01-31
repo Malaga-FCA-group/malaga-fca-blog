@@ -1,20 +1,30 @@
 ---
-title: 'URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en la sostenibilidad urbana'
-author: 'Domingo López-Rodríguez'
+title: 'URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en
+  la sostenibilidad urbana'
+author: Domingo López-Rodríguez
 date: '2019-09-26'
 slug: 2019-ursus-dm
-selected: true
-categories: [Data mining, Sustainability]
-tags: [Data mining, Sustainability]
-link: "http://wp.iaia.lcc.uma.es/nuevos-desarrollos-en-mineria-de-datos-para-su-utilizacion-en-la-sostenibilidad-urbana/"
-image: "featured.jpg"
+selected: yes
+categories:
+- Data mining
+- Sustainability
+tags:
+- Data mining
+- Sustainability
+link: http://wp.iaia.lcc.uma.es/nuevos-desarrollos-en-mineria-de-datos-para-su-utilizacion-en-la-sostenibilidad-urbana/
+image: featured.jpg
 end_date: '2022-12-31'
 listing:
-  - id: published_works
-    contents: published_works.yml
-    type: default
-    sort: "date desc"
+- id: published_works
+  contents: published_works.yml
+  type: default
+  sort: date desc
+- id: published_works
+  contents: published_works.yml
+  type: default
+  sort: date desc
 ---
+
 
 # Abstract
 

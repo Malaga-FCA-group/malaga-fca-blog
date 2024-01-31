@@ -15,81 +15,31 @@ project: ~
 keywords: Computer-based learning, Statistical mechanics
 ---
 
+
+
 # Abstract
+
 
 This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'journals', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-criado2004></a>[[LC04]](#cite-criado2004) D. López and C. Criado. “A Pedagogical Simulation of Maxwells Demon Paradox”. In: _Journal of Chemical Education_ 81.11 (2004), p. 1679. DOI: [10.1021/ed081p1679.2](https://doi.org/10.1021%2Fed081p1679.2).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@article{criado2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {López, D. and Criado, C.},<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {A Pedagogical Simulation of Maxwells Demon Paradox},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Journal of Chemical Education},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {81},<br>&nbsp;&nbsp;&nbsp;&nbsp;number = {11},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {1679},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {10.1021/ed081p1679.2},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract = { This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level. }<br>}
 
 :::
+
+

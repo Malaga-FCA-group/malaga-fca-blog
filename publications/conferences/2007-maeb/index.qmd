@@ -18,81 +18,31 @@ project: ~
 keywords: Optimization, Graph problems, Neural networks
 ---
 
+
+
 # Abstract
+
 
 El ob jetivo de este trabajo es presentar la versión estocástica del modelo neuronal multivaluado MREM, el cual ha conseguido muy buenos resultados en muchas aplicaciones, como técnica de optimización. El propósito de esta versión estocástica es el de evitar ciertos mínimos locales de la función objetivo minimizada por la red, esto es, la función de energía. Con este fin, describimos las bases teóricas de este nuevo modelo, que nos garantizan la convergencia de la red a un mínimo local, de una forma rigurosa. Para mostrar la eficiencia de esta versión, el modelo, en ambas versiones, determinista y estocástica, ha sido aplicado para resolver el ya conocido problema de la partición de un grafo, MaxCut. Los experimentos computacionales llevados a cabo nos muestran que el modelo estocástico obtiene mejores resultados que el determinista.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-maxcut></a>[[Dom07]](#cite-maxcut) J. M. O. d. L. L.  Domingo López Rodríguez Enrique Mérida Casermeiro. “Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut”. In: _ Actas del V Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados_. 2007, pp. 85-90.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{maxcut,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={ Domingo López Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz de Lazcano Lobato},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={ Actas del V Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={85--90},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2007}<br>}
 
 :::
+
+

@@ -16,81 +16,31 @@ project: ''
 keywords: Neuroimage, Super-resolution, Deep learning
 ---
 
+
+
 # Abstract
+
 
 Magnetic Resonance (MR) has a paramount dependence on the acquisition process, sometimes generating low-quality images useless for clinical diagnosis. One of the problems to be faced is the lack of enough resolution, which makes fine details of the brain inappreciable. Image Super-Resolution (SR) intends to solve an ill-posed problem to increase its resolution. The first approaches were based on the frequency and the spatial domain, extrapolating the high-frequency information from the low-resolution (LR) image, or regularization strategies, incorporating the prior knowledge of the unknown high-resolution (HR) image. Nowadays, deep learning (DL) has become the most competitive method to perform SR. Many models have been developed to enhance 2D slices only instead of using the 3D spatial information. This chapter begins with an introduction to the SR problem and goes over traditional and deep neural network models for 3D MR super-resolution. Finally, a compilation of the most recent methods is presented, compared quantitatively and qualitatively using the newest public datasets.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'books', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-dominguezsuper></a>[[Dom+22]](#cite-dominguezsuper) E. Domínguez, D. López-Rodríguez, E. López-Rubio, et al. “Super-Resolution of 3D Magnetic Resonance Images of the Brain”. In: _Artificial Intelligence in Healthcare and Medicine_. CRC Press, 2022, pp. 157-176.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@incollection{dominguezsuper,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Super-Resolution of 3D Magnetic Resonance Images of the Brain},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Domínguez, Enrique and López-Rodríguez, Domingo and López-Rubio, Ezequiel and Maza-Quiroga, Rosa and Molina-Cabello, Miguel A and Thurnhofer-Hemsi, Karl},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Artificial Intelligence in Healthcare and Medicine},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={157--176},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher={CRC Press}<br>}
 
 :::
+
+

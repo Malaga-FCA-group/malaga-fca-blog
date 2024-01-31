@@ -16,81 +16,31 @@ project: ~
 keywords: Contradictory information, Fuzzy information, Regression
 ---
 
+
+
 # Abstract
 
 
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
 
-```{r citing2}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
-```
+
+
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-merida2008adjust></a>[[ML08]](#cite-merida2008adjust) E. Mérida-Casermeiro and D. López-Rodríguez. “Adjust of Contradictory Information by a Fuzzy Method”. In: _Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering_. 2008, pp. 439-451.
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{merida2008adjust,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Adjust of Contradictory Information by a Fuzzy Method},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Mérida-Casermeiro, E. and López-Rodríguez, D.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={439--451},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2008}<br>}
 
 :::
+
+

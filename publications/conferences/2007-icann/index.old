@@ -1,0 +1,101 @@
+---
+author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-de-Lazcano-Lobato,
+  G. Galán-Marín
+Status: Published
+date: '2007-01-01'
+slug: 2007-icann
+title: K-pages graph drawing with multivalued neural networks
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: Artificial Neural Networks - {ICANN} 2007, 17th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4669 LNCS), PART 2, <em>pp.
+  816-825</em>
+doi: 10.1007/978-3-540-74695-9_84
+link: 2007-icann/paper.pdf
+project: ''
+keywords: Algorithms, Edge detection, Function evaluation, Graph theory, Heuristic
+  methods, Mathematical models, Efficient algorithms, Energy functions, Multivalued
+  neural networks, Neural models, Multilayer neural networks
+---
+
+# Abstract
+
+In this paper, the K-pages graph layout problem is solved by a new neural model. This model consists of two neural networks performing jointly in order to minimize the same energy function. The neural technique applied to this problem allows to reduce the energy function by changing outputs from both networks -outputs of first network representing location of nodes in the nodes line, while the outputs of the second one meaning the page where the edges are drawn. A detailed description of the model is presented, and the technique to minimize an energy function is fully described. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art heuristic methods specifically designed for this problem. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2007.
+
+```{r citing}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  cat("# Cites\n")
+  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
+  
+}
+```
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+
+if (file.exists("citation_history.rds")) {
+  
+  source(here::here("scripts", "manage_publications.R"))
+  df <- readRDS("citation_history.rds")
+  plot_citation_history(df)
+  
+}
+```
+
+
+# Citation
+
+Please, cite this work as:
+
+```{r citation1}
+#| results: asis
+#| echo: false
+#| shortcodes: true
+this_folder <- here::here(
+  'publications', 
+  'conferences', 
+  rmarkdown::metadata$slug
+  )
+library(RefManageR)
+s <- ReadBib(file.path(this_folder, 'cite.bib'))
+NoCite(s) 
+options(width = 1000) 
+txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
+cat(txt)
+```
+
+  
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+```{r citation2}
+#| warning: false
+#| results: asis
+#| echo: false
+
+source(here::here(
+  "scripts", 
+  'format_bibtex.R'))
+
+cat(
+  format_bibtex(
+    file.path(
+      this_folder, 
+      'cite.bib')))
+```
+
+:::

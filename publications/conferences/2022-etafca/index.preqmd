@@ -1,0 +1,31 @@
+---
+author: Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+Status: Published
+date: '2022-06-22T00:00:00Z'
+slug: 2022-etafca
+title: fcaR, Spreading FCA to the Data Science World
+categories:
+- R package
+- Formal concept analysis
+header_image: ~
+details: <em>Workshop on Existing Tools and Applications for Formal Context Analysis
+  2022</em>
+doi: ''
+link: 2022-etafca/paper.pdf
+project: 2019-flair
+keywords: R
+---
+
+# Abstract
+
+
+Formal concept analysis (FCA) has become a mature tool for extracting helpful knowledge for real problems based on solid mathematical foundations rooted in logic and lattice theory. However, in areas such as machine learning, big data, artificial intelligence, database, etc. remains a stranger. The R language is one of the main languages used in data science, and this work describes an R package called fcaR that implements FCA’s core notions and techniques. One of the main goals is to spread FCA to the rest of the world. The main facilities of the tool are shown with a running example.
+
+
+
+{{funding}}
+
+{{citation_history}}
+
+{{citation}}
+

@@ -13,83 +13,59 @@ doi: 10.1007/978-3-030-77867-5_9
 link: 2021-icfca/paper.pdf
 project: 2019-flair
 keywords: ''
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
 ---
+
+
 
 # Abstract
 
+
 FCA exhaustively uses the notion of cluster by grouping attributes and objects and providing a solid algebraic structure to them through the concept lattice. Our proposal explores how we can cluster implications.  This work opens a research line to study the knowledge inside the clusters computed from the Duquenne-Guigues basis. Some alternative measures to induce the clusters are analysed, taking into account the information that directly appears in the appearance  and the semantics of the implications.  This work also allows us to show the fcaR package,   which has the main methods of FCA and the Simplification Logic.  The paper ends with a motivation of the potential applications of performing clustering on the implications.
 
-```{r citing}
-#| echo: false
-#| results: asis
-#| warning: false
-#| message: false
 
-if (file.exists("citation_history.rds")) {
-  
-  cat("# Cites\n")
-  cat("The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n")
-  
-}
-```
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+# Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
 
 ```{r citing2}
 #| echo: false
 #| results: asis
 #| warning: false
 #| message: false
-
-if (file.exists("citation_history.rds")) {
-  
-  source(here::here("scripts", "manage_publications.R"))
-  df <- readRDS("citation_history.rds")
-  plot_citation_history(df)
-  
-}
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
 ```
 
 
 # Citation
-
 Please, cite this work as:
 
-```{r citation1}
-#| results: asis
-#| echo: false
-#| shortcodes: true
-this_folder <- here::here(
-  'publications', 
-  'conferences', 
-  rmarkdown::metadata$slug
-  )
-library(RefManageR)
-s <- ReadBib(file.path(this_folder, 'cite.bib'))
-NoCite(s) 
-options(width = 1000) 
-txt <- capture.output(PrintBibliography(s, .opts = list(bib.style = 'alphabetic', style = 'markdown')))
-cat(txt)
-```
 
-  
+<a name=bib-Lopez-Rodriguez21></a>[[Lóp+21]](#cite-Lopez-Rodriguez21) D. López-Rodríguez, P. Cordero, M. Enciso, et al. “Clustering and Identification of Core Implications”. In: _Formal Concept Analysis - 16th International Conference, ICFCA 2021, Strasbourg, France, June 29 - July 2, 2021, Proceedings_. Ed. by A. Braud, A. Buzmakov, T. Hanika and F. L. Ber. Vol. 12733. Lecture Notes in Computer Science. Springer, 2021, pp. 138-154. DOI: [10.1007/978-3-030-77867-5\_9](https://doi.org/10.1007%2F978-3-030-77867-5%5C_9). URL: [https://doi.org/10.1007/978-3-030-77867-5\_9](https://doi.org/10.1007/978-3-030-77867-5\_9).
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## BibTeX
 
-```{r citation2}
-#| warning: false
-#| results: asis
-#| echo: false
-
-source(here::here(
-  "scripts", 
-  'format_bibtex.R'))
-
-cat(
-  format_bibtex(
-    file.path(
-      this_folder, 
-      'cite.bib')))
-```
+@inproceedings{Lopez-Rodriguez21,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Pablo Cordero and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Manuel Enciso and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Angel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Agnès Braud and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Aleksey Buzmakov and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Tom Hanika and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Florence Le Ber},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Clustering and Identification of Core Implications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Formal Concept Analysis - 16th International Conference, {ICFCA} 2021,<br>&nbsp;&nbsp;&nbsp;&nbsp;               Strasbourg, France, June 29 - July 2, 2021, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series    = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {12733},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {138--154},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2021},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/978-3-030-77867-5\_9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/978-3-030-77867-5\_9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 13 Jul 2021 13:28:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/icfca/Lopez-Rodriguez21.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
 
 :::
+
+

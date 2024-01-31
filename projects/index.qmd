@@ -1,6 +1,6 @@
 ---
-pagetitle: "Domingo López Rodríguez - Projects"
-sidebar: true
+pagetitle: "Projects"
+sidebar: false
 listing:
   contents: .
   sort: "date desc"
