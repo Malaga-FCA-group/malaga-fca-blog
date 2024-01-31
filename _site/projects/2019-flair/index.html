@@ -6,7 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Domingo López-Rodríguez">
+<meta name="author" content="Manuel Ojeda Aciego">
+<meta name="author" content="Nicolás Madrid Labrador">
 <meta name="dcterms.date" content="2019-09-26">
 
 <title>Málaga FCA Group - FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</title>
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-published_works .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-published_works'] = new List('listing-published_works', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
@@ -103,6 +135,22 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -192,7 +240,9 @@ function showPopup() {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-            <p>Domingo López-Rodríguez 
+            <p>Manuel Ojeda Aciego 
+      </p>
+            <p>Nicolás Madrid Labrador 
       </p>
           </div>
   </div>
@@ -249,49 +299,336 @@ function showPopup() {
 </section>
 <section id="published-works" class="level1">
 <h1>Published works</h1>
-<ol>
-<br>
-<li>
-<a href="../..//publications/books/2021-complexfca">D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: <em>Complex Data Analytics with Formal Concept Analysis</em>. Ed. by R. Missaoui, L. Kwuida and T. Abdessalem. Cham: Springer International Publishing, 2022, pp.&nbsp;201-224. ISBN: 978-3-030-93278-7. DOI: 10.1007/978-3-030-93278-7_9. </a><a href="https://doi.org/10.1007/978-3-030-93278-7_9" class="uri">https://doi.org/10.1007/978-3-030-93278-7_9</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/books/2021-complexfca">D. López-Rodríguez, P. Cordero, M. Enciso, et al.&nbsp;“Clustering and Identification of Core Implications”. In: <em>Formal Concept Analysis - 16th International Conference, ICFCA 2021, Strasbourg, France, June 29 - July 2, 2021, Proceedings</em>. Ed. by A. Braud, A. Buzmakov, T. Hanika and F. L. Ber. Vol. 12733. Lecture Notes in Computer Science. Springer, 2021, pp.&nbsp;138-154. DOI: 10.1007/978-3-030-77867-5_9. </a><a href="https://doi.org/10.1007/978-3-030-77867-5%5C_9" class="uri">https://doi.org/10.1007/978-3-030-77867-5%5C_9</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2021-icfca">D. López-Rodríguez, Á. Mora, and M. Ojeda-Hernández. “Revisiting Algorithms for Fuzzy Concept Lattices”. In: <em>The 16th International Conference on Concept Lattices and Applications</em>. CLA. 2022, pp.&nbsp;107 - 118.</a>
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2021-icfca">A. M. Bonilla, D. López-Rodríguez, M. Enciso, et al.&nbsp;“Knowledge Discovery in Malware Datasets using Formal Concept Analysis”. In: <em>Book of Abstracts, 14th European Symposium on Computational Intelligence and Mathematics, ESCIM 2022, Naples, Italy, October 2-5, 2022</em>. Ed. by L. T. Kóczy, J. Medina, R. G. Aragón, F. Chacón-Gómez, J. Kacprzyk, M. E. Cornejo-Piñero, D. Lobo, F. J. Ocaña-Alcázar and E. Ramírez-Poussa. 2022, pp.&nbsp;6-7. </a><a href="http://escim2022.uca.es/wp-content/uploads/BoA_ESCIM2022_final.pdf" class="uri">http://escim2022.uca.es/wp-content/uploads/BoA_ESCIM2022_final.pdf</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-cla">P. Cordero, M. Enciso, D. López-Rodríguez, et al.&nbsp;“fcaR, Spreading FCA to the Data Science World”. In: <em>Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications</em>. CLA. 2022, pp.&nbsp;201 - 207.</a>
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-cla">F. Pérez-Gámez, P. Cordero, M. Enciso, et al.&nbsp;“Computing the Mixed Concept Lattice”. In: <em>Information Processing and Management of Uncertainty in Knowledge-Based Systems - 19th International Conference, IPMU 2022, Milan, Italy, July 11-15, 2022, Proceedings, Part I</em>. Ed. by D. Ciucci, I. Couso, J. Medina, D. Slezak, D. Petturiti, B. Bouchon-Meunier and R. R. Yager. Vol. 1601. Communications in Computer and Information Science. Springer, 2022, pp.&nbsp;87-99. DOI: 10.1007/978-3-031-08971-8_8. </a><a href="https://doi.org/10.1007/978-3-031-08971-8%5C_8" class="uri">https://doi.org/10.1007/978-3-031-08971-8%5C_8</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-escim">P. Cordero, M. Enciso, D. López, et al.&nbsp;“A conversational recommender system for diagnosis using fuzzy rules”. In: <em>Expert Systems with Applications</em> 154 (2020), p.&nbsp;113449.</a>
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-escim">M. Ojeda-Hernández, F. Pérez-Gámez, D. López-Rodríguez, et al.&nbsp;“Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course”. In: <em>Int. J. Comput. Intell. Syst.</em> 15.1 (2022), p.&nbsp;58. DOI: 10.1007/s44196-022-00123-3. </a><a href="https://doi.org/10.1007/s44196-022-00123-3" class="uri">https://doi.org/10.1007/s44196-022-00123-3</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-etafca">F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al.&nbsp;“Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: <em>Mathematics</em> 10.4 (2022). ISSN: 2227-7390. DOI: 10.3390/math10040607. </a><a href="https://www.mdpi.com/2227-7390/10/4/607" class="uri">https://www.mdpi.com/2227-7390/10/4/607</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/conferences/2022-etafca">P. Cordero, M. Enciso, D. López-Rodríguez, et al.&nbsp;“fcaR, Formal Concept Analysis with R”. In: <em>The R Journal</em> 14 (1 2022). https://doi.org/10.32614/RJ-2022-014, pp.&nbsp;341-361. ISSN: 2073-4859. DOI: 10.32614/RJ-2022-014.</a>
-</li>
-<br>
-</ol>
+<div id="listing-published_works" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1664928000000">
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="published-works">
+<a href="../../publications/conferences/2022-escim" class="no-external">Knowledge Discovery in Malware Datasets using Formal Concept Analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2022-escim" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2022-escim" class="no-external"><em>14th European Symposium on Computational Intelligence and Mathematics</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2022-escim" class="no-external">
+<div class="listing-date">
+5 October 2022
+</div>
+<div class="listing-author">
+Angel Mora Bonilla, Domingo López-Rodríguez, Manuel Enciso, Pablo Cordero
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1661990400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/journals/2022-rjournal" class="no-external">fcaR, Formal Concept Analysis with R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/journals/2022-rjournal" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/journals/2022-rjournal" class="no-external"><em>The R Journal</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/journals/2022-rjournal" class="no-external">
+<div class="listing-date">
+1 September 2022
+</div>
+<div class="listing-author">
+Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1660003200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/journals/2022-ijcis" class="no-external">Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/journals/2022-ijcis" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/journals/2022-ijcis" class="no-external"><em>International Journal of Computational Intelligence Systems</em>, 15:58</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/journals/2022-ijcis" class="no-external">
+<div class="listing-date">
+9 August 2022
+</div>
+<div class="listing-author">
+Manuel Ojeda‐Hernández, Francisco Pérez‐Gámez, Domingo López-Rodríguez, Nicolás Madrid, Ángel Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1657670400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2022-ipmu" class="no-external">Computing the Mixed Concept Lattice</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2022-ipmu" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2022-ipmu" class="no-external"><em>International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2022-ipmu" class="no-external">
+<div class="listing-date">
+13 July 2022
+</div>
+<div class="listing-author">
+Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Angel Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1656892800000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2022-cmmse" class="no-external">Mining Fuzzy Concept Lattices</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2022-cmmse" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2022-cmmse" class="no-external">the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2022-cmmse" class="no-external">
+<div class="listing-date">
+4 July 2022
+</div>
+<div class="listing-author">
+Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1655856000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2022-etafca" class="no-external">fcaR, Spreading FCA to the Data Science World</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2022-etafca" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2022-etafca" class="no-external"><em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2022-etafca" class="no-external">
+<div class="listing-date">
+22 June 2022
+</div>
+<div class="listing-author">
+Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1655769600000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2022-cla" class="no-external">Revisiting Algorithms for Fuzzy Concept Lattices</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2022-cla" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2022-cla" class="no-external">the <em>16th International Conference on Concept Lattices and Applications 2022</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2022-cla" class="no-external">
+<div class="listing-date">
+21 June 2022
+</div>
+<div class="listing-author">
+Domingo López-Rodríguez, Ángel Mora, Manuel Ojeda-Hernández
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1644969600000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/journals/2022-mdpimathematics" class="no-external">Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/journals/2022-mdpimathematics" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/journals/2022-mdpimathematics" class="no-external"><em>Mathematics, 10</em>(4) 607</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/journals/2022-mdpimathematics" class="no-external">
+<div class="listing-date">
+16 February 2022
+</div>
+<div class="listing-author">
+Francisco Pérez-Gámez, Domingo López-Rodríguez, Pablo Cordero, Ángel Mora, Manuel Ojeda-Aciego
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1638918000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/books/2021-complexfca" class="no-external">Formal methods in FCA and Big Data</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/books/2021-complexfca" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/books/2021-complexfca" class="no-external">Complex Data Analytics with Formal Concept Analysis, <em>pp.&nbsp;201 – 224</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/books/2021-complexfca" class="no-external">
+<div class="listing-date">
+8 December 2021
+</div>
+<div class="listing-author">
+Domingo López Rodríguez, Emilio Muñoz Velasco, Manuel Ojeda Aciego
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1626732000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2021-cmmse" class="no-external">Topic Modelling in Social Networks with Formal Concept Analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2021-cmmse" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2021-cmmse" class="no-external">International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2021-cmmse" class="no-external">
+<div class="listing-date">
+20 July 2021
+</div>
+<div class="listing-author">
+P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1625090400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2021-icfca" class="no-external">Clustering and identification of core implications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2021-icfca" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2021-icfca" class="no-external">International Conference on Formal Concept Analysis (ICFCA) 2021</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2021-icfca" class="no-external">
+<div class="listing-date">
+1 July 2021
+</div>
+<div class="listing-author">
+Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1624917600000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2021-realdatafca" class="no-external">How to provide light to COVID data by means of FCA</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2021-realdatafca" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2021-realdatafca" class="no-external">RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2021-realdatafca" class="no-external">
+<div class="listing-date">
+29 June 2021
+</div>
+<div class="listing-author">
+Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1598911200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/journals/2020-eswa" class="no-external">A conversational recommender system for diagnosis using fuzzy rules</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/journals/2020-eswa" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/journals/2020-eswa" class="no-external"><em>Expert Systems with Applications</em>, volume 154, 2020</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/journals/2020-eswa" class="no-external">
+<div class="listing-date">
+1 September 2020
+</div>
+<div class="listing-author">
+Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1561932000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/conferences/2019-cmmse" class="no-external">Recommendations in CDSS using Fuzzy Formal Concept Analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2019-cmmse" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2019-cmmse" class="no-external">International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2019-cmmse" class="no-external">
+<div class="listing-date">
+1 July 2019
+</div>
+<div class="listing-author">
+P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>

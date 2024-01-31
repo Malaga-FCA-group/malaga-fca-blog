@@ -34,6 +34,21 @@ collect_bib(here::here("publications"))
 # Reset preview
 fs::dir_delete(here::here("_site"))
 
+folder <- here::here("projects")
+files <- list.files(
+  path = folder,
+  pattern = "index.preqmd$",
+  full.names = TRUE,
+  recursive = TRUE
+)
+
+source(
+  here::here("scripts",
+             "preqmd.R")
+)
+
+files |> lapply(process_preqmd)
+
 # folder <- here::here("publications")
 # journals <- list.files(
 #   path = file.path(folder, "journals"),

@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-published_works .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-published_works'] = new List('listing-published_works', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
@@ -104,6 +135,22 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -263,17 +310,60 @@ function showPopup() {
 </section>
 <section id="published-works" class="level1">
 <h1>Published works</h1>
-<ol>
-<br>
-<li>
-<a href="../..//publications/conferences/2023-iccs">C. Bejines, D. López-Rodríguez, and M. Ojeda-Hernández. “Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis”. In: <em>Graph-Based Representation and Reasoning - 28th International Conference on Conceptual Structures, ICCS 2023, Berlin, Germany, September 11-13, 2023, Proceedings</em>. Ed. by M. Ojeda-Aciego, K. Sauerwald and R. Jäschke. Vol. 14133. Lecture Notes in Computer Science. Springer, 2023, pp.&nbsp;28-35. DOI: 10.1007/978-3-031-40960-8_3. </a><a href="https://doi.org/10.1007/978-3-031-40960-8%5C_3" class="uri">https://doi.org/10.1007/978-3-031-40960-8%5C_3</a>.
-</li>
-<br>
-<li>
-<a href="../..//publications/journals/2023-insci">O. Krídlo, D. López-Rodríguez, L. Antoni, et al.&nbsp;“Connecting concept lattices with bonds induced by external information”. In: <em>Information Sciences</em> (2023), p.&nbsp;119498.</a>
-</li>
-<br>
-</ol>
+<div id="listing-published_works" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1694476800000">
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="published-works">
+<a href="../../publications/conferences/2023-iccs" class="no-external">Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/conferences/2023-iccs" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/conferences/2023-iccs" class="no-external"><em>International Conference on Conceptual Structures</em>, LNCS 14133, pp.&nbsp;28–35,</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/conferences/2023-iccs" class="no-external">
+<div class="listing-date">
+12 September 2023
+</div>
+<div class="listing-author">
+Carlos Bejines, Domingo López-Rodríguez, Manuel Ojeda-Hernández
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1691020800000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../publications/journals/2023-insci" class="no-external">Connecting concept lattices with bonds induced by external information</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../publications/journals/2023-insci" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../../publications/journals/2023-insci" class="no-external"><em>Information Sciences</em>, vol.&nbsp;648, november 2023, article 119498</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../publications/journals/2023-insci" class="no-external">
+<div class="listing-date">
+3 August 2023
+</div>
+<div class="listing-author">
+Ondrej Krídlo, Domingo López-Rodríguez, Lubomir Antoni, Peter Eliaš, Stanislav Krajči, Manuel Ojeda-Aciego
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
