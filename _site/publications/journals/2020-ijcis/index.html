@@ -6,10 +6,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora">
-<meta name="dcterms.date" content="2021-07-01">
+<meta name="author" content="Pablo Cordero">
+<meta name="author" content="Manuel Enciso">
+<meta name="author" content="Ángel Mora">
+<meta name="author" content="Manuel Ojeda-Aciego">
+<meta name="author" content="Carlos Rossi">
+<meta name="dcterms.date" content="2020-08-19">
+<meta name="keywords" content="Formal concept analysis; Simplification logic; Conversational recommender systems; Group recommender systems">
 
-<title>Málaga FCA Group - Conference paper accepted: Clustering and identification of core implications</title>
+<title>Málaga FCA Group - A Formal Concept Analysis Approach to Cooperative Conversational Recommendation</title>
+
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +31,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
-<script src="../../prism.js"></script>
+<script src="../../../prism.js"></script>
 <script>
 // Carga el archivo JavaScript de resaltado de sintaxis
 // (sustituye "prism.js" por el nombre del archivo que hayas descargado)
@@ -103,17 +109,17 @@ function showPopup() {
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Málaga FCA Group</span>
     </a>
   </div>
@@ -124,19 +130,19 @@ function showPopup() {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../people/index.html"> 
+    <a class="nav-link" href="../../../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html"> 
+    <a class="nav-link" href="../../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/index.html"> 
+    <a class="nav-link" href="../../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -152,57 +158,116 @@ function showPopup() {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Conference paper accepted: <em>Clustering and identification of core implications</em></h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Formal concept analysis</div>
-                <div class="quarto-category">Fuzzy logic</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">1 July 2021</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A Formal Concept Analysis Approach to Cooperative Conversational Recommendation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Formal concept analysis</div>
+    <div class="quarto-category">Recommendation system</div>
+    <div class="quarto-category">Simplification logic</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+            <p>Pablo Cordero 
+      </p>
+            <p>Manuel Enciso 
+      </p>
+            <p>Ángel Mora 
+      </p>
+            <p>Manuel Ojeda-Aciego 
+      </p>
+            <p>Carlos Rossi 
+      </p>
+          </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 August 2020</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Publication details</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">
+        <em>International Journal of Computational Intelligence Systems</em>, 13 (1), pp.&nbsp;1243 - 1252
+      </p>
+    </div>
+  </div>
+  
+  <div>
+    <div class="quarto-title-meta-heading">Links</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date" style="color: #fff !important;">
+            <a href="https://doi.org/10.2991/ijcis.d.200806.001" target="_blank" class="badge badge badge-blue">DOI</a>
+                                                
+      </p>
+    </div>
+
+  </div>
+</div>
 
 
 
 
+<p>&nbsp;</p>
 
-<p>The work <u>Clustering and identification of core implications</u> has been published in <em>International Conference on Formal Concept Analysis (ICFCA) 2021</em>.</p>
-<p><u>Abstract</u>:</p>
-<p>FCA exhaustively uses the notion of cluster by grouping attributes and objects and providing a solid algebraic structure to them through the concept lattice. Our proposal explores how we can cluster implications. This work opens a research line to study the knowledge inside the clusters computed from the Duquenne-Guigues basis. Some alternative measures to induce the clusters are analysed, taking into account the information that directly appears in the appearance and the semantics of the implications. This work also allows us to show the fcaR package, which has the main methods of FCA and the Simplification Logic. The paper ends with a motivation of the potential applications of performing clustering on the implications.</p>
-<p>For more details on this work, visit <a href="../../publications/conferences/2021-icfca">its own page</a>.</p>
+</header>
 
 
+
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<p>We focus on the development of a method to guide the choice of a set of users in an environment where the number of features describing the items is high and user interaction becomes laborious. Using the framework of formal concept analysis, particularly the notion of implication between attributes, we propose a method strongly based on logic which allows to manage the users’ preferences by following a conversational paradigm. Concerning complexity, to build the conversation and provide updated information based on the users’ previous actions (choices) the method has polynomial delay.</p>
+</section>
+<section id="citation" class="level1">
+<h1>Citation</h1>
+<p>Please, cite this work as:</p>
+<p><a name="bib-Cordero2020"></a><a href="#cite-Cordero2020">[Cor+20]</a> P. Cordero, M. Enciso, �. Mora, et al.&nbsp;“A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: <em>International Journal of Computational Intelligence Systems</em> 13 (1 2020), pp.&nbsp;1243-1252. ISSN: 1875-6883. DOI: <a href="https://doi.org/10.2991%2Fijcis.d.200806.001">10.2991/ijcis.d.200806.001</a>. URL: <a href="https://doi.org/10.2991/ijcis.d.200806.001">https://doi.org/10.2991/ijcis.d.200806.001</a>.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+BibTeX
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="citation" data-cites="article">@article</span>{Cordero2020,<br>&nbsp;&nbsp;&nbsp;&nbsp; title={A Formal Concept Analysis Approach to Cooperative Conversational Recommendation},<br>&nbsp;&nbsp;&nbsp;&nbsp; author={Pablo Cordero and Manuel Enciso and �ngel Mora and Manuel Ojeda-Aciego and Carlos Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp; year={2020},<br>&nbsp;&nbsp;&nbsp;&nbsp; journal={International Journal of Computational Intelligence Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp; volume={13},<br>&nbsp;&nbsp;&nbsp;&nbsp; issue={1},<br>&nbsp;&nbsp;&nbsp;&nbsp; pages={1243-1252},<br>&nbsp;&nbsp;&nbsp;&nbsp; issn={1875-6883},<br>&nbsp;&nbsp;&nbsp;&nbsp; url={https://doi.org/10.2991/ijcis.d.200806.001},<br>&nbsp;&nbsp;&nbsp;&nbsp; doi={10.2991/ijcis.d.200806.001}<br>}</p>
+</div>
+</div>
+</div>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -592,10 +657,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="quarto-dev/quarto-docs" data-repo-id="" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 
 

@@ -1,0 +1,49 @@
+---
+author:
+- Pablo Cordero
+- Manuel Enciso
+- Ángel Mora
+- Manuel Ojeda-Aciego
+- Carlos Rossi
+Status: Published
+date: '2020-08-19T00:00:00Z'
+slug: 2020-ijcis
+title: A Formal Concept Analysis Approach to Cooperative Conversational Recommendation
+categories:
+- Formal concept analysis
+- Recommendation system
+- Simplification logic
+header_image: ~
+details: <em>International Journal of Computational Intelligence Systems</em>, 13
+  (1), pp. 1243 - 1252
+doi: 10.2991/ijcis.d.200806.001
+project: ~
+keywords: Formal concept analysis; Simplification logic; Conversational recommender
+  systems; Group recommender systems
+---
+
+
+# Abstract
+
+We focus on the development of a method to guide the choice of a set of users in an environment where the number of features describing the items is high and user interaction becomes laborious. Using the framework of formal concept analysis, particularly the notion of implication between attributes, we propose a method strongly based on logic which allows to manage the users' preferences by following a conversational paradigm. Concerning complexity, to build the conversation and provide updated information based on the users' previous actions (choices) the method has polynomial delay.
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2020></a>[[Cor+20]](#cite-Cordero2020) P. Cordero, M. Enciso, �. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13 (1 2020), pp. 1243-1252. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [https://doi.org/10.2991/ijcis.d.200806.001](https://doi.org/10.2991/ijcis.d.200806.001).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{Cordero2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={A Formal Concept Analysis Approach to Cooperative Conversational Recommendation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Pablo Cordero and Manuel Enciso and �ngel Mora and Manuel Ojeda-Aciego and Carlos Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal={International Journal of Computational Intelligence Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume={13},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issue={1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={1243-1252},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn={1875-6883},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url={https://doi.org/10.2991/ijcis.d.200806.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi={10.2991/ijcis.d.200806.001}<br>}
+
+:::
+
+

@@ -6,6 +6,9 @@ date: '2008-06-01'
 categories:
 - Fuzzy sets
 - Regression
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Adjust of Contradictory Information by a Fuzzy Method</u> has been published in <em><em>Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering</em></em>.

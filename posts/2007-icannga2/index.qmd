@@ -8,6 +8,9 @@ categories:
 - Competitive learning
 - Neural networks
 - Image processing
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Improved Production of Competitive Learning Rules with an Additional Term for Vector Quantization</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4431), PART 1, <em>pp. 461&ndash;469</em></em>.

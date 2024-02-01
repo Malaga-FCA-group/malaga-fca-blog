@@ -6,6 +6,9 @@ date: '2005-04-01'
 categories:
 - Combinatorial optimization
 - Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Aplicación neuronal del enfriamiento funcional discreto al problema del viajante</u> has been published in <em><em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados</em> 2005</em>.

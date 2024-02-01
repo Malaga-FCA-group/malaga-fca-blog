@@ -6,6 +6,9 @@ date: '2006-04-01'
 categories:
 - Combinatorial optimization
 - Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Enhanced maxcut clustering with multivalued neural networks and functional annealing</u> has been published in <em>ESANN 2006 Proceedings - 14th European Symposium on Artificial Neural Networks, <em>pp. 25&ndash;30</em></em>.

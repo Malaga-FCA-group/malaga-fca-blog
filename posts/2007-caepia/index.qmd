@@ -6,6 +6,9 @@ date: '2007-11-01'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree Problem</u> has been published in <em><em>Congreso de la Asociación Española para la Inteligencia Artificial</em> 2007</em>.

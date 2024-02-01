@@ -5,6 +5,9 @@ author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez
   Del Carmen Vargas-Gonzalez
 date: '2008-01-01'
 categories: Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Robust nonparametric probability density estimation by soft clustering</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (5163 LNCS), PART 1, <em>pp. 155-164</em></em>.

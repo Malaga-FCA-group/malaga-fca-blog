@@ -7,6 +7,9 @@ date: '2007-07-01'
 categories:
 - Combinatorial optimization
 - Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut</u> has been published in <em><em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2007</em></em>.

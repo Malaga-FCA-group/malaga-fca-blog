@@ -8,6 +8,9 @@ categories:
 - E-learning
 - Formal concept analysis
 - Fuzzy logic
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Using Logic to Determine Key Items in Math Education</u> has been published in <em>IADIS International Conference e-Learning 2021 (part of MCCSIS 2021)</em>.

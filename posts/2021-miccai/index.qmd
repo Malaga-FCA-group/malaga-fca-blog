@@ -5,6 +5,9 @@ author: Rosa Maza-Quiroga, Karl Thurnhofer-Hemsi, Domingo López-Rodríguez, Eze
   López-Rubio
 date: '2021-09-27'
 categories: Neuroimage
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Rician noise estimation for 3D Magnetic Resonance Images based on Benford's Law</u> has been published in <em>24th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021</em>.

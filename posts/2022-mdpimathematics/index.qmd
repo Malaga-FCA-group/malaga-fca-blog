@@ -11,6 +11,9 @@ date: '2022-02-16T00:00:00Z'
 categories:
 - Formal concept analysis
 - Fuzzy logic
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach</u> has been published in <em><em>Mathematics, 10</em>(4) 607</em>.

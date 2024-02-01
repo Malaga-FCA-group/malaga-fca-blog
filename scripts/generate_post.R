@@ -52,7 +52,8 @@ generate_posts_from_publications <- function(file,
     title = glue::glue(my_title),
     author = L$author,
     date = L$date,
-    categories = L$categories
+    categories = L$categories,
+    comments = list(giscus = list(repo = "quarto-dev/quarto-docs"))
   )
 
   YAML <- yaml::as.yaml(post_header)

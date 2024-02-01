@@ -6,6 +6,9 @@ date: '2006-11-01'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Stochastic multivalued network for optimization. Application to the graph MaxCut problem</u> has been published in <em>International Conference on Computational Intelligence, Man-Machine Systems and Cybernetics - Proceedings, (1), <em>pp. 111-116</em></em>.

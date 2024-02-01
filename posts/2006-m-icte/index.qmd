@@ -4,6 +4,9 @@ title: 'Conference paper accepted: <em>Development of a virtual learning communi
 author: Ángel Mora, Enrique Mérida-Casermeiro, Domingo López-Rodríguez
 date: '2006-07-01'
 categories: E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Development of a virtual learning community for the subject Numerical Methods under Moodle</u> has been published in <em><em>Current Developments in Technology-Assisted Education</em> 2006</em>.

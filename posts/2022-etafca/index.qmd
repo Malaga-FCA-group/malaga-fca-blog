@@ -5,6 +5,9 @@ date: '2022-06-22T00:00:00Z'
 categories:
 - R package
 - Formal concept analysis
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>fcaR, Spreading FCA to the Data Science World</u> has been published in <em><em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em></em>.

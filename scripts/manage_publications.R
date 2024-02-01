@@ -69,8 +69,8 @@ plot_citation_history <- function(df) {
                color = "#2660A4") +
     theme_minimal() +
     theme(legend.title = element_blank(),
-          plot.background = element_rect(fill = "#FAF8F8"),
-          panel.background = element_rect(fill = "#FAF8F8"),
+          plot.background = element_rect(fill = "#FFFFFF"),
+          panel.background = element_rect(fill = "#FFFFFF"),
           legend.position = "bottom") +
     scale_x_continuous(breaks = df$year)
   plotly::ggplotly(gpubs) |>

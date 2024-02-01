@@ -8,6 +8,9 @@ author:
 - Ezequiel López-Rubio
 date: '2023-12-13T00:00:00Z'
 categories: Neuroimage
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Regression of the Rician Noise Level in 3D Magnetic Resonance Images from the Distribution of the First Significant Digit</u> has been published in <em><em>Axioms</em>, 12(12), 1117</em>.

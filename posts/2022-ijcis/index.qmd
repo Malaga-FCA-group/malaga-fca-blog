@@ -12,6 +12,9 @@ categories:
 - Formal concept analysis
 - Fuzzy logic
 - E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course</u> has been published in <em><em>International Journal of Computational Intelligence Systems</em>, 15:58</em>.

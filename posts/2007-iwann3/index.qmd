@@ -7,6 +7,9 @@ date: '2007-01-01'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Two pages graph layout via recurrent multivalued neural networks</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 194-202</em></em>.

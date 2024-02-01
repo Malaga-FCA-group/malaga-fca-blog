@@ -3,6 +3,9 @@ title: 'Conference paper accepted: <em>Improving Moodle with WIRIS and M-QIT</em
 author: Ángel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2010-07-01'
 categories: E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Improving Moodle with WIRIS and M-QIT</u> has been published in <em><em>Proceedings of the 12th International Conference on Enterprise Information Systems</em>, Volume 4</em>.

@@ -11,6 +11,9 @@ date: '2018-11-20T00:00:00Z'
 categories:
 - Simplification logic
 - Formal concept analysis
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Direct-optimal basis computation by means of the fusion of simplification rules</u> has been published in <em><em>Discrete Applied Mathematics</em> 249, pp. 106 - 119</em>.

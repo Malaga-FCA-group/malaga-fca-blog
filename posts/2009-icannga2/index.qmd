@@ -7,6 +7,9 @@ date: '2009-04-27'
 categories:
 - Neural networks
 - Image processing
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Growing Competitive Network for Tracking Objects in Video Sequences</u> has been published in <em>International Conference on Adaptive and Natural Computing Algorithms 2009, pp 109 &ndash; 118</em>.

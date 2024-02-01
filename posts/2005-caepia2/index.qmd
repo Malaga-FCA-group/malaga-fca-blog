@@ -6,6 +6,9 @@ date: '2005-11-01'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Neural Formulation of Functional Annealing and Application to Traveling Salesman Problem</u> has been published in <em><em>XI Conferencia de la Asociación Española para la Inteligencia Artificial</em> 2005</em>.

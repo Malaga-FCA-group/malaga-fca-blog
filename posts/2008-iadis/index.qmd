@@ -4,6 +4,9 @@ author: Angel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodrígue
   Fernando López Anguita
 date: '2008-01-01'
 categories: E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Integration Of Moodle Quizzes</u> has been published in <em>{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings, <em>pp. 45&ndash;52</em></em>.

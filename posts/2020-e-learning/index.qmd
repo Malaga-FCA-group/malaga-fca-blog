@@ -7,6 +7,9 @@ date: '2020-07-22'
 categories:
 - E-learning
 - Formal concept analysis
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessment of a Math Course</u> has been published in <em>IADIS International Conference e-Learning 2020 (part of MCCSIS 2020)</em>.

@@ -7,6 +7,9 @@ categories:
 - Neural networks
 - Competitive learning
 - Principal component analysis
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Self-organization of probabilistic PCA models</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 211-218</em></em>.

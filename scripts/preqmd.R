@@ -277,6 +277,8 @@ citation_of_work <- function(header, folder) {
       which()
     n <- length(txt)
 
+    browser()
+
     new_txt <- c(txt[init], "<br>&nbsp;&nbsp;&nbsp;&nbsp;",
                  stringr::str_flatten(txt[-c(1:init, end:n)], "<br>&nbsp;&nbsp;&nbsp;&nbsp;"),
                  "<br>", txt[end])

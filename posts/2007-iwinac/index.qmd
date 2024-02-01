@@ -7,6 +7,9 @@ date: '2007-01-01'
 categories:
 - Pattern recognition
 - Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Theoretical Study on the Capacity of Associative Memory with Multiple Reference Points</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4527), PART 1, <em>pp. 292&ndash;302</em></em>.

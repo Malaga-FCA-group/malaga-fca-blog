@@ -10,6 +10,9 @@ author:
 - Luis Pérez-Urrestarazu
 date: '2022-12-01T00:00:00Z'
 categories: Sustainability
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities</u> has been published in <em><em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783</em>.

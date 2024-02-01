@@ -4,6 +4,9 @@ author: Esteban J. Palomo, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-R
   Rafael Marcos Luque Baena
 date: '2009-06-29'
 categories: Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Hierarchical Graphs for Data Clustering</u> has been published in <em>International Work-conference on Artificial Neural Networks (IWANN) pp 432-439</em>.

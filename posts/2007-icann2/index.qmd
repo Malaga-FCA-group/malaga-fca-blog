@@ -5,6 +5,9 @@ author: Ezequiel López-Rubio, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo Lóp
   María del Carmen Vargas-González
 date: '2007-01-01'
 categories: Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Soft Clustering for Nonparametric Probability Density Function Estimation</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4668 LNCS), PART 1, <em>pp. 707-716</em></em>.

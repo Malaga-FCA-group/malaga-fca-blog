@@ -6,6 +6,9 @@ date: '2008-09-10'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Drawing Graphs in Parallel Lines with Artificial Neural Networks</u> has been published in <em>Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008: 667-671</em>.

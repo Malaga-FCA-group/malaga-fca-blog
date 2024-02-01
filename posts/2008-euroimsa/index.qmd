@@ -4,6 +4,9 @@ author: S. Merino Córdoba, J. Martínez Del Castillo, G. Gutiérrez Barranco, A
   Domingo López-Rodríguez, E. Mérida-Casermeiro
 date: '2008-01-01'
 categories: E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Fnova: Fermat and joomla fusion</u> has been published in <em>Proceedings of the IASTED International Conference on Internet and Multimedia Systems and Applications and Visual Communications, <em>pp. 15-20</em></em>.

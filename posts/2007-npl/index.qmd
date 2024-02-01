@@ -9,6 +9,9 @@ date: '2007-10-01'
 categories:
 - Neural networks
 - Combinatorial optimization
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Improving neural networks for mechanism kinematic chain isomorphism identification</u> has been published in <em><em>Neural Processing Letters</em> vol 26 (2), 133-143</em>.

@@ -7,6 +7,9 @@ date: '2022-05-31T00:00:00Z'
 categories:
 - Machine learning
 - Neuroimage
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum Disorders</u> has been published in <em><em>9th International Work-Conference on the Interplay Between Natural and Artificial Computation</em></em>.

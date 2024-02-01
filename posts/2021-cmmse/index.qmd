@@ -6,6 +6,9 @@ date: '2021-07-20'
 categories:
 - Formal concept analysis
 - Text mining
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Topic Modelling in Social Networks with Formal Concept Analysis</u> has been published in <em>International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021</em>.

@@ -4,6 +4,9 @@ title: 'Conference paper accepted: <em>Hopfield Network as Associative Memory wi
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazcano-Lobato
 date: '2005-08-01'
 categories: Neural networks
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Hopfield Network as Associative Memory with Multiple Reference Points</u> has been published in <em>International Enformatika Conference, IEC&#39;05, August 26-28, 2005, Prague, Czech Republic, , <em>pp. 62&ndash;67</em></em>.

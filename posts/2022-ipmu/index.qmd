@@ -4,6 +4,9 @@ author: Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Ro
   Angel Mora
 date: '2022-07-13T00:00:00Z'
 categories: Formal concept analysis
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Computing the Mixed Concept Lattice</u> has been published in <em><em>International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</em></em>.

@@ -9,6 +9,9 @@ date: '2023-02-03T00:00:00Z'
 categories:
 - Formal concept analysis
 - Text mining
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Lexicon-based sentiment analysis in texts using Formal Concept Analysis</u> has been published in <em><em>International Journal of Approximate Reasoning</em>, vol. 155, pp 104-112</em>.

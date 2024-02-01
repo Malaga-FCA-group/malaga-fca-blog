@@ -8,6 +8,9 @@ author:
 - Vilem Vychodil
 date: '2022-06-03'
 categories: Simplification logic
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Parameterized Simplification Logic: Reasoning With Implications in an Automated Way</u> has been published in <em><em>IEEE Transactions on Fuzzy Systems</em> vol 30 (12), 5534 - 5543</em>.

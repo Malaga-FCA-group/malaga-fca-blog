@@ -5,6 +5,9 @@ author:
 - Carlos Criado
 date: '2004-11-01T00:00:00Z'
 categories: E-learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>A Pedagogical Simulation of Maxwell's Demon</u> has been published in <em><em>Journal of Chemical Education</em>, 81(11), pp. 1679</em>.

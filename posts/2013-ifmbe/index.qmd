@@ -6,6 +6,9 @@ date: '2013-03-01'
 categories:
 - Neuroimage
 - Machine learning
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Predictive and Populational Model for Alzheimer's Disease Using Structural Neuroimaging</u> has been published in <em><em>XIII Mediterranean Conference on Medical and Biological Engineering and Computing</em> 2013</em>.
