@@ -23,11 +23,6 @@ project:
 - 2019-PIE-clustering
 keywords: Formal concept analysis, Logic, Minimal generators, Mathematics education,
   Negation
-listing:
-- id: funding
-  contents: funding.yml
-  type: default
-  sort: date desc
 ---
 
 # Abstract

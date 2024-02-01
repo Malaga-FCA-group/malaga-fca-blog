@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Local selection of model parameters in probability density
-  function estimation</em>
+title: 'Conference paper accepted: <em>Local selection of model parameters in probability
+  density function estimation</em>'
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, E.
   Mérida-Casermeiro, M. Del Carmen Vargas-González
 date: '2006-09-01'
@@ -12,5 +12,10 @@ The work <u>Local selection of model parameters in probability density function 
 <u>Abstract</u>:
 
 
+
 Here we present a novel probability density estimation model. The classical Parzen window approach builds a spherical Gaussian density around every input sample. Our proposal selects a Gaussian specifically tuned for each sample, with an automated estimation of the local intrinsic dimensionality of the embedded manifold and the local noise variance. This leads to outperform other proposals where local parameter selection is not allowed, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2006.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2006-icann2'>its own page</a>.

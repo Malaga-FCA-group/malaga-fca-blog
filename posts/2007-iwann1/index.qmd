@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Automatic Model Selection for Probabilistic {PCA}</em>
+title: 'Conference paper accepted: <em>Automatic Model Selection for Probabilistic
+  {PCA}</em>'
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M.
   Del Carmen Vargas-González
 date: '2007-01-01'
@@ -13,5 +14,10 @@ The work <u>Automatic Model Selection for Probabilistic {PCA}</u> has been publi
 <u>Abstract</u>:
 
 
+
 The Mixture of Probabilistic Principal Components Analyzers (MPPCA) is a multivariate analysis technique which defines a Gaussian probabilistic model at each unit. The number of units and principal directions in each unit is not learned in the original approach. Variational Bayesian approaches have been proposed for this purpose, which rely on assumptions on the input distribution and/or approximations of certain statistics. Here we present a different way to solve this problem, where cross-validation is used to guide the search for an optimal model selection. This allows to learn the model architecture without the need of any assumptions other than those of the basic PPCA framework. Experimental results are presented, which show the probability density estimation capabilities of the proposal with high dimensional data. © Springer-Verlag Berlin Heidelberg 2007.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2007-iwann1'>its own page</a>.

@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Global-local learning strategies in probabilistic principal
-  components analysis</em>
+title: 'Conference paper accepted: <em>Global-local learning strategies in probabilistic
+  principal components analysis</em>'
 author: E. López-Rubio, J.M. Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez, E.
   Mérida-Casermeiro, M.D.C. Vargas-González
 date: '2006-01-01'
@@ -15,5 +15,10 @@ The work <u>Global-local learning strategies in probabilistic principal componen
 <u>Abstract</u>:
 
 
+
 We present a neural model which extends classical competitive learning by performing a Probabilistic Principal Components Analysis at each neuron. In the learning process is utilized a competition rule which try to get the better representation of the dataset while maintaining the homogeneity of the formed clusters. The model also has the ability to learn the number of basis vectors required to represent the principal directions of each cluster, so it overcomes a drawback of most local PCA models, where the dimensionality of a cluster must be fixed a priori.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2006-asc'>its own page</a>.

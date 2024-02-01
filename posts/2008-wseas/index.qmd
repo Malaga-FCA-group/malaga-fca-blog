@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>A generalization of the Hopfield model for the graph isomorphism
-  problem</em>
+title: 'Conference paper accepted: <em>A generalization of the Hopfield model for
+  the graph isomorphism problem</em>'
 author: Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2008-09-01'
 categories:
@@ -13,5 +13,10 @@ The work <u>A generalization of the Hopfield model for the graph isomorphism pro
 <u>Abstract</u>:
 
 
+
 Isomorphism identification between graphs is an important NP-complete problem with many science and engineering applications. Although excellent progresses have been made towards special graphs, no known polynomial-time algorithm for graph isomorphism has been found for general graphs. In this paper a generalization of the Hopfield neural network for isomorphism identification between general graphs is proposed. Simulation results show that this model is much superior to recently presented neural networks for this problem. The effectiveness of the resultant network does not seem to be decreased as the size of the graph is increased. This allows us to solve graph isomorphism problems with a big number of vertices, while many recently presented approaches only present results for graphs with up to 15 vertices.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2008-wseas'>its own page</a>.

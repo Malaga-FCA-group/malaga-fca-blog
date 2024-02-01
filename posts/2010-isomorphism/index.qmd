@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>A New Multivalued Neural Network for Isomorphism Identification
-  of Kinematic Chains</em>
+title: 'New journal paper: <em>A New Multivalued Neural Network for Isomorphism Identification
+  of Kinematic Chains</em>'
 author:
 - Gloria Galán Marín
 - Domingo López-Rodríguez
@@ -16,5 +16,10 @@ The work <u>A New Multivalued Neural Network for Isomorphism Identification of K
 <u>Abstract</u>:
 
 
+
 A lot of methods have been proposed for the kinematic chain isomorphism problem. However, the tool is still needed in building intelligent systems for product design and manufacturing. In this paper, we design a novel multivalued neural network that enables a simplified formulation of the graph isomorphism problem. In order to improve the performance of the model, an additional constraint on the degree of paired vertices is imposed. The resulting discrete neural algorithm converges rapidly under any set of initial conditions and does not need parameter tuning. Simulation results show that the proposed multivalued neural network performs better than other recently presented approaches.
 
+
+
+
+For more details on this work, visit <a href='/publications/journals/2010-isomorphism'>its own page</a>.

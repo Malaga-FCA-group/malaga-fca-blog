@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Using Formal Concept Analysis to Explore Hidden Knowledge
-  in the Assessment of a Math Course</em>
+title: 'Conference paper accepted: <em>Using Formal Concept Analysis to Explore Hidden
+  Knowledge in the Assessment of a Math Course</em>'
 author: Francisco Pérez-Gámez, Manuel Ojeda-Hernández, Ángel Mora Bonilla, Domingo
   López-Rodríguez, Nicolas Madrid
 date: '2020-07-22'
@@ -14,5 +14,10 @@ The work <u>Using Formal Concept Analysis to Explore Hidden Knowledge in the Ass
 <u>Abstract</u>:
 
 
+
 Since the emergence of COVID-19, online teaching and e-Learning has become essential in education. Actually, in at our University, we have had to move to a complete online teaching framework through the Moodle e-learning system. As a result, we have had to deploy new material as videos in Youtube channels, new exercises, tasks, live teaching, etc that have generated a huge amount of data that contains interesting information. In particular, we have used randomly generated exams from a bank of quizzes to evaluate the students. In this paper, we analyze the results of these quizzes using Formal Concept Analysis tools in order to check the hidden knowledge in the assessment process with the goal of improving the developed material for next years. In addition, we will analyze how the different exercises and tests relate to each other so that we can use this information in the following courses to improve our lectures.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2020-e-learning'>its own page</a>.

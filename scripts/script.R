@@ -50,6 +50,9 @@ publications <- c(
 
 publications |> sapply(process_preqmd)
 
+source(here::here("scripts",
+                  "generate_post.R"))
+
 # Make actual preview and render
 quarto::quarto_preview()
 

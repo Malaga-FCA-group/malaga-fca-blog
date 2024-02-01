@@ -1,5 +1,5 @@
 ---
-title: 'Publication of <em>Matrix Bandwith Minimization: A Neural Approach</em>'
+title: 'Conference paper accepted: <em>Matrix Bandwith Minimization: A Neural Approach</em>'
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2004-09-01'
 categories:
@@ -12,5 +12,10 @@ The work <u>Matrix Bandwith Minimization: A Neural Approach</u> has been publish
 <u>Abstract</u>:
 
 
+
 The aim of this paper is to present a neural technique to tackle the bandwidth minimization problem. This neural model, successfully applied to other problems, presents better solutions than those of other classical approaches to this problem, as shown by the simulations performed.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2004-iccmse1'>its own page</a>.

@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Enhanced maxcut clustering with multivalued neural networks
-  and functional annealing</em>
+title: 'Conference paper accepted: <em>Enhanced maxcut clustering with multivalued
+  neural networks and functional annealing</em>'
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazcano-Lobato
 date: '2006-04-01'
 categories:
@@ -13,5 +13,10 @@ The work <u>Enhanced maxcut clustering with multivalued neural networks and func
 <u>Abstract</u>:
 
 
+
 In this work a new algorithm to improve the performance of optimization methods, by means of avoiding certain local optima, is described. Its theoretical bases are presented in a rigorous, but intuitive, way. It has been applied concretely to the case of recurrent neural networks, in particular to MREM, a multivalued recurrent model, that has proved to obtain very good results when dealing with NP-complete combinatorial optimization problems. In order to show its efficiency, the well-known MaxCut problem for graphs has been selected as benchmark. Our proposal outperforms other specialized and powerful techniques, as shown by simulations.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2006-esann'>its own page</a>.

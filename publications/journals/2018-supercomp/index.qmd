@@ -1,0 +1,44 @@
+---
+author:
+- Fernando Benito-Picazo
+- Pablo Cordero
+- Manuel Enciso
+- Ángel Mora
+Status: Published
+date: '2018-06-04'
+slug: 2018-supercomp
+title: Minimal generators, an affordable approach by means of massive computation
+categories: Formal concept analysis
+header_image: ~
+details: <em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367
+doi: 10.1007/s11227-018-2453-z
+project: ~
+keywords: ''
+---
+
+
+
+# Abstract
+
+
+Closed sets and minimal generators are fundamental elements to build a complete knowledge representation in formal concept analysis. The enumeration of all the closed sets and their minimal generators from a set of rules or implications constitutes a complex problem, drawing an exponential cost. Even for small datasets, such representation can demand an exhaustive management of the information stored as attribute implications. In this work, we tackle this problem by merging two strategies. On the one hand, we design a pruning, strongly based on logic properties, to drastically reduce the search space of the method. On the other hand, we consider a parallelization of the problem leading to a massive computation by means of a map-reduce like paradigm. In this study we have characterized the type of search space reductions suitable for parallelization. Also, we have analyzed different situations to provide an orientation of the resources (number of cores) needed for both the parallel architecture and the size of the problem in the splitting stage to take advantage in the map stage.
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Benito-Picazo2019></a>[[Ben+19]](#cite-Benito-Picazo2019) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _The Journal of Supercomputing_ 75.3 (Mar. 2019), pp. 1350-1367. ISSN: 1573-0484. DOI: [10.1007/s11227-018-2453-z](https://doi.org/10.1007%2Fs11227-018-2453-z). URL: [https://doi.org/10.1007/s11227-018-2453-z](https://doi.org/10.1007/s11227-018-2453-z).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Benito-Picazo2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;author={Benito-Picazo, F.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Cordero, P.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Enciso, M.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Mora, A.},<br>&nbsp;&nbsp;&nbsp;&nbsp;title={Minimal generators, an affordable approach by means of massive computation},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal={The Journal of Supercomputing},<br>&nbsp;&nbsp;&nbsp;&nbsp;year={2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;month={Mar},<br>&nbsp;&nbsp;&nbsp;&nbsp;day={01},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume={75},<br>&nbsp;&nbsp;&nbsp;&nbsp;number={3},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages={1350-1367},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract={Closed sets and minimal generators are fundamental elements to build a complete knowledge representation in formal concept analysis. The enumeration of all the closed sets and their minimal generators from a set of rules or implications constitutes a complex problem, drawing an exponential cost. Even for small datasets, such representation can demand an exhaustive management of the information stored as attribute implications. In this work, we tackle this problem by merging two strategies. On the one hand, we design a pruning, strongly based on logic properties, to drastically reduce the search space of the method. On the other hand, we consider a parallelization of the problem leading to a massive computation by means of a map-reduce like paradigm. In this study we have characterized the type of search space reductions suitable for parallelization. Also, we have analyzed different situations to provide an orientation of the resources (number of cores) needed for both the parallel architecture and the size of the problem in the splitting stage to take advantage in the map stage.},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn={1573-0484},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi={10.1007/s11227-018-2453-z},<br>&nbsp;&nbsp;&nbsp;&nbsp;url={https://doi.org/10.1007/s11227-018-2453-z}<br>}
+
+:::
+
+

@@ -1,0 +1,24 @@
+---
+title: 'New journal paper: <em>Parameterized simplification logic I: reasoning with
+  implications and classes of closure operators</em>'
+author:
+- Pablo Cordero
+- Manuel Enciso
+- Ángel Mora
+- Vilem Vychodil
+date: '2020-08-06'
+categories: Simplification logic
+---
+
+The work <u>Parameterized simplification logic I: reasoning with implications and classes of closure operators</u> has been published in <em><em>International Journal of General Systems</em> vol 49 (7), pp. 724 -- 746</em>.
+
+<u>Abstract</u>:
+
+
+
+In this paper, we present a general inference system for reasoning with if-then rules. They are defined using general lattice-theoretic notions and their semantics is defined using particular closure operators parameterized by systems of isotone Galois connections. In this general setting, we introduce a simplification logic, show its sound and complete axiomatization, and deal with related issues. The presented results can be seen as forming parameterized framework for dealing with if-then rules that allows to focus on particular dependencies obtained by choices of parameterizations.
+
+
+
+
+For more details on this work, visit <a href='/publications/journals/2020-ijgs'>its own page</a>.

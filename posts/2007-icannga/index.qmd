@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>A Study into the Improvement of Binary Hopfield Networks
-  for Map Coloring</em>
+title: 'Conference paper accepted: <em>A Study into the Improvement of Binary Hopfield
+  Networks for Map Coloring</em>'
 author: G. Galán-Marín, E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-De-Lazcano-Lobato
 date: '2007-01-01'
 categories:
@@ -13,5 +13,10 @@ The work <u>A Study into the Improvement of Binary Hopfield Networks for Map Col
 <u>Abstract</u>:
 
 
+
 The map-coloring problem is a well known combinatorial optimization problem which frequently appears in mathematics, graph theory and artificial intelligence. This paper presents a study into the performance of some binary Hopfield networks with discrete dynamics for this classic problem. A number of instances have been simulated to demonstrate that only the proposed binary model provides optimal solutions. In addition, for large-scale maps an algorithm is presented to improve the local minima of the network by solving gradually growing submaps of the considered map. Simulation results for several n-region 4-color maps showed that the proposed neural algorithm converged to a correct colouring from at least 90% of initial states without the fine-tuning of parameters required in another Hopfield models. © Springer-Verlag Berlin Heidelberg 2007.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2007-icannga'>its own page</a>.

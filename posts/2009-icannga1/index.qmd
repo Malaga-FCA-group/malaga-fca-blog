@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Shortest Common Superstring Problem with Discrete Neural
-  Networks</em>
+title: 'Conference paper accepted: <em>Shortest Common Superstring Problem with Discrete
+  Neural Networks</em>'
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2009-04-27'
 categories: ~
@@ -11,5 +11,10 @@ The work <u>Shortest Common Superstring Problem with Discrete Neural Networks</u
 <u>Abstract</u>:
 
 
+
 In this paper, we investigate the use of artificial neural networks in order to solve the Shortest Common Superstring Problem. Concretely, the neural network used in this work is based on a multivalued model, MREM, very suitable for solving combinatorial optimization problems. We describe the foundations of this neural model, and how it can be implemented in the context of this problem, by taking advantage of a better representation than in other models, which, in turn, contributes to ease the computational dynamics of the model. Experimental results prove that our model outperforms other heuristic approaches known from the specialized literature.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2009-icannga1'>its own page</a>.

@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Soft Clustering for Nonparametric Probability Density Function
-  Estimation</em>
+title: 'Conference paper accepted: <em>Soft Clustering for Nonparametric Probability
+  Density Function Estimation</em>'
 author: Ezequiel López-Rubio, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez,
   María del Carmen Vargas-González
 date: '2007-01-01'
@@ -12,5 +12,10 @@ The work <u>Soft Clustering for Nonparametric Probability Density Function Estim
 <u>Abstract</u>:
 
 
+
 We present a nonparametric probability density estimation model. The classical Parzen window approach builds a spherical Gaussian density around every input sample. Our method has a first stage where hard neighbourhoods are determined for every sample. Then soft clusters are considered to merge the information coming from several hard neighbourhoods. Our proposal estimates the local principal directions to yield a specific Gaussian mixture component for each soft cluster. This leads to outperform other proposals where local parameter selection is not allowed and/or there are no smoothing strategies, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2007.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2007-icann2'>its own page</a>.

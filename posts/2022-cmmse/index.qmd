@@ -1,5 +1,5 @@
 ---
-title: Publication of <em>Mining Fuzzy Concept Lattices</em>
+title: 'Conference paper accepted: <em>Mining Fuzzy Concept Lattices</em>'
 author: Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
 date: '2022-07-04T00:00:00Z'
 categories: Formal concept analysis
@@ -8,6 +8,7 @@ categories: Formal concept analysis
 The work <u>Mining Fuzzy Concept Lattices</u> has been published in <em>the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em></em>.
 
 <u>Abstract</u>:
+
 
 
 One of the ways to represent the implicit knowledge in a binary dataset
@@ -37,3 +38,7 @@ One of the ways to represent the implicit knowledge in a binary dataset
   in which optimised algorithms can be deduced and built ad hoc for the computation
   of the fuzzy concept lattice.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2022-cmmse'>its own page</a>.

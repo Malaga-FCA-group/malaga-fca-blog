@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Drawing Graphs in Parallel Lines with Artificial Neural
-  Networks</em>
+title: 'Conference paper accepted: <em>Drawing Graphs in Parallel Lines with Artificial
+  Neural Networks</em>'
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2008-09-10'
 categories:
@@ -13,5 +13,10 @@ The work <u>Drawing Graphs in Parallel Lines with Artificial Neural Networks</u>
 <u>Abstract</u>:
 
 
+
 COVID data are usually presented in a non-structured format and mainly focused on healthy issues (incidence, mortality, etc). At the same time, Governments have designed a set of measures to deal with the Pandemic. In addition, several institutions have studied the economical effects of the situation in each country. In this work, we combine these three data sources and  illustrate how Formal Concept Analysis can become a useful tool to discover relationships among these three views of the situation: health, politics and economy. Our aim is to provide an implication-driven approach to discover knowledge behind the data.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2008-his2'>its own page</a>.

@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Improved Production of Competitive Learning Rules with an
-  Additional Term for Vector Quantization</em>
+title: 'Conference paper accepted: <em>Improved Production of Competitive Learning
+  Rules with an Additional Term for Vector Quantization</em>'
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Gloria Galán Marín, Juan
   Miguel Ortiz-de-Lazcano-Lobato
 date: '2007-01-01'
@@ -15,5 +15,10 @@ The work <u>Improved Production of Competitive Learning Rules with an Additional
 <u>Abstract</u>:
 
 
+
 In this work, a general framework for developing learning rules with an added term (perturbation term) is presented. Many learning rules commonly cited in the specialized literature can be derived from this general framework. This framework allows us to introduce some knowledge about vector quantization (as an optimization problem) in the distortion function in order to derive a new learning rule that uses that information to avoid certain local minima of the distortion function, leading to better performance than classical models. Computational experiments in image compression show that our proposed rule, derived from this general framework, can achieve better results than simple competitive learning and other models, with codebooks of less distortion. © Springer-Verlag Berlin Heidelberg 2007.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2007-icannga2'>its own page</a>.

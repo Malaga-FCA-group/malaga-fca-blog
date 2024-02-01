@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Regression of the Rician Noise Level in 3D Magnetic Resonance
-  Images from the Distribution of the First Significant Digit</em>
+title: 'New journal paper: <em>Regression of the Rician Noise Level in 3D Magnetic
+  Resonance Images from the Distribution of the First Significant Digit</em>'
 author:
 - Rosa María Maza-Quiroga
 - Karl Thurnhofer-Hemsi
@@ -15,5 +15,10 @@ The work <u>Regression of the Rician Noise Level in 3D Magnetic Resonance Images
 <u>Abstract</u>:
 
 
+
 This paper investigates the distribution characteristics of Fourier, discrete cosine, and discrete sine transform coefficients in T1 MRI images. This paper reveals their adherence to Benford’s law, characterized by a logarithmic distribution of first digits. The impact of Rician noise on the first digit distribution is examined, which causes deviations from the ideal distribution. A novel methodology is proposed for noise level estimation, employing metrics such as the Bhattacharyya distance, Kullback–Leibler divergence, total variation distance, Hellinger distance, and Jensen–Shannon divergence. Supervised learning techniques utilize these metrics as regressors. Evaluations on MRI scans from several datasets coming from a wide range of different acquisition devices of 1.5 T and 3 T, comprising hundreds of patients, validate the adherence of noiseless T1 MRI frequency domain coefficients to Benford’s law. Through rigorous experimentation, our methodology has demonstrated competitiveness with established noise estimation techniques, even surpassing them in numerous conducted experiments. This research empirically supports the application of Benford’s law in transforms, offering a reliable approach for noise estimation in denoising algorithms and advancing image quality assessment.
 
+
+
+
+For more details on this work, visit <a href='/publications/journals/2023-axioms2'>its own page</a>.

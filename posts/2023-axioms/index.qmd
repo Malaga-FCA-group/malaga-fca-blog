@@ -1,5 +1,5 @@
 ---
-title: Publication of <em>Fuzzy Algebras of Concepts</em>
+title: 'New journal paper: <em>Fuzzy Algebras of Concepts</em>'
 author:
 - Manuel Ojeda-Hernández
 - Domingo López-Rodríguez
@@ -15,5 +15,10 @@ The work <u>Fuzzy Algebras of Concepts</u> has been published in <em><em>Axioms<
 <u>Abstract</u>:
 
 
+
 Preconcepts are basic units of knowledge that form the basis of formal concepts in formal concept analysis (FCA). This paper investigates the relations among different kinds of preconcepts, such as protoconcepts, meet and join-semiconcepts and formal concepts. The first contribution of this paper, is to present a fuzzy powerset lattice gradation, that coincides with the preconcept lattice at its 1-cut. The second and more significant contribution, is to introduce a preconcept algebra gradation that yields different algebras for protoconcepts, semiconcepts, and concepts at different cuts. This result reveals new insights into the structure and properties of the different categories of preconcepts.
 
+
+
+
+For more details on this work, visit <a href='/publications/journals/2023-axioms'>its own page</a>.

@@ -1,6 +1,6 @@
 ---
-title: 'Publication of <em>Simplifying Implications with Positive and Negative Attributes:
-  A Logic-Based Approach</em>'
+title: 'New journal paper: <em>Simplifying Implications with Positive and Negative
+  Attributes: A Logic-Based Approach</em>'
 author:
 - Francisco Pérez-Gámez
 - Domingo López-Rodríguez
@@ -18,5 +18,10 @@ The work <u>Simplifying Implications with Positive and Negative Attributes: A Lo
 <u>Abstract</u>:
 
 
+
 Concepts and implications are two facets of the knowledge contained within a binary relation between objects and attributes. Simplification logic (SL) has proved to be valuable for the study of attribute implications in a concept lattice, a topic of interest in the more general framework of formal concept analysis (FCA). Specifically, SL has become the kernel of automated methods to remove redundancy or obtain different types of bases of implications. Although originally FCA used only the positive information contained in the dataset, negative information (explicitly stating that an attribute does not hold) has been proposed by several authors, but without an adequate set of equivalence-preserving rules for simplification. In this work, we propose a mixed simplification logic and a method to automatically remove redundancy in implications, which will serve as a foundational standpoint for the automated reasoning methods for this extended framework.
 
+
+
+
+For more details on this work, visit <a href='/publications/journals/2022-mdpimathematics'>its own page</a>.

@@ -28,10 +28,6 @@ listing:
   contents: funding.yml
   type: default
   sort: date desc
-- id: funding
-  contents: funding.yml
-  type: default
-  sort: date desc
 ---
 
 

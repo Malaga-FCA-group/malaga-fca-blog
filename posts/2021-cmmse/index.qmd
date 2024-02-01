@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Topic Modelling in Social Networks with Formal Concept Analysis</em>
+title: 'Conference paper accepted: <em>Topic Modelling in Social Networks with Formal
+  Concept Analysis</em>'
 author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 date: '2021-07-20'
 categories:
@@ -10,6 +11,7 @@ categories:
 The work <u>Topic Modelling in Social Networks with Formal Concept Analysis</u> has been published in <em>International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021</em>.
 
 <u>Abstract</u>:
+
 
 
 In the age of social networks, the amount of the written material published
@@ -37,3 +39,7 @@ In the age of social networks, the amount of the written material published
   can be used in Social Network Analysis. In addition, a comparison with classical
   techniques is being addressed.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2021-cmmse'>its own page</a>.

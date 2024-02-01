@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Recommendations in CDSS using Fuzzy Formal Concept Analysis</em>
+title: 'Conference paper accepted: <em>Recommendations in CDSS using Fuzzy Formal
+  Concept Analysis</em>'
 author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 date: '2019-07-01'
 categories:
@@ -10,6 +11,7 @@ categories:
 The work <u>Recommendations in CDSS using Fuzzy Formal Concept Analysis</u> has been published in <em>International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019</em>.
 
 <u>Abstract</u>:
+
 
 
 One of the hot topics in  clinical research is  hidden knowledge discovery  in
@@ -34,3 +36,7 @@ One of the hot topics in  clinical research is  hidden knowledge discovery  in
   engine for the recommendation system based on features (symptoms, phenotypes, signs)
   of the items (diseases) in the dataset.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2019-cmmse'>its own page</a>.

@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Video Object Segmentation with Multivalued Neural Networks</em>
+title: 'Conference paper accepted: <em>Video Object Segmentation with Multivalued
+  Neural Networks</em>'
 author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Mérida Casermeiro, Esteban
   J. Palomo
 date: '2008-09-10'
@@ -13,5 +14,10 @@ The work <u>Video Object Segmentation with Multivalued Neural Networks</u> has b
 <u>Abstract</u>:
 
 
+
 The aim of this work is to present a segmentation method to detect moving objects in video scenes, based on the use of a multivalued discrete neural network to improve the results obtained by an underlying segmentation algorithm. Specifically, the multivalued neural model (MREM) is used to detect and correct some of the deficiencies and errors off the well-known Mixture of Gaussians algorithm. Experimental results, using video scenes publicly available from the Internet, show an increase of the visual quality of the segmentation, that could improve for subsequent analysis phases, such as object tracking or behavior studies.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2008-his1'>its own page</a>.

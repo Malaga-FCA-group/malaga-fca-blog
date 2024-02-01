@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>How to provide light to COVID data by means of FCA</em>
+title: 'Conference paper accepted: <em>How to provide light to COVID data by means
+  of FCA</em>'
 author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 date: '2021-06-29'
 categories: Formal concept analysis
@@ -8,6 +9,7 @@ categories: Formal concept analysis
 The work <u>How to provide light to COVID data by means of FCA</u> has been published in <em>RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021</em>.
 
 <u>Abstract</u>:
+
 
 
 COVID data are usually presented in a non-structured format and mainly
@@ -20,3 +22,7 @@ COVID data are usually presented in a non-structured format and mainly
   approach to discover knowledge behind the data.
 
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2021-realdatafca'>its own page</a>.

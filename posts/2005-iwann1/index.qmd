@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Graph Partitioning via Recurrent Multivalued Neural Networks</em>
+title: 'Conference paper accepted: <em>Graph Partitioning via Recurrent Multivalued
+  Neural Networks</em>'
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2005-01-01'
 categories:
@@ -12,5 +13,10 @@ The work <u>Graph Partitioning via Recurrent Multivalued Neural Networks</u> has
 <u>Abstract</u>:
 
 
+
 In this work, the well-known Graph Partitioning (GP) problem for undirected weighted graphs has been studied from two points of view: maximizing (MaxCut) or minimizing (MinCut) the cost of the cut induced in the graph by the partition. An unified model, based on a neural technique for optimization problems, has been applied to these two concrete problems. A detailed description of the model is presented, and the technique to minimize an energy function, that measures the goodness of solutions, is fully described. Some techniques to escape from local optima are presented as well. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2005-iwann1'>its own page</a>.

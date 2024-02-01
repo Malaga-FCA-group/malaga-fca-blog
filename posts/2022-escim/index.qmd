@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Knowledge Discovery in Malware Datasets using Formal Concept
-  Analysis</em>
+title: 'Conference paper accepted: <em>Knowledge Discovery in Malware Datasets using
+  Formal Concept Analysis</em>'
 author:
 - Angel Mora Bonilla
 - Domingo López-Rodríguez
@@ -15,6 +15,7 @@ The work <u>Knowledge Discovery in Malware Datasets using Formal Concept Analysi
 <u>Abstract</u>:
 
 
+
 Intelligent malware detection is a problem that is generating growing interest in the industry due to the increase in the diversity of threats and attacks suffered by small users to large organisations or governments, in many cases compromising sensitive information and without ruling out possible economic consequences.
 
 Among the different problems that arise in this area, the homogenisation of the nomenclature of malware threats stands out, as different antivirus engines or applications often use different names for the same threat or the same family of threats, which is related to the problem of malware family classification. 
@@ -27,3 +28,7 @@ On the other hand, the use of FCA itself enables the discovery of logical rules 
 
 In this sense, our proposal differs from previous ones in that it does not use statistical criteria, but rather an exhaustive analysis and mathematical modelling of the knowledge contained in malware databases, so that the models obtained are based on logical and algebraic tools and offer a greater degree of interpretability and explainability than previous proposals.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2022-escim'>its own page</a>.

@@ -1,0 +1,47 @@
+---
+author:
+- Francisco Pérez-Gámez
+- Pablo Cordero
+- Manuel Enciso
+- Ángel Mora
+Status: Published
+selected: yes
+date: '2023-07-03T00:00:00Z'
+slug: 2023-insci2
+title: Simplification logic for the management of unknown information
+categories:
+- Formal concept analysis
+- Implications
+- Simplification logic
+header_image: image.jpg
+details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
+doi: 10.1016/j.ins.2023.03.015
+project: ~
+keywords: Implications; Unknown information; Formal concept analysis; Simplification
+  logic; Automated reasoning
+---
+
+
+# Abstract
+
+This paper aims to contribute to the extension of classical Formal Concept Analysis (FCA), allowing the management of unknown information. In a preliminary paper, we define a new kind of attribute implications to represent the knowledge from the information currently available. The whole FCA framework has to be appropriately extended to manage unknown information. This paper introduces a new logic for reasoning with this kind of implications, which belongs to the family of logics with an underlying Simplification paradigm. Specifically, we introduce a new algebra, named weak dual Heyting Algebra, that allows us to extend the Simplification logic for these new implications. To provide a solid framework, we also prove its soundness and completeness and show the advantages of the Simplification paradigm. Finally, to allow further use of this extension of FCA in applications, an algorithm for automated reasoning, which is directly built from logic, is defined.
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-PEREZGAMEZ2023505></a>[[Pér+23]](#cite-PEREZGAMEZ2023505) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Simplification logic for the management of unknown information”. In: _Information Sciences_ 634 (2023), pp. 505-519. ISSN: 0020-0255. DOI: [https://doi.org/10.1016/j.ins.2023.03.015](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ins.2023.03.015). URL: [https://www.sciencedirect.com/science/article/pii/S0020025523003110](https://www.sciencedirect.com/science/article/pii/S0020025523003110).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{PEREZGAMEZ2023505,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {Simplification logic for the management of unknown information},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Information Sciences},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {634},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {505-519},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {0020-0255},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.ins.2023.03.015},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S0020025523003110},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Francisco Pérez-Gámez and Pablo Cordero and Manuel Enciso and Ángel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Implications, Unknown information, Formal concept analysis, Simplification logic, Automated reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract = {This paper aims to contribute to the extension of classical Formal Concept Analysis (FCA), allowing the management of unknown information. In a preliminary paper, we define a new kind of attribute implications to represent the knowledge from the information currently available. The whole FCA framework has to be appropriately extended to manage unknown information. This paper introduces a new logic for reasoning with this kind of implications, which belongs to the family of logics with an underlying Simplification paradigm. Specifically, we introduce a new algebra, named weak dual Heyting Algebra, that allows us to extend the Simplification logic for these new implications. To provide a solid framework, we also prove its soundness and completeness and show the advantages of the Simplification paradigm. Finally, to allow further use of this extension of FCA in applications, an algorithm for automated reasoning, which is directly built from logic, is defined.}<br>}
+
+:::
+
+

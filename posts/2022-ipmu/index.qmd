@@ -1,5 +1,5 @@
 ---
-title: Publication of <em>Computing the Mixed Concept Lattice</em>
+title: 'Conference paper accepted: <em>Computing the Mixed Concept Lattice</em>'
 author: Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez,
   Angel Mora
 date: '2022-07-13T00:00:00Z'
@@ -11,3 +11,8 @@ The work <u>Computing the Mixed Concept Lattice</u> has been published in <em><e
 <u>Abstract</u>:
 
 
+
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2022-ipmu'>its own page</a>.

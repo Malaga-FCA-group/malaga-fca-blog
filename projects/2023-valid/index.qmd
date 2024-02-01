@@ -20,10 +20,6 @@ listing:
   contents: published_works.yml
   type: default
   sort: date desc
-- id: published_works
-  contents: published_works.yml
-  type: default
-  sort: date desc
 ---
 
 

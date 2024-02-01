@@ -1,6 +1,6 @@
 ---
-title: Publication of <em>Two pages graph layout via recurrent multivalued neural
-  networks</em>
+title: 'Conference paper accepted: <em>Two pages graph layout via recurrent multivalued
+  neural networks</em>'
 author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-De-Lazcano-Lobato,
   G. Galán-Marín
 date: '2007-01-01'
@@ -14,5 +14,10 @@ The work <u>Two pages graph layout via recurrent multivalued neural networks</u>
 <u>Abstract</u>:
 
 
+
 In this work, we propose the use of two neural models performing jointly in order to minimize the same energy function. This model is focused on obtaining good solutions for the two pages book crossing problem, although some others problems can be efficiently solved by the same model. The neural technique applied to this problem allows to reduce the energy function by changing outputs from both networks -outputs of first network representing location of nodes in the nodes line, while the outputs of the second one meaning the half-plane where the edges are drawn. Detailed description of the model is presented, and the technique to minimize an energy function is fully described. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2007.
 
+
+
+
+For more details on this work, visit <a href='/publications/conferences/2007-iwann3'>its own page</a>.
