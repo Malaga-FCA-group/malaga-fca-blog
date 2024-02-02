@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Mining Fuzzy Concept Lattices</em>'
+image: /assets/images/conferences.jpg
 author: Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
 date: '2022-07-04T00:00:00Z'
 categories: Formal concept analysis

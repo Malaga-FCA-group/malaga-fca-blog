@@ -48,7 +48,8 @@ publications <- c(
   conferences
 )
 
-publications |> sapply(process_preqmd)
+for (p in publications) process_preqmd(p)
+
 
 source(here::here("scripts",
                   "generate_post.R"))

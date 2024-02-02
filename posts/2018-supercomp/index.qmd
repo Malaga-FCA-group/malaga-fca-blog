@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Minimal generators, an affordable approach by means
   of massive computation</em>'
+image: /assets/images/journals.jpg
 author:
 - Fernando Benito-Picazo
 - Pablo Cordero

@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Lexicon-based sentiment analysis in texts using Formal
   Concept Analysis</em>'
+image: /assets/images/journals.jpg
 author:
 - Manuel Ojeda-Hernández
 - Domingo López-Rodríguez

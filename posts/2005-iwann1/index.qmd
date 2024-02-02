@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Graph Partitioning via Recurrent Multivalued
   Neural Networks</em>'
+image: /assets/images/conferences.jpg
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2005-01-01'
 categories:

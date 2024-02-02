@@ -22,6 +22,7 @@ keywords: Implications; Unknown information; Formal concept analysis; Simplifica
 ---
 
 
+
 # Abstract
 
 This paper aims to contribute to the extension of classical Formal Concept Analysis (FCA), allowing the management of unknown information. In a preliminary paper, we define a new kind of attribute implications to represent the knowledge from the information currently available. The whole FCA framework has to be appropriately extended to manage unknown information. This paper introduces a new logic for reasoning with this kind of implications, which belongs to the family of logics with an underlying Simplification paradigm. Specifically, we introduce a new algebra, named weak dual Heyting Algebra, that allows us to extend the Simplification logic for these new implications. To provide a solid framework, we also prove its soundness and completeness and show the advantages of the Simplification paradigm. Finally, to allow further use of this extension of FCA in applications, an algorithm for automated reasoning, which is directly built from logic, is defined.

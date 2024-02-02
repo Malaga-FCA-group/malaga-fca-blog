@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
@@ -230,7 +230,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(83)</span></div><div class="category" data-category="Aggregation operators">Aggregation operators <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Big data">Big data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Combinatorial optimization">Combinatorial optimization <span class="quarto-category-count">(19)</span></div><div class="category" data-category="Competitive learning">Competitive learning <span class="quarto-category-count">(6)</span></div><div class="category" data-category="E-learning">E-learning <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Formal concept analysis">Formal concept analysis <span class="quarto-category-count">(25)</span></div><div class="category" data-category="Fuzzy logic">Fuzzy logic <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Fuzzy sets">Fuzzy sets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Image processing">Image processing <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Implications">Implications <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine learning">Machine learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Neural networks">Neural networks <span class="quarto-category-count">(42)</span></div><div class="category" data-category="Neuroimage">Neuroimage <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Pattern recognition">Pattern recognition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Principal component analysis">Principal component analysis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R package">R package <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Recommendation system">Recommendation system <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Regression">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Simplification logic">Simplification logic <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Sustainability">Sustainability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Text mining">Text mining <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(84)</span></div><div class="category" data-category="Aggregation operators">Aggregation operators <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Big data">Big data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Combinatorial optimization">Combinatorial optimization <span class="quarto-category-count">(19)</span></div><div class="category" data-category="Competitive learning">Competitive learning <span class="quarto-category-count">(6)</span></div><div class="category" data-category="E-learning">E-learning <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Formal concept analysis">Formal concept analysis <span class="quarto-category-count">(26)</span></div><div class="category" data-category="Fuzzy logic">Fuzzy logic <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Fuzzy sets">Fuzzy sets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Image processing">Image processing <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Implications">Implications <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine learning">Machine learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Neural networks">Neural networks <span class="quarto-category-count">(42)</span></div><div class="category" data-category="Neuroimage">Neuroimage <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Pattern recognition">Pattern recognition <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Principal component analysis">Principal component analysis <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R package">R package <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Recommendation system">Recommendation system <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Regression">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Simplification logic">Simplification logic <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Sustainability">Sustainability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Text mining">Text mining <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -259,7 +259,40 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Neuroimage" data-listing-date-sort="1702425600000" data-listing-file-modified-sort="1706790610929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="quarto-post image-right" data-index="0" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1706400000000" data-listing-file-modified-sort="1706874215272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="thumbnail">
+<p><a href="./posts/2024-fsta-attendance/index.html" class="no-external"></a></p><a href="./posts/2024-fsta-attendance/index.html" class="no-external">
+<p><img src="./posts/2024-fsta-attendance/img1.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2024-fsta-attendance/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-fsta-attendance/index.html" class="no-external">Attendance to FSTA 2024</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-fsta-attendance/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./posts/2024-fsta-attendance/index.html" class="no-external">Several members of our group have attended <em>The Seventeenth International Conference on Fuzzy Set Theory and Applications</em> at Liptovský Ján, Slovak Republic, from January 28 -…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024-fsta-attendance/index.html" class="no-external">
+<div class="listing-date">
+28 January 2024
+</div>
+<div class="listing-author">
+Pablo Cordero, Ángel Mora, Manuel Ojeda Aciego, Manuel Ojeda Hernández, Inmaculada de las Peñas Cabrera
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Neuroimage" data-listing-date-sort="1702425600000" data-listing-file-modified-sort="1706877190171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="thumbnail">
+<p><a href="./posts/2023-axioms2/index.html" class="no-external"></a></p><a href="./posts/2023-axioms2/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-axioms2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-axioms2/index.html" class="no-external">New journal paper: <em>Regression of the Rician Noise Level in 3D Magnetic Resonance Images from the Distribution of the First Significant Digit</em></a>
@@ -282,7 +315,12 @@ Rosa María Maza-Quiroga, Karl Thurnhofer-Hemsi, Domingo López-Rodríguez, Ezeq
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Formal concept analysis,Aggregation operators" data-listing-date-sort="1694476800000" data-listing-file-modified-sort="1706790611032" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265">
+<div class="quarto-post image-right" data-index="2" data-categories="Formal concept analysis,Aggregation operators" data-listing-date-sort="1694476800000" data-listing-file-modified-sort="1706877190266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265">
+<div class="thumbnail">
+<p><a href="./posts/2023-iccs/index.html" class="no-external"></a></p><a href="./posts/2023-iccs/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-iccs/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-iccs/index.html" class="no-external">Conference paper accepted: <em>Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis</em></a>
@@ -305,7 +343,12 @@ Carlos Bejines, Domingo López-Rodríguez, Manuel Ojeda-Hernández
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Formal concept analysis" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1706790610932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="quarto-post image-right" data-index="3" data-categories="Formal concept analysis" data-listing-date-sort="1691020800000" data-listing-file-modified-sort="1706877190175" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="thumbnail">
+<p><a href="./posts/2023-insci/index.html" class="no-external"></a></p><a href="./posts/2023-insci/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-insci/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-insci/index.html" class="no-external">New journal paper: <em>Connecting concept lattices with bonds induced by external information</em></a>
@@ -328,10 +371,15 @@ Ondrej Krídlo, Domingo López-Rodríguez, Lubomir Antoni, Peter Eliaš, Stanisl
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Formal concept analysis" data-listing-date-sort="1688940000000" data-listing-file-modified-sort="1706639239415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="689">
+<div class="quarto-post image-right" data-index="4" data-categories="Formal concept analysis" data-listing-date-sort="1688940000000" data-listing-file-modified-sort="1706877190274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="699">
+<div class="thumbnail">
+<p><a href="./posts/2023-icfca/index.html" class="no-external"></a></p><a href="./posts/2023-icfca/index.html" class="no-external">
+<p><img src="./assets/images/books.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-icfca/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2023-icfca/index.html" class="no-external">Publication of <em>Formal Concept Analysis</em></a>
+<a href="./posts/2023-icfca/index.html" class="no-external">New publication: <em>Formal Concept Analysis</em></a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/2023-icfca/index.html" class="no-external"></a>
@@ -351,7 +399,12 @@ Dominik Dürrschnabel, Domingo López Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="Formal concept analysis,Implications,Simplification logic" data-listing-date-sort="1688342400000" data-listing-file-modified-sort="1706790610937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="quarto-post image-right" data-index="5" data-categories="Formal concept analysis,Implications,Simplification logic" data-listing-date-sort="1688342400000" data-listing-file-modified-sort="1706877190177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="thumbnail">
+<p><a href="./posts/2023-insci2/index.html" class="no-external"></a></p><a href="./posts/2023-insci2/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-insci2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-insci2/index.html" class="no-external">New journal paper: <em>Simplification logic for the management of unknown information</em></a>
@@ -374,7 +427,12 @@ Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1679616000000" data-listing-file-modified-sort="1706790610927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="quarto-post image-right" data-index="6" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1679616000000" data-listing-file-modified-sort="1706877190170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="thumbnail">
+<p><a href="./posts/2023-axioms/index.html" class="no-external"></a></p><a href="./posts/2023-axioms/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-axioms/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-axioms/index.html" class="no-external">New journal paper: <em>Fuzzy Algebras of Concepts</em></a>
@@ -397,7 +455,12 @@ Manuel Ojeda-Hernández, Domingo López-Rodríguez, Pablo Cordero
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Formal concept analysis,Text mining" data-listing-date-sort="1675382400000" data-listing-file-modified-sort="1706790610931" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
+<div class="quarto-post image-right" data-index="7" data-categories="Formal concept analysis,Text mining" data-listing-date-sort="1675382400000" data-listing-file-modified-sort="1706877190173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
+<div class="thumbnail">
+<p><a href="./posts/2023-ijar/index.html" class="no-external"></a></p><a href="./posts/2023-ijar/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2023-ijar/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-ijar/index.html" class="no-external">New journal paper: <em>Lexicon-based sentiment analysis in texts using Formal Concept Analysis</em></a>
@@ -420,7 +483,12 @@ Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Sustainability" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1706790610926" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
+<div class="quarto-post image-right" data-index="8" data-categories="Sustainability" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1706877190168" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
+<div class="thumbnail">
+<p><a href="./posts/2022-ufug/index.html" class="no-external"></a></p><a href="./posts/2022-ufug/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-ufug/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-ufug/index.html" class="no-external">New journal paper: <em>Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities</em></a>
@@ -443,7 +511,12 @@ Francisco Rodríguez-Gómez, Rafael Fernández-Cañero, Gabriel Pérez, José de
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Formal concept analysis" data-listing-date-sort="1664928000000" data-listing-file-modified-sort="1706790611027" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367">
+<div class="quarto-post image-right" data-index="9" data-categories="Formal concept analysis" data-listing-date-sort="1664928000000" data-listing-file-modified-sort="1706877190261" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367">
+<div class="thumbnail">
+<p><a href="./posts/2022-escim/index.html" class="no-external"></a></p><a href="./posts/2022-escim/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-escim/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-escim/index.html" class="no-external">Conference paper accepted: <em>Knowledge Discovery in Malware Datasets using Formal Concept Analysis</em></a>
@@ -466,7 +539,12 @@ Angel Mora Bonilla, Domingo López-Rodríguez, Manuel Enciso, Pablo Cordero
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Formal concept analysis,R package" data-listing-date-sort="1661990400000" data-listing-file-modified-sort="1706790610924" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+<div class="quarto-post image-right" data-index="10" data-categories="Formal concept analysis,R package" data-listing-date-sort="1661990400000" data-listing-file-modified-sort="1706877190166" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+<div class="thumbnail">
+<p><a href="./posts/2022-rjournal/index.html" class="no-external"></a></p><a href="./posts/2022-rjournal/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-rjournal/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-rjournal/index.html" class="no-external">New journal paper: <em>fcaR, Formal Concept Analysis with R</em></a>
@@ -489,7 +567,12 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Formal concept analysis,Fuzzy logic,E-learning" data-listing-date-sort="1660003200000" data-listing-file-modified-sort="1706790610917" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="quarto-post image-right" data-index="11" data-categories="Formal concept analysis,Fuzzy logic,E-learning" data-listing-date-sort="1660003200000" data-listing-file-modified-sort="1706877190163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="thumbnail">
+<p><a href="./posts/2022-ijcis/index.html" class="no-external"></a></p><a href="./posts/2022-ijcis/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-ijcis/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-ijcis/index.html" class="no-external">New journal paper: <em>Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course</em></a>
@@ -512,7 +595,12 @@ Manuel Ojeda‐Hernández, Francisco Pérez‐Gámez, Domingo López-Rodríguez,
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Formal concept analysis" data-listing-date-sort="1657670400000" data-listing-file-modified-sort="1706790611030" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="quarto-post image-right" data-index="12" data-categories="Formal concept analysis" data-listing-date-sort="1657670400000" data-listing-file-modified-sort="1706877190264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="thumbnail">
+<p><a href="./posts/2022-ipmu/index.html" class="no-external"></a></p><a href="./posts/2022-ipmu/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-ipmu/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-ipmu/index.html" class="no-external">Conference paper accepted: <em>Computing the Mixed Concept Lattice</em></a>
@@ -535,7 +623,12 @@ Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Formal concept analysis" data-listing-date-sort="1656892800000" data-listing-file-modified-sort="1706790611026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
+<div class="quarto-post image-right" data-index="13" data-categories="Formal concept analysis" data-listing-date-sort="1656892800000" data-listing-file-modified-sort="1706877190260" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
+<div class="thumbnail">
+<p><a href="./posts/2022-cmmse/index.html" class="no-external"></a></p><a href="./posts/2022-cmmse/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-cmmse/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-cmmse/index.html" class="no-external">Conference paper accepted: <em>Mining Fuzzy Concept Lattices</em></a>
@@ -558,7 +651,12 @@ Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="R package,Formal concept analysis" data-listing-date-sort="1655856000000" data-listing-file-modified-sort="1706790611028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<div class="quarto-post image-right" data-index="14" data-categories="R package,Formal concept analysis" data-listing-date-sort="1655856000000" data-listing-file-modified-sort="1706877190262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<div class="thumbnail">
+<p><a href="./posts/2022-etafca/index.html" class="no-external"></a></p><a href="./posts/2022-etafca/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-etafca/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-etafca/index.html" class="no-external">Conference paper accepted: <em>fcaR, Spreading FCA to the Data Science World</em></a>
@@ -581,7 +679,12 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="Formal concept analysis" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1706790611024" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<div class="quarto-post image-right" data-index="15" data-categories="Formal concept analysis" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1706877190258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<div class="thumbnail">
+<p><a href="./posts/2022-cla/index.html" class="no-external"></a></p><a href="./posts/2022-cla/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-cla/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-cla/index.html" class="no-external">Conference paper accepted: <em>Revisiting Algorithms for Fuzzy Concept Lattices</em></a>
@@ -604,7 +707,12 @@ Domingo López-Rodríguez, Ángel Mora, Manuel Ojeda-Hernández
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="Simplification logic" data-listing-date-sort="1654207200000" data-listing-file-modified-sort="1706790610915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
+<div class="quarto-post image-right" data-index="16" data-categories="Simplification logic" data-listing-date-sort="1654207200000" data-listing-file-modified-sort="1706877190161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
+<div class="thumbnail">
+<p><a href="./posts/2022-ieeetfuzz/index.html" class="no-external"></a></p><a href="./posts/2022-ieeetfuzz/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-ieeetfuzz/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-ieeetfuzz/index.html" class="no-external">New journal paper: <em>Parameterized Simplification Logic: Reasoning With Implications in an Automated Way</em></a>
@@ -627,7 +735,12 @@ Pablo Cordero, Manuel Enciso, Ángel Mora, Vilem Vychodil
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="Machine learning,Neuroimage" data-listing-date-sort="1653955200000" data-listing-file-modified-sort="1706790611031" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="quarto-post image-right" data-index="17" data-categories="Machine learning,Neuroimage" data-listing-date-sort="1653955200000" data-listing-file-modified-sort="1706877190265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="thumbnail">
+<p><a href="./posts/2022-iwinac/index.html" class="no-external"></a></p><a href="./posts/2022-iwinac/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-iwinac/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-iwinac/index.html" class="no-external">Conference paper accepted: <em>Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum Disorders</em></a>
@@ -650,7 +763,12 @@ Clara Jiménez Valverde, Rosa María Maza Quiroga, Domingo López-Rodríguez, Ka
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1644969600000" data-listing-file-modified-sort="1706790610922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="quarto-post image-right" data-index="18" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1644969600000" data-listing-file-modified-sort="1706877190165" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="thumbnail">
+<p><a href="./posts/2022-mdpimathematics/index.html" class="no-external"></a></p><a href="./posts/2022-mdpimathematics/index.html" class="no-external">
+<p><img src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-mdpimathematics/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2022-mdpimathematics/index.html" class="no-external">New journal paper: <em>Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach</em></a>
@@ -673,10 +791,15 @@ Francisco Pérez-Gámez, Domingo López-Rodríguez, Pablo Cordero, Ángel Mora, 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Neuroimage,Neural networks" data-listing-date-sort="1644188400000" data-listing-file-modified-sort="1706639239412" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="quarto-post image-right" data-index="19" data-categories="Neuroimage,Neural networks" data-listing-date-sort="1644188400000" data-listing-file-modified-sort="1706877190273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="thumbnail">
+<p><a href="./posts/2022-superresolution/index.html" class="no-external"></a></p><a href="./posts/2022-superresolution/index.html" class="no-external">
+<p><img src="./assets/images/books.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-superresolution/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2022-superresolution/index.html" class="no-external">Publication of <em>Super-Resolution of 3D Magnetic Resonance Images of the Brain</em></a>
+<a href="./posts/2022-superresolution/index.html" class="no-external">New publication: <em>Super-Resolution of 3D Magnetic Resonance Images of the Brain</em></a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/2022-superresolution/index.html" class="no-external"></a>
@@ -696,10 +819,15 @@ Enrique Domínguez, Domingo López-Rodríguez, Ezequiel López-Rubio, Rosa Maza-
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="Formal concept analysis,Big data" data-listing-date-sort="1638918000000" data-listing-file-modified-sort="1706639239410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="quarto-post image-right" data-index="20" data-categories="Formal concept analysis,Big data" data-listing-date-sort="1638918000000" data-listing-file-modified-sort="1706877190272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="thumbnail">
+<p><a href="./posts/2021-complexfca/index.html" class="no-external"></a></p><a href="./posts/2021-complexfca/index.html" class="no-external">
+<p><img src="./assets/images/books.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-complexfca/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2021-complexfca/index.html" class="no-external">Publication of <em>Formal methods in FCA and Big Data</em></a>
+<a href="./posts/2021-complexfca/index.html" class="no-external">New publication: <em>Formal methods in FCA and Big Data</em></a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/2021-complexfca/index.html" class="no-external"></a>
@@ -719,7 +847,12 @@ Domingo López Rodríguez, Emilio Muñoz Velasco, Manuel Ojeda Aciego
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="Neuroimage" data-listing-date-sort="1632693600000" data-listing-file-modified-sort="1706790611021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
+<div class="quarto-post image-right" data-index="21" data-categories="Neuroimage" data-listing-date-sort="1632693600000" data-listing-file-modified-sort="1706877190256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
+<div class="thumbnail">
+<p><a href="./posts/2021-miccai/index.html" class="no-external"></a></p><a href="./posts/2021-miccai/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-miccai/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2021-miccai/index.html" class="no-external">Conference paper accepted: <em>Rician noise estimation for 3D Magnetic Resonance Images based on Benford’s Law</em></a>
@@ -742,7 +875,12 @@ Rosa Maza-Quiroga, Karl Thurnhofer-Hemsi, Domingo López-Rodríguez, Ezequiel L�
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="E-learning,Formal concept analysis,Fuzzy logic" data-listing-date-sort="1626732000000" data-listing-file-modified-sort="1706790611019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="quarto-post image-right" data-index="22" data-categories="E-learning,Formal concept analysis,Fuzzy logic" data-listing-date-sort="1626732000000" data-listing-file-modified-sort="1706877190254" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="thumbnail">
+<p><a href="./posts/2021-e-learning/index.html" class="no-external"></a></p><a href="./posts/2021-e-learning/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-e-learning/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2021-e-learning/index.html" class="no-external">Conference paper accepted: <em>Using Logic to Determine Key Items in Math Education</em></a>
@@ -765,7 +903,12 @@ Manuel Ojeda-Hernández, Francisco Pérez-Gámez, Ángel Mora Bonilla, Domingo L
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="Formal concept analysis,Text mining" data-listing-date-sort="1626732000000" data-listing-file-modified-sort="1706790611017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
+<div class="quarto-post image-right" data-index="23" data-categories="Formal concept analysis,Text mining" data-listing-date-sort="1626732000000" data-listing-file-modified-sort="1706877190252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
+<div class="thumbnail">
+<p><a href="./posts/2021-cmmse/index.html" class="no-external"></a></p><a href="./posts/2021-cmmse/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-cmmse/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2021-cmmse/index.html" class="no-external">Conference paper accepted: <em>Topic Modelling in Social Networks with Formal Concept Analysis</em></a>
@@ -788,7 +931,12 @@ P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1625090400000" data-listing-file-modified-sort="1706790611020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="quarto-post image-right" data-index="24" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1625090400000" data-listing-file-modified-sort="1706877190255" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="thumbnail">
+<p><a href="./posts/2021-icfca/index.html" class="no-external"></a></p><a href="./posts/2021-icfca/index.html" class="no-external">
+<p><img src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-icfca/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2021-icfca/index.html" class="no-external">Conference paper accepted: <em>Clustering and identification of core implications</em></a>
@@ -811,7 +959,12 @@ Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="Formal concept analysis" data-listing-date-sort="1624917600000" data-listing-file-modified-sort="1706790611022" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="quarto-post image-right" data-index="25" data-categories="Formal concept analysis" data-listing-date-sort="1624917600000" data-listing-file-modified-sort="1706877190257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="thumbnail">
+<p><a href="./posts/2021-realdatafca/index.html" class="no-external"></a></p><a href="./posts/2021-realdatafca/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-realdatafca/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2021-realdatafca/index.html" class="no-external">Conference paper accepted: <em>How to provide light to COVID data by means of FCA</em></a>
@@ -834,7 +987,12 @@ Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="Formal concept analysis" data-listing-date-sort="1598911200000" data-listing-file-modified-sort="1706790610909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="quarto-post image-right" data-index="26" data-categories="Formal concept analysis" data-listing-date-sort="1598911200000" data-listing-file-modified-sort="1706877190151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="thumbnail">
+<p><a href="./posts/2020-eswa/index.html" class="no-external"></a></p><a href="./posts/2020-eswa/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-eswa/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-eswa/index.html" class="no-external">New journal paper: <em>A conversational recommender system for diagnosis using fuzzy rules</em></a>
@@ -857,7 +1015,12 @@ Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="Formal concept analysis,Recommendation system,Simplification logic" data-listing-date-sort="1597795200000" data-listing-file-modified-sort="1706790610911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="quarto-post image-right" data-index="27" data-categories="Formal concept analysis,Recommendation system,Simplification logic" data-listing-date-sort="1597795200000" data-listing-file-modified-sort="1706877190154" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
+<div class="thumbnail">
+<p><a href="./posts/2020-ijcis/index.html" class="no-external"></a></p><a href="./posts/2020-ijcis/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-ijcis/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-ijcis/index.html" class="no-external">New journal paper: <em>A Formal Concept Analysis Approach to Cooperative Conversational Recommendation</em></a>
@@ -880,7 +1043,12 @@ Pablo Cordero, Manuel Enciso, Ángel Mora, Manuel Ojeda-Aciego, Carlos Rossi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="Simplification logic" data-listing-date-sort="1596664800000" data-listing-file-modified-sort="1706790610913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="quarto-post image-right" data-index="28" data-categories="Simplification logic" data-listing-date-sort="1596664800000" data-listing-file-modified-sort="1706877190158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="thumbnail">
+<p><a href="./posts/2020-ijgs/index.html" class="no-external"></a></p><a href="./posts/2020-ijgs/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-ijgs/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-ijgs/index.html" class="no-external">New journal paper: <em>Parameterized simplification logic I: reasoning with implications and classes of closure operators</em></a>
@@ -903,7 +1071,12 @@ Pablo Cordero, Manuel Enciso, Ángel Mora, Vilem Vychodil
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="E-learning,Formal concept analysis" data-listing-date-sort="1595368800000" data-listing-file-modified-sort="1706790611016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="quarto-post image-right" data-index="29" data-categories="E-learning,Formal concept analysis" data-listing-date-sort="1595368800000" data-listing-file-modified-sort="1706877190251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="thumbnail">
+<p><a href="./posts/2020-e-learning/index.html" class="no-external"></a></p><a href="./posts/2020-e-learning/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-e-learning/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2020-e-learning/index.html" class="no-external">Conference paper accepted: <em>Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessment of a Math Course</em></a>
@@ -926,7 +1099,12 @@ Francisco Pérez-Gámez, Manuel Ojeda-Hernández, Ángel Mora Bonilla, Domingo L
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1561932000000" data-listing-file-modified-sort="1706790611015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
+<div class="quarto-post image-right" data-index="30" data-categories="Formal concept analysis,Fuzzy logic" data-listing-date-sort="1561932000000" data-listing-file-modified-sort="1706877190250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
+<div class="thumbnail">
+<p><a href="./posts/2019-cmmse/index.html" class="no-external"></a></p><a href="./posts/2019-cmmse/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2019-cmmse/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2019-cmmse/index.html" class="no-external">Conference paper accepted: <em>Recommendations in CDSS using Fuzzy Formal Concept Analysis</em></a>
@@ -949,7 +1127,12 @@ P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="Neuroimage" data-listing-date-sort="1543618800000" data-listing-file-modified-sort="1706790610905" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="quarto-post image-right" data-index="31" data-categories="Neuroimage" data-listing-date-sort="1543618800000" data-listing-file-modified-sort="1706877190145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="thumbnail">
+<p><a href="./posts/2018-gpu/index.html" class="no-external"></a></p><a href="./posts/2018-gpu/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2018-gpu/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2018-gpu/index.html" class="no-external">New journal paper: <em>Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark</em></a>
@@ -972,7 +1155,12 @@ J. Pérez, A. Rodríguez, J.F. Chico, Domingo López-Rodríguez, M. Ujaldón
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="Simplification logic,Formal concept analysis" data-listing-date-sort="1542672000000" data-listing-file-modified-sort="1706790610902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<div class="quarto-post image-right" data-index="32" data-categories="Simplification logic,Formal concept analysis" data-listing-date-sort="1542672000000" data-listing-file-modified-sort="1706877190142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<div class="thumbnail">
+<p><a href="./posts/2018-dam/index.html" class="no-external"></a></p><a href="./posts/2018-dam/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2018-dam/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2018-dam/index.html" class="no-external">New journal paper: <em>Direct-optimal basis computation by means of the fusion of simplification rules</em></a>
@@ -995,7 +1183,12 @@ Estrella Rodríguez-Lorenzo, Karell Bertet, Pablo Cordero, Manuel Enciso, Ángel
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="Formal concept analysis" data-listing-date-sort="1528063200000" data-listing-file-modified-sort="1706790610907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="quarto-post image-right" data-index="33" data-categories="Formal concept analysis" data-listing-date-sort="1528063200000" data-listing-file-modified-sort="1706877190147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="thumbnail">
+<p><a href="./posts/2018-supercomp/index.html" class="no-external"></a></p><a href="./posts/2018-supercomp/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2018-supercomp/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2018-supercomp/index.html" class="no-external">New journal paper: <em>Minimal generators, an affordable approach by means of massive computation</em></a>
@@ -1018,7 +1211,12 @@ Fernando Benito-Picazo, Pablo Cordero, Manuel Enciso, Ángel Mora
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="Neuroimage,Machine learning" data-listing-date-sort="1362092400000" data-listing-file-modified-sort="1706790611014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
+<div class="quarto-post image-right" data-index="34" data-categories="Neuroimage,Machine learning" data-listing-date-sort="1362092400000" data-listing-file-modified-sort="1706877190249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
+<div class="thumbnail">
+<p><a href="./posts/2013-ifmbe/index.html" class="no-external"></a></p><a href="./posts/2013-ifmbe/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2013-ifmbe/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2013-ifmbe/index.html" class="no-external">Conference paper accepted: <em>Predictive and Populational Model for Alzheimer’s Disease Using Structural Neuroimaging</em></a>
@@ -1041,7 +1239,12 @@ Domingo López-Rodríguez, Antonio García-Linares
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="E-learning" data-listing-date-sort="1277935200000" data-listing-file-modified-sort="1706790611012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
+<div class="quarto-post image-right" data-index="35" data-categories="E-learning" data-listing-date-sort="1277935200000" data-listing-file-modified-sort="1706877190247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
+<div class="thumbnail">
+<p><a href="./posts/2010-iceis/index.html" class="no-external"></a></p><a href="./posts/2010-iceis/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2010-iceis/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2010-iceis/index.html" class="no-external">Conference paper accepted: <em>Improving Moodle with WIRIS and M-QIT</em></a>
@@ -1064,7 +1267,12 @@ Domingo López-Rodríguez, Antonio García-Linares
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1267401600000" data-listing-file-modified-sort="1706790610900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="quarto-post image-right" data-index="36" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1267401600000" data-listing-file-modified-sort="1706877190140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="thumbnail">
+<p><a href="./posts/2010-isomorphism/index.html" class="no-external"></a></p><a href="./posts/2010-isomorphism/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2010-isomorphism/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2010-isomorphism/index.html" class="no-external">New journal paper: <em>A New Multivalued Neural Network for Isomorphism Identification of Kinematic Chains</em></a>
@@ -1087,10 +1295,15 @@ Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1252274400000" data-listing-file-modified-sort="1706639239408" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="quarto-post image-right" data-index="37" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1252274400000" data-listing-file-modified-sort="1706877190271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="thumbnail">
+<p><a href="./posts/2009-mrem/index.html" class="no-external"></a></p><a href="./posts/2009-mrem/index.html" class="no-external">
+<p><img data-src="./assets/images/books.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2009-mrem/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2009-mrem/index.html" class="no-external">Publication of <em>MREM, Discrete Recurrent Network for Optimization</em></a>
+<a href="./posts/2009-mrem/index.html" class="no-external">New publication: <em>MREM, Discrete Recurrent Network for Optimization</em></a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/2009-mrem/index.html" class="no-external"></a>
@@ -1110,7 +1323,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="Neural networks,Principal component analysis" data-listing-date-sort="1250632800000" data-listing-file-modified-sort="1706790610898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="quarto-post image-right" data-index="38" data-categories="Neural networks,Principal component analysis" data-listing-date-sort="1250632800000" data-listing-file-modified-sort="1706877190139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="thumbnail">
+<p><a href="./posts/2009-ieee/index.html" class="no-external"></a></p><a href="./posts/2009-ieee/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2009-ieee/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2009-ieee/index.html" class="no-external">New journal paper: <em>Probabilistic PCA self-organizing maps</em></a>
@@ -1133,7 +1351,12 @@ Ezequiel López-Rubio, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodr�
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="Neural networks" data-listing-date-sort="1246226400000" data-listing-file-modified-sort="1706790611011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="quarto-post image-right" data-index="39" data-categories="Neural networks" data-listing-date-sort="1246226400000" data-listing-file-modified-sort="1706877190245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="thumbnail">
+<p><a href="./posts/2009-iwann/index.html" class="no-external"></a></p><a href="./posts/2009-iwann/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2009-iwann/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2009-iwann/index.html" class="no-external">Conference paper accepted: <em>Hierarchical Graphs for Data Clustering</em></a>
@@ -1156,7 +1379,12 @@ Esteban J. Palomo, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodrígue
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="39" data-categories="Neural networks,Image processing" data-listing-date-sort="1240783200000" data-listing-file-modified-sort="1706790611010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="quarto-post image-right" data-index="40" data-categories="Neural networks,Image processing" data-listing-date-sort="1240783200000" data-listing-file-modified-sort="1706877190244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="thumbnail">
+<p><a href="./posts/2009-icannga2/index.html" class="no-external"></a></p><a href="./posts/2009-icannga2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2009-icannga2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2009-icannga2/index.html" class="no-external">Conference paper accepted: <em>Growing Competitive Network for Tracking Objects in Video Sequences</em></a>
@@ -1179,7 +1407,12 @@ Juan Miguel Ortiz-de-Lazcano-Lobato, Rafael Marcos Luque Baena, Domingo López-R
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="40" data-listing-date-sort="1240783200000" data-listing-file-modified-sort="1706790611009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="quarto-post image-right" data-index="41" data-listing-date-sort="1240783200000" data-listing-file-modified-sort="1706877190243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="thumbnail">
+<p><a href="./posts/2009-icannga1/index.html" class="no-external"></a></p><a href="./posts/2009-icannga1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2009-icannga1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2009-icannga1/index.html" class="no-external">Conference paper accepted: <em>Shortest Common Superstring Problem with Discrete Neural Networks</em></a>
@@ -1202,7 +1435,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="41" data-categories="Image processing,Neural networks" data-listing-date-sort="1220997600000" data-listing-file-modified-sort="1706790610996" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="quarto-post image-right" data-index="42" data-categories="Image processing,Neural networks" data-listing-date-sort="1220997600000" data-listing-file-modified-sort="1706877190223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="thumbnail">
+<p><a href="./posts/2008-his1/index.html" class="no-external"></a></p><a href="./posts/2008-his1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-his1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-his1/index.html" class="no-external">Conference paper accepted: <em>Video Object Segmentation with Multivalued Neural Networks</em></a>
@@ -1225,7 +1463,12 @@ Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Mérida Casermeiro, Este
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="42" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1220997600000" data-listing-file-modified-sort="1706790610997" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="quarto-post image-right" data-index="43" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1220997600000" data-listing-file-modified-sort="1706877190225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="thumbnail">
+<p><a href="./posts/2008-his2/index.html" class="no-external"></a></p><a href="./posts/2008-his2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-his2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-his2/index.html" class="no-external">Conference paper accepted: <em>Drawing Graphs in Parallel Lines with Artificial Neural Networks</em></a>
@@ -1248,7 +1491,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="43" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1220220000000" data-listing-file-modified-sort="1706790611007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="quarto-post image-right" data-index="44" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1220220000000" data-listing-file-modified-sort="1706877190241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="thumbnail">
+<p><a href="./posts/2008-wseas/index.html" class="no-external"></a></p><a href="./posts/2008-wseas/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-wseas/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-wseas/index.html" class="no-external">Conference paper accepted: <em>A generalization of the Hopfield model for the graph isomorphism problem</em></a>
@@ -1271,7 +1519,12 @@ Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="44" data-categories="Fuzzy sets,Regression" data-listing-date-sort="1212271200000" data-listing-file-modified-sort="1706790610993" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="quarto-post image-right" data-index="45" data-categories="Fuzzy sets,Regression" data-listing-date-sort="1212271200000" data-listing-file-modified-sort="1706877190221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="thumbnail">
+<p><a href="./posts/2008-cmmse/index.html" class="no-external"></a></p><a href="./posts/2008-cmmse/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-cmmse/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-cmmse/index.html" class="no-external">Conference paper accepted: <em>Adjust of Contradictory Information by a Fuzzy Method</em></a>
@@ -1294,7 +1547,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="45" data-categories="Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790611006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+<div class="quarto-post image-right" data-index="46" data-categories="Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190240" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+<div class="thumbnail">
+<p><a href="./posts/2008-ukci/index.html" class="no-external"></a></p><a href="./posts/2008-ukci/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-ukci/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-ukci/index.html" class="no-external">Conference paper accepted: <em>A Novel Competitive Network Approach to Object Tracking</em></a>
@@ -1317,7 +1575,12 @@ Juan M. Ortiz-de-Lazcano-Lobato, Rafael M. Luque, Domingo López-Rodríguez, Est
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="46" data-categories="Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790611002" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="quarto-post image-right" data-index="47" data-categories="Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="thumbnail">
+<p><a href="./posts/2008-icann2/index.html" class="no-external"></a></p><a href="./posts/2008-icann2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-icann2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-icann2/index.html" class="no-external">Conference paper accepted: <em>Robust nonparametric probability density estimation by soft clustering</em></a>
@@ -1340,7 +1603,12 @@ E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M. Del
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="47" data-categories="Competitive learning,Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790610999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="quarto-post image-right" data-index="48" data-categories="Competitive learning,Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="thumbnail">
+<p><a href="./posts/2008-iberamia/index.html" class="no-external"></a></p><a href="./posts/2008-iberamia/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-iberamia/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-iberamia/index.html" class="no-external">Conference paper accepted: <em>A Dipolar Competitive Neural Network for Video Segmentation</em></a>
@@ -1363,7 +1631,12 @@ Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Domínguez, Esteban J. P
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="48" data-categories="E-learning" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790610998" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="quarto-post image-right" data-index="49" data-categories="E-learning" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="thumbnail">
+<p><a href="./posts/2008-iadis/index.html" class="no-external"></a></p><a href="./posts/2008-iadis/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-iadis/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-iadis/index.html" class="no-external">Conference paper accepted: <em>Integration Of Moodle Quizzes</em></a>
@@ -1386,7 +1659,12 @@ Angel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez, Luis 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="49" data-categories="Competitive learning,Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790611000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="quarto-post image-right" data-index="50" data-categories="Competitive learning,Image processing,Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="thumbnail">
+<p><a href="./posts/2008-icann1/index.html" class="no-external"></a></p><a href="./posts/2008-icann1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-icann1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-icann1/index.html" class="no-external">Conference paper accepted: <em>A Neighborhood-Based Competitive Network for Video Segmentation and Object Detection</em></a>
@@ -1409,7 +1687,12 @@ R.M. Luque Baena, E. Dominguez, Domingo López-Rodríguez, E.J. Palomo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="50" data-categories="E-learning" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706790610994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="quarto-post image-right" data-index="51" data-categories="E-learning" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190222" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="thumbnail">
+<p><a href="./posts/2008-euroimsa/index.html" class="no-external"></a></p><a href="./posts/2008-euroimsa/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-euroimsa/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2008-euroimsa/index.html" class="no-external">Conference paper accepted: <em>Fnova: Fermat and joomla fusion</em></a>
@@ -1432,10 +1715,15 @@ S. Merino Córdoba, J. Martínez Del Castillo, G. Gutiérrez Barranco, A. Mora-B
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="51" data-categories="Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706639239406" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
+<div class="quarto-post image-right" data-index="52" data-categories="Neural networks" data-listing-date-sort="1199142000000" data-listing-file-modified-sort="1706877190269" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<div class="thumbnail">
+<p><a href="./posts/2008-advancingai/index.html" class="no-external"></a></p><a href="./posts/2008-advancingai/index.html" class="no-external">
+<p><img data-src="./assets/images/books.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2008-advancingai/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/2008-advancingai/index.html" class="no-external">Publication of <em>An approach to artificial concept learning based on human concept learning by using artificial neural networks</em></a>
+<a href="./posts/2008-advancingai/index.html" class="no-external">New publication: <em>An approach to artificial concept learning based on human concept learning by using artificial neural networks</em></a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/2008-advancingai/index.html" class="no-external"></a>
@@ -1455,7 +1743,12 @@ E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-de-Lazcano-Lobato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="52" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1193871600000" data-listing-file-modified-sort="1706790610975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<div class="quarto-post image-right" data-index="53" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1193871600000" data-listing-file-modified-sort="1706877190205" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<div class="thumbnail">
+<p><a href="./posts/2007-caepia/index.html" class="no-external"></a></p><a href="./posts/2007-caepia/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-caepia/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-caepia/index.html" class="no-external">Conference paper accepted: <em>A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree Problem</em></a>
@@ -1478,7 +1771,12 @@ Domingo López-Rodríguez, Enrique Mérida-Casermeiro, Juan M. Ortiz-de-Lazcano-
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="53" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1191189600000" data-listing-file-modified-sort="1706790610891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="quarto-post image-right" data-index="54" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1191189600000" data-listing-file-modified-sort="1706877190135" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="thumbnail">
+<p><a href="./posts/2007-npl/index.html" class="no-external"></a></p><a href="./posts/2007-npl/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-npl/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-npl/index.html" class="no-external">New journal paper: <em>Improving neural networks for mechanism kinematic chain isomorphism identification</em></a>
@@ -1501,7 +1799,12 @@ Gloria Gálan-Marín, Enrique Mérida-Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="54" data-categories="E-learning" data-listing-date-sort="1185926400000" data-listing-file-modified-sort="1706790610970" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="quarto-post image-right" data-index="55" data-categories="E-learning" data-listing-date-sort="1185926400000" data-listing-file-modified-sort="1706877190203" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="thumbnail">
+<p><a href="./posts/2007-blended/index.html" class="no-external"></a></p><a href="./posts/2007-blended/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-blended/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-blended/index.html" class="no-external">Conference paper accepted: <em>HECACEJ: B-Learning Tool for Static Content Creation in Joomla!</em></a>
@@ -1524,7 +1827,12 @@ Gloria Gálan-Marín, Enrique Mérida-Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="55" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1183240800000" data-listing-file-modified-sort="1706790610992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="quarto-post image-right" data-index="56" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1183240800000" data-listing-file-modified-sort="1706877190220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="thumbnail">
+<p><a href="./posts/2007-maeb/index.html" class="no-external"></a></p><a href="./posts/2007-maeb/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-maeb/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-maeb/index.html" class="no-external">Conference paper accepted: <em>Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut</em></a>
@@ -1547,7 +1855,12 @@ Domingo López-Rodríguez, Enrique Mérida-Casermeiro, Juan Miguel Ortiz de Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="56" data-categories="Principal component analysis,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="quarto-post image-right" data-index="57" data-categories="Principal component analysis,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<div class="thumbnail">
+<p><a href="./posts/2007-iwann1/index.html" class="no-external"></a></p><a href="./posts/2007-iwann1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-iwann1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-iwann1/index.html" class="no-external">Conference paper accepted: <em>Automatic Model Selection for Probabilistic {PCA}</em></a>
@@ -1570,7 +1883,12 @@ E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M. Del
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="57" data-categories="Image processing,Competitive learning,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="quarto-post image-right" data-index="58" data-categories="Image processing,Competitive learning,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190211" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="thumbnail">
+<p><a href="./posts/2007-ifip/index.html" class="no-external"></a></p><a href="./posts/2007-ifip/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-ifip/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-ifip/index.html" class="no-external">Conference paper accepted: <em>Image Compression with Competitive Networks and Pre-fixed Prototypes</em></a>
@@ -1593,7 +1911,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="58" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<div class="quarto-post image-right" data-index="59" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190209" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<div class="thumbnail">
+<p><a href="./posts/2007-icannga/index.html" class="no-external"></a></p><a href="./posts/2007-icannga/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-icannga/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-icannga/index.html" class="no-external">Conference paper accepted: <em>A Study into the Improvement of Binary Hopfield Networks for Map Coloring</em></a>
@@ -1616,7 +1939,12 @@ G. Galán-Marín, E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-D
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="59" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<div class="quarto-post image-right" data-index="60" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<div class="thumbnail">
+<p><a href="./posts/2007-wseastm/index.html" class="no-external"></a></p><a href="./posts/2007-wseastm/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-wseastm/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-wseastm/index.html" class="no-external">New journal paper: <em>Stochastic multivalued network for optimization. Application to the graph MaxCut problem</em></a>
@@ -1639,7 +1967,12 @@ Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortiz-de-Lazcano-Lobato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="60" data-categories="Pattern recognition,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="quarto-post image-right" data-index="61" data-categories="Pattern recognition,Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190217" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="thumbnail">
+<p><a href="./posts/2007-iwinac/index.html" class="no-external"></a></p><a href="./posts/2007-iwinac/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-iwinac/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-iwinac/index.html" class="no-external">Conference paper accepted: <em>Theoretical Study on the Capacity of Associative Memory with Multiple Reference Points</em></a>
@@ -1662,7 +1995,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez, Gloria Galán Marín, Jua
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="61" data-categories="Neural networks,Competitive learning,Principal component analysis" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610987" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="quarto-post image-right" data-index="62" data-categories="Neural networks,Competitive learning,Principal component analysis" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190214" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<div class="thumbnail">
+<p><a href="./posts/2007-iwann2/index.html" class="no-external"></a></p><a href="./posts/2007-iwann2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-iwann2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-iwann2/index.html" class="no-external">Conference paper accepted: <em>Self-organization of probabilistic PCA models</em></a>
@@ -1685,7 +2023,12 @@ E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M. Del
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="62" data-categories="Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="quarto-post image-right" data-index="63" data-categories="Neural networks" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="thumbnail">
+<p><a href="./posts/2007-icann2/index.html" class="no-external"></a></p><a href="./posts/2007-icann2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-icann2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-icann2/index.html" class="no-external">Conference paper accepted: <em>Soft Clustering for Nonparametric Probability Density Function Estimation</em></a>
@@ -1708,7 +2051,12 @@ Ezequiel López-Rubio, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodr�
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="63" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610988" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="quarto-post image-right" data-index="64" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="thumbnail">
+<p><a href="./posts/2007-iwann3/index.html" class="no-external"></a></p><a href="./posts/2007-iwann3/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-iwann3/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-iwann3/index.html" class="no-external">Conference paper accepted: <em>Two pages graph layout via recurrent multivalued neural networks</em></a>
@@ -1731,7 +2079,12 @@ Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-De-Lazcano-Lobato,
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="64" data-categories="Competitive learning,Neural networks,Image processing" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="quarto-post image-right" data-index="65" data-categories="Competitive learning,Neural networks,Image processing" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="thumbnail">
+<p><a href="./posts/2007-icannga2/index.html" class="no-external"></a></p><a href="./posts/2007-icannga2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-icannga2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-icannga2/index.html" class="no-external">Conference paper accepted: <em>Improved Production of Competitive Learning Rules with an Additional Term for Vector Quantization</em></a>
@@ -1754,7 +2107,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez, Gloria Galán Marín, Jua
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="65" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610991" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="quarto-post image-right" data-index="66" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="thumbnail">
+<p><a href="./posts/2007-ki/index.html" class="no-external"></a></p><a href="./posts/2007-ki/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-ki/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-ki/index.html" class="no-external">Conference paper accepted: <em>Stochastic functional annealing as optimization technique: Application to the traveling salesman problem with recurrent networks</em></a>
@@ -1777,7 +2135,12 @@ Domingo López-Rodríguez, E. Mérida-Casermeiro, G. Galán-Marín, J.M. Ortiz-d
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="66" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706790610976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="quarto-post image-right" data-index="67" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1167606000000" data-listing-file-modified-sort="1706877190206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
+<div class="thumbnail">
+<p><a href="./posts/2007-icann/index.html" class="no-external"></a></p><a href="./posts/2007-icann/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2007-icann/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2007-icann/index.html" class="no-external">Conference paper accepted: <em>K-pages graph drawing with multivalued neural networks</em></a>
@@ -1800,7 +2163,12 @@ Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-de-Lazcano-Lobato,
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="67" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1162335600000" data-listing-file-modified-sort="1706790610969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+<div class="quarto-post image-right" data-index="68" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1162335600000" data-listing-file-modified-sort="1706877190201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
+<div class="thumbnail">
+<p><a href="./posts/2006-wseas/index.html" class="no-external"></a></p><a href="./posts/2006-wseas/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-wseas/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-wseas/index.html" class="no-external">Conference paper accepted: <em>Stochastic multivalued network for optimization. Application to the graph MaxCut problem</em></a>
@@ -1823,7 +2191,12 @@ Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortiz-De-Lazcano-Lobato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="68" data-categories="Neural networks" data-listing-date-sort="1157061600000" data-listing-file-modified-sort="1706790610965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<div class="quarto-post image-right" data-index="69" data-categories="Neural networks" data-listing-date-sort="1157061600000" data-listing-file-modified-sort="1706877190198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<div class="thumbnail">
+<p><a href="./posts/2006-icann2/index.html" class="no-external"></a></p><a href="./posts/2006-icann2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-icann2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-icann2/index.html" class="no-external">Conference paper accepted: <em>Local selection of model parameters in probability density function estimation</em></a>
@@ -1846,7 +2219,12 @@ E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, E. Mé
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="69" data-categories="Neural networks,Image processing" data-listing-date-sort="1157061600000" data-listing-file-modified-sort="1706790610963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="quarto-post image-right" data-index="70" data-categories="Neural networks,Image processing" data-listing-date-sort="1157061600000" data-listing-file-modified-sort="1706877190197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="thumbnail">
+<p><a href="./posts/2006-icann1/index.html" class="no-external"></a></p><a href="./posts/2006-icann1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-icann1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-icann1/index.html" class="no-external">Conference paper accepted: <em>Image Compression by Vector Quantization with Recurrent Discrete Networks</em></a>
@@ -1869,7 +2247,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="70" data-categories="E-learning" data-listing-date-sort="1151704800000" data-listing-file-modified-sort="1706790610967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="quarto-post image-right" data-index="71" data-categories="E-learning" data-listing-date-sort="1151704800000" data-listing-file-modified-sort="1706877190200" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="thumbnail">
+<p><a href="./posts/2006-m-icte/index.html" class="no-external"></a></p><a href="./posts/2006-m-icte/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-m-icte/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-m-icte/index.html" class="no-external">Conference paper accepted: <em>Development of a virtual learning community for the subject Numerical Methods under Moodle</em></a>
@@ -1892,7 +2275,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="71" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1143842400000" data-listing-file-modified-sort="1706790610961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="quarto-post image-right" data-index="72" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1143842400000" data-listing-file-modified-sort="1706877190196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="thumbnail">
+<p><a href="./posts/2006-esann/index.html" class="no-external"></a></p><a href="./posts/2006-esann/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-esann/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-esann/index.html" class="no-external">Conference paper accepted: <em>Enhanced maxcut clustering with multivalued neural networks and functional annealing</em></a>
@@ -1915,7 +2303,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="72" data-categories="Neural networks,Competitive learning,Principal component analysis" data-listing-date-sort="1136070000000" data-listing-file-modified-sort="1706790610960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
+<div class="quarto-post image-right" data-index="73" data-categories="Neural networks,Competitive learning,Principal component analysis" data-listing-date-sort="1136070000000" data-listing-file-modified-sort="1706877190194" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
+<div class="thumbnail">
+<p><a href="./posts/2006-asc/index.html" class="no-external"></a></p><a href="./posts/2006-asc/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2006-asc/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2006-asc/index.html" class="no-external">Conference paper accepted: <em>Global-local learning strategies in probabilistic principal components analysis</em></a>
@@ -1938,7 +2331,12 @@ E. López-Rubio, J.M. Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez, E. Mé
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="73" data-categories="Neural networks,Pattern recognition" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706790610958" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="quarto-post image-right" data-index="74" data-categories="Neural networks,Pattern recognition" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706877190192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="thumbnail">
+<p><a href="./posts/2005-postcaepia/index.html" class="no-external"></a></p><a href="./posts/2005-postcaepia/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-postcaepia/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-postcaepia/index.html" class="no-external">Conference paper accepted: <em>Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks</em></a>
@@ -1961,7 +2359,12 @@ E. Mérida-Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="74" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706790610950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="quarto-post image-right" data-index="75" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706877190185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="thumbnail">
+<p><a href="./posts/2005-caepia2/index.html" class="no-external"></a></p><a href="./posts/2005-caepia2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-caepia2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-caepia2/index.html" class="no-external">Conference paper accepted: <em>Neural Formulation of Functional Annealing and Application to Traveling Salesman Problem</em></a>
@@ -1984,7 +2387,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="75" data-categories="Neural networks,Machine learning" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706790610948" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
+<div class="quarto-post image-right" data-index="76" data-categories="Neural networks,Machine learning" data-listing-date-sort="1130799600000" data-listing-file-modified-sort="1706877190184" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
+<div class="thumbnail">
+<p><a href="./posts/2005-caepia/index.html" class="no-external"></a></p><a href="./posts/2005-caepia/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-caepia/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-caepia/index.html" class="no-external">Conference paper accepted: <em>Iterative Learning Reinforcement for Unsupervised Clustering with Discrete Recurrent Networks</em></a>
@@ -2007,7 +2415,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="76" data-categories="Neural networks" data-listing-date-sort="1122847200000" data-listing-file-modified-sort="1706790610952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<div class="quarto-post image-right" data-index="77" data-categories="Neural networks" data-listing-date-sort="1122847200000" data-listing-file-modified-sort="1706877190187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<div class="thumbnail">
+<p><a href="./posts/2005-enformatika/index.html" class="no-external"></a></p><a href="./posts/2005-enformatika/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-enformatika/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-enformatika/index.html" class="no-external">Conference paper accepted: <em>Hopfield Network as Associative Memory with Multiple Reference Points</em></a>
@@ -2030,7 +2443,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="77" data-categories="Neural networks" data-listing-date-sort="1112306400000" data-listing-file-modified-sort="1706790610956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
+<div class="quarto-post image-right" data-index="78" data-categories="Neural networks" data-listing-date-sort="1112306400000" data-listing-file-modified-sort="1706877190191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
+<div class="thumbnail">
+<p><a href="./posts/2005-maeb2/index.html" class="no-external"></a></p><a href="./posts/2005-maeb2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-maeb2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-maeb2/index.html" class="no-external">Conference paper accepted: <em>Memoria auto-asociativa y clasificación con redes neuronales recurrentes</em></a>
@@ -2053,7 +2471,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="78" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1112306400000" data-listing-file-modified-sort="1706790610955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="quarto-post image-right" data-index="79" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1112306400000" data-listing-file-modified-sort="1706877190190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
+<div class="thumbnail">
+<p><a href="./posts/2005-maeb/index.html" class="no-external"></a></p><a href="./posts/2005-maeb/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-maeb/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-maeb/index.html" class="no-external">Conference paper accepted: <em>Aplicación neuronal del enfriamiento funcional discreto al problema del viajante</em></a>
@@ -2076,7 +2499,12 @@ Domingo López-Rodríguez, Enrique Mérida Casermeiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="79" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1104534000000" data-listing-file-modified-sort="1706790610954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="quarto-post image-right" data-index="80" data-categories="Combinatorial optimization,Neural networks" data-listing-date-sort="1104534000000" data-listing-file-modified-sort="1706877190188" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="thumbnail">
+<p><a href="./posts/2005-iwann1/index.html" class="no-external"></a></p><a href="./posts/2005-iwann1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2005-iwann1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2005-iwann1/index.html" class="no-external">Conference paper accepted: <em>Graph Partitioning via Recurrent Multivalued Neural Networks</em></a>
@@ -2099,7 +2527,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="80" data-categories="E-learning" data-listing-date-sort="1099267200000" data-listing-file-modified-sort="1706790610887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="quarto-post image-right" data-index="81" data-categories="E-learning" data-listing-date-sort="1099267200000" data-listing-file-modified-sort="1706877190133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="thumbnail">
+<p><a href="./posts/2004-jce/index.html" class="no-external"></a></p><a href="./posts/2004-jce/index.html" class="no-external">
+<p><img data-src="./assets/images/journals.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2004-jce/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2004-jce/index.html" class="no-external">New journal paper: <em>A Pedagogical Simulation of Maxwell’s Demon</em></a>
@@ -2122,7 +2555,12 @@ Domingo López-Rodríguez, Carlos Criado
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="81" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1093989600000" data-listing-file-modified-sort="1706790610947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="quarto-post image-right" data-index="82" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1093989600000" data-listing-file-modified-sort="1706877190183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="thumbnail">
+<p><a href="./posts/2004-iccmse2/index.html" class="no-external"></a></p><a href="./posts/2004-iccmse2/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2004-iccmse2/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2004-iccmse2/index.html" class="no-external">Conference paper accepted: <em>Multivalued Neural Network for Graph Maxcut Problem</em></a>
@@ -2145,7 +2583,12 @@ Enrique Mérida Casermeiro, Domingo López-Rodríguez
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="82" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1093989600000" data-listing-file-modified-sort="1706790610945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="quarto-post image-right" data-index="83" data-categories="Neural networks,Combinatorial optimization" data-listing-date-sort="1093989600000" data-listing-file-modified-sort="1706877190181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="thumbnail">
+<p><a href="./posts/2004-iccmse1/index.html" class="no-external"></a></p><a href="./posts/2004-iccmse1/index.html" class="no-external">
+<p><img data-src="./assets/images/conferences.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2004-iccmse1/index.html" class="no-external"></a></p>
+</div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2004-iccmse1/index.html" class="no-external">Conference paper accepted: <em>Matrix Bandwith Minimization: A Neural Approach</em></a>

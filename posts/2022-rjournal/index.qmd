@@ -1,5 +1,6 @@
 ---
 title: 'New journal paper: <em>fcaR, Formal Concept Analysis with R</em>'
+image: /assets/images/journals.jpg
 author:
 - Pablo Cordero
 - Manuel Enciso

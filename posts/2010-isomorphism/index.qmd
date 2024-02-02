@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>A New Multivalued Neural Network for Isomorphism Identification
   of Kinematic Chains</em>'
+image: /assets/images/journals.jpg
 author:
 - Gloria Galán Marín
 - Domingo López-Rodríguez

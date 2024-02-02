@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Video Object Segmentation with Multivalued
   Neural Networks</em>'
+image: /assets/images/conferences.jpg
 author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Mérida Casermeiro, Esteban
   J. Palomo
 date: '2008-09-10'

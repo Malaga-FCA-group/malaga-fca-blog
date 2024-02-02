@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A Multivalued Neural Network for the Degree-Constrained
   Minimum Spanning Tree Problem</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida-Casermeiro, Juan M. Ortiz-de-Lazcano-Lobato
 date: '2007-11-01'
 categories:

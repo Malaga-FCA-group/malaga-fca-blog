@@ -4,7 +4,8 @@ listing:
   contents: posts
   sort: "date desc"
   type: default
-  fields: [date, title, author, description]
+  fields: [date, title, author, description, image]
+  image-placeholder: assets/images/placeholder.png
   categories: true
   sort-ui: false
   filter-ui: false

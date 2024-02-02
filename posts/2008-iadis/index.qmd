@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Integration Of Moodle Quizzes</em>'
+image: /assets/images/conferences.jpg
 author: Angel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez, Luis
   Fernando López Anguita
 date: '2008-01-01'

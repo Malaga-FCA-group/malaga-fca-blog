@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Recommendations in CDSS using Fuzzy Formal
   Concept Analysis</em>'
+image: /assets/images/conferences.jpg
 author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 date: '2019-07-01'
 categories:

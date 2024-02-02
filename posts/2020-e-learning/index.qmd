@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Using Formal Concept Analysis to Explore Hidden
   Knowledge in the Assessment of a Math Course</em>'
+image: /assets/images/conferences.jpg
 author: Francisco Pérez-Gámez, Manuel Ojeda-Hernández, Ángel Mora Bonilla, Domingo
   López-Rodríguez, Nicolas Madrid
 date: '2020-07-22'

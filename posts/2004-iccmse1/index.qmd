@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Matrix Bandwith Minimization: A Neural Approach</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2004-09-01'
 categories:

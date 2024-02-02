@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Robust nonparametric probability density estimation
   by soft clustering</em>'
+image: /assets/images/conferences.jpg
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M.
   Del Carmen Vargas-Gonzalez
 date: '2008-01-01'

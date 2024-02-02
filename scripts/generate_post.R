@@ -45,11 +45,13 @@ generate_posts_from_publications <- function(file,
 
   my_title <- switch(tolower(type),
     "journals" = "New journal paper: <em>{L$title}</em>",
-    "conferences" = "Conference paper accepted: <em>{L$title}</em>"
+    "conferences" = "Conference paper accepted: <em>{L$title}</em>",
+    "books" = "New publication: <em>{L$title}</em>"
   )
 
   post_header <- list(
     title = glue::glue(my_title),
+    image = glue::glue("/assets/images/{type}.jpg"),
     author = L$author,
     date = L$date,
     categories = L$categories,
@@ -58,7 +60,6 @@ generate_posts_from_publications <- function(file,
 
   YAML <- yaml::as.yaml(post_header)
 
-  # path <- "/publications/{type}/{L$slug}"
 
   body <- c(
     "The work <u>{L$title}</u> has been published in <em>{L$details}</em>.",
@@ -71,9 +72,6 @@ generate_posts_from_publications <- function(file,
   ) |>
     stringr::str_flatten("\n") |>
     glue::glue()
-  # other <- "The work <u>{L$title}</u> has been published in <em>{L$details}</em>.\n\n<u>Abstract</u>:\n\n{abstract}" |>
-  #   glue::glue()
-
 
   newfile <- file.path(post_folder,
                        "index.qmd")
@@ -104,3 +102,11 @@ conferences <- list.files(
   recursive = TRUE)
 
 conferences |> sapply(\(f) generate_posts_from_publications(f, "conferences"))
+
+books <- list.files(
+  path = file.path(folder, "books"),
+  pattern = "index.preqmd$",
+  full.names = TRUE,
+  recursive = TRUE)
+
+books |> sapply(\(f) generate_posts_from_publications(f, "books"))

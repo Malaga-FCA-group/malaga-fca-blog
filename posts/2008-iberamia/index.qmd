@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A Dipolar Competitive Neural Network for Video
   Segmentation</em>'
+image: /assets/images/conferences.jpg
 author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Domínguez, Esteban J.
   Palomo
 date: '2008-01-01'

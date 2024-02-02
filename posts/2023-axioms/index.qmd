@@ -1,5 +1,6 @@
 ---
 title: 'New journal paper: <em>Fuzzy Algebras of Concepts</em>'
+image: /assets/images/journals.jpg
 author:
 - Manuel Ojeda-Hernández
 - Domingo López-Rodríguez

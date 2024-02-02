@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>fcaR, Spreading FCA to the Data Science World</em>'
+image: /assets/images/conferences.jpg
 author: Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
 date: '2022-06-22T00:00:00Z'
 categories:

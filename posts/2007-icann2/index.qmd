@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Soft Clustering for Nonparametric Probability
   Density Function Estimation</em>'
+image: /assets/images/conferences.jpg
 author: Ezequiel López-Rubio, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez,
   María del Carmen Vargas-González
 date: '2007-01-01'

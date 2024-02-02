@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>K-pages graph drawing with multivalued neural
   networks</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-de-Lazcano-Lobato,
   G. Galán-Marín
 date: '2007-01-01'

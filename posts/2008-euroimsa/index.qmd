@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Fnova: Fermat and joomla fusion</em>'
+image: /assets/images/conferences.jpg
 author: S. Merino Córdoba, J. Martínez Del Castillo, G. Gutiérrez Barranco, A. Mora-Bonilla,
   Domingo López-Rodríguez, E. Mérida-Casermeiro
 date: '2008-01-01'

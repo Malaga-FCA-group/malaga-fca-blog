@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Red Multivaluada Estocástica para Optimización.
   Aplicación al Problema del MaxCut</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida-Casermeiro, Juan Miguel Ortiz de Lazcano
   Lobato
 date: '2007-07-01'

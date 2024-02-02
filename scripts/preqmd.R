@@ -269,18 +269,30 @@ citation_of_work <- function(header, folder) {
     txt <- bibfile |>
       readLines()
 
+    bool <- txt[length(txt)] |>
+      stringr::str_detect("\\}\\}")
+
+    if (bool) {
+
+      txt[length(txt)] <- txt[length(txt)] |>
+        stringr::str_replace_all("\\}\\}",
+                                 "}")
+      txt <- c(txt, "}")
+
+    }
     init <- txt |>
       stringr::str_detect("@") |>
       which()
     end <- txt |>
-      stringr::str_detect("^\\}") |>
+      stringr::str_detect("\\}") |>
       which()
-    n <- length(txt)
+    end <- end[length(end)]
+    num <- length(txt)
 
-    browser()
+    # browser()
 
     new_txt <- c(txt[init], "<br>&nbsp;&nbsp;&nbsp;&nbsp;",
-                 stringr::str_flatten(txt[-c(1:init, end:n)], "<br>&nbsp;&nbsp;&nbsp;&nbsp;"),
+                 stringr::str_flatten(txt[-c(1:init, end:num)], "<br>&nbsp;&nbsp;&nbsp;&nbsp;"),
                  "<br>", txt[end])
 
     txt <- stringr::str_flatten(new_txt)

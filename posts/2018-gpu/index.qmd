@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Energy-aware acceleration on GPUs: Findings on a bioinformatics
   benchmark</em>'
+image: /assets/images/journals.jpg
 author:
 - J. Pérez
 - A. Rodríguez

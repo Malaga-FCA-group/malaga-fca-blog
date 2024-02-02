@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Hierarchical Graphs for Data Clustering</em>'
+image: /assets/images/conferences.jpg
 author: Esteban J. Palomo, Juan Miguel Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez,
   Rafael Marcos Luque Baena
 date: '2009-06-29'

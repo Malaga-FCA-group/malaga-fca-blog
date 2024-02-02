@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Simplifying Implications with Positive and Negative
   Attributes: A Logic-Based Approach</em>'
+image: /assets/images/journals.jpg
 author:
 - Francisco Pérez-Gámez
 - Domingo López-Rodríguez

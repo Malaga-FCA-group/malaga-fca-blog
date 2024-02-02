@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>A conversational recommender system for diagnosis using
   fuzzy rules</em>'
+image: /assets/images/journals.jpg
 author:
 - Pablo Cordero
 - Manuel Enciso

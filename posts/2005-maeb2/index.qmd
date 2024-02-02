@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Memoria auto-asociativa y clasificación con
   redes neuronales recurrentes</em>'
+image: /assets/images/conferences.jpg
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2005-04-01'
 categories: Neural networks

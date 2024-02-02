@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Image Compression by Vector Quantization with
   Recurrent Discrete Networks</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazcano-Lobato,
   Ezequiel López-Rubio
 date: '2006-09-01'

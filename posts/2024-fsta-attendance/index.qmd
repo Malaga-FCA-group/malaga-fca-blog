@@ -1,0 +1,21 @@
+---
+title: 'Attendance to FSTA 2024'
+image: img1.png
+author:
+- Pablo Cordero
+- Ángel Mora
+- Manuel Ojeda Aciego
+- Manuel Ojeda Hernández
+- Inmaculada de las Peñas Cabrera
+date: '2024-01-28T00:00:00Z'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
+---
+
+Several members of our group have attended <em>The Seventeenth International Conference on Fuzzy Set Theory and Applications</em> at Liptovský Ján, Slovak Republic, from January 28 - February 2, 2024.
+
+![](images/img2.png)

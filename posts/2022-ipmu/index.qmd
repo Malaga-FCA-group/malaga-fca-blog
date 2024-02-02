@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Computing the Mixed Concept Lattice</em>'
+image: /assets/images/conferences.jpg
 author: Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez,
   Angel Mora
 date: '2022-07-13T00:00:00Z'

@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Knowledge Discovery in Malware Datasets using
   Formal Concept Analysis</em>'
+image: /assets/images/conferences.jpg
 author:
 - Angel Mora Bonilla
 - Domingo López-Rodríguez

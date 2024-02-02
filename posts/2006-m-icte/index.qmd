@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Development of a virtual learning community
   for the subject Numerical Methods under Moodle</em>'
+image: /assets/images/conferences.jpg
 author: Ángel Mora, Enrique Mérida-Casermeiro, Domingo López-Rodríguez
 date: '2006-07-01'
 categories: E-learning

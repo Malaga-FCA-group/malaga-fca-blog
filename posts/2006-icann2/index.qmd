@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Local selection of model parameters in probability
   density function estimation</em>'
+image: /assets/images/conferences.jpg
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, E.
   Mérida-Casermeiro, M. Del Carmen Vargas-González
 date: '2006-09-01'

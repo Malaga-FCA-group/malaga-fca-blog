@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Automatic Model Selection for Probabilistic
   {PCA}</em>'
+image: /assets/images/conferences.jpg
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M.
   Del Carmen Vargas-González
 date: '2007-01-01'

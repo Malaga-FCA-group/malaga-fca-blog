@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Direct-optimal basis computation by means of the fusion
   of simplification rules</em>'
+image: /assets/images/journals.jpg
 author:
 - Estrella Rodríguez-Lorenzo
 - Karell Bertet

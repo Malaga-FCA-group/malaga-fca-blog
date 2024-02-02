@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Improving neural networks for mechanism kinematic chain
   isomorphism identification</em>'
+image: /assets/images/journals.jpg
 author:
 - Gloria Gálan-Marín
 - Enrique Mérida-Casermeiro

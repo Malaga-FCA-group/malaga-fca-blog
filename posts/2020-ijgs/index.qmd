@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Parameterized simplification logic I: reasoning with
   implications and classes of closure operators</em>'
+image: /assets/images/journals.jpg
 author:
 - Pablo Cordero
 - Manuel Enciso

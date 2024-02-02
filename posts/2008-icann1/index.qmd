@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A Neighborhood-Based Competitive Network for
   Video Segmentation and Object Detection</em>'
+image: /assets/images/conferences.jpg
 author: R.M. Luque Baena, E. Dominguez, Domingo López-Rodríguez, E.J. Palomo
 date: '2008-01-01'
 categories:

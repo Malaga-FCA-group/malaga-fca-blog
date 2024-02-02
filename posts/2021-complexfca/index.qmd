@@ -1,5 +1,6 @@
 ---
-title: Publication of <em>Formal methods in FCA and Big Data</em>
+title: 'New publication: <em>Formal methods in FCA and Big Data</em>'
+image: /assets/images/books.jpg
 author:
 - Domingo López Rodríguez
 - Emilio Muñoz Velasco
@@ -8,6 +9,9 @@ date: '2021-12-08'
 categories:
 - Formal concept analysis
 - Big data
+comments:
+  giscus:
+    repo: quarto-dev/quarto-docs
 ---
 
 The work <u>Formal methods in FCA and Big Data</u> has been published in <em>Complex Data Analytics with Formal Concept Analysis, <em>pp. 201 -- 224</em></em>.
@@ -15,5 +19,10 @@ The work <u>Formal methods in FCA and Big Data</u> has been published in <em>Com
 <u>Abstract</u>:
 
 
+
 Formal Concept Analysis (FCA) plays an important role in knowledge representation and knowledge discovery, and has generated an increasingly growing research field. The use of FCA in the context of big data provides a basis for better interpretability and explainability of results, usually lacking in other statistical approaches to data analysis; however, scalability is an important issue for FCA logic-based tools and techniques, such as the generation and use of implicational systems. We survey the theoretical and technical foundations of some trends in FCA. Specifically, we present a summary of promising theoretical and practical applications of FCA that could be used to solve the problem of dealing with big data. Furthermore, we propose some directions for future research to solve this problem.
 
+
+
+
+For more details on this work, visit <a href='/publications/books/2021-complexfca'>its own page</a>.

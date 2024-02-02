@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Two pages graph layout via recurrent multivalued
   neural networks</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-De-Lazcano-Lobato,
   G. Galán-Marín
 date: '2007-01-01'

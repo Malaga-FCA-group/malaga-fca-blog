@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Analysis of Functional Connectome Pipelines
   for the Diagnosis of Autism Spectrum Disorders</em>'
+image: /assets/images/conferences.jpg
 author: Clara Jiménez Valverde, Rosa María Maza Quiroga, Domingo López-Rodríguez,
   Karl Thurnhofer-Hemsi, Ezequiel López Rubio, Rafael Marcos Luque Baena
 date: '2022-05-31T00:00:00Z'

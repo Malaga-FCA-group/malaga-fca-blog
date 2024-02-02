@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Connecting concept lattices with bonds induced by external
   information</em>'
+image: /assets/images/journals.jpg
 author:
 - Ondrej Krídlo
 - Domingo López-Rodríguez

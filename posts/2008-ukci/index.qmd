@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A Novel Competitive Network Approach to Object
   Tracking</em>'
+image: /assets/images/conferences.jpg
 author: Juan M. Ortiz-de-Lazcano-Lobato, Rafael M. Luque, Domingo López-Rodríguez,
   Esteban J. Palomo
 date: '2008-01-01'

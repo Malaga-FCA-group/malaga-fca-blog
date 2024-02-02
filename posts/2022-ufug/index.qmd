@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Detection of unfavourable urban areas with higher temperatures
   and lack of green spaces using satellite imagery in sixteen Spanish cities</em>'
+image: /assets/images/journals.jpg
 author:
 - Francisco Rodríguez-Gómez
 - Rafael Fernández-Cañero

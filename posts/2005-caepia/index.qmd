@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Iterative Learning Reinforcement for Unsupervised
   Clustering with Discrete Recurrent Networks</em>'
+image: /assets/images/conferences.jpg
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2005-11-01'
 categories:

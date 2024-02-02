@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Aplicación neuronal del enfriamiento funcional
   discreto al problema del viajante</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2005-04-01'
 categories:

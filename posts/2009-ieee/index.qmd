@@ -1,5 +1,6 @@
 ---
 title: 'New journal paper: <em>Probabilistic PCA self-organizing maps</em>'
+image: /assets/images/journals.jpg
 author:
 - Ezequiel López-Rubio
 - Juan Miguel Ortiz-de-Lazcano-Lobato

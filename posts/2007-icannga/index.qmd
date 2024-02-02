@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A Study into the Improvement of Binary Hopfield
   Networks for Map Coloring</em>'
+image: /assets/images/conferences.jpg
 author: G. Galán-Marín, E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-De-Lazcano-Lobato
 date: '2007-01-01'
 categories:

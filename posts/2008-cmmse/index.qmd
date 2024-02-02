@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Adjust of Contradictory Information by a Fuzzy
   Method</em>'
+image: /assets/images/conferences.jpg
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
 date: '2008-06-01'
 categories:

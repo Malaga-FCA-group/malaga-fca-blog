@@ -23,6 +23,7 @@ keywords: Formal concept analysis; Simplification logic; Conversational recommen
 ---
 
 
+
 # Abstract
 
 We focus on the development of a method to guide the choice of a set of users in an environment where the number of features describing the items is high and user interaction becomes laborious. Using the framework of formal concept analysis, particularly the notion of implication between attributes, we propose a method strongly based on logic which allows to manage the users' preferences by following a conversational paradigm. Concerning complexity, to build the conversation and provide updated information based on the users' previous actions (choices) the method has polynomial delay.

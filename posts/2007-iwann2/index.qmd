@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Self-organization of probabilistic PCA models</em>'
+image: /assets/images/conferences.jpg
 author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M.
   Del Carmen Vargas-González
 date: '2007-01-01'

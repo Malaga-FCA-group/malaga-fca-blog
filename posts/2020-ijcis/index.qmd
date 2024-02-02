@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>A Formal Concept Analysis Approach to Cooperative Conversational
   Recommendation</em>'
+image: /assets/images/journals.jpg
 author:
 - Pablo Cordero
 - Manuel Enciso

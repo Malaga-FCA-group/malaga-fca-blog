@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>A generalization of the Hopfield model for
   the graph isomorphism problem</em>'
+image: /assets/images/conferences.jpg
 author: Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2008-09-01'
 categories:

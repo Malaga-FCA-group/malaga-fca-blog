@@ -1,5 +1,6 @@
 ---
 title: 'New journal paper: <em>A Pedagogical Simulation of Maxwell''s Demon</em>'
+image: /assets/images/journals.jpg
 author:
 - Domingo López-Rodríguez
 - Carlos Criado

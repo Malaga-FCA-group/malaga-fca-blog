@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Parameterized Simplification Logic: Reasoning With
   Implications in an Automated Way</em>'
+image: /assets/images/journals.jpg
 author:
 - Pablo Cordero
 - Manuel Enciso

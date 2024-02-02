@@ -1,5 +1,6 @@
 ---
 title: 'Conference paper accepted: <em>Clustering and identification of core implications</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 date: '2021-07-01'
 categories:

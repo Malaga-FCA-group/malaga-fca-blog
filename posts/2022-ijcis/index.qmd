@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Minimal Generators from Positive and Negative Attributes:
   Analysing the Knowledge Space of a Mathematics Course</em>'
+image: /assets/images/journals.jpg
 author:
 - Manuel Ojeda‐Hernández
 - Francisco Pérez‐Gámez

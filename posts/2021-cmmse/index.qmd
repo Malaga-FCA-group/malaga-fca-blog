@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Topic Modelling in Social Networks with Formal
   Concept Analysis</em>'
+image: /assets/images/conferences.jpg
 author: P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
 date: '2021-07-20'
 categories:

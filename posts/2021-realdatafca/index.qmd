@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>How to provide light to COVID data by means
   of FCA</em>'
+image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
 date: '2021-06-29'
 categories: Formal concept analysis

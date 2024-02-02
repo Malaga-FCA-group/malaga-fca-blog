@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Improved Production of Competitive Learning
   Rules with an Additional Term for Vector Quantization</em>'
+image: /assets/images/conferences.jpg
 author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Gloria Galán Marín, Juan
   Miguel Ortiz-de-Lazcano-Lobato
 date: '2007-01-01'

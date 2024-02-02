@@ -1,6 +1,7 @@
 ---
 title: 'New journal paper: <em>Regression of the Rician Noise Level in 3D Magnetic
   Resonance Images from the Distribution of the First Significant Digit</em>'
+image: /assets/images/journals.jpg
 author:
 - Rosa María Maza-Quiroga
 - Karl Thurnhofer-Hemsi

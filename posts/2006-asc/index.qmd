@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Global-local learning strategies in probabilistic
   principal components analysis</em>'
+image: /assets/images/conferences.jpg
 author: E. López-Rubio, J.M. Ortiz-de-Lazcano-Lobato, Domingo López-Rodríguez, E.
   Mérida-Casermeiro, M.D.C. Vargas-González
 date: '2006-01-01'

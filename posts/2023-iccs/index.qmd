@@ -1,6 +1,7 @@
 ---
 title: 'Conference paper accepted: <em>Aggregation Functions and Extent Structure
   Preservation in Formal Concept Analysis</em>'
+image: /assets/images/conferences.jpg
 author:
 - Carlos Bejines
 - Domingo López-Rodríguez
