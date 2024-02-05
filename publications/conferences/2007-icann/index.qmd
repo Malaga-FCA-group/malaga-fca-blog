@@ -22,7 +22,6 @@ keywords: Algorithms, Edge detection, Function evaluation, Graph theory, Heurist
 ---
 
 
-
 # Abstract
 
 

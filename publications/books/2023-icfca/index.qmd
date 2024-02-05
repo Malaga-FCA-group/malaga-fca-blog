@@ -17,7 +17,6 @@ keywords: Formal concept analysis
 ---
 
 
-
 # Abstract
 
 

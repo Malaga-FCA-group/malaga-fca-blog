@@ -19,7 +19,6 @@ keywords: Mild Cognitive Impairment, Early Diagnosis, Neuroimage, Computational 
 ---
 
 
-
 # Abstract
 
 

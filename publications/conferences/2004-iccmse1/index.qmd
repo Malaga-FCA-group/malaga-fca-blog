@@ -17,7 +17,6 @@ keywords: Neural networks, Combinatorial optimization, Matrix bandwith
 ---
 
 
-
 # Abstract
 
 

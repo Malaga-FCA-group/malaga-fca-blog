@@ -17,7 +17,6 @@ keywords: Contradictory information, Fuzzy information, Regression
 ---
 
 
-
 # Abstract
 
 

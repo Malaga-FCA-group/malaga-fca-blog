@@ -22,7 +22,6 @@ keywords: Applied mathematics, Bologna declarations, Class notes, Classical mode
 ---
 
 
-
 # Abstract
 
 

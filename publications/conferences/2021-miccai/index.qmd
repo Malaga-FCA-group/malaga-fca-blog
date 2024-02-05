@@ -17,7 +17,6 @@ keywords: MRI, Rician noise, Benford’s law, Noise estimation
 ---
 
 
-
 # Abstract
 
 

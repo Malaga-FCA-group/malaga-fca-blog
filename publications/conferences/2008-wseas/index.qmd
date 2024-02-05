@@ -17,7 +17,6 @@ keywords: Graph isomorphism, Neural networks, Kinematic chains, Optimization, Co
 ---
 
 
-
 # Abstract
 
 

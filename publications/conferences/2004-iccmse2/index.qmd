@@ -17,7 +17,6 @@ keywords: Neural networks, Combinatorial optimization, Graph problem
 ---
 
 
-
 # Abstract
 
 

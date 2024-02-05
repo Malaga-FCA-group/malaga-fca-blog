@@ -21,7 +21,6 @@ keywords: Background model, Background subtraction method, Competitive neural ne
 ---
 
 
-
 # Abstract
 
 

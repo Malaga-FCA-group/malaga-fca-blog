@@ -18,7 +18,6 @@ keywords: Neural networks, Traveling salesman problem, Functional annealing
 ---
 
 
-
 # Abstract
 
 

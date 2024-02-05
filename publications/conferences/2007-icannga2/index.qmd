@@ -22,7 +22,6 @@ keywords: Mathematical models, Perturbation techniques, Vector quantization, Com
 ---
 
 
-
 # Abstract
 
 

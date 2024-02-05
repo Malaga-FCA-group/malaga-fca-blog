@@ -1,87 +1,104 @@
 [
   {
-    "listing": "/talks/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/talks/seminars/2023-ICCS/index.html",
-      "/talks/seminars/2023-XAI/index.html",
-      "/talks/seminars/2022-Ostrava/index.html",
-      "/talks/seminars/2022-RudolfWille/index.html",
-      "/talks/regular/2022-escim/index.html",
-      "/talks/regular/2022-ipmu/index.html",
-      "/talks/regular/2022-cmmse/index.html",
-      "/talks/regular/2022-cla/index.html",
-      "/talks/regular/2021-icfca/index.html",
-      "/talks/regular/2013-ifmb/index.html",
-      "/talks/regular/2007-caepia/index.html",
-      "/talks/regular/2007-ifip/index.html",
-      "/talks/regular/2007-ki/index.html",
-      "/talks/regular/2007-iwann/index.html",
-      "/talks/regular/2007-icannga/index.html",
-      "/talks/regular/2007-maeb/index.html",
-      "/talks/regular/2006-icann/index.html",
-      "/talks/regular/2005-caepia/index.html",
-      "/talks/regular/2005-enformatika/index.html",
-      "/talks/regular/2005-iwann/index.html",
-      "/talks/regular/2005-maeb/index.html",
-      "/talks/regular/2004-iccmse/index.html"
+      "/people/staff/pcordero/index.html",
+      "/people/staff/dominlopez/index.html",
+      "/people/staff/amora/index.html"
     ]
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/index.html",
     "items": [
-      "/projects/2023-valid/index.html",
-      "/projects/2019-PIE-clustering/index.html",
-      "/projects/2019-ursus-dm/index.html",
-      "/projects/2019-flair/index.html"
+      "/posts/2024-fsta-attendance/index.html",
+      "/posts/2023-axioms2/index.html",
+      "/posts/2023-iccs/index.html",
+      "/posts/2023-valid/index.html",
+      "/posts/2023-insci/index.html",
+      "/posts/2023-icfca/index.html",
+      "/posts/2023-insci2/index.html",
+      "/posts/2023-axioms/index.html",
+      "/posts/2023-ijar/index.html",
+      "/posts/2022-ufug/index.html",
+      "/posts/2022-escim/index.html",
+      "/posts/2022-rjournal/index.html",
+      "/posts/2022-ijcis/index.html",
+      "/posts/2022-ipmu/index.html",
+      "/posts/2022-cmmse/index.html",
+      "/posts/2022-etafca/index.html",
+      "/posts/2022-cla/index.html",
+      "/posts/2022-ieeetfuzz/index.html",
+      "/posts/2022-iwinac/index.html",
+      "/posts/2022-mdpimathematics/index.html",
+      "/posts/2022-superresolution/index.html",
+      "/posts/2021-complexfca/index.html",
+      "/posts/2021-miccai/index.html",
+      "/posts/2021-e-learning/index.html",
+      "/posts/2021-cmmse/index.html",
+      "/posts/2021-icfca/index.html",
+      "/posts/2021-realdatafca/index.html",
+      "/posts/2020-eswa/index.html",
+      "/posts/2020-ijcis/index.html",
+      "/posts/2020-ijgs/index.html",
+      "/posts/2020-e-learning/index.html",
+      "/posts/2019-PIE-clustering/index.html",
+      "/posts/2019-ursus-dm/index.html",
+      "/posts/2019-flair/index.html",
+      "/posts/2019-cmmse/index.html",
+      "/posts/2018-gpu/index.html",
+      "/posts/2018-dam/index.html",
+      "/posts/2018-supercomp/index.html",
+      "/posts/2013-ifmbe/index.html",
+      "/posts/2010-iceis/index.html",
+      "/posts/2010-isomorphism/index.html",
+      "/posts/2009-mrem/index.html",
+      "/posts/2009-ieee/index.html",
+      "/posts/2009-iwann/index.html",
+      "/posts/2009-icannga2/index.html",
+      "/posts/2009-icannga1/index.html",
+      "/posts/2008-his1/index.html",
+      "/posts/2008-his2/index.html",
+      "/posts/2008-wseas/index.html",
+      "/posts/2008-cmmse/index.html",
+      "/posts/2008-ukci/index.html",
+      "/posts/2008-icann2/index.html",
+      "/posts/2008-iberamia/index.html",
+      "/posts/2008-iadis/index.html",
+      "/posts/2008-icann1/index.html",
+      "/posts/2008-euroimsa/index.html",
+      "/posts/2008-advancingai/index.html",
+      "/posts/2007-caepia/index.html",
+      "/posts/2007-npl/index.html",
+      "/posts/2007-blended/index.html",
+      "/posts/2007-maeb/index.html",
+      "/posts/2007-iwann1/index.html",
+      "/posts/2007-ifip/index.html",
+      "/posts/2007-icannga/index.html",
+      "/posts/2007-wseastm/index.html",
+      "/posts/2007-iwinac/index.html",
+      "/posts/2007-iwann2/index.html",
+      "/posts/2007-icann2/index.html",
+      "/posts/2007-iwann3/index.html",
+      "/posts/2007-icannga2/index.html",
+      "/posts/2007-ki/index.html",
+      "/posts/2007-icann/index.html",
+      "/posts/2006-wseas/index.html",
+      "/posts/2006-icann2/index.html",
+      "/posts/2006-icann1/index.html",
+      "/posts/2006-m-icte/index.html",
+      "/posts/2006-esann/index.html",
+      "/posts/2006-asc/index.html",
+      "/posts/2005-postcaepia/index.html",
+      "/posts/2005-caepia2/index.html",
+      "/posts/2005-caepia/index.html",
+      "/posts/2005-enformatika/index.html",
+      "/posts/2005-maeb2/index.html",
+      "/posts/2005-maeb/index.html",
+      "/posts/2005-iwann1/index.html",
+      "/posts/2004-jce/index.html",
+      "/posts/2004-iccmse2/index.html",
+      "/posts/2004-iccmse1/index.html"
     ]
-  },
-  {
-    "listing": "/projects/2023-valid/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2023-iccs/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-e-learning/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2019-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-escim/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-realdatafca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-ipmu/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ijcis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2020-eswa/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-mdpimathematics/index.html",
-    "items": []
   },
   {
     "listing": "/publications/index.html",
@@ -172,144 +189,12 @@
     ]
   },
   {
-    "listing": "/publications/books/2021-complexfca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-insci/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ufug/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-rjournal/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2020-e-learning/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-etafca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-cla/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-icfca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-ursus-dm/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-flair/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-PIE-clustering/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/projects/index.html",
     "items": [
-      "/posts/2024-fsta-attendance/index.html",
-      "/posts/2023-axioms2/index.html",
-      "/posts/2023-iccs/index.html",
-      "/posts/2023-insci/index.html",
-      "/posts/2023-icfca/index.html",
-      "/posts/2023-insci2/index.html",
-      "/posts/2023-axioms/index.html",
-      "/posts/2023-ijar/index.html",
-      "/posts/2022-ufug/index.html",
-      "/posts/2022-escim/index.html",
-      "/posts/2022-rjournal/index.html",
-      "/posts/2022-ijcis/index.html",
-      "/posts/2022-ipmu/index.html",
-      "/posts/2022-cmmse/index.html",
-      "/posts/2022-etafca/index.html",
-      "/posts/2022-cla/index.html",
-      "/posts/2022-ieeetfuzz/index.html",
-      "/posts/2022-iwinac/index.html",
-      "/posts/2022-mdpimathematics/index.html",
-      "/posts/2022-superresolution/index.html",
-      "/posts/2021-complexfca/index.html",
-      "/posts/2021-miccai/index.html",
-      "/posts/2021-e-learning/index.html",
-      "/posts/2021-cmmse/index.html",
-      "/posts/2021-icfca/index.html",
-      "/posts/2021-realdatafca/index.html",
-      "/posts/2020-eswa/index.html",
-      "/posts/2020-ijcis/index.html",
-      "/posts/2020-ijgs/index.html",
-      "/posts/2020-e-learning/index.html",
-      "/posts/2019-cmmse/index.html",
-      "/posts/2018-gpu/index.html",
-      "/posts/2018-dam/index.html",
-      "/posts/2018-supercomp/index.html",
-      "/posts/2013-ifmbe/index.html",
-      "/posts/2010-iceis/index.html",
-      "/posts/2010-isomorphism/index.html",
-      "/posts/2009-mrem/index.html",
-      "/posts/2009-ieee/index.html",
-      "/posts/2009-iwann/index.html",
-      "/posts/2009-icannga2/index.html",
-      "/posts/2009-icannga1/index.html",
-      "/posts/2008-his1/index.html",
-      "/posts/2008-his2/index.html",
-      "/posts/2008-wseas/index.html",
-      "/posts/2008-cmmse/index.html",
-      "/posts/2008-ukci/index.html",
-      "/posts/2008-icann2/index.html",
-      "/posts/2008-iberamia/index.html",
-      "/posts/2008-iadis/index.html",
-      "/posts/2008-icann1/index.html",
-      "/posts/2008-euroimsa/index.html",
-      "/posts/2008-advancingai/index.html",
-      "/posts/2007-caepia/index.html",
-      "/posts/2007-npl/index.html",
-      "/posts/2007-blended/index.html",
-      "/posts/2007-maeb/index.html",
-      "/posts/2007-iwann1/index.html",
-      "/posts/2007-ifip/index.html",
-      "/posts/2007-icannga/index.html",
-      "/posts/2007-wseastm/index.html",
-      "/posts/2007-iwinac/index.html",
-      "/posts/2007-iwann2/index.html",
-      "/posts/2007-icann2/index.html",
-      "/posts/2007-iwann3/index.html",
-      "/posts/2007-icannga2/index.html",
-      "/posts/2007-ki/index.html",
-      "/posts/2007-icann/index.html",
-      "/posts/2006-wseas/index.html",
-      "/posts/2006-icann2/index.html",
-      "/posts/2006-icann1/index.html",
-      "/posts/2006-m-icte/index.html",
-      "/posts/2006-esann/index.html",
-      "/posts/2006-asc/index.html",
-      "/posts/2005-postcaepia/index.html",
-      "/posts/2005-caepia2/index.html",
-      "/posts/2005-caepia/index.html",
-      "/posts/2005-enformatika/index.html",
-      "/posts/2005-maeb2/index.html",
-      "/posts/2005-maeb/index.html",
-      "/posts/2005-iwann1/index.html",
-      "/posts/2004-jce/index.html",
-      "/posts/2004-iccmse2/index.html",
-      "/posts/2004-iccmse1/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/staff/pcordero/index.html",
-      "/people/staff/dominlopez/index.html",
-      "/people/staff/amora/index.html"
+      "/projects/2023-valid/index.html",
+      "/projects/2019-PIE-clustering/index.html",
+      "/projects/2019-ursus-dm/index.html",
+      "/projects/2019-flair/index.html"
     ]
   }
 ]

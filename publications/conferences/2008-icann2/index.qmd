@@ -20,7 +20,6 @@ keywords: Data sets, Gaussian density, Input sample, Kernel density, Local kerne
 ---
 
 
-
 # Abstract
 
 

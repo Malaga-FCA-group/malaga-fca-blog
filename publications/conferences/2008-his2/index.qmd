@@ -21,7 +21,6 @@ keywords: Drawing (graphics), Graph theory, Heuristic methods, Image classificat
 ---
 
 
-
 # Abstract
 
 

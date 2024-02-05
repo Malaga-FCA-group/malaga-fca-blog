@@ -21,7 +21,6 @@ keywords: Database systems, Iterative methods, Learning systems, Neural networks
 ---
 
 
-
 # Abstract
 
 

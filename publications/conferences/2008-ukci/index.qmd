@@ -17,7 +17,6 @@ keywords: Video object segmentation, Neural networks
 ---
 
 
-
 # Abstract
 
 

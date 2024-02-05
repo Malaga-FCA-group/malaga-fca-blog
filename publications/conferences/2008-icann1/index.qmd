@@ -23,7 +23,6 @@ keywords: Adaptive neighborhood, Background model, Competitive network, Competit
 ---
 
 
-
 # Abstract
 
 

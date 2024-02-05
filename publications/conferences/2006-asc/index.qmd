@@ -22,7 +22,6 @@ keywords: Artificial intelligence, Education, Neural networks, Probability, Soft
 ---
 
 
-
 # Abstract
 
 

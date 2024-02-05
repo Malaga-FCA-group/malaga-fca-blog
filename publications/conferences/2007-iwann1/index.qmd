@@ -20,7 +20,6 @@ keywords: Approximation theory, Bayesian networks, Gaussian distribution, Mathem
 ---
 
 
-
 # Abstract
 
 

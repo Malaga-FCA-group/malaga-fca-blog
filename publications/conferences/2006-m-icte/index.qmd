@@ -15,7 +15,6 @@ keywords: E-learning, Mathematics teaching, Moodle, Virtual Teaching
 ---
 
 
-
 # Abstract
 
 

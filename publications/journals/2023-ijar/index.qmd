@@ -21,7 +21,6 @@ keywords: Formal Concept Analysis, Sentiment analysis, Polarity analysis, Text m
 ---
 
 
-
 # Abstract
 
 

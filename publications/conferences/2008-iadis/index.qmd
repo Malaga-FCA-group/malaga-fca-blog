@@ -16,7 +16,6 @@ keywords: ''
 ---
 
 
-
 # Abstract
 
 
@@ -51,8 +50,7 @@ Please, cite this work as:
 
 ## BibTeX
 
-
-
+@InProceedings{Bonilla2008a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Angel Mora Bonilla and Enrique Mérida Casermeiro and Domingo López-Rodríguez and Luis Fernando López Anguita},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Integration Of Moodle Quizzes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Miguel Baptista Nunes and Maggie McPherson},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {45--52},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IADIS}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iadis/BonillaCLA08.bib},<br>}
 
 :::
 

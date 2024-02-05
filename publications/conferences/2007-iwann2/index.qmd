@@ -22,7 +22,6 @@ keywords: Computational complexity, Face recognition, Mathematical models, Proba
 ---
 
 
-
 # Abstract
 
 

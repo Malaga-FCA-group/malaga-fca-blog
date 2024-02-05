@@ -19,7 +19,6 @@ keywords: Coloring, Graph theory, Large scale systems, Optimization, Problem sol
 ---
 
 
-
 # Abstract
 
 
