@@ -9,7 +9,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Graph Partitioning via Recurrent Multivalued Neural Networks</u> has been published in <em>International Work-Conference on Artificial Neural Networks (IWANN) 2005, Lecture Notes in Computer Science, (3512), <em>pp. 1149&ndash;1156</em></em>.

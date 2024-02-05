@@ -9,7 +9,7 @@ categories:
 - Pattern recognition
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks</u> has been published in <em>11th Conference of the Spanish Association for Artificial Intelligence (CAEPIA) 2005, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4177), <em>pp. 241&ndash;250</em></em>.

@@ -12,7 +12,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>A New Multivalued Neural Network for Isomorphism Identification of Kinematic Chains</u> has been published in <em><em>Journal of Computing and Information Science in Engineering</em> 10(1) </em>.

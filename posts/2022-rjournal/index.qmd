@@ -12,7 +12,7 @@ categories:
 - R package
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>fcaR, Formal Concept Analysis with R</u> has been published in <em><em>The R Journal</em></em>.

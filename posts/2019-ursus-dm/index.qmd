@@ -1,0 +1,15 @@
+---
+title: 'Start of project <em>URSUS-DM: Nuevos desarrollos en minería de datos para
+  su utilización en la sostenibilidad urbana</em>'
+image: /projects/2019-ursus-dm/featured.jpg
+author: Domingo López-Rodríguez
+date: '2019-09-26'
+categories:
+- Data mining
+- Sustainability
+comments:
+  giscus:
+    repo: malaga-fca-group/malaga-fca-blog
+---
+
+

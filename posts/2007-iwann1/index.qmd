@@ -10,7 +10,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Automatic Model Selection for Probabilistic {PCA}</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 127-134</em></em>.

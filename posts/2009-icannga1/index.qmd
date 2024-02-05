@@ -7,7 +7,7 @@ date: '2009-04-27'
 categories: ~
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Shortest Common Superstring Problem with Discrete Neural Networks</u> has been published in <em>International Conference on Adaptive and Natural Computing Algorithms 2009, pp 62 &ndash; 71</em>.

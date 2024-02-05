@@ -8,7 +8,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>MREM, Discrete Recurrent Network for Optimization</u> has been published in <em>Encyclopedia of Artificial Intelligence 2009: 1112-1120</em>.

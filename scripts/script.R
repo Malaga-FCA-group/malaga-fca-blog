@@ -28,17 +28,17 @@ projects |> sapply(process_preqmd)
 folder <- here::here("publications")
 journals <- list.files(
   path = file.path(folder, "journals"),
-  pattern = "*.qmd$",
+  pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
 conferences <- list.files(
   path = file.path(folder, "conferences"),
-  pattern = "*.qmd$",
+  pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
 books <- list.files(
   path = file.path(folder, "books"),
-  pattern = "*.qmd$",
+  pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
 

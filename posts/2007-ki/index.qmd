@@ -9,7 +9,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Stochastic functional annealing as optimization technique: Application to the traveling salesman problem with recurrent networks</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4667 LNAI), <em>pp. 397-411</em></em>.

@@ -110,13 +110,18 @@ papers_of_project <- function(header, folder) {
         .trim = FALSE
       ) |>
         stringr::str_flatten("\n")
+
+      categories <- contents$categories |>
+        stringr::str_to_sentence() |>
+        stringr::str_flatten_comma()
+
       str <- c(
         str,
         glue::glue(
           "- title: '{contents$title}'\n",
           "  author: \n{authors}\n",
           "  date: {contents$date}\n",
-          "  categories: [{stringr::str_flatten_comma(contents$categories)}]\n",
+          "  categories: [{categories}]\n",
           "  description: {contents$details}\n",
           "  path: {contents$path}",
           .trim = FALSE
@@ -200,13 +205,18 @@ projects_of_paper <- function(header, folder) {
       .trim = FALSE
     ) |>
       stringr::str_flatten("\n")
+
+    categories <- contents$categories |>
+      stringr::str_to_sentence() |>
+      stringr::str_flatten_comma()
+
     str <- c(
       str,
       glue::glue(
         "- title: '{contents$title}'\n",
         "  author: \n{authors}\n",
         "  date: {contents$date}\n",
-        "  categories: [{stringr::str_flatten_comma(contents$categories)}]\n",
+        "  categories: [{categories}]\n",
         "  image: {contents$path}/{contents$image}\n",
         "  path: {contents$path}",
         .trim = FALSE

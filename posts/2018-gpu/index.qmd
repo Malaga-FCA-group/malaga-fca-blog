@@ -12,7 +12,7 @@ date: '2018-12-01'
 categories: Neuroimage
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark</u> has been published in <em><em>Sustainable Computing: Informatics and Systems</em> vol. 20, pp. 88 -- 101</em>.

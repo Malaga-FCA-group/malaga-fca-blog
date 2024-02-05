@@ -14,7 +14,7 @@ categories:
 - Simplification logic
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Simplification logic for the management of unknown information</u> has been published in <em><em>Information Sciences</em>, vol. 638, July 2023, pp 505--519</em>.

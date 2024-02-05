@@ -7,7 +7,7 @@ date: '2009-06-29'
 categories: Neural networks
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Hierarchical Graphs for Data Clustering</u> has been published in <em>International Work-conference on Artificial Neural Networks (IWANN) pp 432-439</em>.

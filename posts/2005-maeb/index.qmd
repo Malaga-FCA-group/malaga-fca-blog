@@ -9,7 +9,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Aplicación neuronal del enfriamiento funcional discreto al problema del viajante</u> has been published in <em><em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados</em> 2005</em>.

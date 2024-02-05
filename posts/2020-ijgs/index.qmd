@@ -11,7 +11,7 @@ date: '2020-08-06'
 categories: Simplification logic
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Parameterized simplification logic I: reasoning with implications and classes of closure operators</u> has been published in <em><em>International Journal of General Systems</em> vol 49 (7), pp. 724 -- 746</em>.

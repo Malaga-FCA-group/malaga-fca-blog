@@ -9,7 +9,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Enhanced maxcut clustering with multivalued neural networks and functional annealing</u> has been published in <em>ESANN 2006 Proceedings - 14th European Symposium on Artificial Neural Networks, <em>pp. 25&ndash;30</em></em>.

@@ -1,0 +1,19 @@
+---
+title: 'Start of project <em>FLAIR: Fuzzy, Logic and Algebraic tools for Information
+  Resources</em>'
+image: /projects/2019-flair/featured.png
+author:
+- Manuel Ojeda Aciego
+- Nicolás Madrid Labrador
+date: '2019-09-26'
+categories:
+- Formal Concept Analysis
+- Fuzzy Logic
+- Uncertainty
+- Imprecise information
+comments:
+  giscus:
+    repo: malaga-fca-group/malaga-fca-blog
+---
+
+

@@ -11,7 +11,7 @@ categories:
 - Principal component analysis
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Global-local learning strategies in probabilistic principal components analysis</u> has been published in <em>Proceedings of the 10th IASTED International Conference on Artificial Intelligence and Soft Computing, ASC 2006, <em>pp. 46-51</em></em>.

@@ -11,7 +11,7 @@ categories:
 - Principal component analysis
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Probabilistic PCA self-organizing maps</u> has been published in <em><em>IEEE Transactions on Neural Networks</em> vol 20 (9), 1474-1489</em>.

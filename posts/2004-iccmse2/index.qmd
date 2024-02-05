@@ -9,7 +9,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Multivalued Neural Network for Graph Maxcut Problem</u> has been published in <em><em>International Congress of Computational Methods in Science and Engineering</em> 2004</em>.

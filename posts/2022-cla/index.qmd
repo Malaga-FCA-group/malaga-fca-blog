@@ -6,7 +6,7 @@ date: '2022-06-21T00:00:00Z'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: malaga-fca-group/malaga-fca-blog
 ---
 
 The work <u>Revisiting Algorithms for Fuzzy Concept Lattices</u> has been published in <em>the <em>16th International Conference on Concept Lattices and Applications 2022</em></em>.

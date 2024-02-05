@@ -1,0 +1,19 @@
+---
+title: 'Start of project <em>VALID: Verifiable Algebraic and Logic tools for Imperfect
+  Data</em>'
+image: /projects/2023-valid/featured.png
+author:
+- Manuel Ojeda-Aciego
+- Domingo López-Rodríguez
+date: '2023-09-01'
+categories:
+- Formal Concept Analysis
+- Fuzzy Logic
+- Uncertainty
+- Imprecise information
+comments:
+  giscus:
+    repo: malaga-fca-group/malaga-fca-blog
+---
+
+

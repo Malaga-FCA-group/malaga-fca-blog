@@ -21,9 +21,9 @@ generate_posts_from_publications <- function(file,
   fs::dir_create(post_folder,
                  recurse = TRUE)
 
-  # Find citation
+  # Find other section
   idx1 <- other |>
-    stringr::str_detect("\\{\\{.*\\}\\}") |>
+    stringr::str_detect("(#|\\{\\{.*\\}\\})") |>
     which()
 
   # idx <- which(other == "# Citation")
@@ -44,22 +44,41 @@ generate_posts_from_publications <- function(file,
     paste0(collapse = "\n")
 
   my_title <- switch(tolower(type),
-    "journals" = "New journal paper: <em>{L$title}</em>",
-    "conferences" = "Conference paper accepted: <em>{L$title}</em>",
-    "books" = "New publication: <em>{L$title}</em>"
+                     "journals" = "New journal paper: <em>{L$title}</em>",
+                     "conferences" = "Conference paper accepted: <em>{L$title}</em>",
+                     "books" = "New publication: <em>{L$title}</em>",
+                     "projects" = "Start of project <em>{L$title}</em>"
   )
+
+  my_image <- glue::glue("/assets/images/{type}.jpg")
+
+  if (type == "projects") {
+
+    my_image <- glue::glue(
+      "/projects/{L$slug}/{L$image}"
+    )
+  }
 
   post_header <- list(
     title = glue::glue(my_title),
-    image = glue::glue("/assets/images/{type}.jpg"),
+    image = my_image,
     author = L$author,
     date = L$date,
     categories = L$categories,
-    comments = list(giscus = list(repo = "quarto-dev/quarto-docs"))
+    # citation = TRUE,
+    comments = list(giscus = list(
+      repo = "malaga-fca-group/malaga-fca-blog"))
   )
 
-  YAML <- yaml::as.yaml(post_header)
-
+  YAML <- yaml::as.yaml(
+    post_header,
+    handlers = list(
+      logical = function(x) {
+        result <- ifelse(x, "true", "false")
+        class(result) <- "verbatim"
+        return(result)
+      }
+    ))
 
   body <- c(
     "The work <u>{L$title}</u> has been published in <em>{L$details}</em>.",
@@ -93,7 +112,9 @@ journals <- list.files(
   full.names = TRUE,
   recursive = TRUE)
 
-journals |> sapply(\(f) generate_posts_from_publications(f, "journals"))
+journals |> sapply(
+  \(f)
+  generate_posts_from_publications(f, "journals"))
 
 conferences <- list.files(
   path = file.path(folder, "conferences"),
@@ -101,7 +122,9 @@ conferences <- list.files(
   full.names = TRUE,
   recursive = TRUE)
 
-conferences |> sapply(\(f) generate_posts_from_publications(f, "conferences"))
+conferences |> sapply(
+  \(f)
+  generate_posts_from_publications(f, "conferences"))
 
 books <- list.files(
   path = file.path(folder, "books"),
@@ -109,4 +132,16 @@ books <- list.files(
   full.names = TRUE,
   recursive = TRUE)
 
-books |> sapply(\(f) generate_posts_from_publications(f, "books"))
+books |> sapply(
+  \(f)
+  generate_posts_from_publications(f, "books"))
+
+projects <- list.files(
+  path = here::here("projects"),
+  pattern = "index.preqmd$",
+  full.names = TRUE,
+  recursive = TRUE)
+
+projects |> sapply(
+  \(f)
+  generate_posts_from_publications(f, "projects"))
