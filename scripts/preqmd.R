@@ -78,7 +78,7 @@ papers_of_project <- function(header, folder) {
   pub_folder <- here::here("publications")
   files <- list.files(
     path = pub_folder,
-    pattern = "index.qmd$",
+    pattern = "index.preqmd$",
     full.names = TRUE,
     recursive = TRUE
   )
@@ -188,7 +188,7 @@ projects_of_paper <- function(header, folder) {
                             pr)
 
     qmd <- list.files(path = this_proj,
-                      pattern = "index.qmd$",
+                      pattern = "index.preqmd$",
                       full.names = TRUE)
 
     lines <- readLines(con = qmd)

@@ -1,0 +1,24 @@
+---
+title: 'New journal paper: <em>Analysis of Fuzzy Vector Spaces as an Algebraic Framework
+  for Flag Codes</em>'
+image: /assets/images/journals.jpg
+author:
+- Carlos Bejines
+- Manuel Ojeda-Hernández
+- Domingo López-Rodríguez
+date: '2024-02-05'
+categories: Fuzzy sets
+comments:
+  giscus:
+    repo: malaga-fca-group/malaga-fca-blog
+---
+
+The work <u>Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes</u> has been published in <em>Mathematics vol. 12 (3), article number 498.</em>.
+
+<u>Abstract</u>:
+
+
+Flag codes are a recent network coding strategy based on linear algebra. Fuzzy vector subspaces extend the notions of classical linear algebra. They can be seen as abstractions of flags to the point that several fuzzy vector subspaces can be identified to the same flag, which naturally induces an equivalence relation on the set of fuzzy vector subspaces. The main contributions of this work are the methodological abstraction of flags and flag codes in terms of fuzzy vector subspaces, as well as the generalisation of three distinct equivalence relations that originated from the fuzzy subgroup theory and study of their connection with flag codes, computing the number of equivalence classes in the discrete case, which represent the number of essentially distinct flags, and a comprehensive analysis of such relations and the properties of the corresponding quotient sets.
+
+
+For more details on this work, visit <a href='/publications/journals/2024-CB-MOH-DLR-Analysis'>its own page</a>.

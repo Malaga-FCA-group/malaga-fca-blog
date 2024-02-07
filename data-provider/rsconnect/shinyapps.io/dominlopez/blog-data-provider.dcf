@@ -1,0 +1,12 @@
+name: blog-data-provider
+title: blog-data-provider
+username: dominlopez
+account: dominlopez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11160710
+bundleId: 8230759
+url: https://dominlopez.shinyapps.io/blog-data-provider/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

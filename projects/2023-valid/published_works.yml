@@ -7,6 +7,15 @@
   categories: [Formal concept analysis, Aggregation operators]
   description: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,
   path: /publications/conferences/2023-iccs
+- title: 'Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis'
+  author: 
+  - Carlos Bejines
+  - Domingo López-Rodríguez
+  - Manuel Ojeda-Hernández
+  date: 2023-09-12T00:00:00Z
+  categories: [Formal concept analysis, Aggregation operators]
+  description: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,
+  path: /publications/malaga-fca-blog/2023-iccs
 - title: 'Connecting concept lattices with bonds induced by external information'
   author: 
   - Ondrej Krídlo
@@ -19,3 +28,12 @@
   categories: [Formal concept analysis]
   description: <em>Information Sciences</em>, vol. 648, november 2023, article 119498
   path: /publications/journals/2023-insci
+- title: 'Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes'
+  author: 
+  - Carlos Bejines
+  - Manuel Ojeda-Hernández
+  - Domingo López-Rodríguez
+  date: 2024-02-05
+  categories: [Fuzzy sets]
+  description: Mathematics vol. 12 (3), article number 498.
+  path: /publications/journals/2024-CB-MOH-DLR-Analysis

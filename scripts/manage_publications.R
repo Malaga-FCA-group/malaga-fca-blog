@@ -50,7 +50,15 @@ get_publication_value <- function(folder, value) {
 
       L <- yaml::yaml.load(header)
 
-      L[[value]]
+      if (length(value) == 1) {
+
+        return(L[[value]])
+
+      } else {
+
+        return(as.data.frame(L[value]))
+
+      }
 
     })
 

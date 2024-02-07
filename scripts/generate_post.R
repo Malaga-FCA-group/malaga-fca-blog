@@ -1,5 +1,7 @@
-generate_posts_from_publications <- function(file,
-                                             type = "journals") {
+generate_posts_from_publications <- function(
+    file,
+    type = "journals",
+    force = FALSE) {
 
   lines <- readLines(con = file)
 
@@ -16,7 +18,7 @@ generate_posts_from_publications <- function(file,
     "posts",
     L$slug)
 
-  # if (fs::dir_exists(post_folder)) return(invisible(NULL))
+  if (!force && fs::dir_exists(post_folder)) return(invisible(NULL))
 
   fs::dir_create(post_folder,
                  recurse = TRUE)
