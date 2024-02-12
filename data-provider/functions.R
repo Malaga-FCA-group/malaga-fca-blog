@@ -60,6 +60,7 @@ generate_publication_preqmd <- function(
 
   str <- glue::glue(
     "title: '{title}'\n",
+    "type: {type}\n",
     "author: \n{authors}\n",
     "date: '{date}'\n",
     "categories: [{categories}]\n",
@@ -130,6 +131,7 @@ generate_project_preqmd <- function(
 
   str <- glue::glue(
     "title: '{title}'\n",
+    "type: project\n",
     "author: \n{authors}\n",
     "date: {start_date}\n",
     "end_date: {end_date}\n",

@@ -24,7 +24,15 @@ get_publication_year <- function(folder) {
 
       L <- yaml::yaml.load(header)
 
-      lubridate::year(L$date)
+      if (stringr::str_length(L$date) == 4) {
+
+        return(as.character(L$date))
+
+      } else {
+
+        return(lubridate::year(L$date))
+
+      }
 
     })
 

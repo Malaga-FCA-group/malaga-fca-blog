@@ -54,6 +54,9 @@ for (p in publications) process_preqmd(p)
 source(here::here("scripts",
                   "generate_post.R"))
 
+source(here::here("scripts",
+                  "for_data_provider.R"))
+
 # Make actual preview and render
 quarto::quarto_preview()
 
