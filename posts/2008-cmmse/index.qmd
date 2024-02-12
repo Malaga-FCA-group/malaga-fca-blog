@@ -9,7 +9,7 @@ categories:
 - Regression
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Adjust of Contradictory Information by a Fuzzy Method</u> has been published in <em><em>Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering</em></em>.

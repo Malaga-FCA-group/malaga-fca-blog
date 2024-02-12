@@ -15,7 +15,7 @@ categories:
 - Simplification logic
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>A Formal Concept Analysis Approach to Cooperative Conversational Recommendation</u> has been published in <em><em>International Journal of Computational Intelligence Systems</em>, 13 (1), pp. 1243 - 1252</em>.

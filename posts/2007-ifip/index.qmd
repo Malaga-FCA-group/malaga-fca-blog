@@ -10,7 +10,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Image Compression with Competitive Networks and Pre-fixed Prototypes</u> has been published in <em>IFIP International Federation for Information Processing, (247), <em>pp. 339&ndash;346</em></em>.

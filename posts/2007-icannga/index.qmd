@@ -9,7 +9,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>A Study into the Improvement of Binary Hopfield Networks for Map Coloring</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4432 LNCS), PART 2, <em>pp. 98-106</em></em>.

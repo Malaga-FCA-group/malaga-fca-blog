@@ -11,7 +11,7 @@ date: '2022-06-03'
 categories: Simplification logic
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Parameterized Simplification Logic: Reasoning With Implications in an Automated Way</u> has been published in <em><em>IEEE Transactions on Fuzzy Systems</em> vol 30 (12), 5534 - 5543</em>.

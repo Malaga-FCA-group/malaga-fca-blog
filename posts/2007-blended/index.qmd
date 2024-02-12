@@ -7,7 +7,7 @@ date: '2007-08-01T00:00:00Z'
 categories: E-learning
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>HECACEJ: B-Learning Tool for Static Content Creation in Joomla!</u> has been published in <em><em>Workshop on Blended Learning</em> 2007</em>.

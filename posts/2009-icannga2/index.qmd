@@ -10,7 +10,7 @@ categories:
 - Image processing
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Growing Competitive Network for Tracking Objects in Video Sequences</u> has been published in <em>International Conference on Adaptive and Natural Computing Algorithms 2009, pp 109 &ndash; 118</em>.

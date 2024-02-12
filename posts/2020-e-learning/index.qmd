@@ -10,7 +10,7 @@ categories:
 - Formal concept analysis
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Using Formal Concept Analysis to Explore Hidden Knowledge in the Assessment of a Math Course</u> has been published in <em>IADIS International Conference e-Learning 2020 (part of MCCSIS 2020)</em>.

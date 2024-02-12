@@ -11,7 +11,7 @@ categories:
 - Fuzzy logic
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Using Logic to Determine Key Items in Math Education</u> has been published in <em>IADIS International Conference e-Learning 2021 (part of MCCSIS 2021)</em>.

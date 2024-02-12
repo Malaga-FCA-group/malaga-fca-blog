@@ -8,7 +8,7 @@ date: '2006-09-01'
 categories: Neural networks
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Local selection of model parameters in probability density function estimation</u> has been published in <em>Artificial Neural Networks - (ICANN) 2006, 16th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4132 LNCS - II), <em>pp. 292-301</em></em>.

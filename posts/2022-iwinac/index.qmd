@@ -10,7 +10,7 @@ categories:
 - Neuroimage
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Analysis of Functional Connectome Pipelines for the Diagnosis of Autism Spectrum Disorders</u> has been published in <em><em>9th International Work-Conference on the Interplay Between Natural and Artificial Computation</em></em>.

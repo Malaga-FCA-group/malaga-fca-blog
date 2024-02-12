@@ -11,7 +11,7 @@ date: '2022-10-05T00:00:00Z'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Knowledge Discovery in Malware Datasets using Formal Concept Analysis</u> has been published in <em><em>14th European Symposium on Computational Intelligence and Mathematics</em></em>.

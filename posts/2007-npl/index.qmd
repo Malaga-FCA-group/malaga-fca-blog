@@ -12,7 +12,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Improving neural networks for mechanism kinematic chain isomorphism identification</u> has been published in <em><em>Neural Processing Letters</em> vol 26 (2), 133-143</em>.

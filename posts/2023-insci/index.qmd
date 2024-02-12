@@ -13,7 +13,7 @@ date: '2023-08-03T00:00:00Z'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Connecting concept lattices with bonds induced by external information</u> has been published in <em><em>Information Sciences</em>, vol. 648, november 2023, article 119498</em>.

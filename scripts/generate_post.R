@@ -59,28 +59,23 @@ generate_posts_from_publications <- function(
     my_image <- glue::glue(
       "/projects/{L$slug}/{L$image}"
     )
+
   }
+
+  categories <- L$categories |>
+    stringr::str_to_sentence()
 
   post_header <- list(
     title = glue::glue(my_title),
     image = my_image,
     author = L$author,
     date = L$date,
-    categories = L$categories,
-    # citation = TRUE,
+    categories = categories,
     comments = list(giscus = list(
-      repo = "malaga-fca-group/malaga-fca-blog"))
+      repo = "neuroimaginador/website"))
   )
 
-  YAML <- yaml::as.yaml(
-    post_header,
-    handlers = list(
-      logical = function(x) {
-        result <- ifelse(x, "true", "false")
-        class(result) <- "verbatim"
-        return(result)
-      }
-    ))
+  YAML <- yaml::as.yaml(post_header)
 
   body <- c(
     "The work <u>{L$title}</u> has been published in <em>{L$details}</em>.",
@@ -93,6 +88,22 @@ generate_posts_from_publications <- function(
   ) |>
     stringr::str_flatten("\n") |>
     glue::glue()
+
+  if (type == "projects") {
+
+    body <- c(
+      "The project <u>{L$title}</u> has started on <em>{L$date}</em>.",
+      "",
+      "<u>Abstract</u>:",
+      "",
+      "{abstract}",
+      "",
+      "For more details on this project, visit <a href='/projects/{L$slug}'>its own page</a>."
+    ) |>
+      stringr::str_flatten("\n") |>
+      glue::glue()
+
+  }
 
   newfile <- file.path(post_folder,
                        "index.qmd")
@@ -116,7 +127,7 @@ journals <- list.files(
 
 journals |> sapply(
   \(f)
-  generate_posts_from_publications(f, "journals"))
+  generate_posts_from_publications(f, "journals", force = FORCE))
 
 conferences <- list.files(
   path = file.path(folder, "conferences"),
@@ -126,7 +137,7 @@ conferences <- list.files(
 
 conferences |> sapply(
   \(f)
-  generate_posts_from_publications(f, "conferences"))
+  generate_posts_from_publications(f, "conferences", force = FORCE))
 
 books <- list.files(
   path = file.path(folder, "books"),
@@ -136,7 +147,7 @@ books <- list.files(
 
 books |> sapply(
   \(f)
-  generate_posts_from_publications(f, "books"))
+  generate_posts_from_publications(f, "books", force = FORCE))
 
 projects <- list.files(
   path = here::here("projects"),
@@ -146,4 +157,4 @@ projects <- list.files(
 
 projects |> sapply(
   \(f)
-  generate_posts_from_publications(f, "projects"))
+  generate_posts_from_publications(f, "projects", force = FORCE))

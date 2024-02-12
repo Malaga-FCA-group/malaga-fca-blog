@@ -7,7 +7,7 @@ date: '2006-07-01'
 categories: E-learning
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Development of a virtual learning community for the subject Numerical Methods under Moodle</u> has been published in <em><em>Current Developments in Technology-Assisted Education</em> 2006</em>.

@@ -31,26 +31,26 @@ journals <- list.files(
   pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
+
+journals |> sapply(process_preqmd)
+
 conferences <- list.files(
   path = file.path(folder, "conferences"),
   pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
+
+conferences |> sapply(process_preqmd)
+
 books <- list.files(
   path = file.path(folder, "books"),
   pattern = "index.preqmd$",
   full.names = TRUE,
   recursive = TRUE)
 
-publications <- c(
-  journals,
-  books,
-  conferences
-)
+books |> sapply(process_preqmd)
 
-for (p in publications) process_preqmd(p)
-
-
+FORCE <- TRUE
 source(here::here("scripts",
                   "generate_post.R"))
 
@@ -60,5 +60,5 @@ source(here::here("scripts",
 # Make actual preview and render
 quarto::quarto_preview()
 
-quarto::quarto_preview_stop()
+# quarto::quarto_preview_stop()
 

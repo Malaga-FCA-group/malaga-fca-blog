@@ -12,7 +12,7 @@ categories:
 - R package
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>fcaR, Formal Concept Analysis with R</u> has been published in <em><em>The R Journal</em></em>.

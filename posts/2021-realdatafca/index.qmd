@@ -7,7 +7,7 @@ date: '2021-06-29'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>How to provide light to COVID data by means of FCA</u> has been published in <em>RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021</em>.

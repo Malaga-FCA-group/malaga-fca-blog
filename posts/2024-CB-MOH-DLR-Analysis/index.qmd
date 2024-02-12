@@ -10,7 +10,7 @@ date: '2024-02-05'
 categories: Fuzzy sets
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes</u> has been published in <em>Mathematics vol. 12 (3), article number 498.</em>.

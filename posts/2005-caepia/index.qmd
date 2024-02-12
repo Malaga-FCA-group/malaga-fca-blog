@@ -9,7 +9,7 @@ categories:
 - Machine learning
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Iterative Learning Reinforcement for Unsupervised Clustering with Discrete Recurrent Networks</u> has been published in <em><em>XI Conferencia de la Asociación Española para la Inteligencia Artificial</em> 2005

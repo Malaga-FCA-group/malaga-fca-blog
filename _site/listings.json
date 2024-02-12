@@ -1,18 +1,98 @@
 [
   {
-    "listing": "/projects/2019-flair/index.html",
-    "items": []
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/seminars/2023-ICCS/index.html",
+      "/talks/seminars/2023-XAI/index.html",
+      "/talks/seminars/2022-Ostrava/index.html",
+      "/talks/seminars/2022-RudolfWille/index.html",
+      "/talks/regular/2022-escim/index.html",
+      "/talks/regular/2022-ipmu/index.html",
+      "/talks/regular/2022-cmmse/index.html",
+      "/talks/regular/2022-cla/index.html",
+      "/talks/regular/2021-icfca/index.html",
+      "/talks/regular/2013-ifmb/index.html",
+      "/talks/regular/2007-caepia/index.html",
+      "/talks/regular/2007-ifip/index.html",
+      "/talks/regular/2007-ki/index.html",
+      "/talks/regular/2007-iwann/index.html",
+      "/talks/regular/2007-icannga/index.html",
+      "/talks/regular/2007-maeb/index.html",
+      "/talks/regular/2006-icann/index.html",
+      "/talks/regular/2005-caepia/index.html",
+      "/talks/regular/2005-enformatika/index.html",
+      "/talks/regular/2005-iwann/index.html",
+      "/talks/regular/2005-maeb/index.html",
+      "/talks/regular/2004-iccmse/index.html"
+    ]
   },
   {
-    "listing": "/projects/2019-PIE-clustering/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-ursus-dm/index.html",
-    "items": []
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/2023-valid/index.html",
+      "/projects/2019-PIE-clustering/index.html",
+      "/projects/2019-ursus-dm/index.html",
+      "/projects/2019-flair/index.html"
+    ]
   },
   {
     "listing": "/projects/2023-valid/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2023-iccs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-e-learning/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2019-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-escim/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-cmmse/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021-realdatafca/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022-ipmu/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-ijcis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020-eswa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-ufug/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023-insci/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/books/2021-complexfca/index.html",
     "items": []
   },
   {
@@ -105,68 +185,11 @@
     ]
   },
   {
-    "listing": "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ufug/index.html",
-    "items": []
-  },
-  {
     "listing": "/publications/journals/2022-mdpimathematics/index.html",
     "items": []
   },
   {
-    "listing": "/publications/books/2021-complexfca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-insci/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2020-eswa/index.html",
-    "items": []
-  },
-  {
     "listing": "/publications/journals/2022-rjournal/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ijcis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/2023-valid/index.html",
-      "/projects/2019-PIE-clustering/index.html",
-      "/projects/2019-ursus-dm/index.html",
-      "/projects/2019-flair/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/conferences/2023-iccs/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-icfca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2019-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-cla/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-realdatafca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-ipmu/index.html",
     "items": []
   },
   {
@@ -178,55 +201,24 @@
     "items": []
   },
   {
-    "listing": "/publications/conferences/2022-cmmse/index.html",
+    "listing": "/publications/conferences/2022-cla/index.html",
     "items": []
   },
   {
-    "listing": "/publications/conferences/2022-escim/index.html",
+    "listing": "/publications/conferences/2021-icfca/index.html",
     "items": []
   },
   {
-    "listing": "/publications/conferences/2021-e-learning/index.html",
+    "listing": "/projects/2019-ursus-dm/index.html",
     "items": []
   },
   {
-    "listing": "/publications/conferences/2021-cmmse/index.html",
+    "listing": "/projects/2019-flair/index.html",
     "items": []
   },
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/seminars/2023-ICCS/index.html",
-      "/talks/seminars/2023-XAI/index.html",
-      "/talks/seminars/2022-Ostrava/index.html",
-      "/talks/seminars/2022-RudolfWille/index.html",
-      "/talks/regular/2022-escim/index.html",
-      "/talks/regular/2022-ipmu/index.html",
-      "/talks/regular/2022-cmmse/index.html",
-      "/talks/regular/2022-cla/index.html",
-      "/talks/regular/2021-icfca/index.html",
-      "/talks/regular/2013-ifmb/index.html",
-      "/talks/regular/2007-caepia/index.html",
-      "/talks/regular/2007-ifip/index.html",
-      "/talks/regular/2007-ki/index.html",
-      "/talks/regular/2007-iwann/index.html",
-      "/talks/regular/2007-icannga/index.html",
-      "/talks/regular/2007-maeb/index.html",
-      "/talks/regular/2006-icann/index.html",
-      "/talks/regular/2005-caepia/index.html",
-      "/talks/regular/2005-enformatika/index.html",
-      "/talks/regular/2005-iwann/index.html",
-      "/talks/regular/2005-maeb/index.html",
-      "/talks/regular/2004-iccmse/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/staff/pcordero/index.html",
-      "/people/staff/dominlopez/index.html",
-      "/people/staff/amora/index.html"
-    ]
+    "listing": "/projects/2019-PIE-clustering/index.html",
+    "items": []
   },
   {
     "listing": "/index.html",
@@ -320,6 +312,14 @@
       "/posts/2004-jce/index.html",
       "/posts/2004-iccmse2/index.html",
       "/posts/2004-iccmse1/index.html"
+    ]
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/pcordero/index.html",
+      "/people/staff/dominlopez/index.html",
+      "/people/staff/amora/index.html"
     ]
   }
 ]

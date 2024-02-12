@@ -9,7 +9,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Stochastic multivalued network for optimization. Application to the graph MaxCut problem</u> has been published in <em>International Conference on Computational Intelligence, Man-Machine Systems and Cybernetics - Proceedings, (1), <em>pp. 111-116</em></em>.

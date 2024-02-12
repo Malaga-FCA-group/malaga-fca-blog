@@ -4,10 +4,10 @@ title: 'Conference paper accepted: <em>Shortest Common Superstring Problem with 
 image: /assets/images/conferences.jpg
 author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
 date: '2009-04-27'
-categories: ~
+categories: []
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Shortest Common Superstring Problem with Discrete Neural Networks</u> has been published in <em>International Conference on Adaptive and Natural Computing Algorithms 2009, pp 62 &ndash; 71</em>.

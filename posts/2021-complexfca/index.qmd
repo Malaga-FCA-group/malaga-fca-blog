@@ -11,7 +11,7 @@ categories:
 - Big data
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>Formal methods in FCA and Big Data</u> has been published in <em>Complex Data Analytics with Formal Concept Analysis, <em>pp. 201 -- 224</em></em>.

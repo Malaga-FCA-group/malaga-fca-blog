@@ -10,14 +10,14 @@ library(scholar)
 library(tidyverse)
 source(here::here("scripts",
                   "manage_publications.R"))
-source(here::here("scripts",
-                  "manage_citations.R"))
-source(here::here("scripts",
-                  "connections.R"))
+# source(here::here("scripts",
+#                   "manage_citations.R"))
+# source(here::here("scripts",
+#                   "connections.R"))
 
 
-scholar_id <- "X24XQHIAAAAJ"
-orcid_id <- "0000-0002-0172-1585"
+scholar_id <- "X24XQHIAAAAJ" # Here is your scholar ID
+# orcid_id <- "0000-0002-0172-1585"
 
 # Obtain all publications from Scholar
 pubs <- scholar::get_publications(scholar_id)  |>
@@ -81,7 +81,8 @@ pubs2 <- pubs |>
          type = stringr::str_split_i(slug, pattern = "/", 1),
          year = pubyear[order]) |>
   filter(!is.na(order)) |>
-  arrange(order)
+  arrange(order) |>
+  filter(cites > 0)
 
 # Obtain citation history for papers
 # First, clean up
@@ -102,7 +103,9 @@ for (i in seq(nrow(pubs2))) {
   publication <- pubs2[i, ]
 
   Sys.sleep(runif(1, min = 0.5, max = 2))
-  this_citation <- scholar::get_article_cite_history(scholar_id, publication$pubid)
+  this_citation <- scholar::get_article_cite_history(
+    scholar_id,
+    publication$pubid)
 
   if (nrow(this_citation) > 0) {
 

@@ -9,7 +9,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: malaga-fca-group/malaga-fca-blog
+    repo: neuroimaginador/website
 ---
 
 The work <u>A generalization of the Hopfield model for the graph isomorphism problem</u> has been published in <em><em>Computing and Computational Techniques in Sciences</em> 2008</em>.
