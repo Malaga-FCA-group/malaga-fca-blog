@@ -1,0 +1,19 @@
+---
+title: 'Invited seminar <em>Artificial Intelligence in public policies: A survey</em>'
+image: imagen1.jpeg
+author:
+- Manuel Ojeda Hernández
+date: '2024-02-29T00:00:00Z'
+categories:
+- Artificial intelligence
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
+---
+
+
+Artificial Intelligence (AI) has been a major technological breakthrough in recent years. The research and development  on this notion has been fruitfully studied and published in both scientific journals and communications for the general public. The open access of these techniques to the non-expert population has greatly increased their popularity and has rendered futuristic applications as commonplace. Nevertheless, the use of AI in laid-back, leisure applications such as painting is only the tip of the iceberg, since the range of application is inimaginably wide. In addition, most of these systems are not supervised, therefore some uncontrolled situations come to errors in the output. As a matter of fact, current challenges on the research include the transparency and explainability of choices made by AI, as seen for example as major guidelines in the Horizon Europe setting.
+
+![](imagen1.jpeg)
+
+In this talk, Dr. Ojeda-Hernández shows the power of AI, from its first form to the current methods being used and the classification according to the human interaction in the process. Since this technology is being developed far quicker than the legal framework, there is no formal legislation on the use AI techniques and some countries are already using them in their public policies. Some examples will be shown of the well-known AI systems in use by some governments which range from migration to military systems, including probation systems. Even though there is no formal legal framework to this yet, there are some drafts which make a decent first approach to an AI legislation, such as the USA AI Act, the Canadian AI Law or the EU’s AI Act. These legal frameworks are also discussed in the talk.

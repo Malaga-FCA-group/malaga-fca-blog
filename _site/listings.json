@@ -223,6 +223,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-MOH-Salamanca/index.html",
       "/posts/2024-CB-MOH-DLR-Analysis/index.html",
       "/posts/2024-fsta-attendance/index.html",
       "/posts/2023-axioms2/index.html",
@@ -317,9 +318,16 @@
   {
     "listing": "/people/index.html",
     "items": [
+      "/people/staff/manuojeda/index.html",
+      "/people/staff/ipcabrera/index.html",
       "/people/staff/pcordero/index.html",
+      "/people/staff/franperezgamez/index.html",
+      "/people/staff/cbejines/index.html",
+      "/people/staff/enciso/index.html",
+      "/people/staff/ejmunoz/index.html",
       "/people/staff/dominlopez/index.html",
-      "/people/staff/amora/index.html"
+      "/people/staff/amora/index.html",
+      "/people/staff/aciego/index.html"
     ]
   }
 ]
