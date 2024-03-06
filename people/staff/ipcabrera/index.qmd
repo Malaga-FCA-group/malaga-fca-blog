@@ -1,0 +1,35 @@
+---
+title: "Inmaculada de las Peñas Cabrera"
+sortby: penascabrera
+subtitle: "Associate Professor"
+image: avatar.png
+started: "April 2001"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: website
+      href: http://webpersonal.uma.es/de/pcordero/Mi_web_personal/Bienvenida.html
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.es/citations?user=8VfeY-wAAAAJ
+    - icon: github
+      text: github
+      href: https://www.github.com/malaga-fca-group
+---
+
+<!-- ```{=html} -->
+<!-- <nav aria-label="breadcrumb"> -->
+<!--   <ol class="breadcrumb"> -->
+<!--     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li> -->
+<!--     <li class="breadcrumb-item"><a href="../../people.html">People</a></li> -->
+<!--     <li class="breadcrumb-item active">Research Staff</li> -->
+<!--     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li> -->
+<!--   </ol> -->
+<!-- </nav> -->
+<!-- ``` -->
+
+:::{#person-profile}
+:::

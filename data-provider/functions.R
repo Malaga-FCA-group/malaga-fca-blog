@@ -57,6 +57,7 @@ generate_publication_preqmd <- function(
   if (is.null(header_image)) header_image <- "~"
 
   if (is.null(keywords)) keywords <- ""
+  if (is.null(doi)) doi <- "''"
 
   str <- glue::glue(
     "title: '{title}'\n",

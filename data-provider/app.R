@@ -407,14 +407,23 @@ server <- function(input, output, session) {
       slug <- L$slug
 
       old_bib <- input$bibfile$datapath
-      bib_dir <- dirname(old_bib)
-      my_bib <- file.path(bib_dir, "cite.bib")
-      fs::file_copy(path = old_bib,
-                    new_path = my_bib,
-                    overwrite = TRUE)
 
-      files <- c(index_file,
-                 my_bib)
+      if (!is.null(old_bib)) {
+
+        bib_dir <- dirname(old_bib)
+        my_bib <- file.path(bib_dir, "cite.bib")
+        fs::file_copy(path = old_bib,
+                      new_path = my_bib,
+                      overwrite = TRUE)
+
+        files <- c(index_file,
+                   my_bib)
+
+      } else {
+
+        files <- index_file
+
+      }
 
       if (!is.null(input$header_image)) {
 
