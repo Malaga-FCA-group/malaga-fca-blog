@@ -15,6 +15,14 @@
     ]
   },
   {
+    "listing": "/software/index.html",
+    "items": [
+      "/software/sw/fcaR/index.html",
+      "/software/demos/fcaR/index.html",
+      "/software/demos/recommendation/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2024-MOH-Salamanca/index.html",

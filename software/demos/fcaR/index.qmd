@@ -1,0 +1,621 @@
+---
+title: "fcaR: Formal Concept Analysis with R"
+author: 
+  - Ángel Mora Bonilla
+  - Domingo López Rodríguez
+date: "2020-07-21"
+---
+
+
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = FALSE, 
+                      echo = TRUE,
+                      message = FALSE)
+library(fcaR)
+library(Matrix)
+library(kableExtra)
+planets2 <- planets
+planets2[planets2 == 1] <- "x"
+planets2[planets2 == "0"] <- ""
+```
+
+# Motivation
+
+## Why to develop an `R` package for FCA?
+
+- `R`, together with Python, are the two most widely used programming languages in Machine Learning and Data Science.
+- In `R` there are already libraries for association rule mining that have become standard: arules.
+- There is no library in `R` that implements the basic ideas and functions of FCA and allows them to be used in other contexts.
+
+
+# History of FCA
+
+- Port-Royal logic (traditional logic): formal notion of concept, Arnauld A., Nicole P.: La logique ou l'art de penser, 1662 (Logic Or The Art Of Thinking, CUP, 2003): concept = extent (objects) + intent (attributes)
+
+- G. Birkhoff (1940s): work on lattices and related mathematical structures, emphasizes applicational aspects of lattices in data analysis.
+
+- Barbut M., Monjardet B.: Ordre et classiffication, algebre et combinatoire. Hachette, Paris, 1970.
+
+- Wille R.: Restructuring lattice theory: an approach based on hierarchies of concepts. In: I. Rival (Ed.): Ordered Sets. Reidel, Dordrecht, 1982, pp. 445-470.
+
+-  **Ganter B., Wille R.: Formal Concept Analysis. Springer, 1999.**
+
+
+# Application of FCA
+
+-   Knowledge extraction
+-   Clustering and classification
+-   Machine learning
+-   Concepts, ontologies
+-   Rules, association rules, attribute implications
+
+
+ 
+
+## The fcaR library
+
+![](figs/cran.png)
+
+<!-- \vspace*{5ex} -->
+The package is in a stable phase in a repository on [Github](https://github.com/Malaga-FCA-group/fcaR) and on CRAN. 
+ 
+- Unit tests
+- Vignettes with demos
+- Status: 
+
+  * lifecycle: stable
+  * CRAN version: 1.2.1
+  * downloads: ~36K
+  
+## Where to find help
+
+[https://malaga-fca-group.github.io/fcaR/](`fcaR` repository).
+
+![](figs/pkgdown.png)
+
+# Part 0: Introduction
+
+## Background in FCA
+
+We show some of the main methods of FCA using the functionalities and data structures of the `fcaR` package.
+
+Following the discourse of **Conceptual Exploration - B. Ganter, S. Obiedkov - 2016.**
+
+We will, when needed, recall the notions of concept-forming operators, concepts, implication basis, etc.
+
+## Structure of `fcaR` {#structure}
+
+The `fcaR` package provides data structures which allow the user to work seamlessly with formal contexts and sets of implications. Three basic objects wil be used in R language:
+
+-   `FormalContext` encapsulates the definition of a formal context $(G, M, I)$, being $G$ the set of objects, $M$ the set of attributes and $I$ the (fuzzy) relationship matrix, and provides methods to operate on the context using FCA tools.
+-   `ImplicationSet` represents a set of implications over a specific formal context.
+-   `Set` encapsulates a class for storing variables (attributes or objects) in an efficient way.
+
+As an advantage, object oriented programming style of R language and all the knowledge (concepts, implications, minimal generators, etc.) will be stored inside the *formal context object*.
+
+`fcaR` includes documentation and vignettes.
+
+-   From the point of view of efficiency, the `fcaR` package uses the vectorial and parallelization capabilities of the R language, whereas algorithmic bottlenecks have been implemented in C.
+
+-   Currently, the package is under active development.
+
+-   As of today the package has 36000 downloads, published in CRAN repositories (<https://cran.rstudio.com/web/packages/fcaR/index.html>) with a living lifecycle <https://github.com/Malaga-FCA-group/fcaR> and with vignettes to help spread the package <https://neuroimaginador.github.io/fcaR/>.
+
+# Part I: Fundamentals
+
+FCA provides methods to describe the relationship between a set of objects $G$ and a set of attributes $M$.
+
+We show the main methods of FCA using the main functionalities and data structures of the `fcaR` package.
+
+## Formal contexts
+
+
+The first step when using the `fcaR` package to analyse a formal context is to create a variable of class `FormalContext` which will store all the information related to the context.
+
+ 
+
+We use the Formal Context, $\mathbf{ K} := (G, M, I)$ about planets:
+
+> Wille R (1982). "Restructuring Lattice Theory: An Approach Based on Hierarchies of Concepts." In Ordered Sets, pp. 445--470. Springer.
+
+We load the `fcaR` package by:
+
+```{r,  load }
+library(fcaR)
+```
+
+-   Visualizing the dataset
+
+```{r,  Visualizing, echo = FALSE }
+planets %>%
+  kbl(caption = "The planets dataset") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+```
+
+-   Creating a variable `fc_planets`
+
+```{r,  Creating }
+fc_planets <- FormalContext$new(planets)
+fc_planets
+```
+
+`fc_planets` is a R variable which stores the formal context $\mathbf{ K}$ but also, all the knowledge related with the data inside:
+
+-   the attributes $M$,
+-   the objects $G$,
+-   the incidence relation
+-   the concepts (when they are computed)
+-   the implications (when they are computed)
+-   etc.
+
+**Help**: `fcaR` for your .tex documents:
+
+```{r, tolatex}
+fc_planets$to_latex(
+  caption = "Planets dataset.", 
+  label = "tab:planets")
+```
+which gives something like:
+
+```{r,  Visualizing2, echo = FALSE }
+planets2 %>%
+  kbl(caption = "Planets dataset",
+      align = "ccccccc") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+```
+
+
+`fc_planets` can be plotted (in gray scale for fuzzy datasets)
+
+```{r, printplot}
+fc_planets$plot()
+```
+
+`fc_planets` can be saved or loaded in a file
+
+```{r, savingloading}
+fc_planets$save(filename = "./fc_planets.rds")
+fcnew <- FormalContext$new("./fc_planets.rds")
+fcnew
+```
+## Basic methods
+
+### Derivation operators
+
+Functions `intent()` ($\equiv^{\uparrow}$) and `extent()` ($\equiv^{\downarrow}$) are designed to perform the corresponding operations:
+
+$$A^{\uparrow} := \{m\in M : (g,m)\in I,\, \forall g\in A\}$$
+$$B^{\downarrow} := \{g\in G : (g,m)\in I,\, \forall m\in B\}$$
+
+Example: 
+
+To compute $\{{\rm Mars}, {\rm Earth}\}^{\uparrow}$:
+
+```{r, intent}
+set_objects <- Set$new(fc_planets$objects)
+set_objects$assign(Mars = 1, Earth = 1)
+fc_planets$intent(set_objects)
+
+```
+
+To compute $\{{\rm medium}, {\rm far}\}^{\downarrow}$:
+
+```{r, extent}
+set_attributes <- Set$new(fc_planets$attributes)
+set_attributes$assign(medium = 1, far = 1)
+fc_planets$extent(set_attributes)
+```
+
+This pair of mappings is a **Galois connection**.
+
+The composition of intent and extent is the closure of a set of attributes.
+
+
+### Closures
+
+
+To compute $\{{\rm medium}\}^{\downarrow\uparrow}$:
+
+```{r, closure1}
+# Compute the closure of S
+set_attributes1 <- Set$new(fc_planets$attributes)
+set_attributes1$assign(medium = 1)
+MyClosure <- fc_planets$closure(set_attributes1)
+MyClosure
+
+```
+
+This means that all planets which have the attributes *medium* have *far* and *moon* in common.
+
+The function `$is_closed()` allows us to know if a set of attributes is closed.
+
+```{r , isclosed}
+set_attributes2 <-  Set$new(attributes = fc_planets$attributes)
+set_attributes2$assign(moon = 1, large = 1, far = 1)
+set_attributes2
+
+# Is it closed?
+fc_planets$is_closed(set_attributes2)
+
+set_attributes3 <-  Set$new(attributes = fc_planets$attributes)
+set_attributes3$assign(small = 1, far = 1)
+set_attributes3
+
+# Is it closed?
+fc_planets$is_closed(set_attributes3)
+
+```
+
+
+## Concept lattice
+
+### Concepts
+
+**Definition:** A **formal concept** is a pair $(A,B)$ such that $A \subseteq G$, $B \subseteq M$, $A^{\uparrow} = B$ and $B^{\downarrow} = A$. Consequently, $A$ and $B$ are closed sets of objects and attributes, respectively.
+
+$\big(\{{\rm Jupiter}, {\rm Saturn}, {\rm Uranus}, {\rm Neptune}, {\rm Pluto}\},\{{\rm far}, {\rm moon}\}\big)$ is a concept. It is a maximal cluster.
+
+
+```{r,  Visualizing3, echo = FALSE }
+planets2 %>%
+  kbl(caption = "Planets dataset",
+      align = "ccccccc") %>%
+  kable_classic(full_width = F, html_font = "Cambria") |> 
+  column_spec(6:7, color = c(rep("black", 4), rep("white", 5)), background = c(rep("white", 4), rep("orange", 5)))
+```
+
+
+
+**Note**: concepts for your .tex documents:
+
+```{r, conceptstolatex}
+fc_planets$concepts$to_latex()
+```
+
+### Computing concepts
+
+We use the function `$find_concepts()`
+
+Computing all the concepts from formal context of planets:
+
+```{r, findconcepts}
+
+fc_planets$find_concepts()
+fc_planets$concepts
+
+# First 6 concepts
+head(fc_planets$concepts)
+
+# The first concept
+firstconcept <- fc_planets$concepts[1]
+firstconcept
+
+# A subset of concepts
+fc_planets$concepts[3:4]
+
+# Plot the Hasse diagram of the concept lattice
+fc_planets$concepts$plot()
+```
+
+
+## Implications
+
+### Computing
+
+`find_implications()`: the function to extract the canonical basis of implications and the concept lattice using the NextClosure algorithm
+
+It stores both a `ConceptLattice` and an `ImplicationSet` objects internally in the `FormalContext` variable.
+
+```{r}
+fc_planets$find_implications()
+```
+
+### Manipulating
+
+The computed implications are:
+
+```{r}
+fc_planets$implications
+```
+
+Implications can be read by sub-setting (the same that in R language for vector, etc.):
+
+```{r}
+fc_planets$implications[3]
+fc_planets$implications[1:4]
+fc_planets$implications[c(1:4,3)]
+```
+
+Cardinality and size are computed using functions:
+
+1.  the number of implications is computed using `fc_planets$implications$cardinality()`
+
+2.  the number of attributes for each implication is computed using `fc_planets$implications$size()`
+
+```{r}
+fc_planets$implications$cardinality()
+sizes <- fc_planets$implications$size()
+sizes
+colMeans(sizes)
+```
+
+**Help**: ... for your .tex documents:
+
+```{r}
+fc_planets$implications$to_latex()
+```
+
+### Redudancy
+
+**Simplification Logic** is used to remove redundancy in a *logic style*, that is, applying some rules to the formulas (the implications)
+
+```{r eval = FALSE}
+sizes <- fc_planets$implications$size()
+colMeans(sizes)
+fc_planets$implications$apply_rules(
+  rules = c("composition",
+            "generalization",
+            "simplification"))
+
+# sizes <- fc_planets$implications$size()
+# colMeans(sizes)
+
+# Simplified implications
+fc_planets$implications
+
+# Which equivalence rules are present?
+equivalencesRegistry$get_entry_names()
+equivalencesRegistry$get_entry("simplification")
+
+```
+
+[Adding new rules to manipulate implications](https://neuroimaginador.github.io/fcaR/articles/extending_equivalence.html)
+
+### Validity
+
+We can see if an `ImplicationSet` holds in a `FormalContext` by using the `%holds_in%` operator.
+
+For instance, we can check that the first implication so far in the Duquenne-Guigues basis holds in the planets formal context:
+```{r}
+imp1 <- fc_planets$implications[1]
+imp1
+imp1 %holds_in% fc_planets
+```
+
+## Basic exercises
+
+
+1)  Compute the intent of `Earth` and `Earth,Mars, Mercury` (use the argument attributes in the class Set).
+
+```{r, echo=FALSE}
+S <- Set$new(attributes = fc_planets$objects)
+S$assign(Earth = 1)
+
+S2 <- Set$new(attributes = fc_planets$objects)
+S2$assign(attributes = c("Earth","Mars", "Mercury"),values = c(1,1,1))
+S2
+cat("Given the set of objects:")
+S
+cat("The intent is:")
+# Compute the intent of S
+fc_planets$intent(S)
+cat("Given the set of objects:")
+S2
+fc_planets$intent(S2)
+
+
+```
+
+2)  Compute the extent of `large` and `far,large` (use the argument attributes in the class Set) and save the result in a variable `e1, e2`.
+
+```{r, echo=FALSE}
+M <- Set$new(attributes = fc_planets$attributes)
+M$assign(large = 1)
+M2 <- Set$new(attributes = fc_planets$attributes)
+M2$assign(attributes = c("far","large"),values = c(1,1))
+cat("Given the set of objects:")
+M
+cat("The extent is:")
+# Compute the intent of S
+e1 <- fc_planets$extent(M)
+e1
+cat("Given the set of objects:")
+M2
+e2 <- fc_planets$extent(M2)
+e2
+```
+
+2)  Compute the intent of variables `e1` and also of `e2`.
+
+```{r, echo=FALSE}
+fc_planets$intent(e1)
+fc_planets$intent(e2)
+
+```
+
+3)  With the information from the above questions tell me a concept. Check with any command of fcaR package.
+
+4)  Compute the closure of `no_moon`
+
+```{r, echo=FALSE}
+S <- Set$new(attributes = fc_planets$attributes)
+S$assign(no_moon = 1)
+Sc <- fc_planets$closure(S)
+Sc
+
+fc_planets$att_concept("moon")
+```
+
+5)  Compute all the concepts and plot them. How many are there? Show the fist and the last (use subsetting).
+
+```{r, echo=FALSE}
+fc_planets$find_concepts()
+last <- fc_planets$concepts$size()
+fc_planets$concepts[c(1,last)]
+fc_planets$concepts$plot()
+```
+
+6)  Compute the major concept (in lattice) that has moon. The same with no_moon. Locate both in the lattice to understand the meaning.
+
+```{r, echo=FALSE}
+fc_planets$att_concept("moon")
+fc_planets$att_concept("no_moon")
+
+```
+
+7)  Compute the lowest concept (in lattice) that has Pluto. The same with Earth. Locate both in the lattice to understand the meaning.
+
+```{r, echo=FALSE}
+fc_planets$obj_concept("Pluto")
+fc_planets$obj_concept("Earth")
+
+```
+
+## Advanced things
+
+### Concept support
+
+
+The support of a concept $\langle A, B\rangle$ (A is the extent of the concept and B is the intent) is the cardinality (relative) of the extent - number of objects of the extent.
+
+$$
+supp(\langle A, B\rangle)=\frac{|A|}{|G|}
+$$
+
+We use the function: `$support()`
+
+```{r}
+fc_planets$concepts$support()
+```
+
+️ The support of itemsets and concepts is used to mine all the knowledge in the dataset: Algorithm Titanic - computing iceberg concept lattices.
+
+### Sublattices
+
+When the concept lattice is too large, it can be useful in certain occasions to just work with a sublattice of the complete lattice. To this end, we use the `sublattice()` function.
+
+
+`$sublattice()`: find a sublattice of the complete lattice
+
+For instance: Computing a sublattice of those concepts with support greater than the threshold
+
+```{r}
+fc_planets$concepts
+```
+
+
+```{r, sublattices, eval = FALSE}
+# Compute index of interesting concepts - using support
+idx <- which(fc_planets$concepts$support() > 0.5)
+# Build the sublattice
+sublattice <- fc_planets$concepts$sublattice(idx)
+sublattice
+sublattice$plot()
+
+# Compute index of interesting concepts - using indexes
+idx <- c(8, 9, 10) # concepts 8, 9 and 10
+# Build the sublattice
+sublattice <- fc_planets$concepts$sublattice(idx)
+sublattice
+sublattice$plot()
+```
+
+
+### Hierarchy
+
+That is: Subconcepts, superconcepts, infimum and supremum
+
+Given a concept, we can compute all its subconcepts and all its superconcepts.
+
+For instance, find all the subconcepts and superconcepts of the concept number 5 in the list of concepts.
+
+```{r, eval = FALSE}
+C <- fc_planets$concepts[5]
+C
+# Its subconcepts:
+fc_planets$concepts$subconcepts(C)
+# And its superconcepts:
+fc_planets$concepts$superconcepts(C)
+```
+
+The same, for supremum and infimum of a set of concetps.
+
+To find the supremum and the infimum of the concepts 5,6,7.
+
+```{r, eval = FALSE}
+# A list of concepts
+C <- fc_planets$concepts[5:7]
+C
+
+# Supremum of the concepts in C
+fc_planets$concepts$supremum(C)
+# Infimum of the concepts in C
+fc_planets$concepts$infimum(C)
+```
+
+### Notable elements
+
+In a complete lattice, an element is called supremum-irreducible or join-irreducible if it cannot be written as the supremum of other elements and infimum-irreducible or meet-irreducible if it can not be expressed as the infimum of other elements.
+
+The irreducible elements with respect to join (supremum) and meet (infimum) can be computed for a given concept lattice:
+
+```{r, eval = FALSE}
+fc_planets$concepts$join_irreducibles()
+fc_planets$concepts$meet_irreducibles()
+```
+
+### Clarification, reduction
+
+Methods to simplify the context, removing redundancies, while retaining all the knowledge
+
+`clarify()`, which removes duplicated attributes and objects (columns and rows in the original matrix)
+
+`reduce()`, which uses closures to remove dependent attributes, but only on binary formal contexts
+
+```{r}
+# We clone the context just to keep a copy
+fc_planetscopy <- fc_planets$clone()
+fc_planetscopy$clarify(TRUE)
+fc_planetscopy$reduce(TRUE)
+```
+
+Note that merged attributes or objects are stored in the new formal context by using squared brackets to unify them, e.g. `[Mercury, Venus]`
+
+### Standard Context
+
+The *standard context* is $({\cal J}, {\cal M}, \leq)$, where $\cal J$ is the set of join-irreducible concepts and $\cal M$ are the meet-irreducible ones.
+
+`standardize()` is the function to compute the standard context.
+
+Note: objects are now named J1, J2... and attributes are M1, M2..., from join and meet
+
+```{r}
+fc_planetscopy <- fc_planets$clone()
+fc_planetscopy$find_concepts()
+fc_planetscopy$standardize()
+```
+
+### Entailment
+
+Imp1 `%entails%` Imp2 - Imp2 can be derived (logical consequence) of Imp1
+
+```{r}
+fc_planets$find_implications()
+imps <- fc_planets$implications
+imps2 <- fc_planets$implications$clone()
+imps2$apply_rules(c("simp", "rsimp"))
+imps %entails% imps2
+imps2 %entails% imps
+```
+
+### Equivalence
+
+Imp1 `%~%` Imp2 - Are Imp1 and Imp2 equivalent?
+
+```{r}
+imps %~% imps2
+imps %~% imps2[1:3]
+```
+
+

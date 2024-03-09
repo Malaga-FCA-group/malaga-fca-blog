@@ -6,6 +6,7 @@ render:
 
 website:
   title: "Málaga FCA Group"
+  cookie-consent: true
   navbar:
     right:
       - href: people/index.qmd
@@ -14,6 +15,8 @@ website:
         text: Publications
       - href: projects/index.qmd
         text: Projects
+      - href: software/index.qmd
+        text: Software
       - about.qmd
       - icon: github
         href: https://github.com/malaga-fca-group

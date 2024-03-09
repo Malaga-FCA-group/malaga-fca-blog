@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.545">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ángel Mora Bonilla">
+<meta name="author" content="Domingo López Rodríguez">
+<meta name="dcterms.date" content="2020-07-21">
+
+<title>Málaga FCA Group - fcaR: Formal Concept Analysis with R</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script src="../../../prism.js"></script>
+<script>
+// Carga el archivo JavaScript de resaltado de sintaxis
+// (sustituye "prism.js" por el nombre del archivo que hayas descargado)
+
+// Crea una función que muestre una ventana popup con el contenido del archivo "cite.bib"
+function showPopup() {
+  // Abre la ventana popup
+  var popupWindow = window.open("", "Popup", "height=500,width=500");
+
+  // Lee el contenido del archivo "cite.bib" usando Ajax
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      // Cuando el archivo se haya cargado, muestra su contenido en la ventana popup
+      // usando resaltado de sintaxis
+      var text = xhr.responseText;
+      popupWindow.document.body.innerHTML = "<pre><code class='language-bibtex'>" + text + "</code></pre>";
+
+      // Aplica el resaltado de sintaxis a la ventana popup
+      Prism.highlightAll();
+    }
+  }
+  xhr.open("GET", "cite.bib", true);
+  xhr.send();
+}
+</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Málaga FCA Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../software/index.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/malaga-fca-group"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
+  <ul class="collapse">
+  <li><a href="#why-to-develop-an-r-package-for-fca" id="toc-why-to-develop-an-r-package-for-fca" class="nav-link" data-scroll-target="#why-to-develop-an-r-package-for-fca">Why to develop an <code>R</code> package for FCA?</a></li>
+  </ul></li>
+  <li><a href="#history-of-fca" id="toc-history-of-fca" class="nav-link" data-scroll-target="#history-of-fca">History of FCA</a></li>
+  <li><a href="#application-of-fca" id="toc-application-of-fca" class="nav-link" data-scroll-target="#application-of-fca">Application of FCA</a>
+  <ul class="collapse">
+  <li><a href="#the-fcar-library" id="toc-the-fcar-library" class="nav-link" data-scroll-target="#the-fcar-library">The fcaR library</a></li>
+  <li><a href="#where-to-find-help" id="toc-where-to-find-help" class="nav-link" data-scroll-target="#where-to-find-help">Where to find help</a></li>
+  </ul></li>
+  <li><a href="#part-0-introduction" id="toc-part-0-introduction" class="nav-link" data-scroll-target="#part-0-introduction">Part 0: Introduction</a>
+  <ul class="collapse">
+  <li><a href="#background-in-fca" id="toc-background-in-fca" class="nav-link" data-scroll-target="#background-in-fca">Background in FCA</a></li>
+  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure of <code>fcaR</code></a></li>
+  </ul></li>
+  <li><a href="#part-i-fundamentals" id="toc-part-i-fundamentals" class="nav-link" data-scroll-target="#part-i-fundamentals">Part I: Fundamentals</a>
+  <ul class="collapse">
+  <li><a href="#formal-contexts" id="toc-formal-contexts" class="nav-link" data-scroll-target="#formal-contexts">Formal contexts</a></li>
+  <li><a href="#basic-methods" id="toc-basic-methods" class="nav-link" data-scroll-target="#basic-methods">Basic methods</a>
+  <ul class="collapse">
+  <li><a href="#derivation-operators" id="toc-derivation-operators" class="nav-link" data-scroll-target="#derivation-operators">Derivation operators</a></li>
+  <li><a href="#closures" id="toc-closures" class="nav-link" data-scroll-target="#closures">Closures</a></li>
+  </ul></li>
+  <li><a href="#concept-lattice" id="toc-concept-lattice" class="nav-link" data-scroll-target="#concept-lattice">Concept lattice</a>
+  <ul class="collapse">
+  <li><a href="#concepts" id="toc-concepts" class="nav-link" data-scroll-target="#concepts">Concepts</a></li>
+  <li><a href="#computing-concepts" id="toc-computing-concepts" class="nav-link" data-scroll-target="#computing-concepts">Computing concepts</a></li>
+  </ul></li>
+  <li><a href="#implications" id="toc-implications" class="nav-link" data-scroll-target="#implications">Implications</a>
+  <ul class="collapse">
+  <li><a href="#computing" id="toc-computing" class="nav-link" data-scroll-target="#computing">Computing</a></li>
+  <li><a href="#manipulating" id="toc-manipulating" class="nav-link" data-scroll-target="#manipulating">Manipulating</a></li>
+  <li><a href="#redudancy" id="toc-redudancy" class="nav-link" data-scroll-target="#redudancy">Redudancy</a></li>
+  <li><a href="#validity" id="toc-validity" class="nav-link" data-scroll-target="#validity">Validity</a></li>
+  </ul></li>
+  <li><a href="#basic-exercises" id="toc-basic-exercises" class="nav-link" data-scroll-target="#basic-exercises">Basic exercises</a></li>
+  <li><a href="#advanced-things" id="toc-advanced-things" class="nav-link" data-scroll-target="#advanced-things">Advanced things</a>
+  <ul class="collapse">
+  <li><a href="#concept-support" id="toc-concept-support" class="nav-link" data-scroll-target="#concept-support">Concept support</a></li>
+  <li><a href="#sublattices" id="toc-sublattices" class="nav-link" data-scroll-target="#sublattices">Sublattices</a></li>
+  <li><a href="#hierarchy" id="toc-hierarchy" class="nav-link" data-scroll-target="#hierarchy">Hierarchy</a></li>
+  <li><a href="#notable-elements" id="toc-notable-elements" class="nav-link" data-scroll-target="#notable-elements">Notable elements</a></li>
+  <li><a href="#clarification-reduction" id="toc-clarification-reduction" class="nav-link" data-scroll-target="#clarification-reduction">Clarification, reduction</a></li>
+  <li><a href="#standard-context" id="toc-standard-context" class="nav-link" data-scroll-target="#standard-context">Standard Context</a></li>
+  <li><a href="#entailment" id="toc-entailment" class="nav-link" data-scroll-target="#entailment">Entailment</a></li>
+  <li><a href="#equivalence" id="toc-equivalence" class="nav-link" data-scroll-target="#equivalence">Equivalence</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">fcaR: Formal Concept Analysis with R</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ángel Mora Bonilla </p>
+             <p>Domingo López Rodríguez </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">21 July 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="motivation" class="level1">
+<h1>Motivation</h1>
+<section id="why-to-develop-an-r-package-for-fca" class="level2">
+<h2 class="anchored" data-anchor-id="why-to-develop-an-r-package-for-fca">Why to develop an <code>R</code> package for FCA?</h2>
+<ul>
+<li><code>R</code>, together with Python, are the two most widely used programming languages in Machine Learning and Data Science.</li>
+<li>In <code>R</code> there are already libraries for association rule mining that have become standard: arules.</li>
+<li>There is no library in <code>R</code> that implements the basic ideas and functions of FCA and allows them to be used in other contexts.</li>
+</ul>
+</section>
+</section>
+<section id="history-of-fca" class="level1">
+<h1>History of FCA</h1>
+<ul>
+<li><p>Port-Royal logic (traditional logic): formal notion of concept, Arnauld A., Nicole P.: La logique ou l’art de penser, 1662 (Logic Or The Art Of Thinking, CUP, 2003): concept = extent (objects) + intent (attributes)</p></li>
+<li><p>G. Birkhoff (1940s): work on lattices and related mathematical structures, emphasizes applicational aspects of lattices in data analysis.</p></li>
+<li><p>Barbut M., Monjardet B.: Ordre et classiffication, algebre et combinatoire. Hachette, Paris, 1970.</p></li>
+<li><p>Wille R.: Restructuring lattice theory: an approach based on hierarchies of concepts. In: I. Rival (Ed.): Ordered Sets. Reidel, Dordrecht, 1982, pp.&nbsp;445-470.</p></li>
+<li><p><strong>Ganter B., Wille R.: Formal Concept Analysis. Springer, 1999.</strong></p></li>
+</ul>
+</section>
+<section id="application-of-fca" class="level1">
+<h1>Application of FCA</h1>
+<ul>
+<li>Knowledge extraction</li>
+<li>Clustering and classification</li>
+<li>Machine learning</li>
+<li>Concepts, ontologies</li>
+<li>Rules, association rules, attribute implications</li>
+</ul>
+<section id="the-fcar-library" class="level2">
+<h2 class="anchored" data-anchor-id="the-fcar-library">The fcaR library</h2>
+<p><img src="figs/cran.png" class="img-fluid"></p>
+<!-- \vspace*{5ex} -->
+<p>The package is in a stable phase in a repository on <a href="https://github.com/Malaga-FCA-group/fcaR">Github</a> and on CRAN.</p>
+<ul>
+<li><p>Unit tests</p></li>
+<li><p>Vignettes with demos</p></li>
+<li><p>Status:</p>
+<ul>
+<li>lifecycle: stable</li>
+<li>CRAN version: 1.2.1</li>
+<li>downloads: ~36K</li>
+</ul></li>
+</ul>
+</section>
+<section id="where-to-find-help" class="level2">
+<h2 class="anchored" data-anchor-id="where-to-find-help">Where to find help</h2>
+<p><a href="`fcaR` repository">https://malaga-fca-group.github.io/fcaR/</a>.</p>
+<p><img src="figs/pkgdown.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="part-0-introduction" class="level1">
+<h1>Part 0: Introduction</h1>
+<section id="background-in-fca" class="level2">
+<h2 class="anchored" data-anchor-id="background-in-fca">Background in FCA</h2>
+<p>We show some of the main methods of FCA using the functionalities and data structures of the <code>fcaR</code> package.</p>
+<p>Following the discourse of <strong>Conceptual Exploration - B. Ganter, S. Obiedkov - 2016.</strong></p>
+<p>We will, when needed, recall the notions of concept-forming operators, concepts, implication basis, etc.</p>
+</section>
+<section id="structure" class="level2">
+<h2 class="anchored" data-anchor-id="structure">Structure of <code>fcaR</code></h2>
+<p>The <code>fcaR</code> package provides data structures which allow the user to work seamlessly with formal contexts and sets of implications. Three basic objects wil be used in R language:</p>
+<ul>
+<li><code>FormalContext</code> encapsulates the definition of a formal context <span class="math inline">(G, M, I)</span>, being <span class="math inline">G</span> the set of objects, <span class="math inline">M</span> the set of attributes and <span class="math inline">I</span> the (fuzzy) relationship matrix, and provides methods to operate on the context using FCA tools.</li>
+<li><code>ImplicationSet</code> represents a set of implications over a specific formal context.</li>
+<li><code>Set</code> encapsulates a class for storing variables (attributes or objects) in an efficient way.</li>
+</ul>
+<p>As an advantage, object oriented programming style of R language and all the knowledge (concepts, implications, minimal generators, etc.) will be stored inside the <em>formal context object</em>.</p>
+<p><code>fcaR</code> includes documentation and vignettes.</p>
+<ul>
+<li><p>From the point of view of efficiency, the <code>fcaR</code> package uses the vectorial and parallelization capabilities of the R language, whereas algorithmic bottlenecks have been implemented in C.</p></li>
+<li><p>Currently, the package is under active development.</p></li>
+<li><p>As of today the package has 36000 downloads, published in CRAN repositories (<a href="https://cran.rstudio.com/web/packages/fcaR/index.html" class="uri">https://cran.rstudio.com/web/packages/fcaR/index.html</a>) with a living lifecycle <a href="https://github.com/Malaga-FCA-group/fcaR" class="uri">https://github.com/Malaga-FCA-group/fcaR</a> and with vignettes to help spread the package <a href="https://neuroimaginador.github.io/fcaR/" class="uri">https://neuroimaginador.github.io/fcaR/</a>.</p></li>
+</ul>
+</section>
+</section>
+<section id="part-i-fundamentals" class="level1">
+<h1>Part I: Fundamentals</h1>
+<p>FCA provides methods to describe the relationship between a set of objects <span class="math inline">G</span> and a set of attributes <span class="math inline">M</span>.</p>
+<p>We show the main methods of FCA using the main functionalities and data structures of the <code>fcaR</code> package.</p>
+<section id="formal-contexts" class="level2">
+<h2 class="anchored" data-anchor-id="formal-contexts">Formal contexts</h2>
+<p>The first step when using the <code>fcaR</code> package to analyse a formal context is to create a variable of class <code>FormalContext</code> which will store all the information related to the context.</p>
+<p>We use the Formal Context, <span class="math inline">\mathbf{ K} := (G, M, I)</span> about planets:</p>
+<blockquote class="blockquote">
+<p>Wille R (1982). “Restructuring Lattice Theory: An Approach Based on Hierarchies of Concepts.” In Ordered Sets, pp.&nbsp;445–470. Springer.</p>
+</blockquote>
+<p>We load the <code>fcaR</code> package by:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fcaR)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>Visualizing the dataset</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<table class="lightable-classic table table-sm table-striped small" data-quarto-postprocess="true">
+<caption>The planets dataset</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">small</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">medium</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">large</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">near</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">far</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">moon</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">no_moon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mercury</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Venus</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Earth</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mars</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jupiter</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Saturn</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Uranus</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neptune</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pluto</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<ul>
+<li>Creating a variable <code>fc_planets</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>fc_planets <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(planets)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>FormalContext with 9 objects and 7 attributes.
+         small  medium  large  near  far  moon  no_moon  
+ Mercury   X                     X                 X     
+   Venus   X                     X                 X     
+   Earth   X                     X          X            
+    Mars   X                     X          X            
+ Jupiter                  X           X     X            
+  Saturn                  X           X     X            
+  Uranus           X                  X     X            
+ Neptune           X                  X     X            
+   Pluto   X                          X     X            </code></pre>
+</div>
+</div>
+<p><code>fc_planets</code> is a R variable which stores the formal context <span class="math inline">\mathbf{ K}</span> but also, all the knowledge related with the data inside:</p>
+<ul>
+<li>the attributes <span class="math inline">M</span>,</li>
+<li>the objects <span class="math inline">G</span>,</li>
+<li>the incidence relation</li>
+<li>the concepts (when they are computed)</li>
+<li>the implications (when they are computed)</li>
+<li>etc.</li>
+</ul>
+<p><strong>Help</strong>: <code>fcaR</code> for your .tex documents:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">to_latex</span>(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Planets dataset."</span>, </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> <span class="st">"tab:planets"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>\begin{table} \caption{Planets dataset.}\label{tab:planets} \centering \begin{tabular}{r|ccccccc}
+  &amp; $small$ &amp; $medium$ &amp; $large$ &amp; $near$ &amp; $far$ &amp; $moon$ &amp; $no\_moon$\\ 
+ \hline 
+ $Mercury$ &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp;  &amp;  &amp; $\times$ \\
+$Venus$ &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp;  &amp;  &amp; $\times$ \\
+$Earth$ &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp;  &amp; $\times$ &amp;  \\
+$Mars$ &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp;  &amp; $\times$ &amp;  \\
+$Jupiter$ &amp;  &amp;  &amp; $\times$ &amp;  &amp; $\times$ &amp; $\times$ &amp;  \\
+$Saturn$ &amp;  &amp;  &amp; $\times$ &amp;  &amp; $\times$ &amp; $\times$ &amp;  \\
+$Uranus$ &amp;  &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;  \\
+$Neptune$ &amp;  &amp; $\times$ &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;  \\
+$Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;  
+ \end{tabular}
+ \end{table}</code></pre>
+</div>
+</div>
+<p>which gives something like:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="lightable-classic table table-sm table-striped small" data-quarto-postprocess="true">
+<caption>Planets dataset</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">small</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">medium</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">large</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">near</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">far</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">moon</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">no_moon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mercury</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Venus</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Earth</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mars</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jupiter</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Saturn</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Uranus</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neptune</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pluto</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p><code>fc_planets</code> can be plotted (in gray scale for fuzzy datasets)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/printplot-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><code>fc_planets</code> can be saved or loaded in a file</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">save</span>(<span class="at">filename =</span> <span class="st">"./fc_planets.rds"</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>fcnew <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(<span class="st">"./fc_planets.rds"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>fcnew</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>FormalContext with 9 objects and 7 attributes.
+         small  medium  large  near  far  moon  no_moon  
+ Mercury   1       0      0      1    0     0      1     
+   Venus   1       0      0      1    0     0      1     
+   Earth   1       0      0      1    0     1      0     
+    Mars   1       0      0      1    0     1      0     
+ Jupiter   0       0      1      0    1     1      0     
+  Saturn   0       0      1      0    1     1      0     
+  Uranus   0       1      0      0    1     1      0     
+ Neptune   0       1      0      0    1     1      0     
+   Pluto   1       0      0      0    1     1      0     </code></pre>
+</div>
+</div>
+</section>
+<section id="basic-methods" class="level2">
+<h2 class="anchored" data-anchor-id="basic-methods">Basic methods</h2>
+<section id="derivation-operators" class="level3">
+<h3 class="anchored" data-anchor-id="derivation-operators">Derivation operators</h3>
+<p>Functions <code>intent()</code> (<span class="math inline">\equiv^{\uparrow}</span>) and <code>extent()</code> (<span class="math inline">\equiv^{\downarrow}</span>) are designed to perform the corresponding operations:</p>
+<p><span class="math display">A^{\uparrow} := \{m\in M : (g,m)\in I,\, \forall g\in A\}</span> <span class="math display">B^{\downarrow} := \{g\in G : (g,m)\in I,\, \forall m\in B\}</span></p>
+<p>Example:</p>
+<p>To compute <span class="math inline">\{{\rm Mars}, {\rm Earth}\}^{\uparrow}</span>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>set_objects <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>objects)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>set_objects<span class="sc">$</span><span class="fu">assign</span>(<span class="at">Mars =</span> <span class="dv">1</span>, <span class="at">Earth =</span> <span class="dv">1</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">intent</span>(set_objects)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{small, near, moon}</code></pre>
+</div>
+</div>
+<p>To compute <span class="math inline">\{{\rm medium}, {\rm far}\}^{\downarrow}</span>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>set_attributes <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>set_attributes<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">extent</span>(set_attributes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{Uranus, Neptune}</code></pre>
+</div>
+</div>
+<p>This pair of mappings is a <strong>Galois connection</strong>.</p>
+<p>The composition of intent and extent is the closure of a set of attributes.</p>
+</section>
+<section id="closures" class="level3">
+<h3 class="anchored" data-anchor-id="closures">Closures</h3>
+<p>To compute <span class="math inline">\{{\rm medium}\}^{\downarrow\uparrow}</span>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the closure of S</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>set_attributes1 <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>set_attributes1<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>MyClosure <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">closure</span>(set_attributes1)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>MyClosure</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{medium, far, moon}</code></pre>
+</div>
+</div>
+<p>This means that all planets which have the attributes <em>medium</em> have <em>far</em> and <em>moon</em> in common.</p>
+<p>The function <code>$is_closed()</code> allows us to know if a set of attributes is closed.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>set_attributes2 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>set_attributes2<span class="sc">$</span><span class="fu">assign</span>(<span class="at">moon =</span> <span class="dv">1</span>, <span class="at">large =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>set_attributes2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{large, far, moon}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>set_attributes3 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>set_attributes3<span class="sc">$</span><span class="fu">assign</span>(<span class="at">small =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>set_attributes3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{small, far}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="concept-lattice" class="level2">
+<h2 class="anchored" data-anchor-id="concept-lattice">Concept lattice</h2>
+<section id="concepts" class="level3">
+<h3 class="anchored" data-anchor-id="concepts">Concepts</h3>
+<p><strong>Definition:</strong> A <strong>formal concept</strong> is a pair <span class="math inline">(A,B)</span> such that <span class="math inline">A \subseteq G</span>, <span class="math inline">B \subseteq M</span>, <span class="math inline">A^{\uparrow} = B</span> and <span class="math inline">B^{\downarrow} = A</span>. Consequently, <span class="math inline">A</span> and <span class="math inline">B</span> are closed sets of objects and attributes, respectively.</p>
+<p><span class="math inline">\big(\{{\rm Jupiter}, {\rm Saturn}, {\rm Uranus}, {\rm Neptune}, {\rm Pluto}\},\{{\rm far}, {\rm moon}\}\big)</span> is a concept. It is a maximal cluster.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="lightable-classic table table-sm table-striped small" data-quarto-postprocess="true">
+<caption>Planets dataset</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"></th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">small</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">medium</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">large</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">near</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">far</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">moon</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">no_moon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mercury</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center;">x</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Venus</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center;">x</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Earth</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center; color: black !important; background-color: white !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mars</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center; color: black !important; background-color: white !important;"></td>
+<td style="text-align: center; color: black !important; background-color: white !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jupiter</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Saturn</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Uranus</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Neptune</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pluto</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center; color: white !important; background-color: orange !important;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<p><strong>Note</strong>: concepts for your .tex documents:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="computing-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="computing-concepts">Computing concepts</h3>
+<p>We use the function <code>$find_concepts()</code></p>
+<p>Computing all the concepts from formal context of planets:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 12 concepts:
+1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
+2: ({Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {moon})
+3: ({Jupiter, Saturn, Uranus, Neptune, Pluto}, {far, moon})
+4: ({Jupiter, Saturn}, {large, far, moon})
+5: ({Uranus, Neptune}, {medium, far, moon})
+6: ({Mercury, Venus, Earth, Mars, Pluto}, {small})
+7: ({Earth, Mars, Pluto}, {small, moon})
+8: ({Pluto}, {small, far, moon})
+9: ({Mercury, Venus, Earth, Mars}, {small, near})
+10: ({Mercury, Venus}, {small, near, no_moon})
+11: ({Earth, Mars}, {small, near, moon})
+12: ({}, {small, medium, large, near, far, moon, no_moon})</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First 6 concepts</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fc_planets<span class="sc">$</span>concepts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 6 concepts:
+1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
+2: ({Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {moon})
+3: ({Jupiter, Saturn, Uranus, Neptune, Pluto}, {far, moon})
+4: ({Jupiter, Saturn}, {large, far, moon})
+5: ({Uranus, Neptune}, {medium, far, moon})
+6: ({Mercury, Venus, Earth, Mars, Pluto}, {small})</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The first concept</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>firstconcept <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">1</span>]</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>firstconcept</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 1 concepts:
+1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A subset of concepts</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts[<span class="dv">3</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 2 concepts:
+1: ({Jupiter, Saturn, Uranus, Neptune, Pluto}, {far, moon})
+2: ({Jupiter, Saturn}, {large, far, moon})</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the Hasse diagram of the concept lattice</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/findconcepts-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="implications" class="level2">
+<h2 class="anchored" data-anchor-id="implications">Implications</h2>
+<section id="computing" class="level3">
+<h3 class="anchored" data-anchor-id="computing">Computing</h3>
+<p><code>find_implications()</code>: the function to extract the canonical basis of implications and the concept lattice using the NextClosure algorithm</p>
+<p>It stores both a <code>ConceptLattice</code> and an <code>ImplicationSet</code> objects internally in the <code>FormalContext</code> variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="manipulating" class="level3">
+<h3 class="anchored" data-anchor-id="manipulating">Manipulating</h3>
+<p>The computed implications are:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Implication set with 10 implications.
+Rule 1: {no_moon} -&gt; {small, near}
+Rule 2: {far} -&gt; {moon}
+Rule 3: {near} -&gt; {small}
+Rule 4: {large} -&gt; {far, moon}
+Rule 5: {medium} -&gt; {far, moon}
+Rule 6: {medium, large, far, moon} -&gt; {small, near, no_moon}
+Rule 7: {small, near, moon, no_moon} -&gt; {medium, large, far}
+Rule 8: {small, near, far, moon} -&gt; {medium, large, no_moon}
+Rule 9: {small, large, far, moon} -&gt; {medium, near, no_moon}
+Rule 10: {small, medium, far, moon} -&gt; {large, near, no_moon}</code></pre>
+</div>
+</div>
+<p>Implications can be read by sub-setting (the same that in R language for vector, etc.):</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Implication set with 1 implications.
+Rule 1: {near} -&gt; {small}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Implication set with 4 implications.
+Rule 1: {no_moon} -&gt; {small, near}
+Rule 2: {far} -&gt; {moon}
+Rule 3: {near} -&gt; {small}
+Rule 4: {large} -&gt; {far, moon}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>,<span class="dv">3</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Implication set with 5 implications.
+Rule 1: {no_moon} -&gt; {small, near}
+Rule 2: {far} -&gt; {moon}
+Rule 3: {near} -&gt; {small}
+Rule 4: {large} -&gt; {far, moon}
+Rule 5: {near} -&gt; {small}</code></pre>
+</div>
+</div>
+<p>Cardinality and size are computed using functions:</p>
+<ol type="1">
+<li><p>the number of implications is computed using <code>fc_planets$implications$cardinality()</code></p></li>
+<li><p>the number of attributes for each implication is computed using <code>fc_planets$implications$size()</code></p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">cardinality</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>sizes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      LHS RHS
+ [1,]   1   2
+ [2,]   1   1
+ [3,]   1   1
+ [4,]   1   2
+ [5,]   1   2
+ [6,]   4   3
+ [7,]   4   3
+ [8,]   4   3
+ [9,]   4   3
+[10,]   4   3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>LHS RHS 
+2.5 2.3 </code></pre>
+</div>
+</div>
+<p><strong>Help</strong>: … for your .tex documents:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>\begin{longtable*}{rrcl}
+1: &amp;\left\{\mathrm{no\_moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{small}, \mathrm{near}\right\}\\
+2: &amp;\left\{\mathrm{far}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{moon}\right\}\\
+3: &amp;\left\{\mathrm{near}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{small}\right\}\\
+4: &amp;\left\{\mathrm{large}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{far}, \mathrm{moon}\right\}\\
+5: &amp;\left\{\mathrm{medium}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{far}, \mathrm{moon}\right\}\\
+6: &amp;\left\{\mathrm{medium}, \mathrm{large}, \mathrm{far}, \mathrm{moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{small}, \mathrm{near}, \mathrm{no\_moon}\right\}\\
+7: &amp;\left\{\mathrm{small}, \mathrm{near}, \mathrm{moon}, \mathrm{no\_moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{medium}, \mathrm{large}, \mathrm{far}\right\}\\
+8: &amp;\left\{\mathrm{small}, \mathrm{near}, \mathrm{far}, \mathrm{moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{medium}, \mathrm{large}, \mathrm{no\_moon}\right\}\\
+9: &amp;\left\{\mathrm{small}, \mathrm{large}, \mathrm{far}, \mathrm{moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{medium}, \mathrm{near}, \mathrm{no\_moon}\right\}\\
+10: &amp;\left\{\mathrm{small}, \mathrm{medium}, \mathrm{far}, \mathrm{moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{large}, \mathrm{near}, \mathrm{no\_moon}\right\}\\
+\end{longtable*}</code></pre>
+</div>
+</div>
+</section>
+<section id="redudancy" class="level3">
+<h3 class="anchored" data-anchor-id="redudancy">Redudancy</h3>
+<p><strong>Simplification Logic</strong> is used to remove redundancy in a <em>logic style</em>, that is, applying some rules to the formulas (the implications)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">apply_rules</span>(</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">rules =</span> <span class="fu">c</span>(<span class="st">"composition"</span>,</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">"generalization"</span>,</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"simplification"</span>))</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a><span class="co"># sizes &lt;- fc_planets$implications$size()</span></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a><span class="co"># colMeans(sizes)</span></span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Simplified implications</span></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Which equivalence rules are present?</span></span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry_names</span>()</span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry</span>(<span class="st">"simplification"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><a href="https://neuroimaginador.github.io/fcaR/articles/extending_equivalence.html">Adding new rules to manipulate implications</a></p>
+</section>
+<section id="validity" class="level3">
+<h3 class="anchored" data-anchor-id="validity">Validity</h3>
+<p>We can see if an <code>ImplicationSet</code> holds in a <code>FormalContext</code> by using the <code>%holds_in%</code> operator.</p>
+<p>For instance, we can check that the first implication so far in the Duquenne-Guigues basis holds in the planets formal context:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications[<span class="dv">1</span>]</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>imp1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Implication set with 1 implications.
+Rule 1: {no_moon} -&gt; {small, near}</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="sc">%holds_in%</span> fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="basic-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="basic-exercises">Basic exercises</h2>
+<ol type="1">
+<li>Compute the intent of <code>Earth</code> and <code>Earth,Mars, Mercury</code> (use the argument attributes in the class Set).</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>{Mercury, Earth, Mars}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Given the set of objects:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{Earth}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The intent is:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{small, near, moon}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Given the set of objects:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{Mercury, Earth, Mars}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{small, near}</code></pre>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Compute the extent of <code>large</code> and <code>far,large</code> (use the argument attributes in the class Set) and save the result in a variable <code>e1, e2</code>.</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Given the set of objects:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{large}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>The extent is:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{Jupiter, Saturn}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Given the set of objects:</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{large, far}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{Jupiter, Saturn}</code></pre>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Compute the intent of variables <code>e1</code> and also of <code>e2</code>.</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>{large, far, moon}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{large, far, moon}</code></pre>
+</div>
+</div>
+<ol start="3" type="1">
+<li><p>With the information from the above questions tell me a concept. Check with any command of fcaR package.</p></li>
+<li><p>Compute the closure of <code>no_moon</code></p></li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>{small, near, no_moon}</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>({Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {moon})</code></pre>
+</div>
+</div>
+<ol start="5" type="1">
+<li>Compute all the concepts and plot them. How many are there? Show the fist and the last (use subsetting).</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 2 concepts:
+1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
+2: ({}, {small, medium, large, near, far, moon, no_moon})</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ol start="6" type="1">
+<li>Compute the major concept (in lattice) that has moon. The same with no_moon. Locate both in the lattice to understand the meaning.</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>({Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {moon})</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>({Mercury, Venus}, {small, near, no_moon})</code></pre>
+</div>
+</div>
+<ol start="7" type="1">
+<li>Compute the lowest concept (in lattice) that has Pluto. The same with Earth. Locate both in the lattice to understand the meaning.</li>
+</ol>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>({Pluto}, {small, far, moon})</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>({Earth, Mars}, {small, near, moon})</code></pre>
+</div>
+</div>
+</section>
+<section id="advanced-things" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-things">Advanced things</h2>
+<section id="concept-support" class="level3">
+<h3 class="anchored" data-anchor-id="concept-support">Concept support</h3>
+<p>The support of a concept <span class="math inline">\langle A, B\rangle</span> (A is the extent of the concept and B is the intent) is the cardinality (relative) of the extent - number of objects of the extent.</p>
+<p><span class="math display">
+supp(\langle A, B\rangle)=\frac{|A|}{|G|}
+</span></p>
+<p>We use the function: <code>$support()</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 1.0000000 0.7777778 0.5555556 0.2222222 0.2222222 0.5555556 0.3333333
+ [8] 0.1111111 0.4444444 0.2222222 0.2222222 0.0000000</code></pre>
+</div>
+</div>
+<p>️ The support of itemsets and concepts is used to mine all the knowledge in the dataset: Algorithm Titanic - computing iceberg concept lattices.</p>
+</section>
+<section id="sublattices" class="level3">
+<h3 class="anchored" data-anchor-id="sublattices">Sublattices</h3>
+<p>When the concept lattice is too large, it can be useful in certain occasions to just work with a sublattice of the complete lattice. To this end, we use the <code>sublattice()</code> function.</p>
+<p><code>$sublattice()</code>: find a sublattice of the complete lattice</p>
+<p>For instance: Computing a sublattice of those concepts with support greater than the threshold</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb81"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A set of 12 concepts:
+1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
+2: ({Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {moon})
+3: ({Jupiter, Saturn, Uranus, Neptune, Pluto}, {far, moon})
+4: ({Jupiter, Saturn}, {large, far, moon})
+5: ({Uranus, Neptune}, {medium, far, moon})
+6: ({Mercury, Venus, Earth, Mars, Pluto}, {small})
+7: ({Earth, Mars, Pluto}, {small, moon})
+8: ({Pluto}, {small, far, moon})
+9: ({Mercury, Venus, Earth, Mars}, {small, near})
+10: ({Mercury, Venus}, {small, near, no_moon})
+11: ({Earth, Mars}, {small, near, moon})
+12: ({}, {small, medium, large, near, far, moon, no_moon})</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using support</span></span>
+<span id="cb83-2"><a href="#cb83-2" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">which</span>(fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>() <span class="sc">&gt;</span> <span class="fl">0.5</span>)</span>
+<span id="cb83-3"><a href="#cb83-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
+<span id="cb83-4"><a href="#cb83-4" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
+<span id="cb83-5"><a href="#cb83-5" aria-hidden="true" tabindex="-1"></a>sublattice</span>
+<span id="cb83-6"><a href="#cb83-6" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span>
+<span id="cb83-7"><a href="#cb83-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb83-8"><a href="#cb83-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using indexes</span></span>
+<span id="cb83-9"><a href="#cb83-9" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>) <span class="co"># concepts 8, 9 and 10</span></span>
+<span id="cb83-10"><a href="#cb83-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
+<span id="cb83-11"><a href="#cb83-11" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
+<span id="cb83-12"><a href="#cb83-12" aria-hidden="true" tabindex="-1"></a>sublattice</span>
+<span id="cb83-13"><a href="#cb83-13" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="hierarchy" class="level3">
+<h3 class="anchored" data-anchor-id="hierarchy">Hierarchy</h3>
+<p>That is: Subconcepts, superconcepts, infimum and supremum</p>
+<p>Given a concept, we can compute all its subconcepts and all its superconcepts.</p>
+<p>For instance, find all the subconcepts and superconcepts of the concept number 5 in the list of concepts.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span>]</span>
+<span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a>C</span>
+<span id="cb84-3"><a href="#cb84-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Its subconcepts:</span></span>
+<span id="cb84-4"><a href="#cb84-4" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">subconcepts</span>(C)</span>
+<span id="cb84-5"><a href="#cb84-5" aria-hidden="true" tabindex="-1"></a><span class="co"># And its superconcepts:</span></span>
+<span id="cb84-6"><a href="#cb84-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">superconcepts</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>The same, for supremum and infimum of a set of concetps.</p>
+<p>To find the supremum and the infimum of the concepts 5,6,7.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb85"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A list of concepts</span></span>
+<span id="cb85-2"><a href="#cb85-2" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span><span class="sc">:</span><span class="dv">7</span>]</span>
+<span id="cb85-3"><a href="#cb85-3" aria-hidden="true" tabindex="-1"></a>C</span>
+<span id="cb85-4"><a href="#cb85-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb85-5"><a href="#cb85-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Supremum of the concepts in C</span></span>
+<span id="cb85-6"><a href="#cb85-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">supremum</span>(C)</span>
+<span id="cb85-7"><a href="#cb85-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Infimum of the concepts in C</span></span>
+<span id="cb85-8"><a href="#cb85-8" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">infimum</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="notable-elements" class="level3">
+<h3 class="anchored" data-anchor-id="notable-elements">Notable elements</h3>
+<p>In a complete lattice, an element is called supremum-irreducible or join-irreducible if it cannot be written as the supremum of other elements and infimum-irreducible or meet-irreducible if it can not be expressed as the infimum of other elements.</p>
+<p>The irreducible elements with respect to join (supremum) and meet (infimum) can be computed for a given concept lattice:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb86"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">join_irreducibles</span>()</span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">meet_irreducibles</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="clarification-reduction" class="level3">
+<h3 class="anchored" data-anchor-id="clarification-reduction">Clarification, reduction</h3>
+<p>Methods to simplify the context, removing redundancies, while retaining all the knowledge</p>
+<p><code>clarify()</code>, which removes duplicated attributes and objects (columns and rows in the original matrix)</p>
+<p><code>reduce()</code>, which uses closures to remove dependent attributes, but only on binary formal contexts</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We clone the context just to keep a copy</span></span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">clarify</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>FormalContext with 5 objects and 7 attributes.
+                   small  medium  large  near  far  moon  no_moon  
+             Pluto   X                          X     X            
+  [Mercury, Venus]   X                     X                 X     
+     [Earth, Mars]   X                     X          X            
+ [Jupiter, Saturn]                  X           X     X            
+ [Uranus, Neptune]           X                  X     X            </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">reduce</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>FormalContext with 5 objects and 7 attributes.
+                   small  medium  large  near  far  moon  no_moon  
+             Pluto   X                          X     X            
+  [Mercury, Venus]   X                     X                 X     
+     [Earth, Mars]   X                     X          X            
+ [Jupiter, Saturn]                  X           X     X            
+ [Uranus, Neptune]           X                  X     X            </code></pre>
+</div>
+</div>
+<p>Note that merged attributes or objects are stored in the new formal context by using squared brackets to unify them, e.g.&nbsp;<code>[Mercury, Venus]</code></p>
+</section>
+<section id="standard-context" class="level3">
+<h3 class="anchored" data-anchor-id="standard-context">Standard Context</h3>
+<p>The <em>standard context</em> is <span class="math inline">({\cal J}, {\cal M}, \leq)</span>, where <span class="math inline">\cal J</span> is the set of join-irreducible concepts and <span class="math inline">\cal M</span> are the meet-irreducible ones.</p>
+<p><code>standardize()</code> is the function to compute the standard context.</p>
+<p>Note: objects are now named J1, J2… and attributes are M1, M2…, from join and meet</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb91-2"><a href="#cb91-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
+<span id="cb91-3"><a href="#cb91-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">standardize</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>FormalContext with 5 objects and 7 attributes.
+    M1  M2  M3  M4  M5  M6  M7  
+ J1  X   X   X                  
+ J2  X   X       X              
+ J3  X   X           X          
+ J4                  X   X   X  
+ J5  X               X   X      </code></pre>
+</div>
+</div>
+</section>
+<section id="entailment" class="level3">
+<h3 class="anchored" data-anchor-id="entailment">Entailment</h3>
+<p>Imp1 <code>%entails%</code> Imp2 - Imp2 can be derived (logical consequence) of Imp1</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span>
+<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a>imps <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications</span>
+<span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a>imps2 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a>imps2<span class="sc">$</span><span class="fu">apply_rules</span>(<span class="fu">c</span>(<span class="st">"simp"</span>, <span class="st">"rsimp"</span>))</span>
+<span id="cb93-5"><a href="#cb93-5" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%entails%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+[1,] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE  TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb95"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a>imps2 <span class="sc">%entails%</span> imps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+[1,] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE  TRUE</code></pre>
+</div>
+</div>
+</section>
+<section id="equivalence" class="level3">
+<h3 class="anchored" data-anchor-id="equivalence">Equivalence</h3>
+<p>Imp1 <code>%~%</code> Imp2 - Are Imp1 and Imp2 equivalent?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb97"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb99"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

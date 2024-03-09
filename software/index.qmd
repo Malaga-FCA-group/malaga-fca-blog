@@ -1,0 +1,35 @@
+---
+pagetitle: "Software"
+listing:
+  - id: "sw"
+    contents: sw
+    type: table
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    date-format: "YYYY"
+    fields: [date, title]
+    page-size: 999
+  - id: "demos"
+    contents: demos
+    type: table
+    sort: [date, title]
+    sort-ui: false
+    filter-ui: false
+    date-format: "YYYY"
+    page-size: 999
+sidebar: false
+page-layout: full
+title-block-banner: true
+---
+
+
+## Software projects
+
+:::{#sw}
+:::
+
+## Demos
+
+:::{#demos}
+:::

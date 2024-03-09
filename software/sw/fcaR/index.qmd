@@ -1,0 +1,8 @@
+---
+title: "fcaR: Formal Concept Analysis with R"
+author: 
+  - Ángel Mora Bonilla
+  - Domingo López Rodríguez
+github: malaga-fca-group/fcaR
+---
+

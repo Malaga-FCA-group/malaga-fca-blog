@@ -5,6 +5,7 @@
 # source(here::here("scripts",
 #                   "collect_bib.R"))
 
+library(RefManageR)
 
 # Reset preview
 fs::dir_delete(here::here("_site"))
@@ -50,7 +51,7 @@ books <- list.files(
 
 books |> sapply(process_preqmd)
 
-FORCE <- TRUE
+FORCE <- FALSE
 source(here::here("scripts",
                   "generate_post.R"))
 

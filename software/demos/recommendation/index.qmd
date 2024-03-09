@@ -1,0 +1,258 @@
+---
+title: "Recommendation system with `fcaR`"
+author: 
+  - Ángel Mora Bonilla
+  - Domingo López Rodríguez
+date: "2024-03-11"
+---
+
+# Steps
+
+How can we use FCA to build a recommender system?
+
+0. Preprocess data
+1. Extract knowledge in the form of implications
+2. Use the closure wrt the implications as the engine to provide recommendations
+3. What happens when the closure does not provide an useful recommendation? The Simplication Logic may be of help.
+
+
+Let us demo this procedure with a real example.
+
+```{r}
+#| echo: false
+library(fcaR)
+```
+
+
+# The problem
+
+The aim is to build an automated system using the `fcaR` package to perform medical diagnosis. We have focused on neurological pathologies since, in recent years, an increasing number of initiatives have appeared to share, curate, and study specific, prevalent brain pathologies. Among these pathologies, schizophrenia is of the highest interest, and public, curated repositories have been released.
+
+We are provided with a dataset consisting of the results of psychological and psychiatrical tests to  `r nrow(cobre32)` individuals:
+
+```{r}
+#| echo: false
+degrees <- c("absent", "minimal", "mild", "moderate", "moderate severe", "severe", "extreme")
+
+COBRE_text <- cobre32
+COBRE_text[] <- degrees[COBRE_text * 6 + 1]
+COBRE_text[, c("dx_other", "dx_ss")] <- cobre32[, c("dx_other", "dx_ss")]
+COBRE_text[1:10, ] |> 
+  knitr::kable(format = "html")
+```
+
+Note that we have two columns indicating the diagnosis:
+
+- `dx_ss`: Strict schizophrenia.
+- `dx_other`: Bipolar disorder.
+
+The other attributes are:
+
+-   `COSAS_n`: The Simpson-Angus Scale, 7 items to evaluate Parkinsonism-like alterations, related to schizophrenia, in an individual.
+
+-   `FICAL_n`: The Calgary Depression Scale for Schizophrenia, 9 items (attributes) assessing the level of depression in schizophrenia, differentiating
+between positive and negative aspects of the disease.
+
+-   `SCIDII_n`: The Structured Clinical Interview for DSM-III-R Personality Disorders, with 14 variables related to the presence of signs affecting personality.
+
+The task is to build a recommender system that, given the symptoms or signs of an individual, predict the diagnose, *using logic*.
+
+# Building a recommendation system
+
+## 0. Preprocess the data
+
+First, scale the context, mapping each textual label to a degree in $[0,1]$. This procedure is not part of the actual recommendation system, so we will work with the data already preprocessed. It is included in the `fcaR` package, with the name `cobre32`. Let us load the library and inspect the dataset.
+
+```{r}
+#| eval: false
+library(fcaR)
+cobre32
+```
+
+```{r}
+#| echo: false
+my_cobre <- cobre32
+my_cobre[] <- round(my_cobre, 2)
+my_cobre[1:10, ] |> 
+  knitr::kable(format = "html")
+```
+
+## 1. Extract knowledge as implications
+
+Let us build the formal context with this dataset:
+
+```{r}
+fc <- FormalContext$new(cobre32)
+```
+
+Then, we can find the Duquenne-Guigues basis of implications by using the NextClosure algorithm:
+
+```{r}
+#| eval: false
+fc$find_implications()
+```
+
+```{r}
+#| echo: false
+fc$implications <- readRDS("cache/implications.RDS")
+```
+
+
+How many implications are there in the basis?
+
+```{r}
+fc$implications$cardinality()
+```
+
+Let us inspect only a few:
+
+```{r}
+fc$implications[5:9]
+```
+
+Let us save the implications in another variable to avoid long commands from now on:
+
+```{r}
+imps <- fc$implications
+```
+
+## 2. Use the closure
+
+
+Let us invent a new individual with some symptoms, creating an object of type `Set`:
+```{r}
+S1 <- Set$new(
+  attributes = fc$attributes,
+  COSAS_1 = 1/2, COSAS_2 = 1, COSAS_3 = 1/2,
+  COSAS_4 = 1/6, COSAS_5 = 1/2, COSAS_6 = 1)
+S1
+```
+
+If we compute its closure using the implications:
+```{r}
+imps$closure(S1)
+```
+we can observe that, in the closure, there appears `dx_ss`, so, with these symptoms, we can conclude the diagnosis of _strict schizophrenia_.
+
+We could have done the "FCA" closure, that is, using the concept-forming operators of the formal context:
+```{r}
+O1 <- fc$extent(S1)
+O1
+fc$intent(O1)
+# Or, together, the closure operator:
+fc$closure(S1)
+```
+
+Since the implication basis is a sound and complete system, the two closures must coincide.
+
+:::{.callout-note collapse=false appearance='default' icon=true}
+## Note
+Which is the advantage of using the implications instead of the concept-forming operators? 
+
+We don't need to store the whole dataset, only the implications, which is a way of knowledge representation. 
+
+Furthermore, the use of the simplification logic will give some new features that the classical approach and the FCA approach are not able to provide.
+:::
+
+
+Another example:
+```{r}
+S2 <- Set$new(attributes = fc$attributes,
+              COSAS_4 = 2/3, FICAL_3 = 1/2,
+              FICAL_5 = 1/2, FICAL_8 = 1/2)
+S2
+```
+
+We can check the closure:
+```{r}
+fc$closure(S2)
+imps$closure(S2)
+```
+
+In this case, in the closure set, there appears the attribute `dx_other`, so this would be the expected diagnosis (_bipolar disorder_).
+
+A more challenging example:
+```{r}
+S3 <- Set$new(attributes = fc$attributes,
+              COSAS_2 = 1, COSAS_6 = 1,
+              FICAL_1 = 1/3, FICAL_3 = 1/3)
+```
+
+Let us inspect the closure:
+
+```{r}
+imps$closure(S3)
+```
+
+
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## Houston, we have a problem!
+There is no diagnosis attribute in the closure. What would an expert do? 
+
+The expert would take into consideration the present attributes and ask for additional symptoms/tests to be able to arrive at a diagnosis.
+:::
+
+## 3. The Simplication Logic
+
+Simplification Logic (SL) to the rescue!
+
+The SL can be used to compute the closure with respect to a set of implications, providing a simplified set of implications once the original attributes are taken away, and which is equivalent, in some sense, to the original implication system:
+
+The $SL_{FD}$ \code{closure} algorithm makes use of the above
+equivalence rules to compute the closure $X^+$ of a set $X$ using a set
+of implications $\Sigma$, and return a simplified $\Sigma'$ where the
+attributes in $X^+$ do not appear, and such that:
+$$\{\varnothing\to X\}\cup \Sigma \equiv \{\varnothing\to X^+\}\cup \Sigma'$$
+
+```{r}
+result <- imps$closure(S3, reduce = TRUE)
+```
+
+
+We obtain the closure, that is, we get the _same_ information as using the classical scheme.
+```{r}
+result$closure
+```
+
+But, in addition, we get this simplified set of implications
+```{r}
+result$implications[1:10]
+```
+
+The interpretation of this simplified set of implications is that if we consider that we have all the attributes in `S3`, then it is equivalent to the original one.
+
+We can narrow the implications by removing redundancies (not needed, but recommended):
+```{r}
+result$implications$apply_rules(c('simp', 'rsimp', 'reorder'))
+result$implications[1:10]
+```
+
+An expert may be interested only in the rules from which she could derive a diagnosis, so we can simulate that behaviour by filtering the implications and only take into account those in whose RHS there is a diagnosis attribute, and not in the LHS:
+```{r}
+result$implications$filter(
+  rhs = c('dx_ss', 'dx_other'),
+  not_lhs = c('dx_ss', 'dx_other'),
+  drop = TRUE)
+```
+
+What does this mean? In the LHS there are combinations of attributes that, along with those present in `S3`, could lead to a diagnosis. 
+
+For instance, for our patient `S3`, **in addition to what the patient already has**, having `FICAL_5` at least with degree "mild" (0.33) would lead to `dx_other`, whereas having `COSAS_3` with degree "moderate", to `dx_ss`.
+
+# Conclusion
+
+We have built a _conversational_ recommender system, that works as follows:
+
+1. Provide as many symptoms/attributes as are known.
+2. Compute the closure using the simplification logic algorithm.
+
+    2.1. If the closure contains a diagnosis attribute, stop and return the diagnosis.
+  
+    2.2. If it does not, ask the _patient/user_ for another attribute among those in the LHS of the reduced implication set. Combine it with the previous ones and repeat step 2.
+
+The complete construction of this recommendation system was already presented in [Expert Systems with Applications](/publications/journals/2020-eswa).
+
+![](images/ESWA.png){width="100%"}
+
+![](images/ESWA-diagram.png){width="49%"}
+![](images/ESWA-table.png){width="49%"}
