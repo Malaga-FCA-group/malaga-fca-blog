@@ -13,7 +13,7 @@ categories:
 - Imprecise information
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The project <u>FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources</u> has started on <em>2019-09-26</em>.

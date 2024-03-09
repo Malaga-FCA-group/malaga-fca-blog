@@ -51,7 +51,7 @@ books <- list.files(
 
 books |> sapply(process_preqmd)
 
-FORCE <- FALSE
+FORCE <- TRUE
 source(here::here("scripts",
                   "generate_post.R"))
 

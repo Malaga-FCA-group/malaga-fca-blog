@@ -6,7 +6,7 @@ date: '2022-07-04T00:00:00Z'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Mining Fuzzy Concept Lattices</u> has been published in <em>the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em></em>.

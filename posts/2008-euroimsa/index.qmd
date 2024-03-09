@@ -7,7 +7,7 @@ date: '2008-01-01'
 categories: E-learning
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Fnova: Fermat and joomla fusion</u> has been published in <em>Proceedings of the IASTED International Conference on Internet and Multimedia Systems and Applications and Visual Communications, <em>pp. 15-20</em></em>.

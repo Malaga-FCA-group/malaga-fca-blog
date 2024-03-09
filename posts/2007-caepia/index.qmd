@@ -9,7 +9,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree Problem</u> has been published in <em><em>Congreso de la Asociación Española para la Inteligencia Artificial</em> 2007</em>.

@@ -8,7 +8,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Matrix Bandwith Minimization: A Neural Approach</u> has been published in <em><em>International Congress of Computational Methods in Science and Engineering</em> 2004</em>.

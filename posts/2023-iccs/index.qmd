@@ -12,7 +12,7 @@ categories:
 - Aggregation operators
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis</u> has been published in <em><em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,</em>.

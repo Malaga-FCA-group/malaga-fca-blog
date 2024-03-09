@@ -8,7 +8,7 @@ date: '2023-07-10'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Formal Concept Analysis</u> has been published in <em>17th International Conference, ICFCA 2023, Kassel, Germany, July 17-21, 2023, Proceedings</em>.

@@ -11,7 +11,7 @@ date: '2020-09-01'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>A conversational recommender system for diagnosis using fuzzy rules</u> has been published in <em><em>Expert Systems with Applications</em>, volume 154, 2020</em>.

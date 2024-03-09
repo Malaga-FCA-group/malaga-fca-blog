@@ -72,7 +72,7 @@ generate_posts_from_publications <- function(
     date = L$date,
     categories = categories,
     comments = list(giscus = list(
-      repo = "neuroimaginador/website"))
+      repo = "Malaga-FCA-group/malaga-fca-blog"))
   )
 
   YAML <- yaml::as.yaml(post_header)

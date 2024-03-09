@@ -10,7 +10,7 @@ categories:
 - E-learning
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The project <u>Análisis e implementación de estrategias de enseñanza-aprendizaje en asignaturas de Matemáticas mediante detección de dependencias entre contenidos</u> has started on <em>2019-10-01</em>.

@@ -10,7 +10,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>A Novel Competitive Network Approach to Object Tracking</u> has been published in <em><em>Proceedings of the 2008 UK Workshop on Computational Intelligence</em></em>.

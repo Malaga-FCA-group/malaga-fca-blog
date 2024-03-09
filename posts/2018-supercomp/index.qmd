@@ -11,7 +11,7 @@ date: '2018-06-04'
 categories: Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Minimal generators, an affordable approach by means of massive computation</u> has been published in <em><em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367</em>.

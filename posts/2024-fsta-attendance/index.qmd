@@ -13,7 +13,7 @@ categories:
 - Fuzzy logic
 comments:
   giscus:
-    repo: quarto-dev/quarto-docs
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 Several members of our group have attended <em>The Seventeenth International Conference on Fuzzy Set Theory and Applications</em> at Liptovský Ján, Slovak Republic, from January 28 - February 2, 2024.

@@ -7,7 +7,7 @@ date: '2008-01-01'
 categories: E-learning
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Integration Of Moodle Quizzes</u> has been published in <em>{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings, <em>pp. 45&ndash;52</em></em>.

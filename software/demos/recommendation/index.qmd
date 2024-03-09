@@ -4,6 +4,9 @@ author:
   - Ángel Mora Bonilla
   - Domingo López Rodríguez
 date: "2024-03-11"
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 # Steps

@@ -10,7 +10,7 @@ categories:
 - Image processing
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Image Compression by Vector Quantization with Recurrent Discrete Networks</u> has been published in <em>Artificial Neural Networks - (ICANN) 2006, 16th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4132), <em>pp. 595&ndash;605</em></em>.

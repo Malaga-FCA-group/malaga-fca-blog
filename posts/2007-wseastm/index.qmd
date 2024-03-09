@@ -12,7 +12,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Stochastic multivalued network for optimization. Application to the graph MaxCut problem</u> has been published in <em>WSEAS Transactions on Mathematics, (6), 3, <em>pp. 500-505</em></em>.

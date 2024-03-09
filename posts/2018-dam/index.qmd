@@ -14,7 +14,7 @@ categories:
 - Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Direct-optimal basis computation by means of the fusion of simplification rules</u> has been published in <em><em>Discrete Applied Mathematics</em> 249, pp. 106 - 119</em>.

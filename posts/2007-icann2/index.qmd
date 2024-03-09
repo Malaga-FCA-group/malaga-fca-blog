@@ -8,7 +8,7 @@ date: '2007-01-01'
 categories: Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Soft Clustering for Nonparametric Probability Density Function Estimation</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4668 LNCS), PART 1, <em>pp. 707-716</em></em>.

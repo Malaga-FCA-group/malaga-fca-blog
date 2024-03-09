@@ -11,7 +11,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>A Dipolar Competitive Neural Network for Video Segmentation</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (5290 LNAI), <em>pp. 103-112</em></em>.

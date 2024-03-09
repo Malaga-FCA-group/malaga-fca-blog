@@ -9,7 +9,7 @@ categories:
 - Sustainability
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The project <u>URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en la sostenibilidad urbana</u> has started on <em>2019-09-26</em>.

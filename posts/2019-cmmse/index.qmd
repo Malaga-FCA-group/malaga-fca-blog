@@ -9,7 +9,7 @@ categories:
 - Fuzzy logic
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Recommendations in CDSS using Fuzzy Formal Concept Analysis</u> has been published in <em>International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019</em>.

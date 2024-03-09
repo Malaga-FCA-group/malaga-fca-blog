@@ -10,7 +10,7 @@ categories:
 - Combinatorial optimization
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>K-pages graph drawing with multivalued neural networks</u> has been published in <em>Artificial Neural Networks - {ICANN} 2007, 17th International Conference, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (4669 LNCS), PART 2, <em>pp. 816-825</em></em>.

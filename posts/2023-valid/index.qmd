@@ -13,7 +13,7 @@ categories:
 - Imprecise information
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The project <u>VALID: Verifiable Algebraic and Logic tools for Imperfect Data</u> has started on <em>2023-09-01</em>.

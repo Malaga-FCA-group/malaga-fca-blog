@@ -8,7 +8,7 @@ date: '2008-01-01'
 categories: Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Robust nonparametric probability density estimation by soft clustering</u> has been published in <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), (5163 LNCS), PART 1, <em>pp. 155-164</em></em>.

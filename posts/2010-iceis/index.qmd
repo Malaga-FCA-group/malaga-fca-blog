@@ -6,7 +6,7 @@ date: '2010-07-01'
 categories: E-learning
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Improving Moodle with WIRIS and M-QIT</u> has been published in <em><em>Proceedings of the 12th International Conference on Enterprise Information Systems</em>, Volume 4</em>.

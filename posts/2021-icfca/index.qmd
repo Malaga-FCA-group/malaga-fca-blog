@@ -8,7 +8,7 @@ categories:
 - Fuzzy logic
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Clustering and identification of core implications</u> has been published in <em>International Conference on Formal Concept Analysis (ICFCA) 2021</em>.

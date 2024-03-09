@@ -10,7 +10,7 @@ categories:
 - Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>Video Object Segmentation with Multivalued Neural Networks</u> has been published in <em>Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008: 613-618</em>.

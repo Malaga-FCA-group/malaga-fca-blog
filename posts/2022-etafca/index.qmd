@@ -8,7 +8,7 @@ categories:
 - Formal concept analysis
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>fcaR, Spreading FCA to the Data Science World</u> has been published in <em><em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em></em>.

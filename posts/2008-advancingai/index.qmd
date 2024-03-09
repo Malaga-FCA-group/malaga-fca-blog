@@ -7,7 +7,7 @@ date: '2008-01-01'
 categories: Neural networks
 comments:
   giscus:
-    repo: neuroimaginador/website
+    repo: Malaga-FCA-group/malaga-fca-blog
 ---
 
 The work <u>An approach to artificial concept learning based on human concept learning by using artificial neural networks</u> has been published in <em>Advancing Artificial Intelligence Through Biological Process Applications, <em>pp. 130-145</em></em>.
