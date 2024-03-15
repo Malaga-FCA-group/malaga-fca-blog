@@ -1,19 +1,18 @@
 [
   {
-    "listing": "/projects/2019-PIE-clustering/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2023-valid/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-ursus-dm/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2019-flair/index.html",
-    "items": []
+    "listing": "/people/index.html",
+    "items": [
+      "/people/staff/cbejines/index.html",
+      "/people/staff/pcordero/index.html",
+      "/people/staff/enciso/index.html",
+      "/people/staff/dominlopez/index.html",
+      "/people/staff/amora/index.html",
+      "/people/staff/ejmunoz/index.html",
+      "/people/staff/aciego/index.html",
+      "/people/staff/manuojeda/index.html",
+      "/people/staff/ipcabrera/index.html",
+      "/people/staff/franperezgamez/index.html"
+    ]
   },
   {
     "listing": "/index.html",
@@ -120,13 +119,16 @@
     ]
   },
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/2023-valid/index.html",
-      "/projects/2019-PIE-clustering/index.html",
-      "/projects/2019-ursus-dm/index.html",
-      "/projects/2019-flair/index.html"
-    ]
+    "listing": "/projects/2019-PIE-clustering/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/2019-flair/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/2019-ursus-dm/index.html",
+    "items": []
   },
   {
     "listing": "/publications/conferences/2021-icfca/index.html",
@@ -298,6 +300,19 @@
     "items": []
   },
   {
+    "listing": "/projects/2023-valid/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/2023-valid/index.html",
+      "/projects/2019-PIE-clustering/index.html",
+      "/projects/2019-ursus-dm/index.html",
+      "/projects/2019-flair/index.html"
+    ]
+  },
+  {
     "listing": "/talks/index.html",
     "items": [
       "/talks/seminars/2023-ICCS/index.html",
@@ -322,21 +337,6 @@
       "/talks/regular/2005-iwann/index.html",
       "/talks/regular/2005-maeb/index.html",
       "/talks/regular/2004-iccmse/index.html"
-    ]
-  },
-  {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/staff/cbejines/index.html",
-      "/people/staff/pcordero/index.html",
-      "/people/staff/enciso/index.html",
-      "/people/staff/dominlopez/index.html",
-      "/people/staff/amora/index.html",
-      "/people/staff/ejmunoz/index.html",
-      "/people/staff/aciego/index.html",
-      "/people/staff/manuojeda/index.html",
-      "/people/staff/ipcabrera/index.html",
-      "/people/staff/franperezgamez/index.html"
     ]
   }
 ]
