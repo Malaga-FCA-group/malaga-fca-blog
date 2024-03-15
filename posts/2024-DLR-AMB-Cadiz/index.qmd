@@ -1,0 +1,27 @@
+---
+title: 'Invited seminar <em>Formal Concept Analysis with R</em>'
+image: im1.jpg
+author:
+- Domingo López Rodríguez
+- Ángel Mora Bonilla
+date: '2024-03-11T00:00:00Z'
+categories:
+- Formal concept analysis
+- R package
+- Recommendation system
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
+---
+
+The second week of March, two of our team members were invited to give a seminar about the use of the R package `fcaR` at the University of Cádiz in Spain.
+
+![](im2.jpg)
+
+In this talk, Ángel Mora Bonilla and Domingo López Rodríguez explained the basic ideas of formal concept analysis with the help of the mentioned R package, highlighting its ease of use and versatility.
+
+The second part of the seminar was devoted to show, step by step, how to build a recommendation system using FCA techniques: the basis of implications as _knowledge core_ and the closure operator associated acting as the _inference engine_. The purpose of the recommendation system was to infer a medical diagnosis given the patient's symptoms (or a subset of them).
+
+The audience of this seminar was composed by students of both the bachellor and the master's degree in Mathematics. They manifested that the seminar was really helpful for the understanding of FCA and its applications.
+
+The material used and the demos can be accessed in [its own page](/resources/#demos).

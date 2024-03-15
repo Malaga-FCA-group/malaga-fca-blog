@@ -51,7 +51,7 @@ books <- list.files(
 
 books |> sapply(process_preqmd)
 
-FORCE <- TRUE
+FORCE <- FALSE
 source(here::here("scripts",
                   "generate_post.R"))
 
@@ -63,3 +63,4 @@ quarto::quarto_preview()
 
 # quarto::quarto_preview_stop()
 
+API_tiny <- "ukcniod2pt7c65psnhhht72k5ed545rf8mp9o028j7o4qz4s"

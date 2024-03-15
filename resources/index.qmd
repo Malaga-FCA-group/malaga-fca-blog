@@ -1,5 +1,5 @@
 ---
-pagetitle: "Software"
+pagetitle: "Resources"
 listing:
   - id: "sw"
     contents: sw

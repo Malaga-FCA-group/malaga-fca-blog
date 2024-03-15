@@ -15,8 +15,8 @@ website:
         text: Publications
       - href: projects/index.qmd
         text: Projects
-      - href: software/index.qmd
-        text: Software
+      - href: resources/index.qmd
+        text: Resources
       - about.qmd
       - icon: github
         href: https://github.com/malaga-fca-group

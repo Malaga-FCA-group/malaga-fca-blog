@@ -4,6 +4,7 @@ library(bslib)
 library(gridlayout)
 library(RefManageR)
 library(shinyWidgets)
+library(ShinyEditor)
 
 source("functions.R")
 
@@ -37,8 +38,8 @@ ui <- page_navbar(
         card_header("Basic data"),
         card_body(
           fileInput(inputId = "bibfile",
-                    label = "Upload .bib file",
-                    accept = "*.bib"),
+                                        label = "Upload .bib file",
+                                        accept = "*.bib"),
           h2(strong("Mandatory fields")),
           textInput(
             inputId = "author",
@@ -52,18 +53,18 @@ ui <- page_navbar(
             value = "",
             width = "100%"
           ),
-          # textInput(
-          #   inputId = "date",
-          #   label = "Publication date (YYYY-MM-DD)",
-          #   value = "",
-          #   width = "100%"
-          # ),
+          # textInput(,,
+          #   inputId = "date",,,
+          #   label = "Publication date (YYYY-MM-DD)",,,
+          #   value = "",,,
+          #   width = "100%",,
+          # ),,,
           dateInput(
-            inputId = "date",
-            label = "Publication date (YYYY-MM-DD)",
-            value = "",
-            width = "100%"
-          ),
+                                inputId = "date",
+                                label = "Publication date (YYYY-MM-DD)",
+                                value = "",
+                                width = "100%"
+                              ),
           textInput(
             inputId = "details",
             label = "Publication details: journal, volume...",
@@ -77,29 +78,29 @@ ui <- page_navbar(
             width = "100%"
           ),
           multiInput(
-            inputId = "categories",
-            label = "Categories",
-            choices = list("None" = ""),
-            width = "100%"
-          ),
-          # textInput(,
-          #   inputId = "categories",,
-          #   label = "Categories, separated by commas",,
-          #   value = "",,
-          #   width = "100%",
-          # ),,
-          # checkboxGroupInput(,
-          #   inputId = "funding_projects",,
-          #   label = "Projects",,
-          #   choices = list("..." = "1", ",,," = "2"),,
-          #   width = "50%",
-          # ),,
+                                inputId = "categories",
+                                label = "Categories",
+                                choices = list("None" = ""),
+                                width = "100%"
+                              ),
+          # textInput(,,,
+          #   inputId = "categories",,,,
+          #   label = "Categories, separated by commas",,,,
+          #   value = "",,,,
+          #   width = "100%",,,
+          # ),,,,
+          # checkboxGroupInput(,,,
+          #   inputId = "funding_projects",,,,
+          #   label = "Projects",,,,
+          #   choices = list("..." = "1", ",,," = "2"),,,,
+          #   width = "50%",,,
+          # ),,,,
           multiInput(
-            inputId = "proj",
-            label = "Projects",
-            choices = list("None" = ""),
-            width = "100%"
-          ),
+                                inputId = "proj",
+                                label = "Projects",
+                                choices = list("None" = ""),
+                                width = "100%"
+                              ),
           radioButtons(
             inputId = "type",
             label = "Publication type",
@@ -119,9 +120,9 @@ ui <- page_navbar(
             width = "100%"
           ),
           fileInput(
-            inputId = "header_image",
-            label = "Image for the publication"
-          ),
+                                inputId = "header_image",
+                                label = "Image for the publication"
+                              ),
           downloadButton(outputId = "generate", label = "Generate ZIP")
         )
       )
@@ -183,11 +184,11 @@ ui <- page_navbar(
             width = "100%"
           ),
           multiInput(
-            inputId = "pr_categories",
-            label = "Categories",
-            choices = list("choice a" = "a", "choice b" = "b"),
-            width = "100%"
-          ),
+                                inputId = "pr_categories",
+                                label = "Categories",
+                                choices = list("choice a" = "a", "choice b" = "b"),
+                                width = "100%"
+                              ),
           textInput(
             inputId = "pr_link",
             label = "URL",
@@ -195,10 +196,47 @@ ui <- page_navbar(
             width = "100%"
           ),
           fileInput(
-            inputId = "pr_header_image",
-            label = "Image for the project (maybe a logo?)"
-          ),
+                                inputId = "pr_header_image",
+                                label = "Image for the project (maybe a logo?)"
+                              ),
           downloadButton(outputId = "pr_generate", label = "Generate ZIP")
+        )
+      )
+    )
+  ),
+  nav_panel(
+    title = "Post",
+    grid_container(
+      layout = c(
+        "Editor Editor",
+        "Editor Editor"
+      ),
+      row_sizes = c(
+        "1fr",
+        "1fr"
+      ),
+      col_sizes = c(
+        "1fr",
+        "1fr"
+      ),
+      gap_size = "10px",
+      grid_card(
+        area = "Editor",
+        card_body(
+          textInput(
+            inputId = "post_title",
+            label = "Title",
+            width = "100%"
+          ),
+          textInput(
+            inputId = "post_author",
+            label = "Author",
+            width = "100%"
+          ),
+          use_editor("ukcniod2pt7c65psnhhht72k5ed545rf8mp9o028j7o4qz4s"),
+          editor(
+            id = 'textcontent',
+            )
         )
       )
     )
