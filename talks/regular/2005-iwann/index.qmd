@@ -1,0 +1,9 @@
+---
+date: 2005-06-11
+title: Graph Partitioning via Recurrent Multivalued Neural Networks
+venue: International Work-Conference on Artificial Neural Networks (IWANN 2005)
+link: ~ 
+address: Vilanova i la Geltrú, Barcelona, Spain
+slug: 2005-iwann
+---
+

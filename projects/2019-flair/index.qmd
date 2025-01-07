@@ -1,7 +1,7 @@
 ---
 title: 'FLAIR: Fuzzy, Logic and Algebraic tools for Information Resources'
 author:
-- Manuel Ojeda Aciego
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 - Nicolás Madrid Labrador
 date: '2019-09-26'
 slug: 2019-flair

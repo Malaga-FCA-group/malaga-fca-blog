@@ -1,9 +1,9 @@
 ---
 title: Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes
 author:
-- Carlos Bejines
-- Manuel Ojeda-Hernández
-- Domingo López-Rodríguez
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines López</a>
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 date: '2024-02-05'
 categories: Fuzzy sets
 header_image: ~

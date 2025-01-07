@@ -17,6 +17,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2025-FRG-JC--LPU-URSUS/index.html",
+      "/posts/2024-MOH-DLR-M-A/index.html",
       "/posts/2024-DLR-AMB-Cadiz/index.html",
       "/posts/2024-MOH-Salamanca/index.html",
       "/posts/2024-CB-MOH-DLR-Analysis/index.html",
@@ -29,6 +31,9 @@
       "/posts/2023-insci2/index.html",
       "/posts/2023-axioms/index.html",
       "/posts/2023-ijar/index.html",
+      "/posts/2023-MH-IPC-PC-EMV-Fuzzy/index.html",
+      "/posts/2023-IPC-PC-EMV-MOA-BDB-Fuzzy/index.html",
+      "/posts/2023-MOH-IPC-PC-EMV-Fuzzy/index.html",
       "/posts/2022-ufug/index.html",
       "/posts/2022-escim/index.html",
       "/posts/2022-rjournal/index.html",
@@ -41,6 +46,8 @@
       "/posts/2022-iwinac/index.html",
       "/posts/2022-mdpimathematics/index.html",
       "/posts/2022-superresolution/index.html",
+      "/posts/2022-MOH-IPC-PC-Quasi/index.html",
+      "/posts/2022-MOH-IPC-PC-EMV-Fuzzy/index.html",
       "/posts/2021-complexfca/index.html",
       "/posts/2021-miccai/index.html",
       "/posts/2021-e-learning/index.html",
@@ -51,6 +58,7 @@
       "/posts/2020-ijcis/index.html",
       "/posts/2020-ijgs/index.html",
       "/posts/2020-e-learning/index.html",
+      "/posts/2020-IPC-PC-EMV-MOA-BDB-Relational/index.html",
       "/posts/2019-PIE-clustering/index.html",
       "/posts/2019-ursus-dm/index.html",
       "/posts/2019-flair/index.html",
@@ -151,26 +159,60 @@
     "items": []
   },
   {
+    "listing": "/publications/journals/2024-MOH-DLR-M-A/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy2/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023-MOH-IPC-PC-EMV-Fuzzy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-ufug/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational/index.html",
+    "items": []
+  },
+  {
     "listing": "/publications/journals/2022-mdpimathematics/index.html",
     "items": []
   },
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/journals/2025-FRG-JC--LPU-URSUS/index.html",
+      "/publications/journals/2024-MOH-DLR-M-A/index.html",
       "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
       "/publications/journals/2023-axioms2/index.html",
       "/publications/journals/2023-insci/index.html",
       "/publications/journals/2023-insci2/index.html",
       "/publications/journals/2023-axioms/index.html",
       "/publications/journals/2023-ijar/index.html",
+      "/publications/journals/2023-MH-IPC-PC-EMV-Fuzzy/index.html",
+      "/publications/journals/2023-IPC-PC-EMV-MOA-BDB-Fuzzy/index.html",
+      "/publications/journals/2023-MOH-IPC-PC-EMV-Fuzzy/index.html",
       "/publications/journals/2022-ufug/index.html",
       "/publications/journals/2022-rjournal/index.html",
       "/publications/journals/2022-ijcis/index.html",
       "/publications/journals/2022-ieeetfuzz/index.html",
       "/publications/journals/2022-mdpimathematics/index.html",
+      "/publications/journals/2022-MOH-IPC-PC-Quasi/index.html",
+      "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy/index.html",
+      "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy2/index.html",
       "/publications/journals/2020-eswa/index.html",
       "/publications/journals/2020-ijcis/index.html",
       "/publications/journals/2020-ijgs/index.html",
+      "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational/index.html",
+      "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational2/index.html",
       "/publications/journals/2018-gpu/index.html",
       "/publications/journals/2018-dam/index.html",
       "/publications/journals/2018-supercomp/index.html",
@@ -252,11 +294,27 @@
     "items": []
   },
   {
-    "listing": "/publications/journals/2022-ufug/index.html",
+    "listing": "/publications/journals/2022-MOH-IPC-PC-Quasi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2025-FRG-JC--LPU-URSUS/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023-MH-IPC-PC-EMV-Fuzzy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023-IPC-PC-EMV-MOA-BDB-Fuzzy/index.html",
     "items": []
   },
   {
     "listing": "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational2/index.html",
     "items": []
   },
   {

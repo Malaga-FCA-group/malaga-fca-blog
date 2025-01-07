@@ -1,0 +1,9 @@
+---
+date: 2004-11-10
+title: Multivalued Neural Network for Graph Maxcut Problem
+venue: International Congress of Computational Methods in Science and Engineering 2004
+link: ~ 
+address: Vouliagmeni, Greece
+slug: 2004-iccmse
+---
+

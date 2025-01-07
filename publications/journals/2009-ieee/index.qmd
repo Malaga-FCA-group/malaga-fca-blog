@@ -2,7 +2,7 @@
 author:
 - Ezequiel López-Rubio
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 Status: Published
 date: '2009-08-19'
 slug: 2009-ieee

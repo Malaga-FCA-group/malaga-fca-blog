@@ -1,0 +1,9 @@
+---
+date: 2007-09-11
+title: "Stochastic Functional Annealing as Optimization Technique: Application to the Traveling Salesman Problem with Recurrent Networks"
+venue: 30th Annual German Conference on AI, KI 2007
+link: ~ 
+address: Osnabruck, Germany
+slug: 2007-ki
+---
+

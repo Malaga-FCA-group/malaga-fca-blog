@@ -4,9 +4,19 @@
   - Rafael Fernández-Cañero
   - Gabriel Pérez
   - José del Campo-Ávila
-  - Domingo López-Rodríguez
+  - dominlopez
   - Luis Pérez-Urrestarazu
   date: 2022-12-01T00:00:00Z
   categories: [Sustainability]
-  description: <em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783
+  description: '<em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783'
   path: /publications/journals/2022-ufug
+- title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect'
+  author: 
+  - Francisco Rodríguez-Gómez
+  - José del Campo-Ávila
+  - dominlopez
+  - Luis Pérez-Urrestarazu
+  date: 2025-02-01
+  categories: [Data mining, Fuzzy logic, Imprecise information, Machine learning, Sustainability]
+  description: 'SoftwareX vol. 29 , pages 101997.'
+  path: /publications/journals/2025-FRG-JC--LPU-URSUS

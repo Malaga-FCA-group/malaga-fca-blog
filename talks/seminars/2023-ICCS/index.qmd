@@ -1,0 +1,9 @@
+---
+date: 2023-09-11
+title: Formal Concept Analysis in R - the `fcaR` library
+venue: International Conference on Conceptual Structures 2023 in Berlin, Germany
+link: slides.pdf 
+address: Humboldt-Universität zu Berlin, Berlin, Germany
+slug: 2023-ICCS
+---
+

@@ -4,11 +4,11 @@ title: 'New journal paper: <em>Connecting concept lattices with bonds induced by
 image: /assets/images/journals.jpg
 author:
 - Ondrej Krídlo
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - Lubomir Antoni
 - Peter Eliaš
 - Stanislav Krajči
-- Manuel Ojeda-Aciego
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 date: '2023-08-03T00:00:00Z'
 categories: Formal concept analysis
 comments:

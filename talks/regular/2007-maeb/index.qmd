@@ -1,0 +1,9 @@
+---
+date: 2007-03-15
+title: Red Multivaluada Estocástica para Optimización. Aplicación al Problema del MaxCut
+venue: Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2007
+link: ~ 
+address: Puerto de la Cruz, Tenerife, Spain
+slug: 2007-caepia
+---
+

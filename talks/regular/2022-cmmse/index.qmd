@@ -1,0 +1,9 @@
+---
+date: 2022-07-04
+title: Mining Fuzzy Concept Lattices
+venue: International Conference on Computational and Mathematical Methods in Science and Engineering 2022
+link: slides.pdf 
+address: Av. Reina Sofía, Rota, Cádiz, Spain
+slug: 2022-cmmse
+---
+

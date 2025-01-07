@@ -1,0 +1,9 @@
+---
+date: 2022-06-22
+title: fcaR, Spreading FCA to the Data Science World
+venue: Conference on Concept Lattices and their Applications 2022
+link: ~
+address: Sadama, Tallinn, Estonia
+slug: 2022-cla
+---
+

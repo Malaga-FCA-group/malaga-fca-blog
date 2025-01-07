@@ -1,8 +1,8 @@
 ---
 author:
-- Pablo Cordero
-- Manuel Enciso
-- Ángel Mora
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
 - Vilem Vychodil
 Status: Published
 date: '2022-06-03'

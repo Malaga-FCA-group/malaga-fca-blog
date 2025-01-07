@@ -1,0 +1,9 @@
+---
+date: 2005-04-11
+title:  Memoria auto-asociativa y clasificación con redes neuronales recurrentes
+venue: Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados 2005
+link: ~ 
+address: Granada, Spain
+slug: 2005-maeb
+---
+

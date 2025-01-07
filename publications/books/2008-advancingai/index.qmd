@@ -1,5 +1,8 @@
 ---
-author: E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-de-Lazcano-Lobato
+author:
+- E. Mérida-Casermeiro
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- J.M. Ortiz-de-Lazcano-Lobato
 Status: Published
 date: '2008-01-01'
 slug: 2008-advancingai

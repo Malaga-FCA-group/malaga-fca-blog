@@ -3,7 +3,7 @@ title: 'Start of project <em>FLAIR: Fuzzy, Logic and Algebraic tools for Informa
   Resources</em>'
 image: /projects/2019-flair/featured.png
 author:
-- Manuel Ojeda Aciego
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 - Nicolás Madrid Labrador
 date: '2019-09-26'
 categories:

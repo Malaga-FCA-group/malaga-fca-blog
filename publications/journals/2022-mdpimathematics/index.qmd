@@ -1,10 +1,11 @@
 ---
 author:
-- Francisco Pérez-Gámez
-- Domingo López-Rodríguez
-- Pablo Cordero
-- Ángel Mora
-- Manuel Ojeda-Aciego
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 Status: Published
 date: '2022-02-16T00:00:00Z'
 slug: 2022-mdpimathematics

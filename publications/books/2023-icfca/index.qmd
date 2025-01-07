@@ -1,7 +1,7 @@
 ---
 author:
 - Dominik Dürrschnabel
-- Domingo López Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 Status: Published
 date: '2023-07-10'
 slug: 2023-icfca

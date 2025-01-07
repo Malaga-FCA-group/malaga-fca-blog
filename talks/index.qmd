@@ -1,0 +1,47 @@
+---
+listing:
+  - id: "seminars"
+    contents: seminars
+    sort: "date desc"
+    categories: false
+    sort-ui: true
+    filter-ui: [date, title, venue]
+    date-format: "DD MMM YYYY"
+    type: table
+    page-size: 999
+    fields:
+      - date
+      - title
+      - venue
+    field-display-names:
+      venue: Venue
+  - id: "regular"
+    contents: regular
+    sort: "date desc"
+    categories: false
+    sort-ui: true
+    filter-ui: [date, title, venue]
+    date-format: "DD MMM YYYY"
+    type: table
+    page-size: 999
+    fields:
+      - date
+      - title
+      - venue
+    field-display-names:
+      venue: Venue
+page-layout: full
+sidebar: true
+title-block-banner: false
+---
+
+## Invited talks and seminars
+
+:::{#seminars}
+:::
+
+## Conference talks
+
+:::{#regular}
+:::
+

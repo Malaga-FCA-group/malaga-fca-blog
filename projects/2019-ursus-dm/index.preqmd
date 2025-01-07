@@ -1,6 +1,8 @@
 ---
 title: 'URSUS-DM: Nuevos desarrollos en minería de datos para su utilización en la sostenibilidad urbana'
-author: 'Domingo López-Rodríguez'
+author: 
+- Luis Pérez Urrestarazu
+- Llanos Mora
 date: '2019-09-26'
 slug: 2019-ursus-dm
 selected: true
@@ -27,5 +29,8 @@ Para garantizar que se alcanzan los objetivos planteados en el proyecto, éste d
 
 Finalmente, en el plan de trabajo también se incluye la participación de un arquitecto y expertos en el mercado energético necesarios para el desarrollo de las aplicaciones que se proponen en el proyecto.
 
+## Participación
+
+<a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 
 {{published_works}}

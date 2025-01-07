@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: b8c21266-0b3d-43a9-bcf8-c4842acc1191
+      url: https://classy-bavarois-85e4cc.netlify.app

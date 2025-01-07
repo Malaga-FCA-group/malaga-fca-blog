@@ -1,7 +1,16 @@
 # Steps to compile
 
-# source(here::here("scripts",
-#                   "qmd_utils.R"))
+source(here::here(
+  "scripts",
+  "qmd_utils.R"
+))
+
+source(
+  here::here(
+    "scripts",
+    "master_table_people.R"
+  )
+)
 # source(here::here("scripts",
 #                   "collect_bib.R"))
 
@@ -20,8 +29,10 @@ projects <- list.files(
 )
 
 source(
-  here::here("scripts",
-             "preqmd.R")
+  here::here(
+    "scripts",
+    "preqmd.R"
+  )
 )
 
 projects |> sapply(process_preqmd)
@@ -31,7 +42,8 @@ journals <- list.files(
   path = file.path(folder, "journals"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 journals |> sapply(process_preqmd)
 
@@ -39,7 +51,8 @@ conferences <- list.files(
   path = file.path(folder, "conferences"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 conferences |> sapply(process_preqmd)
 
@@ -47,16 +60,21 @@ books <- list.files(
   path = file.path(folder, "books"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 books |> sapply(process_preqmd)
 
-FORCE <- FALSE
-source(here::here("scripts",
-                  "generate_post.R"))
+FORCE <- TRUE
+source(here::here(
+  "scripts",
+  "generate_post.R"
+))
 
-source(here::here("scripts",
-                  "for_data_provider.R"))
+source(here::here(
+  "scripts",
+  "for_data_provider.R"
+))
 
 # Make actual preview and render
 quarto::quarto_preview()

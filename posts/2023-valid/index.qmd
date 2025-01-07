@@ -3,8 +3,8 @@ title: 'Start of project <em>VALID: Verifiable Algebraic and Logic tools for Imp
   Data</em>'
 image: /projects/2023-valid/featured.png
 author:
-- Manuel Ojeda-Aciego
-- Domingo López-Rodríguez
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 date: '2023-09-01'
 categories:
 - Formal concept analysis

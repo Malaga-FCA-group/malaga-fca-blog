@@ -2,7 +2,6 @@ generate_posts_from_publications <- function(
     file,
     type = "journals",
     force = FALSE) {
-
   lines <- readLines(con = file)
 
   idx <- lines |>
@@ -14,14 +13,20 @@ generate_posts_from_publications <- function(
 
   L <- yaml::yaml.load(header)
 
+  L$author <- process_authors(L$author)
+
   post_folder <- here::here(
     "posts",
-    L$slug)
+    L$slug
+  )
 
-  if (!force && fs::dir_exists(post_folder)) return(invisible(NULL))
+  if (!force && fs::dir_exists(post_folder)) {
+    return(invisible(NULL))
+  }
 
   fs::dir_create(post_folder,
-                 recurse = TRUE)
+    recurse = TRUE
+  )
 
   # Find other section
   idx1 <- other |>
@@ -46,20 +51,18 @@ generate_posts_from_publications <- function(
     paste0(collapse = "\n")
 
   my_title <- switch(tolower(type),
-                     "journals" = "New journal paper: <em>{L$title}</em>",
-                     "conferences" = "Conference paper accepted: <em>{L$title}</em>",
-                     "books" = "New publication: <em>{L$title}</em>",
-                     "projects" = "Start of project <em>{L$title}</em>"
+    "journals" = "New journal paper: <em>{L$title}</em>",
+    "conferences" = "Conference paper accepted: <em>{L$title}</em>",
+    "books" = "New publication: <em>{L$title}</em>",
+    "projects" = "Start of project <em>{L$title}</em>"
   )
 
   my_image <- glue::glue("/assets/images/{type}.jpg")
 
   if (type == "projects") {
-
     my_image <- glue::glue(
       "/projects/{L$slug}/{L$image}"
     )
-
   }
 
   categories <- L$categories |>
@@ -72,7 +75,8 @@ generate_posts_from_publications <- function(
     date = L$date,
     categories = categories,
     comments = list(giscus = list(
-      repo = "Malaga-FCA-group/malaga-fca-blog"))
+      repo = "Malaga-FCA-group/malaga-fca-blog"
+    ))
   )
 
   YAML <- yaml::as.yaml(post_header)
@@ -90,7 +94,6 @@ generate_posts_from_publications <- function(
     glue::glue()
 
   if (type == "projects") {
-
     body <- c(
       "The project <u>{L$title}</u> has started on <em>{L$date}</em>.",
       "",
@@ -102,20 +105,26 @@ generate_posts_from_publications <- function(
     ) |>
       stringr::str_flatten("\n") |>
       glue::glue()
-
   }
 
-  newfile <- file.path(post_folder,
-                       "index.qmd")
+  newfile <- file.path(
+    post_folder,
+    "index.qmd"
+  )
 
   cat("---\n", file = newfile)
-  cat(YAML, file = newfile,
-      append = TRUE)
-  cat("---\n\n", file = newfile,
-      append = TRUE)
-  cat(body, file = newfile,  sep = "\n",
-      append = TRUE)
-
+  cat(YAML,
+    file = newfile,
+    append = TRUE
+  )
+  cat("---\n\n",
+    file = newfile,
+    append = TRUE
+  )
+  cat(body,
+    file = newfile, sep = "\n",
+    append = TRUE
+  )
 }
 
 folder <- here::here("publications")
@@ -123,38 +132,46 @@ journals <- list.files(
   path = file.path(folder, "journals"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 journals |> sapply(
   \(f)
-  generate_posts_from_publications(f, "journals", force = FORCE))
+  generate_posts_from_publications(f, "journals", force = FORCE)
+)
 
 conferences <- list.files(
   path = file.path(folder, "conferences"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 conferences |> sapply(
   \(f)
-  generate_posts_from_publications(f, "conferences", force = FORCE))
+  generate_posts_from_publications(f, "conferences", force = FORCE)
+)
 
 books <- list.files(
   path = file.path(folder, "books"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 books |> sapply(
   \(f)
-  generate_posts_from_publications(f, "books", force = FORCE))
+  generate_posts_from_publications(f, "books", force = FORCE)
+)
 
 projects <- list.files(
   path = here::here("projects"),
   pattern = "index.preqmd$",
   full.names = TRUE,
-  recursive = TRUE)
+  recursive = TRUE
+)
 
 projects |> sapply(
   \(f)
-  generate_posts_from_publications(f, "projects", force = FORCE))
+  generate_posts_from_publications(f, "projects", force = FORCE)
+)

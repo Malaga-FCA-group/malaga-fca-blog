@@ -2,7 +2,9 @@
 title: 'Start of project <em>URSUS-DM: Nuevos desarrollos en minería de datos para
   su utilización en la sostenibilidad urbana</em>'
 image: /projects/2019-ursus-dm/featured.jpg
-author: Domingo López-Rodríguez
+author:
+- Luis Pérez Urrestarazu
+- Llanos Mora
 date: '2019-09-26'
 categories:
 - Data mining
@@ -30,7 +32,6 @@ En el contexto de la generación eléctrica, el objetivo principal de este proye
 Para garantizar que se alcanzan los objetivos planteados en el proyecto, éste debe ser desarrollado por un equipo multidisciplinar. Por un lado, es necesaria la participación de investigadores con experiencia en el desarrollo de nuevos algoritmos y modelos de minería de datos. Por otro lado, es necesaria la participación activa de investigadores en los dos campos de aplicación en los que trabajará el proyecto, es decir, investigadores en la integración de áreas verdes urbanas y la planificación del paisaje e investigadores en sistemas fotovoltaicos.
 
 Finalmente, en el plan de trabajo también se incluye la participación de un arquitecto y expertos en el mercado energético necesarios para el desarrollo de las aplicaciones que se proponen en el proyecto.
-
 
 
 For more details on this project, visit <a href='/projects/2019-ursus-dm'>its own page</a>.

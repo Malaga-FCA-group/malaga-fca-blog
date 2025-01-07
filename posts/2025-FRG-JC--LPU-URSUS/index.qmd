@@ -1,0 +1,30 @@
+---
+title: 'New journal paper: <em>URSUS_UHI: URban SUStainability software for detection
+  of unfavourable areas due to the Urban Heat Island effect</em>'
+image: /assets/images/journals.jpg
+author:
+- Francisco Rodríguez-Gómez
+- José del Campo-Ávila
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Luis Pérez-Urrestarazu
+date: '2025-02-01'
+categories:
+- Data mining
+- Fuzzy logic
+- Imprecise information
+- Machine learning
+- Sustainability
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
+---
+
+The work <u>URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect</u> has been published in <em>SoftwareX vol. 29 , pages 101997.</em>.
+
+<u>Abstract</u>:
+
+
+Identifying the most unfavourable areas of cities, in terms of high temperatures and lack of vegetation, can help to improve urban sustainability and combat climate change. URSUS_UHI is a software that could help make decisions on which areas need priority attention in terms of adding green infrastructure to reduce temperatures. It develops a spatial data mining processes that incorporates expert knowledge to automatically detect the most disadvantaged areas in terms of higher temperatures and lack of vegetation. In this way, users such as urban planners or landscape engineers can identify the most suitable areas in which to act.
+
+
+For more details on this work, visit <a href='/publications/journals/2025-FRG-JC--LPU-URSUS'>its own page</a>.

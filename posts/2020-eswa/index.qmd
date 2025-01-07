@@ -3,10 +3,10 @@ title: 'New journal paper: <em>A conversational recommender system for diagnosis
   fuzzy rules</em>'
 image: /assets/images/journals.jpg
 author:
-- Pablo Cordero
-- Manuel Enciso
-- Domingo López-Rodríguez
-- Ángel Mora
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
 date: '2020-09-01'
 categories: Formal concept analysis
 comments:

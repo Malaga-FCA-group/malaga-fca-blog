@@ -65,12 +65,12 @@ generate_publication_preqmd <- function(
     "author: \n{authors}\n",
     "date: '{date}'\n",
     "categories: [{categories}]\n",
-    "header_image: {header_image}\n",
+    "header_image: {basename(header_image)}\n",
     "doi: {doi}\n",
     "slug: {slug}\n",
     "keywords: '{keywords}'\n",
     "project: {projects}\n",
-    "details: {details}\n",
+    "details: '{details}'\n",
     .trim = FALSE
   )
 

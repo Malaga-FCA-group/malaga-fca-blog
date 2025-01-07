@@ -1,0 +1,9 @@
+---
+date: 2023-09-04
+title: Explainable Machine Learning using Formal Concept Analysis
+venue: Spanish+Polish Mathematical Meeting 2023 in Lodz, Poland
+link: slides.pdf 
+address: Lodz, Poland
+slug: 2023-XAI
+---
+

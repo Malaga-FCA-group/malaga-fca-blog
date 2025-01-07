@@ -4,7 +4,7 @@ image: /assets/images/journals.jpg
 author:
 - Ezequiel López-Rubio
 - Juan Miguel Ortiz-de-Lazcano-Lobato
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 date: '2009-08-19'
 categories:
 - Neural networks

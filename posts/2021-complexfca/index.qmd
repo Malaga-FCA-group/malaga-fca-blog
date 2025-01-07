@@ -2,9 +2,9 @@
 title: 'New publication: <em>Formal methods in FCA and Big Data</em>'
 image: /assets/images/books.jpg
 author:
-- Domingo López Rodríguez
-- Emilio Muñoz Velasco
-- Manuel Ojeda Aciego
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 date: '2021-12-08'
 categories:
 - Formal concept analysis

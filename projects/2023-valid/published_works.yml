@@ -5,7 +5,7 @@
   - Manuel Ojeda-Hernández
   date: 2023-09-12T00:00:00Z
   categories: [Formal concept analysis, Aggregation operators]
-  description: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,
+  description: '<em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,'
   path: /publications/conferences/2023-iccs
 - title: 'Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis'
   author: 
@@ -14,26 +14,45 @@
   - Manuel Ojeda-Hernández
   date: 2023-09-12T00:00:00Z
   categories: [Formal concept analysis, Aggregation operators]
-  description: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,
+  description: '<em>International Conference on Conceptual Structures</em>, LNCS 14133, pp. 28--35,'
   path: /publications/malaga-fca-blog/2023-iccs
 - title: 'Connecting concept lattices with bonds induced by external information'
   author: 
   - Ondrej Krídlo
-  - Domingo López-Rodríguez
+  - dominlopez
   - Lubomir Antoni
   - Peter Eliaš
   - Stanislav Krajči
-  - Manuel Ojeda-Aciego
+  - aciego
   date: 2023-08-03T00:00:00Z
   categories: [Formal concept analysis]
-  description: <em>Information Sciences</em>, vol. 648, november 2023, article 119498
+  description: '<em>Information Sciences</em>, vol. 648, november 2023, article 119498'
   path: /publications/journals/2023-insci
 - title: 'Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes'
   author: 
-  - Carlos Bejines
-  - Manuel Ojeda-Hernández
-  - Domingo López-Rodríguez
+  - cbejines
+  - manuojeda
+  - dominlopez
   date: 2024-02-05
   categories: [Fuzzy sets]
-  description: Mathematics vol. 12 (3), article number 498.
+  description: 'Mathematics vol. 12 (3), article number 498.'
   path: /publications/journals/2024-CB-MOH-DLR-Analysis
+- title: 'A Formal Concept Analysis approach to hierarchical description of malware threats'
+  author: 
+  - manuojeda
+  - dominlopez
+  - amora
+  date: 2024-09-01
+  categories: [Data mining, Formal concept analysis, Implications, Imprecise information, Text mining]
+  description: 'Forensic Science International: Digital Investigation vol. 50 , pages 301797.'
+  path: /publications/journals/2024-MOH-DLR-M-A
+- title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect'
+  author: 
+  - Francisco Rodríguez-Gómez
+  - José del Campo-Ávila
+  - dominlopez
+  - Luis Pérez-Urrestarazu
+  date: 2025-02-01
+  categories: [Data mining, Fuzzy logic, Imprecise information, Machine learning, Sustainability]
+  description: 'SoftwareX vol. 29 , pages 101997.'
+  path: /publications/journals/2025-FRG-JC--LPU-URSUS

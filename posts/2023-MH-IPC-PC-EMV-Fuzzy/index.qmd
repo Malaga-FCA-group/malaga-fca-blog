@@ -1,0 +1,29 @@
+---
+title: 'New journal paper: <em>Fuzzy closure structures as formal concepts II</em>'
+image: /assets/images/journals.jpg
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inmaculada de las
+  Peñas Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2023-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
+---
+
+The work <u>Fuzzy closure structures as formal concepts II</u> has been published in <em>Fuzzy Sets Syst. 473: 108734</em>.
+
+<u>Abstract</u>:
+
+
+
+
+
+For more details on this work, visit <a href='/publications/journals/2023-MH-IPC-PC-EMV-Fuzzy'>its own page</a>.

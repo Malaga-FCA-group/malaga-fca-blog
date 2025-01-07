@@ -1,0 +1,9 @@
+---
+date: 2022-07-11
+title: Computing the Mixed Concept Lattice
+venue: International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems
+link: ~ 
+address: Piazza dell’Ateneo Nuovo, 1, Milan, Italy
+slug: 2022-ipmu
+---
+

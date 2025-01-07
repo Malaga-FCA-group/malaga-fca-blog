@@ -3,7 +3,7 @@ title: 'New journal paper: <em>Stochastic multivalued network for optimization. 
   to the graph MaxCut problem</em>'
 image: /assets/images/journals.jpg
 author:
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - E. Mérida-Casermeiro
 - J.M. Ortiz-de-Lazcano-Lobato
 date: '2007-01-01'

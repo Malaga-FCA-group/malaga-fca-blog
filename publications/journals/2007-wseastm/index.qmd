@@ -1,6 +1,6 @@
 ---
 author:
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - E. Mérida-Casermeiro
 - J.M. Ortiz-de-Lazcano-Lobato
 Status: Published

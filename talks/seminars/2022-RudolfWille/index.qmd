@@ -1,0 +1,9 @@
+---
+date: 2022-04-21
+title: Formal Concept Analysis in R. Motivation, success stories and future work with the fcaR library
+venue: Rudolf Wille seminar at Ernst Schröder Zentrum
+link: slides.pdf 
+address: Darmstadt, Germany
+slug: 2022-RudolfWille
+---
+

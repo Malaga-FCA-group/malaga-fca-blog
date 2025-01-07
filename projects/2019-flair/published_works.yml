@@ -1,53 +1,53 @@
 - title: 'Formal methods in FCA and Big Data'
   author: 
-  - Domingo López Rodríguez
-  - Emilio Muñoz Velasco
-  - Manuel Ojeda Aciego
+  - dominlopez
+  - ejmunoz
+  - aciego
   date: 2021-12-08
   categories: [Formal concept analysis, Big data]
-  description: Complex Data Analytics with Formal Concept Analysis, <em>pp. 201 -- 224</em>
+  description: 'Complex Data Analytics with Formal Concept Analysis, <em>pp. 201 -- 224</em>'
   path: /publications/books/2021-complexfca
 - title: 'Recommendations in CDSS using Fuzzy Formal Concept Analysis'
   author: 
   - P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
   date: 2019-07-01
   categories: [Formal concept analysis, Fuzzy logic]
-  description: International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019
+  description: 'International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2019'
   path: /publications/conferences/2019-cmmse
 - title: 'Topic Modelling in Social Networks with Formal Concept Analysis'
   author: 
   - P. Cordero, M. Enciso, Domingo López-Rodríguez, A. Mora
   date: 2021-07-20
   categories: [Formal concept analysis, Text mining]
-  description: International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021
+  description: 'International Conference on Computational and Mathematical Methods in Science and Engineering (CMMSE) 2021'
   path: /publications/conferences/2021-cmmse
 - title: 'Clustering and identification of core implications'
   author: 
   - Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
   date: 2021-07-01
   categories: [Formal concept analysis, Fuzzy logic]
-  description: International Conference on Formal Concept Analysis (ICFCA) 2021
+  description: 'International Conference on Formal Concept Analysis (ICFCA) 2021'
   path: /publications/conferences/2021-icfca
 - title: 'How to provide light to COVID data by means of FCA'
   author: 
   - Domingo López-Rodríguez, P. Cordero, M. Enciso, A. Mora
   date: 2021-06-29
   categories: [Formal concept analysis]
-  description: RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021
+  description: 'RealDataFCA Workshop, jointly with International Conference on Formal Concept Analysis (ICFCA) 2021'
   path: /publications/conferences/2021-realdatafca
 - title: 'Revisiting Algorithms for Fuzzy Concept Lattices'
   author: 
   - Domingo López-Rodríguez, Ángel Mora, Manuel Ojeda-Hernández
   date: 2022-06-21T00:00:00Z
   categories: [Formal concept analysis]
-  description: the <em>16th International Conference on Concept Lattices and Applications 2022</em>
+  description: 'the <em>16th International Conference on Concept Lattices and Applications 2022</em>'
   path: /publications/conferences/2022-cla
 - title: 'Mining Fuzzy Concept Lattices'
   author: 
   - Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
   date: 2022-07-04T00:00:00Z
   categories: [Formal concept analysis]
-  description: the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em>
+  description: 'the <em>22nd International Conference on Computational and Mathematical Methods in Science and Engineering 2022</em>'
   path: /publications/conferences/2022-cmmse
 - title: 'Knowledge Discovery in Malware Datasets using Formal Concept Analysis'
   author: 
@@ -57,61 +57,153 @@
   - Pablo Cordero
   date: 2022-10-05T00:00:00Z
   categories: [Formal concept analysis]
-  description: <em>14th European Symposium on Computational Intelligence and Mathematics</em>
+  description: '<em>14th European Symposium on Computational Intelligence and Mathematics</em>'
   path: /publications/conferences/2022-escim
 - title: 'fcaR, Spreading FCA to the Data Science World'
   author: 
   - Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
   date: 2022-06-22T00:00:00Z
   categories: [R package, Formal concept analysis]
-  description: <em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em>
+  description: '<em>Workshop on Existing Tools and Applications for Formal Context Analysis 2022</em>'
   path: /publications/conferences/2022-etafca
 - title: 'Computing the Mixed Concept Lattice'
   author: 
   - Francisco Pérez-Gámez, Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Angel Mora
   date: 2022-07-13T00:00:00Z
   categories: [Formal concept analysis]
-  description: <em>International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</em>
+  description: '<em>International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems</em>'
   path: /publications/conferences/2022-ipmu
 - title: 'A conversational recommender system for diagnosis using fuzzy rules'
   author: 
-  - Pablo Cordero
-  - Manuel Enciso
-  - Domingo López-Rodríguez
-  - Ángel Mora
+  - pcordero
+  - enciso
+  - dominlopez
+  - amora
   date: 2020-09-01
   categories: [Formal concept analysis]
-  description: <em>Expert Systems with Applications</em>, volume 154, 2020
+  description: '<em>Expert Systems with Applications</em>, volume 154, 2020'
   path: /publications/journals/2020-eswa
+- title: 'Relational Galois connections between transitive digraphs: Characterization and construction'
+  author: 
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  - aciego
+  - Bernard De Baets
+  date: 2020-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Information Sciences vol. 519 , pages 439 – 450.'
+  path: /publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational
+- title: 'Relational Galois connections between transitive fuzzy digraphs'
+  author: 
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  - aciego
+  - Bernard De Baets
+  date: 2020-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Mathematical Methods in the Applied Sciences vol. 43 (9), pages 5673 – 5680.'
+  path: /publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational
 - title: 'Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course'
   author: 
-  - Manuel Ojeda‐Hernández
-  - Francisco Pérez‐Gámez
-  - Domingo López-Rodríguez
+  - manuojeda
+  - franperezgamez
+  - dominlopez
   - Nicolás Madrid
-  - Ángel Mora
+  - amora
   date: 2022-08-09T00:00:00Z
   categories: [Formal concept analysis, Fuzzy logic, E-learning]
-  description: <em>International Journal of Computational Intelligence Systems</em>, 15:58
+  description: '<em>International Journal of Computational Intelligence Systems</em>, 15:58'
   path: /publications/journals/2022-ijcis
 - title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach'
   author: 
-  - Francisco Pérez-Gámez
-  - Domingo López-Rodríguez
-  - Pablo Cordero
-  - Ángel Mora
-  - Manuel Ojeda-Aciego
+  - franperezgamez
+  - dominlopez
+  - pcordero
+  - amora
+  - aciego
   date: 2022-02-16T00:00:00Z
   categories: [Formal concept analysis, Fuzzy logic]
-  description: <em>Mathematics, 10</em>(4) 607
+  description: '<em>Mathematics, 10</em>(4) 607'
   path: /publications/journals/2022-mdpimathematics
+- title: 'Fuzzy closure relations'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  date: 2022-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Fuzzy Sets and Systems vol. 450 , pages 118 -- 132.'
+  path: /publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy
+- title: 'Fuzzy closure systems: Motivation, definition and properties'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  date: 2022-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'International Journal of Approximate Reasoning vol. 148 , pages 151 – 161.'
+  path: /publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy
+- title: 'Quasi-closed elements in fuzzy posets'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  date: 2022-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'J. Comput. Appl. Math. 404: 113390'
+  path: /publications/journals/2022-MOH-IPC-PC-Quasi
 - title: 'fcaR, Formal Concept Analysis with R'
   author: 
-  - Pablo Cordero
-  - Manuel Enciso
-  - Domingo López-Rodríguez
-  - Ángel Mora
+  - pcordero
+  - enciso
+  - dominlopez
+  - amora
   date: 2022-09-01T00:00:00Z
   categories: [Formal concept analysis, R package]
-  description: <em>The R Journal</em>
+  description: '<em>The R Journal</em>'
   path: /publications/journals/2022-rjournal
+- title: 'Fuzzy relational Galois connections between fuzzy transitive digraphs'
+  author: 
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  - aciego
+  - Bernard De Baets
+  date: 2023-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Fuzzy Sets Syst. 463: 108456'
+  path: /publications/journals/2023-IPC-PC-EMV-MOA-BDB-Fuzzy
+- title: 'Fuzzy closure structures as formal concepts II'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  date: 2023-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Fuzzy Sets Syst. 473: 108734'
+  path: /publications/journals/2023-MH-IPC-PC-EMV-Fuzzy
+- title: 'Fuzzy closure structures as formal concepts'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  date: 2023-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Fuzzy Sets Syst. 463: 108458'
+  path: /publications/journals/2023-MOH-IPC-PC-EMV-Fuzzy
+- title: 'Fuzzy closure structures as formal concepts'
+  author: 
+  - manuojeda
+  - ipcabrera
+  - pcordero
+  - ejmunoz
+  date: 2023-01-01
+  categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
+  description: 'Fuzzy Sets Syst. 463: 108458'
+  path: /publications/nuevos/2023-MOH-IPC-PC-EMV-Fuzzy

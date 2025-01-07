@@ -1,0 +1,9 @@
+---
+date: 2006-09-11
+title: Image Compression by Vector Quantization with Recurrent Discrete Networks
+venue: International Conference on Artificial Neural Networks (ICANN 2006)
+link: ~ 
+address: Athens, Greece
+slug: 2006-icann
+---
+

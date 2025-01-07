@@ -5,9 +5,9 @@ image: /assets/images/journals.jpg
 author:
 - Estrella Rodríguez-Lorenzo
 - Karell Bertet
-- Pablo Cordero
-- Manuel Enciso
-- Ángel Mora
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
 date: '2018-11-20T00:00:00Z'
 categories:
 - Simplification logic

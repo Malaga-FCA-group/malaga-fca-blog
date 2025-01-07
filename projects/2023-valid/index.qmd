@@ -1,8 +1,8 @@
 ---
 title: 'VALID: Verifiable Algebraic and Logic tools for Imperfect Data'
 author:
-- Manuel Ojeda-Aciego
-- Domingo López-Rodríguez
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 date: '2023-09-01'
 slug: 2023-valid
 selected: yes

@@ -1,0 +1,9 @@
+---
+date: 2013-10-11
+title: Predictive and Populational Model for Alzheimer's Disease Using Structural Neuroimaging
+venue: XIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013
+link: ~ 
+address: Seville, Spain
+slug: 2013-ifmb
+---
+

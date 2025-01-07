@@ -1,0 +1,60 @@
+---
+title: Quasi-closed elements in fuzzy posets
+type: journals
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inmaculada de las
+  Peñas Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+date: '2022-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+header_image: shiny
+doi: 10.1016/j.cam.2021.113390
+slug: 2022-MOH-IPC-PC-Quasi
+keywords: ''
+project: 2019-flair
+details: 'J. Comput. Appl. Math. 404: 113390'
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+
+# Abstract
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Ojeda-Hernandez2022></a>[[OCC22]](#cite-Ojeda-Hernandez2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (2022). Cited by: 7; All Open Access, Green Open Access, Hybrid Gold Open Access. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{Ojeda-Hernandez2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;	Author = {Ojeda-Hern\'andez, Manuel and Cabrera, Inma P. and Cordero, Pablo},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Date-Modified = {2025-01-07 17:34:03 +0000},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Doi = {10.1016/j.cam.2021.113390},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Journal = {Journal of Computational and Applied Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Note = {Cited by: 7; All Open Access, Green Open Access, Hybrid Gold Open Access},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Publication_Stage = {Final},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Title = {Quasi-closed elements in fuzzy posets},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Type = {Article},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016%2fj.cam.2021.113390&partnerID=40&md5=e8741144cb75e8fae12fa1c05b8271eb},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Volume = {404},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Bdsk-Url-1 = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016%2fj.cam.2021.113390&partnerID=40&md5=e8741144cb75e8fae12fa1c05b8271eb},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.cam.2021.113390}<br>}
+
+:::
+

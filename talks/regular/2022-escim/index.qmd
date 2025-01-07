@@ -1,0 +1,9 @@
+---
+date: 2022-10-05
+title: Knowledge Discovery in Malware Datasets using Formal Concept Analysis
+venue: 14th European Symposium on Computational Intelligence and Mathematics 
+link: ~ 
+address: Naples, Italy
+slug: 2022-escim
+---
+

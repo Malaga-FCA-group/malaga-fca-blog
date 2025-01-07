@@ -1,8 +1,8 @@
 ---
 author:
-- Domingo López Rodríguez
-- Emilio Muñoz Velasco
-- Manuel Ojeda Aciego
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 Status: Published
 date: '2021-12-08'
 slug: 2021-complexfca

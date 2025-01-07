@@ -1,0 +1,9 @@
+---
+date: 2007-04-15
+title: Improved Production of Competitive Learning Rules with an Additional Term for Vector Quantization
+venue: 8th International Conference on Adaptive and Natural Computing Algorithms
+link: ~ 
+address: Warsaw, Poland
+slug: 2007-icannga
+---
+

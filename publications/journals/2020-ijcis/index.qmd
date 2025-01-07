@@ -1,9 +1,9 @@
 ---
 author:
-- Pablo Cordero
-- Manuel Enciso
-- Ángel Mora
-- Manuel Ojeda-Aciego
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 - Carlos Rossi
 Status: Published
 date: '2020-08-19T00:00:00Z'

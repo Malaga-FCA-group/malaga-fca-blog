@@ -1,6 +1,5 @@
 process_preqmd <- function(file) {
-
-  lines <- readLines(con = file)
+  lines <- brio::readLines(con = file)
 
   idx <- lines |>
     stringr::str_detect("---") |>
@@ -18,46 +17,46 @@ process_preqmd <- function(file) {
     which()
 
   if (length(idx) > 0) {
-
     my_funs <- body[idx] |>
       stringr::str_extract_all(pattern) |>
       stringr::str_remove_all("[\\{|\\}]")
 
     for (i in seq_along(idx)) {
-
       f <- funs[[my_funs[i]]]
       if (!is.null(f)) {
-
         res <- f(header, dirname(file))
         body[idx[i]] <- res$inline
         if (length(res$header) > 0) {
-
           header <- combine_lists(list(header, res$header))
-
         }
-
       } else {
-
         body[idx[i]] <- "\n"
-
       }
-
     }
-
   }
 
   newfile <- stringr::str_replace(file,
-                                  pattern = "preqmd$",
-                                  "qmd")
+    pattern = "preqmd$",
+    "qmd"
+  )
+
+  header$author <- process_authors(header$author)
+
+  print(header)
 
   cat("---\n", file = newfile)
-  cat(yaml::as.yaml(header), file = newfile,
-      append = TRUE)
-  cat("---\n\n", file = newfile,
-      append = TRUE)
-  cat(body, file = newfile,  sep = "\n",
-      append = TRUE)
-
+  cat(yaml::as.yaml(header),
+    file = newfile,
+    append = TRUE
+  )
+  cat("---\n\n",
+    file = newfile,
+    append = TRUE
+  )
+  cat(body,
+    file = newfile, sep = "\n",
+    append = TRUE
+  )
 }
 
 # Auxiliary functions
@@ -68,12 +67,12 @@ process_preqmd <- function(file) {
 # by using \n
 # header must be a list
 papers_of_project <- function(header, folder) {
-
   project_id <- header$slug
 
   project_folder <- here::here(
     "projects",
-    project_id)
+    project_id
+  )
 
   pub_folder <- here::here("publications")
   files <- list.files(
@@ -88,8 +87,7 @@ papers_of_project <- function(header, folder) {
   str <- NULL
 
   for (file in files) {
-
-    lines <- readLines(con = file)
+    lines <- brio::readLines(con = file)
 
     type <- basename(dirname(dirname(file)))
 
@@ -101,8 +99,7 @@ papers_of_project <- function(header, folder) {
       yaml::yaml.load()
 
     if (!is.null(contents$project) &&
-        tolower(project_id) %in% tolower(contents$project)) {
-
+      tolower(project_id) %in% tolower(contents$project)) {
       contents$path <- glue::glue("/publications/{type}/{contents$slug}")
 
       authors <- glue::glue(
@@ -122,13 +119,12 @@ papers_of_project <- function(header, folder) {
           "  author: \n{authors}\n",
           "  date: {contents$date}\n",
           "  categories: [{categories}]\n",
-          "  description: {contents$details}\n",
+          "  description: '{contents$details}'\n",
           "  path: {contents$path}",
           .trim = FALSE
-        ))
-
+        )
+      )
     }
-
   }
 
   newfile <- here::here(
@@ -139,7 +135,6 @@ papers_of_project <- function(header, folder) {
   cat(str, file = newfile, sep = "\n")
 
   if (length(str) > 0) {
-
     res <- "\n# Published works\n\n:::{#published_works}\n:::\n"
     return(list(
       inline = res,
@@ -148,23 +143,19 @@ papers_of_project <- function(header, folder) {
           id = "published_works",
           contents = "published_works.yml",
           type = "default",
-          sort = "date desc"))
+          sort = "date desc"
+        ))
       )
     ))
-
   } else {
-
     return(list(
       inline = "",
       header = list()
     ))
-
   }
-
 }
 
 projects_of_paper <- function(header, folder) {
-
   # pub_id <- header$slug
   #
   # pub_folder <- here::here(
@@ -177,21 +168,26 @@ projects_of_paper <- function(header, folder) {
     stringr::str_match_all(".+") |>
     unlist()
 
-  if (length(projects) == 0) return(nul_f(header, folder))
+  if (length(projects) == 0) {
+    return(nul_f(header, folder))
+  }
 
   projects_folder <- here::here("projects")
   str <- ""
 
   for (pr in projects) {
+    this_proj <- here::here(
+      projects_folder,
+      pr
+    )
 
-    this_proj <- here::here(projects_folder,
-                            pr)
+    qmd <- list.files(
+      path = this_proj,
+      pattern = "index.preqmd$",
+      full.names = TRUE
+    )
 
-    qmd <- list.files(path = this_proj,
-                      pattern = "index.preqmd$",
-                      full.names = TRUE)
-
-    lines <- readLines(con = qmd)
+    lines <- brio::readLines(con = qmd)
 
     idx <- which(lines |> stringr::str_detect("---"))
 
@@ -220,8 +216,8 @@ projects_of_paper <- function(header, folder) {
         "  image: {contents$path}/{contents$image}\n",
         "  path: {contents$path}",
         .trim = FALSE
-      ))
-
+      )
+    )
   }
 
   newfile <- here::here(
@@ -232,7 +228,6 @@ projects_of_paper <- function(header, folder) {
   cat(str, file = newfile, sep = "\n")
 
   if (length(str) > 0) {
-
     res <- "\n# Funding\n::: {.callout-note appearance='minimal' collapse=false}\n## Projects funding this work\n\n:::{#funding}\n:::\n:::\n"
     return(list(
       inline = res,
@@ -241,39 +236,35 @@ projects_of_paper <- function(header, folder) {
           id = "funding",
           contents = "funding.yml",
           type = "default",
-          sort = "date desc"))
+          sort = "date desc"
+        ))
       )
     ))
-
   } else {
-
     return(list(
       inline = "",
       header = list()
     ))
-
   }
-
 }
 
 citation_of_work <- function(header, folder) {
-
-  bibfile <- file.path(folder, 'cite.bib')
+  bibfile <- file.path(folder, "cite.bib")
 
   string <- NULL
   if (file.exists(bibfile)) {
-
     # Part 1: cite
     s <- ReadBib(bibfile)
     NoCite(s)
     options(width = 1000)
     txt <- s |>
-      RefManageR::PrintBibliography(.opts = list(bib.style = 'alphabetic', style = 'markdown')) |>
+      RefManageR::PrintBibliography(.opts = list(bib.style = "alphabetic", style = "markdown")) |>
       capture.output()
 
     string <- c(
       "# Citation\nPlease, cite this work as:\n\n",
-      txt)
+      txt
+    )
 
     # Part 2: bibtex
     txt <- bibfile |>
@@ -283,12 +274,12 @@ citation_of_work <- function(header, folder) {
       stringr::str_detect("\\}\\}")
 
     if (bool) {
-
       txt[length(txt)] <- txt[length(txt)] |>
-        stringr::str_replace_all("\\}\\}",
-                                 "}")
+        stringr::str_replace_all(
+          "\\}\\}",
+          "}"
+        )
       txt <- c(txt, "}")
-
     }
     init <- txt |>
       stringr::str_detect("@") |>
@@ -301,9 +292,11 @@ citation_of_work <- function(header, folder) {
 
     # browser()
 
-    new_txt <- c(txt[init], "<br>&nbsp;&nbsp;&nbsp;&nbsp;",
-                 stringr::str_flatten(txt[-c(1:init, end:num)], "<br>&nbsp;&nbsp;&nbsp;&nbsp;"),
-                 "<br>", txt[end])
+    new_txt <- c(
+      txt[init], "<br>&nbsp;&nbsp;&nbsp;&nbsp;",
+      stringr::str_flatten(txt[-c(1:init, end:num)], "<br>&nbsp;&nbsp;&nbsp;&nbsp;"),
+      "<br>", txt[end]
+    )
 
     txt <- stringr::str_flatten(new_txt)
 
@@ -322,25 +315,18 @@ citation_of_work <- function(header, folder) {
         header = list()
       )
     )
-
   } else {
-
     return(list(
       inline = "",
       header = list()
     ))
-
   }
-
-
 }
 
 citation_history <- function(header, folder) {
-
   this_file <- file.path(folder, "citation_history.rds")
 
   if (file.exists(this_file)) {
-
     string <- c(
       "# Cites\n",
       "The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n",
@@ -349,7 +335,8 @@ citation_history <- function(header, folder) {
       "source(here::here('scripts', 'manage_publications.R'))",
       "df <- readRDS('citation_history.rds')",
       "plot_citation_history(df)",
-      "```\n") |>
+      "```\n"
+    ) |>
       stringr::str_flatten("\n")
 
     return(
@@ -358,22 +345,16 @@ citation_history <- function(header, folder) {
         header = list()
       )
     )
-
   } else {
-
     nul_f(header, folder)
-
   }
-
 }
 
 nul_f <- function(header, folder) {
-
   return(list(
     inline = "",
     header = list()
   ))
-
 }
 
 funs <- list(
@@ -384,17 +365,13 @@ funs <- list(
 )
 
 combine_lists <- function(input_list) {
-
   cat_lists <- function(list1, list2) {
-
     keys <- unique(c(names(list1), names(list2)))
     purrr::map2(list1[keys], list2[keys], c) |>
       purrr::set_names(keys)
-
   }
 
   combined_output <- purrr::reduce(input_list, cat_lists)
 
   return(combined_output)
-
 }

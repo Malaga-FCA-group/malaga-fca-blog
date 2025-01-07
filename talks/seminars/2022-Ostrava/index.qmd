@@ -1,0 +1,9 @@
+---
+date: 2022-06-09
+title: fcaR, Formal Concept Analysis with the R language
+venue: Institute for Research and Applications of Fuzzy Modeling, University of Ostrava
+link: slides.pdf 
+address: Ostrava, Czech Republic
+slug: 2022-Ostrava
+---
+

@@ -1,11 +1,11 @@
 ---
 author:
 - Ondrej Krídlo
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - Lubomir Antoni
 - Peter Eliaš
 - Stanislav Krajči
-- Manuel Ojeda-Aciego
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
 Status: Published
 selected: yes
 date: '2023-08-03T00:00:00Z'

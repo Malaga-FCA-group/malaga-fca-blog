@@ -2,7 +2,7 @@
 title: Start of project <em>Análisis e implementación de estrategias de enseñanza-aprendizaje
   en asignaturas de Matemáticas mediante detección de dependencias entre contenidos</em>
 image: /projects/2019-PIE-clustering/featured.png
-author: Domingo López-Rodríguez
+author: Nicolás Madrid Labrador
 date: '2019-10-01'
 categories:
 - Formal concept analysis

@@ -2,8 +2,13 @@
 title: 'New publication: <em>Super-Resolution of 3D Magnetic Resonance Images of the
   Brain</em>'
 image: /assets/images/books.jpg
-author: Enrique Domínguez, Domingo López-Rodríguez, Ezequiel López-Rubio, Rosa Maza-Quiroga,
-  Miguel A. Molina-Cabello, Karl Thurnhofer-Hemsi
+author:
+- Enrique Domínguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Ezequiel López-Rubio
+- Rosa Maza-Quiroga
+- Miguel A. Molina-Cabello
+- Karl Thurnhofer-Hemsi
 date: '2022-02-07'
 categories:
 - Neuroimage

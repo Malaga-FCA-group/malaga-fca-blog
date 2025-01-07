@@ -5,6 +5,9 @@ library(gridlayout)
 library(RefManageR)
 library(shinyWidgets)
 library(ShinyEditor)
+# # install.packages("remotes")
+# remotes::install_github("rstudio/gridlayout")
+# remotes::install_github("deepanshu88/ShinyEditor"))
 
 source("functions.R")
 

@@ -1,5 +1,8 @@
 ---
-author: Enrique Mérida Casermeiro, Domingo López-Rodríguez, Juan Miguel Ortiz-de-Lazcano-Lobato
+author:
+- Enrique Mérida Casermeiro
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Juan Miguel Ortiz-de-Lazcano-Lobato
 Status: Published
 date: '2009-09-07'
 slug: 2009-mrem

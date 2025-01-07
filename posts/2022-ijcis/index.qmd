@@ -3,11 +3,12 @@ title: 'New journal paper: <em>Minimal Generators from Positive and Negative Att
   Analysing the Knowledge Space of a Mathematics Course</em>'
 image: /assets/images/journals.jpg
 author:
-- Manuel Ojeda‐Hernández
-- Francisco Pérez‐Gámez
-- Domingo López-Rodríguez
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - Nicolás Madrid
-- Ángel Mora
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
 date: '2022-08-09T00:00:00Z'
 categories:
 - Formal concept analysis

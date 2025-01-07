@@ -2,7 +2,10 @@
 title: 'New publication: <em>An approach to artificial concept learning based on human
   concept learning by using artificial neural networks</em>'
 image: /assets/images/books.jpg
-author: E. Mérida-Casermeiro, Domingo López-Rodríguez, J.M. Ortiz-de-Lazcano-Lobato
+author:
+- E. Mérida-Casermeiro
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- J.M. Ortiz-de-Lazcano-Lobato
 date: '2008-01-01'
 categories: Neural networks
 comments:

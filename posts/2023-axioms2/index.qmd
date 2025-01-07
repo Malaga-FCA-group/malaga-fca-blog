@@ -5,7 +5,7 @@ image: /assets/images/journals.jpg
 author:
 - Rosa María Maza-Quiroga
 - Karl Thurnhofer-Hemsi
-- Domingo López-Rodríguez
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - Ezequiel López-Rubio
 date: '2023-12-13T00:00:00Z'
 categories: Neuroimage
