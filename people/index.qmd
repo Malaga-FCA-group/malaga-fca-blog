@@ -30,7 +30,7 @@ listing:
 :::
 
 
-## Alumni
+<!-- ## Alumni -->
 
 :::{#alumni}
 :::

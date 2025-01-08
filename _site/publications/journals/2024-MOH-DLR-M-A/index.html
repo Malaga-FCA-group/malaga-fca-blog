@@ -371,10 +371,10 @@ Imprecise information
 <div class="listing-date">
 1 September 2023
 </div>
-<div class="listing-author">
-aciego, dominlopez
+</a><div class="listing-author"><a href="../../../projects/2023-valid" class="no-external">
+</a><a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, <a href="../../../people/staff/dominlopez/" style="color:rgb(100,0,50);">Domingo López Rodríguez</a>
 </div>
-</a>
+
 </div>
 </div>
 </div>
@@ -502,7 +502,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

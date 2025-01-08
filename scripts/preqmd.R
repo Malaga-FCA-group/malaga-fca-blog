@@ -196,6 +196,8 @@ projects_of_paper <- function(header, folder) {
 
     contents$path <- glue::glue("/projects/{contents$slug}")
 
+    contents$author <- process_authors(contents$author)
+
     authors <- glue::glue(
       "  - {contents$author}",
       .trim = FALSE

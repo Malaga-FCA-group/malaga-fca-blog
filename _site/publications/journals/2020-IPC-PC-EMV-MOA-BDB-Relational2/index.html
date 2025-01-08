@@ -321,10 +321,11 @@ function showPopup() {
 </header>
 
 
-<center><img src="shiny" class="img-fluid"></center><br><br>
 
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
+<p>Fuzzy-directed graphs are often chosen as the data structure to model and implement solutions to several problems in the applied sciences. Galois connections have also shown to be useful both in theoretical and in practical problems.</p>
+<p>In this paper, the notion of relational Galois connection is extended to be applied between transitive fuzzy directed graphs. In this framework, the components of the connection are crisp relations satisfying certain reasonable properties given in terms of the so-called full powering.</p>
 </section>
 <section id="funding" class="level1">
 <h1>Funding</h1>
@@ -375,10 +376,10 @@ Imprecise information
 <div class="listing-date">
 26 September 2019
 </div>
-<div class="listing-author">
-aciego, Nicolás Madrid Labrador
+</a><div class="listing-author"><a href="../../../projects/2019-flair" class="no-external">
+</a><a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, Nicolás Madrid Labrador
 </div>
-</a>
+
 </div>
 </div>
 </div>
@@ -506,7 +507,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

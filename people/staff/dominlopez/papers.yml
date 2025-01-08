@@ -1,0 +1,190 @@
+- title: A Pedagogical Simulation of Maxwell's Demon
+  author:
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Carlos Criado
+  date: '2004-11-01T00:00:00Z'
+  details: <em>Journal of Chemical Education</em>, 81(11), pp. 1679
+  path: /publications/journals/2004-jce
+- title: Improving neural networks for mechanism kinematic chain isomorphism identification
+  author:
+  - Gloria Gálan-Marín
+  - Enrique Mérida-Casermeiro
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  date: '2007-10-01'
+  details: <em>Neural Processing Letters</em> vol 26 (2), 133-143
+  path: /publications/journals/2007-npl
+- title: Stochastic multivalued network for optimization. Application to the graph
+    MaxCut problem
+  author:
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - E. Mérida-Casermeiro
+  - J.M. Ortiz-de-Lazcano-Lobato
+  date: '2007-01-01'
+  details: WSEAS Transactions on Mathematics, (6), 3, <em>pp. 500-505</em>
+  path: /publications/journals/2007-wseastm
+- title: Probabilistic PCA self-organizing maps
+  author:
+  - Ezequiel López-Rubio
+  - Juan Miguel Ortiz-de-Lazcano-Lobato
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  date: '2009-08-19'
+  details: <em>IEEE Transactions on Neural Networks</em> vol 20 (9), 1474-1489
+  path: /publications/journals/2009-ieee
+- title: A New Multivalued Neural Network for Isomorphism Identification of Kinematic
+    Chains
+  author:
+  - Gloria Galán Marín
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Enrique Mérida Casermeiro
+  date: '2010-03-01T00:00:00Z'
+  details: '<em>Journal of Computing and Information Science in Engineering</em> 10(1) '
+  path: /publications/journals/2010-isomorphism
+- title: 'Energy-aware acceleration on GPUs: Findings on a bioinformatics benchmark'
+  author:
+  - J. Pérez
+  - A. Rodríguez
+  - J.F. Chico
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - M. Ujaldón
+  date: '2018-12-01'
+  details: '<em>Sustainable Computing: Informatics and Systems</em> vol. 20, pp. 88
+    -- 101'
+  path: /publications/journals/2018-gpu
+- title: A conversational recommender system for diagnosis using fuzzy rules
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  date: '2020-09-01'
+  details: <em>Expert Systems with Applications</em>, volume 154, 2020
+  path: /publications/journals/2020-eswa
+- title: 'Minimal Generators from Positive and Negative Attributes: Analysing the
+    Knowledge Space of a Mathematics Course'
+  author:
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
+    Pérez Gámez</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Nicolás Madrid
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  date: '2022-08-09T00:00:00Z'
+  details: <em>International Journal of Computational Intelligence Systems</em>, 15:58
+  path: /publications/journals/2022-ijcis
+- title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based
+    Approach'
+  author:
+  - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
+    Pérez Gámez</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
+  date: '2022-02-16T00:00:00Z'
+  details: <em>Mathematics, 10</em>(4) 607
+  path: /publications/journals/2022-mdpimathematics
+- title: fcaR, Formal Concept Analysis with R
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  date: '2022-09-01T00:00:00Z'
+  details: <em>The R Journal</em>
+  path: /publications/journals/2022-rjournal
+- title: Detection of unfavourable urban areas with higher temperatures and lack of
+    green spaces using satellite imagery in sixteen Spanish cities
+  author:
+  - Francisco Rodríguez-Gómez
+  - Rafael Fernández-Cañero
+  - Gabriel Pérez
+  - José del Campo-Ávila
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Luis Pérez-Urrestarazu
+  date: '2022-12-01T00:00:00Z'
+  details: <em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783
+  path: /publications/journals/2022-ufug
+- title: Fuzzy Algebras of Concepts
+  author:
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
+  date: '2023-03-24T00:00:00Z'
+  details: <em>Axioms</em>, 12(4), 324
+  path: /publications/journals/2023-axioms
+- title: Regression of the Rician Noise Level in 3D Magnetic Resonance Images from
+    the Distribution of the First Significant Digit
+  author:
+  - Rosa María Maza-Quiroga
+  - Karl Thurnhofer-Hemsi
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Ezequiel López-Rubio
+  date: '2023-12-13T00:00:00Z'
+  details: <em>Axioms</em>, 12(12), 1117
+  path: /publications/journals/2023-axioms2
+- title: Lexicon-based sentiment analysis in texts using Formal Concept Analysis
+  author:
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  date: '2023-02-03T00:00:00Z'
+  details: <em>International Journal of Approximate Reasoning</em>, vol. 155, pp 104-112
+  path: /publications/journals/2023-ijar
+- title: Connecting concept lattices with bonds induced by external information
+  author:
+  - Ondrej Krídlo
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Lubomir Antoni
+  - Peter Eliaš
+  - Stanislav Krajči
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
+  date: '2023-08-03T00:00:00Z'
+  details: <em>Information Sciences</em>, vol. 648, november 2023, article 119498
+  path: /publications/journals/2023-insci
+- title: Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines
+    López</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  date: '2024-02-05'
+  details: Mathematics vol. 12 (3), article number 498.
+  path: /publications/journals/2024-CB-MOH-DLR-Analysis
+- title: A Formal Concept Analysis approach to hierarchical description of malware
+    threats
+  author:
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  date: '2024-09-01'
+  details: 'Forensic Science International: Digital Investigation vol. 50 , pages
+    301797.'
+  path: /publications/journals/2024-MOH-DLR-M-A
+- title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas
+    due to the Urban Heat Island effect'
+  author:
+  - Francisco Rodríguez-Gómez
+  - José del Campo-Ávila
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - Luis Pérez-Urrestarazu
+  date: '2025-02-01'
+  details: SoftwareX vol. 29 , pages 101997.
+  path: /publications/journals/2025-FRG-JC--LPU-URSUS

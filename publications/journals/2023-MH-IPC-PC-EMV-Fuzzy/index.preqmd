@@ -8,7 +8,6 @@ author:
   - ejmunoz
 date: '2023-01-01'
 categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
-header_image: shiny
 doi: 10.1016/j.fss.2023.108734
 slug: 2023-MH-IPC-PC-EMV-Fuzzy
 keywords: ''
@@ -22,7 +21,7 @@ details: 'Fuzzy Sets Syst. 473: 108734'
 
 # Abstract
 
-
+This paper is the natural extension of Fuzzy Closure Structures as Formal Concepts. In this paper we take into consideration the concept of closure system which is not dealt with in the previous one. Hence, a connection must be found between fuzzy ordered sets and a crisp ordered set. This problem is two-fold, the core of the fuzzy orders can be considered in order to complete the ensemble, or the crisp order can be fuzzified. Both ways are studied in the paper. The most interesting result is, similarly to the previous paper, that closure systems are formal concepts of these Galois connections as well.
 
 {{funding}}
 

@@ -13,7 +13,6 @@ categories:
 - Fuzzy logic
 - Fuzzy sets
 - Uncertainty
-header_image: shiny
 doi: 10.1016/j.fss.2022.12.014
 slug: 2023-MOH-IPC-PC-EMV-Fuzzy
 keywords: ''
@@ -31,7 +30,7 @@ listing:
 
 # Abstract
 
-
+Galois connections seem to be ubiquitous in mathematics. They have been used to model solutions for both pure and application-oriented problems. Throughout the paper, the general framework is a complete fuzzy lattice over a complete residuated lattice. The existence of three fuzzy Galois connections (two antitone and one isotone) between three specific ordered sets is proved in this paper. The most interesting part is that fuzzy closure systems, fuzzy closure operators and strong fuzzy closure relations are formal concepts of these fuzzy Galois connections.
 
 
 # Funding

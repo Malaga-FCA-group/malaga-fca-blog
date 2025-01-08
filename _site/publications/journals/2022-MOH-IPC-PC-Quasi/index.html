@@ -315,10 +315,10 @@ function showPopup() {
 </header>
 
 
-<center><img src="shiny" class="img-fluid"></center><br><br>
 
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
+<p>We generalize the notion of quasi-closed element to fuzzy posets in two stages: First, in the crisp style in which each element in a given universe either is quasi-closed or not. Second, in the graded style by defining degrees to which an element is quasi-closed. We discuss the different possible definitions and comparing them with each other. Finally, we show that the most general one has good properties to be used when we have a complete fuzzy lattice as a frame.</p>
 </section>
 <section id="funding" class="level1">
 <h1>Funding</h1>
@@ -369,10 +369,10 @@ Imprecise information
 <div class="listing-date">
 26 September 2019
 </div>
-<div class="listing-author">
-aciego, Nicolás Madrid Labrador
+</a><div class="listing-author"><a href="../../../projects/2019-flair" class="no-external">
+</a><a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, Nicolás Madrid Labrador
 </div>
-</a>
+
 </div>
 </div>
 </div>
@@ -500,7 +500,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

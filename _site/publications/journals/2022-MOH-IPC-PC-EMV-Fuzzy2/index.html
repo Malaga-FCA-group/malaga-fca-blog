@@ -318,10 +318,10 @@ function showPopup() {
 </header>
 
 
-<center><img src="shiny" class="img-fluid"></center><br><br>
 
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
+<p>The aim of this paper is to extend closure systems from being crisp sets with certain fuzzy properties to proper fuzzy sets. The presentation of the paper shows a thorough discussion on the different alternatives that could be taken to define the desired fuzzy closure systems. These plausible alternatives are discarded if they are proven impossible to be in a bijective correspondence with closure operators. Finally, a definition of fuzzy closure system is established and a one-to-one relation with closure operators is proved.</p>
 </section>
 <section id="funding" class="level1">
 <h1>Funding</h1>
@@ -372,10 +372,10 @@ Imprecise information
 <div class="listing-date">
 26 September 2019
 </div>
-<div class="listing-author">
-aciego, Nicolás Madrid Labrador
+</a><div class="listing-author"><a href="../../../projects/2019-flair" class="no-external">
+</a><a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, Nicolás Madrid Labrador
 </div>
-</a>
+
 </div>
 </div>
 </div>
@@ -503,7 +503,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

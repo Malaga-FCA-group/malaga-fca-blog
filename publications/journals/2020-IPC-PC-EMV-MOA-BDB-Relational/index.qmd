@@ -15,7 +15,6 @@ categories:
 - Fuzzy logic
 - Fuzzy sets
 - Uncertainty
-header_image: shiny
 doi: 10.1016/j.ins.2020.01.034
 slug: 2020-IPC-PC-EMV-MOA-BDB-Relational
 keywords: ''
@@ -33,7 +32,7 @@ listing:
 
 # Abstract
 
-
+This paper focuses on a twofold relational generalization of the notion of Galois connection. It is twofold because it is defined between sets endowed with arbitrary transitive relations and, moreover, both components of the connection are relations, not necessarily functions. A characterization theorem of the notion of relational Galois connection is provided and, then, it is proved that a suitable notion of closure can be obtained within this framework. Finally, we state a necessary and sufficient condition that allows to build a relational Galois connection starting from a single transitive digraph and a single binary relation.
 
 
 # Funding

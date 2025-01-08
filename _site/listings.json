@@ -1,5 +1,25 @@
 [
   {
+    "listing": "/people/staff/ejmunoz/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/enciso/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/franperezgamez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/pcordero/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/manuojeda/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/index.html",
     "items": [
       "/people/staff/cbejines/index.html",
@@ -396,5 +416,25 @@
       "/talks/regular/2005-maeb/index.html",
       "/talks/regular/2004-iccmse/index.html"
     ]
+  },
+  {
+    "listing": "/people/staff/dominlopez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/ipcabrera/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/amora/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/cbejines/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/staff/aciego/index.html",
+    "items": []
   }
 ]

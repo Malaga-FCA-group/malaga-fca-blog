@@ -318,10 +318,10 @@ function showPopup() {
 </header>
 
 
-<center><img src="shiny" class="img-fluid"></center><br><br>
 
 <section id="abstract" class="level1">
 <h1>Abstract</h1>
+<p>Galois connections seem to be ubiquitous in mathematics. They have been used to model solutions for both pure and application-oriented problems. Throughout the paper, the general framework is a complete fuzzy lattice over a complete residuated lattice. The existence of three fuzzy Galois connections (two antitone and one isotone) between three specific ordered sets is proved in this paper. The most interesting part is that fuzzy closure systems, fuzzy closure operators and strong fuzzy closure relations are formal concepts of these fuzzy Galois connections.</p>
 </section>
 <section id="funding" class="level1">
 <h1>Funding</h1>
@@ -372,10 +372,10 @@ Imprecise information
 <div class="listing-date">
 26 September 2019
 </div>
-<div class="listing-author">
-aciego, Nicolás Madrid Labrador
+</a><div class="listing-author"><a href="../../../projects/2019-flair" class="no-external">
+</a><a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, Nicolás Madrid Labrador
 </div>
-</a>
+
 </div>
 </div>
 </div>
@@ -503,7 +503,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

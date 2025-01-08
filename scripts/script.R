@@ -65,7 +65,7 @@ books <- list.files(
 
 books |> sapply(process_preqmd)
 
-FORCE <- TRUE
+FORCE <- FALSE
 source(here::here(
   "scripts",
   "generate_post.R"
@@ -75,6 +75,12 @@ source(here::here(
   "scripts",
   "for_data_provider.R"
 ))
+
+source(here::here(
+  "scripts",
+  "process_members_papers.R"
+))
+
 
 # Make actual preview and render
 quarto::quarto_preview()

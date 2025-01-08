@@ -14,7 +14,6 @@ categories:
 - Fuzzy logic
 - Fuzzy sets
 - Uncertainty
-header_image: shiny
 doi: 10.1002/mma.6302
 slug: 2020-IPC-PC-EMV-MOA-BDB-Relational
 keywords: ''
@@ -32,7 +31,9 @@ listing:
 
 # Abstract
 
+Fuzzy-directed graphs are often chosen as the data structure to model and implement solutions to several problems in the applied sciences. Galois connections have also shown to be useful both in theoretical and in practical problems.
 
+In this paper, the notion of relational Galois connection is extended to be applied between transitive fuzzy directed graphs. In this framework, the components of the connection are crisp relations satisfying certain reasonable properties given in terms of the so-called full powering.
 
 
 # Funding

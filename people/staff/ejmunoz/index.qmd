@@ -2,9 +2,14 @@
 title: "Emilio Muñoz Velasco"
 sortby: munozvelasco
 subtitle: "Associate Professor"
-image: avatar.png
+image: ejmunoz.jpeg
 started: "April 2001"
 toc: false
+listing:
+- id: papers
+  contents: papers.yml
+  type: default
+  sort: date desc
 about:
   id: person-profile
   template: jolla
@@ -33,3 +38,10 @@ about:
 
 :::{#person-profile}
 :::
+
+::::{.callout-note appearance='minimal' collapse=false}
+## Recent publications
+
+:::{#papers}
+:::
+::::

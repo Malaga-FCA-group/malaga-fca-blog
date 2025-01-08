@@ -8,7 +8,6 @@ author:
   - ejmunoz
 date: '2022-01-01'
 categories: [Formal concept analysis, Fuzzy logic, Fuzzy sets, Uncertainty]
-header_image: shiny
 doi: 10.1016/j.fss.2022.05.016
 slug: 2022-MOH-IPC-PC-EMV-Fuzzy
 keywords: ''
@@ -22,7 +21,7 @@ details: 'Fuzzy Sets and Systems vol. 450 , pages 118 -- 132.'
 
 # Abstract
 
-
+The concept of closure operator is key in several branches of mathematics. In this paper, closure operators are extended to relational structures, more specifically to fuzzy relations in the framework of complete fuzzy lattices. The core of the work is the search for a suitable definition of (strong) fuzzy closure relation, that is, a fuzzy relation whose relation with fuzzy closure systems is one-to-one. The study of the properties of fuzzy closure systems and fuzzy relations helps narrow down this exploration until an appropriate definition is settled.
 
 {{funding}}
 

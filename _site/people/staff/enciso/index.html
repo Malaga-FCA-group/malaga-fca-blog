@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -67,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-papers .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-details',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-details"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-papers'] = new List('listing-papers', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WFPW0888K7"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -128,6 +159,49 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -203,7 +277,7 @@ function showPopup() {
 <!-- </nav> -->
 <!-- ``` -->
 <div class="quarto-about-jolla">
-  <img src="avatar.png" class="about-image
+  <img src="enciso.jpg" class="about-image
   round " style="height: 15em; width: 15em;">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -228,6 +302,213 @@ function showPopup() {
     <i class="bi bi-github"></i>
      <span class="about-link-text">github</span>
   </a>
+</div>
+</div>
+
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Recent publications
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div id="listing-papers" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1688342400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2023-insci2" class="no-external">Simplification logic for the management of unknown information</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2023-insci2" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2023-insci2" class="no-external">
+<div class="listing-date">
+3 July 2023
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2023-insci2" class="no-external">
+</a><a href="../../../people/staff/franperezgamez/" style="color:rgb(100,0,50);">Francisco Pérez Gámez</a>, <a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>
+</div>
+<div class="metadata-value listing-details">
+<em>Information Sciences</em>, vol.&nbsp;638, July 2023, pp 505–519
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1661990400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2022-rjournal" class="no-external">fcaR, Formal Concept Analysis with R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2022-rjournal" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2022-rjournal" class="no-external">
+<div class="listing-date">
+1 September 2022
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2022-rjournal" class="no-external">
+</a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/dominlopez/" style="color:rgb(100,0,50);">Domingo López Rodríguez</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>
+</div>
+<div class="metadata-value listing-details">
+<em>The R Journal</em>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1654207200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2022-ieeetfuzz" class="no-external">Parameterized Simplification Logic: Reasoning With Implications in an Automated Way</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2022-ieeetfuzz" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2022-ieeetfuzz" class="no-external">
+<div class="listing-date">
+3 June 2022
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2022-ieeetfuzz" class="no-external">
+</a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>, Vilem Vychodil
+</div>
+<div class="metadata-value listing-details">
+<em>IEEE Transactions on Fuzzy Systems</em> vol 30 (12), 5534 - 5543
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1598911200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2020-eswa" class="no-external">A conversational recommender system for diagnosis using fuzzy rules</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2020-eswa" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2020-eswa" class="no-external">
+<div class="listing-date">
+1 September 2020
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2020-eswa" class="no-external">
+</a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/dominlopez/" style="color:rgb(100,0,50);">Domingo López Rodríguez</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>
+</div>
+<div class="metadata-value listing-details">
+<em>Expert Systems with Applications</em>, volume 154, 2020
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1597795200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2020-ijcis" class="no-external">A Formal Concept Analysis Approach to Cooperative Conversational Recommendation</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2020-ijcis" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2020-ijcis" class="no-external">
+<div class="listing-date">
+19 August 2020
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2020-ijcis" class="no-external">
+</a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>, <a href="../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda Aciego</a>, Carlos Rossi
+</div>
+<div class="metadata-value listing-details">
+<em>International Journal of Computational Intelligence Systems</em>, 13 (1), pp.&nbsp;1243 - 1252
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1596664800000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2020-ijgs" class="no-external">Parameterized simplification logic I: reasoning with implications and classes of closure operators</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2020-ijgs" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2020-ijgs" class="no-external">
+<div class="listing-date">
+6 August 2020
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2020-ijgs" class="no-external">
+</a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>, Vilem Vychodil
+</div>
+<div class="metadata-value listing-details">
+<em>International Journal of General Systems</em> vol 49 (7), pp.&nbsp;724 – 746
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1542672000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2018-dam" class="no-external">Direct-optimal basis computation by means of the fusion of simplification rules</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2018-dam" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2018-dam" class="no-external">
+<div class="listing-date">
+20 November 2018
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2018-dam" class="no-external">
+Estrella Rodríguez-Lorenzo, Karell Bertet, </a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>
+</div>
+<div class="metadata-value listing-details">
+<em>Discrete Applied Mathematics</em> 249, pp.&nbsp;106 - 119
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1528063200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../../../publications/journals/2018-supercomp" class="no-external">Minimal generators, an affordable approach by means of massive computation</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../publications/journals/2018-supercomp" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../publications/journals/2018-supercomp" class="no-external">
+<div class="listing-date">
+4 June 2018
+</div>
+</a><div class="listing-author"><a href="../../../publications/journals/2018-supercomp" class="no-external">
+Fernando Benito-Picazo, </a><a href="../../../people/staff/pcordero/" style="color:rgb(100,0,50);">Pablo Cordero Ortega</a>, <a href="../../../people/staff/enciso/" style="color:rgb(100,0,50);">Manuel Enciso García-Oliveros</a>, <a href="../../../people/staff/amora/" style="color:rgb(100,0,50);">Ángel Mora Bonilla</a>
+</div>
+<div class="metadata-value listing-details">
+<em>the Journal of Supercomputing</em> vol.&nbsp;75, pp.&nbsp;1350–1367
+</div>
+
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -319,7 +600,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

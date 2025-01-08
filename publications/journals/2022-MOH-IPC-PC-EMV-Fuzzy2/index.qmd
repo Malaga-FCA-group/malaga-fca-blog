@@ -13,7 +13,6 @@ categories:
 - Fuzzy logic
 - Fuzzy sets
 - Uncertainty
-header_image: shiny
 doi: 10.1016/j.ijar.2022.06.004
 slug: 2022-MOH-IPC-PC-EMV-Fuzzy
 keywords: ''
@@ -31,7 +30,7 @@ listing:
 
 # Abstract
 
-
+The aim of this paper is to extend closure systems from being crisp sets with certain fuzzy properties to proper fuzzy sets. The presentation of the paper shows a thorough discussion on the different alternatives that could be taken to define the desired fuzzy closure systems. These plausible alternatives are discarded if they are proven impossible to be in a bijective correspondence with closure operators. Finally, a definition of fuzzy closure system is established and a one-to-one relation with closure operators is proved.
 
 
 # Funding
