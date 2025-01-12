@@ -1,5 +1,13 @@
+source(
+  here::here(
+    "scripts",
+    "manage_publications.R"
+  )
+)
+
+jfolder <- here::here("publications", "journals")
 journal_papers <<- list.files(
-  path = here::here("publications", "journals"),
+  path = jfolder,
   full.names = TRUE,
   pattern = ".preqmd$",
   recursive = TRUE
@@ -7,7 +15,7 @@ journal_papers <<- list.files(
 
 slugs <<- journal_papers |>
   dirname() |>
-  basename()
+  stringr::str_remove_all(jfolder)
 
 all_authors <<- lapply(journal_papers, \(f) get_publication_value(dirname(f), "author"))
 
@@ -44,15 +52,17 @@ papers_of_member <- function(nm) {
       author = authors[[i]] |> process_authors(),
       date = years[[i]],
       details = details[[i]],
-      path = glue::glue("/publications/journals/{paths[i]}")
+      path = glue::glue("/publications/journals{paths[i]}")
     )
 
     result <- append(result, list(res))
   }
 
+  nm_folder <- fs::dir_ls(here::here("people"), type = "directory", recurse = TRUE) |> stringr::str_subset(nm)
+
   yaml::write_yaml(
     result,
-    file = here::here("people", "staff", nm, "papers.yml")
+    file = file.path(nm_folder, "papers.yml")
   )
 
   return(invisible(TRUE))
@@ -62,3 +72,7 @@ members <- fs::dir_ls(here::here("people", "staff")) |>
   purrr::map_chr(basename)
 
 sapply(members, papers_of_member)
+
+former_members <- fs::dir_ls(here::here("people", "former")) |>
+  purrr::map_chr(basename)
+sapply(former_members, papers_of_member)

@@ -1,0 +1,104 @@
+---
+author:
+- Francisco Rodríguez-Gómez
+- Rafael Fernández-Cañero
+- Gabriel Pérez
+- José del Campo-Ávila
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Luis Pérez-Urrestarazu
+Status: Published
+date: '2022-12-01T00:00:00Z'
+slug: 2022/DeUnUrArHiTeLaGrSpUsSaImSiSpCi
+title: Detection of unfavourable urban areas with higher temperatures and lack of
+  green spaces using satellite imagery in sixteen Spanish cities
+categories: Sustainability
+header_image: ~
+details: <em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783
+doi: 10.1016/j.ufug.2022.127783
+link: 2022-ufug/paper.pdf
+project: 2019-ursus-dm
+keywords: Formal concept analysis, R package
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+This paper seeks to identify the most unfavourable areas of a city in terms of high temperatures and the absence of green infrastructure. An automatic methodology based on remote sensing and data analysis has been developed and applied in sixteen Spanish cities with different characteristics. Landsat-8 satellite images were selected for each city from the July-August period of 2019 and 2020 to calculate the spatial variation of land surface temperature (LST). The Normalized Difference Vegetation Index (NDVI) was used to determine the abundance of vegetation across the city. Based on the NDVI and LST maps created, a k-means unsupervised classification clustering was performed to automatically identify the different clusters according to how favourable these areas were in terms of temperature and presence of vegetation. A Disadvantaged Area Index (DAI), combining both variables, was developed to produce a map showing the most unfavourable areas for each city. Overall, the percentage of the area susceptible to improvement with more vegetation in the cities studied ranged from 13 % in Huesca to 64–65 % in Bilbao and Valencia. The influence of several factors, such as the presence of water bodies or large buildings, is discussed. Detecting unfavourable areas is a very interesting tool for defining future planning strategy for green spaces.
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-ufug2022></a>[[Rod+22]](#cite-ufug2022) F. Rodríguez-Gómez, R. Fernández-Cañero, G. Pérez, et al. “Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities”. In: _Urban Forestry & Urban Greening_ 78 (2022), p. 127783. ISSN: 1618-8667. DOI: [https://doi.org/10.1016/j.ufug.2022.127783](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ufug.2022.127783). URL: [https://www.sciencedirect.com/science/article/pii/S1618866722003260](https://www.sciencedirect.com/science/article/pii/S1618866722003260).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{ufug2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {Detection of unfavourable urban areas with higher temperatures and lack of green spaces using satellite imagery in sixteen Spanish cities},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Urban Forestry \& Urban Greening},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {78},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {127783},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {1618-8667},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.ufug.2022.127783},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S1618866722003260},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Francisco Rodríguez-Gómez and Rafael Fernández-Cañero and Gabriel Pérez and José {del Campo-Ávila} and Domingo López-Rodríguez and Luis Pérez-Urrestarazu},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Urban greening, Remote sensing, Heat island, Normalized difference vegetation index, Landsat-8}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aznarez_2024></a>[[1]](#cite-Aznarez_2024) C. Aznarez, S. Kumar, A. Marquez-Torres, et al. “Ecosystem service mismatches evidence inequalities in urban heat vulnerability”. In: _Science of The Total Environment_ 922 (Apr. 2024), p. 171215. ISSN: 0048-9697. DOI: [10.1016/j.scitotenv.2024.171215](https://doi.org/10.1016%2Fj.scitotenv.2024.171215). URL: [http://dx.doi.org/10.1016/j.scitotenv.2024.171215](http://dx.doi.org/10.1016/j.scitotenv.2024.171215).
+
+<a name=bib-Delgado_Capel_2023></a>[[2]](#cite-Delgado_Capel_2023) M. J. Delgado-Capel, P. Cariñanos, and M. Escudero-Viñolo. “Capacity of Urban Green Infrastructure Spaces to Ameliorate Heat Wave Impacts in Mediterranean Compact Cities: Case Study of Granada (South-Eastern Spain)”. In: _Land_ 12.5 (May. 2023), p. 1076. ISSN: 2073-445X. DOI: [10.3390/land12051076](https://doi.org/10.3390%2Fland12051076). URL: [http://dx.doi.org/10.3390/land12051076](http://dx.doi.org/10.3390/land12051076).
+
+<a name=bib-Marquez_Torres_2025></a>[[3]](#cite-Marquez_Torres_2025) A. Marquez-Torres, S. Kumar, C. Aznarez, et al. “Assessing the cooling potential of green and blue infrastructure from twelve US cities with contrasting climate conditions”. In: _Urban Forestry &amp; Urban Greening_ 104 (Feb. 2025), p. 128660. ISSN: 1618-8667. DOI: [10.1016/j.ufug.2024.128660](https://doi.org/10.1016%2Fj.ufug.2024.128660). URL: [http://dx.doi.org/10.1016/j.ufug.2024.128660](http://dx.doi.org/10.1016/j.ufug.2024.128660).
+
+<a name=bib-Rodr_guez_G_mez_2025></a>[[4]](#cite-Rodr_guez_G_mez_2025) F. Rodríguez-Gómez, J. del Campo-Ávila, D. López-Rodríguez, et al. “URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect”. In: _SoftwareX_ 29 (Feb. 2025), p. 101997. ISSN: 2352-7110. DOI: [10.1016/j.softx.2024.101997](https://doi.org/10.1016%2Fj.softx.2024.101997). URL: [http://dx.doi.org/10.1016/j.softx.2024.101997](http://dx.doi.org/10.1016/j.softx.2024.101997).
+
+<a name=bib-Saxena_2023></a>[[5]](#cite-Saxena_2023) D. Saxena, M. Choudhary, and G. Sharma. “Land use and land cover change impact on characteristics of surface evapotranspiration in semi-arid environment of Western Rajasthan, India”. In: _Water Practice &amp; Technology_ 19.1 (Dec. 2023), p. 154–169. ISSN: 1751-231X. DOI: [10.2166/wpt.2023.222](https://doi.org/10.2166%2Fwpt.2023.222). URL: [http://dx.doi.org/10.2166/wpt.2023.222](http://dx.doi.org/10.2166/wpt.2023.222).
+
+<a name=bib-Sokolenko_2023></a>[[6]](#cite-Sokolenko_2023) U. Sokolenko, Y. Honcharenko, and N. Oleksiichenko. “The Use of GIS Technologies for the Analysis and Monitoring of Green Infrastructure in Kharkiv, Ukraine”. In: _Smart Technologies in Urban Engineering_. Springer Nature Switzerland, 2023, p. 89–97. ISBN: 9783031468773. DOI: [10.1007/978-3-031-46877-3_8](https://doi.org/10.1007%2F978-3-031-46877-3_8). URL: [http://dx.doi.org/10.1007/978-3-031-46877-3_8](http://dx.doi.org/10.1007/978-3-031-46877-3_8).
+
+

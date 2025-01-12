@@ -1,37 +1,305 @@
 [
   {
-    "listing": "/people/staff/ejmunoz/index.html",
+    "listing": "/people/former/ipguzman/index.html",
     "items": []
   },
   {
-    "listing": "/people/staff/enciso/index.html",
+    "listing": "/people/staff/aciego/index.html",
     "items": []
   },
   {
-    "listing": "/people/staff/franperezgamez/index.html",
+    "listing": "/people/staff/cbejines/index.html",
     "items": []
   },
   {
-    "listing": "/people/staff/pcordero/index.html",
+    "listing": "/people/staff/amora/index.html",
     "items": []
   },
   {
-    "listing": "/people/staff/manuojeda/index.html",
+    "listing": "/people/staff/ipcabrera/index.html",
     "items": []
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/people/staff/dominlopez/index.html",
+    "items": []
+  },
+  {
+    "listing": "/talks/index.html",
     "items": [
-      "/people/staff/cbejines/index.html",
-      "/people/staff/pcordero/index.html",
-      "/people/staff/enciso/index.html",
-      "/people/staff/dominlopez/index.html",
-      "/people/staff/amora/index.html",
-      "/people/staff/ejmunoz/index.html",
-      "/people/staff/aciego/index.html",
-      "/people/staff/manuojeda/index.html",
-      "/people/staff/ipcabrera/index.html",
-      "/people/staff/franperezgamez/index.html"
+      "/talks/seminars/2023-ICCS/index.html",
+      "/talks/seminars/2023-XAI/index.html",
+      "/talks/seminars/2022-Ostrava/index.html",
+      "/talks/seminars/2022-RudolfWille/index.html",
+      "/talks/regular/2022-escim/index.html",
+      "/talks/regular/2022-ipmu/index.html",
+      "/talks/regular/2022-cmmse/index.html",
+      "/talks/regular/2022-cla/index.html",
+      "/talks/regular/2021-icfca/index.html",
+      "/talks/regular/2013-ifmb/index.html",
+      "/talks/regular/2007-caepia/index.html",
+      "/talks/regular/2007-ifip/index.html",
+      "/talks/regular/2007-ki/index.html",
+      "/talks/regular/2007-iwann/index.html",
+      "/talks/regular/2007-icannga/index.html",
+      "/talks/regular/2007-maeb/index.html",
+      "/talks/regular/2006-icann/index.html",
+      "/talks/regular/2005-caepia/index.html",
+      "/talks/regular/2005-enformatika/index.html",
+      "/talks/regular/2005-iwann/index.html",
+      "/talks/regular/2005-maeb/index.html",
+      "/talks/regular/2004-iccmse/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/2023-valid/index.html",
+      "/projects/2019-PIE-clustering/index.html",
+      "/projects/2019-ursus-dm/index.html",
+      "/projects/2019-flair/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/2023-valid/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021/UsLoDeKeItMaEd/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021/ToMoSoNeFoCoAn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022/KnDiMaDaUsFoCoAn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022/MiFuCoLa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022/ReAlFuCoLa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020/CoReSyDiUsFuRu/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2024/AnFuVeSpAlFrFlCo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2025/UrSuSoDeUnArDuUrHeIsEf/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/ElFuPo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/SiImPoNeAp/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/FuClRe/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/FoCoAnR/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/books/2021/FoMeFcBiDa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/journals/2025/UrSuSoDeUnArDuUrHeIsEf/index.html",
+      "/publications/journals/2024/FoCoAnApHiDeMaTh/index.html",
+      "/publications/journals/2024/AnFuVeSpAlFrFlCo/index.html",
+      "/publications/journals/2023/ReRiNoLeMaReImDiFiSiDi/index.html",
+      "/publications/journals/2023/CoCoLaBoInExIn/index.html",
+      "/publications/journals/2023/SiLoMaUnIn/index.html",
+      "/publications/journals/2023/FuAlCo/index.html",
+      "/publications/journals/2023/SeAnTeUsFoCoAn/index.html",
+      "/publications/journals/2023/FuClStFoCoIi/index.html",
+      "/publications/journals/2023/FuClStFoCo/index.html",
+      "/publications/journals/2023/FuReGaCoFuTrDi/index.html",
+      "/publications/journals/2022/DeUnUrArHiTeLaGrSpUsSaImSiSpCi/index.html",
+      "/publications/journals/2022/FoCoAnR/index.html",
+      "/publications/journals/2022/MiGePoNeAnKnSpMaCo/index.html",
+      "/publications/journals/2022/PaSiReImAuWa/index.html",
+      "/publications/journals/2022/SiImPoNeAp/index.html",
+      "/publications/journals/2022/FuClRe/index.html",
+      "/publications/journals/2022/ElFuPo/index.html",
+      "/publications/journals/2022/FuClDePr/index.html",
+      "/publications/journals/2020/CoReSyDiUsFuRu/index.html",
+      "/publications/journals/2020/FoCoAnApCoCoRe/index.html",
+      "/publications/journals/2020/PaSiLoReImClClOp/index.html",
+      "/publications/journals/2020/ReGaCoTrChCo/index.html",
+      "/publications/journals/2020/ReGaCoTrFuDi/index.html",
+      "/publications/journals/2018/AcFiBiBe/index.html",
+      "/publications/journals/2018/BaCoMeFuSiRu/index.html",
+      "/publications/journals/2018/MiAfApMeMaCo/index.html",
+      "/publications/journals/2010/NeMuNeNeIsIdKiCh/index.html",
+      "/publications/journals/2009/PrPcMa/index.html",
+      "/publications/journals/2007/ImNeNeMeKiChIsId/index.html",
+      "/publications/journals/2007/StMuNeApGrMaPr/index.html",
+      "/publications/journals/2004/PeSiDe/index.html",
+      "/publications/conferences/2023/AgFuExStPrFoCoAn/index.html",
+      "/publications/conferences/2022/KnDiMaDaUsFoCoAn/index.html",
+      "/publications/conferences/2022/CoMiCoLa/index.html",
+      "/publications/conferences/2022/MiFuCoLa/index.html",
+      "/publications/conferences/2022/SpFcDaScWo/index.html",
+      "/publications/conferences/2022/ReAlFuCoLa/index.html",
+      "/publications/conferences/2022/AnFuCoPiDiAuSpDi/index.html",
+      "/publications/conferences/2021/RiNoEsMaReImBaLa/index.html",
+      "/publications/conferences/2021/ToMoSoNeFoCoAn/index.html",
+      "/publications/conferences/2021/UsLoDeKeItMaEd/index.html",
+      "/publications/conferences/2021/ClIdCoIm/index.html",
+      "/publications/conferences/2021/PrLiCoDaMeFc/index.html",
+      "/publications/conferences/2020/UsFoCoAnExHiKnAsMaCo/index.html",
+      "/publications/conferences/2019/ReCdUsFuFoCoAn/index.html",
+      "/publications/conferences/2013/PrPoMoDiUsStNe/index.html",
+      "/publications/conferences/2010/ImMoWi/index.html",
+      "/publications/conferences/2009/HiGrDaCl/index.html",
+      "/publications/conferences/2009/ShCoSuPrDiNeNe/index.html",
+      "/publications/conferences/2009/GrCoNeTrObViSe/index.html",
+      "/publications/conferences/2008/DrGrPaLiArNeNe/index.html",
+      "/publications/conferences/2008/ViObSeMuNeNe/index.html",
+      "/publications/conferences/2008/GeHoMoGrIsPr/index.html",
+      "/publications/conferences/2008/AdCoInFuMe/index.html",
+      "/publications/conferences/2008/NoCoNeApObTr/index.html",
+      "/publications/conferences/2008/FeJoFu/index.html",
+      "/publications/conferences/2008/DiCoNeNeViSe/index.html",
+      "/publications/conferences/2008/RoNoPrDeEsSoCl/index.html",
+      "/publications/conferences/2008/InMoQu/index.html",
+      "/publications/conferences/2008/CoNeViSeObDe/index.html",
+      "/publications/conferences/2007/MuNeNeMiSpTrPr/index.html",
+      "/publications/conferences/2007/ToStCoCr/index.html",
+      "/publications/conferences/2007/ReMuPrMa/index.html",
+      "/publications/conferences/2007/TwPaGrLaViReMuNeNe/index.html",
+      "/publications/conferences/2007/ImCoCoNePr/index.html",
+      "/publications/conferences/2007/ImPrCoLeRuAdTeVeQu/index.html",
+      "/publications/conferences/2007/GrDrMuNeNe/index.html",
+      "/publications/conferences/2007/AuMoSePr/index.html",
+      "/publications/conferences/2007/StImBiHoNeMaCo/index.html",
+      "/publications/conferences/2007/StFuAnOpApTrSaPrReNe/index.html",
+      "/publications/conferences/2007/PrPcMo/index.html",
+      "/publications/conferences/2007/ThStCaAsMeMuRePo/index.html",
+      "/publications/conferences/2007/SoClNoPrDeFuEs/index.html",
+      "/publications/conferences/2006/StMuNeApGrMaPr/index.html",
+      "/publications/conferences/2006/LoSeMoPaPrDeFuEs/index.html",
+      "/publications/conferences/2006/ImCoVeQuReDiNe/index.html",
+      "/publications/conferences/2006/DeViLeCoSuNuMeMo/index.html",
+      "/publications/conferences/2006/EnMaClMuNeNeFuAn/index.html",
+      "/publications/conferences/2006/LeStPrPrCoAn/index.html",
+      "/publications/conferences/2005/NeFoFuAnApTrSaPr/index.html",
+      "/publications/conferences/2005/HeItMeUnClAuDeNuClDiReNe/index.html",
+      "/publications/conferences/2005/ItLeReUnClDiReNe/index.html",
+      "/publications/conferences/2005/HoNeAsMeMuRePo/index.html",
+      "/publications/conferences/2005/NeEnFuDiPrVi/index.html",
+      "/publications/conferences/2005/MeReNeRe/index.html",
+      "/publications/conferences/2005/GrPaViReMuNeNe/index.html",
+      "/publications/conferences/2004/MaBaNeAp/index.html",
+      "/publications/conferences/2004/MuNeNeGrMaPr/index.html",
+      "/publications/books/2023/FoCoAn/index.html",
+      "/publications/books/2022/MaReImBr/index.html",
+      "/publications/books/2021/FoMeFcBiDa/index.html",
+      "/publications/books/2009/DiReNeOp/index.html",
+      "/publications/books/2008/ApArCoLeBaHuCoLeUsArNeNe/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/journals/2022/MiGePoNeAnKnSpMaCo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/DeUnUrArHiTeLaGrSpUsSaImSiSpCi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2022/FuClDePr/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2024/FoCoAnApHiDeMaTh/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023/FuClStFoCoIi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023/CoCoLaBoInExIn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023/FuClStFoCo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2023/FuReGaCoFuTrDi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020/ReGaCoTrChCo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2020/ReGaCoTrFuDi/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022/CoMiCoLa/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2022/SpFcDaScWo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2023/AgFuExStPrFoCoAn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2019/ReCdUsFuFoCoAn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021/ClIdCoIm/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2021/PrLiCoDaMeFc/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/conferences/2020/UsFoCoAnExHiKnAsMaCo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/2019-ursus-dm/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/2019-flair/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/2019-PIE-clustering/index.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/sw/fcaR/index.html",
+      "/resources/demos/fcaR/index.html",
+      "/resources/demos/recommendation/index.html"
     ]
   },
   {
@@ -139,302 +407,38 @@
     ]
   },
   {
-    "listing": "/resources/index.html",
+    "listing": "/people/index.html",
     "items": [
-      "/resources/sw/fcaR/index.html",
-      "/resources/demos/fcaR/index.html",
-      "/resources/demos/recommendation/index.html"
+      "/people/staff/cbejines/index.html",
+      "/people/staff/pcordero/index.html",
+      "/people/staff/enciso/index.html",
+      "/people/staff/dominlopez/index.html",
+      "/people/staff/amora/index.html",
+      "/people/staff/ejmunoz/index.html",
+      "/people/staff/aciego/index.html",
+      "/people/staff/manuojeda/index.html",
+      "/people/staff/ipcabrera/index.html",
+      "/people/staff/franperezgamez/index.html"
     ]
   },
   {
-    "listing": "/projects/2019-PIE-clustering/index.html",
+    "listing": "/people/staff/manuojeda/index.html",
     "items": []
   },
   {
-    "listing": "/projects/2019-flair/index.html",
+    "listing": "/people/staff/pcordero/index.html",
     "items": []
   },
   {
-    "listing": "/projects/2019-ursus-dm/index.html",
+    "listing": "/people/staff/franperezgamez/index.html",
     "items": []
   },
   {
-    "listing": "/publications/conferences/2021-icfca/index.html",
+    "listing": "/people/staff/enciso/index.html",
     "items": []
   },
   {
-    "listing": "/publications/conferences/2022-cla/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-etafca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2020-e-learning/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-rjournal/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2024-MOH-DLR-M-A/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy2/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-MOH-IPC-PC-EMV-Fuzzy/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ufug/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-mdpimathematics/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/journals/2025-FRG-JC--LPU-URSUS/index.html",
-      "/publications/journals/2024-MOH-DLR-M-A/index.html",
-      "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
-      "/publications/journals/2023-axioms2/index.html",
-      "/publications/journals/2023-insci/index.html",
-      "/publications/journals/2023-insci2/index.html",
-      "/publications/journals/2023-axioms/index.html",
-      "/publications/journals/2023-ijar/index.html",
-      "/publications/journals/2023-MH-IPC-PC-EMV-Fuzzy/index.html",
-      "/publications/journals/2023-IPC-PC-EMV-MOA-BDB-Fuzzy/index.html",
-      "/publications/journals/2023-MOH-IPC-PC-EMV-Fuzzy/index.html",
-      "/publications/journals/2022-ufug/index.html",
-      "/publications/journals/2022-rjournal/index.html",
-      "/publications/journals/2022-ijcis/index.html",
-      "/publications/journals/2022-ieeetfuzz/index.html",
-      "/publications/journals/2022-mdpimathematics/index.html",
-      "/publications/journals/2022-MOH-IPC-PC-Quasi/index.html",
-      "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy/index.html",
-      "/publications/journals/2022-MOH-IPC-PC-EMV-Fuzzy2/index.html",
-      "/publications/journals/2020-eswa/index.html",
-      "/publications/journals/2020-ijcis/index.html",
-      "/publications/journals/2020-ijgs/index.html",
-      "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational/index.html",
-      "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational2/index.html",
-      "/publications/journals/2018-gpu/index.html",
-      "/publications/journals/2018-dam/index.html",
-      "/publications/journals/2018-supercomp/index.html",
-      "/publications/journals/2010-isomorphism/index.html",
-      "/publications/journals/2009-ieee/index.html",
-      "/publications/journals/2007-npl/index.html",
-      "/publications/journals/2007-wseastm/index.html",
-      "/publications/journals/2004-jce/index.html",
-      "/publications/conferences/2023-iccs/index.html",
-      "/publications/conferences/2022-escim/index.html",
-      "/publications/conferences/2022-ipmu/index.html",
-      "/publications/conferences/2022-cmmse/index.html",
-      "/publications/conferences/2022-etafca/index.html",
-      "/publications/conferences/2022-cla/index.html",
-      "/publications/conferences/2022-iwinac/index.html",
-      "/publications/conferences/2021-miccai/index.html",
-      "/publications/conferences/2021-e-learning/index.html",
-      "/publications/conferences/2021-cmmse/index.html",
-      "/publications/conferences/2021-icfca/index.html",
-      "/publications/conferences/2021-realdatafca/index.html",
-      "/publications/conferences/2020-e-learning/index.html",
-      "/publications/conferences/2019-cmmse/index.html",
-      "/publications/conferences/2013-ifmbe/index.html",
-      "/publications/conferences/2010-iceis/index.html",
-      "/publications/conferences/2009-iwann/index.html",
-      "/publications/conferences/2009-icannga2/index.html",
-      "/publications/conferences/2009-icannga1/index.html",
-      "/publications/conferences/2008-his1/index.html",
-      "/publications/conferences/2008-his2/index.html",
-      "/publications/conferences/2008-wseas/index.html",
-      "/publications/conferences/2008-cmmse/index.html",
-      "/publications/conferences/2008-ukci/index.html",
-      "/publications/conferences/2008-icann2/index.html",
-      "/publications/conferences/2008-iberamia/index.html",
-      "/publications/conferences/2008-iadis/index.html",
-      "/publications/conferences/2008-icann1/index.html",
-      "/publications/conferences/2008-euroimsa/index.html",
-      "/publications/conferences/2007-caepia/index.html",
-      "/publications/conferences/2007-blended/index.html",
-      "/publications/conferences/2007-maeb/index.html",
-      "/publications/conferences/2007-iwann1/index.html",
-      "/publications/conferences/2007-ifip/index.html",
-      "/publications/conferences/2007-icannga/index.html",
-      "/publications/conferences/2007-iwinac/index.html",
-      "/publications/conferences/2007-iwann2/index.html",
-      "/publications/conferences/2007-icann2/index.html",
-      "/publications/conferences/2007-iwann3/index.html",
-      "/publications/conferences/2007-icannga2/index.html",
-      "/publications/conferences/2007-ki/index.html",
-      "/publications/conferences/2007-icann/index.html",
-      "/publications/conferences/2006-wseas/index.html",
-      "/publications/conferences/2006-icann2/index.html",
-      "/publications/conferences/2006-icann1/index.html",
-      "/publications/conferences/2006-m-icte/index.html",
-      "/publications/conferences/2006-esann/index.html",
-      "/publications/conferences/2006-asc/index.html",
-      "/publications/conferences/2005-postcaepia/index.html",
-      "/publications/conferences/2005-caepia2/index.html",
-      "/publications/conferences/2005-caepia/index.html",
-      "/publications/conferences/2005-enformatika/index.html",
-      "/publications/conferences/2005-maeb2/index.html",
-      "/publications/conferences/2005-maeb/index.html",
-      "/publications/conferences/2005-iwann1/index.html",
-      "/publications/conferences/2004-iccmse2/index.html",
-      "/publications/conferences/2004-iccmse1/index.html",
-      "/publications/books/2023-icfca/index.html",
-      "/publications/books/2022-superresolution/index.html",
-      "/publications/books/2021-complexfca/index.html",
-      "/publications/books/2009-mrem/index.html",
-      "/publications/books/2008-advancingai/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/books/2021-complexfca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-insci/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-MOH-IPC-PC-Quasi/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2025-FRG-JC--LPU-URSUS/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-MH-IPC-PC-EMV-Fuzzy/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2023-IPC-PC-EMV-MOA-BDB-Fuzzy/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2024-CB-MOH-DLR-Analysis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2020-IPC-PC-EMV-MOA-BDB-Relational2/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2020-eswa/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/journals/2022-ijcis/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-ipmu/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-realdatafca/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2022-escim/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2019-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-e-learning/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2021-cmmse/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conferences/2023-iccs/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/2023-valid/index.html",
-    "items": []
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/2023-valid/index.html",
-      "/projects/2019-PIE-clustering/index.html",
-      "/projects/2019-ursus-dm/index.html",
-      "/projects/2019-flair/index.html"
-    ]
-  },
-  {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/seminars/2023-ICCS/index.html",
-      "/talks/seminars/2023-XAI/index.html",
-      "/talks/seminars/2022-Ostrava/index.html",
-      "/talks/seminars/2022-RudolfWille/index.html",
-      "/talks/regular/2022-escim/index.html",
-      "/talks/regular/2022-ipmu/index.html",
-      "/talks/regular/2022-cmmse/index.html",
-      "/talks/regular/2022-cla/index.html",
-      "/talks/regular/2021-icfca/index.html",
-      "/talks/regular/2013-ifmb/index.html",
-      "/talks/regular/2007-caepia/index.html",
-      "/talks/regular/2007-ifip/index.html",
-      "/talks/regular/2007-ki/index.html",
-      "/talks/regular/2007-iwann/index.html",
-      "/talks/regular/2007-icannga/index.html",
-      "/talks/regular/2007-maeb/index.html",
-      "/talks/regular/2006-icann/index.html",
-      "/talks/regular/2005-caepia/index.html",
-      "/talks/regular/2005-enformatika/index.html",
-      "/talks/regular/2005-iwann/index.html",
-      "/talks/regular/2005-maeb/index.html",
-      "/talks/regular/2004-iccmse/index.html"
-    ]
-  },
-  {
-    "listing": "/people/staff/dominlopez/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/staff/ipcabrera/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/staff/amora/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/staff/cbejines/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/staff/aciego/index.html",
+    "listing": "/people/staff/ejmunoz/index.html",
     "items": []
   }
 ]

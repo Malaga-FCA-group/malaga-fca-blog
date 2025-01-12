@@ -1,0 +1,85 @@
+---
+author:
+- Fernando Benito-Picazo
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+Status: Published
+date: '2018-06-04'
+slug: 2018/MiAfApMeMaCo
+title: Minimal generators, an affordable approach by means of massive computation
+categories: Formal concept analysis
+header_image: ~
+details: <em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367
+doi: 10.1007/s11227-018-2453-z
+project: ~
+keywords: ''
+---
+
+
+# Abstract
+
+
+Closed sets and minimal generators are fundamental elements to build a complete knowledge representation in formal concept analysis. The enumeration of all the closed sets and their minimal generators from a set of rules or implications constitutes a complex problem, drawing an exponential cost. Even for small datasets, such representation can demand an exhaustive management of the information stored as attribute implications. In this work, we tackle this problem by merging two strategies. On the one hand, we design a pruning, strongly based on logic properties, to drastically reduce the search space of the method. On the other hand, we consider a parallelization of the problem leading to a massive computation by means of a map-reduce like paradigm. In this study we have characterized the type of search space reductions suitable for parallelization. Also, we have analyzed different situations to provide an orientation of the resources (number of cores) needed for both the parallel architecture and the size of the problem in the splitting stage to take advantage in the map stage.
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Benito-Picazo2019></a>[[Ben+19]](#cite-Benito-Picazo2019) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _The Journal of Supercomputing_ 75.3 (Mar. 2019), pp. 1350-1367. ISSN: 1573-0484. DOI: [10.1007/s11227-018-2453-z](https://doi.org/10.1007%2Fs11227-018-2453-z). URL: [https://doi.org/10.1007/s11227-018-2453-z](https://doi.org/10.1007/s11227-018-2453-z).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Benito-Picazo2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;author={Benito-Picazo, F.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Cordero, P.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Enciso, M.<br>&nbsp;&nbsp;&nbsp;&nbsp;and Mora, A.},<br>&nbsp;&nbsp;&nbsp;&nbsp;title={Minimal generators, an affordable approach by means of massive computation},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal={The Journal of Supercomputing},<br>&nbsp;&nbsp;&nbsp;&nbsp;year={2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;month={Mar},<br>&nbsp;&nbsp;&nbsp;&nbsp;day={01},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume={75},<br>&nbsp;&nbsp;&nbsp;&nbsp;number={3},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages={1350-1367},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract={Closed sets and minimal generators are fundamental elements to build a complete knowledge representation in formal concept analysis. The enumeration of all the closed sets and their minimal generators from a set of rules or implications constitutes a complex problem, drawing an exponential cost. Even for small datasets, such representation can demand an exhaustive management of the information stored as attribute implications. In this work, we tackle this problem by merging two strategies. On the one hand, we design a pruning, strongly based on logic properties, to drastically reduce the search space of the method. On the other hand, we consider a parallelization of the problem leading to a massive computation by means of a map-reduce like paradigm. In this study we have characterized the type of search space reductions suitable for parallelization. Also, we have analyzed different situations to provide an orientation of the resources (number of cores) needed for both the parallel architecture and the size of the problem in the splitting stage to take advantage in the map stage.},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn={1573-0484},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi={10.1007/s11227-018-2453-z},<br>&nbsp;&nbsp;&nbsp;&nbsp;url={https://doi.org/10.1007/s11227-018-2453-z}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2022></a>[[1]](#cite-Cordero_2022) P. Cordero, M. Enciso, A. Mora, et al. “Interactive Search by Using Minimal Generators”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 147–153. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_17](https://doi.org/10.1007%2F978-3-030-88817-6_17). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_17](http://dx.doi.org/10.1007/978-3-030-88817-6_17).
+
+<a name=bib-Cordero_20201></a>[[2]](#cite-Cordero_20201) P. Cordero, M. Enciso, Á. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 1243. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200806.001](http://dx.doi.org/10.2991/ijcis.d.200806.001).
+
+<a name=bib-Cordero_2020></a>[[3]](#cite-Cordero_2020) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized simplification logic I: reasoning with implications and classes of closure operators”. In: _International Journal of General Systems_ 49.7 (Oct. 2020), p. 724–746. ISSN: 1563-5104. DOI: [10.1080/03081079.2020.1831484](https://doi.org/10.1080%2F03081079.2020.1831484). URL: [http://dx.doi.org/10.1080/03081079.2020.1831484](http://dx.doi.org/10.1080/03081079.2020.1831484).
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[4]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[5]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+
+<a name=bib-Pattison_2021></a>[[6]](#cite-Pattison_2021) T. Pattison, M. Enciso, Á. Mora, et al. “Scalable Visual Analytics in FCA”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 167–200. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_8](https://doi.org/10.1007%2F978-3-030-93278-7_8). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_8](http://dx.doi.org/10.1007/978-3-030-93278-7_8).
+
+

@@ -1,0 +1,45 @@
+---
+title: A Formal Concept Analysis approach to hierarchical description of malware threats
+type: journals
+author:
+- manuojeda
+- dominlopez
+- amora
+date: '2024-09-01'
+categories:
+- Data mining
+- Formal concept analysis
+- Implications
+- Imprecise information
+- Text mining
+header_image: 0.jpeg
+doi: https://doi.org/10.1016/j.fsidi.2024.301797
+slug: 2024/FoCoAnApHiDeMaTh
+keywords: ''
+project: 2023-valid
+details: 'Forensic Science International: Digital Investigation vol. 50 , pages 301797.'
+---
+
+
+
+# Abstract
+
+The problem of intelligent malware detection has become increasingly relevant in the industry, as there has been an explosion in the diversity of threats and attacks that affect not only small users, but also large organisations and governments. One of the problems in this field is the lack of homogenisation or standardisation in the nomenclature used by different antivirus programs for different malware threats. The lack of a clear definition of what a category is and how it relates to individual threats makes it difficult to share data and extract common information from multiple antivirus programs. Therefore, efforts to create a common naming convention and hierarchy for malware are important to improve collaboration and information sharing in this field. Our approach uses as a tool the methods of Formal Concept Analysis (FCA) to model and attempt to solve this problem. FCA is an algebraic framework able to discover useful knowledge in the form of a concept lattice and implications relating to the detection and diagnosis of suspicious files and threats. The knowledge extracted using this mathematical tool illustrates how formal methods can help prevent new threats and attacks. We will show the results of applying the proposed methodology to the identification of hierarchical relationships between malware.
+
+{{funding}}
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

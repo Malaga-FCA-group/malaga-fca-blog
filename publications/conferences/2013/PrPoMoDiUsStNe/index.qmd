@@ -1,0 +1,64 @@
+---
+author: Domingo López-Rodríguez, Antonio García-Linares
+Status: Published
+date: '2013-03-01'
+slug: 2013/PrPoMoDiUsStNe
+title: Predictive and Populational Model for Alzheimer's Disease Using Structural
+  Neuroimaging
+categories:
+- Neuroimage
+- Machine learning
+header_image: ~
+details: <em>XIII Mediterranean Conference on Medical and Biological Engineering and
+  Computing</em> 2013
+doi: 10.1007/978-3-319-00846-2_71
+link: 2013-ifmbe/paper.pdf
+project: ~
+keywords: Mild Cognitive Impairment, Early Diagnosis, Neuroimage, Computational Intelligence,
+  Validation
+---
+
+
+# Abstract
+
+
+This paper aims populational modeling of volumetric degeneration of the gray matter due to Alzheimer's disease, to establish the parameters of degeneration, and to contrast the state of an individual with respect to that model. In this way, you can get an early diagnosis of the disease. We have used 2100 structural magnetic resonance images (sMRI), classified by sex (1097 M/1003 F), and corresponding to healthy people (C, Controls) and with Dementia (AD, Alzheimer’s Disease), between 18 and 96 años (M-C 59.44±24, F-C 60.75±22.79/ M-AD 75.35±7.07, F-C 74.23±8.02), from public domain databases. The SMRI processing methodology uses filtering, segmentation algorithms, and the calculation of parameters such as cortical thickness or volume. Furthermore, registration was performed on each subject with a standard template and a 116 anatomical structures atlas in which the above parameters are calculated. It was possible to establish which structural changes the brain undergoes when affected by Alzheimer's disease, according to criteria of loss of volume or gray matter thickness, relative to healthy subjects paracentral lobe, angular gyrus, calcarine sulcus (p<0.001), among others. some rules Have also been developed for classifying (error <9%) a given subject as normal or with Alzheimer with a given probability. We generated a model of Alzheimer's disease, using statistical techniques and imaging processing. This study shows the brain areas that atrophy faster with the disease, and in what sequence they do.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-lopez2014predictive></a>[[LG14]](#cite-lopez2014predictive) D. López-Rodríguez and A. García-Linares. “Predictive and Populational Model for Alzheimer’s Disease Using Structural Neuroimaging”. In: _XIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013_. Springer. 2014, pp. 285-288.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{lopez2014predictive,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Predictive and Populational Model for Alzheimer’s Disease Using Structural Neuroimaging},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={López-Rodríguez, D and García-Linares, A},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={XIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={285--288},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={Springer}<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+NULL
+
+

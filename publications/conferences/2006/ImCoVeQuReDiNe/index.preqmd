@@ -1,0 +1,47 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazcano-Lobato,
+  Ezequiel López-Rubio
+Status: Published
+date: '2006-09-01'
+slug: 2006/ImCoVeQuReDiNe
+title: Image Compression by Vector Quantization with Recurrent Discrete Networks
+categories:
+- Neural networks
+- Image processing
+header_image: ~
+details: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4132), <em>pp. 595&ndash;605</em>
+doi: 10.1007/11840930_62
+link: 2006-icann1/paper.pdf
+project: ''
+keywords: Algorithms, Learning systems, Mathematical models, Recurrent neural networks,
+  Vector quantization, Classical algorithm, Hopfield's model, Sum-of-squares clustering,
+  Vector quantifier, Image compression
+---
+
+# Abstract
+
+
+In this work we propose a recurrent multivalued network, generalizing Hopfield's model, which can be interpreted as a vector quantifier. We explain the model and establish a relation between vector quantization and sum-of-squares clustering. To test the efficiency of this model as vector quantifier, we apply this new technique to image compression. Two well-known images are used as benchmark, allowing us to compare our model to standard competitive learning. In our simulations, our new technique clearly outperforms the classical algorithm for vector quantization, achieving not only a better distortion rate, but even reducing drastically the computational time. © Springer-Verlag Berlin Heidelberg 2006.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

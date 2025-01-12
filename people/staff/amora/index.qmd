@@ -1,5 +1,6 @@
 ---
 title: "Ángel Mora Bonilla"
+signature: "Ángel Mora"
 sortby: morabonilla
 subtitle: "Associate Professor"
 image: avatar.png
@@ -10,6 +11,7 @@ listing:
   contents: papers.yml
   type: default
   sort: date desc
+  date-format: "YYYY"
 about:
   id: person-profile
   template: jolla

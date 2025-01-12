@@ -1,0 +1,88 @@
+---
+author:
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+Status: Published
+selected: yes
+date: '2023-07-03T00:00:00Z'
+slug: 2023/SiLoMaUnIn
+title: Simplification logic for the management of unknown information
+categories:
+- Formal concept analysis
+- Implications
+- Simplification logic
+header_image: image.jpg
+details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
+doi: 10.1016/j.ins.2023.03.015
+project: ~
+keywords: Implications; Unknown information; Formal concept analysis; Simplification
+  logic; Automated reasoning
+---
+
+
+# Abstract
+
+This paper aims to contribute to the extension of classical Formal Concept Analysis (FCA), allowing the management of unknown information. In a preliminary paper, we define a new kind of attribute implications to represent the knowledge from the information currently available. The whole FCA framework has to be appropriately extended to manage unknown information. This paper introduces a new logic for reasoning with this kind of implications, which belongs to the family of logics with an underlying Simplification paradigm. Specifically, we introduce a new algebra, named weak dual Heyting Algebra, that allows us to extend the Simplification logic for these new implications. To provide a solid framework, we also prove its soundness and completeness and show the advantages of the Simplification paradigm. Finally, to allow further use of this extension of FCA in applications, an algorithm for automated reasoning, which is directly built from logic, is defined.
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-PEREZGAMEZ2023505></a>[[Pér+23]](#cite-PEREZGAMEZ2023505) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Simplification logic for the management of unknown information”. In: _Information Sciences_ 634 (2023), pp. 505-519. ISSN: 0020-0255. DOI: [https://doi.org/10.1016/j.ins.2023.03.015](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ins.2023.03.015). URL: [https://www.sciencedirect.com/science/article/pii/S0020025523003110](https://www.sciencedirect.com/science/article/pii/S0020025523003110).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{PEREZGAMEZ2023505,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {Simplification logic for the management of unknown information},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Information Sciences},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {634},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {505-519},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {0020-0255},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.ins.2023.03.015},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S0020025523003110},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Francisco Pérez-Gámez and Pablo Cordero and Manuel Enciso and Ángel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Implications, Unknown information, Formal concept analysis, Simplification logic, Automated reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract = {This paper aims to contribute to the extension of classical Formal Concept Analysis (FCA), allowing the management of unknown information. In a preliminary paper, we define a new kind of attribute implications to represent the knowledge from the information currently available. The whole FCA framework has to be appropriately extended to manage unknown information. This paper introduces a new logic for reasoning with this kind of implications, which belongs to the family of logics with an underlying Simplification paradigm. Specifically, we introduce a new algebra, named weak dual Heyting Algebra, that allows us to extend the Simplification logic for these new implications. To provide a solid framework, we also prove its soundness and completeness and show the advantages of the Simplification paradigm. Finally, to allow further use of this extension of FCA in applications, an algorithm for automated reasoning, which is directly built from logic, is defined.}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Arag_n_2024></a>[[1]](#cite-Arag_n_2024) R. G. Aragón, J. Medina, and S. Molina-Ruiz. “The Notion of Bond in the Multi-adjoint Concept Lattice Framework”. In: _Advances in Artificial Intelligence_. Springer Nature Switzerland, 2024, p. 243–253. ISBN: 9783031627996. DOI: [10.1007/978-3-031-62799-6_25](https://doi.org/10.1007%2F978-3-031-62799-6_25). URL: [http://dx.doi.org/10.1007/978-3-031-62799-6_25](http://dx.doi.org/10.1007/978-3-031-62799-6_25).
+
+<a name=bib-Cordero_2024></a>[[2]](#cite-Cordero_2024) P. Cordero, M. Enciso, Á. Mora, et al. “Attribute implications with unknown information based on weak Heyting algebras”. In: _Fuzzy Sets and Systems_ 490 (Aug. 2024), p. 109026. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109026](https://doi.org/10.1016%2Fj.fss.2024.109026). URL: [http://dx.doi.org/10.1016/j.fss.2024.109026](http://dx.doi.org/10.1016/j.fss.2024.109026).
+
+<a name=bib-Cornejo_2024></a>[[3]](#cite-Cornejo_2024) M. E. Cornejo, J. Medina, and F. J. Ocaña. “Attribute implications in multi-adjoint concept lattices with hedges”. In: _Fuzzy Sets and Systems_ 479 (Mar. 2024), p. 108854. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108854](https://doi.org/10.1016%2Fj.fss.2023.108854). URL: [http://dx.doi.org/10.1016/j.fss.2023.108854](http://dx.doi.org/10.1016/j.fss.2023.108854).
+
+<a name=bib-Dubois_2025></a>[[4]](#cite-Dubois_2025) D. Dubois, J. Medina, and H. Prade. “Extracting attribute implications from a formal context: Unifying the basic approaches”. In: _Information Sciences_ 689 (Jan. 2025), p. 121419. ISSN: 0020-0255. DOI: [10.1016/j.ins.2024.121419](https://doi.org/10.1016%2Fj.ins.2024.121419). URL: [http://dx.doi.org/10.1016/j.ins.2024.121419](http://dx.doi.org/10.1016/j.ins.2024.121419).
+
+<a name=bib-Talavera_2024></a>[[5]](#cite-Talavera_2024) F. J. Talavera, C. Bejines, S. Ardanza-Trevijano, et al. “Aggregation of fuzzy graphs”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109243. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109243](https://doi.org/10.1016%2Fj.ijar.2024.109243). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109243](http://dx.doi.org/10.1016/j.ijar.2024.109243).
+
+

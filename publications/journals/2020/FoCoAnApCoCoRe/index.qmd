@@ -1,0 +1,91 @@
+---
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Carlos Rossi
+Status: Published
+date: '2020-08-19T00:00:00Z'
+slug: 2020/FoCoAnApCoCoRe
+title: A Formal Concept Analysis Approach to Cooperative Conversational Recommendation
+categories:
+- Formal concept analysis
+- Recommendation system
+- Simplification logic
+header_image: ~
+details: <em>International Journal of Computational Intelligence Systems</em>, 13
+  (1), pp. 1243 - 1252
+doi: 10.2991/ijcis.d.200806.001
+project: ~
+keywords: Formal concept analysis; Simplification logic; Conversational recommender
+  systems; Group recommender systems
+---
+
+
+# Abstract
+
+We focus on the development of a method to guide the choice of a set of users in an environment where the number of features describing the items is high and user interaction becomes laborious. Using the framework of formal concept analysis, particularly the notion of implication between attributes, we propose a method strongly based on logic which allows to manage the users' preferences by following a conversational paradigm. Concerning complexity, to build the conversation and provide updated information based on the users' previous actions (choices) the method has polynomial delay.
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2020></a>[[Cor+20]](#cite-Cordero2020) P. Cordero, M. Enciso, �. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13 (1 2020), pp. 1243-1252. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [https://doi.org/10.2991/ijcis.d.200806.001](https://doi.org/10.2991/ijcis.d.200806.001).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{Cordero2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={A Formal Concept Analysis Approach to Cooperative Conversational Recommendation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Pablo Cordero and Manuel Enciso and �ngel Mora and Manuel Ojeda-Aciego and Carlos Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal={International Journal of Computational Intelligence Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume={13},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issue={1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={1243-1252},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn={1875-6883},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url={https://doi.org/10.2991/ijcis.d.200806.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi={10.2991/ijcis.d.200806.001}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2022></a>[[1]](#cite-Antoni_2022) Ľ. Antoni, P. Eliaš, S. Krajči, et al. “Heterogeneous formal context and its decomposition by heterogeneous fuzzy subsets”. In: _Fuzzy Sets and Systems_ 451 (Dec. 2022), p. 361–384. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.015](https://doi.org/10.1016%2Fj.fss.2022.05.015). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.015](http://dx.doi.org/10.1016/j.fss.2022.05.015).
+
+<a name=bib-Elia__2024></a>[[2]](#cite-Elia__2024) P. Eliaš, L. Antoni, O. Krídlo, et al. “Additional Notes on Heterogeneous Concept-Forming Operators”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 5_. Springer Nature Switzerland, 2024, p. 1–7. ISBN: 9783031469794. DOI: [10.1007/978-3-031-46979-4_1](https://doi.org/10.1007%2F978-3-031-46979-4_1). URL: [http://dx.doi.org/10.1007/978-3-031-46979-4_1](http://dx.doi.org/10.1007/978-3-031-46979-4_1).
+
+<a name=bib-Ojeda_Hern_ndez_2024></a>[[3]](#cite-Ojeda_Hern_ndez_2024) M. Ojeda-Hernández, D. López-Rodríguez, and Á. Mora. “A Formal Concept Analysis approach to hierarchical description of malware threats”. In: _Forensic Science International: Digital Investigation_ 50 (Sep. 2024), p. 301797. ISSN: 2666-2817. DOI: [10.1016/j.fsidi.2024.301797](https://doi.org/10.1016%2Fj.fsidi.2024.301797). URL: [http://dx.doi.org/10.1016/j.fsidi.2024.301797](http://dx.doi.org/10.1016/j.fsidi.2024.301797).
+
+<a name=bib-P_rez_G_mez_20221></a>[[4]](#cite-P_rez_G_mez_20221) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Computing the Mixed Concept Lattice”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 87–99. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_8](https://doi.org/10.1007%2F978-3-031-08971-8_8). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_8](http://dx.doi.org/10.1007/978-3-031-08971-8_8).
+
+<a name=bib-P_rez_G_mez_2022></a>[[5]](#cite-P_rez_G_mez_2022) F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al. “Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: _Mathematics_ 10.4 (Feb. 2022), p. 607. ISSN: 2227-7390. DOI: [10.3390/math10040607](https://doi.org/10.3390%2Fmath10040607). URL: [http://dx.doi.org/10.3390/math10040607](http://dx.doi.org/10.3390/math10040607).
+
+<a name=bib-Zhang_2024></a>[[6]](#cite-Zhang_2024) J. Zhang, Q. Hu, J. Mi, et al. “Hesitant fuzzy three-way concept lattice and its attribute reduction”. In: _Applied Intelligence_ 54.3 (Feb. 2024), p. 2445–2457. ISSN: 1573-7497. DOI: [10.1007/s10489-024-05317-0](https://doi.org/10.1007%2Fs10489-024-05317-0). URL: [http://dx.doi.org/10.1007/s10489-024-05317-0](http://dx.doi.org/10.1007/s10489-024-05317-0).
+
+

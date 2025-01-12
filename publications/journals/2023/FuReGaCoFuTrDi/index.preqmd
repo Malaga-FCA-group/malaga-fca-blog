@@ -1,0 +1,44 @@
+---
+title: Fuzzy relational Galois connections between fuzzy transitive digraphs
+type: journals
+author:
+- ipcabrera
+- pcordero
+- ejmunoz
+- aciego
+- Bernard De Baets
+date: '2023-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+doi: 10.1016/j.fss.2022.12.012
+slug: 2023/FuReGaCoFuTrDi
+keywords: ''
+project: 2019-flair
+details: 'Fuzzy Sets Syst. 463: 108456'
+---
+
+
+# Abstract
+
+We present a fuzzy version of the notion of relational Galois connection between fuzzy transitive directed graphs (fuzzy T-digraphs) on the specific setting in which the underlying algebra of truth values is a complete Heyting algebra. The components of such fuzzy Galois connection are fuzzy relations satisfying certain reasonable properties expressed in terms of the so-called full powering. Moreover, we provide a necessary and sufficient condition under which it is possible to construct a right adjoint for a given fuzzy relation between a fuzzy T-digraph and an unstructured set.
+
+{{funding}}
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

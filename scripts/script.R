@@ -11,6 +11,14 @@ source(
     "master_table_people.R"
   )
 )
+
+source(
+  here::here(
+    "scripts",
+    "citations_openalex.R"
+  )
+)
+
 # source(here::here("scripts",
 #                   "collect_bib.R"))
 
@@ -35,7 +43,7 @@ source(
   )
 )
 
-projects |> sapply(process_preqmd)
+projects |> sapply(process_preqmd) |> invisible()
 
 folder <- here::here("publications")
 journals <- list.files(
@@ -45,7 +53,9 @@ journals <- list.files(
   recursive = TRUE
 )
 
-journals |> sapply(process_preqmd)
+journals |>
+  sapply(process_preqmd) |>
+  invisible()
 
 conferences <- list.files(
   path = file.path(folder, "conferences"),
@@ -54,7 +64,7 @@ conferences <- list.files(
   recursive = TRUE
 )
 
-conferences |> sapply(process_preqmd)
+conferences |> sapply(process_preqmd) |> invisible()
 
 books <- list.files(
   path = file.path(folder, "books"),

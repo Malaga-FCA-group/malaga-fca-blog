@@ -1,0 +1,65 @@
+---
+author: Domingo López-Rodríguez, E. Mérida-Casermeiro, J.M. Ortíz-De-Lazcano-Lobato,
+  G. Galán-Marín
+Status: Published
+date: '2007-01-01'
+slug: 2007/TwPaGrLaViReMuNeNe
+title: Two pages graph layout via recurrent multivalued neural networks
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 194-202</em>
+doi: 10.1007/978-3-540-73007-1_24
+link: 2007-iwann3/paper.pdf
+project: ''
+keywords: Algorithms, Computer simulation, Graph theory, Mathematical models, Problem
+  solving, Computational time, Energy function, Recurrent neural networks
+---
+
+
+# Abstract
+
+
+In this work, we propose the use of two neural models performing jointly in order to minimize the same energy function. This model is focused on obtaining good solutions for the two pages book crossing problem, although some others problems can be efficiently solved by the same model. The neural technique applied to this problem allows to reduce the energy function by changing outputs from both networks -outputs of first network representing location of nodes in the nodes line, while the outputs of the second one meaning the half-plane where the edges are drawn. Detailed description of the model is presented, and the technique to minimize an energy function is fully described. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2007.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-LopezRodriguez2007c1></a>[[Lóp+07]](#cite-LopezRodriguez2007c1) D. López-Rodríguez, E. Mérida-Casermeiro, J. Ortíz-De-Lazcano-Lobato, et al. “Two pages graph layout via recurrent multivalued neural networks”. In: _Computational and Ambient Intelligence, 9th International Work-Conference on Artificial Neural Networks, IWANN 2007, San Sebastián, Spain, June 20-22, 2007, Proceedings_. Ed. by F. S. Hernández, A. Prieto, J. Cabestany and M. Gra~na. Vol. 4507 LNCS. Lecture Notes in Computer Science. cited By 0; Conference of 9th International Work-Conference on Artificial Neural Networks, IWANN 2007 ; Conference Date: 20 June 2007 Through 22 June 2007; Conference Code:71094. San Sebastian: Springer Verlag, 2007, pp. 194-202. DOI: [10.1007/978-3-540-73007-1_24](https://doi.org/10.1007%2F978-3-540-73007-1_24). URL:
+[https://doi.org/10.1007/978-3-540-73007-1_24](https://doi.org/10.1007/978-3-540-73007-1_24).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{LopezRodriguez2007c:1,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {D. López-Rodríguez and E. Mérida-Casermeiro and J.M. Ortíz-De-Lazcano-Lobato and G. Galán-Marín},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Computational and Ambient Intelligence, 9th International Work-Conference on Artificial Neural Networks, {IWANN} 2007, San Sebastián, Spain, June 20-22, 2007, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Two pages graph layout via recurrent multivalued neural networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {San Sebastian},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco Sandoval Hernández and Alberto Prieto and Joan Cabestany and Manuel Gra{\~n}a},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 0; Conference of 9th International Work-Conference on Artificial Neural Networks, IWANN 2007 ; Conference Date: 20 June 2007 Through 22 June 2007; Conference Code:71094},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {194-202},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer Verlag},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4507 LNCS},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this work, we propose the use of two neural models performing jointly in order to minimize the same energy function. This model is focused on obtaining good solutions for the two pages book crossing problem, although some others problems can be efficiently solved by the same model. The neural technique applied to this problem allows to reduce the energy function by changing outputs from both networks -outputs of first network representing location of nodes in the nodes line, while the outputs of the second one meaning the half-plane where the edges are drawn. Detailed description of the model is presented, and the technique to minimize an energy function is fully described. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2007.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/Lopez-RodriguezCOM07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-73007-1_24},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Algorithms; Computer simulation; Graph theory; Mathematical models; Problem solving, Computational time; Energy function, Recurrent neural networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-73007-1_24},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-M_rida_Casermeiro_2009></a>[[1]](#cite-M_rida_Casermeiro_2009) E. Mérida-Casermeiro, D. López-Rodríguez, and J. M. Ortiz-de-Lazcano-Lobato. “MREM, Discrete Recurrent Network for Optimization”. In: _Encyclopedia of Artificial Intelligence_. IGI Global, 2009, p. 1112–1120. DOI: [10.4018/978-1-59904-849-9.ch163](https://doi.org/10.4018%2F978-1-59904-849-9.ch163). URL: [http://dx.doi.org/10.4018/978-1-59904-849-9.ch163](http://dx.doi.org/10.4018/978-1-59904-849-9.ch163).
+
+

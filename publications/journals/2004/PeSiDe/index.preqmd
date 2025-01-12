@@ -1,0 +1,42 @@
+---
+author:
+- dominlopez
+- Carlos Criado
+Status: Published
+date: '2004-11-01T00:00:00Z'
+slug: 2004/PeSiDe
+title: A Pedagogical Simulation of Maxwell's Demon
+categories: E-learning
+header_image: ~
+details: <em>Journal of Chemical Education</em>, 81(11), pp. 1679
+doi: 10.1021/ed081p1679.2
+link: 2004-jce/paper.pdf
+project: ~
+keywords: Computer-based learning, Statistical mechanics
+---
+
+# Abstract
+
+
+This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

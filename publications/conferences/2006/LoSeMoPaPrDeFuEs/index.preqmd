@@ -1,0 +1,45 @@
+---
+author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, E.
+  Mérida-Casermeiro, M. Del Carmen Vargas-González
+Status: Published
+date: '2006-09-01'
+slug: 2006/LoSeMoPaPrDeFuEs
+title: Local selection of model parameters in probability density function estimation
+categories: Neural networks
+header_image: ~
+details: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4132 LNCS - II), <em>pp. 292-301</em>
+doi: 10.1007/11840930_30
+link: 2006-icann2/paper.pdf
+project: ''
+keywords: Gaussian noise (electronic), Mathematical models, Parameter estimation,
+  Signal noise measurement, Automated estimation, Local intrinsic dimensionality,
+  Local noise variance, Parzen window approach, Probability density function
+---
+
+# Abstract
+
+
+Here we present a novel probability density estimation model. The classical Parzen window approach builds a spherical Gaussian density around every input sample. Our proposal selects a Gaussian specifically tuned for each sample, with an automated estimation of the local intrinsic dimensionality of the embedded manifold and the local noise variance. This leads to outperform other proposals where local parameter selection is not allowed, like the manifold Parzen windows. © Springer-Verlag Berlin Heidelberg 2006.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

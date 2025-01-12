@@ -1,0 +1,94 @@
+---
+author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Mérida Casermeiro, Esteban
+  J. Palomo
+Status: Published
+date: '2008-09-10'
+slug: 2008/ViObSeMuNeNe
+title: Video Object Segmentation with Multivalued Neural Networks
+categories:
+- Image processing
+- Neural networks
+header_image: HIS2008.png
+details: 'Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008:
+  613-618'
+doi: 10.1109/his.2008.130
+link: 2008-his1/paper.pdf
+project: ~
+keywords: ''
+---
+
+
+# Abstract
+
+
+The aim of this work is to present a segmentation method to detect moving objects in video scenes, based on the use of a multivalued discrete neural network to improve the results obtained by an underlying segmentation algorithm. Specifically, the multivalued neural model (MREM) is used to detect and correct some of the deficiencies and errors off the well-known Mixture of Gaussians algorithm. Experimental results, using video scenes publicly available from the Internet, show an increase of the visual quality of the segmentation, that could improve for subsequent analysis phases, such as object tracking or behavior studies.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-DBLPconfhisLuqueLCP08></a>[[Luq+08]](#cite-DBLPconfhisLuqueLCP08) R. M. Luque, D. López-Rodríguez, E. M. Casermeiro, et al. “Video Object Segmentation with Multivalued Neural Networks”. In: _8th International Conference on Hybrid Intelligent Systems (HIS 2008), September 10-12, 2008, Barcelona, Spain_. Ed. by F. Xhafa, F. Herrera, A. Abraham, M. Köppen and J. M. Benítez. IEEE Computer Society, 2008, pp. 613-618. DOI: [10.1109/HIS.2008.130](https://doi.org/10.1109%2FHIS.2008.130). URL: [https://doi.org/10.1109/HIS.2008.130](https://doi.org/10.1109/HIS.2008.130).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{DBLP:conf/his/LuqueLCP08,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Rafael Marcos Luque and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Enrique Mérida Casermeiro and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Esteban J. Palomo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Fatos Xhafa and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Francisco Herrera and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Ajith Abraham and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Mario K{\"{o}}ppen and<br>&nbsp;&nbsp;&nbsp;&nbsp;               José Manuel Benítez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Video Object Segmentation with Multivalued Neural Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {8th International Conference on Hybrid Intelligent Systems {(HIS}<br>&nbsp;&nbsp;&nbsp;&nbsp;               2008), September 10-12, 2008, Barcelona, Spain},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {613--618},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE} Computer Society},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1109/HIS.2008.130},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1109/HIS.2008.130},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 16 Oct 2019 14:14:55 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/his/LuqueLCP08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Bouwmans_2014></a>[[1]](#cite-Bouwmans_2014) T. Bouwmans. “Traditional and recent approaches in background modeling for foreground detection: An overview”. In: _Computer Science Review_ 11–12 (May. 2014), p. 31–66. ISSN: 1574-0137. DOI: [10.1016/j.cosrev.2014.04.001](https://doi.org/10.1016%2Fj.cosrev.2014.04.001). URL: [http://dx.doi.org/10.1016/j.cosrev.2014.04.001](http://dx.doi.org/10.1016/j.cosrev.2014.04.001).
+
+<a name=bib-Kaushal_2018></a>[[2]](#cite-Kaushal_2018) M. Kaushal, B. S. Khehra, and A. Sharma. “Soft Computing based object detection and tracking approaches: State-of-the-Art survey”. In: _Applied Soft Computing_ 70 (Sep. 2018), p. 423–464. ISSN: 1568-4946. DOI: [10.1016/j.asoc.2018.05.023](https://doi.org/10.1016%2Fj.asoc.2018.05.023). URL: [http://dx.doi.org/10.1016/j.asoc.2018.05.023](http://dx.doi.org/10.1016/j.asoc.2018.05.023).
+
+<a name=bib-Kushwaha_2015></a>[[3]](#cite-Kushwaha_2015) A. K. S. Kushwaha and R. Srivastava. “Automatic moving object segmentation methods under varying illumination conditions for video data: comparative study, and an improved method”. In: _Multimedia Tools and Applications_ 75.23 (Sep. 2015), p. 16209–16264. ISSN: 1573-7721. DOI: [10.1007/s11042-015-2927-4](https://doi.org/10.1007%2Fs11042-015-2927-4). URL: [http://dx.doi.org/10.1007/s11042-015-2927-4](http://dx.doi.org/10.1007/s11042-015-2927-4).
+
+<a name=bib-Molina_Cabello_2018></a>[[4]](#cite-Molina_Cabello_2018) M. A. Molina-Cabello, E. López-Rubio, R. M Luque-Baena, et al. “Foreground object detection for video surveillance by fuzzy logic based estimation of pixel illumination states”. In: _Logic Journal of the IGPL_ (Sep. 2018). ISSN: 1368-9894. DOI: [10.1093/jigpal/jzy024](https://doi.org/10.1093%2Fjigpal%2Fjzy024). URL: [http://dx.doi.org/10.1093/jigpal/jzy024](http://dx.doi.org/10.1093/jigpal/jzy024).
+
+<a name=bib-Moudgollya_2019></a>[[5]](#cite-Moudgollya_2019) R. Moudgollya, A. Midya, A. K. Sunaniya, et al. “Dynamic background modeling using intensity and orientation distribution of video sequence”. In: _Multimedia Tools and Applications_ 78.16 (Apr. 2019), p. 22537–22554. ISSN: 1573-7721. DOI: [10.1007/s11042-019-7575-7](https://doi.org/10.1007%2Fs11042-019-7575-7). URL: [http://dx.doi.org/10.1007/s11042-019-7575-7](http://dx.doi.org/10.1007/s11042-019-7575-7).
+
+<a name=bib-Ramirez_Alonso_2015></a>[[6]](#cite-Ramirez_Alonso_2015) G. Ramirez-Alonso and M. I. Chacon-Murguia. “Object detection in video sequences by a temporal modular self-adaptive SOM”. In: _Neural Computing and Applications_ 27.2 (Mar. 2015), p. 411–430. ISSN: 1433-3058. DOI: [10.1007/s00521-015-1859-2](https://doi.org/10.1007%2Fs00521-015-1859-2). URL: [http://dx.doi.org/10.1007/s00521-015-1859-2](http://dx.doi.org/10.1007/s00521-015-1859-2).
+
+<a name=bib-Romero_2018></a>[[7]](#cite-Romero_2018) J. D. Romero, M. J. Lado, and A. J. Mendez. “A Background Modeling and Foreground Detection Algorithm Using Scaling Coefficients Defined With a Color Model Called Lightness-Red-Green-Blue”. In: _IEEE Transactions on Image Processing_ 27.3 (Mar. 2018), p. 1243–1258. ISSN: 1941-0042. DOI: [10.1109/tip.2017.2776742](https://doi.org/10.1109%2Ftip.2017.2776742). URL: [http://dx.doi.org/10.1109/tip.2017.2776742](http://dx.doi.org/10.1109/tip.2017.2776742).
+
+<a name=bib-Takhar_2016></a>[[8]](#cite-Takhar_2016) G. Takhar, C. Prakash, N. Mittal, et al. “Comparative analysis of Background Subtraction techniques and applications”. In: _2016 International Conference on Recent Advances and Innovations in Engineering (ICRAIE)_. IEEE, Dec. 2016, p. 1–8. DOI: [10.1109/icraie.2016.7939553](https://doi.org/10.1109%2Ficraie.2016.7939553). URL: [http://dx.doi.org/10.1109/icraie.2016.7939553](http://dx.doi.org/10.1109/icraie.2016.7939553).
+
+<a name=bib-Xue_2021></a>[[9]](#cite-Xue_2021) Z. Xue, X. Yuan, and Y. Yang. “Denoising-Based Turbo Message Passing for Compressed Video Background Subtraction”. In: _IEEE Transactions on Image Processing_ 30 (2021), p. 2682–2696. ISSN: 1941-0042. DOI: [10.1109/tip.2021.3055063](https://doi.org/10.1109%2Ftip.2021.3055063). URL: [http://dx.doi.org/10.1109/tip.2021.3055063](http://dx.doi.org/10.1109/tip.2021.3055063).
+
+

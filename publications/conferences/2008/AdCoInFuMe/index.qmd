@@ -1,0 +1,56 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2008-06-01'
+slug: 2008/AdCoInFuMe
+title: Adjust of Contradictory Information by a Fuzzy Method
+categories:
+- Fuzzy sets
+- Regression
+header_image: ~
+details: <em>Proceedings of the 2008 International Conference on Computational and
+  Mathematical Methods in Science and Engineering</em>
+link: 2008-cmmse/paper.pdf
+project: ~
+keywords: Contradictory information, Fuzzy information, Regression
+---
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-merida2008adjust></a>[[ML08]](#cite-merida2008adjust) E. Mérida-Casermeiro and D. López-Rodríguez. “Adjust of Contradictory Information by a Fuzzy Method”. In: _Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering_. 2008, pp. 439-451.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{merida2008adjust,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Adjust of Contradictory Information by a Fuzzy Method},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Mérida-Casermeiro, E. and López-Rodríguez, D.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Proceedings of the 2008 International Conference on Computational and Mathematical Methods in Science and Engineering},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={439--451},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2008}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida-Casermeiro, Juan M. Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2007-11-01'
+slug: 2007/MuNeNeMiSpTrPr
+title: A Multivalued Neural Network for the Degree-Constrained Minimum Spanning Tree
+  Problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>Congreso de la Asociación Española para la Inteligencia Artificial</em>
+  2007
+link: 2007-caepia/caepia-mst.pdf
+project: ~
+keywords: Neural networks, Graph problem, Combinatorial optimization
+---
+
+
+# Abstract
+
+
+The Degree Constrained Minimum Spanning Tree (DCMST) on a graph is the problem of generating a minimum spanning tree with constraints on the number of arcs that can be incident to vertices of the graph. In this paper, a new neural heuristic for the DCMST problem has been developed, making use of the multivalued recurrent model MREM, that has obtained very good results in other combinatorial optimization problems. The computational performance of our approach is compared against the performance of some algorithms from specialized literature. All these approaches are tested using standard problems taken from the literature.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-domingo2007multivalued></a>[[LMO07]](#cite-domingo2007multivalued) D. López-Rodríguez, E. Mérida-Casermeiro, and J. M. Ortiz-de-Lazcano-Lobato. “A multivalued neural network for the degree-constrained minimum spanning tree problem”. In: _CAEPIA-TTIA 2007: actas_. 2007, pp. 269-278.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{domingo2007multivalued,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={A multivalued neural network for the degree-constrained minimum spanning tree problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={López-Rodríguez, Domingo  and Mérida-Casermeiro, Enrique and Ortiz-de-Lazcano-Lobato, Juan Miguel},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={CAEPIA-TTIA 2007: actas},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={269--278},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2007}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

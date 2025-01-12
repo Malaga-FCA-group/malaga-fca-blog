@@ -1,0 +1,47 @@
+---
+author:
+- Ondrej Krídlo
+- dominlopez
+- Lubomir Antoni
+- Peter Eliaš
+- Stanislav Krajči
+- aciego
+Status: Published
+selected: yes
+date: '2023-08-03T00:00:00Z'
+slug: 2023/CoCoLaBoInExIn
+title: Connecting concept lattices with bonds induced by external information
+categories: Formal concept analysis
+header_image: ~
+details: <em>Information Sciences</em>, vol. 648, november 2023, article 119498
+doi: 10.1016/j.ins.2023.119498
+link: 2023-insci/paper.pdf
+project: 2023-valid
+keywords: Formal Concept Analysis, Intercontextual structures, Bonds
+---
+
+# Abstract
+
+
+In Formal Concept Analysis (FCA), $\mathcal L$-bonds represent relationships between $\mathcal L$-formal contexts. Choosing the appropriate bond between $\mathcal L$-fuzzy formal contexts is an important challenge for its application in recommendation tasks. Recent work introduced two constructions of bonds, given by direct products of two $\mathcal L$-fuzzy formal contexts, and showed their usefulness in a particular application. In this paper, we present further theoretical and experimental results on these constructions; in particular, we provide extended interpretations of both rigorous and benevolent concept-forming operators, introduce new theoretical properties of the proposed bonds to connect two concept lattices given external information, and finally present the experimental study of the upper bounds.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

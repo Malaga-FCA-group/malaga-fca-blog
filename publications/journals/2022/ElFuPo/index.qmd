@@ -1,0 +1,96 @@
+---
+title: Quasi-closed elements in fuzzy posets
+type: journals
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+date: '2022-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+doi: 10.1016/j.cam.2021.113390
+slug: 2022/ElFuPo
+keywords: ''
+project: 2019-flair
+details: 'J. Comput. Appl. Math. 404: 113390'
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+
+# Abstract
+
+We generalize the notion of quasi-closed element to fuzzy posets in two stages: First, in the crisp style in which each element in a given universe either is quasi-closed or not. Second, in the graded style by defining degrees to which an element is quasi-closed. We discuss the different possible definitions and comparing them with each other. Finally, we show that the most general one has good properties to be used when we have a complete fuzzy lattice as a frame.
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Ojeda-Hernandez2022></a>[[OCC22]](#cite-Ojeda-Hernandez2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (2022). Cited by: 7; All Open Access, Green Open Access, Hybrid Gold Open Access. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{Ojeda-Hernandez2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;	Author = {Ojeda-Hern\'andez, Manuel and Cabrera, Inma P. and Cordero, Pablo},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Date-Modified = {2025-01-07 17:34:03 +0000},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Doi = {10.1016/j.cam.2021.113390},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Journal = {Journal of Computational and Applied Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Note = {Cited by: 7; All Open Access, Green Open Access, Hybrid Gold Open Access},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Publication_Stage = {Final},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Title = {Quasi-closed elements in fuzzy posets},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Type = {Article},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016%2fj.cam.2021.113390&partnerID=40&md5=e8741144cb75e8fae12fa1c05b8271eb},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Volume = {404},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Bdsk-Url-1 = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099666642&doi=10.1016%2fj.cam.2021.113390&partnerID=40&md5=e8741144cb75e8fae12fa1c05b8271eb},<br>&nbsp;&nbsp;&nbsp;&nbsp;	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.cam.2021.113390}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Chajda_2022></a>[[1]](#cite-Chajda_2022) I. Chajda and H. Länger. “Implication in finite posets with pseudocomplemented sections”. In: _Soft Computing_ 26.13 (Apr. 2022), p. 5945–5953. ISSN: 1433-7479. DOI: [10.1007/s00500-022-07052-5](https://doi.org/10.1007%2Fs00500-022-07052-5). URL: [http://dx.doi.org/10.1007/s00500-022-07052-5](http://dx.doi.org/10.1007/s00500-022-07052-5).
+
+<a name=bib-Ojeda_Hernandez_2021></a>[[2]](#cite-Ojeda_Hernandez_2021) M. Ojeda-Hernandez, I. P. Cabrera, P. Cordero, et al. “On (fuzzy) closure systems in complete fuzzy lattices”. In: _2021 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2021, p. 1–6. DOI: [10.1109/fuzz45933.2021.9494404](https://doi.org/10.1109%2Ffuzz45933.2021.9494404). URL: [http://dx.doi.org/10.1109/fuzz45933.2021.9494404](http://dx.doi.org/10.1109/fuzz45933.2021.9494404).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[3]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure systems: Motivation, definition and properties”. In: _International Journal of Approximate Reasoning_ 148 (Sep. 2022), p. 151–161. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2022.06.004](https://doi.org/10.1016%2Fj.ijar.2022.06.004). URL: [http://dx.doi.org/10.1016/j.ijar.2022.06.004](http://dx.doi.org/10.1016/j.ijar.2022.06.004).
+
+<a name=bib-Ojeda_Hern_ndez_2023></a>[[4]](#cite-Ojeda_Hern_ndez_2023) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “On Pseudointents in Fuzzy Formal Concept Analysis”. In: _Graph-Based Representation and Reasoning_. Springer Nature Switzerland, 2023, p. 36–40. ISBN: 9783031409608. DOI: [10.1007/978-3-031-40960-8_4](https://doi.org/10.1007%2F978-3-031-40960-8_4). URL: [http://dx.doi.org/10.1007/978-3-031-40960-8_4](http://dx.doi.org/10.1007/978-3-031-40960-8_4).
+
+

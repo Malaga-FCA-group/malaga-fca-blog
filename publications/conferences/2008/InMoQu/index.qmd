@@ -1,0 +1,55 @@
+---
+author: Angel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez, Luis
+  Fernando López Anguita
+Status: Published
+date: '2008-01-01'
+slug: 2008/InMoQu
+title: Integration Of Moodle Quizzes
+categories: E-learning
+header_image: ~
+details: '{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands,
+  July 22-25, 2008. Proceedings, <em>pp. 45&ndash;52</em>'
+link: 2008-iadis/paper.pdf
+project: ''
+keywords: ''
+---
+
+
+# Abstract
+
+
+Moodle is one of the most extended Learning Management Systems and is based on the open source (GPL) licenseagreement. We summarize the advantages of the use of this environment and show our six-year experience with the toolsthat Moodle provide. It would be of interest that any exhaustively used tool, such as quizzes, could reuse the knowledgethat teachers store year after year in the Moodle database. In this work, a web-based tool allowing us to create, integrate,reuse and manipulate questions and quizzes is presented.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bonilla2008a></a>[[Bon+08]](#cite-Bonilla2008a) A. M. Bonilla, E. M. Casermeiro, D. López-Rodríguez, et al. “Integration Of Moodle Quizzes”. In: _IADIS International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings_. Ed. by M. B. Nunes and M. McPherson. IADIS, 2008, pp. 45-52.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Bonilla2008a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Angel Mora Bonilla and Enrique Mérida Casermeiro and Domingo López-Rodríguez and Luis Fernando López Anguita},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands, July 22-25, 2008. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Integration Of Moodle Quizzes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Miguel Baptista Nunes and Maggie McPherson},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {45--52},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IADIS}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iadis/BonillaCLA08.bib},<br>}
+
+:::
+
+
+
+
+
+
+
+
+

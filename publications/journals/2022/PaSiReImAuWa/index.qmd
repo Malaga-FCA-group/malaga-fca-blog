@@ -1,0 +1,78 @@
+---
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Vilem Vychodil
+Status: Published
+date: '2022-06-03'
+slug: 2022/PaSiReImAuWa
+title: 'Parameterized Simplification Logic: Reasoning With Implications in an Automated
+  Way'
+categories: Simplification logic
+header_image: ~
+details: <em>IEEE Transactions on Fuzzy Systems</em> vol 30 (12), 5534 - 5543
+doi: 10.1109/TFUZZ.2022.3179847
+project: ~
+keywords: Cognition; Semantics; Lattices; Syntactics; Fuzzy sets; Additives; Approximate
+  reasoning; completeness; data dependency; lattice theory; closure operator; fuzzy
+  if–then rules
+---
+
+
+# Abstract
+
+In this sequel to our previous article (Cordero et al., 2020) on general inference systems for reasoning with if–then dependencies, we study transformations of if–then rules to semantically equivalent collections of if–then rules suitable to solve several problems related to reasoning with data dependencies. We work in a framework of general lattice-based if–then rules whose semantics is parameterized by systems of isotone Galois connections. This framework allows us to obtain theoretical insight as well as algorithms on a general level and observe their special cases by choosing various types of parameterizations. This way, we study methods for automated reasoning with different types of if–then rules in a single framework that covers existing as well as novel types of rules. Our approach supports a large family of if–then rules, including fuzzy if–then rules with various types of semantics. The main results in this article include new observations on the syntactic inference of if–then rules, complete collections of rules, reduced normal forms of collections of rules, and automated reasoning methods. We demonstrate the generality of the framework and the results by examples of their particular cases focusing on fuzzy if–then rules.
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-9788064></a>[[Cor+22]](#cite-9788064) P. Cordero, M. Enciso, Á. Mora, et al. “Parameterized Simplification Logic: Reasoning With Implications in an Automated Way”. In: _IEEE Transactions on Fuzzy Systems_ 30.12 (2022), pp. 5534-5543. DOI: [10.1109/TFUZZ.2022.3179847](https://doi.org/10.1109%2FTFUZZ.2022.3179847).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@ARTICLE{9788064,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Cordero, Pablo and Enciso, Manuel and Mora, Ángel and Vychodil, Vilem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal={IEEE Transactions on Fuzzy Systems}, <br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Parameterized Simplification Logic: Reasoning With Implications in an Automated Way}, <br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume={30},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number={12},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={5534-5543},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords={Cognition;Semantics;Lattices;Syntactics;Finite element analysis;Fuzzy sets;Additives;Approximate reasoning;completeness;data dependency;lattice theory;closure operator;fuzzy if–then rules},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi={10.1109/TFUZZ.2022.3179847}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2024></a>[[1]](#cite-Cordero_2024) P. Cordero, M. Enciso, Á. Mora, et al. “Attribute implications with unknown information based on weak Heyting algebras”. In: _Fuzzy Sets and Systems_ 490 (Aug. 2024), p. 109026. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109026](https://doi.org/10.1016%2Fj.fss.2024.109026). URL: [http://dx.doi.org/10.1016/j.fss.2024.109026](http://dx.doi.org/10.1016/j.fss.2024.109026).
+
+

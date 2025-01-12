@@ -1,0 +1,56 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2004-09-01'
+slug: 2004/MuNeNeGrMaPr
+title: Multivalued Neural Network for Graph Maxcut Problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>International Congress of Computational Methods in Science and Engineering</em>
+  2004
+link: 2004-iccmse2/paper.pdf
+project: ~
+keywords: Neural networks, Combinatorial optimization, Graph problem
+---
+
+
+# Abstract
+
+
+In this paper we have used a multivalued neural model (MREM) in order to solve the maximum cut problem. A new technique, based in the problem, that allows to escape of certain bad local minima has been incorporated in order to improve the goodness of the obtained solutions. Finally, we have made some comparisons with other neural formulations for that problem obtaining better solutions in a reasonable time.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-merida2019multivalued></a>[[ML19]](#cite-merida2019multivalued) E. Mérida-Casermeiro and D. López-Rodríguez. “Multivalued neural network for graph maxcut problem”. In: _International Conference of Computational Methods in Sciences and Engineering 2004 (ICCMSE 2004)_. CRC Press. 2019, pp. 375-378.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{merida2019multivalued,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Multivalued neural network for graph maxcut problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Mérida-Casermeiro, E and López-Rodríguez, D},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={International Conference of Computational Methods in Sciences and Engineering 2004 (ICCMSE 2004)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={375--378},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={CRC Press}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

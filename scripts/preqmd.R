@@ -8,6 +8,14 @@ process_preqmd <- function(file) {
   header <- lines[seq(idx[1], idx[2])] |>
     yaml::yaml.load()
 
+  if (!is.null(header$doi)) {
+    if (nchar(header$doi) < 3) {
+      header$doi <- NULL
+    }
+  }
+
+  cli::cli_alert_info("Processing {.val {header$slug}}")
+
   body <- lines[-seq(idx[2])]
 
   pattern <- "\\{\\{.*\\}\\}"
@@ -42,7 +50,7 @@ process_preqmd <- function(file) {
 
   header$author <- process_authors(header$author)
 
-  print(header)
+  # print(header)
 
   cat("---\n", file = newfile)
   cat(yaml::as.yaml(header),
@@ -57,6 +65,8 @@ process_preqmd <- function(file) {
     file = newfile, sep = "\n",
     append = TRUE
   )
+
+  cli::cli_alert_success("Processed {.val {header$slug}}")
 }
 
 # Auxiliary functions
@@ -325,12 +335,37 @@ citation_of_work <- function(header, folder) {
   }
 }
 
+prepare_for_citations <- function(header, folder) {
+  if (!is.null(header$doi)) {
+    L <- get_citations_from_doi(header$doi)
+    if (!is.na(L$by_year)) {
+      citation_history <- L$by_year[[1]] |>
+        rlang::set_names(c("year", "cites"))
+      saveRDS(citation_history,
+        file = file.path(folder, "citation_history.rds")
+      )
+    }
+
+    if (!is.null(L$citations) && (L$citations[1] != "NULL")) {
+      cat(L$citations,
+        file = file.path(folder, "citations.txt"),
+        sep = "\n"
+      )
+    }
+  }
+
+  return(list(
+    inline = "",
+    header = list()
+  ))
+}
+
 citation_history <- function(header, folder) {
   this_file <- file.path(folder, "citation_history.rds")
 
   if (file.exists(this_file)) {
     string <- c(
-      "# Cites\n",
+      "# Bibliometric data\n\n## Cites\n",
       "The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n",
       "```{r citing2}", "#| echo: false", "#| results: asis",
       "#| warning: false", "#| message: false",
@@ -339,6 +374,25 @@ citation_history <- function(header, folder) {
       "plot_citation_history(df)",
       "```\n"
     ) |>
+      stringr::str_flatten("\n")
+
+    return(
+      list(
+        inline = string,
+        header = list()
+      )
+    )
+  } else {
+    nul_f(header, folder)
+  }
+}
+
+my_citations <- function(header, folder) {
+  this_file <- file.path(folder, "citations.txt")
+
+  if (file.exists(this_file)) {
+    txt <- brio::readLines(this_file)
+    string <- c("## Papers citing this work\n\nThe following is a non-exhaustive list of papers that cite this work:\n\n", txt) |>
       stringr::str_flatten("\n")
 
     return(
@@ -363,7 +417,9 @@ funs <- list(
   published_works = papers_of_project,
   funding = projects_of_paper,
   citation = citation_of_work,
-  citation_history = citation_history
+  prepare = prepare_for_citations,
+  citation_history = citation_history,
+  citations = my_citations
 )
 
 combine_lists <- function(input_list) {

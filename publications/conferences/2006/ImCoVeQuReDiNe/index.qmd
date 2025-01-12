@@ -1,0 +1,72 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro, Juan Miguel Ortiz-de-Lazcano-Lobato,
+  Ezequiel López-Rubio
+Status: Published
+date: '2006-09-01'
+slug: 2006/ImCoVeQuReDiNe
+title: Image Compression by Vector Quantization with Recurrent Discrete Networks
+categories:
+- Neural networks
+- Image processing
+header_image: ~
+details: Artificial Neural Networks - (ICANN) 2006, 16th International Conference,
+  Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4132), <em>pp. 595&ndash;605</em>
+doi: 10.1007/11840930_62
+link: 2006-icann1/paper.pdf
+project: ''
+keywords: Algorithms, Learning systems, Mathematical models, Recurrent neural networks,
+  Vector quantization, Classical algorithm, Hopfield's model, Sum-of-squares clustering,
+  Vector quantifier, Image compression
+---
+
+
+# Abstract
+
+
+In this work we propose a recurrent multivalued network, generalizing Hopfield's model, which can be interpreted as a vector quantifier. We explain the model and establish a relation between vector quantization and sum-of-squares clustering. To test the efficiency of this model as vector quantifier, we apply this new technique to image compression. Two well-known images are used as benchmark, allowing us to compare our model to standard competitive learning. In our simulations, our new technique clearly outperforms the classical algorithm for vector quantization, achieving not only a better distortion rate, but even reducing drastically the computational time. © Springer-Verlag Berlin Heidelberg 2006.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-LopezRodriguez2006a></a>[[Lóp+06]](#cite-LopezRodriguez2006a) D. López-Rodríguez, E. M. Casermeiro, J. M. Ortiz-de-Lazcano-Lobato, et al. “Image Compression by Vector Quantization with Recurrent Discrete Networks”. In: _Artificial Neural Networks - ICANN 2006, 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part II_. Ed. by S. D. Kollias, A. Stafylopatis, W. Duch and E. Oja. Vol. 4132. Lecture Notes in Computer Science. cited By 6; Conference of 16th International Conference on Artificial Neural Networks, ICANN 2006 ; Conference Date: 10 September 2006 Through 14 September 2006; Conference Code:68317. Athens: Springer, 2006, pp. 595-605. DOI: [10.1007/11840930_62](https://doi.org/10.1007%2F11840930_62). URL: [https://doi.org/10.1007/11840930_62](https://doi.org/10.1007/11840930_62).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{LopezRodriguez2006a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Domingo López-Rodríguez and Enrique Mérida Casermeiro and Juan Miguel Ortiz-de-Lazcano-Lobato and Ezequiel López-Rubio},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Artificial Neural Networks - {ICANN} 2006, 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part {II}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Image Compression by Vector Quantization with Recurrent Discrete Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Athens},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Stefanos D. Kollias and Andreas Stafylopatis and Wlodzislaw Duch and Erkki Oja},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 6; Conference of 16th International Conference on Artificial Neural Networks, ICANN 2006 ; Conference Date: 10 September 2006 Through 14 September 2006; Conference Code:68317},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {595--605},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4132},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this work we propose a recurrent multivalued network, generalizing Hopfield's model, which can be interpreted as a vector quantifier. We explain the model and establish a relation between vector quantization and sum-of-squares clustering. To test the efficiency of this model as vector quantifier, we apply this new technique to image compression. Two well-known images are used as benchmark, allowing us to compare our model to standard competitive learning. In our simulations, our new technique clearly outperforms the classical algorithm for vector quantization, achieving not only a better distortion rate, but even reducing drastically the computational time. © Springer-Verlag Berlin Heidelberg 2006.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icann/Lopez-RodriguezCOL06.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11840930_62},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Algorithms; Learning systems; Mathematical models; Recurrent neural networks; Vector quantization, Classical algorithm; Hopfield's model; Sum-of-squares clustering; Vector quantifier, Image compression},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11840930_62},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-L_pez_Rodr_guez_2009></a>[[1]](#cite-L_pez_Rodr_guez_2009) D. López-Rodríguez and E. Mérida-Casermeiro. “Shortest Common Superstring Problem with Discrete Neural Networks”. In: _Adaptive and Natural Computing Algorithms_. Springer Berlin Heidelberg, 2009, p. 62–71. ISBN: 9783642049217. DOI: [10.1007/978-3-642-04921-7_7](https://doi.org/10.1007%2F978-3-642-04921-7_7). URL: [http://dx.doi.org/10.1007/978-3-642-04921-7_7](http://dx.doi.org/10.1007/978-3-642-04921-7_7).
+
+<a name=bib-L_pez_Rodr_guez_2007></a>[[2]](#cite-L_pez_Rodr_guez_2007) D. López-Rodríguez, E. Mérida-Casermeiro, J. M. Ortíz-de-Lazcano-Lobato, et al. “K-Pages Graph Drawing with Multivalued Neural Networks”. In: _Artificial Neural Networks – ICANN 2007_. Springer Berlin Heidelberg, 2007, p. 816–825. ISBN: 9783540746959. DOI: [10.1007/978-3-540-74695-9_84](https://doi.org/10.1007%2F978-3-540-74695-9_84). URL: [http://dx.doi.org/10.1007/978-3-540-74695-9_84](http://dx.doi.org/10.1007/978-3-540-74695-9_84).
+
+<a name=bib-M_rida_Casermeiro_2008></a>[[3]](#cite-M_rida_Casermeiro_2008) E. Mérida-Casermeiro and D. López-Rodríguez. “Drawing Graphs in Parallel Lines with Artificial Neural Networks”. In: _2008 Eighth International Conference on Hybrid Intelligent Systems_. IEEE, Sep. 2008, p. 667–671. DOI: [10.1109/his.2008.89](https://doi.org/10.1109%2Fhis.2008.89). URL: [http://dx.doi.org/10.1109/his.2008.89](http://dx.doi.org/10.1109/his.2008.89).
+
+<a name=bib-M_rida_Casermeiro_2009></a>[[4]](#cite-M_rida_Casermeiro_2009) E. Mérida-Casermeiro, D. López-Rodríguez, and J. M. Ortiz-de-Lazcano-Lobato. “MREM, Discrete Recurrent Network for Optimization”. In: _Encyclopedia of Artificial Intelligence_. IGI Global, 2009, p. 1112–1120. DOI: [10.4018/978-1-59904-849-9.ch163](https://doi.org/10.4018%2F978-1-59904-849-9.ch163). URL: [http://dx.doi.org/10.4018/978-1-59904-849-9.ch163](http://dx.doi.org/10.4018/978-1-59904-849-9.ch163).
+
+

@@ -1,0 +1,61 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2005-11-01'
+slug: 2005/ItLeReUnClDiReNe
+title: Iterative Learning Reinforcement for Unsupervised Clustering with Discrete
+  Recurrent Networks
+categories:
+- Neural networks
+- Machine learning
+header_image: CAEPIA2005.png
+details: |
+  <em>XI Conferencia de la Asociación Española para la Inteligencia Artificial</em> 2005
+link: 2005-caepia/paper.pdf
+project: ~
+keywords: Neural networks, Clustering, Learning reinforcement
+---
+
+
+# Abstract
+
+
+In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters.
+
+This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships.
+
+As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-merida2005iterative></a>[[ML05]](#cite-merida2005iterative) E. Mérida-Casermeiro and D. López-Rodríguez. “Iterative Learning Reinforcement for Unsupervised Clustering with Discrete Recurrent Networks”. In: _XI Conferencia de la Asociación Española para la Inteligencia Artificial 2005_. AEPIA. 2005, pp. 61-70.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{merida2005iterative,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Iterative Learning Reinforcement for Unsupervised Clustering with Discrete Recurrent Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Mérida-Casermeiro, E. and López-Rodríguez, D.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={XI Conferencia de la Asociación Española para la Inteligencia Artificial 2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={61--70},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={AEPIA}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

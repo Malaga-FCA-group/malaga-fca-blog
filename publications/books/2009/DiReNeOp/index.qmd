@@ -1,0 +1,58 @@
+---
+author:
+- Enrique Mérida Casermeiro
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Juan Miguel Ortiz-de-Lazcano-Lobato
+Status: Published
+date: '2009-09-07'
+slug: 2009/DiReNeOp
+title: MREM, Discrete Recurrent Network for Optimization
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: 'Encyclopedia of Artificial Intelligence 2009: 1112-1120'
+link: 2009-mrem/paper.pdf
+project: ~
+keywords: ''
+---
+
+
+# Abstract
+
+
+Since McCulloch and Pitts’ seminal work (McCulloch & Pitts, 1943), several models of discrete neural networks have been proposed, many of them presenting the ability of assigning a discrete value (other than unipolar or bipolar) to the output of a single neuron. These models have focused on a wide variety of applications. One of the most important models was developed by J. Hopfield in (Hopfield, 1982), which has been successfully applied in fields such as pattern and image recognition and reconstruction (Sun et al., 1995), design of analogdigital circuits (Tank & Hopfield, 1986), and, above all, in combinatorial optimization (Hopfield & Tank, 1985) (Takefuji, 1992) (Takefuji & Wang, 1996), among others. The purpose of this work is to review some applications of multivalued neural models to combinatorial optimization problems, focusing specifically on the neural model MREM, since it includes many of the multivalued models in the specialized literature.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-CasermeiroLO09></a>[[CLO09]](#cite-CasermeiroLO09) E. M. Casermeiro, D. López-Rodríguez, and J. M. Ortiz-de-Lazcano-Lobato. “MREM, Discrete Recurrent Network for Optimization”. In: _Encyclopedia of Artificial Intelligence (3 Volumes)_. Ed. by J. R. Rabuñal, J. Dorado and A. Pazos. IGI Global, 2009, pp. 1112-1120. URL: [http://www.igi-global.com/Bookstore/Chapter.aspx?TitleId=10380](http://www.igi-global.com/Bookstore/Chapter.aspx?TitleId=10380).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@incollection{CasermeiroLO09,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Enrique Mérida Casermeiro and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Juan Miguel Ortiz{-}de{-}Lazcano{-}Lobato},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Juan R. Rabuñal and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Julian Dorado and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Alejandro Pazos},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {MREM, Discrete Recurrent Network for Optimization},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Encyclopedia of Artificial Intelligence {(3} Volumes)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {1112--1120},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IGI} Global},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {http://www.igi-global.com/Bookstore/Chapter.aspx?TitleId=10380}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

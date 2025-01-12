@@ -1,0 +1,107 @@
+---
+author:
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+Status: Published
+date: '2022-02-16T00:00:00Z'
+slug: 2022/SiImPoNeAp
+selected: yes
+title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based
+  Approach'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+header_image: ~
+details: <em>Mathematics, 10</em>(4) 607
+doi: 10.3390/math10040607
+link: 2022-mdpimathematics/PAPER.pdf
+project: 2019-flair
+keywords: Mixed attributes, Simplification Logic, Removal of redundancy
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+Concepts and implications are two facets of the knowledge contained within a binary relation between objects and attributes. Simplification logic (SL) has proved to be valuable for the study of attribute implications in a concept lattice, a topic of interest in the more general framework of formal concept analysis (FCA). Specifically, SL has become the kernel of automated methods to remove redundancy or obtain different types of bases of implications. Although originally FCA used only the positive information contained in the dataset, negative information (explicitly stating that an attribute does not hold) has been proposed by several authors, but without an adequate set of equivalence-preserving rules for simplification. In this work, we propose a mixed simplification logic and a method to automatically remove redundancy in implications, which will serve as a foundational standpoint for the automated reasoning methods for this extended framework.
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-math10040607></a>[[Pér+22]](#cite-math10040607) F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al. “Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: _Mathematics_ 10.4 (2022). ISSN: 2227-7390. DOI: [10.3390/math10040607](https://doi.org/10.3390%2Fmath10040607). URL: [https://www.mdpi.com/2227-7390/10/4/607](https://www.mdpi.com/2227-7390/10/4/607).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{math10040607,<br>&nbsp;&nbsp;&nbsp;&nbsp;AUTHOR = {Pérez-Gámez, Francisco and López-Rodríguez, Domingo and Cordero, Pablo and Mora, Ángel and Ojeda-Aciego, Manuel},<br>&nbsp;&nbsp;&nbsp;&nbsp;TITLE = {Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach},<br>&nbsp;&nbsp;&nbsp;&nbsp;JOURNAL = {Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;VOLUME = {10},<br>&nbsp;&nbsp;&nbsp;&nbsp;YEAR = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;NUMBER = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;ARTICLE-NUMBER = {607},<br>&nbsp;&nbsp;&nbsp;&nbsp;URL = {https://www.mdpi.com/2227-7390/10/4/607},<br>&nbsp;&nbsp;&nbsp;&nbsp;ISSN = {2227-7390},<br>&nbsp;&nbsp;&nbsp;&nbsp;ABSTRACT = {Concepts and implications are two facets of the knowledge contained within a binary relation between objects and attributes. Simplification logic (SL) has proved to be valuable for the study of attribute implications in a concept lattice, a topic of interest in the more general framework of formal concept analysis (FCA). Specifically, SL has become the kernel of automated methods to remove redundancy or obtain different types of bases of implications. Although originally FCA used only the positive information contained in the dataset, negative information (explicitly stating that an attribute does not hold) has been proposed by several authors, but without an adequate set of equivalence-preserving rules for simplification. In this work, we propose a mixed simplification logic and a method to automatically remove redundancy in implications, which will serve as a foundational standpoint for the automated reasoning methods for this extended framework.},<br>&nbsp;&nbsp;&nbsp;&nbsp;DOI = {10.3390/math10040607}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2024></a>[[1]](#cite-Antoni_2024) Ľ. Antoni, P. Eliaš, J. Guniš, et al. “Bimorphisms and attribute implications in heterogeneous formal contexts”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109245. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109245](https://doi.org/10.1016%2Fj.ijar.2024.109245). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109245](http://dx.doi.org/10.1016/j.ijar.2024.109245).
+
+<a name=bib-Chac_n_G_mez_2023></a>[[2]](#cite-Chac_n_G_mez_2023) F. Chacón-Gómez, M. E. Cornejo, and J. Medina. “Towards Confirmation Measures to Mixed Attribute Implications”. In: _Graph-Based Representation and Reasoning_. Springer Nature Switzerland, 2023, p. 193–196. ISBN: 9783031409608. DOI: [10.1007/978-3-031-40960-8_16](https://doi.org/10.1007%2F978-3-031-40960-8_16). URL: [http://dx.doi.org/10.1007/978-3-031-40960-8_16](http://dx.doi.org/10.1007/978-3-031-40960-8_16).
+
+<a name=bib-Chac_n_G_mez_2024></a>[[3]](#cite-Chac_n_G_mez_2024) F. Chacón-Gómez, M. E. Cornejo, J. Medina, et al. “Rough set decision algorithms for modeling with uncertainty”. In: _Journal of Computational and Applied Mathematics_ 437 (Feb. 2024), p. 115413. ISSN: 0377-0427. DOI: [10.1016/j.cam.2023.115413](https://doi.org/10.1016%2Fj.cam.2023.115413). URL: [http://dx.doi.org/10.1016/j.cam.2023.115413](http://dx.doi.org/10.1016/j.cam.2023.115413).
+
+<a name=bib-Liu_2024></a>[[4]](#cite-Liu_2024) J. Liu, J. Mi, and D. Niu. “A novel method for generating a canonical basis for decision implications based on object-induced three-way operators”. In: _Knowledge-Based Systems_ 283 (Jan. 2024), p. 111161. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2023.111161](https://doi.org/10.1016%2Fj.knosys.2023.111161). URL: [http://dx.doi.org/10.1016/j.knosys.2023.111161](http://dx.doi.org/10.1016/j.knosys.2023.111161).
+
+<a name=bib-Sokol_2023></a>[[5]](#cite-Sokol_2023) P. Sokol, Ľ. Antoni, O. Krídlo, et al. “Formal concept analysis approach to understand digital evidence relationships”. In: _International Journal of Approximate Reasoning_ 159 (Aug. 2023), p. 108940. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2023.108940](https://doi.org/10.1016%2Fj.ijar.2023.108940). URL: [http://dx.doi.org/10.1016/j.ijar.2023.108940](http://dx.doi.org/10.1016/j.ijar.2023.108940).
+
+<a name=bib-Xu_2023></a>[[6]](#cite-Xu_2023) J. Xu, C. Wu, J. Xu, et al. “Stream Convolution for Attribute Reduction of Concept Lattices”. In: _Mathematics_ 11.17 (Aug. 2023), p. 3739. ISSN: 2227-7390. DOI: [10.3390/math11173739](https://doi.org/10.3390%2Fmath11173739). URL: [http://dx.doi.org/10.3390/math11173739](http://dx.doi.org/10.3390/math11173739).
+
+

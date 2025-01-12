@@ -1,0 +1,101 @@
+---
+author:
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Carlos Criado
+Status: Published
+date: '2004-11-01T00:00:00Z'
+slug: 2004/PeSiDe
+title: A Pedagogical Simulation of Maxwell's Demon
+categories: E-learning
+header_image: ~
+details: <em>Journal of Chemical Education</em>, 81(11), pp. 1679
+doi: 10.1021/ed081p1679.2
+link: 2004-jce/paper.pdf
+project: ~
+keywords: Computer-based learning, Statistical mechanics
+---
+
+
+# Abstract
+
+
+This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-criado2004></a>[[LC04]](#cite-criado2004) D. López and C. Criado. “A Pedagogical Simulation of Maxwells Demon Paradox”. In: _Journal of Chemical Education_ 81.11 (2004), p. 1679. DOI: [10.1021/ed081p1679.2](https://doi.org/10.1021%2Fed081p1679.2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{criado2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {López, D. and Criado, C.},<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {A Pedagogical Simulation of Maxwells Demon Paradox},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {Journal of Chemical Education},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {81},<br>&nbsp;&nbsp;&nbsp;&nbsp;number = {11},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {1679},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {10.1021/ed081p1679.2},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract = { This program simulates, at the microscopic level, two gas chambers with an opening between them. The program allows users to set up simulations that illustrate the thermodynamics and statistical behavior of the system. The user determines the basis for whether the demon permits or denies passage of particles through the opening using information from the microscopic level. }<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Gelbart_2012></a>[[1]](#cite-Gelbart_2012) M. E. Gelbart. “Catching
+Education Up with Technology: Preparing the Public to Make Informed Choices about
+Personal Genetics”. In: _CBE—Life Sciences Education_ 11.1 (Mar. 2012), p. 1–2.
+ISSN: 1931-7913. DOI:
+[10.1187/cbe.11-10-0092](https://doi.org/10.1187%2Fcbe.11-10-0092). URL:
+[http://dx.doi.org/10.1187/cbe.11-10-0092](http://dx.doi.org/10.1187/cbe.11-10-0092).
+
+<a name=bib-George_2014></a>[[2]](#cite-George_2014) D. J. George and N. I.
+Hammer. “Studying the Binomial Distribution Using LabVIEW”. In: _Journal of
+Chemical Education_ 92.2 (Nov. 2014), p. 389–394. ISSN: 1938-1328. DOI:
+[10.1021/ed500684k](https://doi.org/10.1021%2Fed500684k). URL:
+[http://dx.doi.org/10.1021/ed500684k](http://dx.doi.org/10.1021/ed500684k).
+
+<a name=bib-Iyengar_2013></a>[[3]](#cite-Iyengar_2013) S. S. Iyengar and R. T.
+deSouza. “Teaching Thermodynamics and Kinetics to Advanced General Chemistry
+Students and to Upper-Level Undergraduate Students Using PV Diagrams”. In:
+_Journal of Chemical Education_ 91.1 (Nov. 2013), p. 74–83. ISSN: 1938-1328. DOI:
+[10.1021/ed400480t](https://doi.org/10.1021%2Fed400480t). URL:
+[http://dx.doi.org/10.1021/ed400480t](http://dx.doi.org/10.1021/ed400480t).
+
+<a name=bib-Mayorga_2012></a>[[4]](#cite-Mayorga_2012) L. S. Mayorga, M. J. López,
+and W. M. Becker. “Molecular Thermodynamics for Cell Biology as Taught with
+Boxes”. In: _CBE—Life Sciences Education_ 11.1 (Mar. 2012). Ed. by J. R. Jungck,
+p. 31–38. ISSN: 1931-7913. DOI:
+[10.1187/cbe.11-07-0053](https://doi.org/10.1187%2Fcbe.11-07-0053). URL:
+[http://dx.doi.org/10.1187/cbe.11-07-0053](http://dx.doi.org/10.1187/cbe.11-07-0053).
+
+

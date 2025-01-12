@@ -1,0 +1,80 @@
+---
+author: Manuel Ojeda-Hernández, Domingo López-Rodríguez, Ángel Mora, Pablo Cordero
+Status: Published
+date: '2022-07-04T00:00:00Z'
+slug: 2022/MiFuCoLa
+title: Mining Fuzzy Concept Lattices
+categories: Formal concept analysis
+header_image: ~
+details: the <em>22nd International Conference on Computational and Mathematical Methods
+  in Science and Engineering 2022</em>
+link: 2022-cmmse/paper.pdf
+project: 2019-flair
+cite: no
+keywords: Formal concept analysis, Concept lattice, Algorithms
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+One of the ways to represent the implicit knowledge in a binary dataset
+  under the paradigm of Formal Concept Analysis is the concept lattice. This lattice
+  allows describing a hierarchical biclustering between objects and attributes of
+  a formal context. Concepts are the fixed points of a Galois connection, describing
+  a closure system. In practice, the computation of such lattice presents a high complexity,
+  the number of concepts can be exponential in the size of the input context. Therefore,
+  there is interest in developing new algorithms that take advantage of the lattice
+  structure to efficiently compute the concept set. Thus, many algorithms have been
+  proposed to compute the concept lattice in this binary setting in the last years.
+  To avoid the complete enumeration of subsets to check which of them are closed,
+  some pruning strategies have been proposed. For example, the NextClosure algorithm
+  defines a lectic order in which to explore closed sets. Other strategies are based
+  on a recursive tree search accompanied by canonicity tests that allow a more efficient
+  exploration. Those based on the CbO strategy, such as FastCbO (FCbO), or InClose
+  stand out. It is possible to extend this framework to take into account the different
+  degrees to which an attribute could be present in an object. Through this extension,
+  it is possible to model fuzzy situations where the attribute is not 100% present
+  in an object, giving flexibility to the model. In this paper, we extend the previous
+  algorithms for the calculation of the fuzzy concept lattice. We show how the InClose
+  family of algorithms can be extended from the binary setting to the fuzzy one, detailing
+  the differences and how new canonicity tests can be employed in order to reduce
+  the computational cost of determining the set of concepts. We show that these new
+  algorithms can compete with the state of the art in terms of execution time and
+  in number of operations performed. These algorithms may open a new research line
+  in which optimised algorithms can be deduced and built ad hoc for the computation
+  of the fuzzy concept lattice.
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

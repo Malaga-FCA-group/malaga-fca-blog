@@ -1,0 +1,47 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2008-09-10'
+slug: 2008/DrGrPaLiArNeNe
+title: Drawing Graphs in Parallel Lines with Artificial Neural Networks
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: HIS2008.png
+details: 'Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008:
+  667-671'
+doi: 10.1109/his.2008.89
+link: 2008-his2/paper.pdf
+project: ~
+keywords: Drawing (graphics), Graph theory, Heuristic methods, Image classification,
+  Intelligent control, Intelligent systems, Problem solving, Recurrent neural networks,
+  Vegetation, Artificial neural networks, Discrete vectors, Experimental simulations,
+  Heuristic approaches, Neural models, Of graphs, Optimization problems, Parallel
+  lines, Neural networks
+---
+
+# Abstract
+
+
+COVID data are usually presented in a non-structured format and mainly focused on healthy issues (incidence, mortality, etc). At the same time, Governments have designed a set of measures to deal with the Pandemic. In addition, several institutions have studied the economical effects of the situation in each country. In this work, we combine these three data sources and  illustrate how Formal Concept Analysis can become a useful tool to discover relationships among these three views of the situation: health, politics and economy. Our aim is to provide an implication-driven approach to discover knowledge behind the data.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

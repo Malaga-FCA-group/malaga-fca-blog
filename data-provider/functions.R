@@ -10,7 +10,6 @@ generate_publication_preqmd <- function(
     project,
     keywords,
     abstract) {
-
   author <- author |>
     stringr::str_split_1("\\s*,\\s*")
 
@@ -21,11 +20,8 @@ generate_publication_preqmd <- function(
     stringr::str_flatten("\n")
 
   if (is.null(project)) {
-
     projects <- "~"
-
   } else {
-
     projects <- glue::glue(
       "  - {project}",
       .trim = FALSE
@@ -35,21 +31,22 @@ generate_publication_preqmd <- function(
       "\n{projects}\n",
       .trim = FALSE
     )
-
   }
 
   categories <- categories |>
     stringr::str_flatten_comma()
 
-  slug <- c(lubridate::year(date),
-            "-",
-            author |>
-              stringr::str_extract_all("[A-Z]") |>
-              lapply(\(x) paste0(stringr::str_flatten(x), "-")) |>
-              unlist() |>
-              stringr::str_flatten(),
-            title |>
-              stringr::str_extract("[a-zA-Z]*")) |>
+  slug <- c(
+    date,
+    "-",
+    author |>
+      stringr::str_extract_all("[A-Z]") |>
+      lapply(\(x) paste0(stringr::str_flatten(x), "-")) |>
+      unlist() |>
+      stringr::str_flatten(),
+    title |>
+      stringr::str_extract("[a-zA-Z]*")
+  ) |>
     stringr::str_flatten()
 
   assign("slug", slug, envir = globalenv())
@@ -85,10 +82,10 @@ generate_publication_preqmd <- function(
   cat("\n\n# Abstract\n\n", file = new_file, append = TRUE)
   cat(abstract, file = new_file, append = TRUE)
   cat("\n\n{{funding}}\n\n{{citation_history}}\n\n{{citation}}",
-      file = new_file, append = TRUE)
+    file = new_file, append = TRUE
+  )
 
   return(list(file = new_file, slug = slug))
-
 }
 
 # Generate preqmd for projects
@@ -104,7 +101,6 @@ generate_project_preqmd <- function(
     header_image = NULL,
     path,
     abstract) {
-
   author_v <- author |>
     stringr::str_split_1("\\s*,\\s*")
 
@@ -127,8 +123,9 @@ generate_project_preqmd <- function(
 
   assign("slug", slug, envir = globalenv())
 
-  if (is.null(header_image))
+  if (is.null(header_image)) {
     header_image <- "~"
+  }
 
   str <- glue::glue(
     "title: '{title}'\n",
@@ -152,41 +149,41 @@ generate_project_preqmd <- function(
   cat(str, file = new_file, append = TRUE)
   cat("---\n\n", file = new_file, append = TRUE)
   cat("\n\n# Abstract\n\n", file = new_file, append = TRUE)
-  cat(abstract, file = new_file,
-      append = TRUE)
+  cat(abstract,
+    file = new_file,
+    append = TRUE
+  )
 
   cat(
     glue::glue("\n\n# Members\n\n**Principal investigator(s)**: {author}.\n\n", .trim = FALSE),
     file = new_file,
-    append = TRUE)
+    append = TRUE
+  )
 
   if (stringr::str_length(members) > 0) {
-
     cat(
       glue::glue("**Investigator(s)**: {members}.\n\n", .trim = FALSE),
       file = new_file,
-      append = TRUE)
-
+      append = TRUE
+    )
   }
 
   if (stringr::str_length(collaborators) > 0) {
-
     cat(
       glue::glue("**Collaborator(s)**: {collaborators}.\n\n", .trim = FALSE),
       file = new_file,
-      append = TRUE)
-
+      append = TRUE
+    )
   }
 
   cat(glue::glue("# How to acknowledge\n\nPlease, use the reference {reference} in all published works funded by this project.\n\n", .trim = FALSE),
-      file = new_file,
-      append = TRUE)
+    file = new_file,
+    append = TRUE
+  )
 
   cat("\n\n{{published_works}}\n\n",
-      file = new_file, append = TRUE)
+    file = new_file, append = TRUE
+  )
 
   return(list(file = new_file, slug = slug))
-
 }
-
-

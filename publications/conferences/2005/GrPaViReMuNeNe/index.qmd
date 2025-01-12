@@ -1,0 +1,91 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2005-01-01'
+slug: 2005/GrPaViReMuNeNe
+title: Graph Partitioning via Recurrent Multivalued Neural Networks
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: International Work-Conference on Artificial Neural Networks (IWANN) 2005,
+  Lecture Notes in Computer Science, (3512), <em>pp. 1149&ndash;1156</em>
+doi: 10.1007/11494669_141
+link: 2005-iwann1/paper.pdf
+project: ''
+keywords: Algorithms, Computational methods, Computer simulation, Graph theory, Optimization,
+  Problem solving, Computational time, Graph partitioning, Optimization problems,
+  Neural networks
+---
+
+
+# Abstract
+
+
+In this work, the well-known Graph Partitioning (GP) problem for undirected weighted graphs has been studied from two points of view: maximizing (MaxCut) or minimizing (MinCut) the cost of the cut induced in the graph by the partition. An unified model, based on a neural technique for optimization problems, has been applied to these two concrete problems. A detailed description of the model is presented, and the technique to minimize an energy function, that measures the goodness of solutions, is fully described. Some techniques to escape from local optima are presented as well. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Casermeiro2005a></a>[[CL05]](#cite-Casermeiro2005a) E. M. Casermeiro and D. López-Rodríguez. “Graph Partitioning via Recurrent Multivalued Neural Networks”. In: _Computational Intelligence and Bioinspired Systems, 8th International Work-Conference on Artificial Neural Networks, IWANN 2005, Vilanova i la Geltrú, Barcelona, Spain, June 8-10, 2005, Proceedings_. Ed. by J. Cabestany, A. Prieto and F. S. Hernández. Vol. 3512. Lecture Notes in Computer Science. Vilanova i la Geltru: Springer, 2005, pp. 1149-1156. DOI: [10.1007/11494669_141](https://doi.org/10.1007%2F11494669_141). URL: [https://doi.org/10.1007/11494669\_141](https://doi.org/10.1007/11494669\_141).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Casermeiro2005a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Enrique Mérida Casermeiro and Domingo López-Rodríguez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Computational Intelligence and Bioinspired Systems, 8th International Work-Conference on Artificial Neural Networks, {IWANN} 2005, Vilanova i la Geltrú, Barcelona, Spain, June 8-10, 2005, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Graph Partitioning via Recurrent Multivalued Neural Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Vilanova i la Geltru},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Joan Cabestany and Alberto Prieto and Francisco Sandoval Hernández},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1149--1156},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3512},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this work, the well-known Graph Partitioning (GP) problem for undirected weighted graphs has been studied from two points of view: maximizing (MaxCut) or minimizing (MinCut) the cost of the cut induced in the graph by the partition. An unified model, based on a neural technique for optimization problems, has been applied to these two concrete problems. A detailed description of the model is presented, and the technique to minimize an energy function, that measures the goodness of solutions, is fully described. Some techniques to escape from local optima are presented as well. It has proved to be a very competitive and efficient algorithm, in terms of quality of solutions and computational time, when compared to the state-of-the-art methods. Some simulation results are presented in this paper, to show the comparative efficiency of the methods. © Springer-Verlag Berlin Heidelberg 2005.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/CasermeiroL05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11494669_141},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Algorithms; Computational methods; Computer simulation; Graph theory; Optimization; Problem solving, Computational time; Graph partitioning; Optimization problems, Neural networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:51 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11494669\_141},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Ansari_2016></a>[[1]](#cite-Ansari_2016) M. S. Ansari. “A Voltage-Mode Nonlinear-Synapse Neural Circuit for Bi-partitioning of Graphs”. In: _Proceedings of the International Conference on Recent Cognizance in Wireless Communication &amp; Image Processing_. Springer India, 2016, p. 151–157. ISBN: 9788132226383. DOI: [10.1007/978-81-322-2638-3_17](https://doi.org/10.1007%2F978-81-322-2638-3_17). URL: [http://dx.doi.org/10.1007/978-81-322-2638-3_17](http://dx.doi.org/10.1007/978-81-322-2638-3_17).
+
+<a name=bib-L_pez_Rodr_guez_2009></a>[[2]](#cite-L_pez_Rodr_guez_2009) D. López-Rodríguez and E. Mérida-Casermeiro. “Shortest Common Superstring Problem with Discrete Neural Networks”. In: _Adaptive and Natural Computing Algorithms_. Springer Berlin Heidelberg, 2009, p. 62–71. ISBN: 9783642049217. DOI: [10.1007/978-3-642-04921-7_7](https://doi.org/10.1007%2F978-3-642-04921-7_7). URL: [http://dx.doi.org/10.1007/978-3-642-04921-7_7](http://dx.doi.org/10.1007/978-3-642-04921-7_7).
+
+<a name=bib-L_pez_Rodr_guez_2007></a>[[3]](#cite-L_pez_Rodr_guez_2007) D. López-Rodríguez, E. Mérida-Casermeiro, J. M. Ortíz-de-Lazcano-Lobato, et al. “K-Pages Graph Drawing with Multivalued Neural Networks”. In: _Artificial Neural Networks – ICANN 2007_. Springer Berlin Heidelberg, 2007, p. 816–825. ISBN: 9783540746959. DOI: [10.1007/978-3-540-74695-9_84](https://doi.org/10.1007%2F978-3-540-74695-9_84). URL: [http://dx.doi.org/10.1007/978-3-540-74695-9_84](http://dx.doi.org/10.1007/978-3-540-74695-9_84).
+
+<a name=bib-Luque_2008></a>[[4]](#cite-Luque_2008) R. Luque, D. López-Rodríguez, E. Mérida-Casermeiro, et al. “Video Object Segmentation with Multivalued Neural Networks”. In: _2008 Eighth International Conference on Hybrid Intelligent Systems_. IEEE, Sep. 2008, p. 613–618. DOI: [10.1109/his.2008.130](https://doi.org/10.1109%2Fhis.2008.130). URL: [http://dx.doi.org/10.1109/his.2008.130](http://dx.doi.org/10.1109/his.2008.130).
+
+<a name=bib-M_rida_Casermeiro_2008></a>[[5]](#cite-M_rida_Casermeiro_2008) E. Mérida-Casermeiro and D. López-Rodríguez. “Drawing Graphs in Parallel Lines with Artificial Neural Networks”. In: _2008 Eighth International Conference on Hybrid Intelligent Systems_. IEEE, Sep. 2008, p. 667–671. DOI: [10.1109/his.2008.89](https://doi.org/10.1109%2Fhis.2008.89). URL: [http://dx.doi.org/10.1109/his.2008.89](http://dx.doi.org/10.1109/his.2008.89).
+
+<a name=bib-M_rida_Casermeiro_2009></a>[[6]](#cite-M_rida_Casermeiro_2009) E. Mérida-Casermeiro, D. López-Rodríguez, and J. Ortiz-de-Lazcano-Lobato. “An Approach to Artificial Concept Learning Based on Human Concept Learning by Using Artificial Neural Networks”. In: _Advancing Artificial Intelligence through Biological Process Applications_. IGI Global, 2009, p. 130–145. DOI: [10.4018/978-1-59904-996-0.ch008](https://doi.org/10.4018%2F978-1-59904-996-0.ch008). URL: [http://dx.doi.org/10.4018/978-1-59904-996-0.ch008](http://dx.doi.org/10.4018/978-1-59904-996-0.ch008).
+
+<a name=bib-M_rida_Casermeiro_20091></a>[[7]](#cite-M_rida_Casermeiro_20091) E. Mérida-Casermeiro, D. López-Rodríguez, and J. M. Ortiz-de-Lazcano-Lobato. “MREM, Discrete Recurrent Network for Optimization”. In: _Encyclopedia of Artificial Intelligence_. IGI Global, 2009, p. 1112–1120. DOI: [10.4018/978-1-59904-849-9.ch163](https://doi.org/10.4018%2F978-1-59904-849-9.ch163). URL: [http://dx.doi.org/10.4018/978-1-59904-849-9.ch163](http://dx.doi.org/10.4018/978-1-59904-849-9.ch163).
+
+

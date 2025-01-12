@@ -1,0 +1,101 @@
+---
+title: Fuzzy closure structures as formal concepts
+type: journals
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2023-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+doi: 10.1016/j.fss.2022.12.014
+slug: 2023/FuClStFoCo
+keywords: ''
+project: 2019-flair
+details: 'Fuzzy Sets Syst. 463: 108458'
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+
+# Abstract
+
+Galois connections seem to be ubiquitous in mathematics. They have been used to model solutions for both pure and application-oriented problems. Throughout the paper, the general framework is a complete fuzzy lattice over a complete residuated lattice. The existence of three fuzzy Galois connections (two antitone and one isotone) between three specific ordered sets is proved in this paper. The most interesting part is that fuzzy closure systems, fuzzy closure operators and strong fuzzy closure relations are formal concepts of these fuzzy Galois connections.
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Ojeda-Hernndez2023></a>[[Oje+23]](#cite-Ojeda-Hernndez2023) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure structures as formal concepts”. In: _Fuzzy Sets and Systems_ 463 (2023). Cited by: 6; All Open Access, Green Open Access, Hybrid Gold Open Access. DOI: [10.1016/j.fss.2022.12.014](https://doi.org/10.1016%2Fj.fss.2022.12.014). URL: [https://www.scopus.com/inward/record.uri?eid=2-s2.0-85145982725&doi=10.1016
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@ARTICLE{Ojeda-Hernández2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;	author = {Ojeda-Hernández, Manuel and Cabrera, Inma P. and Cordero, Pablo and Muñoz-Velasco, Emilio},<br>&nbsp;&nbsp;&nbsp;&nbsp;	title = {Fuzzy closure structures as formal concepts},<br>&nbsp;&nbsp;&nbsp;&nbsp;	year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;	journal = {Fuzzy Sets and Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp;	volume = {463},<br>&nbsp;&nbsp;&nbsp;&nbsp;	doi = {10.1016/j.fss.2022.12.014},<br>&nbsp;&nbsp;&nbsp;&nbsp;	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85145982725&doi=10.1016%2fj.fss.2022.12.014&partnerID=40&md5=4b37584d1536d8a88466d1dbb3d70b10},<br>&nbsp;&nbsp;&nbsp;&nbsp;	type = {Article},<br>&nbsp;&nbsp;&nbsp;&nbsp;	publication_stage = {Final},<br>&nbsp;&nbsp;&nbsp;&nbsp;	source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;	note = {Cited by: 6; All Open Access, Green Open Access, Hybrid Gold Open Access}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Arag_n_20241></a>[[1]](#cite-Arag_n_20241) R. G. Aragón, J. Medina, and S. Molina-Ruiz. “The Notion of Bond in the Multi-adjoint Concept Lattice Framework”. In: _Advances in Artificial Intelligence_. Springer Nature Switzerland, 2024, p. 243–253. ISBN: 9783031627996. DOI: [10.1007/978-3-031-62799-6_25](https://doi.org/10.1007%2F978-3-031-62799-6_25). URL: [http://dx.doi.org/10.1007/978-3-031-62799-6_25](http://dx.doi.org/10.1007/978-3-031-62799-6_25).
+
+<a name=bib-Arag_n_2024></a>[[2]](#cite-Arag_n_2024) R. G. Aragón, J. Medina, and E. Ramírez-Poussa. “Factorizing formal contexts from closures of necessity operators”. In: _Computational and Applied Mathematics_ 43.3 (Mar. 2024). ISSN: 1807-0302. DOI: [10.1007/s40314-024-02590-0](https://doi.org/10.1007%2Fs40314-024-02590-0). URL: [http://dx.doi.org/10.1007/s40314-024-02590-0](http://dx.doi.org/10.1007/s40314-024-02590-0).
+
+<a name=bib-Cornejo_2024></a>[[3]](#cite-Cornejo_2024) M. E. Cornejo, J. Medina, and F. J. Ocaña. “Attribute implications in multi-adjoint concept lattices with hedges”. In: _Fuzzy Sets and Systems_ 479 (Mar. 2024), p. 108854. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108854](https://doi.org/10.1016%2Fj.fss.2023.108854). URL: [http://dx.doi.org/10.1016/j.fss.2023.108854](http://dx.doi.org/10.1016/j.fss.2023.108854).
+
+<a name=bib-Dubois_2025></a>[[4]](#cite-Dubois_2025) D. Dubois, J. Medina, and H. Prade. “Extracting attribute implications from a formal context: Unifying the basic approaches”. In: _Information Sciences_ 689 (Jan. 2025), p. 121419. ISSN: 0020-0255. DOI: [10.1016/j.ins.2024.121419](https://doi.org/10.1016%2Fj.ins.2024.121419). URL: [http://dx.doi.org/10.1016/j.ins.2024.121419](http://dx.doi.org/10.1016/j.ins.2024.121419).
+
+<a name=bib-Ojeda_Hern_ndez_2023></a>[[5]](#cite-Ojeda_Hern_ndez_2023) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure structures as formal concepts II”. In: _Fuzzy Sets and Systems_ 473 (Dec. 2023), p. 108734. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108734](https://doi.org/10.1016%2Fj.fss.2023.108734). URL: [http://dx.doi.org/10.1016/j.fss.2023.108734](http://dx.doi.org/10.1016/j.fss.2023.108734).
+
+<a name=bib-Ojeda_Hern_ndez_20231></a>[[6]](#cite-Ojeda_Hern_ndez_20231) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “On the Commutative Diagrams Among Galois Connections Involved in Closure Structures”. In: _Formal Concept Analysis_. Springer Nature Switzerland, 2023, p. 49–63. ISBN: 9783031359491. DOI: [10.1007/978-3-031-35949-1_4](https://doi.org/10.1007%2F978-3-031-35949-1_4). URL: [http://dx.doi.org/10.1007/978-3-031-35949-1_4](http://dx.doi.org/10.1007/978-3-031-35949-1_4).
+
+

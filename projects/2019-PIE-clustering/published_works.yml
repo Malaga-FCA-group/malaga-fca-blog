@@ -4,14 +4,14 @@
   date: 2020-07-22
   categories: [E-learning, Formal concept analysis]
   description: 'IADIS International Conference e-Learning 2020 (part of MCCSIS 2020)'
-  path: /publications/conferences/2020-e-learning
+  path: /publications/2020/2020/UsFoCoAnExHiKnAsMaCo
 - title: 'Using Logic to Determine Key Items in Math Education'
   author: 
   - Manuel Ojeda-Hernández, Francisco Pérez-Gámez, Ángel Mora Bonilla, Domingo López-Rodríguez
   date: 2021-07-20
   categories: [E-learning, Formal concept analysis, Fuzzy logic]
   description: 'IADIS International Conference e-Learning 2021 (part of MCCSIS 2021)'
-  path: /publications/conferences/2021-e-learning
+  path: /publications/2021/2021/UsLoDeKeItMaEd
 - title: 'Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course'
   author: 
   - manuojeda
@@ -22,4 +22,4 @@
   date: 2022-08-09T00:00:00Z
   categories: [Formal concept analysis, Fuzzy logic, E-learning]
   description: '<em>International Journal of Computational Intelligence Systems</em>, 15:58'
-  path: /publications/journals/2022-ijcis
+  path: /publications/2022/2022/MiGePoNeAnKnSpMaCo

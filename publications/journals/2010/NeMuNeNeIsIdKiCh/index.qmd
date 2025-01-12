@@ -1,0 +1,120 @@
+---
+author:
+- Gloria Galán Marín
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Enrique Mérida Casermeiro
+Status: Published
+date: '2010-03-01T00:00:00Z'
+slug: 2010/NeMuNeNeIsIdKiCh
+title: A New Multivalued Neural Network for Isomorphism Identification of Kinematic
+  Chains
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: header.png
+details: '<em>Journal of Computing and Information Science in Engineering</em> 10(1) '
+doi: 10.1115/1.3330427
+link: 2010-isomorphism/paper.pdf
+project: ~
+keywords: ''
+---
+
+
+# Abstract
+
+
+A lot of methods have been proposed for the kinematic chain isomorphism problem. However, the tool is still needed in building intelligent systems for product design and manufacturing. In this paper, we design a novel multivalued neural network that enables a simplified formulation of the graph isomorphism problem. In order to improve the performance of the model, an additional constraint on the degree of paired vertices is imposed. The resulting discrete neural algorithm converges rapidly under any set of initial conditions and does not need parameter tuning. Simulation results show that the proposed multivalued neural network performs better than other recently presented approaches.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-MarinLC10></a>[[MLC10]](#cite-MarinLC10) G. G. Marín, D. López-Rodríguez, and E. M. Casermeiro. “A New Multivalued Neural Network for Isomorphism Identification of Kinematic Chains”. In: _J. Comput. Inf. Sci. Eng._ 10.1 (2010). DOI: [10.1115/1.3330427](https://doi.org/10.1115%2F1.3330427). URL: [https://doi.org/10.1115/1.3330427](https://doi.org/10.1115/1.3330427).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{MarinLC10,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Gloria Galán Marín and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Enrique Mérida Casermeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {A New Multivalued Neural Network for Isomorphism Identification of<br>&nbsp;&nbsp;&nbsp;&nbsp;               Kinematic Chains},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal   = {J. Comput. Inf. Sci. Eng.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {10},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number    = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1115/1.3330427},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1115/1.3330427},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 21 Jan 2021 17:35:20 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/journals/jcise/MarinLC10.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Dewangan_2024></a>[[1]](#cite-Dewangan_2024) K. Dewangan and P. Prajapati. “Detection of Isomorphism and Inversions of Kinematic Chains Using an Evolutionary Approach”. In: _Recent Advances in Machines, Mechanisms, Materials and Design_. Springer Nature Singapore, 2024, p. 105–132. ISBN: 9789819754236. DOI: [10.1007/978-981-97-5423-6_9](https://doi.org/10.1007%2F978-981-97-5423-6_9). URL: [http://dx.doi.org/10.1007/978-981-97-5423-6_9](http://dx.doi.org/10.1007/978-981-97-5423-6_9).
+
+<a name=bib-Eleashy_2018></a>[[2]](#cite-Eleashy_2018) H. Eleashy. “A new atlas for 8-bar kinematic chains with up to 3 prismatic pairs using Joint Sorting Code”. In: _Mechanism and Machine Theory_ 124 (Jun. 2018), p. 118–132. ISSN: 0094-114X. DOI: [10.1016/j.mechmachtheory.2018.02.006](https://doi.org/10.1016%2Fj.mechmachtheory.2018.02.006). URL: [http://dx.doi.org/10.1016/j.mechmachtheory.2018.02.006](http://dx.doi.org/10.1016/j.mechmachtheory.2018.02.006).
+
+<a name=bib-Gao_2013></a>[[3]](#cite-Gao_2013) S. Gao, S. Zhang, X. Chen, et al. “A framework for collaborative top-down assembly design”. In: _Computers in Industry_ 64.8 (Oct. 2013), p. 967–983. ISSN: 0166-3615. DOI: [10.1016/j.compind.2013.05.007](https://doi.org/10.1016%2Fj.compind.2013.05.007). URL: [http://dx.doi.org/10.1016/j.compind.2013.05.007](http://dx.doi.org/10.1016/j.compind.2013.05.007).
+
+<a name=bib-He_2019></a>[[4]](#cite-He_2019) L. He, F. Liu, L. Sun, et al. “Isomorphic identification for kinematic chains using variable high-order adjacency link values”. In: _Journal of Mechanical Science and Technology_ 33.10 (Oct. 2019), p. 4899–4907. ISSN: 1976-3824. DOI: [10.1007/s12206-019-0930-9](https://doi.org/10.1007%2Fs12206-019-0930-9). URL: [http://dx.doi.org/10.1007/s12206-019-0930-9](http://dx.doi.org/10.1007/s12206-019-0930-9).
+
+<a name=bib-Helal_2021></a>[[5]](#cite-Helal_2021) M. Helal, J. W. Hu, and H. Eleashy. “A New Algorithm for Unique Representation and Isomorphism Detection of Planar Kinematic Chains with Simple and Multiple Joints”. In: _Processes_ 9.4 (Mar. 2021), p. 601. ISSN: 2227-9717. DOI: [10.3390/pr9040601](https://doi.org/10.3390%2Fpr9040601). URL: [http://dx.doi.org/10.3390/pr9040601](http://dx.doi.org/10.3390/pr9040601).
+
+<a name=bib-Helal_20211></a>[[6]](#cite-Helal_20211) M. Helal, J. W. Hu, and H. Eleashy. “Automatic Generation of N-Bar Planar Linkages Containing Sliders”. In: _Applied Sciences_ 11.8 (Apr. 2021), p. 3546. ISSN: 2076-3417. DOI: [10.3390/app11083546](https://doi.org/10.3390%2Fapp11083546). URL: [http://dx.doi.org/10.3390/app11083546](http://dx.doi.org/10.3390/app11083546).
+
+<a name=bib-Liu_2020></a>[[7]](#cite-Liu_2020) X. Liu, H. Gui, X. Liu, et al. “Tree Structure Representation and Isomorphism Identification of Assur Groups”. In: _Proceedings of the 2020 3rd International Conference on E-Business, Information Management and Computer Science_. EBIMCS 2020. ACM, Dec. 2020, p. 431–436. DOI: [10.1145/3453187.3453373](https://doi.org/10.1145%2F3453187.3453373). URL: [http://dx.doi.org/10.1145/3453187.3453373](http://dx.doi.org/10.1145/3453187.3453373).
+
+<a name=bib-Lohumi_2012></a>[[8]](#cite-Lohumi_2012) M. K. Lohumi, A. Mohammad, and I. A. Khan. “Hierarchical clustering approach for determination of isomorphism among planar kinematic chains and their derived mechanisms”. In: _Journal of Mechanical Science and Technology_ 26.12 (Dec. 2012), p. 4041–4046. ISSN: 1976-3824. DOI: [10.1007/s12206-012-0902-9](https://doi.org/10.1007%2Fs12206-012-0902-9). URL: [http://dx.doi.org/10.1007/s12206-012-0902-9](http://dx.doi.org/10.1007/s12206-012-0902-9).
+
+<a name=bib-Pan_2023></a>[[9]](#cite-Pan_2023) W. Pan and R. Li. “The Equivalent Mechanical Model of Topological Graphs and the Isomorphism Identification of Kinematic Chains”. In: _Journal of Mechanisms and Robotics_ 16.7 (Nov. 2023). ISSN: 1942-4310. DOI: [10.1115/1.4063869](https://doi.org/10.1115%2F1.4063869). URL: [http://dx.doi.org/10.1115/1.4063869](http://dx.doi.org/10.1115/1.4063869).
+
+<a name=bib-__2014></a>[[10]](#cite-__2014) .. S.R.Madan. “IDENTIFICATION OF ISOMORPHISM AND DETECTION OF DISTINCT MECHANISM OF KINEMATIC CHAINS USING INVARIENT LABELING OF LINKS”. In: _International Journal of Research in Engineering and Technology_ 03.01 (Jan. 2014), p. 17–23. ISSN: 2319-1163. DOI: [10.15623/ijret.2014.0301004](https://doi.org/10.15623%2Fijret.2014.0301004). URL: [http://dx.doi.org/10.15623/ijret.2014.0301004](http://dx.doi.org/10.15623/ijret.2014.0301004).
+
+<a name=bib-Shang_2013></a>[[11]](#cite-Shang_2013) H. Shang, X. Chen, J. Li, et al. “Isomorphism detection of kinematic chains based on the improved circuit simulation method”. In: _International Journal of Computer Applications in Technology_ 46.3 (2013), p. 236. ISSN: 1741-5047. DOI: [10.1504/ijcat.2013.052800](https://doi.org/10.1504%2Fijcat.2013.052800). URL: [http://dx.doi.org/10.1504/ijcat.2013.052800](http://dx.doi.org/10.1504/ijcat.2013.052800).
+
+<a name=bib-Shukla_2017></a>[[12]](#cite-Shukla_2017) A. Shukla and S. Sanyal. “Gradient method for identification of isomorphism of planar kinematic chains”. In: _Australian Journal of Mechanical Engineering_ 18.1 (Sep. 2017), p. 45–62. ISSN: 2204-2253. DOI: [10.1080/14484846.2017.1374815](https://doi.org/10.1080%2F14484846.2017.1374815). URL: [http://dx.doi.org/10.1080/14484846.2017.1374815](http://dx.doi.org/10.1080/14484846.2017.1374815).
+
+<a name=bib-Sun_2021></a>[[13]](#cite-Sun_2021) L. Sun, Z. Ye, F. Lu, et al. “Similar Vertices and Isomorphism Detection for Planar Kinematic Chains Based on Ameliorated Multi-Order Adjacent Vertex Assignment Sequence”. In: _Chinese Journal of Mechanical Engineering_ 34.1 (Feb. 2021). ISSN: 2192-8258. DOI: [10.1186/s10033-020-00521-8](https://doi.org/10.1186%2Fs10033-020-00521-8). URL: [http://dx.doi.org/10.1186/s10033-020-00521-8](http://dx.doi.org/10.1186/s10033-020-00521-8).
+
+<a name=bib-Sun_2018></a>[[14]](#cite-Sun_2018) W. Sun, J. Kong, and L. Sun. “A joint–joint matrix representation of planar kinematic chains with multiple joints and isomorphism identification”. In: _Advances in Mechanical Engineering_ 10.6 (Jun. 2018). ISSN: 1687-8140. DOI: [10.1177/1687814018778404](https://doi.org/10.1177%2F1687814018778404). URL: [http://dx.doi.org/10.1177/1687814018778404](http://dx.doi.org/10.1177/1687814018778404).
+
+<a name=bib-SUN_2017></a>[[15]](#cite-SUN_2017) W. SUN, J. KONG, and L. SUN. “The improved hamming number method to detect isomorphism for kinematic chain with multiple joints”. In: _Journal of Advanced Mechanical Design, Systems, and Manufacturing_ 11.5 (2017), p. JAMDSM0061–JAMDSM0061. ISSN: 1881-3054. DOI: [10.1299/jamdsm.2017jamdsm0061](https://doi.org/10.1299%2Fjamdsm.2017jamdsm0061). URL: [http://dx.doi.org/10.1299/jamdsm.2017jamdsm0061](http://dx.doi.org/10.1299/jamdsm.2017jamdsm0061).
+
+<a name=bib-Venkata_Kamesh_2017></a>[[16]](#cite-Venkata_Kamesh_2017) V. Venkata Kamesh, K. Mallikarjuna Rao, and A. Balaji Srinivasa Rao. “An Innovative Approach to Detect Isomorphism in Planar and Geared Kinematic Chains Using Graph Theory”. In: _Journal of Mechanical Design_ 139.12 (Oct. 2017). ISSN: 1528-9001. DOI: [10.1115/1.4037628](https://doi.org/10.1115%2F1.4037628). URL: [http://dx.doi.org/10.1115/1.4037628](http://dx.doi.org/10.1115/1.4037628).
+
+<a name=bib-Wei_2020></a>[[17]](#cite-Wei_2020) S. Wei, K. Jianyi, W. Xingdong, et al. “Description and Isomorphism Judgment of the Kinematic Chain with Multiple Joints Based on Link-link Adjacency Matrix”. In: _Journal of Mechanical Engineering_ 56.3 (2020), p. 41. ISSN: 0577-6686. DOI: [10.3901/jme.2020.03.041](https://doi.org/10.3901%2Fjme.2020.03.041). URL: [http://dx.doi.org/10.3901/jme.2020.03.041](http://dx.doi.org/10.3901/jme.2020.03.041).
+
+<a name=bib-Yan_2020></a>[[18]](#cite-Yan_2020) L. Yan, G. Cao, N. Wang, et al. “Schematic Diagrams Design of Displacement Suppression Mechanism with One Degree-of-Freedom in a Rope-Guided Hoisting System”. In: _Symmetry_ 12.3 (Mar. 2020), p. 474. ISSN: 2073-8994. DOI: [10.3390/sym12030474](https://doi.org/10.3390%2Fsym12030474). URL: [http://dx.doi.org/10.3390/sym12030474](http://dx.doi.org/10.3390/sym12030474).
+
+<a name=bib-Yang_2022></a>[[19]](#cite-Yang_2022) W. Yang, H. Ding, and A. Kecskeméthy. “Structural synthesis towards intelligent design of plane mechanisms: Current status and future research trend”. In: _Mechanism and Machine Theory_ 171 (May. 2022), p. 104715. ISSN: 0094-114X. DOI: [10.1016/j.mechmachtheory.2021.104715](https://doi.org/10.1016%2Fj.mechmachtheory.2021.104715). URL: [http://dx.doi.org/10.1016/j.mechmachtheory.2021.104715](http://dx.doi.org/10.1016/j.mechmachtheory.2021.104715).
+
+<a name=bib-Yu_2024></a>[[20]](#cite-Yu_2024) L. Yu, S. Zhou, and H. Wang. “Mechanism Isomorphism Identification Based on Decision Tree Algorithm and Hybrid Particle Swarm Optimization Algorithm”. In: _Neural Processing Letters_ 56.6 (Nov. 2024). ISSN: 1573-773X. DOI: [10.1007/s11063-024-11711-z](https://doi.org/10.1007%2Fs11063-024-11711-z). URL: [http://dx.doi.org/10.1007/s11063-024-11711-z](http://dx.doi.org/10.1007/s11063-024-11711-z).
+
+<a name=bib-Zeng_2014></a>[[21]](#cite-Zeng_2014) K. Zeng, X. Fan, M. Dong, et al. “A fast algorithm for kinematic chain isomorphism identification based on dividing and matching vertices”. In: _Mechanism and Machine Theory_ 72 (Feb. 2014), p. 25–38. ISSN: 0094-114X. DOI: [10.1016/j.mechmachtheory.2013.09.011](https://doi.org/10.1016%2Fj.mechmachtheory.2013.09.011). URL: [http://dx.doi.org/10.1016/j.mechmachtheory.2013.09.011](http://dx.doi.org/10.1016/j.mechmachtheory.2013.09.011).
+
+

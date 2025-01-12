@@ -1,0 +1,56 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2005-04-01'
+slug: 2005/NeEnFuDiPrVi
+title: Aplicación neuronal del enfriamiento funcional discreto al problema del viajante
+categories:
+- Combinatorial optimization
+- Neural networks
+header_image: ~
+details: <em>Congreso Español sobre Metaheurísticas, Algoritmos Evolutivos y Bioinspirados</em>
+  2005
+link: 2005-maeb/paper.pdf
+project: ~
+keywords: Combinatorial optimization, Neural networks, Travelling salesman problem
+---
+
+
+# Abstract
+
+
+El objetivo de este trabajo es presentar una nueva técnica de optimización discreta que permite reducir el número de mínimos locales en la función de energía de la red, consiguiendo así mejorar sensiblemente la calidad de las soluciones obtenidas. Debido a su generalidad, esta técnica puede ser aplicada a la mayoría de las redes neuronales discretas. Proponemos sus bases teóricas, así como mostramos su aplicación en el ámbito de las redes neuronales recurrentes, para ello utilizamos como banco de pruebas el problema del viajante de comercio por ser el problema de optimización combinatoria más conocido y el más comúnmente empleado como test para medir la eficacia de las técnicas algorítmicas aplicadas a este tipo de problemas. Hemos comparado esta técnica con métodos de probada eficacia, consiguiendo mejorar la calidad media de las soluciones de forma notable, logrando en la mayor parte de las simulaciones realizadas soluciones muy cercanas al óptimo global del problema.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-lopez2005aplicacion></a>[[LM05]](#cite-lopez2005aplicacion) D. López-Rodríguez and E. Mérida-Casermeiro. “Aplicación neuronal del enfriamiento funcional discreto al problema del viajante”. In: _IV Congreso Español sobre Meraheurísticas, Algoritmos Evolutivos y Bioinspirados_. CEDI. 2005, pp. 307-314.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{lopez2005aplicacion,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Aplicación neuronal del enfriamiento funcional discreto al problema del viajante},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={López-Rodríguez, Domingo and Mérida-Casermeiro, Enrique},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={IV Congreso Español sobre Meraheurísticas, Algoritmos Evolutivos y Bioinspirados},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={307--314},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={CEDI}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

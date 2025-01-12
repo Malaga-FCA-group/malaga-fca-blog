@@ -1,0 +1,84 @@
+---
+author: E. Mérida-Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2005-11-01'
+slug: 2005/HeItMeUnClAuDeNuClDiReNe
+title: Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection
+  of the Number of Clusters with Discrete Recurrent Networks
+categories:
+- Neural networks
+- Pattern recognition
+header_image: CAEPIA2005.png
+details: 11th Conference of the Spanish Association for Artificial Intelligence (CAEPIA)
+  2005, Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4177), <em>pp. 241&ndash;250</em>
+doi: 10.1007/11881216_26
+link: 2005-postcaepia/paper.pdf
+project: ''
+keywords: Database systems, Iterative methods, Learning systems, Neural networks,
+  Discrete recurrent networks, Hebbian iterative method, Retrieving patterns, Pattern
+  recognition
+---
+
+
+# Abstract
+
+
+In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters. This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships. As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Casermeiro2005></a>[[ML05]](#cite-Casermeiro2005) E. Mérida-Casermeiro and D. López-Rodríguez. “Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks”. In: _Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers_. Ed. by R. Marín, E. Onaindia, A. Bugarín and J. S. Reyes. Vol. 4177. Lecture Notes in Computer Science. cited By 3; Conference of 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005 ; Conference Date: 16 November 2005 Through 18 November 2005; Conference Code:68379. Santiago de Compostela: Springer, 2005, pp. 241-250. DOI: [10.1007/11881216\_26](https://doi.org/10.1007%2F11881216%5C_26). URL:
+[https://doi.org/10.1007/11881216\_26](https://doi.org/10.1007/11881216\_26).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Casermeiro2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {E. Mérida-Casermeiro and D. López-Rodríguez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Hebbian Iterative Method for Unsupervised Clustering with Automatic Detection of the Number of Clusters with Discrete Recurrent Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Santiago de Compostela},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Roque Marín and Eva Onaindia and Alberto Bugarín and José Santos Reyes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 3; Conference of 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005 ; Conference Date: 16 November 2005 Through 18 November 2005; Conference Code:68379},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {241--250},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4177},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper, two important issues concerning pattern recognition by neural networks are studied: a new model of hebbian learning, as well as the effect of the network capacity when retrieving patterns and performing clustering tasks. Particularly, an explanation of the energy function when the capacity is exceeded: the limitation in pattern storage implies that similar patterns are going to be identified by the network, therefore forming different clusters. This ability can be translated as an unsupervised learning of pattern clusters, with one major advantage over most clustering algorithms: the number of data classes is automatically learned, as confirmed by the experiments. Two methods to reinforce learning are proposed to improve the quality of the clustering, by enhancing the learning of patterns relationships. As a related issue, a study on the net capacity, depending on the number of neurons and possible outputs, is presented, and some interesting conclusions are commented. © Springer-Verlag Berlin Heidelberg 2006.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/CasermeiroL05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11881216\_26},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Database systems; Iterative methods; Learning systems; Neural networks, Discrete recurrent networks; Hebbian iterative method; Retrieving patterns, Pattern recognition},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  sponsors = {CICYT - Minist. de Educ. y Ciencia; Direccion Xeral I+D Xunta de Galicia; Direccion Xeral Universidades Xunta de Galicia; Universidade de Santiago de Compostella; Universidade e Coruna},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:50 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11881216\_26},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Chen_2009></a>[[1]](#cite-Chen_2009) Y. Chen, A. Xue, X. Zhao, et al. “Improved delay-dependent stability analysis for uncertain stochastic Hopfield neural networks with time-varying delays”. In: _IET Control Theory &amp; Applications_ 3.1 (Jan. 2009), p. 88–97. ISSN: 1751-8652. DOI: [10.1049/iet-cta:20070319](https://doi.org/10.1049%2Fiet-cta%3A20070319). URL: [http://dx.doi.org/10.1049/iet-cta:20070319](http://dx.doi.org/10.1049/iet-cta:20070319).
+
+<a name=bib-Lin_2016></a>[[2]](#cite-Lin_2016) D. Lin, J. Wu, and J. Li. “Less conservative stability condition for uncertain discrete-time recurrent neural networks with time-varying delays”. In: _Neurocomputing_ 173 (Jan. 2016), p. 1578–1588. ISSN: 0925-2312. DOI: [10.1016/j.neucom.2015.09.030](https://doi.org/10.1016%2Fj.neucom.2015.09.030). URL: [http://dx.doi.org/10.1016/j.neucom.2015.09.030](http://dx.doi.org/10.1016/j.neucom.2015.09.030).
+
+

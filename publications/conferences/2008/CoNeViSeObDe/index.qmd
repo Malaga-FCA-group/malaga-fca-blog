@@ -1,0 +1,87 @@
+---
+author: R.M. Luque Baena, E. Dominguez, Domingo López-Rodríguez, E.J. Palomo
+Status: Published
+date: '2008-01-01'
+slug: 2008/CoNeViSeObDe
+title: A Neighborhood-Based Competitive Network for Video Segmentation and Object
+  Detection
+categories:
+- Competitive learning
+- Image processing
+- Neural networks
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (5163), PART 1, <em>pp. 877&ndash;886</em>
+doi: 10.1007/978-3-540-87536-9_90
+link: 2008-icann1/paper.pdf
+project: ''
+keywords: Adaptive neighborhood, Background model, Competitive network, Competitive
+  neural network, Frame rate, Hardware implementations, Mixture of Gaussians, Object
+  Detection, Pixel level, Realtime processing, Segmentation performance, Synaptic
+  weight, Video segmentation, Algorithms, Backpropagation, Hardware, Image segmentation,
+  Neural networks
+---
+
+
+# Abstract
+
+
+This work proposes an unsupervised competitive neural network based on adaptive neighborhoods for video segmentation and object detection. The designed neural network is proposed to form a background model based on subtraction approach. The synaptic weights and the adaptive neighborhood of the neurons serve as a model of the background and are updated to reflect the statistics of the background. The segmentation performance of the proposed neural network is examined and compared to mixture of Gaussian models. The proposed algorithm is parallelized on a pixel level and designed to enable efficient hardware implementation to achieve real-time processing at great frame rates. © Springer-Verlag Berlin Heidelberg 2008.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Baena2008a></a>[[Luq+08]](#cite-Baena2008a) R. Luque Baena, E. Dominguez, D. López-Rodríguez, et al. “A Neighborhood-Based Competitive Network for Video Segmentation and Object Detection”. In: _Artificial Neural Networks - ICANN 2008 , 18th International Conference, Prague, Czech Republic, September 3-6, 2008, Proceedings, Part I_. Ed. by V. K. á, R. Neruda and J. Koutník. Vol. 5163. Lecture Notes in Computer Science PART 1. cited By 2; Conference of 18th International Conference on Artificial Neural Networks, ICANN 2008 ; Conference Date: 3 September 2008 Through 6 September 2008; Conference Code:73798. Prague: Springer, 2008, pp. 877-886. DOI: [10.1007/978-3-540-87536-9_90](https://doi.org/10.1007%2F978-3-540-87536-9_90). URL: [https://doi.org/10.1007/978-3-540-87536-9_90](https://doi.org/10.1007/978-3-540-87536-9_90).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Baena2008a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {R.M. {Luque Baena} and E. Dominguez and D. López-Rodríguez and E.J. Palomo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Artificial Neural Networks - {ICANN} 2008 , 18th International Conference, Prague, Czech Republic, September 3-6, 2008, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Neighborhood-Based Competitive Network for Video Segmentation and Object Detection},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {Prague},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Vera Kurko á and Roman Neruda and Jan Koutník},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 2; Conference of 18th International Conference on Artificial Neural Networks, ICANN 2008 ; Conference Date: 3 September 2008 Through 6 September 2008; Conference Code:73798},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {PART 1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {877--886},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {5163},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {This work proposes an unsupervised competitive neural network based on adaptive neighborhoods for video segmentation and object detection. The designed neural network is proposed to form a background model based on subtraction approach. The synaptic weights and the adaptive neighborhood of the neurons serve as a model of the background and are updated to reflect the statistics of the background. The segmentation performance of the proposed neural network is examined and compared to mixture of Gaussian models. The proposed algorithm is parallelized on a pixel level and designed to enable efficient hardware implementation to achieve real-time processing at great frame rates. © Springer-Verlag Berlin Heidelberg 2008.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icann/BaenaDLP08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-87536-9_90},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Adaptive neighborhood; Background model; Competitive network; Competitive neural network; Frame rate; Hardware implementations; Mixture of Gaussians; Object Detection; Pixel level; Realtime processing; Segmentation performance; Synaptic weight; Video segmentation, Algorithms; Backpropagation; Hardware; Image segmentation, Neural networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-87536-9_90},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Kaushal_2018></a>[[1]](#cite-Kaushal_2018) M. Kaushal, B. S. Khehra, and A. Sharma. “Soft Computing based object detection and tracking approaches: State-of-the-Art survey”. In: _Applied Soft Computing_ 70 (Sep. 2018), p. 423–464. ISSN: 1568-4946. DOI: [10.1016/j.asoc.2018.05.023](https://doi.org/10.1016%2Fj.asoc.2018.05.023). URL: [http://dx.doi.org/10.1016/j.asoc.2018.05.023](http://dx.doi.org/10.1016/j.asoc.2018.05.023).
+
+<a name=bib-L_pez_Rubio_2018></a>[[2]](#cite-L_pez_Rubio_2018) E. López-Rubio, M. A. Molina-Cabello, R. M. Luque-Baena, et al. “Foreground Detection by Competitive Learning for Varying Input Distributions”. In: _International Journal of Neural Systems_ 28.05 (Apr. 2018), p. 1750056. ISSN: 1793-6462. DOI: [10.1142/s0129065717500563](https://doi.org/10.1142%2Fs0129065717500563). URL: [http://dx.doi.org/10.1142/s0129065717500563](http://dx.doi.org/10.1142/s0129065717500563).
+
+<a name=bib-Yang_2025></a>[[3]](#cite-Yang_2025) Y. Yang and T. Zhang. “Projective exponential synchronization of space-time differencing fuzzy competitive neural networks with uncertainties”. In: _Digital Signal Processing_ 158 (Mar. 2025), p. 104924. ISSN: 1051-2004. DOI: [10.1016/j.dsp.2024.104924](https://doi.org/10.1016%2Fj.dsp.2024.104924). URL: [http://dx.doi.org/10.1016/j.dsp.2024.104924](http://dx.doi.org/10.1016/j.dsp.2024.104924).
+
+

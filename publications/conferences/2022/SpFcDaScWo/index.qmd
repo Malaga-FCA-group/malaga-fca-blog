@@ -1,0 +1,69 @@
+---
+author: Pablo Cordero, Manuel Enciso, Domingo López-Rodríguez, Ángel Mora
+Status: Published
+date: '2022-06-22T00:00:00Z'
+slug: 2022/SpFcDaScWo
+title: fcaR, Spreading FCA to the Data Science World
+categories:
+- R package
+- Formal concept analysis
+header_image: ~
+details: <em>Workshop on Existing Tools and Applications for Formal Context Analysis
+  2022</em>
+link: 2022-etafca/paper.pdf
+project: 2019-flair
+keywords: R
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+Formal concept analysis (FCA) has become a mature tool for extracting helpful knowledge for real problems based on solid mathematical foundations rooted in logic and lattice theory. However, in areas such as machine learning, big data, artificial intelligence, database, etc. remains a stranger. The R language is one of the main languages used in data science, and this work describes an R package called fcaR that implements FCA’s core notions and techniques. One of the main goals is to spread FCA to the rest of the world. The main facilities of the tool are shown with a running example.
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-fcaRCLA></a>[[Cor+22]](#cite-fcaRCLA) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Spreading FCA to the Data Science World”. In: _Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications_. CLA. 2022, pp. 201 - 207.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{fcaRCLA,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={fcaR, Spreading FCA to the Data Science World},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Cordero, Pablo, and Enciso, Manuel, and López-Rodríguez, Domingo, and Mora, Ángel},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={201 -- 207},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={CLA}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

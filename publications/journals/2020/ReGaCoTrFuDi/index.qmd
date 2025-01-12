@@ -1,0 +1,110 @@
+---
+title: Relational Galois connections between transitive fuzzy digraphs
+type: journals
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Bernard De Baets
+date: '2020-01-01'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- Fuzzy sets
+- Uncertainty
+doi: 10.1002/mma.6302
+slug: 2020/ReGaCoTrFuDi
+keywords: ''
+project: 2019-flair
+details: Mathematical Methods in the Applied Sciences vol. 43 (9), pages 5673 – 5680.
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+
+# Abstract
+
+Fuzzy-directed graphs are often chosen as the data structure to model and implement solutions to several problems in the applied sciences. Galois connections have also shown to be useful both in theoretical and in practical problems.
+
+In this paper, the notion of relational Galois connection is extended to be applied between transitive fuzzy directed graphs. In this framework, the components of the connection are crisp relations satisfying certain reasonable properties given in terms of the so-called full powering.
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera20205673></a>[[Cab+20]](#cite-Cabrera20205673) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Relational Galois connections between transitive fuzzy digraphs”. In: _Mathematical Methods in the Applied Sciences_ 43.9 (2020). Cited by: 8, p. 5673 – 5680. DOI: [10.1002/mma.6302](https://doi.org/10.1002%2Fmma.6302). URL: [https://www.scopus.com/inward/record.uri?eid=2-s2.0-85084927857&doi=10.1002
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@ARTICLE{Cabrera20205673,<br>&nbsp;&nbsp;&nbsp;&nbsp;	author = {Cabrera, Inma P. and Cordero, Pablo and Muñoz-Velasco, Emilio and Ojeda-Aciego, Manuel and De Baets, Bernard},<br>&nbsp;&nbsp;&nbsp;&nbsp;	title = {Relational Galois connections between transitive fuzzy digraphs},<br>&nbsp;&nbsp;&nbsp;&nbsp;	year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;	journal = {Mathematical Methods in the Applied Sciences},<br>&nbsp;&nbsp;&nbsp;&nbsp;	volume = {43},<br>&nbsp;&nbsp;&nbsp;&nbsp;	number = {9},<br>&nbsp;&nbsp;&nbsp;&nbsp;	pages = {5673 – 5680},<br>&nbsp;&nbsp;&nbsp;&nbsp;	doi = {10.1002/mma.6302},<br>&nbsp;&nbsp;&nbsp;&nbsp;	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85084927857&doi=10.1002%2fmma.6302&partnerID=40&md5=f62ecd3bbabdb3af560c55aac0694690},<br>&nbsp;&nbsp;&nbsp;&nbsp;	type = {Article},<br>&nbsp;&nbsp;&nbsp;&nbsp;	publication_stage = {Final},<br>&nbsp;&nbsp;&nbsp;&nbsp;	source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;	note = {Cited by: 8}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2020></a>[[1]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Galois Connections Between Unbalanced Structures in a Fuzzy Framework”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2020, p. 736–747. ISBN: 9783030501532. DOI: [10.1007/978-3-030-50153-2_54](https://doi.org/10.1007%2F978-3-030-50153-2_54). URL: [http://dx.doi.org/10.1007/978-3-030-50153-2_54](http://dx.doi.org/10.1007/978-3-030-50153-2_54).
+
+<a name=bib-Cabrera_2022></a>[[2]](#cite-Cabrera_2022) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “On the Definition of Fuzzy Relational Galois Connections Between Fuzzy Transitive Digraphs”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 100–106. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_9](https://doi.org/10.1007%2F978-3-031-08971-8_9). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_9](http://dx.doi.org/10.1007/978-3-031-08971-8_9).
+
+<a name=bib-Cabrera_2023></a>[[3]](#cite-Cabrera_2023) I. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Fuzzy relational Galois connections between fuzzy transitive digraphs”. In: _Fuzzy Sets and Systems_ 463 (Jul. 2023), p. 108456. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.12.012](https://doi.org/10.1016%2Fj.fss.2022.12.012). URL: [http://dx.doi.org/10.1016/j.fss.2022.12.012](http://dx.doi.org/10.1016/j.fss.2022.12.012).
+
+<a name=bib-Madrid_2021></a>[[4]](#cite-Madrid_2021) N. Madrid and M. Ojeda‐Aciego. “A measure of consistency for fuzzy logic theories”. In: _Mathematical Methods in the Applied Sciences_ 46.15 (May. 2021), p. 15982–15995. ISSN: 1099-1476. DOI: [10.1002/mma.7470](https://doi.org/10.1002%2Fmma.7470). URL: [http://dx.doi.org/10.1002/mma.7470](http://dx.doi.org/10.1002/mma.7470).
+
+<a name=bib-Ojeda_Hern_ndez_2021></a>[[5]](#cite-Ojeda_Hern_ndez_2021) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Closure Systems as a Fuzzy Extension of Meet-subsemilattices”. In: _Joint Proceedings of the 19th World Congress of the International Fuzzy Systems Association (IFSA), the 12th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT), and the 11th International Summer School on Aggregation Operators (AGOP)_. ifsa-eusflat-agop-21. Atlantis Press, 2021. DOI: [10.2991/asum.k.210827.006](https://doi.org/10.2991%2Fasum.k.210827.006). URL: [http://dx.doi.org/10.2991/asum.k.210827.006](http://dx.doi.org/10.2991/asum.k.210827.006).
+
+<a name=bib-Ojeda_Hern_ndez_20221></a>[[6]](#cite-Ojeda_Hern_ndez_20221) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure relations”. In: _Fuzzy Sets and Systems_ 450 (Dec. 2022), p. 118–132. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.016](https://doi.org/10.1016%2Fj.fss.2022.05.016). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.016](http://dx.doi.org/10.1016/j.fss.2022.05.016).
+
+<a name=bib-Ojeda_Hern_ndez_2023></a>[[7]](#cite-Ojeda_Hern_ndez_2023) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure structures as formal concepts”. In: _Fuzzy Sets and Systems_ 463 (Jul. 2023), p. 108458. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.12.014](https://doi.org/10.1016%2Fj.fss.2022.12.014). URL: [http://dx.doi.org/10.1016/j.fss.2022.12.014](http://dx.doi.org/10.1016/j.fss.2022.12.014).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[8]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure systems: Motivation, definition and properties”. In: _International Journal of Approximate Reasoning_ 148 (Sep. 2022), p. 151–161. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2022.06.004](https://doi.org/10.1016%2Fj.ijar.2022.06.004). URL: [http://dx.doi.org/10.1016/j.ijar.2022.06.004](http://dx.doi.org/10.1016/j.ijar.2022.06.004).
+
+<a name=bib-Ojeda_Hern_ndez_20222></a>[[9]](#cite-Ojeda_Hern_ndez_20222) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Relational Extension of Closure Structures”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 77–86. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_7](https://doi.org/10.1007%2F978-3-031-08971-8_7). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_7](http://dx.doi.org/10.1007/978-3-031-08971-8_7).
+
+

@@ -1,0 +1,53 @@
+---
+author:
+- Angel Mora Bonilla
+- dominlopez
+- enciso
+- pcordero
+Status: Published
+date: '2022-10-05T00:00:00Z'
+slug: 2022/KnDiMaDaUsFoCoAn
+title: Knowledge Discovery in Malware Datasets using Formal Concept Analysis
+categories: Formal concept analysis
+header_image: ~
+details: <em>14th European Symposium on Computational Intelligence and Mathematics</em>
+link: 2022-escim/PAPER.pdf
+project: 2019-flair
+keywords: Formal concept analysis, Mixed attributes, Concept lattice
+---
+
+# Abstract
+
+
+Intelligent malware detection is a problem that is generating growing interest in the industry due to the increase in the diversity of threats and attacks suffered by small users to large organisations or governments, in many cases compromising sensitive information and without ruling out possible economic consequences.
+
+Among the different problems that arise in this area, the homogenisation of the nomenclature of malware threats stands out, as different antivirus engines or applications often use different names for the same threat or the same family of threats, which is related to the problem of malware family classification. 
+
+Another big open problem in this field is the definition of methodologies that allow optimising the detection process itself of new threats, since the different engines have different detection capabilities and no single software can detect all the threats at one point, thus there is a need of determining which combination or possible combinations of engines cover the majority of detection and which features present in malicious software allow us to detect it at an early stage.
+
+In this paper, we propose the use of formal concept analysis (FCA) to exploit the existing knowledge in previous threat and malware databases by different detection engines. In this formal framework, based on lattice theory and logic, we can build a lattice where threat sets are organised hierarchically according to specialisation-generalisation criteria, which provides us with a direct approach to  setting up a unified taxonomy of malware.
+
+On the other hand, the use of FCA itself enables the discovery of logical rules and the application of automated reasoning methods whose objective is to simplify the detection process without losing information or threat detection capacity and even increasing this capacity.
+
+In this sense, our proposal differs from previous ones in that it does not use statistical criteria, but rather an exhaustive analysis and mathematical modelling of the knowledge contained in malware databases, so that the models obtained are based on logical and algebraic tools and offer a greater degree of interpretability and explainability than previous proposals.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

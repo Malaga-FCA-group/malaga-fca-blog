@@ -1,0 +1,67 @@
+---
+author: E. López-Rubio, J.M. Ortiz-De-Lazcano-Lobato, Domingo López-Rodríguez, M.
+  Del Carmen Vargas-González
+Status: Published
+date: '2007-01-01'
+slug: 2007/PrPcMo
+title: Self-organization of probabilistic PCA models
+categories:
+- Neural networks
+- Competitive learning
+- Principal component analysis
+header_image: ~
+details: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics), (4507 LNCS), <em>pp. 211-218</em>
+doi: 10.1007/978-3-540-73007-1_26
+link: 2007-iwann2/paper.pdf
+project: ''
+keywords: Computational complexity, Face recognition, Mathematical models, Probability
+  density function, Self organizing maps, Unsupervised learning, Competitive learning,
+  Dimensionality reduction, Handwritten digit recognition, Linear complexity, Probabilistic
+  model, Probabilistic Principal Components Analysis (PPCA), Principal component analysis
+---
+
+
+# Abstract
+
+
+We present a new neural model, which extends Kohonen's self-organizing map (SOM) by performing a Probabilistic Principal Components Analysis (PPCA) at each neuron. Several self-organizing maps have been proposed in the literature to capture the local principal subspaces, but our approach offers a probabilistic model at each neuron while it has linear complexity on the dimensionality of the input space. This allows to process very high dimensional data to obtain reliable estimations of the local probability densities which are based on the PPCA framework. Experimental results are presented, which show the map formation capabilities of the proposal with high dimensional data. © Springer-Verlag Berlin Heidelberg 2007.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-LopezRubio2007a></a>[[Lóp+07]](#cite-LopezRubio2007a) E. López-Rubio, J. Ortiz-De-Lazcano-Lobato, D. López-Rodríguez, et al. “Self-organization of probabilistic PCA models”. In: _Computational and Ambient Intelligence, 9th International Work-Conference on Artificial Neural Networks, IWANN 2007, San Sebastián, Spain, June 20-22, 2007, Proceedings_. Ed. by F. S. Hernández, A. Prieto, J. Cabestany and M. Gra~na. Vol. 4507 LNCS. Lecture Notes in Computer Science. cited By 1; Conference of 9th International Work-Conference on Artificial Neural Networks, IWANN 2007 ; Conference Date: 20 June 2007 Through 22 June 2007; Conference Code:71094. San Sebastian: Springer Verlag, 2007, pp. 211-218. DOI: [10.1007/978-3-540-73007-1_26](https://doi.org/10.1007%2F978-3-540-73007-1_26). URL: [https://doi.org/10.1007/978-3-540-73007-1_26](https://doi.org/10.1007/978-3-540-73007-1_26).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{LopezRubio2007a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {E. López-Rubio and J.M. Ortiz-De-Lazcano-Lobato and D. López-Rodríguez and M. {Del Carmen Vargas-González}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Computational and Ambient Intelligence, 9th International Work-Conference on Artificial Neural Networks, {IWANN} 2007, San Sebastián, Spain, June 20-22, 2007, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Self-organization of probabilistic PCA models},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  address = {San Sebastian},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco Sandoval Hernández and Alberto Prieto and Joan Cabestany and Manuel Gra{\~n}a},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {cited By 1; Conference of 9th International Work-Conference on Artificial Neural Networks, IWANN 2007 ; Conference Date: 20 June 2007 Through 22 June 2007; Conference Code:71094},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {211-218},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer Verlag},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4507 LNCS},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We present a new neural model, which extends Kohonen's self-organizing map (SOM) by performing a Probabilistic Principal Components Analysis (PPCA) at each neuron. Several self-organizing maps have been proposed in the literature to capture the local principal subspaces, but our approach offers a probabilistic model at each neuron while it has linear complexity on the dimensionality of the input space. This allows to process very high dimensional data to obtain reliable estimations of the local probability densities which are based on the PPCA framework. Experimental results are presented, which show the map formation capabilities of the proposal with high dimensional data. © Springer-Verlag Berlin Heidelberg 2007.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author_keywords = {Competitive learning; Dimensionality reduction; Face recognition; Handwritten digit recognition; Probabilistic Principal Components Analysis (PPCA); Unsupervised learning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/Lopez-RubioOLV07a.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  document_type = {Conference Paper},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-73007-1_26},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Computational complexity; Face recognition; Mathematical models; Probability density function; Self organizing maps; Unsupervised learning, Competitive learning; Dimensionality reduction; Handwritten digit recognition; Linear complexity; Probabilistic model; Probabilistic Principal Components Analysis (PPCA), Principal component analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  source = {Scopus},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-73007-1_26},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Lopez_Rubio_2009></a>[[1]](#cite-Lopez_Rubio_2009) E. Lopez-Rubio, J. Ortiz-de-Lazcano-Lobato, and D. Lopez-Rodriguez. “Probabilistic PCA Self-Organizing Maps”. In: _IEEE Transactions on Neural Networks_ 20.9 (Sep. 2009), p. 1474–1489. ISSN: 1941-0093. DOI: [10.1109/tnn.2009.2025888](https://doi.org/10.1109%2Ftnn.2009.2025888). URL: [http://dx.doi.org/10.1109/tnn.2009.2025888](http://dx.doi.org/10.1109/tnn.2009.2025888).
+
+

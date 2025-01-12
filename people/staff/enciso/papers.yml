@@ -3,80 +3,80 @@
   author:
   - Estrella Rodríguez-Lorenzo
   - Karell Bertet
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   date: '2018-11-20T00:00:00Z'
   details: <em>Discrete Applied Mathematics</em> 249, pp. 106 - 119
-  path: /publications/journals/2018-dam
+  path: /publications/journals/2018/BaCoMeFuSiRu
 - title: Minimal generators, an affordable approach by means of massive computation
   author:
   - Fernando Benito-Picazo
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   date: '2018-06-04'
   details: <em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367
-  path: /publications/journals/2018-supercomp
+  path: /publications/journals/2018/MiAfApMeMaCo
 - title: A conversational recommender system for diagnosis using fuzzy rules
   author:
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
   - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
     Rodríguez</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   date: '2020-09-01'
   details: <em>Expert Systems with Applications</em>, volume 154, 2020
-  path: /publications/journals/2020-eswa
+  path: /publications/journals/2020/CoReSyDiUsFuRu
 - title: A Formal Concept Analysis Approach to Cooperative Conversational Recommendation
   author:
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
-  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda Aciego</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
   - Carlos Rossi
   date: '2020-08-19T00:00:00Z'
   details: <em>International Journal of Computational Intelligence Systems</em>, 13
     (1), pp. 1243 - 1252
-  path: /publications/journals/2020-ijcis
+  path: /publications/journals/2020/FoCoAnApCoCoRe
 - title: 'Parameterized simplification logic I: reasoning with implications and classes
     of closure operators'
   author:
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   - Vilem Vychodil
   date: '2020-08-06'
   details: <em>International Journal of General Systems</em> vol 49 (7), pp. 724 --
     746
-  path: /publications/journals/2020-ijgs
+  path: /publications/journals/2020/PaSiLoReImClClOp
+- title: fcaR, Formal Concept Analysis with R
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2022-09-01T00:00:00Z'
+  details: <em>The R Journal</em>
+  path: /publications/journals/2022/FoCoAnR
 - title: 'Parameterized Simplification Logic: Reasoning With Implications in an Automated
     Way'
   author:
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   - Vilem Vychodil
   date: '2022-06-03'
   details: <em>IEEE Transactions on Fuzzy Systems</em> vol 30 (12), 5534 - 5543
-  path: /publications/journals/2022-ieeetfuzz
-- title: fcaR, Formal Concept Analysis with R
-  author:
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
-    Rodríguez</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
-  date: '2022-09-01T00:00:00Z'
-  details: <em>The R Journal</em>
-  path: /publications/journals/2022-rjournal
+  path: /publications/journals/2022/PaSiReImAuWa
 - title: Simplification logic for the management of unknown information
   author:
   - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
     Pérez Gámez</a>
-  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero Ortega</a>
-  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso García-Oliveros</a>
-  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora Bonilla</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
   date: '2023-07-03T00:00:00Z'
   details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
-  path: /publications/journals/2023-insci2
+  path: /publications/journals/2023/SiLoMaUnIn

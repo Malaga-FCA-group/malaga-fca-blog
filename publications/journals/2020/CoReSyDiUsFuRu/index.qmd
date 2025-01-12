@@ -1,0 +1,139 @@
+---
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+Status: Published
+date: '2020-09-01'
+slug: 2020/CoReSyDiUsFuRu
+title: A conversational recommender system for diagnosis using fuzzy rules
+categories: Formal concept analysis
+header_image: eswa2020.png
+details: <em>Expert Systems with Applications</em>, volume 154, 2020
+doi: 10.1016/j.eswa.2020.113449
+link: 2020-eswa/paper.pdf
+project: 2019-flair
+keywords: ''
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+Graded implications in the framework of Fuzzy Formal Concept Analysis are used as the knowledge guiding the recommendations. An automated engine based on fuzzy Simplification Logic is proposed to make the suggestions to the users. Conversational recommender systems have proven to be a good approach in telemedicine, building a dialogue between the user and the recommender based on user preferences provided at each step of the conversation. Here, we propose a conversational recommender system for medical diagnosis using fuzzy logic. Specifically, fuzzy implications in the framework of Formal Concept Analysis are used to store the knowledge about symptoms and diseases and Fuzzy Simplification Logic is selected as an appropriate engine to guide the conversation to a final diagnosis. The recommender system has been used to provide differential diagnosis between schizophrenia and schizoaffective and bipolar disorders. In addition, we have enriched the conversational strategy with two strategies (namely critiquing and elicitation mechanism) for a better understanding of the knowledge-driven conversation, allowing user’s feedback in each step of the conversation and improving the performance of the method.
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-cordero2020></a>[[Cor+20]](#cite-cordero2020) P. Cordero, M. Enciso, D. López, et al. “A conversational recommender system for diagnosis using fuzzy rules”. In: _Expert Systems with Applications_ 154 (2020), p. 113449.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{cordero2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={A conversational recommender system for diagnosis using fuzzy rules},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Cordero, Pablo and Enciso, Manuel and López, D and Mora, Angel},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal={Expert Systems with Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume={154},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={113449},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher={Elsevier}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2024></a>[[1]](#cite-Antoni_2024) Ľ. Antoni, P. Eliaš, J. Guniš, et al. “Bimorphisms and attribute implications in heterogeneous formal contexts”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109245. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109245](https://doi.org/10.1016%2Fj.ijar.2024.109245). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109245](http://dx.doi.org/10.1016/j.ijar.2024.109245).
+
+<a name=bib-Arag_n_2021></a>[[2]](#cite-Arag_n_2021) R. G. Aragón, M. E. Cornejo, J. Medina, et al. “Formal Concept Analysis for Detecting Criminal Patterns”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 3_. Springer International Publishing, Aug. 2021, p. 197–203. ISBN: 9783030749705. DOI: [10.1007/978-3-030-74970-5_23](https://doi.org/10.1007%2F978-3-030-74970-5_23). URL: [http://dx.doi.org/10.1007/978-3-030-74970-5_23](http://dx.doi.org/10.1007/978-3-030-74970-5_23).
+
+<a name=bib-Cordero_2022></a>[[3]](#cite-Cordero_2022) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Formal Concept Analysis with R”. In: _The R Journal_ 14.1 (Jun. 2022), p. 341–361. ISSN: 2073-4859. DOI: [10.32614/rj-2022-014](https://doi.org/10.32614%2Frj-2022-014). URL: [http://dx.doi.org/10.32614/rj-2022-014](http://dx.doi.org/10.32614/rj-2022-014).
+
+<a name=bib-Dubois_2021></a>[[4]](#cite-Dubois_2021) D. Dubois, J. Medina, H. Prade, et al. “Disjunctive attribute dependencies in formal concept analysis under the epistemic view of formal contexts”. In: _Information Sciences_ 561 (Jun. 2021), p. 31–51. ISSN: 0020-0255. DOI: [10.1016/j.ins.2020.12.085](https://doi.org/10.1016%2Fj.ins.2020.12.085). URL: [http://dx.doi.org/10.1016/j.ins.2020.12.085](http://dx.doi.org/10.1016/j.ins.2020.12.085).
+
+<a name=bib-Gholizadeh_2022></a>[[5]](#cite-Gholizadeh_2022) H. Gholizadeh, A. M. Fathollahi-Fard, H. Fazlollahtabar, et al. “Fuzzy data-driven scenario-based robust data envelopment analysis for prediction and optimisation of an electrical discharge machine’s parameters”. In: _Expert Systems with Applications_ 193 (May. 2022), p. 116419. ISSN: 0957-4174. DOI: [10.1016/j.eswa.2021.116419](https://doi.org/10.1016%2Fj.eswa.2021.116419). URL: [http://dx.doi.org/10.1016/j.eswa.2021.116419](http://dx.doi.org/10.1016/j.eswa.2021.116419).
+
+<a name=bib-Griol_2020></a>[[6]](#cite-Griol_2020) D. Griol, Z. Callejas, J. M. Molina, et al. “Adaptive dialogue management using intent clustering and fuzzy rules”. In: _Expert Systems_ 38.1 (Sep. 2020). ISSN: 1468-0394. DOI: [10.1111/exsy.12630](https://doi.org/10.1111%2Fexsy.12630). URL: [http://dx.doi.org/10.1111/exsy.12630](http://dx.doi.org/10.1111/exsy.12630).
+
+<a name=bib-Hu_2025></a>[[7]](#cite-Hu_2025) Q. Hu, J. Zhang, J. Mi, et al. “TIEOD: Three-way concept-based information entropy for outlier detection”. In: _Applied Soft Computing_ 170 (Feb. 2025), p. 112642. ISSN: 1568-4946. DOI: [10.1016/j.asoc.2024.112642](https://doi.org/10.1016%2Fj.asoc.2024.112642). URL: [http://dx.doi.org/10.1016/j.asoc.2024.112642](http://dx.doi.org/10.1016/j.asoc.2024.112642).
+
+<a name=bib-Kar_2024></a>[[8]](#cite-Kar_2024) P. Kar, M. Roy, and S. Datta. “Some Novel Applications of Recommender System and Road Ahead”. In: _Recommender Systems: Algorithms and their Applications_. Springer Nature Singapore, 2024, p. 143–162. ISBN: 9789819705382. DOI: [10.1007/978-981-97-0538-2_12](https://doi.org/10.1007%2F978-981-97-0538-2_12). URL: [http://dx.doi.org/10.1007/978-981-97-0538-2_12](http://dx.doi.org/10.1007/978-981-97-0538-2_12).
+
+<a name=bib-Liu_2024></a>[[9]](#cite-Liu_2024) C. Liu, D. Peng, H. Chen, et al. “Attribute granules-based object entropy for outlier detection in nominal data”. In: _Engineering Applications of Artificial Intelligence_ 133 (Jul. 2024), p. 108198. ISSN: 0952-1976. DOI: [10.1016/j.engappai.2024.108198](https://doi.org/10.1016%2Fj.engappai.2024.108198). URL: [http://dx.doi.org/10.1016/j.engappai.2024.108198](http://dx.doi.org/10.1016/j.engappai.2024.108198).
+
+<a name=bib-Ojeda_Hern_ndez_2024></a>[[10]](#cite-Ojeda_Hern_ndez_2024) M. Ojeda-Hernández, D. López-Rodríguez, and Á. Mora. “A Formal Concept Analysis approach to hierarchical description of malware threats”. In: _Forensic Science International: Digital Investigation_ 50 (Sep. 2024), p. 301797. ISSN: 2666-2817. DOI: [10.1016/j.fsidi.2024.301797](https://doi.org/10.1016%2Fj.fsidi.2024.301797). URL: [http://dx.doi.org/10.1016/j.fsidi.2024.301797](http://dx.doi.org/10.1016/j.fsidi.2024.301797).
+
+<a name=bib-P_rez_G_mez_20221></a>[[11]](#cite-P_rez_G_mez_20221) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Computing the Mixed Concept Lattice”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 87–99. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_8](https://doi.org/10.1007%2F978-3-031-08971-8_8). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_8](http://dx.doi.org/10.1007/978-3-031-08971-8_8).
+
+<a name=bib-P_rez_G_mez_2022></a>[[12]](#cite-P_rez_G_mez_2022) F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al. “Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: _Mathematics_ 10.4 (Feb. 2022), p. 607. ISSN: 2227-7390. DOI: [10.3390/math10040607](https://doi.org/10.3390%2Fmath10040607). URL: [http://dx.doi.org/10.3390/math10040607](http://dx.doi.org/10.3390/math10040607).
+
+<a name=bib-Polignano_2020></a>[[13]](#cite-Polignano_2020) M. Polignano, F. Narducci, A. Iovine, et al. “HealthAssistantBot: A Personal Health Assistant for the Italian Language”. In: _IEEE Access_ 8 (2020), p. 107479–107497. ISSN: 2169-3536. DOI: [10.1109/access.2020.3000815](https://doi.org/10.1109%2Faccess.2020.3000815). URL: [http://dx.doi.org/10.1109/access.2020.3000815](http://dx.doi.org/10.1109/access.2020.3000815).
+
+<a name=bib-Rzepka_2021></a>[[14]](#cite-Rzepka_2021) R. Rzepka, D. Shirafuji, and A. Obayashi. “Limits and Challenges of Embedding-based Question Answering in Export Control Expert System”. In: _Procedia Computer Science_ 192 (2021), p. 2709–2719. ISSN: 1877-0509. DOI: [10.1016/j.procs.2021.09.041](https://doi.org/10.1016%2Fj.procs.2021.09.041). URL: [http://dx.doi.org/10.1016/j.procs.2021.09.041](http://dx.doi.org/10.1016/j.procs.2021.09.041).
+
+<a name=bib-Sajde_2022></a>[[15]](#cite-Sajde_2022) M. Sajde, H. Malek, and M. Mohsenzadeh. “RecoMed: A knowledge-aware recommender system for hypertension medications”. In: _Informatics in Medicine Unlocked_ 30 (2022), p. 100950. ISSN: 2352-9148. DOI: [10.1016/j.imu.2022.100950](https://doi.org/10.1016%2Fj.imu.2022.100950). URL: [http://dx.doi.org/10.1016/j.imu.2022.100950](http://dx.doi.org/10.1016/j.imu.2022.100950).
+
+<a name=bib-Santos_2024></a>[[16]](#cite-Santos_2024) R. C. Santos, R. Baréa, A. C. Sanches, et al. “Fuzzy inference algorithm for quantifying thermal comfort in peri-urban environments”. In: _Environment, Development and Sustainability_ (Dec. 2024). ISSN: 1573-2975. DOI: [10.1007/s10668-024-05831-8](https://doi.org/10.1007%2Fs10668-024-05831-8). URL: [http://dx.doi.org/10.1007/s10668-024-05831-8](http://dx.doi.org/10.1007/s10668-024-05831-8).
+
+<a name=bib-Seth_2022></a>[[17]](#cite-Seth_2022) R. Seth and A. Sharaff. _A Comparative Overview of Hybrid Recommender Systems: Review, Challenges, and Prospects_. Jan. 2022. DOI: [10.1002/9781119792529.ch3](https://doi.org/10.1002%2F9781119792529.ch3). URL: [http://dx.doi.org/10.1002/9781119792529.ch3](http://dx.doi.org/10.1002/9781119792529.ch3).
+
+<a name=bib-Sokol_2023></a>[[18]](#cite-Sokol_2023) P. Sokol, Ľ. Antoni, O. Krídlo, et al. “Formal concept analysis approach to understand digital evidence relationships”. In: _International Journal of Approximate Reasoning_ 159 (Aug. 2023), p. 108940. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2023.108940](https://doi.org/10.1016%2Fj.ijar.2023.108940). URL: [http://dx.doi.org/10.1016/j.ijar.2023.108940](http://dx.doi.org/10.1016/j.ijar.2023.108940).
+
+<a name=bib-Sood_2021></a>[[19]](#cite-Sood_2021) S. K. Sood, A. Kaur, and V. Sood. “Energy efficient IoT-Fog based architectural paradigm for prevention of Dengue fever infection”. In: _Journal of Parallel and Distributed Computing_ 150 (Apr. 2021), p. 46–59. ISSN: 0743-7315. DOI: [10.1016/j.jpdc.2020.12.002](https://doi.org/10.1016%2Fj.jpdc.2020.12.002). URL: [http://dx.doi.org/10.1016/j.jpdc.2020.12.002](http://dx.doi.org/10.1016/j.jpdc.2020.12.002).
+
+<a name=bib-Uta_2024></a>[[20]](#cite-Uta_2024) M. Uta, A. Felfernig, V. Le, et al. “Knowledge-based recommender systems: overview and research directions”. In: _Frontiers in Big Data_ 7 (Feb. 2024). ISSN: 2624-909X. DOI: [10.3389/fdata.2024.1304439](https://doi.org/10.3389%2Ffdata.2024.1304439). URL: [http://dx.doi.org/10.3389/fdata.2024.1304439](http://dx.doi.org/10.3389/fdata.2024.1304439).
+
+<a name=bib-Xia_2021></a>[[21]](#cite-Xia_2021) J. Xia, Z. Pi, and W. Fang. “Predicting War Outcomes Based on a Fuzzy Influence Diagram”. In: _International Journal of Fuzzy Systems_ 23.4 (Feb. 2021), p. 984–1002. ISSN: 2199-3211. DOI: [10.1007/s40815-020-01026-1](https://doi.org/10.1007%2Fs40815-020-01026-1). URL: [http://dx.doi.org/10.1007/s40815-020-01026-1](http://dx.doi.org/10.1007/s40815-020-01026-1).
+
+<a name=bib-Yu_2021></a>[[22]](#cite-Yu_2021) G. Yu, Z. Chen, J. Wu, et al. “Medical decision support system for cancer treatment in precision medicine in developing countries”. In: _Expert Systems with Applications_ 186 (Dec. 2021), p. 115725. ISSN: 0957-4174. DOI: [10.1016/j.eswa.2021.115725](https://doi.org/10.1016%2Fj.eswa.2021.115725). URL: [http://dx.doi.org/10.1016/j.eswa.2021.115725](http://dx.doi.org/10.1016/j.eswa.2021.115725).
+
+<a name=bib-Yu_2022></a>[[23]](#cite-Yu_2022) G. Yu and J. Wu. “Efficacy prediction based on attribute and multi-source data collaborative for auxiliary medical system in developing countries”. In: _Neural Computing and Applications_ 34.7 (Jan. 2022), p. 5497–5512. ISSN: 1433-3058. DOI: [10.1007/s00521-021-06713-0](https://doi.org/10.1007%2Fs00521-021-06713-0). URL: [http://dx.doi.org/10.1007/s00521-021-06713-0](http://dx.doi.org/10.1007/s00521-021-06713-0).
+
+<a name=bib-Zaremarjal_2021></a>[[24]](#cite-Zaremarjal_2021) A. Y. Zaremarjal and D. Yiltas-Kaplan. “Semantic Collaborative Filtering Recommender System Using CNNs”. In: _2021 8th International Conference on Electrical and Electronics Engineering (ICEEE)_. IEEE, Apr. 2021, p. 254–258. DOI: [10.1109/iceee52452.2021.9415931](https://doi.org/10.1109%2Ficeee52452.2021.9415931). URL: [http://dx.doi.org/10.1109/iceee52452.2021.9415931](http://dx.doi.org/10.1109/iceee52452.2021.9415931).
+
+<a name=bib-Zhang_2024></a>[[25]](#cite-Zhang_2024) J. Zhang, Q. Hu, J. Mi, et al. “Hesitant fuzzy three-way concept lattice and its attribute reduction”. In: _Applied Intelligence_ 54.3 (Feb. 2024), p. 2445–2457. ISSN: 1573-7497. DOI: [10.1007/s10489-024-05317-0](https://doi.org/10.1007%2Fs10489-024-05317-0). URL: [http://dx.doi.org/10.1007/s10489-024-05317-0](http://dx.doi.org/10.1007/s10489-024-05317-0).
+
+

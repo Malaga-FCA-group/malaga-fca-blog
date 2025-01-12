@@ -1,0 +1,76 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2009-04-27'
+slug: 2009/ShCoSuPrDiNeNe
+title: Shortest Common Superstring Problem with Discrete Neural Networks
+header_image: ICANNGA09.png
+details: International Conference on Adaptive and Natural Computing Algorithms 2009,
+  pp 62 &ndash; 71
+doi: 10.1007/978-3-642-04921-7_7
+link: 2009-icannga1/paper.pdf
+project: ~
+keywords: ''
+---
+
+
+# Abstract
+
+
+In this paper, we investigate the use of artificial neural networks in order to solve the Shortest Common Superstring Problem. Concretely, the neural network used in this work is based on a multivalued model, MREM, very suitable for solving combinatorial optimization problems. We describe the foundations of this neural model, and how it can be implemented in the context of this problem, by taking advantage of a better representation than in other models, which, in turn, contributes to ease the computational dynamics of the model. Experimental results prove that our model outperforms other heuristic approaches known from the specialized literature.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Lopez-RodriguezM09></a>[[LC09]](#cite-Lopez-RodriguezM09) D. López-Rodríguez and E. M. Casermeiro. “Shortest Common Superstring Problem with Discrete Neural Networks”. In: _Adaptive and Natural Computing Algorithms, 9th International Conference, ICANNGA 2009, Kuopio, Finland, April 23-25, 2009, Revised Selected Papers_. Ed. by M. Kolehmainen, P. J. Toivanen and B. Beliczynski. Vol. 5495. Lecture Notes in Computer Science. Springer, 2009, pp. 62-71. DOI: [10.1007/978-3-642-04921-7\_7](https://doi.org/10.1007%2F978-3-642-04921-7%5C_7). URL: [https://doi.org/10.1007/978-3-642-04921-7\_7](https://doi.org/10.1007/978-3-642-04921-7\_7).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{Lopez-RodriguezM09,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Enrique Mérida Casermeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor    = {Mikko Kolehmainen and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Pekka J. Toivanen and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Bartlomiej Beliczynski},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Shortest Common Superstring Problem with Discrete Neural Networks},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Adaptive and Natural Computing Algorithms, 9th International Conference,<br>&nbsp;&nbsp;&nbsp;&nbsp;               {ICANNGA} 2009, Kuopio, Finland, April 23-25, 2009, Revised Selected<br>&nbsp;&nbsp;&nbsp;&nbsp;               Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series    = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {5495},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {62--71},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/978-3-642-04921-7\_7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/978-3-642-04921-7\_7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:51 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/conf/icannga/Lopez-RodriguezM09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Gevezes_2014></a>[[1]](#cite-Gevezes_2014) T. P. Gevezes and L. S. Pitsoulis. “The Shortest Superstring Problem”. In: _Optimization in Science and Engineering_. Springer New York, 2014, p. 189–227. ISBN: 9781493908080. DOI: [10.1007/978-1-4939-0808-0_10](https://doi.org/10.1007%2F978-1-4939-0808-0_10). URL: [http://dx.doi.org/10.1007/978-1-4939-0808-0_10](http://dx.doi.org/10.1007/978-1-4939-0808-0_10).
+
+<a name=bib-Gevezes_2013></a>[[2]](#cite-Gevezes_2013) T. Gevezes and L. Pitsoulis. “A greedy randomized adaptive search procedure with path relinking for the shortest superstring problem”. In: _Journal of Combinatorial Optimization_ 29.4 (May. 2013), p. 859–883. ISSN: 1573-2886. DOI: [10.1007/s10878-013-9622-z](https://doi.org/10.1007%2Fs10878-013-9622-z). URL: [http://dx.doi.org/10.1007/s10878-013-9622-z](http://dx.doi.org/10.1007/s10878-013-9622-z).
+
+

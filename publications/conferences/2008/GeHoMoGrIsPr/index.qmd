@@ -1,0 +1,56 @@
+---
+author: Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2008-09-01'
+slug: 2008/GeHoMoGrIsPr
+title: A generalization of the Hopfield model for the graph isomorphism problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>Computing and Computational Techniques in Sciences</em> 2008
+link: 2008-wseas/paper.pdf
+project: ~
+keywords: Graph isomorphism, Neural networks, Kinematic chains, Optimization, Computational
+  dynamics, Multivalued models
+---
+
+
+# Abstract
+
+
+Isomorphism identification between graphs is an important NP-complete problem with many science and engineering applications. Although excellent progresses have been made towards special graphs, no known polynomial-time algorithm for graph isomorphism has been found for general graphs. In this paper a generalization of the Hopfield neural network for isomorphism identification between general graphs is proposed. Simulation results show that this model is much superior to recently presented neural networks for this problem. The effectiveness of the resultant network does not seem to be decreased as the size of the graph is increased. This allows us to solve graph isomorphism problems with a big number of vertices, while many recently presented approaches only present results for graphs with up to 15 vertices.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Iso2008></a>[[GLM08]](#cite-Iso2008) G. Galán-Marín, D. López-Rodríguez, and E. Mérida-Casermeiro. “A generalization of the Hopfield model for the graph isomorphism problem”. In: _Computing and Computational Techniques in Sciences, 2008_. WSEAS. 2008, pp. 98-100.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{Iso2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={A generalization of the Hopfield model for the graph isomorphism problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={Galán-Marín, Gloria and López-Rodríguez, Domingo and Mérida-Casermeiro, Enrique},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={Computing and Computational Techniques in Sciences, 2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={98--100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={WSEAS}<br>}
+
+:::
+
+
+
+
+
+
+
+
+

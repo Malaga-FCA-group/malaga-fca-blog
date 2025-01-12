@@ -1,0 +1,86 @@
+---
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Nicolás Madrid
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+Status: Published
+date: '2022-08-09T00:00:00Z'
+slug: 2022/MiGePoNeAnKnSpMaCo
+title: 'Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge
+  Space of a Mathematics Course'
+categories:
+- Formal concept analysis
+- Fuzzy logic
+- E-learning
+header_image: ~
+details: <em>International Journal of Computational Intelligence Systems</em>, 15:58
+doi: 10.1007/s44196-022-00123-3
+link: 2022-ijcis/paper.pdf
+project:
+- 2019-flair
+- 2019-PIE-clustering
+keywords: Formal concept analysis, Logic, Minimal generators, Mathematics education,
+  Negation
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+# Abstract
+
+
+Formal concept analysis is a data analysis framework based on lattice theory. In this paper, we analyse the use, inside this framework, of positive and negative (mixed) attributes of a dataset, which has proved to represent more information on the use of just positive attributes. From a theoretical point of view, in this paper we show the structure and the relationships between minimal generators of  the simple and mixed concept lattices. From a practical point of view, the obtained theoretical results allow us to ensure a greater granularity in the retrieved information. Furthermore, due to the relationship between FCA and Knowledge Space theory, on a practical level, we analyse the marks of a Mathematics course to establish the knowledge structure of the course and determine the key items providing new relevant information that is not evident without the use of the proposed tools.
+
+
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-MinGen-IJCIS></a>[[Oje+22]](#cite-MinGen-IJCIS) M. Ojeda-Hernández, F. Pérez-Gámez, D. López-Rodríguez, et al. “Minimal Generators from Positive and Negative Attributes: Analysing the Knowledge Space of a Mathematics Course”. In: _Int. J. Comput. Intell. Syst._ 15.1 (2022), p. 58. DOI: [10.1007/s44196-022-00123-3](https://doi.org/10.1007%2Fs44196-022-00123-3). URL: [https://doi.org/10.1007/s44196-022-00123-3](https://doi.org/10.1007/s44196-022-00123-3).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{MinGen-IJCIS,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author    = {Manuel Ojeda{-}Hernández and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Francisco Pérez{-}Gámez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Domingo López{-}Rodríguez and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Nicolás Madrid and<br>&nbsp;&nbsp;&nbsp;&nbsp;               Angel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title     = {Minimal Generators from Positive and Negative Attributes: Analysing<br>&nbsp;&nbsp;&nbsp;&nbsp;               the Knowledge Space of a Mathematics Course},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal   = {Int. J. Comput. Intell. Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume    = {15},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number    = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages     = {58},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year      = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url       = {https://doi.org/10.1007/s44196-022-00123-3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi       = {10.1007/s44196-022-00123-3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 15 Aug 2022 15:04:55 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl    = {https://dblp.org/rec/journals/ijcisys/Ojeda-Hernandez22.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org}<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+NULL
+
+

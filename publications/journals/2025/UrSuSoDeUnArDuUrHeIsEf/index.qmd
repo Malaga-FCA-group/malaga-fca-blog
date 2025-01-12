@@ -1,0 +1,81 @@
+---
+title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas
+  due to the Urban Heat Island effect'
+type: journals
+author:
+- Francisco Rodríguez-Gómez
+- José del Campo-Ávila
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- Luis Pérez-Urrestarazu
+date: '2025-02-01'
+categories:
+- Data mining
+- Fuzzy logic
+- Imprecise information
+- Machine learning
+- Sustainability
+header_image: 0.jpg
+doi: https://doi.org/10.1016/j.softx.2024.101997
+slug: 2025/UrSuSoDeUnArDuUrHeIsEf
+keywords: ''
+project:
+- 2019-ursus-dm
+- 2023-valid
+details: SoftwareX vol. 29 , pages 101997.
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+
+# Abstract
+
+Identifying the most unfavourable areas of cities, in terms of high temperatures and lack of vegetation, can help to improve urban sustainability and combat climate change. URSUS_UHI is a software that could help make decisions on which areas need priority attention in terms of adding green infrastructure to reduce temperatures. It develops a spatial data mining processes that incorporates expert knowledge to automatically detect the most disadvantaged areas in terms of higher temperatures and lack of vegetation. In this way, users such as urban planners or landscape engineers can identify the most suitable areas in which to act.
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-RODRIGUEZGOMEZ2025101997></a>[[Rod+25]](#cite-RODRIGUEZGOMEZ2025101997) F. Rodríguez-Gómez, J. del Campo-Ávila, D. López-Rodríguez, et al. “URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect”. In: _SoftwareX_ 29 (2025), p. 101997. ISSN: 2352-7110. DOI: [https://doi.org/10.1016/j.softx.2024.101997](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.softx.2024.101997). URL: [https://www.sciencedirect.com/science/article/pii/S2352711024003674](https://www.sciencedirect.com/science/article/pii/S2352711024003674).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@article{RODRIGUEZGOMEZ2025101997,<br>&nbsp;&nbsp;&nbsp;&nbsp;title = {URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect},<br>&nbsp;&nbsp;&nbsp;&nbsp;journal = {SoftwareX},<br>&nbsp;&nbsp;&nbsp;&nbsp;volume = {29},<br>&nbsp;&nbsp;&nbsp;&nbsp;pages = {101997},<br>&nbsp;&nbsp;&nbsp;&nbsp;year = {2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;issn = {2352-7110},<br>&nbsp;&nbsp;&nbsp;&nbsp;doi = {https://doi.org/10.1016/j.softx.2024.101997},<br>&nbsp;&nbsp;&nbsp;&nbsp;url = {https://www.sciencedirect.com/science/article/pii/S2352711024003674},<br>&nbsp;&nbsp;&nbsp;&nbsp;author = {Francisco Rodríguez-Gómez and José {del Campo-Ávila} and Domingo López-Rodríguez and Luis Pérez-Urrestarazu},<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Remote sensing, Disadvantaged area index (DAI), Spatial data mining, Intelligent decision support system},<br>&nbsp;&nbsp;&nbsp;&nbsp;abstract = {Identifying the most unfavourable areas of cities, in terms of high temperatures and lack of vegetation, can help to improve urban sustainability and combat climate change. URSUS_UHI is a software that could help make decisions on which areas need priority attention in terms of adding green infrastructure to reduce temperatures. It develops a spatial data mining processes that incorporates expert knowledge to automatically detect the most disadvantaged areas in terms of higher temperatures and lack of vegetation. In this way, users such as urban planners or landscape engineers can identify the most suitable areas in which to act.}<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+NULL
+
+

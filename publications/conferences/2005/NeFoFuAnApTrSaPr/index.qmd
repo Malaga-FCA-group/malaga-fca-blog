@@ -1,0 +1,57 @@
+---
+author: Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2005-11-01'
+slug: 2005/NeFoFuAnApTrSaPr
+title: Neural Formulation of Functional Annealing and Application to Traveling Salesman
+  Problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: CAEPIA2005.png
+details: <em>XI Conferencia de la Asociación Española para la Inteligencia Artificial</em>
+  2005
+link: 2005-caepia2/paper.pdf
+project: ~
+keywords: Neural networks, Traveling salesman problem, Functional annealing
+---
+
+
+# Abstract
+
+
+A new technique based on slight modifications of the energy function of a neural network is proposed in this work. The aim of this technique is to reduce the number of local minima of the objective function, allowing the net to improve considerably the quality of the obtained solutions. Most discrete neural networks can benefit from its application, due to its generality and ease of use. We also propose its theoretical bases, and its application to recurrent neural networks is shown. To this end, Traveling Salesman Problem has been used as benchmark for this technique, as it is the best-known combinatorial optimization problem and the most used benchmark to quantify the efficiency of algorithms applied to this kind of problems. This new method has been compared to other techniques in terms of average solution quality, showing a substantial improvement. It is also able, in most of the performed simulations, to reach solutions near to global optimum.
+
+
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-lopez2005neural></a>[[LM05]](#cite-lopez2005neural) D. López-Rodríguez and E. Mérida-Casermeiro. “Neural Formulation of Functional Annealing and Application to Traveling Salesman Problem”. In: _XI Conferencia de la Asociación Española para la Inteligencia Artificial 2005_. AEPIA. 2005, pp. 71-80.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@inproceedings{lopez2005neural,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title={Neural Formulation of Functional Annealing and Application to Traveling Salesman Problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author={López-Rodríguez, Domingo and Mérida-Casermeiro, Enrique},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle={XI Conferencia de la Asociación Española para la Inteligencia Artificial 2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages={71--80},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year={2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  organization={AEPIA}<br>}
+
+:::
+
+
+
+
+
+
+
+
+
