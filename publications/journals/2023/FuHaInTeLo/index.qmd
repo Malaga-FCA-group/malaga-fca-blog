@@ -1,0 +1,74 @@
+---
+title: Fuzzy Halpern and Shoham's interval temporal logics
+author:
+- Willem Conradie
+- Dario Della Monica
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2023'
+categories: uncategorised
+slug: 2023/FuHaInTeLo
+details: Fuzzy Sets and Systems vol. 456 , pages 107-124.
+doi: https://doi.org/10.1016/j.fss.2022.05.014
+keywords: Fuzzy interval temporal logic, Satisfiability, Expressive power, Finite
+  model checking
+---
+
+
+
+# Abstract
+
+
+The most representative interval temporal logic, called HS, was introduced by Halpern and Shoham in the nineties. Recently, HS has been proposed as a suitable formalism for modern artificial intelligence applications; however, when dealing with real-life data one is not always able to express temporal relations and propositional labels in a definite, crisp way. In this paper, following the seminal ideas of Fitting and Zadeh, we present a fuzzy generalization of HS, called FHS, that partially solves such problems of expressive power. We study FHS from both a theoretical and an application standpoint: first, we discuss its syntax, semantics, expressive power, and satisfiability problem; then, we define and solve the time series FHS finite model checking problem, to serve as the basis of future applications.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-CONRADIE2023107></a>[[Con+23]](#cite-CONRADIE2023107) W. Conradie, D. Della Monica, E. Mu~noz-Velasco, et al. “Fuzzy Halpern and Shoham's interval temporal logics”. In: _Fuzzy Sets and Systems_ 456 (2023). Logic (214 p.), pp. 107-124. ISSN: 0165-0114. DOI: [https://doi.org/10.1016/j.fss.2022.05.014](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.fss.2022.05.014). URL: [https://www.sciencedirect.com/science/article/pii/S0165011422002068](https://www.sciencedirect.com/science/article/pii/S0165011422002068).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{CONRADIE2023107,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Fuzzy Halpern and Shoham's interval temporal logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets and Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {456},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {107-124},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  note = {Logic (214 p.)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {0165-0114},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {https://doi.org/10.1016/j.fss.2022.05.014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.sciencedirect.com/science/article/pii/S0165011422002068},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Willem Conradie and Dario {Della Monica} and Emilio Mu{\~n}oz-Velasco and Guido Sciavicco and Ionel Eduard Stan},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Fuzzy interval temporal logic, Satisfiability, Expressive power, Finite model checking},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {The most representative interval temporal logic, called HS, was introduced by Halpern and Shoham in the nineties. Recently, HS has been proposed as a suitable formalism for modern artificial intelligence applications; however, when dealing with real-life data one is not always able to express temporal relations and propositional labels in a definite, crisp way. In this paper, following the seminal ideas of Fitting and Zadeh, we present a fuzzy generalization of HS, called FHS, that partially solves such problems of expressive power. We study FHS from both a theoretical and an application standpoint: first, we discuss its syntax, semantics, expressive power, and satisfiability problem; then, we define and solve the time series FHS finite model checking problem, to serve as the basis of future applications.},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Petry_2024></a>[[1]](#cite-Petry_2024) F. Petry. “Intuitionistic Fuzzy Sets for Spatial and Temporal Data Intervals”. In: _Information_ 15.4 (Apr. 2024), p. 240. ISSN: 2078-2489. DOI: [10.3390/info15040240](https://doi.org/10.3390%2Finfo15040240). URL: [http://dx.doi.org/10.3390/info15040240](http://dx.doi.org/10.3390/info15040240).
+
+<a name=bib-Salhi_2024></a>[[2]](#cite-Salhi_2024) Y. Salhi and M. Sioutis. “On prime scenarios in qualitative spatial and temporal reasoning”. In: _Information and Computation_ 300 (Oct. 2024), p. 105198. ISSN: 0890-5401. DOI: [10.1016/j.ic.2024.105198](https://doi.org/10.1016%2Fj.ic.2024.105198). URL: [http://dx.doi.org/10.1016/j.ic.2024.105198](http://dx.doi.org/10.1016/j.ic.2024.105198).
+

@@ -1,0 +1,83 @@
+---
+title: On coarser interval temporal logics
+author:
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Mercedes Pelegrín
+- Pietro Sala
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2019'
+categories: uncategorised
+slug: 2019/CoInTeLo
+details: Artificial Intelligence vol. 266 , pages 1-26.
+doi: https://doi.org/10.1016/j.artint.2018.09.001
+keywords: Modal and temporal logic, (Un)Decidability, Complexity
+---
+
+
+
+# Abstract
+
+
+The primary characteristic of interval temporal logic is that intervals, rather than points, are taken as the primitive ontological entities. Given their generally bad computational behavior of interval temporal logics, several techniques exist to produce decidable and computationally affordable temporal logics based on intervals. In this paper we take inspiration from Golumbic and Shamir's coarser interval algebras, which generalize the classical Allen's Interval Algebra, in order to define two previously unknown variants of Halpern and Shoham's logic (HS) based on coarser relations. We prove that, perhaps surprisingly, the satisfiability problem for the coarsest of the two variants, namely HS3, not only is decidable, but PSpace-complete in the finite/discrete case, and PSpace-hard in any other case; besides proving its complexity bounds, we implement a tableau-based satisfiability checker for it and test it against a systematically generated benchmark. Our results are strengthened by showing that not all coarser-than-Allen's relations are a guarantee of decidability, as we prove that the second variant, namely HS7, remains undecidable in all interesting cases.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-MUNOZVELASCO20191></a>[[Mun+19]](#cite-MUNOZVELASCO20191) E. Mu~noz-Velasco, M. Pelegrín, P. Sala, et al. “On coarser interval temporal logics”. In: _Artificial Intelligence_ 266 (2019), pp. 1-26. ISSN: 0004-3702. DOI: [https://doi.org/10.1016/j.artint.2018.09.001](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.artint.2018.09.001). URL: [https://www.sciencedirect.com/science/article/pii/S0004370218305964](https://www.sciencedirect.com/science/article/pii/S0004370218305964).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{MUNOZVELASCO20191,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On coarser interval temporal logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Artificial Intelligence},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {266},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1-26},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {0004-3702},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {https://doi.org/10.1016/j.artint.2018.09.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.sciencedirect.com/science/article/pii/S0004370218305964},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Emilio Mu{\~n}oz-Velasco and Mercedes Pelegr{\a'\i}n and Pietro Sala and Guido Sciavicco and Ionel Eduard Stan},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Modal and temporal logic, (Un)Decidability, Complexity},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {The primary characteristic of interval temporal logic is that intervals, rather than points, are taken as the primitive ontological entities. Given their generally bad computational behavior of interval temporal logics, several techniques exist to produce decidable and computationally affordable temporal logics based on intervals. In this paper we take inspiration from Golumbic and Shamir's coarser interval algebras, which generalize the classical Allen's Interval Algebra, in order to define two previously unknown variants of Halpern and Shoham's logic (HS) based on coarser relations. We prove that, perhaps surprisingly, the satisfiability problem for the coarsest of the two variants, namely HS3, not only is decidable, but PSpace-complete in the finite/discrete case, and PSpace-hard in any other case; besides proving its complexity bounds, we implement a tableau-based satisfiability checker for it and test it against a systematically generated benchmark. Our results are strengthened by showing that not all coarser-than-Allen's relations are a guarantee of decidability, as we prove that the second variant, namely HS7, remains undecidable in all interesting cases.},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cheng_2020></a>[[1]](#cite-Cheng_2020) H. Cheng, P. Li, R. Wang, et al. “Dynamic spatio‐temporal logic based on RCC‐8”. In: _Concurrency and Computation: Practice and Experience_ 33.22 (Jul. 2020). ISSN: 1532-0634. DOI: [10.1002/cpe.5900](https://doi.org/10.1002%2Fcpe.5900). URL: [http://dx.doi.org/10.1002/cpe.5900](http://dx.doi.org/10.1002/cpe.5900).
+
+<a name=bib-Conradie_2023></a>[[2]](#cite-Conradie_2023) W. Conradie, D. Della Monica, E. Muñoz-Velasco, et al. “Fuzzy Halpern and Shoham’s interval temporal logics”. In: _Fuzzy Sets and Systems_ 456 (Mar. 2023), p. 107–124. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.014](https://doi.org/10.1016%2Fj.fss.2022.05.014). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.014](http://dx.doi.org/10.1016/j.fss.2022.05.014).
+
+<a name=bib-Pagliarini_2024></a>[[3]](#cite-Pagliarini_2024) G. Pagliarini, S. Scaboro, G. Serra, et al. “Neural-symbolic temporal decision trees for multivariate time series classification”. In: _Information and Computation_ 301 (Dec. 2024), p. 105209. ISSN: 0890-5401. DOI: [10.1016/j.ic.2024.105209](https://doi.org/10.1016%2Fj.ic.2024.105209). URL: [http://dx.doi.org/10.1016/j.ic.2024.105209](http://dx.doi.org/10.1016/j.ic.2024.105209).
+
+<a name=bib-Pagliarini_2021></a>[[4]](#cite-Pagliarini_2021) G. Pagliarini and G. Sciavicco. “Decision Tree Learning with Spatial Modal Logics”. In: _Electronic Proceedings in Theoretical Computer Science_ 346 (Sep. 2021), p. 273–290. ISSN: 2075-2180. DOI: [10.4204/eptcs.346.18](https://doi.org/10.4204%2Feptcs.346.18). URL: [http://dx.doi.org/10.4204/eptcs.346.18](http://dx.doi.org/10.4204/eptcs.346.18).
+
+<a name=bib-Pagliarini_2023></a>[[5]](#cite-Pagliarini_2023) G. Pagliarini and G. Sciavicco. “Interpretable land cover classification with modal decision trees”. In: _European Journal of Remote Sensing_ 56.1 (Dec. 2023). ISSN: 2279-7254. DOI: [10.1080/22797254.2023.2262738](https://doi.org/10.1080%2F22797254.2023.2262738). URL: [http://dx.doi.org/10.1080/22797254.2023.2262738](http://dx.doi.org/10.1080/22797254.2023.2262738).
+
+<a name=bib-Sioutis_20211></a>[[6]](#cite-Sioutis_20211) M. Sioutis, A. Paparrizou, and T. Janhunen. “On neighbourhood singleton-style consistencies for qualitative spatial and temporal reasoning”. In: _Information and Computation_ 280 (Oct. 2021), p. 104638. ISSN: 0890-5401. DOI: [10.1016/j.ic.2020.104638](https://doi.org/10.1016%2Fj.ic.2020.104638). URL: [http://dx.doi.org/10.1016/j.ic.2020.104638](http://dx.doi.org/10.1016/j.ic.2020.104638).
+
+<a name=bib-Sioutis_2021></a>[[7]](#cite-Sioutis_2021) M. Sioutis and D. Wolter. “Dynamic branching in qualitative constraint-based reasoning via counting local models”. In: _Information and Computation_ 281 (Dec. 2021), p. 104787. ISSN: 0890-5401. DOI: [10.1016/j.ic.2021.104787](https://doi.org/10.1016%2Fj.ic.2021.104787). URL: [http://dx.doi.org/10.1016/j.ic.2021.104787](http://dx.doi.org/10.1016/j.ic.2021.104787).
+

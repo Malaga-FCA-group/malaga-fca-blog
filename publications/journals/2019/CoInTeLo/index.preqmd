@@ -1,0 +1,38 @@
+---
+title: On coarser interval temporal logics
+author:
+- ejmunoz
+- Mercedes Pelegrín
+- Pietro Sala
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2019'
+categories: uncategorised
+slug: 2019/CoInTeLo
+details: Artificial Intelligence vol. 266 , pages 1-26.
+doi: https://doi.org/10.1016/j.artint.2018.09.001
+keywords: Modal and temporal logic, (Un)Decidability, Complexity
+
+---
+
+
+# Abstract
+
+
+The primary characteristic of interval temporal logic is that intervals, rather than points, are taken as the primitive ontological entities. Given their generally bad computational behavior of interval temporal logics, several techniques exist to produce decidable and computationally affordable temporal logics based on intervals. In this paper we take inspiration from Golumbic and Shamir's coarser interval algebras, which generalize the classical Allen's Interval Algebra, in order to define two previously unknown variants of Halpern and Shoham's logic (HS) based on coarser relations. We prove that, perhaps surprisingly, the satisfiability problem for the coarsest of the two variants, namely HS3, not only is decidable, but PSpace-complete in the finite/discrete case, and PSpace-hard in any other case; besides proving its complexity bounds, we implement a tableau-based satisfiability checker for it and test it against a systematically generated benchmark. Our results are strengthened by showing that not all coarser-than-Allen's relations are a guarantee of decidability, as we prove that the second variant, namely HS7, remains undecidable in all interesting cases.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

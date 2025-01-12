@@ -1,3 +1,22 @@
+- title: On coarser interval temporal logics
+  author:
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Mercedes Pelegrín
+  - Pietro Sala
+  - Guido Sciavicco
+  - Ionel Eduard Stan
+  date: '2019'
+  details: Artificial Intelligence vol. 266 , pages 1-26.
+  path: /publications/journals/2019/CoInTeLo
+- title: A flexible logic-based approach to closeness using order of magnitude qualitative
+    reasoning
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2019'
+  details: Logic Journal of the IGPL vol. 28 (1), pages 121-133.
+  path: /publications/journals/2019/FlApClUsOrMaQuRe
 - title: 'Relational Galois connections between transitive digraphs: Characterization
     and construction'
   author:
@@ -56,6 +75,16 @@
   date: '2023-01-01'
   details: 'Fuzzy Sets Syst. 473: 108734'
   path: /publications/journals/2023/FuClStFoCoIi
+- title: Fuzzy Halpern and Shoham's interval temporal logics
+  author:
+  - Willem Conradie
+  - Dario Della Monica
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Guido Sciavicco
+  - Ionel Eduard Stan
+  date: '2023'
+  details: Fuzzy Sets and Systems vol. 456 , pages 107-124.
+  path: /publications/journals/2023/FuHaInTeLo
 - title: Fuzzy relational Galois connections between fuzzy transitive digraphs
   author:
   - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>

@@ -1,0 +1,71 @@
+---
+title: A flexible logic-based approach to closeness using order of magnitude qualitative
+  reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/FlApClUsOrMaQuRe
+details: Logic Journal of the IGPL vol. 28 (1), pages 121-133.
+doi: 10.1093/jigpal/jzz076
+---
+
+
+
+# Abstract
+
+
+In this paper, we focus on a logical approach to the important notion of closeness, which has not received much attention in the literature. Our notion of closeness is based on the so-called proximity intervals, which will be used to decide the elements that are close to each other. Some of the intuitions of this definition are explained on the basis of examples. We prove the decidability of the recently introduced multimodal logic for closeness and, then, we show some capabilities of the logic with respect to expressivity in order to denote particular positions of the proximity intervals.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-101093jigpaljzz076></a>[[BMO19]](#cite-101093jigpaljzz076) A. Burrieza, E. Mu~noz-Velasco, and M. Ojeda-Aciego. “A flexible logic-based approach to closeness using order of magnitude qualitative reasoning”. In: _Logic Journal of the IGPL_ 28.1 (Dec. 2019), pp. 121-133. ISSN: 1367-0751. DOI: [10.1093/jigpal/jzz076](https://doi.org/10.1093%2Fjigpal%2Fjzz076). eprint: https://academic.oup.com/jigpal/article-pdf/28/1/121/32219700/jzz076.pdf. URL: [https://doi.org/10.1093/jigpal/jzz076](https://doi.org/10.1093/jigpal/jzz076).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{10.1093/jigpal/jzz076,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Emilio Mu{\~n}oz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A flexible logic-based approach to closeness using order of magnitude qualitative reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Logic Journal of the IGPL},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {28},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {121-133},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  month = {12},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper, we focus on a logical approach to the important notion of closeness, which has not received much attention in the literature. Our notion of closeness is based on the so-called proximity intervals, which will be used to decide the elements that are close to each other. Some of the intuitions of this definition are explained on the basis of examples. We prove the decidability of the recently introduced multimodal logic for closeness and, then, we show some capabilities of the logic with respect to expressivity in order to denote particular positions of the proximity intervals.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {1367-0751},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1093/jigpal/jzz076},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1093/jigpal/jzz076},<br>&nbsp;&nbsp;&nbsp;&nbsp;  eprint = {https://academic.oup.com/jigpal/article-pdf/28/1/121/32219700/jzz076.pdf},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Barreno_2021></a>[[1]](#cite-Barreno_2021) F. Barreno, M. G. Romana, and M. Santos. “Fuzzy expert system for road type identification and risk assessment of conventional two‐lane roads”. In: _Expert Systems_ 39.9 (Sep. 2021). ISSN: 1468-0394. DOI: [10.1111/exsy.12837](https://doi.org/10.1111%2Fexsy.12837). URL: [http://dx.doi.org/10.1111/exsy.12837](http://dx.doi.org/10.1111/exsy.12837).
+
+<a name=bib-Barreno_2020></a>[[2]](#cite-Barreno_2020) F. Barreno, M. Santos, and M. G. Romana. “Fuzzy-Logic Based Identification of Conventional Two-Lane Roads”. In: _15th International Conference on Soft Computing Models in Industrial and Environmental Applications (SOCO 2020)_. Springer International Publishing, Aug. 2020, p. 418–428. ISBN: 9783030578022. DOI: [10.1007/978-3-030-57802-2_40](https://doi.org/10.1007%2F978-3-030-57802-2_40). URL: [http://dx.doi.org/10.1007/978-3-030-57802-2_40](http://dx.doi.org/10.1007/978-3-030-57802-2_40).
+

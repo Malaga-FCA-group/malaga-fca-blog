@@ -1,0 +1,39 @@
+---
+title: Fuzzy Halpern and Shoham's interval temporal logics
+author:
+- Willem Conradie
+- Dario Della Monica
+- ejmunoz
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2023'
+categories: uncategorised
+slug: 2023/FuHaInTeLo
+details: Fuzzy Sets and Systems vol. 456 , pages 107-124.
+doi: https://doi.org/10.1016/j.fss.2022.05.014
+keywords: Fuzzy interval temporal logic, Satisfiability, Expressive power, Finite
+  model checking
+
+---
+
+
+# Abstract
+
+
+The most representative interval temporal logic, called HS, was introduced by Halpern and Shoham in the nineties. Recently, HS has been proposed as a suitable formalism for modern artificial intelligence applications; however, when dealing with real-life data one is not always able to express temporal relations and propositional labels in a definite, crisp way. In this paper, following the seminal ideas of Fitting and Zadeh, we present a fuzzy generalization of HS, called FHS, that partially solves such problems of expressive power. We study FHS from both a theoretical and an application standpoint: first, we discuss its syntax, semantics, expressive power, and satisfiability problem; then, we define and solve the time series FHS finite model checking problem, to serve as the basis of future applications.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

@@ -1,0 +1,3 @@
+<a name=bib-Petry_2024></a>[[1]](#cite-Petry_2024) F. Petry. “Intuitionistic Fuzzy Sets for Spatial and Temporal Data Intervals”. In: _Information_ 15.4 (Apr. 2024), p. 240. ISSN: 2078-2489. DOI: [10.3390/info15040240](https://doi.org/10.3390%2Finfo15040240). URL: [http://dx.doi.org/10.3390/info15040240](http://dx.doi.org/10.3390/info15040240).
+
+<a name=bib-Salhi_2024></a>[[2]](#cite-Salhi_2024) Y. Salhi and M. Sioutis. “On prime scenarios in qualitative spatial and temporal reasoning”. In: _Information and Computation_ 300 (Oct. 2024), p. 105198. ISSN: 0890-5401. DOI: [10.1016/j.ic.2024.105198](https://doi.org/10.1016%2Fj.ic.2024.105198). URL: [http://dx.doi.org/10.1016/j.ic.2024.105198](http://dx.doi.org/10.1016/j.ic.2024.105198).

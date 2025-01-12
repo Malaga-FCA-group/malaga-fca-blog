@@ -1,3 +1,12 @@
+- title: A flexible logic-based approach to closeness using order of magnitude qualitative
+    reasoning
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2019'
+  details: Logic Journal of the IGPL vol. 28 (1), pages 121-133.
+  path: /publications/journals/2019/FlApClUsOrMaQuRe
 - title: A Formal Concept Analysis Approach to Cooperative Conversational Recommendation
   author:
   - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
