@@ -365,7 +365,15 @@ citation_history <- function(header, folder) {
 
   if (file.exists(this_file)) {
     string <- c(
-      "# Bibliometric data\n\n## Cites\n",
+      "# Bibliometric data\n\n", 
+      "The following data has been extracted from free resources such as [OpenAlex](https://openalex.org/) or [Dimensions](https://app.dimensions.ai/).",
+      "",
+      ifelse(!is.null(header$doi),
+      glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<span class="__dimensions_badge_embed__" data-doi="{header$doi}" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>'), ""),
+      "",
+      ifelse(!is.null(header$doi),
+      glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<a href="https://plu.mx/plum/a/?doi={header$doi}" class="plumx-details" data-site="plum" data-hide-when-empty="true">{header$title}</a></div>'), ""),
+      "\n\n## Cites\n",
       "The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n",
       "```{r citing2}", "#| echo: false", "#| results: asis",
       "#| warning: false", "#| message: false",

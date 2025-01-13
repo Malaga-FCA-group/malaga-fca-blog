@@ -138,6 +138,8 @@ cookieconsent.run({
 
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-details.js"></script>
+
 <script src="../../../prism.js"></script>
 <script>
 // Carga el archivo JavaScript de resaltado de sintaxis
@@ -1355,16 +1357,16 @@ Rule 10: {FICAL_8 [0.67]} -&gt; {FICAL_1 [0.67], FICAL_3 [0.67], FICAL_8}</code>
 <pre><code>Processing batch</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>--&gt; Simplification: from 340 to 274 in 0.088 secs.</code></pre>
+<pre><code>--&gt; Simplification: from 340 to 274 in 0.201 secs.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>--&gt; Right Simplification: from 274 to 273 in 0.114 secs.</code></pre>
+<pre><code>--&gt; Right Simplification: from 274 to 273 in 0.416 secs.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>--&gt; Reorder: from 273 to 273 in 0 secs.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Batch took 0.202 secs. </code></pre>
+<pre><code>Batch took 0.618 secs. </code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>result<span class="sc">$</span>implications[<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1516,7 +1518,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/classy-bavarois-85e4cc\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

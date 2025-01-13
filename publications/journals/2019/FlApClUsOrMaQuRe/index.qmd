@@ -44,6 +44,16 @@ Please, cite this work as:
 
 # Bibliometric data
 
+
+The following data has been extracted from free resources such as [OpenAlex](https://openalex.org/) or [Dimensions](https://app.dimensions.ai/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1093/jigpal/jzz076" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1093/jigpal/jzz076" class="plumx-details" data-site="plum" data-hide-when-empty="true">A flexible logic-based approach to closeness using order of magnitude qualitative reasoning</a></div>
+
+
 ## Cites
 
 The following graph plots the number of cites received by this work from its publication, on a yearly basis.

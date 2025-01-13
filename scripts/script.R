@@ -43,7 +43,9 @@ source(
   )
 )
 
-projects |> sapply(process_preqmd) |> invisible()
+projects |> 
+  sapply(process_preqmd) |> 
+  invisible()
 
 folder <- here::here("publications")
 journals <- list.files(
@@ -73,18 +75,18 @@ books <- list.files(
   recursive = TRUE
 )
 
-books |> sapply(process_preqmd)
+books |> sapply(process_preqmd) |> invisible()
 
-FORCE <- FALSE
-source(here::here(
-  "scripts",
-  "generate_post.R"
-))
+# FORCE <- FALSE
+# source(here::here(
+#   "scripts",
+#   "generate_post.R"
+# ))
 
-source(here::here(
-  "scripts",
-  "for_data_provider.R"
-))
+# source(here::here(
+#   "scripts",
+#   "for_data_provider.R"
+# ))
 
 source(here::here(
   "scripts",
