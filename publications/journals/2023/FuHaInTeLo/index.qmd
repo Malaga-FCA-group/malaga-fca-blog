@@ -10,7 +10,7 @@ date: '2023'
 categories: uncategorised
 slug: 2023/FuHaInTeLo
 details: Fuzzy Sets and Systems vol. 456 , pages 107-124.
-doi: https://doi.org/10.1016/j.fss.2022.05.014
+doi: 10.1016/j.fss.2022.05.014
 keywords: Fuzzy interval temporal logic, Satisfiability, Expressive power, Finite
   model checking
 ---
@@ -51,10 +51,10 @@ Please, cite this work as:
 The following data has been extracted from free resources such as [OpenAlex](https://openalex.org/) or [Dimensions](https://app.dimensions.ai/).
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-<span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.fss.2022.05.014" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.fss.2022.05.014" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-<a href="https://plu.mx/plum/a/?doi=https://doi.org/10.1016/j.fss.2022.05.014" class="plumx-details" data-site="plum" data-hide-when-empty="true">Fuzzy Halpern and Shoham's interval temporal logics</a></div>
+<a href="https://plu.mx/plum/a/?doi=10.1016/j.fss.2022.05.014" class="plumx-details" data-site="plum" data-hide-when-empty="true">Fuzzy Halpern and Shoham's interval temporal logics</a></div>
 
 
 ## Cites
