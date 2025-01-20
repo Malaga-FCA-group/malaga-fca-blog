@@ -11,7 +11,7 @@ categories: uncategorised
 slug: 2019/CoInTeLo
 details: Artificial Intelligence vol. 266 , pages 1-26.
 doi: 10.1016/j.artint.2018.09.001
-preprint:  https://hdl.handle.net/10630/36368 
+preprint: https://hdl.handle.net/10630/36368
 keywords: Modal and temporal logic, (Un)Decidability, Complexity
 ---
 
@@ -69,8 +69,8 @@ The following graph plots the number of cites received by this work from its pub
 #| results: asis
 #| warning: false
 #| message: false
-source(here::here("scripts", "manage_publications.R"))
-df <- readRDS("citation_history.rds")
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
 plot_citation_history(df)
 ```
 
