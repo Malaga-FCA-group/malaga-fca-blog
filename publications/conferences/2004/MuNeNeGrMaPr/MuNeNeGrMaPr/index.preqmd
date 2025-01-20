@@ -1,0 +1,55 @@
+---
+author: Enrique Mérida Casermeiro, Domingo López-Rodríguez
+Status: Published
+date: '2004-09-01'
+slug: MuNeNeGrMaPr/MuNeNeGrMaPr
+title: Multivalued Neural Network for Graph Maxcut Problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>International Congress of Computational Methods in Science and Engineering</em>
+  2004
+doi: ''
+link: 2004-iccmse2/paper.pdf
+project: ~
+keywords: Neural networks, Combinatorial optimization, Graph problem
+---
+
+# Abstract
+
+
+In this paper we have used a multivalued neural model (MREM) in order to solve the maximum cut problem. A new technique, based in the problem, that allows to escape of certain bad local minima has been incorporated in order to improve the goodness of the obtained solutions. Finally, we have made some comparisons with other neural formulations for that problem obtaining better solutions in a reasonable time.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

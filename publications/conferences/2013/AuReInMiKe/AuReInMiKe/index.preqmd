@@ -1,0 +1,47 @@
+---
+title: Automated Reasoning to Infer all Minimal Keys
+author:
+- pcordero
+- enciso
+- amora
+date: '2013'
+categories: uncategorised
+slug: AuReInMiKe/AuReInMiKe
+details: '{IJCAI} 2013, Proceedings of the 23rd International Joint Conference on
+  Artificial Intelligence, Beijing, China, August 3-9, 2013 , pages 817--823.'
+doi: []
+---
+
+
+# Abstract
+
+
+Wastl introduced for first time a tableaux-like method based on an inference system for deriving all minimal keys from a relational schema. He introduced two inference rules and built an automated method over them. In this work we tackle the key finding problem with a tableaux method, but we will use two inference rules inspired by the Simplification Logic for Functional Dependencies. Wastl's method requires the input to be a set of functional dependencies (FDs) with atomic right hand sides. Therefore, it is necessary to apply fragmentation rule with the consequent increasing of the input. The main novelty of our rules is that they deal with generalized formulas, avoiding the fragmentation needed in the former tableaux. Finally we illustrate the advantages of our new tableaux method with an experiment.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

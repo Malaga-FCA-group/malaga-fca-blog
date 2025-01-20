@@ -1,0 +1,46 @@
+---
+title: Relational approach for a logic for order of magnitude qualitative reasoning
+  with negligibility, non-closeness and distance
+author:
+- Joanna Golinska-Pilarek
+- ejmunoz
+date: '2009'
+categories: uncategorised
+slug: ReApLoOrMaQuReDi/ReApLoOrMaQuReDi
+details: Log. J. {IGPL} vol. 17 (4), pages 375--394.
+doi: 10.1093/JIGPAL/JZP016
+---
+
+
+# Abstract
+
+
+We present a relational proof system in the style of dual tableaux for a multimodal propositional logic for order of magnitude qualitative reasoning to deal with relations of negligibility, non-closeness, and distance. This logic enables us to introduce the operation of qualitative sum for some classes of numbers. A relational formalization of the modal logic in question is introduced in this paper, i.e., we show how to construct a relational logic associated with the logic for order-of-magnitude reasoning and its dual tableau system which is a validity checker for the modal logic. For that purpose, we define a validity preserving translation of the modal language into relational language. Then we prove that the system is sound and complete with respect to the relational logic defined as well as with respect to the logic for order of magnitude reasoning. Finally, we show that in fact relational dual tableau does more. It can be used for performing the four major reasoning tasks: verification of validity, proving entailment of a formula from a finite set of formulas, model checking, and verification of satisfaction of a formula in a finite model by a given object.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

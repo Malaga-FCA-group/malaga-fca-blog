@@ -1,0 +1,47 @@
+---
+title: On the Complexity of Fragments of Horn Modal Logics
+author:
+- Davide Bresolin
+- ejmunoz
+- Guido Sciavicco
+date: '2016'
+categories: uncategorised
+slug: CoFrHoMoLo/CoFrHoMoLo
+details: 23rd International Symposium on Temporal Representation and Reasoning, {TIME}
+  2016, Kongens Lyngby, Denmark, October 17-19, 2016 , pages 186--195.
+doi: 10.1109/TIME.2016.27
+---
+
+
+# Abstract
+
+
+Modal logic is a paradigm for several useful and applicable formal systems in computer science, and, in particular, for temporal logics of various kinds. It generally retains the low complexity of classical propositional logic, but notable exceptions exist that present higher complexity or are even undecidable. In search of computationally well-behaved fragments, clausal forms and other sub-propositional restrictions of temporal and description logics have been recently studied. It is known that the Horn fragments of the modal logics between K and S4 are PSPACE-complete, keeping the same complexity of the the full propositional versions. In this paper, inspired by similar results in the temporal case, we sharpen the above result by showing that if we allow only box modalities in the language the Horn fragments of the modal logics between K and S4 become P-complete. Exploring the innermost reasons for the tractability of sub-Horn modal logics is a necessary condition to understand the behaviour of more expressive temporal and spatial languages under similar restrictions.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

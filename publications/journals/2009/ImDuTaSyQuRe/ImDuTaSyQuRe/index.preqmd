@@ -1,0 +1,48 @@
+---
+title: An implementation of a dual tableaux system for order-of-magnitude qualitative
+  reasoning
+author:
+- Alfredo Burrieza
+- amora
+- aciego
+- Ewa Orlowska
+date: '2009'
+categories: uncategorised
+slug: ImDuTaSyQuRe/ImDuTaSyQuRe
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1852--1866.
+doi: 10.1080/00207160902777906
+---
+
+
+# Abstract
+
+
+Abstract Logic programming has been used as a natural framework to automate deduction in the logic of order-of-magnitude reasoning. Specifically, we introduce a Prolog implementation of the Rasiowa–Sikorski proof system associated with the relational translation Re(OM) of the multi-modal logic of order-of-magnitude qualitative reasoning OM. Keywords: relational theorem provingRasiowa–Sikorski proceduremodal logictableaux procedureautomated theorem proving 2000 AMS Subject Classifications : 03B4505E1068T15 Acknowledgements The author A. Mora was partially supported by P06-FQM-02049, and the author M. Ojeda-Aciego was partially supported by TIC06-15455-C03-01. The authors acknowledge the anonymous referees for providing valuable suggestions on how to improve the final version of this article. Notes The full implementation (developed in SWI-Prolog Version 5.6.33 for Windows platform) is available from the address http://homepage.mac.com/alicauchy/ The full trace of execution of the procedure applied on all the axioms of Citation5 can be obtained from the address http://homepage.mac.com/alicauchy/
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,48 @@
+---
+title: Computing non-redundant sets of functional dependencies via simplification
+author:
+- pcordero
+- enciso
+- amora
+- José Manuel Rodríguez-Jiménez
+date: '2013'
+categories: uncategorised
+slug: CoSeFuDeViSi/CoSeFuDeViSi
+details: '{IEEE} Symposium on Foundations of Computational Intelligence, {FOCI} 2013,
+  Singapore, Singapore, April 16-19, 2013 , pages 9--14.'
+doi: 10.1109/FOCI.2013.6602449
+---
+
+
+# Abstract
+
+
+Functional dependencies may be considered the skeleton of the Relational Database Model. They describe binary relations between sets of attributes and they characterize the database structure. A way to ensure solid specifications is to transform set of functional dependencies into an equivalent one with less redundancy. In this work we consider a fuzzy extension of the notion of functional dependencies which is consistent with the Armstrong axioms. We improve the well known notion of Duquenne-Guigues basis by enriching the minimality criteria and we introduce a method to remove redundancy in the basis.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

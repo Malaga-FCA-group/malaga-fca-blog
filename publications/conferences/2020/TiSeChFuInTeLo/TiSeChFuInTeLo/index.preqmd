@@ -1,0 +1,50 @@
+---
+title: Time Series Checking with Fuzzy Interval Temporal Logics
+author:
+- Willem Conradie
+- Dario Della Monica
+- ejmunoz
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2020'
+categories: uncategorised
+slug: TiSeChFuInTeLo/TiSeChFuInTeLo
+details: Proceedings of the 21st Italian Conference on Theoretical Computer Science,
+  Ischia, Italy, September 14-16, 2020 , {CEUR} Workshop Proceedings vol. 2756, pages
+  250--262.
+doi: []
+---
+
+
+# Abstract
+
+
+Model checking is a very well-known problem, with many practical applications. A possible variation of such a problem in the interval logic setting is the so-called finite model checking, that consists of verifying an interval temporal logic formula, typically of Halpern and Shoham’s logic of Allen’s relations HS, on a fully represented finite interval model. Multivariate time series are collections of temporally ordered sets of values, and they allow to describe a variety of situations, such as the medical history of an hospitalized patient or the sensor values during a plane flight. In this paper we argue how the recently introduced fuzzy generalization of interval temporal logic is a suitable language in which interesting properties of a multivariate time series can be expressed and checked, and we define, solve, and discuss the complexity of the multivariate time series fuzzy interval logic checking problem.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

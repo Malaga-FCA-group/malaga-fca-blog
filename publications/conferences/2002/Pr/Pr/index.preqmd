@@ -1,0 +1,47 @@
+---
+title: Preface
+author:
+- Patrik Eklund
+- aciego
+date: '2002'
+categories: uncategorised
+slug: Pr/Pr
+details: Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite
+  Workshop, M{\'{a}}laga, Spain, July 12-13, 2002 , Electronic Notes in Theoretical
+  Computer Science vol. 66, pages 104--105.
+doi: 10.1016/S1571-0661(05)80517-1
+---
+
+
+# Abstract
+
+
+This part of the volume contains the papers accepted for presentation at the workshop on Unification in Non-Classical Logics (UNCL), co-located with ICALP 2002, which took place on July 12, 2002 in M\'alaga, Spain. The workshop was concerned with one of the most promising areas of research on non-classical logics and its applications. Unification in non-classical logics, with various approaches to handling generalised terms, has drawn more and more attention in recent years. So far, most popular lines of research include fuzzy unification of (conventional) databases and the use of fuzzy concepts in information retrieval. This workshop was conceived as a forum for the exchange of ideas relevant for the concept of unification in non-classical logics, including, but not limited to, the topics of: Unification in multiple-valued and fuzzy logic programming. Unification based on similarities and fuzzy equivalence relations. Categorical unification. Practical use of non-classical unification, e.g. in expert systems and information retrieval. The program committee selected six papers after a reviewing process in which each submitted paper received at least two reviews. Considerable effort was devoted for the evaluation of the submissions and to providing the authors with helpful feedback. The criteria for selection were originality, quality, and relevance to the topic of the workshop. Alsinet et al reviewed and compared two models which extend first order possibilistic logic in order to enable fuzzy unification. The extension considers mainly fuzzy constants, and in form of restrictions on existential quantifiers. Banerjee and Bujosa presented a non-classical interpretion of classical unification in terms of geometrical constructions over a suitable R-module M. The main result is that unification of two terms can be seen as the intersection of their corresponding affine varieties on M. This paves the way of using methods from computer algebra in the field of unification. In Eklund et al, substitutions and unifiers appear as constructs in Kleisli categories related to particular composed powerset term monads. It is shown that an often used similarity-based approach to fuzzy unification is compatible with the categorical approach, and can be adequately extended. Kutsia presented a unification procedure for a theory with individual and sequence variables, free fixed and flexible arity function symbols and patterns. These theories have been used in different contexts such as databases, rewriting, programming languages, or theorem proving. Medina et al introduced a formal model for similarity-based fuzzy unification in multi-adjoint logic programs. On this computational model, a similarity-based unification approach which provides a semantic framework for logic programming with different notions of similarity was constructed. Virtanen introduced unification in similarity-based logic programming. One of the crucial points is the definition of similarity degrees between sets, giving rise to [lambda]-interpretations. The selection of so called most significant terms again is one of the cornerstones of the paper. We would like to thank all those who submitted papers for consideration, the authors of accepted papers for their interesting discussions during the workshop, the additional referees for their careful work, and Inma Fortes from the local organising committee for her assistance.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,47 @@
+---
+title: Restricted ideals and the groupability property. Tools for temporal reasoning
+author:
+- Javier Martínez
+- pcordero
+- Gloria Gutiérrez
+- ipguzman
+date: '2003'
+categories: uncategorised
+slug: ReIdGrToTeRe/ReIdGrToTeRe
+details: Kybernetika vol. 39 (5), pages 521--546.
+doi: []
+---
+
+
+# Abstract
+
+
+In the field of automatic proving, the study of the sets of prime implicants or implicates of a formula has proven to be very important [17, 19, 20, 21]. If we focus on non-classical logics and, in particular, on temporal logics, such study is useful even if it is restricted to the set of unitary implicants/implicates [3, 4, 5, 6]. In this paper, a new concept we call restricted ideal/filter is introduced, it is proved that the set of restricted ideals/filters with the relation of inclusion has lattice structure and its utility for the efficient manipulation of the set of unitary implicants/implicates of formulas in propositional temporal logics is shown. We introduce a new property for subsets of lattices, which we call groupability, and we prove that the existence of groupable subsets in a lattice allows us to express restricted ideals/filters as the inductive closure for a binary non-deterministic operator and, consequently, the presence of this property guarantees a proper computational behavior of the set of unitary  implicants/implicates.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

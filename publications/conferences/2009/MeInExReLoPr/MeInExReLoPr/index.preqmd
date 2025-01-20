@@ -1,0 +1,46 @@
+---
+title: On the measure of incoherence in extended residuated logic programs
+author:
+- Nicolás Madrid
+- aciego
+date: '2009'
+categories: uncategorised
+slug: MeInExReLoPr/MeInExReLoPr
+details: '{FUZZ-IEEE} 2009, {IEEE} International Conference on Fuzzy Systems, Jeju
+  Island, Korea, 20-24 August 2009, Proceedings , pages 598--603.'
+doi: 10.1109/FUZZY.2009.5277277
+---
+
+
+# Abstract
+
+
+In this paper we continue analyzing the introduction of negation into the framework of residuated logic programming [18], [19]; specifically, we focus on extended programs, in which strong negation is introduced. The classical approach to extended logic programs consists in considering negated literals as new, independent, ones and, then apply the usual monotonic approach (based on the fix-point semantics and the T <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">P</sub> operator); if the least fix-point so obtained is inconsistent, then the approach fails and no meaning is attached to the program. This paper introduces several approaches to considering consistence (under the term coherence) into a fuzzy setting, and studies some of their properties.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

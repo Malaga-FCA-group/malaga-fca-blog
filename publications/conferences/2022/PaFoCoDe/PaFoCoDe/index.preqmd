@@ -1,0 +1,50 @@
+---
+title: Partial formal contexts with degrees
+author:
+- franperezgamez
+- pcordero
+- enciso
+- amora
+- aciego
+date: '2022'
+categories: uncategorised
+slug: PaFoCoDe/PaFoCoDe
+details: Proceedings of the Sixteenth International Conference on Concept Lattices
+  and Their Applications {(CLA} 2022) Tallinn, Estonia, June 20-22, 2022., Tallinn,
+  Estonia, June 20-22, 2022 , {CEUR} Workshop Proceedings vol. 3308, pages 35--44.
+doi: []
+---
+
+
+# Abstract
+
+
+Partial formal contexts are trivalued contexts that, besides allowing to establish whether a property is satisfied or not, allow to represent situations in which there is ignorance about whether a property is satisfied. This can be useful, not only for the cases in which the modeled phenomenon has intrinsically unknown information, but also when summarizing information from a formal context by grouping similar rows. In this paper, we prospect for its extension including degrees of knowledge.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

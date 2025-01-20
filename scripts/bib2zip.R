@@ -8,7 +8,7 @@ generate_acronym <- function(input_string) {
   }
 
   # Divide la cadena en palabras
-  words <- strsplit(input_string, "\\s+")[[1]]
+  words <- strsplit(input_string, "(\\s|\\-)")[[1]]
 
   # Elimina palabras que no son alfabéticas
   words <- words[grepl("^[a-zA-Z]+$", words)]
@@ -148,8 +148,9 @@ bib2zip <- function(bibori) {
   new_folder <- here::here("publications", type, date, slug)
 
   if (dir.exists(new_folder)) {
-    warning("This paper was already on the site.", 
-    immediate. = TRUE)
+    warning("This paper was already on the site.",
+      immediate. = TRUE
+    )
     print(bibori)
 
     return(invisible(NULL))
@@ -166,7 +167,7 @@ bib2zip <- function(bibori) {
 
   # filename <- paste(slug, ".zip", sep = "")
 
-  doi <- doi |> 
+  doi <- doi |>
     stringr::str_remove_all(stringr::fixed("https://doi.org/"))
 
   content <- generate_publication_preqmd_text(
@@ -269,10 +270,10 @@ migrate <- function(input_file) {
   cli::cli_alert_success("  Created {.val {header$slug}}")
 }
 
-all_files <- fs::dir_ls(
-  path = here::here("publications"),
-  regexp = "[.]preqmd$",
-  recurse = TRUE
-)
+# all_files <- fs::dir_ls(
+#   path = here::here("publications"),
+#   regexp = "[.]preqmd$",
+#   recurse = TRUE
+# )
 
-all_files |> lapply(migrate)
+# all_files |> lapply(migrate)

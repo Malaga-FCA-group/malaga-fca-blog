@@ -1,0 +1,46 @@
+---
+title: Dual tableau for a multimodal logic for order of magnitude qualitative reasoning
+  with bidirectional negligibility
+author:
+- Joanna Golinska-Pilarek
+- ejmunoz
+date: '2009'
+categories: uncategorised
+slug: DuTaMuLoOrMaQuReBiNe/DuTaMuLoOrMaQuReBiNe
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1707--1718.
+doi: 10.1080/00207160902930752
+---
+
+
+# Abstract
+
+
+Abstract We present a relational proof system in the style of dual tableaux for the relational logic associated with a multimodal propositional logic for order of magnitude qualitative reasoning with a bidirectional relation of negligibility. We study soundness and completeness of the proof system and we show how it can be used for verification of validity of formulas of the logic. Keywords: relational logicsdual tableau systemsmultimodal propositional logicorder-of-magnitude qualitative reasoning 2000 AMS Subject Classifications : 03F0368T2768T1503B45 Acknowledgements We thank Prof. Ewa Orłowska for suggesting the subject of the paper and for her helpful remarks on the first version of this article. The first author of the paper is a recipient of the 2007 and 2008 Grant for Young Scientists of the Foundation for Polish Science and is partially supported by the Polish Ministry of Science and Higher Education grant N N206 399134. Both authors are partially supported by the Spanish research project TIN2006-15455-C03-01 and the second author is partially supported also by project P6-FQM-02049. Notes As usual in modal logic, we use , , ◊ N , as abbreviations of , , , and , respectively. Note that in standard models m′(<) is a strict linear ordering on U′.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

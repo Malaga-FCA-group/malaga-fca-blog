@@ -1,0 +1,50 @@
+---
+title: Specification and inference of fuzzy attributes
+author:
+- pcordero
+- enciso
+- amora
+- Inmaculada Perez de Guzmán
+- José Manuel Rodríguez-Jiménez
+date: '2011'
+categories: uncategorised
+slug: SpInFuAt/SpInFuAt
+details: Proceedings of the {IEEE} Symposium on Foundations of Computational Intelligence,
+  {FOCI} 2011, part of the {IEEE} Symposium Series on Computational Intelligence 2011,
+  Paris, France, 11-15 April 2011 , pages 107--114.
+doi: 10.1109/FOCI.2011.5949472
+---
+
+
+# Abstract
+
+
+In this work, an extension of the database relational model which incorporates vague or imprecise data is presented. Specifically, we extend the concept of functional dependency to Fuzzy Attributes Tables. This extension is based on the use of a residuated lattice as a truthfulness value set. For this goal, the domains are enriched with fuzzy similarity relations, the atomic values of the tables become fuzzy, and the functional dependencies are also fuzzy and based on the similarity relations. Moreover, we introduce a sound and complete axiomatic system to manipulate these dependencies, named Simplification Logic for fuzzy functional dependencies.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

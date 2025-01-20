@@ -1,0 +1,49 @@
+---
+title: Composing Submonads
+author:
+- Patrik Eklund
+- Maria A. Galán
+- Jesús Medina
+- aciego
+- Agustín Valverde
+date: '2001'
+categories: uncategorised
+slug: CoSu/CoSu
+details: 31st {IEEE} International Symposium on Multiple-Valued Logic, {ISMVL} 2001,
+  Warsaw, Poland, May 22-24, 2001, Proceedings , pages 367--372.
+doi: 10.1109/ISMVL.2001.924597
+---
+
+
+# Abstract
+
+
+In this paper we use the concept of subfunctors and submonads in order to provide a technique for constructing new monads from given ones. We study some properties of these constructions and provide more examples on monad compositions.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

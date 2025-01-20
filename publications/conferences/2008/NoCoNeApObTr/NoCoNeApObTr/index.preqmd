@@ -1,0 +1,55 @@
+---
+author: Juan M. Ortiz-de-Lazcano-Lobato, Rafael M. Luque, Domingo López-Rodríguez,
+  Esteban J. Palomo
+Status: Published
+date: '2008-01-01'
+slug: NoCoNeApObTr/NoCoNeApObTr
+title: A Novel Competitive Network Approach to Object Tracking
+categories:
+- Image processing
+- Neural networks
+header_image: ~
+details: <em>Proceedings of the 2008 UK Workshop on Computational Intelligence</em>
+doi: ''
+link: 2008-ukci/paper.pdf
+project: ~
+keywords: Video object segmentation, Neural networks
+---
+
+# Abstract
+
+
+The aim of this paper is to present a novel method for tracking moving objects for video-surveillance. It is based on a growing competitive neural network where the number of neurons can be automatically increased or decreased in order to get a one-to-one association between objects currently in the scene and neurons. This association is kept in each frame, what constitutes the foundations of this tracking system. Experiments show that our method is capable to accurately track objects in real-world video sequences.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

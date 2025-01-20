@@ -1,0 +1,50 @@
+---
+title: Negative Attributes and Implications in Formal Concept Analysis
+author:
+- José Manuel Rodríguez-Jiménez
+- pcordero
+- enciso
+- amora
+date: '2014'
+categories: uncategorised
+slug: NeAtImFoCoAn/NeAtImFoCoAn
+details: Proceedings of the Second International Conference on Information Technology
+  and Quantitative Management, {ITQM} 2014, National Research University Higher School
+  of Economics (HSE), Moscow, Russia, June 3-5, 2014 , Procedia Computer Science vol.
+  31, pages 758--765.
+doi: 10.1016/J.PROCS.2014.05.325
+---
+
+
+# Abstract
+
+
+The mining of negative attributes from datasets has been studied in the last decade to obtain additional and useful information. There exists an exhaustive study around the notion of negative association rules between sets of attributes. However, in Formal Concept Analysis, the needed theory for the management of negative attributes is in an incipient stage. In this work we present an algorithm, based on the NextClosure algorithm, that allows to obtain mixed implications. The proposed algorithm returns a feasible and complete basis of mixed implications by performing a reduced number of requests to the formal context.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

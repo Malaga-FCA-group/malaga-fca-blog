@@ -1,0 +1,51 @@
+---
+title: '{CAISL:} Simplification Logic for Conditional Attribute Implications'
+author:
+- Estrella Rodríguez Lorenzo
+- pcordero
+- enciso
+- Rokia Missaoui
+- amora
+date: '2016'
+categories: uncategorised
+slug: SiLoCoAtIm/SiLoCoAtIm
+details: Proceedings of the Thirteenth International Conference on Concept Lattices
+  and Their Applications, Moscow, Russia, July 18-22, 2016 , {CEUR} Workshop Proceedings
+  vol. 1624, pages 337--348.
+doi: []
+---
+
+
+# Abstract
+
+
+In this work, we present a sound and complete axiomatic system for conditional attribute implications (CAI s) in Triadic Concept
+Analysis (TCA). Our approach is strongly based on the Simplification paradigm which offers a more suitable way for automated reasoning than the one based on Armstrong’s Axioms. We also present an automated method to prove the derivability of a CAI from a set of CAI s.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,46 @@
+---
+title: 'Measuring instability in normal residuated logic programs: Adding information'
+author:
+- Nicolás Madrid
+- aciego
+date: '2010'
+categories: uncategorised
+slug: MeInNoReLoAdIn/MeInNoReLoAdIn
+details: '{FUZZ-IEEE} 2010, {IEEE} International Conference on Fuzzy Systems, Barcelona,
+  Spain, 18-23 July, 2010, Proceedings , pages 1--7.'
+doi: 10.1109/FUZZY.2010.5584819
+---
+
+
+# Abstract
+
+
+Inconsistency in the framework of general resid-uated logic programs can be, somehow, decomposed into two notions: incoherence and instability. In this work, we focus on the measure of instability of normal residuated programs. Some measures were already provided and initial results obtained in terms of the amount of information that have to be discarded in order to recover stability; in this paper, our interest is focused precisely on the case in which stability can be recovered by adding information to our program.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

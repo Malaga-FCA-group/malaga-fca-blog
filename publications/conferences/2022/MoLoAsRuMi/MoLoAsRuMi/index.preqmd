@@ -1,0 +1,51 @@
+---
+title: On Modal Logic Association Rule Mining
+author:
+- Ionel Eduard Stan
+- Guido Sciavicco
+- ejmunoz
+- Giovanni Pagliarini
+- Mauro Milella
+- Andrea Paradiso
+date: '2022'
+categories: uncategorised
+slug: MoLoAsRuMi/MoLoAsRuMi
+details: Proceedings of the 23rd Italian Conference on Theoretical Computer Science,
+  {ICTCS} 2022, Rome, Italy, September 7-9, 2022 , {CEUR} Workshop Proceedings vol.
+  3284, pages 53--65.
+doi: []
+---
+
+
+# Abstract
+
+
+The most iconic duality of machine learning models is symbolic learning versus functional learning. While functional learning is based on a numerical approach to knowledge extraction and modelling, the purpose of symbolic machine learning is to extract knowledge from data in such a form that it can be understood, discussed, modified, and applied by humans, as well as serve as the basis of artificial intelligence applications. The typical problems associated with machine learning are classification and rule extraction; while classification can be dealt with using both functional and symbolic learning, rule extraction is essentially symbolic. One element common to nearly all definitions and tools for rule extraction is that they are applied to static datasets and based on propositional logic; unfortunately, very often real-world applications give rise to non-static sets of data (e.g., temporal, spatial, graph-based data) and may require more-than-propositional expressive power. In order to extract association rules from non-static data, in this paper we propose a definition of modal association rules based on modal logic, and we study how a standard rule extraction algorithm such as APRIORI can be generalized to the modal case while keeping the properties of the canonical, non-modal case, namely, correctness and completeness.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

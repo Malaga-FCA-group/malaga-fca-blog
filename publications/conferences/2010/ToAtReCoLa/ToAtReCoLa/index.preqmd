@@ -1,0 +1,48 @@
+---
+title: Towards Attribute Reduction in Multi-adjoint Concept Lattices
+author:
+- Jesús Medina
+- aciego
+date: '2010'
+categories: uncategorised
+slug: ToAtReCoLa/ToAtReCoLa
+details: Proceedings of the 7th International Conference on Concept Lattices and Their
+  Applications, Sevilla, Spain, October 19-21, 2010 , {CEUR} Workshop Proceedings
+  vol. 672, pages 92--103.
+doi: []
+---
+
+
+# Abstract
+
+
+In Formal Concept Analysis, attribute reduction is a important step in order to reduce the complexity of the computation of the
+concept lattice. This reduction is more complex in fuzzy environments. In this paper, we will present a first approximation to reduce the set of attributes in the multi-adjoint concept lattice. The solution found is based on the development of specific results which allow us to reduce the number of attributes in the classical case, by detecting some relatively necessary and absolutely unnecessary attributes and, then, use linguistic labels in order to obtain a method to reduce the number of attributes in a multi-adjoint context, working up to some level of tolerance, and preserving the original lattice structure of the set of concepts.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

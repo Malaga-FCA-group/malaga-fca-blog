@@ -1,0 +1,49 @@
+---
+title: Scalable Visual Analytics in {FCA}
+author:
+- Tim Pattison
+- enciso
+- amora
+- pcordero
+- Derek Weber
+- Michael Broughton
+date: '2022'
+categories: uncategorised
+slug: ScViAn/ScViAn
+details: Complex Data Analytics with Formal Concept Analysis , pages 167--200.
+doi: 10.1007/978-3-030-93278-7_8
+---
+
+
+# Abstract
+
+
+We adopt a visual analytic approach to FCA by combining computational analysis with interactive visualisation. Scaling FCA to the interactive analysis of large data sets poses four fundamental challenges: the time required to enumerate the vertices, arcs and labels of the lattice digraph; the difficulty of responsive presentation of, and meaningful user interaction with, a large digraph; the time required to enumerate (a basis for) all valid implications; and the discovery of insightful implications. This chapter briefly surveys potential solutions to these scalability challenges posed by big data volumes, and describes software prototypes and coordinated visualisations which explore some of them.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

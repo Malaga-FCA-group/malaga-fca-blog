@@ -1,0 +1,47 @@
+---
+title: Generalization of some properties of relations in the context of functional
+  temporal{\texttimes}modal logic
+author:
+- Alfredo Burrieza
+- ipguzman
+- ejmunoz
+date: '2008'
+categories: uncategorised
+slug: GePrReCoFuLo/GePrReCoFuLo
+details: Int. J. Comput. Math. vol. 85 (3{\&}4), pages 371--383.
+doi: 10.1080/00207160701210141
+---
+
+
+# Abstract
+
+
+Abstract In this paper, we generalize the definitions of transitivity, reflexivity, symmetry, Euclidean and serial properties of relations in the context of a functional approach for temporal×modal logic. The main result is the proof of definability of these definitions which is obtained by using algebraic characterizations. As a consequence, we will have in our temporal×modal context the generalizations of modal logics T, S4, S5, KD45, etc. These new logics will allow us to establish connections among time flows in very different ways, which enables us to carry out different relations among asynchronous systems. Our further research is focused on the construction of logics with these properties and the design of theorem provers for these logics. Keywords: DefinabilityLogic in computer scienceModal logicTemporal logic Acknowledgements This work has been partially supported by Spanish projects TIC2003-09001-C02-01, TIN2006-15455-C03-01 and TIC2003-08687-C02-01. Notes 1The notation 𝒞od comes from codomain.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,48 @@
+---
+title: A Formal Tool that Integrates Relational Database Schemes and Preserves the
+  Original Information
+author:
+- amora
+- enciso
+date: '2006'
+categories: uncategorised
+slug: FoToInReDaScPrOrIn/FoToInReDaScPrOrIn
+details: '{ICEIS} 2006 - Proceedings of the Eighth International Conference on Enterprise
+  Information Systems: Databases and Information Systems Integration, Paphos, Cyprus,
+  May 23-27, 2006 , pages 302--305.'
+doi: []
+---
+
+
+# Abstract
+
+
+In this work we face on with the main problem concerning the database design process in a collaborative environment: several users provide different models representing a part of the global model and we must integrate these database sub-shemes to render a unified database schema. In this work we propose a technique to integrate relational database sub-schemes based on a formal language. The extraction, integration and generation tasks are carried out efficiently using the SLFD logic (Substitution Logic for functional dependencies). We have selected this logic because it is appropriated to manage the functional dependencies in a automatic way.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

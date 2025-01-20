@@ -1,0 +1,49 @@
+---
+title: A Normal Form for Fuzzy Functional Dependencies
+author:
+- José Manuel Rodríguez-Jiménez
+- Estrella Rodríguez Lorenzo
+- pcordero
+- enciso
+- amora
+date: '2015'
+categories: uncategorised
+slug: NoFoFuFuDe/NoFoFuFuDe
+details: '{IEEE} Symposium Series on Computational Intelligence, {SSCI} 2015, Cape
+  Town, South Africa, December 7-10, 2015 , pages 984--989.'
+doi: 10.1109/SSCI.2015.143
+---
+
+
+# Abstract
+
+
+A fuzzy extension of the classical functional dependency is shown which associates a degree not only to the attributes but also to the functional dependency, providing the maximum level of uncertainty in tables. For this proposal the kernel is the use of Simplification Logic for these fuzzy functional dependencies, which ensures a solid and efficient approach to manage them in the fuzzy extension considered. An algorithm to compute closures for this fuzzy functional dependencies is outlined and a normal form for fuzzy functional dependencies named direct-optimal basis is proposed.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

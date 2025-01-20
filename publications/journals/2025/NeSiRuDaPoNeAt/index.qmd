@@ -1,0 +1,48 @@
+---
+title: New Simplification Rules for Databases with Positive and Negative Attributes
+author:
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+date: '2025'
+categories: uncategorised
+slug: 2025/NeSiRuDaPoNeAt
+details: Mathematics vol. 13 (2), article number 309.
+doi: 10.3390/math13020309
+---
+
+
+
+# Abstract
+
+
+In this paper, new logical equivalences are presented within the simplification logic with mixed attributes paradigm, which allow the obtention of bases of shorter, easier-to-read attribute implications. In addition to the theoretical results which show that the proposed equivalences indeed hold in simplification logic with mixed attributes, experimental results which showcase the effectiveness of this method are also provided. Furthermore, the simplification method presented is iterative and gives sufficiently good results in only one or two iterations, therefore presenting itself as a reasonable procedure in time-sensitive experiments.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-math13020309></a>[[LOB25]](#cite-math13020309) D. López-Rodríguez, M. Ojeda-Hernández, and C. Bejines. “New Simplification Rules for Databases with Positive and Negative Attributes”. In: _Mathematics_ 13.2 (2025). ISSN: 2227-7390. DOI: [10.3390/math13020309](https://doi.org/10.3390%2Fmath13020309). URL: [https://www.mdpi.com/2227-7390/13/2/309](https://www.mdpi.com/2227-7390/13/2/309).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{math13020309,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Domingo L{\a'o}pez-Rodr{\a'\i}guez and Manuel Ojeda-Hern{\a'a}ndez and Carlos Bejines},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {New Simplification Rules for Databases with Positive and Negative Attributes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {13},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  article-number = {309},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.mdpi.com/2227-7390/13/2/309},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {2227-7390},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper, new logical equivalences are presented within the simplification logic with mixed attributes paradigm, which allow the obtention of bases of shorter, easier-to-read attribute implications. In addition to the theoretical results which show that the proposed equivalences indeed hold in simplification logic with mixed attributes, experimental results which showcase the effectiveness of this method are also provided. Furthermore, the simplification method presented is iterative and gives sufficiently good results in only one or two iterations, therefore presenting itself as a reasonable procedure in time-sensitive experiments.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.3390/math13020309},<br>}
+
+:::
+
+
+
+
+
+
+
+

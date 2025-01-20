@@ -1,0 +1,50 @@
+---
+title: A categorical approach to unification of generalised terms
+author:
+- Patrik Eklund
+- Maria A. Galán
+- Jesús Medina
+- aciego
+- Agustín Valverde
+date: '2002'
+categories: uncategorised
+slug: CaApUnGeTe/CaApUnGeTe
+details: Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite
+  Workshop, M{\'{a}}laga, Spain, July 12-13, 2002 , Electronic Notes in Theoretical
+  Computer Science vol. 66, pages 41--51.
+doi: 10.1016/S1571-0661(04)80513-9
+---
+
+
+# Abstract
+
+
+Unification of generalised terms in a many-valued setting involves considerations for equalities in the sense of similarity degrees between operators and thus similarities between terms. Further, allowing for substitutions of variables with powersets of terms requires ‘flattening’ operators for handling composition of variable substitutions. These techniques are available when using powerset functors composed with the term functor so that this composition of functors is extendable to a monad. In this paper we provide a framework for unification of such generalised terms.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

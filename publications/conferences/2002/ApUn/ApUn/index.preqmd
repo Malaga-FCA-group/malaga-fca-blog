@@ -1,0 +1,48 @@
+---
+title: A Multi-Adjoint Approach to Similarity-Based Unification
+author:
+- Jesús Medina
+- aciego
+- Peter Vojtás
+date: '2002'
+categories: uncategorised
+slug: ApUn/ApUn
+details: Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite
+  Workshop, M{\'{a}}laga, Spain, July 12-13, 2002 , Electronic Notes in Theoretical
+  Computer Science vol. 66, pages 70--85.
+doi: 10.1016/S1571-0661(04)80515-2
+---
+
+
+# Abstract
+
+
+A formal model for similarity-based fuzzy unification in multi-adjoint logic programs is presented. On this computational model, a similarity-based unification approach is constructed by simply adding axioms of fuzzy similarities and using classical crisp unification which provides a semantic framework for logic programming with different notions of similarity.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

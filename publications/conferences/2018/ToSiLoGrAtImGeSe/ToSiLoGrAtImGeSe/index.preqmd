@@ -1,0 +1,51 @@
+---
+title: Towards Simplification Logic for Graded Attribute Implications with General
+  Semantics
+author:
+- pcordero
+- enciso
+- amora
+- Vilém Vychodil
+date: '2018'
+categories: uncategorised
+slug: ToSiLoGrAtImGeSe/ToSiLoGrAtImGeSe
+details: Proceedings of the Fourteenth International Conference on Concept Lattices
+  and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018 ,
+  {CEUR} Workshop Proceedings vol. 2123, pages 129--140.
+doi: []
+---
+
+
+# Abstract
+
+
+We present variant of simplification logic for reasoning with if-then dependencies that arise in formal concept analysis of data with
+graded attributes. The dependencies and the proposed logic are parameterized by systems of isotone Galois connections which allows us to handle a large family of possible interpretations of data dependencies. We describe semantics of the rules, axiomatic system of the logic, and prove its soundness and completeness.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,46 @@
+---
+title: A temporal negative normal form which preserves implicants and implicates
+author:
+- ipguzman
+- enciso
+- pcordero
+date: '2000'
+categories: uncategorised
+slug: TeNeNoFoPrImIm/TeNeNoFoPrImIm
+details: J. Appl. Non Class. Logics vol. 10 (3-4), pages 243--272.
+doi: 10.1080/11663081.2000.10510999
+---
+
+
+# Abstract
+
+
+ABSTRACT Most theorem provers for Classical Logic transform the input formula into a particular normal form. This tranformation is done before the execution of the algorithm (Resolution and Dissolution) or it is integrated into the deductive algorithm (Tableaux). This situation is no different for Non-Classical Logics and, particularly, for Temporal Logics ([Fis91], [Fis97], [MP95], [Wol85]). However, unlike classical logic, temporal logic does not provide an extension of the notion of non negative normal form. In this work, we define a temporal negative normal form for the future fragment of the linear time propositional temporal logic, named FNext. The definition saves as much information as possible about implicants and implicates of the input formula and its subformulas. This property is the novelty of this normal form; for example, in [Fis97] the normal form is guided by the separation property and in [Ven86] the normal form provided prepares the input formula to be treated by a resolution method. Moreover, we also introduce an algorithm having linear cost, which transforms the input formula into a temporal negative normal form. Furthermore, in this work we present a new structure and a set of operators over it that allows us to efficiently manage the information about unitary implicants and implicates contained in the subformulae.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,55 @@
+---
+author: Gloria Galán Marín, Domingo López-Rodríguez, Enrique Mérida Casermeiro
+Status: Published
+date: '2008-09-01'
+slug: GeHoMoGrIsPr/GeHoMoGrIsPr
+title: A generalization of the Hopfield model for the graph isomorphism problem
+categories:
+- Neural networks
+- Combinatorial optimization
+header_image: ~
+details: <em>Computing and Computational Techniques in Sciences</em> 2008
+doi: ''
+link: 2008-wseas/paper.pdf
+project: ~
+keywords: Graph isomorphism, Neural networks, Kinematic chains, Optimization, Computational
+  dynamics, Multivalued models
+---
+
+# Abstract
+
+
+Isomorphism identification between graphs is an important NP-complete problem with many science and engineering applications. Although excellent progresses have been made towards special graphs, no known polynomial-time algorithm for graph isomorphism has been found for general graphs. In this paper a generalization of the Hopfield neural network for isomorphism identification between general graphs is proposed. Simulation results show that this model is much superior to recently presented neural networks for this problem. The effectiveness of the resultant network does not seem to be decreased as the size of the graph is increased. This allows us to solve graph isomorphism problems with a big number of vertices, while many recently presented approaches only present results for graphs with up to 15 vertices.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

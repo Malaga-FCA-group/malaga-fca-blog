@@ -1,0 +1,46 @@
+---
+title: Implementing a relational theorem prover for modal logic
+author:
+- amora
+- ejmunoz
+- Joanna Golinska-Pilarek
+date: '2011'
+categories: uncategorised
+slug: ImReThPrMoLo/ImReThPrMoLo
+details: Int. J. Comput. Math. vol. 88 (9), pages 1869--1884.
+doi: 10.1080/00207160.2010.493211
+---
+
+
+# Abstract
+
+
+An automatic theorem prover for a proof system in the style of dual tableaux for the relational logic associated with modal logic has been introduced. Although there are many well-known implementations of provers for modal logic, as far as we know, it is the first implementation of a specific relational prover for a standard modal logic. There are two main contributions in this paper. First, the implementation of new rules, called () and (), which substitute the classical relational rules for composition and negation of composition in order to guarantee not only that every proof tree is finite but also to decrease the number of applied rules in dual tableaux. Second, the implementation of an order of application of the rules which ensures that the proof tree obtained is unique. As a consequence, we have implemented a decision procedure for modal logic . Moreover, this work would be the basis for successive extensions of this logic, such as , and .
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,48 @@
+---
+title: 'A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness,
+  Completeness and Optimizations'
+author:
+- Carlos Viegas Damásio
+- Jesús Medina
+- aciego
+date: '2006'
+categories: uncategorised
+slug: TaPrPrReLoCoOp/TaPrPrReLoCoOp
+details: '{IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2006, Vancouver,
+  BC, Canada, July 16-21, 2006 , pages 2004--2011.'
+doi: 10.1109/FUZZY.2006.1681978
+---
+
+
+# Abstract
+
+
+Residuated logic programs have shown to be a generalisation of a number of approaches to logic programming under uncertain or vague information, including fuzzy or annotated or probabilistic or similarity-based logic programming frameworks. Various computational approaches have been developed for propositional residuated logic programs: on the one hand, there exists a bottom-up neural-like implementation of the fixed-point semantics which calculates the successive iterations of the immediate consequences operator; on the other hand, a goal-oriented top-down tabulation procedure has recently been introduced. In this paper, we introduce a sound and complete tabulation-based proof procedure for the first-order extension of residuated logic programs.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

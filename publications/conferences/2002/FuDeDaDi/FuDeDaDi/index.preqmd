@@ -1,0 +1,46 @@
+---
+title: '{FD3:} {A} Functional Dependencies Data Dictionary'
+author:
+- enciso
+- amora
+date: '2002'
+categories: uncategorised
+slug: FuDeDaDi/FuDeDaDi
+details: '{ICEIS} 2002, Proceedings of the 4st International Conference on Enterprise
+  Information Systems, Ciudad Real, Spain, April 2-6, 2002 , pages 807--810.'
+doi: []
+---
+
+
+# Abstract
+
+
+In this paper, we propose the use of a Functional Dependencies Data Dictionary (FD3) to facilitate the integration of Heterogeneous Systems. The heart of this approach is the notion of Functional Dependence (FD). We present a formal language, the Extended Functional Dependencies (EFD) Logic suitable to carry out integration tasks. The set of FDs contained in the data model is directly translated into a EFD logic theory. FD3 integrates the EFD logic sub-theories in a unique and unified EFD logic theory. EFD axiomatic system eases the design of automatic integration process. To communicate the information of the EFD logic theory, we introduce a High Level Functional Dependencies (HLFD) Data Model which is used in a similar way as the Entity/Relationship Model. The HLFD data model can be deduced automatically from EFD logic theory.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

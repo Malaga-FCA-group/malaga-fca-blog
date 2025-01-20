@@ -1,0 +1,58 @@
+---
+author:
+- cbejines
+- dominlopez
+- manuojeda
+Status: Published
+date: '2023-09-12T00:00:00Z'
+slug: AgFuExStPrFoCoAn/AgFuExStPrFoCoAn
+title: Aggregation Functions and Extent Structure Preservation in Formal Concept Analysis
+categories:
+- Formal concept analysis
+- Aggregation operators
+header_image: ~
+details: <em>International Conference on Conceptual Structures</em>, LNCS 14133, pp.
+  28--35,
+doi: 10.1007/978-3-031-40960-8_3
+link: 2023-iccs/paper.pdf
+project: 2023-valid
+keywords: Formal concept analysis, Aggregation operators
+---
+
+# Abstract
+
+
+Formal Concept Analysis (FCA) is a mathematical framework for analysing data tables that capture the relationship between objects and attributes. The concept lattice derived from such a table is a representation of the implicit knowledge about this relationship, where each concept corresponds to a bicluster of objects and attributes. FCA has been widely used for knowledge acquisition and representation, conceptual data analysis, information retrieval and other applications. In this paper, we use an extension of the classical FCA to deal with fuzzy formal contexts, where the relationship between objects and attributes is modelled by truth values indicating the degree to which an object possesses a property or attribute. Fuzzy Formal Concept Analysis (FFCA) allows us to capture vague or imprecise information and handle uncertainty or ambiguity in data analysis. Our purpose is to use aggregation functions in order to manipulate and explore fuzzy formal concepts in different ways depending on the desired properties or criteria. In this work, we will focus on the structure of the extents of the concept lattice. We define the aggregation of fuzzy extents point-wise and study how it affects its structure. We characterise the aggregation functions that preserve the fuzzy extent structure and show that they depend on the number of objects in the context. Our results contribute to a better understanding of how aggregation functions can be used to manipulate and explore fuzzy formal concepts.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

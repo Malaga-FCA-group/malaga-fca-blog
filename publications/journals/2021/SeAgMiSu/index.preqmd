@@ -1,0 +1,35 @@
+---
+title: On Self-Aggregations of Min-Subgroups
+author:
+- cbejines
+- Sergio Ardanza-Trevijano
+- Jorge Elorza
+date: '2021'
+categories: uncategorised
+slug: 2021/SeAgMiSu
+details: Axioms vol. 10 (3), pages 201.
+doi: 10.3390/AXIOMS10030201
+
+---
+
+
+# Abstract
+
+
+Preservation of structures under aggregation functions is an active area of research with applications in many fields. Among such structures, min-subgroups play an important role, for instance, in mathematical morphology, where they can be used to model translation invariance. Aggregation of min-subgroups has only been studied for binary aggregation functions. However, results concerning preservation of the min-subgroup structure under binary aggregations do not generalize to aggregation functions with arbitrary input size since they are not associative. In this article, we prove that arbitrary self-aggregation functions preserve the min-subgroup structure. Moreover, we show that whenever the aggregation function is strictly increasing on its diagonal, a min-subgroup and its self-aggregation have the same level sets.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

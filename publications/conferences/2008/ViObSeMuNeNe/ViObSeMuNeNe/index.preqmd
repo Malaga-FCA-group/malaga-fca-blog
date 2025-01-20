@@ -1,0 +1,56 @@
+---
+author: Rafael Marcos Luque, Domingo López-Rodríguez, Enrique Mérida Casermeiro, Esteban
+  J. Palomo
+Status: Published
+date: '2008-09-10'
+slug: ViObSeMuNeNe/ViObSeMuNeNe
+title: Video Object Segmentation with Multivalued Neural Networks
+categories:
+- Image processing
+- Neural networks
+header_image: HIS2008.png
+details: 'Eighth International Conference on Hybrid Intelligent Systems (HIS) 2008:
+  613-618'
+doi: 10.1109/his.2008.130
+link: 2008-his1/paper.pdf
+project: ~
+keywords: ''
+---
+
+# Abstract
+
+
+The aim of this work is to present a segmentation method to detect moving objects in video scenes, based on the use of a multivalued discrete neural network to improve the results obtained by an underlying segmentation algorithm. Specifically, the multivalued neural model (MREM) is used to detect and correct some of the deficiencies and errors off the well-known Mixture of Gaussians algorithm. Experimental results, using video scenes publicly available from the Internet, show an increase of the visual quality of the segmentation, that could improve for subsequent analysis phases, such as object tracking or behavior studies.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,50 @@
+---
+title: Implementation of a Tableau-based Satisfiability Checker for {HS3}
+author:
+- ejmunoz
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2017'
+categories: uncategorised
+slug: ImSaCh/ImSaCh
+details: Joint Proceedings of the 18th Italian Conference on Theoretical Computer
+  Science and the 32nd Italian Conference on Computational Logic co-located with the
+  2017 {IEEE} International Workshop on Measurements and Networking {(2017} {IEEE}
+  M{\&}N), Naples, Italy, September 26-28, 2017 , {CEUR} Workshop Proceedings vol.
+  1949, pages 326--340.
+doi: []
+---
+
+
+# Abstract
+
+
+Although there exist several decidable fragments of Halpern and Shoham’s interval temporal logic HS, the computational complexity of their satisfiability problem tend to be generally high. Recently, the fragment HS3 of HS, based on coarser-than-Allen’s relations, has been introduced, and it has been proven to be not only decidable, but also relatively efficient. In this paper we describe an implementation of a tableau-based satisfiability checker for HS3 interpreted in the class of all finite linear orders.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

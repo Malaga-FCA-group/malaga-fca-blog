@@ -1,0 +1,46 @@
+---
+title: '{\(f\)}-inclusion indexes between fuzzy sets'
+author:
+- Nicolás Madrid
+- aciego
+- Irina Perfilieva
+date: '2015'
+categories: uncategorised
+slug: InFuSe/InFuSe
+details: []
+doi: []
+---
+
+
+# Abstract
+
+
+We introduce the notion of f-inclusion, which is used todescribe diﬀerent kinds of subsethood relations betweenfuzzy sets by means of monotonic functions f: [0,1] →[0,1]. We show that these monotonic functions can beconsidered indexes of inclusion, since the greater thefunction considered, the more restrictive is the relation-ship. Finally, we propose a general index of inclusion byproving the existence of a representative f-inclusion forany two ordered pairs of fuzzy sets. In such a way, ourapproach is diﬀerent from others in the literature in notaking a priori assumptions like residuated implicationsor t-norms.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

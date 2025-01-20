@@ -1,0 +1,51 @@
+---
+title: From an Implicational System to its Corresponding D-basis
+author:
+- Estrella Rodríguez Lorenzo
+- Kira V. Adaricheva
+- pcordero
+- enciso
+- amora
+date: '2015'
+categories: uncategorised
+slug: ImSyCo/ImSyCo
+details: Proceedings of the Twelfth International Conference on Concept Lattices and
+  Their Applications, Clermont-Ferrand, France, October 13-16, 2015 , {CEUR} Workshop
+  Proceedings vol. 1466, pages 217--228.
+doi: []
+---
+
+
+# Abstract
+
+
+Closure system is a fundamental concept appearing in several areas such as databases, formal concept analysis, artificial intelligence,  etc. It is well-known that there exists a connection between a closure operator on a set and the lattice of its closed sets. Furthermore, the closure system can be replaced by a set of implications but this set has usually a lot of redundancy inducing non desired properties. In the literature, there is a common interest in the search of the minimality of a set of implications because of the importance of bases. The well-known Duquenne-Guigues basis satisfies this minimality condition. However, several authors emphasize the relevance of the optimality in order to reduce the size of implications in the basis. In addition to this, some bases have been defined to improve the computation of closures relying on the directness property. The efficiency of computation with
+the direct basis is achieved due to the fact that the closure is computed in one traversal. In this work, we focus on the D-basis, which is ordered-direct. An open problem is to obtain it from an arbitrary implicational system, so it is our aim in this paper. We introduce a method to compute the D-basis by means of minimal generators calculated using the Simplification Logic for implications.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,47 @@
+---
+title: Towards relational fuzzy adjunctions
+author:
+- ipcabrera
+- pcordero
+- aciego
+date: '2017'
+categories: uncategorised
+slug: ToReFuAd/ToReFuAd
+details: 2017 {IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2017,
+  Naples, Italy, July 9-12, 2017 , pages 1--5.
+doi: 10.1109/FUZZ-IEEE.2017.8015677
+---
+
+
+# Abstract
+
+
+The problem of studying the existence of a right adjoint for a mapping defined between sets with different fuzzy structure naturally leads to the search of new notions of adjunction which fit better with the underlying structure of domain and codomain. In this work, we introduce a version of relational fuzzy adjunction between fuzzy preposets which generalizes previous approaches in that its components are fuzzy relations. We also prove that the construction behaves properly with respect to the formation of quotient with respect to the symmetric kernel relation.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

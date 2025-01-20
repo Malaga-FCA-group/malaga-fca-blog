@@ -1,0 +1,48 @@
+---
+title: L-Bonds vs Extents of Direct Products of Two L-fuzzy Contexts
+author:
+- Ondrej Kridlo
+- Stanislav Krajci
+- aciego
+date: '2010'
+categories: uncategorised
+slug: VsExDiPrTwCo/VsExDiPrTwCo
+details: Proceedings of the 7th International Conference on Concept Lattices and Their
+  Applications, Sevilla, Spain, October 19-21, 2010 , {CEUR} Workshop Proceedings
+  vol. 672, pages 70--79.
+doi: []
+---
+
+
+# Abstract
+
+
+We focus on the direct product of two L-fuzzy contexts, which are defined with the help of a binary operation on a lattice of truth-values L. This operation, essentially a disjunction, is defined as k ⋉ l = ¬k → l, for k, l ∈ L where negation is interpreted as ¬l = l → 0. We provide some results which extend previous work by Kr¨otzsch, Hitzler and Zhang.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

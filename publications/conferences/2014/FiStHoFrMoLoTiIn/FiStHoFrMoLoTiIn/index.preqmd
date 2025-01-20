@@ -1,0 +1,47 @@
+---
+title: A First Study of the Horn Fragment of the Modal Logic of Time Intervals
+author:
+- Davide Bresolin
+- ejmunoz
+- Guido Sciavicco
+date: '2014'
+categories: uncategorised
+slug: FiStHoFrMoLoTiIn/FiStHoFrMoLoTiIn
+details: Proceedings of the 29th Italian Conference on Computational Logic, Torino,
+  Italy, June 16-18, 2014 , {CEUR} Workshop Proceedings vol. 1195, pages 314--318.
+doi: []
+---
+
+
+# Abstract
+
+
+Interval temporal logics provide a natural framework for temporal reasoning about interval structures over linearly ordered domains, where intervals are taken as the primitive ontological entities. The most influential propositional interval-based logic is probably Halpern’s and Shoham Modal Logic of Time Intervals, a.k.a. HS. While most studies focused on the computational properties of the syntactic fragments that arise by considering only a subset of the set of modalities, the fragments that are obtained by weakening the propositional side of HS have received much less attention. Here, we approach this problem by considering the Horn fragment of HS and proving that the satisfiability problem remains undecidable, at least for discrete linear orders.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

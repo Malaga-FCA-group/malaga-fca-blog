@@ -1,0 +1,35 @@
+---
+title: New Simplification Rules for Databases with Positive and Negative Attributes
+author:
+- dominlopez
+- manuojeda
+- cbejines
+date: '2025'
+categories: uncategorised
+slug: 2025/NeSiRuDaPoNeAt
+details: Mathematics vol. 13 (2), article number 309.
+doi: 10.3390/math13020309
+
+---
+
+
+# Abstract
+
+
+In this paper, new logical equivalences are presented within the simplification logic with mixed attributes paradigm, which allow the obtention of bases of shorter, easier-to-read attribute implications. In addition to the theoretical results which show that the proposed equivalences indeed hold in simplification logic with mixed attributes, experimental results which showcase the effectiveness of this method are also provided. Furthermore, the simplification method presented is iterative and gives sufficiently good results in only one or two iterations, therefore presenting itself as a reasonable procedure in time-sensitive experiments.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

@@ -1,0 +1,58 @@
+---
+title: A Tool for User-guided Database Application Development - Automatic Design
+  of {XML} Models using {CBD}
+author:
+- Carlos Rossi
+- Antonio Guevara
+- enciso
+- José Luis Caro
+- amora
+- pcordero
+date: '2010'
+categories: uncategorised
+slug: ToDaApDeAuDeMoUs/ToDaApDeAuDeMoUs
+details: '{ICSOFT} 2010 - Proceedings of the Fifth International Conference on Software
+  and Data Technologies, Volume 2, Athens, Greece, July 22-24, 2010 , pages 195--200.'
+doi: []
+---
+
+
+# Abstract
+
+
+Beyond the database normalization process, much work has been done on the use of functional dependencies
+(FDs), their discovery using mining techniques, their use in query optimization and in the design of algorithms
+dealing with the implication problem etc. Nevertheless, although much research expounds the benefits of using
+functional dependencies, only a few modeling tools actually use them. In this work we present CBD, a new
+software development tool which allows end users to specify their requirements. CBD allows the user to design
+his/her own GUI for the application using forms and interface elements and it builds a meta-data dictionary
+with information on functional dependencies. This data dictionary will be used to generate the unified data
+model and a behavior model.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

@@ -1,0 +1,52 @@
+---
+title: Towards Interval Temporal Logic Rule-Based Classification
+author:
+- Estrella Lucena-Sánchez
+- ejmunoz
+- Guido Sciavicco
+- Ionel Eduard Stan
+- Alessandro Vaccari
+date: '2019'
+categories: uncategorised
+slug: ToInTeLoCl/ToInTeLoCl
+details: Proceedings of the 1st Workshop on Artificial Intelligence and Formal Verification,
+  Logic, Automata, and Synthesis, co-located with the 18th International Conference
+  of the Italian Association for Artificial Intelligence, OVERLAY@AI*IA 2019, Rende,
+  Italy, November 19-20, 2019 , {CEUR} Workshop Proceedings vol. 2509, pages 65--70.
+doi: []
+---
+
+
+# Abstract
+
+
+Supervised classification is one of the main computational tasks of modern Artificial Intelligence, and it is used to automatically extract an underlying theory from a set of already classified instances. The available learning schemata are mostly limited to static instances, in which the temporal component of the information is absent, neglected, or abstracted into atemporal data, and purely, native temporal classification is still largely unexplored. In this paper, we propose a temporal rulebased classifier based on interval temporal logic, that is able to learn a classification model for multivariate classified (abstracted) time series, and we discuss some
+implementation issues.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

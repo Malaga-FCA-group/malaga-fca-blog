@@ -1,0 +1,54 @@
+---
+author: Angel Mora Bonilla, Enrique Mérida Casermeiro, Domingo López-Rodríguez, Luis
+  Fernando López Anguita
+Status: Published
+date: '2008-01-01'
+slug: InMoQu/InMoQu
+title: Integration Of Moodle Quizzes
+categories: E-learning
+header_image: ~
+details: '{IADIS} International Conference e-Learning 2008, Amsterdam, The Netherlands,
+  July 22-25, 2008. Proceedings, <em>pp. 45&ndash;52</em>'
+doi: ''
+link: 2008-iadis/paper.pdf
+project: ''
+keywords: ''
+---
+
+# Abstract
+
+
+Moodle is one of the most extended Learning Management Systems and is based on the open source (GPL) licenseagreement. We summarize the advantages of the use of this environment and show our six-year experience with the toolsthat Moodle provide. It would be of interest that any exhaustively used tool, such as quizzes, could reuse the knowledgethat teachers store year after year in the Moodle database. In this work, a web-based tool allowing us to create, integrate,reuse and manipulate questions and quizzes is presented.
+
+
+
+{{funding}}
+
+
+
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+

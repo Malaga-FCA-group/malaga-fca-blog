@@ -1,0 +1,27 @@
+<a
+name=bib-Ardanza_Trevijano_2023></a>[[1]](#cite-Ardanza_Trevijano_2023)
+S. Ardanza-Trevijano, M. Chasco, J. Elorza, et al.
+“Aggregation of T-subgroups”. In: _Fuzzy Sets and
+Systems_ 463 (Jul. 2023), p. 108390. ISSN: 0165-0114.
+DOI:
+[10.1016/j.fss.2022.08.022](https://doi.org/10.1016%2Fj.fss.2022.08.022).
+URL:
+[http://dx.doi.org/10.1016/j.fss.2022.08.022](http://dx.doi.org/10.1016/j.fss.2022.08.022).
+
+<a name=bib-Bejines_2023></a>[[2]](#cite-Bejines_2023)
+C. Bejines. “Aggregation of fuzzy vector spaces”. In:
+_Kybernetika_ (Dec. 2023), p. 752–767. ISSN: 1805-949X.
+DOI:
+[10.14736/kyb-2023-5-0752](https://doi.org/10.14736%2Fkyb-2023-5-0752).
+URL:
+[http://dx.doi.org/10.14736/kyb-2023-5-0752](http://dx.doi.org/10.14736/kyb-2023-5-0752).
+
+<a
+name=bib-Talavera_2024></a>[[3]](#cite-Talavera_2024)
+F. J. Talavera, C. Bejines, S. Ardanza-Trevijano, et
+al. “Aggregation of fuzzy graphs”. In: _International
+Journal of Approximate Reasoning_ 172 (Sep. 2024), p.
+109243. ISSN: 0888-613X. DOI:
+[10.1016/j.ijar.2024.109243](https://doi.org/10.1016%2Fj.ijar.2024.109243).
+URL:
+[http://dx.doi.org/10.1016/j.ijar.2024.109243](http://dx.doi.org/10.1016/j.ijar.2024.109243).

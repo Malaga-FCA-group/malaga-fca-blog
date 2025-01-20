@@ -1,0 +1,48 @@
+---
+title: Towards a Sequent Calculus for Formal Contexts
+author:
+- Ondrej Kridlo
+- aciego
+date: '2016'
+categories: uncategorised
+slug: ToSeCaFoCo/ToSeCaFoCo
+details: Proceedings of the 5th International Workshop "What can {FCA} do for Artificial
+  Intelligence"? co-located with the European Conference on Artificial Intelligence,
+  FCA4AI@ECAI 2016, The Hague, the Netherlands, August 30, 2016 , {CEUR} Workshop
+  Proceedings vol. 1703, pages 17--24.
+doi: []
+---
+
+
+# Abstract
+
+
+This work focuses on the definition of a consequence relation between contexts with which we can decide whether certain contextual information is a logical consequence from a set of contexts considered as underlying hypotheses.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+
+
+
+
+
+
+{{citations}}
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+
+
