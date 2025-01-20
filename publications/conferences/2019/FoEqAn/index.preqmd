@@ -1,0 +1,36 @@
+---
+title: Formal Equivalence Analysis
+author:
+- Francisco José Valverde Albacete
+- Carmen Peláez-Moreno
+- pcordero
+- aciego
+date: '2019'
+categories: uncategorised
+slug: 2019/FoEqAn
+details: []
+doi: 10.2991/EUSFLAT-19.2019.109
+
+---
+
+
+# Abstract
+
+
+Following R. Wille's lead and suggestion we set out to design a new kind of view onto a formal context analogous but different to Formal Concept Analysis and Formal Independent Analysis.In this instance, we choose to analyse the information in the incidence table in terms of the partitions induced on the sets of objects and attributes by the same functions of single attributes and objects of the context.These functions constitute a left adjunction between sets of objects and attributes and we later lift this left adjunction to partitions of the objects and attributes.Therefore we refer to this new view onto the formal context as Formal Equivalence Analysis.Rather than looking on the effect of these partitions on set representation, as in Rough Sets, we try to make explicit the information in the context.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

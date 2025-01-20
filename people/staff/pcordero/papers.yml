@@ -1,3 +1,253 @@
+- title: A temporal negative normal form which preserves implicants and implicates
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2000'
+  details: J. Appl. Non Class. Logics vol. 10 (3-4), pages 243--272.
+  path: /publications/journals/2000/TeNeNoFoPrImIm
+- title: Bases for closed sets of implicants and implicates in temporal logic
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Acta Informatica vol. 38 (9), pages 599--619.
+  path: /publications/journals/2002/BaClSeImImTeLo
+- title: From the Poset of Temporal Implicates/implicants to a Temporal Negative Form
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Reports Math. Log. vol. 36 , pages 3--53.
+  path: /publications/journals/2002/PoTeTeNeFo
+- title: Restricted ideals and the groupability property. Tools for temporal reasoning
+  author:
+  - Javier Martínez
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2003'
+  details: Kybernetika vol. 39 (5), pages 521--546.
+  path: /publications/journals/2003/ReIdGrToTeRe
+- title: A New Algebraic Tool for Automatic Theorem Provers
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - Inmaculada Perez de Guzmán
+  date: '2004'
+  details: Ann. Math. Artif. Intell. vol. 42 (4), pages 369--398.
+  path: /publications/journals/2004/NeAlToAuThPr
+- title: Generalizations of lattices via non-deterministic operators
+  author:
+  - Javier Martínez
+  - Gloria Gutiérrez
+  - Inmaculada Perez de Guzmán
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2005'
+  details: Discret. Math. vol. 295 (1-3), pages 107--141.
+  path: /publications/journals/2005/GeLaViOp
+- title: 'A new closure algorithm based in logic: SLFD-Closure versus classical closures'
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Gabriel Aguilera
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Inmaculada Perez de Guzmán
+  date: '2006'
+  details: Inteligencia Artif. vol. 10 (31), pages 31--40.
+  path: /publications/journals/2006/NeClAlBaVeClCl
+- title: 'Non-deterministic ideal operators: An adequate tool for formalization in
+    Data Bases'
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  date: '2008'
+  details: Discret. Appl. Math. vol. 156 (6), pages 911--923.
+  path: /publications/journals/2008/IdAdToFoDaBa
+- title: Congruence relations on some hyperstructures
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Ann. Math. Artif. Intell. vol. 56 (3-4), pages 361--370.
+  path: /publications/journals/2009/CoReHy
+- title: Fuzzy congruence relations on nd-groupoids
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1684--1695.
+  path: /publications/journals/2009/FuCoRe
+- title: 'A coalgebraic approach to non-determinism: Applications to multilattices'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2010'
+  details: Inf. Sci. vol. 180 (22), pages 4323--4335.
+  path: /publications/journals/2010/CoApApMu
+- title: Ideal non-deterministic operators as a formal framework to reduce the key
+    finding problem
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Inmaculada Perez de Guzmán
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2011'
+  details: Int. J. Comput. Math. vol. 88 (9), pages 1860--1868.
+  path: /publications/journals/2011/IdOpFoFrReKeFiPr
+- title: Closure via functional dependence simplification
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Inmaculada Fortes
+  - Gabriel Aguilera
+  date: '2012'
+  details: Int. J. Comput. Math. vol. 89 (4), pages 510--526.
+  path: /publications/journals/2012/ClViFuDeSi
+- title: Finitary coalgebraic multisemilattices and multilattices
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Appl. Math. Comput. vol. 219 (1), pages 31--44.
+  path: /publications/journals/2012/FiCoMuMu
+- title: On the definition of suitable orderings to generate adjunctions over an unstructured
+    codomain
+  author:
+  - Francisca García-Pardo
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Francisco J. Rodríguez-Sanchez
+  date: '2014'
+  details: Inf. Sci. vol. 286 , pages 173--187.
+  path: /publications/journals/2014/DeSuOrGeAdUnCo
+- title: A tableaux-like method to infer all minimal keys
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Inmaculada Perez de Guzmán
+  date: '2014'
+  details: Log. J. {IGPL} vol. 22 (6), pages 1019--1044.
+  path: /publications/journals/2014/MeInMiKe
+- title: 'On residuation in multilattices: Filters, congruences, and homomorphisms'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Fuzzy Sets Syst. vol. 234 , pages 1--21.
+  path: /publications/journals/2014/ReHo
+- title: Knowledge discovery in social networks by using a logic-based treatment of
+    implications
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Carlos Rossi
+  date: '2015'
+  details: Knowl. Based Syst. vol. 87 , pages 16--25.
+  path: /publications/journals/2015/KnDiSoNeUsTrIm
+- title: Automated prover for attribute dependencies in data with grades
+  author:
+  - Radim Belohlávek
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Vilém Vychodil
+  date: '2016'
+  details: Int. J. Approx. Reason. vol. 70 , pages 51--67.
+  path: /publications/journals/2016/AuPrAtDeDaGr
+- title: 'Concept lattices with negative information: {A} characterization theorem'
+  author:
+  - José Manuel Rodríguez-Jiménez
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Sebastian Rudolph
+  date: '2016'
+  details: Inf. Sci. vol. 369 , pages 51--62.
+  path: /publications/journals/2016/CoLaNeChTh
+- title: An Axiomatic System for Conditional Attribute Implications in Triadic Concept
+    Analysis
+  author:
+  - Estrella Rodríguez Lorenzo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Rokia Missaoui
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Int. J. Intell. Syst. vol. 32 (8), pages 760--777.
+  path: /publications/journals/2017/AxSyCoAtImTrCoAn
+- title: Canonical dichotomous direct bases
+  author:
+  - Estrella Rodríguez Lorenzo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Inf. Sci. vol. 376 , pages 39--53.
+  path: /publications/journals/2017/CaDiDiBa
+- title: On the construction of adjunctions between a fuzzy preposet and an unstructured
+    set
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 320 , pages 81--92.
+  path: /publications/journals/2017/CoAdFuPrUnSe
+- title: Formation of the D-basis from implicational systems using Simplification
+    logic
+  author:
+  - Estrella Rodríguez Lorenzo
+  - Kira V. Adaricheva
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Int. J. Gen. Syst. vol. 46 (5), pages 547--568.
+  path: /publications/journals/2017/FoImSyUsSiLo
+- title: 'Fuzzy functional dependencies: {A} comparative survey'
+  author:
+  - L. Jezková
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 317 , pages 88--120.
+  path: /publications/journals/2017/FuFuCoSu
+- title: Reducing the search space by closure and simplification paradigms
+  author:
+  - Fernando Benito Picazo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: J. Supercomput. vol. 73 (1), pages 75--87.
+  path: /publications/journals/2017/ReSeSpClSiPa
 - title: Direct-optimal basis computation by means of the fusion of simplification
     rules
   author:
@@ -9,6 +259,17 @@
   date: '2018-11-20T00:00:00Z'
   details: <em>Discrete Applied Mathematics</em> 249, pp. 106 - 119
   path: /publications/journals/2018/BaCoMeFuSiRu
+- title: Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy
+    Structure
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2018'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 26 (3), pages 1274--1287.'
+  path: /publications/journals/2018/GaCoFuPrStGeFuSt
 - title: Minimal generators, an affordable approach by means of massive computation
   author:
   - Fernando Benito-Picazo
@@ -18,6 +279,15 @@
   date: '2018-06-04'
   details: <em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367
   path: /publications/journals/2018/MiAfApMeMaCo
+- title: Minimal generators, an affordable approach by means of massive computation
+  author:
+  - Fernando Benito Picazo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2019'
+  details: J. Supercomput. vol. 75 (3), pages 1350--1367.
+  path: /publications/journals/2019/MiAfApMeMaCo
 - title: A conversational recommender system for diagnosis using fuzzy rules
   author:
   - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
@@ -178,3 +448,13 @@
   date: '2023-07-03T00:00:00Z'
   details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
   path: /publications/journals/2023/SiLoMaUnIn
+- title: Attribute implications with unknown information based on weak Heyting algebras
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
+    Pérez Gámez</a>
+  date: '2024'
+  details: Fuzzy Sets Syst. vol. 490 , pages 109026.
+  path: /publications/journals/2024/AtImUnInBaWeHeAl

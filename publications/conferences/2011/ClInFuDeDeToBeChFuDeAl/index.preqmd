@@ -1,0 +1,38 @@
+---
+title: A Claim to Incorporate Functional Dependencies in Development Tools - Benchmarking
+  and Checking Functional Dependencies Algorithms
+author:
+- Manuel Enciso García-Oliveros
+- Angel Mora-Bonilla
+- pcordero
+- Rosario Baena
+date: '2011'
+categories: uncategorised
+slug: 2011/ClInFuDeDeToBeChFuDeAl
+details: '{ICSOFT} 2011 - Proceedings of the 6th International Conference on Software
+  and Data Technologies, Volume 1, Seville, Spain, 18-21 July, 2011 , pages 313--316.'
+doi: []
+
+---
+
+
+# Abstract
+
+
+In this work we summarize the state of the art in the use of database functional dependencies. We compare the low impact that it has in the commercial environment with its successful acceptation in the academic environment. Particularly we remark that there does not exists any commercial development tool which uses the information provided by functional dependencies and this useful information is also deprecated by the database management systems. As a result of this, large database designs have to be re-built a few years after their establishment. In this work we identify the reasons which causes this situation and we propose a guideline to wide spread the effective use of Functional Dependencies in commercial design and tools.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

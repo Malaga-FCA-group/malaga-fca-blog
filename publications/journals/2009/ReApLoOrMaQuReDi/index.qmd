@@ -1,0 +1,101 @@
+---
+title: Relational approach for a logic for order of magnitude qualitative reasoning
+  with negligibility, non-closeness and distance
+author:
+- Joanna Golinska-Pilarek
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/ReApLoOrMaQuReDi
+details: Log. J. {IGPL} vol. 17 (4), pages 375--394.
+doi: 10.1093/JIGPAL/JZP016
+---
+
+
+
+# Abstract
+
+
+We present a relational proof system in the style of dual tableaux for a multimodal propositional logic for order of magnitude qualitative reasoning to deal with relations of negligibility, non-closeness, and distance. This logic enables us to introduce the operation of qualitative sum for some classes of numbers. A relational formalization of the modal logic in question is introduced in this paper, i.e., we show how to construct a relational logic associated with the logic for order-of-magnitude reasoning and its dual tableau system which is a validity checker for the modal logic. For that purpose, we define a validity preserving translation of the modal language into relational language. Then we prove that the system is sound and complete with respect to the relational logic defined as well as with respect to the logic for order of magnitude reasoning. Finally, we show that in fact relational dual tableau does more. It can be used for performing the four major reasoning tasks: verification of validity, proving entailment of a formula from a finite set of formulas, model checking, and verification of satisfaction of a formula in a finite model by a given object.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GolinskaPilarek2009></a>[[GM09]](#cite-GolinskaPilarek2009) J. Golinska-Pilarek and E. Mu~noz-Velasco. “Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance”. In: _Log. J. IGPL_ 17.4 (2009), pp. 375-394. DOI: [10.1093/JIGPAL/JZP016](https://doi.org/10.1093%2FJIGPAL%2FJZP016). URL: [https://doi.org/10.1093/jigpal/jzp016](https://doi.org/10.1093/jigpal/jzp016).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{GolinskaPilarek2009,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Joanna Golinska-Pilarek and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Log. J. {IGPL}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {375--394},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {17},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/igpl/Golinska-PilarekM09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1093/JIGPAL/JZP016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 06 Mar 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1093/jigpal/jzp016},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1093/JIGPAL/JZP016" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1093/JIGPAL/JZP016" class="plumx-details" data-site="plum" data-hide-when-empty="true">Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1093/JIGPAL/JZP016"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Balbiani_2016></a>[[1]](#cite-Balbiani_2016) P. Balbiani. “Reasoning about negligibility and proximity in the set of all hyperreals”. In: _Journal of Applied Logic_ 16 (Jul. 2016), p. 14–36. ISSN: 1570-8683. DOI: [10.1016/j.jal.2016.04.002](https://doi.org/10.1016%2Fj.jal.2016.04.002). URL: [http://dx.doi.org/10.1016/j.jal.2016.04.002](http://dx.doi.org/10.1016/j.jal.2016.04.002).
+
+<a name=bib-Burrieza_2019></a>[[2]](#cite-Burrieza_2019) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “A flexible logic-based approach to closeness using order of magnitude qualitative reasoning”. In: _Logic Journal of the IGPL_ 28.1 (Dec. 2019), p. 121–133. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzz076](https://doi.org/10.1093%2Fjigpal%2Fjzz076). URL: [http://dx.doi.org/10.1093/jigpal/jzz076](http://dx.doi.org/10.1093/jigpal/jzz076).
+
+<a name=bib-Burrieza_2017></a>[[3]](#cite-Burrieza_2017) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “A multimodal logic for closeness”. In: _Journal of Applied Non-Classical Logics_ 27.3–4 (Oct. 2017), p. 225–237. ISSN: 1958-5780. DOI: [10.1080/11663081.2018.1442137](https://doi.org/10.1080%2F11663081.2018.1442137). URL: [http://dx.doi.org/10.1080/11663081.2018.1442137](http://dx.doi.org/10.1080/11663081.2018.1442137).
+
+<a name=bib-Burrieza_2010></a>[[4]](#cite-Burrieza_2010) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Closeness and Distance Relations in Order of Magnitude Qualitative Reasoning via PDL”. In: _Current Topics in Artificial Intelligence_. Springer Berlin Heidelberg, 2010, p. 71–80. ISBN: 9783642142642. DOI: [10.1007/978-3-642-14264-2_8](https://doi.org/10.1007%2F978-3-642-14264-2_8). URL: [http://dx.doi.org/10.1007/978-3-642-14264-2_8](http://dx.doi.org/10.1007/978-3-642-14264-2_8).
+
+<a name=bib-Burrieza_2018></a>[[5]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-BURRIEZA_2011></a>[[6]](#cite-BURRIEZA_2011) A. BURRIEZA, E. MUÑOZ-VELASCO, and M. OJEDA-ACIEGO. “A PDL APPROACH FOR QUALITATIVE VELOCITY”. In: _International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems_ 19.01 (Feb. 2011), p. 11–26. ISSN: 1793-6411. DOI: [10.1142/s021848851100685x](https://doi.org/10.1142%2Fs021848851100685x). URL: [http://dx.doi.org/10.1142/s021848851100685x](http://dx.doi.org/10.1142/s021848851100685x).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[7]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek. “On Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 255–266. ISBN: 9783642333538. DOI: [10.1007/978-3-642-33353-8_20](https://doi.org/10.1007%2F978-3-642-33353-8_20). URL: [http://dx.doi.org/10.1007/978-3-642-33353-8_20](http://dx.doi.org/10.1007/978-3-642-33353-8_20).
+
+<a name=bib-Goli_ska_Pilarek_2014></a>[[8]](#cite-Goli_ska_Pilarek_2014) J. Golińska-Pilarek, T. Huuskonen, and E. Muñoz-Velasco. “Relational dual tableau decision procedures and their applications to modal and intuitionistic logics”. In: _Annals of Pure and Applied Logic_ 165.2 (Feb. 2014), p. 409–427. ISSN: 0168-0072. DOI: [10.1016/j.apal.2013.06.003](https://doi.org/10.1016%2Fj.apal.2013.06.003). URL: [http://dx.doi.org/10.1016/j.apal.2013.06.003](http://dx.doi.org/10.1016/j.apal.2013.06.003).
+
+<a name=bib-Goli_ska_Pilarek_2008></a>[[9]](#cite-Goli_ska_Pilarek_2008) J. Golińska-Pilarek, A. Mora, and E. Muñoz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence_. Springer Berlin Heidelberg, 2008, p. 128–139. ISBN: 9783540891970. DOI: [10.1007/978-3-540-89197-0_15](https://doi.org/10.1007%2F978-3-540-89197-0_15). URL: [http://dx.doi.org/10.1007/978-3-540-89197-0_15](http://dx.doi.org/10.1007/978-3-540-89197-0_15).
+
+<a name=bib-Golinska_Pilarek_2010></a>[[10]](#cite-Golinska_Pilarek_2010) J. Golinska-Pilarek, E. Munoz-Velasco, and A. Mora. “A new deduction system for deciding validity in modal logic K”. In: _Logic Journal of IGPL_ 19.2 (Jul. 2010), p. 425–434. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzq033](https://doi.org/10.1093%2Fjigpal%2Fjzq033). URL: [http://dx.doi.org/10.1093/jigpal/jzq033](http://dx.doi.org/10.1093/jigpal/jzq033).
+
+<a name=bib-Mora_2011></a>[[11]](#cite-Mora_2011) A. Mora, E. Muñoz-Velasco, and J. Golińska-Pilarek. “Implementing a relational theorem prover for modal logic”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1869–1884. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.493211](https://doi.org/10.1080%2F00207160.2010.493211). URL: [http://dx.doi.org/10.1080/00207160.2010.493211](http://dx.doi.org/10.1080/00207160.2010.493211).
+

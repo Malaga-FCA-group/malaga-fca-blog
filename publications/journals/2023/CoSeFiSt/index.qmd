@@ -1,0 +1,81 @@
+---
+title: Counting semicopulas on finite structures
+author:
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+date: '2023'
+categories: uncategorised
+slug: 2023/CoSeFiSt
+details: Fuzzy Sets Syst. vol. 462 , pages 108405.
+doi: 10.1016/J.FSS.2022.09.011
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bejines2023></a>[[BO23]](#cite-Bejines2023) C. Bejines and M. Ojeda-Hernández. “Counting semicopulas on finite structures”. In: _Fuzzy Sets Syst._ 462 (2023), p. 108405. DOI: [10.1016/J.FSS.2022.09.011](https://doi.org/10.1016%2FJ.FSS.2022.09.011). URL: [https://doi.org/10.1016/j.fss.2022.09.011](https://doi.org/10.1016/j.fss.2022.09.011).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bejines2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Bejines and Manuel Ojeda-Hern{\a'a}ndez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Counting semicopulas on finite structures},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {108405},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {462},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/BejinesO23.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2022.09.011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 15 Jun 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2022.09.011},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2022.09.011" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2022.09.011" class="plumx-details" data-site="plum" data-hide-when-empty="true">Counting semicopulas on finite structures</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2022.09.011"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Munar_2024></a>[[1]](#cite-Munar_2024) M. Munar, M. Couceiro, S. Massanet, et al. “A survey on the enumeration of classes of logical connectives and aggregation functions defined on a finite chain, with new results”. In: _Fuzzy Sets and Systems_ 490 (Aug. 2024), p. 109023. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109023](https://doi.org/10.1016%2Fj.fss.2024.109023). URL: [http://dx.doi.org/10.1016/j.fss.2024.109023](http://dx.doi.org/10.1016/j.fss.2024.109023).
+
+<a name=bib-Munar_2023></a>[[2]](#cite-Munar_2023) M. Munar, S. Massanet, and D. Ruiz-Aguilera. “A study on the cardinality of some families of discrete operators through alternating sign matrices”. In: _Information Sciences_ 639 (Aug. 2023), p. 118571. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.01.040](https://doi.org/10.1016%2Fj.ins.2023.01.040). URL: [http://dx.doi.org/10.1016/j.ins.2023.01.040](http://dx.doi.org/10.1016/j.ins.2023.01.040).
+

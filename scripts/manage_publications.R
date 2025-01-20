@@ -69,14 +69,15 @@ plot_citation_history <- function(df) {
       y = cites
     )
   ) +
-    geom_line(
-      color = "#0EB1D2",
-      linewidth = 1.1
-    ) +
-    geom_point(
-      size = 2,
-      color = "#2660A4"
-    ) +
+    # geom_line(
+    #   color = "#0EB1D2",
+    #   linewidth = 1.1
+    # ) +
+    # geom_point(
+    #   size = 2,
+    #   color = "#2660A4"
+    # ) +
+    geom_col(color = "#2660A4", fill = "#2660A4") +
     theme_minimal() +
     theme(
       legend.title = element_blank(),
@@ -84,7 +85,8 @@ plot_citation_history <- function(df) {
       panel.background = element_rect(fill = "#FFFFFF"),
       legend.position = "bottom"
     ) +
-    scale_x_continuous(breaks = df$year)
+    scale_x_continuous(breaks = df$year) +
+    ylim(0, max(df$cites))
   plotly::ggplotly(gpubs) |>
     plotly::config(displayModeBar = FALSE)
 }

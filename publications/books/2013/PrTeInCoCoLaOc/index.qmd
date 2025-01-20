@@ -1,0 +1,44 @@
+---
+title: Proceedings of the Tenth International Conference on Concept Lattices and Their
+  Applications, La Rochelle, France, October 15-18, 2013
+author: ''
+date: '2013'
+categories: uncategorised
+slug: 2013/PrTeInCoCoLaOc
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2013></a>[[OO13]](#cite-OjedaAciego2013) M. Ojeda-Aciego and J. Outrata, ed. _Proceedings of the Tenth International Conference on Concept Lattices and Their Applications, La Rochelle, France, October 15-18, 2013_. Vol. 1062. CEUR Workshop Proceedings. CEUR-WS.org, 2013. URL: [https://ceur-ws.org/Vol-1062](https://ceur-ws.org/Vol-1062).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{OjedaAciego2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Proceedings of the Tenth International Conference on Concept Lattices and Their Applications, La Rochelle, France, October 15-18, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Manuel Ojeda-Aciego and Jan Outrata},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1062},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/2013.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-1062},<br>&nbsp;&nbsp;&nbsp;&nbsp;  urn = {urn:nbn:de:0074-1062-7},<br>}
+
+:::
+
+
+
+
+
+
+
+

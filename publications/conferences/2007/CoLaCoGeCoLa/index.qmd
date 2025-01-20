@@ -1,0 +1,50 @@
+---
+title: Concept Lattices under Non-commutative Conjunctors Are Generalized Concept
+  Lattices
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Jorge Ruiz-Calvi~no
+date: '2007'
+categories: uncategorised
+slug: 2007/CoLaCoGeCoLa
+details: 'New Dimensions in Fuzzy Logic and Related Technologies. Proceedings of the
+  5th {EUSFLAT} Conference, Ostrava, Czech Republic, September 11-14, 2007, Volume
+  2: Regular Sessions , pages 209--212.'
+---
+
+
+
+# Abstract
+
+
+Generalized concept lattices have been re-cently proposed to deal with uncertainty or incomplete information as a non-symmetric generalization of the theory of fuzzy for-mal concept analysis. On the other hand, concept lattices have been defined as well in the framework of fuzzy logics with non-commutative conjunctors. The contribution of this paper is to prove that any concept lattice for non-commutative fuzzy logic can be interpreted inside the framewok of generalized concept lattices, specifically, it is isomorphic to a sublattice of the cartesian product of two generalized concepts lattices.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2007a></a>[[MOR07]](#cite-Medina2007a) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calvi~no. “Concept Lattices under Non-commutative Conjunctors Are Generalized Concept Lattices”. In: _New Dimensions in Fuzzy Logic and Related Technologies. Proceedings of the 5th EUSFLAT Conference, Ostrava, Czech Republic, September 11-14, 2007, Volume 2: Regular Sessions_. Ed. by M. Stepnicka, V. Novák and U. Bodenhofer. Universitas Ostraviensis, 2007, pp. 209-212. URL: [http://www.eusflat.org/proceedings/EUSFLAT\_2007/papers/Ojeda-Aciego\_Manuel\_(121).pdf](http://www.eusflat.org/proceedings/EUSFLAT\_2007/papers/Ojeda-Aciego\_Manuel\_(121).pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2007a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jorge Ruiz-Calvi~no},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {New Dimensions in Fuzzy Logic and Related Technologies. Proceedings of the 5th {EUSFLAT} Conference, Ostrava, Czech Republic, September 11-14, 2007, Volume 2: Regular Sessions},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Concept Lattices under Non-commutative Conjunctors Are Generalized Concept Lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Martin Stepnicka and Vil{\a'e}m Nov{\a'a}k and Ulrich Bodenhofer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {209--212},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Universitas Ostraviensis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Generalized concept lattices have been re-cently proposed to deal with uncertainty or incomplete information as a non-symmetric generalization of the theory of fuzzy for-mal concept analysis. On the other hand, concept lattices have been defined as well in the framework of fuzzy logics with non-commutative conjunctors. The contribution of this paper is to prove that any concept lattice for non-commutative fuzzy logic can be interpreted inside the framewok of generalized concept lattices, specifically, it is isomorphic to a sublattice of the cartesian product of two generalized concepts lattices.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/MedinaOR07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.eusflat.org/proceedings/EUSFLAT\_2007/papers/Ojeda-Aciego\_Manuel\_(121).pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

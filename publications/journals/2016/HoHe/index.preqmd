@@ -1,0 +1,34 @@
+---
+title: On homogeneous \emph{L}-bonds and heterogeneous \emph{L}-bonds
+author:
+- Jan Konecny
+- aciego
+date: '2016'
+categories: uncategorised
+slug: 2016/HoHe
+details: Int. J. Gen. Syst. vol. 45 (2), pages 160--186.
+doi: 10.1080/03081079.2015.1072926
+
+---
+
+
+# Abstract
+
+
+In this paper, we deal with suitable generalizations of the notion of bond between contexts, as part of the research area of Formal Concept Analysis. We study different generalizations of the notion of bond within the L-fuzzy setting. Specifically, given a formal context, there are three prototypical pairs of concept-forming operators, and this immediately leads to three possible versions of the notion of bond (so-called homogeneous bond wrt certain pair of concept-forming operators). The first results show a close correspondence between a homogeneous bond between two contexts and certain special types of mappings between the sets of extents (or intents) of the corresponding concept lattices. Later, we introduce the so-called heterogeneous bonds (considering simultaneously two types of concept-forming operators) and generalize the previous relationship to mappings between the sets of extents (or intents) of the corresponding concept lattices.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

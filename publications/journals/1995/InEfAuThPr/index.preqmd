@@ -1,0 +1,35 @@
+---
+title: Increasing the efficiency of automated theorem proving
+author:
+- Gabriel Aguilera
+- ipguzman
+- aciego
+date: '1995'
+categories: uncategorised
+slug: 1995/InEfAuThPr
+details: J. Appl. Non Class. Logics vol. 5 (1), pages 9--29.
+doi: 10.1080/11663081.1995.10510841
+
+---
+
+
+# Abstract
+
+
+ABSTRACT In this work a new Automated Theorem Prover (ATP) via refutation for classical logic and which does not require the conversion to clausal form, named TAS-D++, is introduced. The main objective in the design of this ATP was to obtain a parallel and computationally efficient method naturally extensible to non-standard logics (concretely, to temporal logics, see [12]). TAS-D++ works by using transformations of the syntactic trees of the formulas and, as tableaux and matrix style provers [6, 15, 16], it is Gentzen-based. Its power is mainly based in the efficient extraction of implicit information in the syntactic trees (in difference with the standard ATPs via refutation) to detect both: • simultaneously unsatisfiable or equivalent formulas to that being studied • valid, unsatisfiable, equivalent or equal subformulas. TAS-D++ is sound and complete and, moreover, it is a method that generates countermodels in a natural way.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

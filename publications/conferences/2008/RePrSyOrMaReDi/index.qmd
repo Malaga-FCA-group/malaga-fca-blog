@@ -1,0 +1,103 @@
+---
+title: An {ATP} of a Relational Proof System for Order of Magnitude Reasoning with
+  Negligibility, Non-closeness and Distance
+author:
+- Joanna Golinska-Pilarek
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2008'
+categories: uncategorised
+slug: 2008/RePrSyOrMaReDi
+details: '{PRICAI} 2008: Trends in Artificial Intelligence, 10th Pacific Rim International
+  Conference on Artificial Intelligence, Hanoi, Vietnam, December 15-19, 2008. Proceedings
+  , Lecture Notes in Computer Science vol. 5351, pages 128--139.'
+doi: 10.1007/978-3-540-89197-0_15
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GolinskaPilarek2008></a>[[GMM08]](#cite-GolinskaPilarek2008) J. Golinska-Pilarek, Á. Mora, and E. Mu~noz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence, 10th Pacific Rim International Conference on Artificial Intelligence, Hanoi, Vietnam, December 15-19, 2008. Proceedings_. Ed. by T. B. Ho and Z. Zhou. Vol. 5351. Lecture Notes in Computer Science. Springer, 2008, pp. 128-139. DOI: [10.1007/978-3-540-89197-0\_15](https://doi.org/10.1007%2F978-3-540-89197-0%5C_15). URL: [https://doi.org/10.1007/978-3-540-89197-0\_15](https://doi.org/10.1007/978-3-540-89197-0\_15).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GolinskaPilarek2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Joanna Golinska-Pilarek and {\a'A}ngel Mora and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{PRICAI} 2008: Trends in Artificial Intelligence, 10th Pacific Rim International Conference on Artificial Intelligence, Hanoi, Vietnam, December 15-19, 2008. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An {ATP} of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Tu Bao Ho and Zhi-Hua Zhou},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {128--139},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {5351},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/pricai/Golinska-PilarekMM08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-89197-0\_15},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-89197-0\_15},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-540-89197-0_15" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-540-89197-0_15" class="plumx-details" data-site="plum" data-hide-when-empty="true">An {ATP} of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-540-89197-0_15"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2009></a>[[1]](#cite-Burrieza_2009) A. Burrieza, A. Mora, M. Ojeda-Aciego, et al. “An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning”. In: _International Journal of Computer Mathematics_ 86.10–11 (Nov. 2009), p. 1852–1866. ISSN: 1029-0265. DOI: [10.1080/00207160902777906](https://doi.org/10.1080%2F00207160902777906). URL: [http://dx.doi.org/10.1080/00207160902777906](http://dx.doi.org/10.1080/00207160902777906).
+
+<a name=bib-Burrieza_2018></a>[[2]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-BURRIEZA_2011></a>[[3]](#cite-BURRIEZA_2011) A. BURRIEZA, E. MUÑOZ-VELASCO, and M. OJEDA-ACIEGO. “A PDL APPROACH FOR QUALITATIVE VELOCITY”. In: _International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems_ 19.01 (Feb. 2011), p. 11–26. ISSN: 1793-6411. DOI: [10.1142/s021848851100685x](https://doi.org/10.1142%2Fs021848851100685x). URL: [http://dx.doi.org/10.1142/s021848851100685x](http://dx.doi.org/10.1142/s021848851100685x).
+
+<a name=bib-Goli_ska_Pilarek_2015></a>[[4]](#cite-Goli_ska_Pilarek_2015) J. Goli ska-Pilarek and E. Munoz-Velasco. “A hybrid qualitative approach for relative movements”. In: _Logic Journal of IGPL_ 23.3 (Apr. 2015), p. 410–420. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzv012](https://doi.org/10.1093%2Fjigpal%2Fjzv012). URL: [http://dx.doi.org/10.1093/jigpal/jzv012](http://dx.doi.org/10.1093/jigpal/jzv012).
+
+<a name=bib-Goli_ska_Pilarek_20121></a>[[5]](#cite-Goli_ska_Pilarek_20121) J. Golińska-Pilarek. “On Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 255–266. ISBN: 9783642333538. DOI: [10.1007/978-3-642-33353-8_20](https://doi.org/10.1007%2F978-3-642-33353-8_20). URL: [http://dx.doi.org/10.1007/978-3-642-33353-8_20](http://dx.doi.org/10.1007/978-3-642-33353-8_20).
+
+<a name=bib-Goli_ska_Pilarek_2008></a>[[6]](#cite-Goli_ska_Pilarek_2008) J. Golińska-Pilarek, A. Mora, and E. Muñoz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence_. Springer Berlin Heidelberg, 2008, p. 128–139. ISBN: 9783540891970. DOI: [10.1007/978-3-540-89197-0_15](https://doi.org/10.1007%2F978-3-540-89197-0_15). URL: [http://dx.doi.org/10.1007/978-3-540-89197-0_15](http://dx.doi.org/10.1007/978-3-540-89197-0_15).
+
+<a name=bib-Golinska_Pilarek_2009></a>[[7]](#cite-Golinska_Pilarek_2009) J. Golinska-Pilarek and E. Munoz-Velasco. “Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance”. In: _Logic Journal of IGPL_ 17.4 (Jun. 2009), p. 375–394. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzp016](https://doi.org/10.1093%2Fjigpal%2Fjzp016). URL: [http://dx.doi.org/10.1093/jigpal/jzp016](http://dx.doi.org/10.1093/jigpal/jzp016).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[8]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek and E. Muñoz-Velasco. “Reasoning with Qualitative Velocity: Towards a Hybrid Approach”. In: _Hybrid Artificial Intelligent Systems_. Springer Berlin Heidelberg, 2012, p. 635–646. ISBN: 9783642289422. DOI: [10.1007/978-3-642-28942-2_57](https://doi.org/10.1007%2F978-3-642-28942-2_57). URL: [http://dx.doi.org/10.1007/978-3-642-28942-2_57](http://dx.doi.org/10.1007/978-3-642-28942-2_57).
+
+<a name=bib-Golinska_Pilarek_2010></a>[[9]](#cite-Golinska_Pilarek_2010) J. Golinska-Pilarek, E. Munoz-Velasco, and A. Mora. “A new deduction system for deciding validity in modal logic K”. In: _Logic Journal of IGPL_ 19.2 (Jul. 2010), p. 425–434. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzq033](https://doi.org/10.1093%2Fjigpal%2Fjzq033). URL: [http://dx.doi.org/10.1093/jigpal/jzq033](http://dx.doi.org/10.1093/jigpal/jzq033).
+
+<a name=bib-Goli_ska_Pilarek_2011></a>[[10]](#cite-Goli_ska_Pilarek_2011) J. Golińska-Pilarek and E. Orłowska. “Dual tableau for monoidal triangular norm logic MTL”. In: _Fuzzy Sets and Systems_ 162.1 (Jan. 2011), p. 39–52. ISSN: 0165-0114. DOI: [10.1016/j.fss.2010.09.007](https://doi.org/10.1016%2Fj.fss.2010.09.007). URL: [http://dx.doi.org/10.1016/j.fss.2010.09.007](http://dx.doi.org/10.1016/j.fss.2010.09.007).
+
+<a name=bib-Mora_2011></a>[[11]](#cite-Mora_2011) A. Mora, E. Muñoz-Velasco, and J. Golińska-Pilarek. “Implementing a relational theorem prover for modal logic”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1869–1884. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.493211](https://doi.org/10.1080%2F00207160.2010.493211). URL: [http://dx.doi.org/10.1080/00207160.2010.493211](http://dx.doi.org/10.1080/00207160.2010.493211).
+

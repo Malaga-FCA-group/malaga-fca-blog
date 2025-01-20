@@ -1,0 +1,87 @@
+---
+title: A Neural Approach to Extended Logic Programs
+author:
+- Jesús Medina
+- Enrique Mérida Casermeiro
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2003'
+categories: uncategorised
+slug: 2003/NeApExLoPr
+details: Artificial Neural Nets Problem Solving Methods, 7th International Work-Conference
+  on Artificial and Natural Neural Networks, IWANN2003, Ma{\'{o}}, Menorca, Spain,
+  June 3-6, 2003 Proceedings, Part {I} , Lecture Notes in Computer Science vol. 2686,
+  pages 654--661.
+doi: 10.1007/3-540-44868-3_83
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2003b></a>[[MCO03]](#cite-Medina2003b) J. Medina, E. M. Casermeiro, and M. Ojeda-Aciego. “A Neural Approach to Extended Logic Programs”. In: _Artificial Neural Nets Problem Solving Methods, 7th International Work-Conference on Artificial and Natural Neural Networks, IWANN2003, Maó, Menorca, Spain, June 3-6, 2003 Proceedings, Part I_. Ed. by J. Mira and J. R. Álvarez. Vol. 2686. Lecture Notes in Computer Science. Springer, 2003, pp. 654-661. DOI: [10.1007/3-540-44868-3\_83](https://doi.org/10.1007%2F3-540-44868-3%5C_83). URL: [https://doi.org/10.1007/3-540-44868-3\_83](https://doi.org/10.1007/3-540-44868-3\_83).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2003b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Enrique M{\a'e}rida Casermeiro and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Artificial Neural Nets Problem Solving Methods, 7th International Work-Conference on Artificial and Natural Neural Networks, IWANN2003, Ma{\'{o}}, Menorca, Spain, June 3-6, 2003 Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Neural Approach to Extended Logic Programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} Mira and Jos{\a'e} R. {\a'A}lvarez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {654--661},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2686},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/MedinaMO03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-44868-3\_83},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 13 Jan 2021 08:40:59 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-44868-3\_83},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/3-540-44868-3_83" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/3-540-44868-3_83" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Neural Approach to Extended Logic Programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/3-540-44868-3_83"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Medina_2004></a>[[1]](#cite-Medina_2004) J. Medina, E. Mérida-Casermeiro, and M. Ojeda-Aciego. “Decomposing Ordinal Sums in Neural Multi-adjoint Logic Programs”. In: _Advances in Artificial Intelligence – IBERAMIA 2004_. Springer Berlin Heidelberg, 2004, p. 717–726. ISBN: 9783540304982. DOI: [10.1007/978-3-540-30498-2_72](https://doi.org/10.1007%2F978-3-540-30498-2_72). URL: [http://dx.doi.org/10.1007/978-3-540-30498-2_72](http://dx.doi.org/10.1007/978-3-540-30498-2_72).
+
+<a name=bib-Medina_2005></a>[[2]](#cite-Medina_2005) J. Medina, E. Mérida-Casermeiro, and M. Ojeda-Aciego. “Interval-Valued Neural Multi-adjoint Logic Programs”. In: _Mechanisms, Symbols, and Models Underlying Cognition_. Springer Berlin Heidelberg, 2005, p. 518–527. ISBN: 9783540316725. DOI: [10.1007/11499220_53](https://doi.org/10.1007%2F11499220_53). URL: [http://dx.doi.org/10.1007/11499220_53](http://dx.doi.org/10.1007/11499220_53).
+
+<a name=bib-Medina_20041></a>[[3]](#cite-Medina_20041) J. Medina, M. Ojeda-Aciego, and P. Vojtáš. “Similarity-based unification: a multi-adjoint approach”. In: _Fuzzy Sets and Systems_ 146.1 (Aug. 2004), p. 43–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2003.11.005](https://doi.org/10.1016%2Fj.fss.2003.11.005). URL: [http://dx.doi.org/10.1016/j.fss.2003.11.005](http://dx.doi.org/10.1016/j.fss.2003.11.005).
+

@@ -1,3 +1,433 @@
+- title: A Formal Identification between Tuples and Lists with an Application to List-Arithmetic
+    Categories
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1995'
+  details: Acta Informatica vol. 32 (1), pages 61--78.
+  path: /publications/journals/1995/FoIdTuLiApCa
+- title: Increasing the efficiency of automated theorem proving
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '1995'
+  details: J. Appl. Non Class. Logics vol. 5 (1), pages 9--29.
+  path: /publications/journals/1995/InEfAuThPr
+- title: Reducing signed propositional formulas
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1998'
+  details: Soft Comput. vol. 2 (4), pages 157--166.
+  path: /publications/journals/1998/ReSiPrFo
+- title: Implicates and reduction techniques for temporal logics
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1999'
+  details: Ann. Math. Artif. Intell. vol. 27 (1-4), pages 3--23.
+  path: /publications/journals/1999/ImReTeTeLo
+- title: Reductions for non-clausal theorem proving
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2001'
+  details: Theor. Comput. Sci. vol. 266 (1-2), pages 81--112.
+  path: /publications/journals/2001/ReThPr
+- title: Preface
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Gerhard Brewka
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - Luís Moniz Pereira
+  date: '2002'
+  details: Stud Logica vol. 72 (1), pages 3--5.
+  path: /publications/journals/2002/Pr
+- title: Satisfiability Testing for Boolean Formulas Using Delta-trees
+  author:
+  - Gloria Gutiérrez
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2002'
+  details: Stud Logica vol. 72 (1), pages 85--112.
+  path: /publications/journals/2002/SaTeBoFoUs
+- title: 'Special issue: Guest Editorial [Computational and Mathematical Methods in
+    Science and Engineering 2002 - Best Papers]'
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Peter Vojtás
+  - Slawomir Zadrozny
+  date: '2003'
+  details: Kybernetika vol. 39 (5), pages 509--510.
+  path: /publications/journals/2003/SpGuEdMaMeScEnBe
+- title: 'Similarity-based unification: a multi-adjoint approach'
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Peter Vojtás
+  date: '2004'
+  details: Fuzzy Sets Syst. vol. 146 (1), pages 43--62.
+  path: /publications/journals/2004/Ap
+- title: A neural implementation of multi-adjoint logic programming
+  author:
+  - Jesús Medina
+  - Enrique Mérida Casermeiro
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2004'
+  details: J. Appl. Log. vol. 2 (3), pages 301--324.
+  path: /publications/journals/2004/NeImLoPr
+- title: Similarities between powersets of terms
+  author:
+  - Patrik Eklund
+  - Maria A. Galán
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2004'
+  details: Fuzzy Sets Syst. vol. 144 (1), pages 213--225.
+  path: /publications/journals/2004/SiPoTe
+- title: A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning with
+    Comparability and Negligibility Relations
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2005'
+  details: Fundam. Informaticae vol. 68 (1-2), pages 21--46.
+  path: /publications/journals/2005/MuLoApOrMaQuReCoNeRe
+- title: Fuzzy logic programming via multilattices
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jorge Ruiz-Calvi~no
+  date: '2007'
+  details: Fuzzy Sets Syst. vol. 158 (6), pages 674--688.
+  path: /publications/journals/2007/FuLoPrViMu
+- title: Powersets of terms and composite monads
+  author:
+  - Patrik Eklund
+  - Maria A. Galán
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2007'
+  details: Fuzzy Sets Syst. vol. 158 (23), pages 2552--2574.
+  path: /publications/journals/2007/PoTeCoMo
+- title: 'Termination of logic programs with imperfect information: applications and
+    query procedure'
+  author:
+  - Carlos Viegas Damásio
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2007'
+  details: J. Appl. Log. vol. 5 (3), pages 435--458.
+  path: /publications/journals/2007/TeLoPrImApQuPr
+- title: Editorial
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Siegfried Gottwald
+  - Petr Hájek
+  date: '2008'
+  details: Fuzzy Sets Syst. vol. 159 (10), pages 1129--1130.
+  path: /publications/journals/2008/Ed
+- title: Relating generalized concept lattices and concept lattices for non-commutative
+    conjunctors
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jorge Ruiz-Calvi~no
+  date: '2008'
+  details: Appl. Math. Lett. vol. 21 (12), pages 1296--1300.
+  path: /publications/journals/2008/ReGeCoLaCoLaCo
+- title: Congruence relations on some hyperstructures
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Ann. Math. Artif. Intell. vol. 56 (3-4), pages 361--370.
+  path: /publications/journals/2009/CoReHy
+- title: Formal concept analysis via multi-adjoint concept lattices
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jorge Ruiz-Calvi~no
+  date: '2009'
+  details: Fuzzy Sets Syst. vol. 160 (2), pages 130--144.
+  path: /publications/journals/2009/FoCoAnViCoLa
+- title: Fuzzy congruence relations on nd-groupoids
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1684--1695.
+  path: /publications/journals/2009/FuCoRe
+- title: An implementation of a dual tableaux system for order-of-magnitude qualitative
+    reasoning
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Ewa Orlowska
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1852--1866.
+  path: /publications/journals/2009/ImDuTaSyQuRe
+- title: On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application
+    to Generalized Logic Programs
+  author:
+  - Umberto Straccia
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Carlos Viegas Damásio
+  date: '2009'
+  details: '{SIAM} J. Comput. vol. 38 (5), pages 1881--1911.'
+  path: /publications/journals/2009/MuFuCoLaApGeLoPr
+- title: 'A coalgebraic approach to non-determinism: Applications to multilattices'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2010'
+  details: Inf. Sci. vol. 180 (22), pages 4323--4335.
+  path: /publications/journals/2010/CoApApMu
+- title: Multi-adjoint t-concept lattices
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2010'
+  details: Inf. Sci. vol. 180 (5), pages 712--725.
+  path: /publications/journals/2010/La
+- title: A {PDL} Approach for Qualitative Velocity
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2011'
+  details: Int. J. Uncertain. Fuzziness Knowl. Based Syst. vol. 19 (1), pages 11--26.
+  path: /publications/journals/2011/ApQuVe
+- title: On \emph{L}-fuzzy Chu correspondences
+  author:
+  - Ondrej Kridlo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2011'
+  details: Int. J. Comput. Math. vol. 88 (9), pages 1808--1818.
+  path: /publications/journals/2011/ChCo
+- title: Measuring Inconsistency in Fuzzy Answer Set Semantics
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2011'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 19 (4), pages 605--622.'
+  path: /publications/journals/2011/MeInFuAnSeSe
+- title: The Category of L-Chu Correspondences and the Structure of L-Bonds
+  author:
+  - Ondrej Kridlo
+  - Stanislav Krajci
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Fundam. Informaticae vol. 115 (4), pages 297--325.
+  path: /publications/journals/2012/CaCoSt
+- title: On multi-adjoint concept lattices based on heterogeneous conjunctors
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Fuzzy Sets Syst. vol. 208 , pages 95--110.
+  path: /publications/journals/2012/CoLaBaHeCo
+- title: On the existence and unicity of stable models in normal residuated logic
+    programs
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Int. J. Comput. Math. vol. 89 (3), pages 310--324.
+  path: /publications/journals/2012/ExUnStMoNoReLoPr
+- title: Finitary coalgebraic multisemilattices and multilattices
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Appl. Math. Comput. vol. 219 (1), pages 31--44.
+  path: /publications/journals/2012/FiCoMuMu
+- title: Dual multi-adjoint concept lattices
+  author:
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2013'
+  details: Inf. Sci. vol. 225 , pages 47--54.
+  path: /publications/journals/2013/DuCoLa
+- title: On basic conditions to generate multi-adjoint concept lattices via Galois
+    connections
+  author:
+  - Juan Carlos Díaz-Moreno
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Int. J. Gen. Syst. vol. 43 (2), pages 149--161.
+  path: /publications/journals/2014/BaCoGeCoLaViGaCo
+- title: Multi-adjoint concept lattices with heterogeneous conjunctors and hedges
+  author:
+  - Jan Konecny
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Ann. Math. Artif. Intell. vol. 72 (1-2), pages 73--89.
+  path: /publications/journals/2014/CoLaHeCoHe
+- title: On the definition of suitable orderings to generate adjunctions over an unstructured
+    codomain
+  author:
+  - Francisca García-Pardo
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Francisco J. Rodríguez-Sanchez
+  date: '2014'
+  details: Inf. Sci. vol. 286 , pages 173--187.
+  path: /publications/journals/2014/DeSuOrGeAdUnCo
+- title: A logic framework for reasoning with movement based on fuzzy qualitative
+    representation
+  author:
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Alfredo Burrieza
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Fuzzy Sets Syst. vol. 242 , pages 114--131.
+  path: /publications/journals/2014/LoFrReMoBaFuQuRe
+- title: 'On residuation in multilattices: Filters, congruences, and homomorphisms'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Fuzzy Sets Syst. vol. 234 , pages 1--21.
+  path: /publications/journals/2014/ReHo
+- title: Revising the link between L-Chu correspondences and completely lattice L-ordered
+    sets
+  author:
+  - Ondrej Kridlo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Ann. Math. Artif. Intell. vol. 72 (1-2), pages 91--113.
+  path: /publications/journals/2014/ReLiCoCoLaSe
+- title: Knowledge discovery in social networks by using a logic-based treatment of
+    implications
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Carlos Rossi
+  date: '2015'
+  details: Knowl. Based Syst. vol. 87 , pages 16--25.
+  path: /publications/journals/2015/KnDiSoNeUsTrIm
+- title: 'The Notion of Weak-Contradiction: Definition and Measures'
+  author:
+  - Humberto Bustince
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2015'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 23 (4), pages 1057--1069.'
+  path: /publications/journals/2015/NoDeMe
+- title: On the Dedekind-MacNeille completion and formal concept analysis based on
+    multilattices
+  author:
+  - Jesús Medina-Moreno
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jozef Pócs
+  - Eloísa Ramírez-Poussa
+  date: '2016'
+  details: Fuzzy Sets Syst. vol. 303 , pages 1--20.
+  path: /publications/journals/2016/CoFoCoAnBaMu
+- title: Concept lattices and their applications
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jan Outrata
+  date: '2016'
+  details: Int. J. Gen. Syst. vol. 45 (2), pages 55--56.
+  path: /publications/journals/2016/CoLaAp
+- title: On homogeneous \emph{L}-bonds and heterogeneous \emph{L}-bonds
+  author:
+  - Jan Konecny
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2016'
+  details: Int. J. Gen. Syst. vol. 45 (2), pages 160--186.
+  path: /publications/journals/2016/HoHe
+- title: The Chu construction and generalized formal concept analysis
+  author:
+  - L'ubomír Antoni
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - Stanislav Krajci
+  - Ondrej Kridlo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: Int. J. Gen. Syst. vol. 46 (5), pages 458--474.
+  path: /publications/journals/2017/ChCoGeFoCoAn
+- title: On the construction of adjunctions between a fuzzy preposet and an unstructured
+    set
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 320 , pages 81--92.
+  path: /publications/journals/2017/CoAdFuPrUnSe
+- title: Fuzzy Mathematical Models for Computer Science and Decision Making
+  author:
+  - Humberto Bustince
+  - Susana Montes
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: Int. J. Uncertain. Fuzziness Knowl. Based Syst. vol. 25 (Supplement-1),
+    pages 1--4.
+  path: /publications/journals/2017/FuMaMoCoScDeMa
+- title: A multimodal logic for closeness
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: J. Appl. Non Class. Logics vol. 27 (3-4), pages 225--237.
+  path: /publications/journals/2017/MuLoCl
+- title: On reductants in the framework of multi-adjoint logic programming
+  author:
+  - Pascual Julián Iranzo
+  - Jesús Medina
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 317 , pages 27--43.
+  path: /publications/journals/2017/ReFrLoPr
+- title: Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy
+    Structure
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2018'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 26 (3), pages 1274--1287.'
+  path: /publications/journals/2018/GaCoFuPrStGeFuSt
 - title: A flexible logic-based approach to closeness using order of magnitude qualitative
     reasoning
   author:
@@ -7,6 +437,31 @@
   date: '2019'
   details: Logic Journal of the IGPL vol. 28 (1), pages 121-133.
   path: /publications/journals/2019/FlApClUsOrMaQuRe
+- title: \emph{L}-fuzzy relational mathematical morphology based on adjoint triples
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Jesús Medina
+  - Irina Perfilieva
+  date: '2019'
+  details: Inf. Sci. vol. 474 , pages 75--89.
+  path: /publications/journals/2019/ReMaMoBaAdTr
+- title: On Contradiction and Inclusion Using Functional Degrees
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2020'
+  details: Int. J. Comput. Intell. Syst. vol. 13 (1), pages 464--471.
+  path: /publications/journals/2020/CoInUsFuDe
+- title: A flexible logic-based approach to closeness using order of magnitude qualitative
+    reasoning
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2020'
+  details: Log. J. {IGPL} vol. 28 (1), pages 121--133.
+  path: /publications/journals/2020/FlApClUsOrMaQuRe
 - title: A Formal Concept Analysis Approach to Cooperative Conversational Recommendation
   author:
   - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
@@ -18,6 +473,13 @@
   details: <em>International Journal of Computational Intelligence Systems</em>, 13
     (1), pp. 1243 - 1252
   path: /publications/journals/2020/FoCoAnApCoCoRe
+- title: Functional degrees of inclusion and similarity between \emph{L}-fuzzy sets
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2020'
+  details: Fuzzy Sets Syst. vol. 390 , pages 1--22.
+  path: /publications/journals/2020/FuDeInSiSe
 - title: 'Relational Galois connections between transitive digraphs: Characterization
     and construction'
   author:
@@ -40,6 +502,37 @@
   details: Mathematical Methods in the Applied Sciences vol. 43 (9), pages 5673 –
     5680.
   path: /publications/journals/2020/ReGaCoTrFuDi
+- title: Formal concept analysis with negative attributes for forgery detection
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - José Manuel Rodríguez-Jiménez
+  date: '2021'
+  details:
+    /Users/domingo/Documents/Repositorios/malaga-fca-blog/publications/journals/2021/FoCoAnNeAtFoDe/index.preqmd: []
+  path: /publications/journals/2021/FoCoAnNeAtFoDe
+- title: Multi-adjoint lattices from adjoint triples with involutive negation
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2021'
+  details: Fuzzy Sets Syst. vol. 405 , pages 88--105.
+  path: /publications/journals/2021/LaAdTrInNe
+- title: Measures of inclusion and entropy based on the \emph{{\(\varphi\)}}-index
+    of inclusion
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2021'
+  details: Fuzzy Sets Syst. vol. 423 , pages 29--54.
+  path: /publications/journals/2021/MeInEnBaIn
+- title: Classifying Adjoint Pairs and Adjoint Triples in an Atanassov {\textdollar}L{\textdollar}-Fuzzy
+    Framework
+  author:
+  - Ondrej Krídlo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2022'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 30 (3), pages 863--868.'
+  path: /publications/journals/2022/ClAdPaAdTrAtFr
 - title: 'Simplifying Implications with Positive and Negative Attributes: A Logic-Based
     Approach'
   author:
@@ -75,3 +568,30 @@
   date: '2023-01-01'
   details: 'Fuzzy Sets Syst. 463: 108456'
   path: /publications/journals/2023/FuReGaCoFuTrDi
+- title: The \emph{f}-index of inclusion as optimal adjoint pair for fuzzy modus ponens
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2023'
+  details: Fuzzy Sets Syst. vol. 466 , pages 108474.
+  path: /publications/journals/2023/InOpAdPaFuMoPo
+- title: Approaching the square of opposition in terms of the \emph{f}-indexes of
+    inclusion and contradiction
+  author:
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2024'
+  details: Fuzzy Sets Syst. vol. 476 , pages 108769.
+  path: /publications/journals/2024/ApSqOpTeInCo
+- title: A Critical Analysis of the Theoretical Framework of the Extreme Learning
+    Machine
+  author:
+  - Irina Perfilieva
+  - Nicolás Madrid
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Piotr Artiemjew
+  - Agnieszka Niemczynowicz
+  date: '2024'
+  details:
+    /Users/domingo/Documents/Repositorios/malaga-fca-blog/publications/journals/2024/CrAnThFrExLeMa/index.preqmd: []
+  path: /publications/journals/2024/CrAnThFrExLeMa

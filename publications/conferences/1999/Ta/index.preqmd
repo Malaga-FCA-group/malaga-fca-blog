@@ -1,0 +1,33 @@
+---
+title: Multiple-Valued Tableaux with delta-reductions
+author:
+- ipguzman
+- aciego
+- Agustín Valverde
+date: '1999'
+categories: uncategorised
+slug: 1999/Ta
+details: Proceedings of the International Conference on Artificial Intelligence, {IC-AI}'99, June 28 - July 1, 1999, Las Vegas, Nevada, USA, Volume 1 , pages 177--183.
+---
+
+
+# Abstract
+
+
+This paper generalises the tree-based data structure of Δ-tree to be applied to signed propositional formulas. The Δ-trees allow a compact representation for signed formulas as well as for a number of reduction strategies in order to consider only those occurrences of literals which are relevant for the satisfiability of the input formula. The conversions from signed formulas to Δ- trees and vice versa are described and a notion of restricted form based on this representation is introduced, allowing for a compact representation of formulas in order to consider only those occurrences of literals which are relevant for its satisfiability.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

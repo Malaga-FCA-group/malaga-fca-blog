@@ -1,0 +1,84 @@
+---
+title: Formal Equivalence Analysis
+author:
+- Francisco José Valverde Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/FoEqAn
+details: []
+doi: 10.2991/EUSFLAT-19.2019.109
+---
+
+
+
+# Abstract
+
+
+Following R. Wille's lead and suggestion we set out to design a new kind of view onto a formal context analogous but different to Formal Concept Analysis and Formal Independent Analysis.In this instance, we choose to analyse the information in the incidence table in terms of the partitions induced on the sets of objects and attributes by the same functions of single attributes and objects of the context.These functions constitute a left adjunction between sets of objects and attributes and we later lift this left adjunction to partitions of the objects and attributes.Therefore we refer to this new view onto the formal context as Formal Equivalence Analysis.Rather than looking on the effect of these partitions on set representation, as in Rough Sets, we try to make explicit the information in the context.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Albacete2019></a>[[Alb+19]](#cite-Albacete2019) F. J. V. Albacete, C. Peláez-Moreno, P. Cordero, et al. “Formal Equivalence Analysis”. In: _Proceedings of the 11th Conference of the European Society for Fuzzy Logic and Technology, EUSFLAT 2019, Prague, Czech Republic, September 9-13, 2019_. Ed. by V. Novák, Vladim\'\irMar\'\ik, M. Stepnicka, M. Navara and P. Hurt\'\ik. Vol. 1. Atlantis Studies in Uncertainty Modelling. Atlantis Press, 2019. DOI: [10.2991/EUSFLAT-19.2019.109](https://doi.org/10.2991%2FEUSFLAT-19.2019.109). URL: [https://doi.org/10.2991/eusflat-19.2019.109](https://doi.org/10.2991/eusflat-19.2019.109).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Albacete2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco Jos{\a'e} Valverde Albacete and Carmen Pel{\a'a}ez-Moreno and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 11th Conference of the European Society for Fuzzy Logic and Technology, {EUSFLAT} 2019, Prague, Czech Republic, September 9-13, 2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Formal Equivalence Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Vil{\a'e}m Nov{\a'a}k and Vladim\'\ir Mar\'\ik and Martin Stepnicka and Mirko Navara and Petr Hurt\'\ik},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Atlantis Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Atlantis Studies in Uncertainty Modelling},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/AlbacetePCO19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.2991/EUSFLAT-19.2019.109},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 29 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.2991/eusflat-19.2019.109},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.2991/EUSFLAT-19.2019.109" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.2991/EUSFLAT-19.2019.109" class="plumx-details" data-site="plum" data-hide-when-empty="true">Formal Equivalence Analysis</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.2991/EUSFLAT-19.2019.109"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[1]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+
+<a name=bib-Valverde_Albacete_2022></a>[[2]](#cite-Valverde_Albacete_2022) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Encoding Non-global Time Representations into the Lattice of Divisibility”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 118–129. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_11](https://doi.org/10.1007%2F978-3-031-08971-8_11). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_11](http://dx.doi.org/10.1007/978-3-031-08971-8_11).
+

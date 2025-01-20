@@ -1,0 +1,91 @@
+---
+title: Canonical dichotomous direct bases
+author:
+- Estrella Rodríguez Lorenzo
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/CaDiDiBa
+details: Inf. Sci. vol. 376 , pages 39--53.
+doi: 10.1016/J.INS.2016.10.004
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Lorenzo2017b></a>[[Rod+17]](#cite-Lorenzo2017b) E. Rodr\'\iguezLorenzo, P. Cordero, M. Enciso, et al. “Canonical dichotomous direct bases”. In: _Inf. Sci._ 376 (2017), pp. 39-53. DOI: [10.1016/J.INS.2016.10.004](https://doi.org/10.1016%2FJ.INS.2016.10.004). URL: [https://doi.org/10.1016/j.ins.2016.10.004](https://doi.org/10.1016/j.ins.2016.10.004).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Lorenzo2017b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Estrella Rodr\'\iguez Lorenzo and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Inf. Sci.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Canonical dichotomous direct bases},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {39--53},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {376},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/isci/LorenzoCEB17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.INS.2016.10.004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 28 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.ins.2016.10.004},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.INS.2016.10.004" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.INS.2016.10.004" class="plumx-details" data-site="plum" data-hide-when-empty="true">Canonical dichotomous direct bases</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.INS.2016.10.004"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Benito_Picazo_2018></a>[[1]](#cite-Benito_Picazo_2018) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _The Journal of Supercomputing_ 75.3 (Jun. 2018), p. 1350–1367. ISSN: 1573-0484. DOI: [10.1007/s11227-018-2453-z](https://doi.org/10.1007%2Fs11227-018-2453-z). URL: [http://dx.doi.org/10.1007/s11227-018-2453-z](http://dx.doi.org/10.1007/s11227-018-2453-z).
+
+<a name=bib-Cordero_2020></a>[[2]](#cite-Cordero_2020) P. Cordero, M. Enciso, Á. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 1243. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200806.001](http://dx.doi.org/10.2991/ijcis.d.200806.001).
+
+<a name=bib-Dubois_2025></a>[[3]](#cite-Dubois_2025) D. Dubois, J. Medina, and H. Prade. “Extracting attribute implications from a formal context: Unifying the basic approaches”. In: _Information Sciences_ 689 (Jan. 2025), p. 121419. ISSN: 0020-0255. DOI: [10.1016/j.ins.2024.121419](https://doi.org/10.1016%2Fj.ins.2024.121419). URL: [http://dx.doi.org/10.1016/j.ins.2024.121419](http://dx.doi.org/10.1016/j.ins.2024.121419).
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[4]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+
+<a name=bib-Medina_2022></a>[[5]](#cite-Medina_2022) J. Medina, P. Navareño, and E. Ramírez-Poussa. “Knowledge Implications in Multi-adjoint Concept Lattices”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 155–161. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_18](https://doi.org/10.1007%2F978-3-030-88817-6_18). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_18](http://dx.doi.org/10.1007/978-3-030-88817-6_18).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[6]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+

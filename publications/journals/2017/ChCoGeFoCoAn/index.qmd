@@ -1,0 +1,91 @@
+---
+title: The Chu construction and generalized formal concept analysis
+author:
+- L'ubomír Antoni
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- Stanislav Krajci
+- Ondrej Kridlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/ChCoGeFoCoAn
+details: Int. J. Gen. Syst. vol. 46 (5), pages 458--474.
+doi: 10.1080/03081079.2017.1349579
+---
+
+
+
+# Abstract
+
+
+We continue studying the connections between the Chu construction on the category ChuCors of formal contexts and Chu correspondences, and generalizations of Formal Concept Analysis (FCA). All the required constructions like categorical product, tensor product, together with its bifunctor properties are introduced and proved. The final section focuses on how the second-order generalization of FCA can be built up in terms of the Chu construction.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Antoni2017></a>[[Lub+17]](#cite-Antoni2017) L'ubom\'\irAntoni, I. P. Cabrera, S. Krajci, et al. “The Chu construction and generalized formal concept analysis”. In: _Int. J. Gen. Syst._ 46.5 (2017), pp. 458-474. DOI: [10.1080/03081079.2017.1349579](https://doi.org/10.1080%2F03081079.2017.1349579). URL: [https://doi.org/10.1080/03081079.2017.1349579](https://doi.org/10.1080/03081079.2017.1349579).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Antoni2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {L'ubom\'\ir Antoni and Inma P. Cabrera and Stanislav Krajci and Ondrej Kridlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Gen. Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {The Chu construction and generalized formal concept analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {458--474},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {46},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijgs/AntoniCKKO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/03081079.2017.1349579},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 25 Jul 2021 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/03081079.2017.1349579},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/03081079.2017.1349579" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/03081079.2017.1349579" class="plumx-details" data-site="plum" data-hide-when-empty="true">The Chu construction and generalized formal concept analysis</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/03081079.2017.1349579"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2020></a>[[1]](#cite-Antoni_2020) Ľ. Antoni, D. Bruothová, J. Guniš, et al. “Attribute Exploration in Formal Concept Analysis and Measuring of Pupils’ Computational Thinking”. In: _Towards Digital Intelligence Society_. Springer International Publishing, Dec. 2020, p. 160–180. ISBN: 9783030638726. DOI: [10.1007/978-3-030-63872-6_8](https://doi.org/10.1007%2F978-3-030-63872-6_8). URL: [http://dx.doi.org/10.1007/978-3-030-63872-6_8](http://dx.doi.org/10.1007/978-3-030-63872-6_8).
+
+<a name=bib-Kr_dlo_2022></a>[[2]](#cite-Kr_dlo_2022) O. Krídlo, M. Ojeda-Aciego, T. Put, et al. “On Some Categories Underlying Knowledge Graphs”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 199–205. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_23](https://doi.org/10.1007%2F978-3-030-88817-6_23). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_23](http://dx.doi.org/10.1007/978-3-030-88817-6_23).
+
+<a name=bib-Madrid_2022></a>[[3]](#cite-Madrid_2022) N. Madrid and M. Ojeda-Aciego. “Some Relationships Between the Notions of f-Inclusion and f-Contradiction”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 175–181. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_20](https://doi.org/10.1007%2F978-3-030-88817-6_20). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_20](http://dx.doi.org/10.1007/978-3-030-88817-6_20).
+
+<a name=bib-P_cs_2021></a>[[4]](#cite-P_cs_2021) J. Pócs and J. Pócsová. “On Bonds for Generalized One-Sided Concept Lattices”. In: _Mathematics_ 9.3 (Jan. 2021), p. 211. ISSN: 2227-7390. DOI: [10.3390/math9030211](https://doi.org/10.3390%2Fmath9030211). URL: [http://dx.doi.org/10.3390/math9030211](http://dx.doi.org/10.3390/math9030211).
+
+<a name=bib-Zhao_2017></a>[[5]](#cite-Zhao_2017) F. Zhao, Q. Jin, and L. Li. “The axiomatic characterizations on L-generalized fuzzy neighborhood system-based approximation operators”. In: _International Journal of General Systems_ 47.2 (Dec. 2017), p. 155–173. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1407928](https://doi.org/10.1080%2F03081079.2017.1407928). URL: [http://dx.doi.org/10.1080/03081079.2017.1407928](http://dx.doi.org/10.1080/03081079.2017.1407928).
+

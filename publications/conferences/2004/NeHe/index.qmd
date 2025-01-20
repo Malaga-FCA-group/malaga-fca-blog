@@ -1,0 +1,66 @@
+---
+title: '{A/D} Case: {A} New Heart for {FD3}'
+author:
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- J. Guerrero
+date: '2004'
+categories: uncategorised
+slug: 2004/NeHe
+details: '{ICEIS} 2004, Proceedings of the 6th International Conference on Enterprise
+  Information Systems, Porto, Portugal, April 14-17, 2004 , pages 482--490.'
+---
+
+
+
+# Abstract
+
+
+In (Enciso and Mora, 2002) we introduce the Functional Dependencies Data Dictionary (F D3) as an architecture to facilitate the integration of database Systems. We propose the use of logics based on the notion of
+Functional Dependencies (FD) to allows formal specification of the objects of a data model and to conceive
+future automated treatment.
+The existence of a FD logic provides a formal language suitable to carry out integration tasks and eases the
+design of an automatic integration process based in the axiomatic system of the FD logic. Besides that, F D3,
+provides a High Level Functional Dependencies (HLFD) Data Model which is used in a similar way as the
+Entity/Relationship Model.
+In this paper, we develop a CASE tool named A/D CASE (Attribute/Dependence CASE) that illustrates the
+practical benefits of the F D3 architecture. In the development of A/D CASE we have taken into account other
+theoretical results which improve our original F D3 proposal (Enciso and Mora, 2002). Particularly:
+• A new functional dependencies logic named SLFD for removing redundancy in a database sub-model
+that we present in (Mora, 2002; Cordero et al., 2002a). The use of SLFD add formalization to software
+engineering process.
+• An efficient preprocessing transformation based on the substitution paradigm that we present in (Mora et al.,
+2003).
+Unlike A/D CASE is independent from the Relational Model, it can be integrated into different database
+systems and it is compatible with relational DBMSs.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Mora2004></a>[[Mor+04]](#cite-Mora2004) Á. Mora, M. Enciso, P. Cordero, et al. “A/D Case: A New Heart for FD3”. In: _ICEIS 2004, Proceedings of the 6th International Conference on Enterprise Information Systems, Porto, Portugal, April 14-17, 2004_. 2004, pp. 482-490.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Mora2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {{\a'A}ngel Mora and Manuel Enciso and Pablo Cordero and Inman P. {de Guzm{\a'a}n} and J. Guerrero},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ICEIS} 2004, Proceedings of the 6th International Conference on Enterprise Information Systems, Porto, Portugal, April 14-17, 2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {{A/D} Case: {A} New Heart for {FD3}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {482--490},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In (Enciso and Mora, 2002) we introduce the Functional Dependencies Data Dictionary (F D3) as an architecture to facilitate the integration of database Systems. We propose the use of logics based on the notion of<br>&nbsp;&nbsp;&nbsp;&nbsp;Functional Dependencies (FD) to allows formal specification of the objects of a data model and to conceive<br>&nbsp;&nbsp;&nbsp;&nbsp;future automated treatment.<br>&nbsp;&nbsp;&nbsp;&nbsp;The existence of a FD logic provides a formal language suitable to carry out integration tasks and eases the<br>&nbsp;&nbsp;&nbsp;&nbsp;design of an automatic integration process based in the axiomatic system of the FD logic. Besides that, F D3,<br>&nbsp;&nbsp;&nbsp;&nbsp;provides a High Level Functional Dependencies (HLFD) Data Model which is used in a similar way as the<br>&nbsp;&nbsp;&nbsp;&nbsp;Entity/Relationship Model.<br>&nbsp;&nbsp;&nbsp;&nbsp;In this paper, we develop a CASE tool named A/D CASE (Attribute/Dependence CASE) that illustrates the<br>&nbsp;&nbsp;&nbsp;&nbsp;practical benefits of the F D3 architecture. In the development of A/D CASE we have taken into account other<br>&nbsp;&nbsp;&nbsp;&nbsp;theoretical results which improve our original F D3 proposal (Enciso and Mora, 2002). Particularly:<br>&nbsp;&nbsp;&nbsp;&nbsp;• A new functional dependencies logic named SLFD for removing redundancy in a database sub-model<br>&nbsp;&nbsp;&nbsp;&nbsp;that we present in (Mora, 2002; Cordero et al., 2002a). The use of SLFD add formalization to software<br>&nbsp;&nbsp;&nbsp;&nbsp;engineering process.<br>&nbsp;&nbsp;&nbsp;&nbsp;• An efficient preprocessing transformation based on the substitution paradigm that we present in (Mora et al.,<br>&nbsp;&nbsp;&nbsp;&nbsp;2003).<br>&nbsp;&nbsp;&nbsp;&nbsp;Unlike A/D CASE is independent from the Relational Model, it can be integrated into different database<br>&nbsp;&nbsp;&nbsp;&nbsp;systems and it is compatible with relational DBMSs.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iceis/MoraECGG04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

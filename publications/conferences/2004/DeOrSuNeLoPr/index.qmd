@@ -1,0 +1,56 @@
+---
+title: Decomposing Ordinal Sums in Neural Multi-adjoint Logic Programs
+author:
+- Jesús Medina
+- Enrique Mérida Casermeiro
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2004'
+categories: uncategorised
+slug: 2004/DeOrSuNeLoPr
+details: Advances in Artificial Intelligence - {IBERAMIA} 2004, 9th Ibero-American
+  Conference on AI, Puebla, Mexico, November 22-26, 2004, Proceedings , Lecture Notes
+  in Computer Science vol. 3315, pages 717--726.
+doi: 10.1007/978-3-540-30498-2_72
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2004b></a>[[MCO04]](#cite-Medina2004b) J. Medina, E. M. Casermeiro, and M. Ojeda-Aciego. “Decomposing Ordinal Sums in Neural Multi-adjoint Logic Programs”. In: _Advances in Artificial Intelligence - IBERAMIA 2004, 9th Ibero-American Conference on AI, Puebla, Mexico, November 22-26, 2004, Proceedings_. Ed. by C. Lema\^\itre, C. A. R. Garc\'\ia and J. A. González. Vol. 3315. Lecture Notes in Computer Science. Springer, 2004, pp. 717-726. DOI: [10.1007/978-3-540-30498-2\_72](https://doi.org/10.1007%2F978-3-540-30498-2%5C_72). URL: [https://doi.org/10.1007/978-3-540-30498-2\_72](https://doi.org/10.1007/978-3-540-30498-2\_72).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2004b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Enrique M{\a'e}rida Casermeiro and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Artificial Intelligence - {IBERAMIA} 2004, 9th Ibero-American Conference on AI, Puebla, Mexico, November 22-26, 2004, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Decomposing Ordinal Sums in Neural Multi-adjoint Logic Programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Christian Lema\^\itre and Carlos A. Reyes Garc\'\ia and Jes{\a'u}s A. Gonz{\a'a}lez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {717--726},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3315},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iberamia/MedinaCO04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-30498-2\_72},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-30498-2\_72},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Medina_2010></a>[[1]](#cite-Medina_2010) J. Medina. “Adjoint Pairs on Interval-Valued Fuzzy Sets”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Applications_. Springer Berlin Heidelberg, 2010, p. 430–439. ISBN: 9783642140587. DOI: [10.1007/978-3-642-14058-7_45](https://doi.org/10.1007%2F978-3-642-14058-7_45). URL: [http://dx.doi.org/10.1007/978-3-642-14058-7_45](http://dx.doi.org/10.1007/978-3-642-14058-7_45).
+
+<a name=bib-Medina_2005></a>[[2]](#cite-Medina_2005) J. Medina, E. Mérida-Casermeiro, and M. Ojeda-Aciego. “Interval-Valued Neural Multi-adjoint Logic Programs”. In: _Mechanisms, Symbols, and Models Underlying Cognition_. Springer Berlin Heidelberg, 2005, p. 518–527. ISBN: 9783540316725. DOI: [10.1007/11499220_53](https://doi.org/10.1007%2F11499220_53). URL: [http://dx.doi.org/10.1007/11499220_53](http://dx.doi.org/10.1007/11499220_53).
+

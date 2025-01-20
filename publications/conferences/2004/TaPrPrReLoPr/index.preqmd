@@ -1,0 +1,37 @@
+---
+title: A Tabulation Proof Procedure for Residuated Logic Programming
+author:
+- Carlos Viegas Damásio
+- Jesús Medina
+- aciego
+date: '2004'
+categories: uncategorised
+slug: 2004/TaPrPrReLoPr
+details: Proceedings of the 16th Eureopean Conference on Artificial Intelligence,
+  ECAI'2004, including Prestigious Applicants of Intelligent Systems, {PAIS} 2004,
+  Valencia, Spain, August 22-27, 2004 , pages 808--812.
+doi: []
+
+---
+
+
+# Abstract
+
+
+Residuated Logic Programs allow to capture a spate of different semantics dealing with uncertainty and vagueness. In this work we provide a tabulation goal-oriented query procedure, and show that our tabulation query procedure terminates if and only if the sequence of iterations of the immediate consequences operator reaches the least fixpoint after only finitely-many steps. On the basis of this result we show that the tabulation procedure terminates for important classes of residuated logic programs, in particular for probabilistic deductive databases of Lakshmanan and Sadri.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

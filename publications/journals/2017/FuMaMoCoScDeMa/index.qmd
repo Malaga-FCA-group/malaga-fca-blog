@@ -1,0 +1,48 @@
+---
+title: Fuzzy Mathematical Models for Computer Science and Decision Making
+author:
+- Humberto Bustince
+- Susana Montes
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/FuMaMoCoScDeMa
+details: Int. J. Uncertain. Fuzziness Knowl. Based Syst. vol. 25 (Supplement-1), pages
+  1--4.
+doi: 10.1142/S0218488517020020
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bustince2017></a>[[BMO17]](#cite-Bustince2017) H. Bustince, S. Montes, and M. Ojeda-Aciego. “Fuzzy Mathematical Models for Computer Science and Decision Making”. In: _Int. J. Uncertain. Fuzziness Knowl. Based Syst._ 25.Supplement-1 (2017), pp. 1-4. DOI: [10.1142/S0218488517020020](https://doi.org/10.1142%2FS0218488517020020). URL: [https://doi.org/10.1142/S0218488517020020](https://doi.org/10.1142/S0218488517020020).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bustince2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Humberto Bustince and Susana Montes and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Uncertain. Fuzziness Knowl. Based Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Fuzzy Mathematical Models for Computer Science and Decision Making},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {Supplement-1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {25},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijufks/BustinceMO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1142/S0218488517020020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 18 Jun 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1142/S0218488517020020},<br>}
+
+:::
+
+
+
+
+
+
+
+

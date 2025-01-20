@@ -1,0 +1,50 @@
+---
+title: A Claim to Incorporate Functional Dependencies in Development Tools - Benchmarking
+  and Checking Functional Dependencies Algorithms
+author:
+- Manuel Enciso García-Oliveros
+- Angel Mora-Bonilla
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Rosario Baena
+date: '2011'
+categories: uncategorised
+slug: 2011/ClInFuDeDeToBeChFuDeAl
+details: '{ICSOFT} 2011 - Proceedings of the 6th International Conference on Software
+  and Data Technologies, Volume 1, Seville, Spain, 18-21 July, 2011 , pages 313--316.'
+---
+
+
+
+# Abstract
+
+
+In this work we summarize the state of the art in the use of database functional dependencies. We compare the low impact that it has in the commercial environment with its successful acceptation in the academic environment. Particularly we remark that there does not exists any commercial development tool which uses the information provided by functional dependencies and this useful information is also deprecated by the database management systems. As a result of this, large database designs have to be re-built a few years after their establishment. In this work we identify the reasons which causes this situation and we propose a guideline to wide spread the effective use of Functional Dependencies in commercial design and tools.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GarciaOliveros2011></a>[[Gar+11]](#cite-GarciaOliveros2011) M. E. Garc\'\ia-Oliveros, A. Mora-Bonilla, P. Cordero, et al. “A Claim to Incorporate Functional Dependencies in Development Tools - Benchmarking and Checking Functional Dependencies Algorithms”. In: _ICSOFT 2011 - Proceedings of the 6th International Conference on Software and Data Technologies, Volume 1, Seville, Spain, 18-21 July, 2011_. Ed. by M. E. Cuaresma, B. Shishkov and J. Cordeiro. SciTePress, 2011, pp. 313-316.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GarciaOliveros2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso Garc\'\ia-Oliveros and Angel Mora-Bonilla and Pablo Cordero and Rosario Baena},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ICSOFT} 2011 - Proceedings of the 6th International Conference on Software and Data Technologies, Volume 1, Seville, Spain, 18-21 July, 2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Claim to Incorporate Functional Dependencies in Development Tools - Benchmarking and Checking Functional Dependencies Algorithms},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Mar\'\ia Jos{\a'e} Escalona Cuaresma and Boris Shishkov and Jos{\a'e} Cordeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {313--316},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {SciTePress},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this work we summarize the state of the art in the use of database functional dependencies. We compare the low impact that it has in the commercial environment with its successful acceptation in the academic environment. Particularly we remark that there does not exists any commercial development tool which uses the information provided by functional dependencies and this useful information is also deprecated by the database management systems. As a result of this, large database designs have to be re-built a few years after their establishment. In this work we identify the reasons which causes this situation and we propose a guideline to wide spread the effective use of Functional Dependencies in commercial design and tools.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icsoft/Garcia-OliverosBCB11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

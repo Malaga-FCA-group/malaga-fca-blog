@@ -1,0 +1,52 @@
+---
+title: Towards Simplification Logic for Graded Attribute Implications with General
+  Semantics
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Vilém Vychodil
+date: '2018'
+categories: uncategorised
+slug: 2018/ToSiLoGrAtImGeSe
+details: Proceedings of the Fourteenth International Conference on Concept Lattices
+  and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018 ,
+  {CEUR} Workshop Proceedings vol. 2123, pages 129--140.
+---
+
+
+
+# Abstract
+
+
+We present variant of simplification logic for reasoning with if-then dependencies that arise in formal concept analysis of data with
+graded attributes. The dependencies and the proposed logic are parameterized by systems of isotone Galois connections which allows us to handle a large family of possible interpretations of data dependencies. We describe semantics of the rules, axiomatic system of the logic, and prove its soundness and completeness.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2018></a>[[Cor+18]](#cite-Cordero2018) P. Cordero, M. Enciso, Á. Mora, et al. “Towards Simplification Logic for Graded Attribute Implications with General Semantics”. In: _Proceedings of the Fourteenth International Conference on Concept Lattices and Their Applications, CLA 2018, Olomouc, Czech Republic, June 12-14, 2018_. Ed. by D. I. Ignatov and L. Nourine. Vol. 2123. CEUR Workshop Proceedings. CEUR-WS.org, 2018, pp. 129-140. URL: [https://ceur-ws.org/Vol-2123/paper11.pdf](https://ceur-ws.org/Vol-2123/paper11.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2018,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Vil{\a'e}m Vychodil},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Fourteenth International Conference on Concept Lattices and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards Simplification Logic for Graded Attribute Implications with General Semantics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Dmitry I. Ignatov and Lhouari Nourine},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {129--140},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2123},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We present variant of simplification logic for reasoning with if-then dependencies that arise in formal concept analysis of data with<br>&nbsp;&nbsp;&nbsp;&nbsp;graded attributes. The dependencies and the proposed logic are parameterized by systems of isotone Galois connections which allows us to handle a large family of possible interpretations of data dependencies. We describe semantics of the rules, axiomatic system of the logic, and prove its soundness and completeness.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/CorderoE0V18.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-2123/paper11.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

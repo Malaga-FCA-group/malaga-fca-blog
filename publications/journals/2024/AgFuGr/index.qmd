@@ -1,0 +1,82 @@
+---
+title: Aggregation of fuzzy graphs
+author:
+- Francisco Javier Talavera
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+- Sergio Ardanza-Trevijano
+- Jorge Elorza
+date: '2024'
+categories: uncategorised
+slug: 2024/AgFuGr
+details: Int. J. Approx. Reason. vol. 172 , pages 109243.
+doi: 10.1016/J.IJAR.2024.109243
+---
+
+
+
+# Abstract
+
+
+Our study is centered on the aggregation of fuzzy graphs, looking for conditions under which the aggregation process yields another fuzzy graph. We conduct an in-depth analysis of the preservation of several important properties and structures inherent to fuzzy graphs, like paths, cycles, or bridges. In addition we obtain appropriate criteria for when the aggregation of complete fuzzy graphs is again a complete fuzzy graph.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Talavera2024></a>[[Tal+24]](#cite-Talavera2024) F. J. Talavera, C. Bejines, S. Ardanza-Trevijano, et al. “Aggregation of fuzzy graphs”. In: _Int. J. Approx. Reason._ 172 (2024), p. 109243. DOI: [10.1016/J.IJAR.2024.109243](https://doi.org/10.1016%2FJ.IJAR.2024.109243). URL: [https://doi.org/10.1016/j.ijar.2024.109243](https://doi.org/10.1016/j.ijar.2024.109243).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Talavera2024,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco Javier Talavera and Carlos Bejines and Sergio Ardanza-Trevijano and Jorge Elorza},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Approx. Reason.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Aggregation of fuzzy graphs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {109243},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {172},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijar/TalaveraBAE24.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.IJAR.2024.109243},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 09 Dec 2024 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.ijar.2024.109243},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.IJAR.2024.109243" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.IJAR.2024.109243" class="plumx-details" data-site="plum" data-hide-when-empty="true">Aggregation of fuzzy graphs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.IJAR.2024.109243"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2024></a>[[1]](#cite-Cabrera_2024) I. P. Cabrera, S. Ferré, and S. Obiedkov. “Selected papers from the First International Joint Conference on Conceptual Knowledge Structures”. In: _International Journal of Approximate Reasoning_ 175 (Dec. 2024), p. 109303. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109303](https://doi.org/10.1016%2Fj.ijar.2024.109303). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109303](http://dx.doi.org/10.1016/j.ijar.2024.109303).
+

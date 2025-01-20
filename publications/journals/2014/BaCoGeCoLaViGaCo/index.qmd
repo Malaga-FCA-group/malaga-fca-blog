@@ -1,0 +1,125 @@
+---
+title: On basic conditions to generate multi-adjoint concept lattices via Galois connections
+author:
+- Juan Carlos Díaz-Moreno
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2014'
+categories: uncategorised
+slug: 2014/BaCoGeCoLaViGaCo
+details: Int. J. Gen. Syst. vol. 43 (2), pages 149--161.
+doi: 10.1080/03081079.2013.879302
+---
+
+
+
+# Abstract
+
+
+This paper introduces sufficient and necessary conditions with respect to the fuzzy operators considered in a multi-adjoint frame under which the standard combinations of multi-adjoint sufficiency, possibility, and necessity operators form (antitone or isotone) Galois connections. The underlying idea is to study the minimal algebraic requirements so that the concept-forming operators (defined using the same syntactical form than the extension and intension operators of multi-adjoint concept lattices) form a Galois connection. As a consequence, given a relational database, we have much more possibilities to construct concept lattices associated with it, so that we can choose the specific version which better suits the situation.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-DiazMoreno2014></a>[[DMO14]](#cite-DiazMoreno2014) J. C. D\'\iaz-Moreno, J. Medina, and M. Ojeda-Aciego. “On basic conditions to generate multi-adjoint concept lattices via Galois connections”. In: _Int. J. Gen. Syst._ 43.2 (2014), pp. 149-161. DOI: [10.1080/03081079.2013.879302](https://doi.org/10.1080%2F03081079.2013.879302). URL: [https://doi.org/10.1080/03081079.2013.879302](https://doi.org/10.1080/03081079.2013.879302).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{DiazMoreno2014,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Juan Carlos D\'\iaz-Moreno and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Gen. Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On basic conditions to generate multi-adjoint concept lattices via Galois connections},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {149--161},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {43},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijgs/Diaz-MorenoMO14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/03081079.2013.879302},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/03081079.2013.879302},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/03081079.2013.879302" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/03081079.2013.879302" class="plumx-details" data-site="plum" data-hide-when-empty="true">On basic conditions to generate multi-adjoint concept lattices via Galois connections</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/03081079.2013.879302"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2016></a>[[1]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[2]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Antoni_2017></a>[[3]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Arag_n_20211></a>[[4]](#cite-Arag_n_20211) R. G. Aragón, J. Medina, and E. Ramírez-Poussa. “Characterization of the Infimum of Classes Induced by an Attribute Reduction in FCA”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 3_. Springer International Publishing, Aug. 2021, p. 73–79. ISBN: 9783030749705. DOI: [10.1007/978-3-030-74970-5_9](https://doi.org/10.1007%2F978-3-030-74970-5_9). URL: [http://dx.doi.org/10.1007/978-3-030-74970-5_9](http://dx.doi.org/10.1007/978-3-030-74970-5_9).
+
+<a name=bib-Arag_n_2021></a>[[5]](#cite-Arag_n_2021) R. G. Aragón, J. Medina, and E. Ramírez-Poussa. “Identifying Non-Sublattice Equivalence Classes Induced by an Attribute Reduction in FCA”. In: _Mathematics_ 9.5 (Mar. 2021), p. 565. ISSN: 2227-7390. DOI: [10.3390/math9050565](https://doi.org/10.3390%2Fmath9050565). URL: [http://dx.doi.org/10.3390/math9050565](http://dx.doi.org/10.3390/math9050565).
+
+<a name=bib-Atif_2016></a>[[6]](#cite-Atif_2016) J. Atif, I. Bloch, and C. Hudelot. “Some Relationships Between Fuzzy Sets, Mathematical Morphology, Rough Sets, F-Transforms, and Formal Concept Analysis”. In: _International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems_ 24.Suppl. 2 (Dec. 2016), p. 1–32. ISSN: 1793-6411. DOI: [10.1142/s0218488516400080](https://doi.org/10.1142%2Fs0218488516400080). URL: [http://dx.doi.org/10.1142/s0218488516400080](http://dx.doi.org/10.1142/s0218488516400080).
+
+<a name=bib-Cabrera_2020></a>[[7]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Galois Connections Between Unbalanced Structures in a Fuzzy Framework”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2020, p. 736–747. ISBN: 9783030501532. DOI: [10.1007/978-3-030-50153-2_54](https://doi.org/10.1007%2F978-3-030-50153-2_54). URL: [http://dx.doi.org/10.1007/978-3-030-50153-2_54](http://dx.doi.org/10.1007/978-3-030-50153-2_54).
+
+<a name=bib-Cornejo_Pi_ero_2014></a>[[8]](#cite-Cornejo_Pi_ero_2014) M. E. Cornejo Piñero, J. Medina-Moreno, and E. Ramírez-Poussa. “General Negations for Residuated Fuzzy Logics”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 13–22. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_2](https://doi.org/10.1007%2F978-3-319-08644-6_2). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_2](http://dx.doi.org/10.1007/978-3-319-08644-6_2).
+
+<a name=bib-Cornejo_2022></a>[[9]](#cite-Cornejo_2022) M. E. Cornejo, L. Fariñas del Cerro, and J. Medina. “Multi-adjoint lattice logic and truth-stressing hedges”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 43–65. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.03.006](https://doi.org/10.1016%2Fj.fss.2022.03.006). URL: [http://dx.doi.org/10.1016/j.fss.2022.03.006](http://dx.doi.org/10.1016/j.fss.2022.03.006).
+
+<a name=bib-Cornejo_2024></a>[[10]](#cite-Cornejo_2024) M. E. Cornejo, J. Medina, and F. J. Ocaña. “Attribute implications in multi-adjoint concept lattices with hedges”. In: _Fuzzy Sets and Systems_ 479 (Mar. 2024), p. 108854. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108854](https://doi.org/10.1016%2Fj.fss.2023.108854). URL: [http://dx.doi.org/10.1016/j.fss.2023.108854](http://dx.doi.org/10.1016/j.fss.2023.108854).
+
+<a name=bib-Cornejo_2016></a>[[11]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-Cornejo_2014></a>[[12]](#cite-Cornejo_2014) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint Triples and Residuated Aggregators”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2014, p. 345–354. ISBN: 9783319088525. DOI: [10.1007/978-3-319-08852-5_36](https://doi.org/10.1007%2F978-3-319-08852-5_36). URL: [http://dx.doi.org/10.1007/978-3-319-08852-5_36](http://dx.doi.org/10.1007/978-3-319-08852-5_36).
+
+<a name=bib-Cornejo_2021></a>[[13]](#cite-Cornejo_2021) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Algebraic structure and characterization of adjoint triples”. In: _Fuzzy Sets and Systems_ 425 (Nov. 2021), p. 117–139. ISSN: 0165-0114. DOI: [10.1016/j.fss.2021.02.002](https://doi.org/10.1016%2Fj.fss.2021.02.002). URL: [http://dx.doi.org/10.1016/j.fss.2021.02.002](http://dx.doi.org/10.1016/j.fss.2021.02.002).
+
+<a name=bib-Cornejo_2015></a>[[14]](#cite-Cornejo_2015) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Multi-adjoint algebras versus non-commutative residuated structures”. In: _International Journal of Approximate Reasoning_ 66 (Nov. 2015), p. 119–138. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2015.08.003](https://doi.org/10.1016%2Fj.ijar.2015.08.003). URL: [http://dx.doi.org/10.1016/j.ijar.2015.08.003](http://dx.doi.org/10.1016/j.ijar.2015.08.003).
+
+<a name=bib-Cornejo_2023></a>[[15]](#cite-Cornejo_2023) M. E. Cornejo, J. Medina, E. Ramírez-Poussa, et al. “Preferences in discrete multi-adjoint formal concept analysis”. In: _Information Sciences_ 650 (Dec. 2023), p. 119507. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.119507](https://doi.org/10.1016%2Fj.ins.2023.119507). URL: [http://dx.doi.org/10.1016/j.ins.2023.119507](http://dx.doi.org/10.1016/j.ins.2023.119507).
+
+<a name=bib-D_az_Moreno_2016></a>[[16]](#cite-D_az_Moreno_2016) J. C. Díaz-Moreno, J. Medina, and E. Turunen. “Computing the minimal solutions of finite fuzzy relation equations on lineal carriers”. In: _Position Papers of the 2016 Federated Conference on Computer Science and Information Systems_. Vol. 9. FedCSIS 2016. PTI, Oct. 2016, p. 19–23. DOI: [10.15439/2016f564](https://doi.org/10.15439%2F2016f564). URL: [http://dx.doi.org/10.15439/2016f564](http://dx.doi.org/10.15439/2016f564).
+
+<a name=bib-Diaz_2014></a>[[17]](#cite-Diaz_2014) J. C. Diaz, N. Madrid, J. Medina, et al. “New links between mathematical morphology and fuzzy property-oriented concept lattices”. In: _2014 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2014, p. 599–603. DOI: [10.1109/fuzz-ieee.2014.6891882](https://doi.org/10.1109%2Ffuzz-ieee.2014.6891882). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2014.6891882](http://dx.doi.org/10.1109/fuzz-ieee.2014.6891882).
+
+<a name=bib-Eklund_2014></a>[[18]](#cite-Eklund_2014) P. Eklund, M. Á. Galán García, J. Kortelainen, et al. “Monadic Formal Concept Analysis”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 201–210. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_21](https://doi.org/10.1007%2F978-3-319-08644-6_21). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_21](http://dx.doi.org/10.1007/978-3-319-08644-6_21).
+
+<a name=bib-Konecny_2015></a>[[19]](#cite-Konecny_2015) J. Konecny and M. Ojeda-Aciego. “On homogeneousL-bonds and heterogeneousL-bonds”. In: _International Journal of General Systems_ 45.2 (Oct. 2015), p. 160–186. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072926](https://doi.org/10.1080%2F03081079.2015.1072926). URL: [http://dx.doi.org/10.1080/03081079.2015.1072926](http://dx.doi.org/10.1080/03081079.2015.1072926).
+
+<a name=bib-Kridlo_2017></a>[[20]](#cite-Kridlo_2017) O. Kridlo and M. Ojeda-Aciego. “Extending formal concept analysis using intuitionistic l-fuzzy sets”. In: _2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2017, p. 1–6. DOI: [10.1109/fuzz-ieee.2017.8015570](https://doi.org/10.1109%2Ffuzz-ieee.2017.8015570). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570](http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570).
+
+<a name=bib-Lobo_2023></a>[[21]](#cite-Lobo_2023) D. Lobo, V. López-Marchante, and J. Medina. “Approximating Fuzzy Relation Equations Through Concept Lattices”. In: _Formal Concept Analysis_. Springer Nature Switzerland, 2023, p. 3–16. ISBN: 9783031359491. DOI: [10.1007/978-3-031-35949-1_1](https://doi.org/10.1007%2F978-3-031-35949-1_1). URL: [http://dx.doi.org/10.1007/978-3-031-35949-1_1](http://dx.doi.org/10.1007/978-3-031-35949-1_1).
+
+<a name=bib-Madrid_2016></a>[[22]](#cite-Madrid_2016) N. Madrid, J. Medina, M. Ojeda-Aciego, et al. “Toward the Use of Fuzzy Relations in the Definition of Mathematical Morphology Operators”. In: _Journal of Fuzzy Set Valued Analysis_ 2016.1 (2016), p. 87–98. ISSN: 2193-4169. DOI: [10.5899/2016/jfsva-00270](https://doi.org/10.5899%2F2016%2Fjfsva-00270). URL: [http://dx.doi.org/10.5899/2016/jfsva-00270](http://dx.doi.org/10.5899/2016/jfsva-00270).
+
+<a name=bib-Vychodil_2016></a>[[23]](#cite-Vychodil_2016) V. Vychodil. “Parameterizing the Semantics of Fuzzy Attribute Implications by Systems of Isotone Galois Connections”. In: _IEEE Transactions on Fuzzy Systems_ 24.3 (Jun. 2016), p. 645–660. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2015.2470530](https://doi.org/10.1109%2Ftfuzz.2015.2470530). URL: [http://dx.doi.org/10.1109/tfuzz.2015.2470530](http://dx.doi.org/10.1109/tfuzz.2015.2470530).
+

@@ -7,7 +7,7 @@ author:
 - José del Campo-Ávila
 - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
 - Luis Pérez-Urrestarazu
-date: '2025-02-01'
+date: '2024-12-20'
 categories:
 - Data mining
 - Fuzzy logic

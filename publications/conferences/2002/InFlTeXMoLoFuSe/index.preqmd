@@ -1,0 +1,36 @@
+---
+title: Indexed Flows in Temporal x Modal Logic with Functional Semantics
+author:
+- Alfredo Burrieza
+- ipguzman
+- ejmunoz
+date: '2002'
+categories: uncategorised
+slug: 2002/InFlTeXMoLoFuSe
+details: 9th International Symposium on Temporal Representation and Reasoning, TIME-2002,
+  Manchester, UK, July 7-9, 2002 , pages 146--153.
+doi: 10.1109/TIME.2002.1027488
+
+---
+
+
+# Abstract
+
+
+Two classical semantical approaches to studying logics which combine time and modality are the T /spl times/ W-frames and Kamp-frames (Thomason (1984)). In this paper we study a new kind of frame that extends the one introduced in Burrieza et al. (2002). The motivation is twofold: theoretical, i.e., representing properties of the basic theory of functions (definability); and practical, their use in computational applications (considering time-flows as memory of computers connected in a net, each computer with its own clock). Specifically, we present a temporal /spl times/ modal (labelled) logic, whose semantics are given by ind-functional frames in which accessibility functions are used in order to interconnect time-flows. This way, we can: (i) specify to what time-flow we want to go; (ii) carry out different comparisons among worlds with different time measures; and (iii) define properties of certain kinds of functions (in particular, of total, injective, surjective, constant, increasing and decreasing functions), without the need to resort to second-order theories. In addition, we define a minimal axiomatic system and give the completeness theorem (Henkin-style).
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

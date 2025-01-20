@@ -1,0 +1,49 @@
+---
+title: A Tabulation Proof Procedure for Residuated Logic Programming
+author:
+- Carlos Viegas Damásio
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2004'
+categories: uncategorised
+slug: 2004/TaPrPrReLoPr
+details: Proceedings of the 16th Eureopean Conference on Artificial Intelligence,
+  ECAI'2004, including Prestigious Applicants of Intelligent Systems, {PAIS} 2004,
+  Valencia, Spain, August 22-27, 2004 , pages 808--812.
+---
+
+
+
+# Abstract
+
+
+Residuated Logic Programs allow to capture a spate of different semantics dealing with uncertainty and vagueness. In this work we provide a tabulation goal-oriented query procedure, and show that our tabulation query procedure terminates if and only if the sequence of iterations of the immediate consequences operator reaches the least fixpoint after only finitely-many steps. On the basis of this result we show that the tabulation procedure terminates for important classes of residuated logic programs, in particular for probabilistic deductive databases of Lakshmanan and Sadri.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Damasio2004></a>[[DMO04]](#cite-Damasio2004) C. V. Damásio, J. Medina, and M. Ojeda-Aciego. “A Tabulation Proof Procedure for Residuated Logic Programming”. In: _Proceedings of the 16th Eureopean Conference on Artificial Intelligence, ECAI'2004, including Prestigious Applicants of Intelligent Systems, PAIS 2004, Valencia, Spain, August 22-27, 2004_. Ed. by R. L. de Mántaras and L. Saitta. IOS Press, 2004, pp. 808-812.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Damasio2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Viegas Dam{\a'a}sio and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 16th Eureopean Conference on Artificial Intelligence, ECAI'2004, including Prestigious Applicants of Intelligent Systems, {PAIS} 2004, Valencia, Spain, August 22-27, 2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Tabulation Proof Procedure for Residuated Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ram{\a'o}n L{\a'o}pez {de M{\a'a}ntaras} and Lorenza Saitta},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {808--812},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IOS} Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Residuated Logic Programs allow to capture a spate of different semantics dealing with uncertainty and vagueness. In this work we provide a tabulation goal-oriented query procedure, and show that our tabulation query procedure terminates if and only if the sequence of iterations of the immediate consequences operator reaches the least fixpoint after only finitely-many steps. On the basis of this result we show that the tabulation procedure terminates for important classes of residuated logic programs, in particular for probabilistic deductive databases of Lakshmanan and Sadri.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ecai/DamasioMO04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>}
+
+:::
+
+
+
+
+
+
+
+

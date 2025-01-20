@@ -1,0 +1,55 @@
+---
+title: A temporal negative normal form which preserves implicants and implicates
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+date: '2000'
+categories: uncategorised
+slug: 2000/TeNeNoFoPrImIm
+details: J. Appl. Non Class. Logics vol. 10 (3-4), pages 243--272.
+doi: 10.1080/11663081.2000.10510999
+---
+
+
+
+# Abstract
+
+
+ABSTRACT Most theorem provers for Classical Logic transform the input formula into a particular normal form. This tranformation is done before the execution of the algorithm (Resolution and Dissolution) or it is integrated into the deductive algorithm (Tableaux). This situation is no different for Non-Classical Logics and, particularly, for Temporal Logics ([Fis91], [Fis97], [MP95], [Wol85]). However, unlike classical logic, temporal logic does not provide an extension of the notion of non negative normal form. In this work, we define a temporal negative normal form for the future fragment of the linear time propositional temporal logic, named FNext. The definition saves as much information as possible about implicants and implicates of the input formula and its subformulas. This property is the novelty of this normal form; for example, in [Fis97] the normal form is guided by the separation property and in [Ven86] the normal form provided prepares the input formula to be treated by a resolution method. Moreover, we also introduce an algorithm having linear cost, which transforms the input formula into a temporal negative normal form. Furthermore, in this work we present a new structure and a set of operators over it that allows us to efficiently manage the information about unitary implicants and implicates contained in the subformulae.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman2000></a>[[GEC00]](#cite-Guzman2000) I. P. de Guzmán, M. Enciso, and P. Cordero. “A temporal negative normal form which preserves implicants and implicates”. In: _J. Appl. Non Class. Logics_ 10.3-4 (2000), pp. 243-272. DOI: [10.1080/11663081.2000.10510999](https://doi.org/10.1080%2F11663081.2000.10510999). URL: [https://doi.org/10.1080/11663081.2000.10510999](https://doi.org/10.1080/11663081.2000.10510999).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Guzman2000,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Enciso and Pablo Cordero},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {J. Appl. Non Class. Logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A temporal negative normal form which preserves implicants and implicates},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2000},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {243--272},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {10},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/jancl/GuzmanEC00.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/11663081.2000.10510999},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 25 Apr 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/11663081.2000.10510999},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2004></a>[[1]](#cite-Cordero_2004) P. Cordero, G. Gutiérrez, J. Martínez, et al. “A New Algebraic Tool for Automatic Theorem Provers”. In: _Annals of Mathematics and Artificial Intelligence_ 42.4 (Dec. 2004), p. 369–398. ISSN: 1012-2443. DOI: [10.1023/b:amai.0000038312.77514.3c](https://doi.org/10.1023%2Fb%3Aamai.0000038312.77514.3c). URL: [http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c](http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c).
+
+<a name=bib-Enciso_2007></a>[[2]](#cite-Enciso_2007) M. Enciso, I. P. del Guzman, and C. Rossi. “Una forma normal temporal independiente del método de deducción”. In: _INTELIGENCIA ARTIFICIAL_ 8.23 (Sep. 2007). ISSN: 1137-3601. DOI: [10.4114/ia.v8i23.790](https://doi.org/10.4114%2Fia.v8i23.790). URL: [http://dx.doi.org/10.4114/ia.v8i23.790](http://dx.doi.org/10.4114/ia.v8i23.790).
+

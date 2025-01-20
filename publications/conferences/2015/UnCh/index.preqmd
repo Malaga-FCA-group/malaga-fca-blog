@@ -1,0 +1,36 @@
+---
+title: Undecidability of Chop
+author:
+- Angelo Montanari
+- ejmunoz
+- Guido Sciavicco
+date: '2015'
+categories: uncategorised
+slug: 2015/UnCh
+details: 22nd International Symposium on Temporal Representation and Reasoning, {TIME}
+  2015, Kassel, Germany, September 23-25, 2015 , pages 79--89.
+doi: 10.1109/TIME.2015.25
+
+---
+
+
+# Abstract
+
+
+The chop operator C is a binary modality that plays an important role in interval temporal logics. Such an operator, which is not definable in Halpern and Shoham's modal logic of time intervals HS, allows one to split an interval into two parts and to specify what is true over them. C appears both in Moszkowski's PITL (that pairs it with a modal constant Pi which is true on all and only the intervals with coincident endpoints) and in Venema's CDT (that also features the binary modalities D and T, and Pi). Without the so-called locality principle, which restricts the semantics of proposition letters, the satisfiability problem for both PITL and CDT turns out to be undecidable over all meaningful classes of linear orders. The problem has been shown to be undecidable also for the fragment C, that is, PITL without Pi, over infinite linear orders. In this paper, we prove that the same holds for C over finite linear orders. To this end, we exploit the close relation between C and the reflexive version of the HS fragment BE, whose modalities correspond to Allen's relations starts and finishes: we prove that the satisfiability problem for reflexive BE is undecidable, undecidability of the same problem for C comes as a corollary.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

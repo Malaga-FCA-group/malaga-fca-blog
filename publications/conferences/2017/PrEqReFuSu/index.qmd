@@ -1,0 +1,94 @@
+---
+title: On the Preservation of an Equivalence Relation Between Fuzzy Subgroups
+author:
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+- María Jesús Chasco
+- Jorge Elorza
+- Susana Montes
+date: '2017'
+categories: uncategorised
+slug: 2017/PrEqReFuSu
+details: 'Advances in Fuzzy Logic and Technology 2017 - Proceedings of: {EUSFLAT-2017}
+  - The 10th Conference of the European Society for Fuzzy Logic and Technology, September
+  11-15, 2017, Warsaw, Poland IWIFSGN''2017 - The Sixteenth International Workshop
+  on Intuitionistic Fuzzy Sets and Generalized Nets, September 13-15, 2017, Warsaw,
+  Poland, Volume 1 , Advances in Intelligent Systems and Computing vol. 641, pages
+  159--167.'
+doi: 10.1007/978-3-319-66830-7_15
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bejines2017a></a>[[Bej+17]](#cite-Bejines2017a) C. Bejines, M. Chasco, J. Elorza, et al. “On the Preservation of an Equivalence Relation Between Fuzzy Subgroups”. In: _Advances in Fuzzy Logic and Technology 2017 - Proceedings of: EUSFLAT-2017 - The 10th Conference of the European Society for Fuzzy Logic and Technology, September 11-15, 2017, Warsaw, Poland IWIFSGN'2017 - The Sixteenth International Workshop on Intuitionistic Fuzzy Sets and Generalized Nets, September 13-15, 2017, Warsaw, Poland, Volume 1_. Ed. by J. Kacprzyk, E. Szmidt, S. Zadrozny, K. T. Atanassov and M. Krawczak. Vol. 641. Advances in Intelligent Systems and Computing. Springer, 2017, pp. 159-167. DOI: [10.1007/978-3-319-66830-7\_15](https://doi.org/10.1007%2F978-3-319-66830-7%5C_15). URL: [https://doi.org/10.1007/978-3-319-66830-7\_15](https://doi.org/10.1007/978-3-319-66830-7\_15).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Bejines2017a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Bejines and Mar\'\ia Jes{\a'u}s Chasco and Jorge Elorza and Susana Montes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Fuzzy Logic and Technology 2017 - Proceedings of: {EUSFLAT-2017} - The 10th Conference of the European Society for Fuzzy Logic and Technology, September 11-15, 2017, Warsaw, Poland IWIFSGN'2017 - The Sixteenth International Workshop on Intuitionistic Fuzzy Sets and Generalized Nets, September 13-15, 2017, Warsaw, Poland, Volume 1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the Preservation of an Equivalence Relation Between Fuzzy Subgroups},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Janusz Kacprzyk and Eulalia Szmidt and Slawomir Zadrozny and Krassimir T. Atanassov and Maciej Krawczak},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {159--167},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Advances in Intelligent Systems and Computing},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {641},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/BejinesCEM17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-66830-7\_15},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 09 Apr 2021 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-66830-7\_15},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-66830-7_15" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-66830-7_15" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the Preservation of an Equivalence Relation Between Fuzzy Subgroups</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-66830-7_15"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Abdurrahman_2019></a>[[1]](#cite-Abdurrahman_2019) S. Abdurrahman. “Image (Pre-image) Homomorfisme Interior Subgrup Fuzzy”. In: _Jurnal Fourier_ 8.1 (Apr. 2019), p. 15–18. ISSN: 2252-763X. DOI: [10.14421/fourier.2019.81.15-18](https://doi.org/10.14421%2Ffourier.2019.81.15-18). URL: [http://dx.doi.org/10.14421/fourier.2019.81.15-18](http://dx.doi.org/10.14421/fourier.2019.81.15-18).
+
+<a name=bib-Bejines_2018></a>[[2]](#cite-Bejines_2018) C. Bejines, M. J. Chasco, J. Elorza, et al. “Equivalence Relations on Fuzzy Subgroups”. In: _Advances in Artificial Intelligence_. Springer International Publishing, 2018, p. 143–153. ISBN: 9783030003746. DOI: [10.1007/978-3-030-00374-6_14](https://doi.org/10.1007%2F978-3-030-00374-6_14). URL: [http://dx.doi.org/10.1007/978-3-030-00374-6_14](http://dx.doi.org/10.1007/978-3-030-00374-6_14).
+
+<a name=bib-Bejines_2021></a>[[3]](#cite-Bejines_2021) C. Bejines, M. Chasco, and J. Elorza. “Aggregation of fuzzy subgroups”. In: _Fuzzy Sets and Systems_ 418 (Aug. 2021), p. 170–184. ISSN: 0165-0114. DOI: [10.1016/j.fss.2020.05.017](https://doi.org/10.1016%2Fj.fss.2020.05.017). URL: [http://dx.doi.org/10.1016/j.fss.2020.05.017](http://dx.doi.org/10.1016/j.fss.2020.05.017).
+
+<a name=bib-Kamali_Ardekani_2022></a>[[4]](#cite-Kamali_Ardekani_2022) L. Kamali Ardekani and B. Davvaz. “On the Subgroups Lattice and Fuzzy Subgroups of Finite GroupsU6n”. In: _Fuzzy Information and Engineering_ 14.2 (Apr. 2022), p. 152–166. ISSN: 1616-8666. DOI: [10.1080/16168658.2022.2119828](https://doi.org/10.1080%2F16168658.2022.2119828). URL: [http://dx.doi.org/10.1080/16168658.2022.2119828](http://dx.doi.org/10.1080/16168658.2022.2119828).
+
+<a name=bib-Kamali_2019></a>[[5]](#cite-Kamali_2019) A. Kamali. “Counting fuzzy subgroups of some finite groups by a new equivalence relation”. In: _Filomat_ 33.19 (2019), p. 6151–6160. ISSN: 2406-0933. DOI: [10.2298/fil1919151k](https://doi.org/10.2298%2Ffil1919151k). URL: [http://dx.doi.org/10.2298/fil1919151k](http://dx.doi.org/10.2298/fil1919151k).
+

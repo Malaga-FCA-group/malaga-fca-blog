@@ -1,0 +1,34 @@
+---
+title: On the existence and unicity of stable models in normal residuated logic programs
+author:
+- Nicolás Madrid
+- aciego
+date: '2012'
+categories: uncategorised
+slug: 2012/ExUnStMoNoReLoPr
+details: Int. J. Comput. Math. vol. 89 (3), pages 310--324.
+doi: 10.1080/00207160.2011.580842
+
+---
+
+
+# Abstract
+
+
+We introduce a sufficient condition which guarantees the existence of stable models for a normal residuated logic program interpreted on the truth-space [0, 1] n . Specifically, the continuity of the connectives involved in the program ensures the existence of stable models. Then, we study conditions which guarantee the uniqueness of stable models in the particular case of the product t-norm, its residuated implication and the standard negation.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

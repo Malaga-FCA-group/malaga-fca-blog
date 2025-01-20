@@ -1,0 +1,40 @@
+---
+title: The Direct-optimal Basis via Reductions
+author:
+- Estrella Rodríguez Lorenzo
+- Karell Bertet
+- pcordero
+- enciso
+- amora
+date: '2014'
+categories: uncategorised
+slug: 2014/BaViRe
+details: Proceedings of the Eleventh International Conference on Concept Lattices
+  and Their Applications, Ko{\v{s}}ice, Slovakia, October 7-10, 2014 , {CEUR} Workshop
+  Proceedings vol. 1252, pages 145--156.
+doi: []
+
+---
+
+
+# Abstract
+
+
+Formal Concept Analysis has become a real approach in the trend Information-Knowledge-Wisdom. It turns around the mining of a
+data set to built a concept lattice which provides an strong structure of the knowledge. Implications play the role of an alternative specification of this concept lattice and may be managed by means of inference rules. This syntactic treatment is guided by several properties like directness, minimality, optimality, etc. In this work, we propose a method to calculate the direct-optimal basis  equivalent to a given Implicational System. Our method deals with unitary and non-unitary implications. Moreover, it shows a better performance that previous methods in the literature by means of the use of Simplification Logic and reduction paradigm, which remains narrow implications in any stage of the process. We have also developed an empirical study to compare our method with previous approaches in the literature.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

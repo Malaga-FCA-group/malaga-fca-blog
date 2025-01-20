@@ -1,0 +1,85 @@
+---
+title: A Fixed-Point Theorem for Multi-valued Functions with an Application to Multilattice-Based
+  Logic Programming
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Jorge Ruiz-Calvi~no
+date: '2007'
+categories: uncategorised
+slug: 2007/ThFuApLoPr
+details: Applications of Fuzzy Sets Theory, 7th International Workshop on Fuzzy Logic
+  and Applications, {WILF} 2007, Camogli, Italy, July 7-10, 2007, Proceedings , Lecture
+  Notes in Computer Science vol. 4578, pages 37--44.
+doi: 10.1007/978-3-540-73400-0_5
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2007d></a>[[MOR07]](#cite-Medina2007d) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calvi~no. “A Fixed-Point Theorem for Multi-valued Functions with an Application to Multilattice-Based Logic Programming”. In: _Applications of Fuzzy Sets Theory, 7th International Workshop on Fuzzy Logic and Applications, WILF 2007, Camogli, Italy, July 7-10, 2007, Proceedings_. Ed. by F. Masulli, S. Mitra and G. Pasi. Vol. 4578. Lecture Notes in Computer Science. Springer, 2007, pp. 37-44. DOI: [10.1007/978-3-540-73400-0\_5](https://doi.org/10.1007%2F978-3-540-73400-0%5C_5). URL: [https://doi.org/10.1007/978-3-540-73400-0\_5](https://doi.org/10.1007/978-3-540-73400-0\_5).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2007d,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jorge Ruiz-Calvi~no},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Applications of Fuzzy Sets Theory, 7th International Workshop on Fuzzy Logic and Applications, {WILF} 2007, Camogli, Italy, July 7-10, 2007, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Fixed-Point Theorem for Multi-valued Functions with an Application to Multilattice-Based Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francesco Masulli and Sushmita Mitra and Gabriella Pasi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {37--44},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4578},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/wilf/MedinaOR07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-73400-0\_5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 06 Oct 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-73400-0\_5},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-540-73400-0_5" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-540-73400-0_5" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Fixed-Point Theorem for Multi-valued Functions with an Application to Multilattice-Based Logic Programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-540-73400-0_5"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Moreno_2014></a>[[1]](#cite-Moreno_2014) G. Moreno, J. Penabad, and C. Vázquez. “Beyond multi-adjoint logic programming”. In: _International Journal of Computer Mathematics_ 92.9 (Nov. 2014), p. 1956–1975. ISSN: 1029-0265. DOI: [10.1080/00207160.2014.975218](https://doi.org/10.1080%2F00207160.2014.975218). URL: [http://dx.doi.org/10.1080/00207160.2014.975218](http://dx.doi.org/10.1080/00207160.2014.975218).
+
+<a name=bib-Romaguera_2011></a>[[2]](#cite-Romaguera_2011) S. Romaguera, M. P. Schellekens, and O. Valero. “The complexity space of partial functions: a connection between complexity analysis and denotational semantics”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1819–1829. ISSN: 1029-0265. DOI: [10.1080/00207161003631885](https://doi.org/10.1080%2F00207161003631885). URL: [http://dx.doi.org/10.1080/00207161003631885](http://dx.doi.org/10.1080/00207161003631885).
+

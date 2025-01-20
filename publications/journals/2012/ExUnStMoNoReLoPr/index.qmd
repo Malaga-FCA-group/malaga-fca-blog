@@ -1,0 +1,122 @@
+---
+title: On the existence and unicity of stable models in normal residuated logic programs
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/ExUnStMoNoReLoPr
+details: Int. J. Comput. Math. vol. 89 (3), pages 310--324.
+doi: 10.1080/00207160.2011.580842
+---
+
+
+
+# Abstract
+
+
+We introduce a sufficient condition which guarantees the existence of stable models for a normal residuated logic program interpreted on the truth-space [0, 1] n . Specifically, the continuity of the connectives involved in the program ensures the existence of stable models. Then, we study conditions which guarantee the uniqueness of stable models in the particular case of the product t-norm, its residuated implication and the standard negation.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2012></a>[[MO12]](#cite-Madrid2012) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _Int. J. Comput. Math._ 89.3 (2012), pp. 310-324. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [https://doi.org/10.1080/00207160.2011.580842](https://doi.org/10.1080/00207160.2011.580842).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the existence and unicity of stable models in normal residuated logic programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {310--324},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {89},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/MadridO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160.2011.580842},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160.2011.580842},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160.2011.580842" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160.2011.580842" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the existence and unicity of stable models in normal residuated logic programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160.2011.580842"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Blondeel_2014></a>[[1]](#cite-Blondeel_2014) M. Blondeel, S. Schockaert, D. Vermeir, et al. “Complexity of fuzzy answer set programming under Łukasiewicz semantics”. In: _International Journal of Approximate Reasoning_ 55.9 (Dec. 2014), p. 1971–2003. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2013.10.011](https://doi.org/10.1016%2Fj.ijar.2013.10.011). URL: [http://dx.doi.org/10.1016/j.ijar.2013.10.011](http://dx.doi.org/10.1016/j.ijar.2013.10.011).
+
+<a name=bib-Cornejo_2018></a>[[2]](#cite-Cornejo_2018) M. E. Cornejo, D. Lobo, and J. Medina. “Characterizing Fuzzy y-Models in Multi-adjoint Normal Logic Programming”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Applications_. Springer International Publishing, 2018, p. 541–552. ISBN: 9783319914794. DOI: [10.1007/978-3-319-91479-4_45](https://doi.org/10.1007%2F978-3-319-91479-4_45). URL: [http://dx.doi.org/10.1007/978-3-319-91479-4_45](http://dx.doi.org/10.1007/978-3-319-91479-4_45).
+
+<a name=bib-Cornejo_20201></a>[[3]](#cite-Cornejo_20201) M. E. Cornejo, D. Lobo, and J. Medina. “Extended multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 388 (Jun. 2020), p. 124–145. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.016](https://doi.org/10.1016%2Fj.fss.2019.03.016). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.016](http://dx.doi.org/10.1016/j.fss.2019.03.016).
+
+<a name=bib-Cornejo_2017></a>[[4]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Measuring the Incoherent Information in Multi-adjoint Normal Logic Programs”. In: _Advances in Fuzzy Logic and Technology 2017_. Springer International Publishing, Sep. 2017, p. 521–533. ISBN: 9783319668307. DOI: [10.1007/978-3-319-66830-7_47](https://doi.org/10.1007%2F978-3-319-66830-7_47). URL: [http://dx.doi.org/10.1007/978-3-319-66830-7_47](http://dx.doi.org/10.1007/978-3-319-66830-7_47).
+
+<a name=bib-Cornejo_2020></a>[[5]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Relating Multi-Adjoint Normal Logic Programs to Core Fuzzy Answer Set Programs from a Semantical Approach”. In: _Mathematics_ 8.6 (Jun. 2020), p. 881. ISSN: 2227-7390. DOI: [10.3390/math8060881](https://doi.org/10.3390%2Fmath8060881). URL: [http://dx.doi.org/10.3390/math8060881](http://dx.doi.org/10.3390/math8060881).
+
+<a name=bib-Cornejo_2024></a>[[6]](#cite-Cornejo_2024) M. E. Cornejo, D. Lobo, and J. Medina. “Stratified extended multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 492 (Sep. 2024), p. 109064. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109064](https://doi.org/10.1016%2Fj.fss.2024.109064). URL: [http://dx.doi.org/10.1016/j.fss.2024.109064](http://dx.doi.org/10.1016/j.fss.2024.109064).
+
+<a name=bib-Cornejo_20181></a>[[7]](#cite-Cornejo_20181) M. E. Cornejo, D. Lobo, and J. Medina. “Syntax and semantics of multi-adjoint normal logic programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 41–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.12.009](https://doi.org/10.1016%2Fj.fss.2017.12.009). URL: [http://dx.doi.org/10.1016/j.fss.2017.12.009](http://dx.doi.org/10.1016/j.fss.2017.12.009).
+
+<a name=bib-Cornejo_2016></a>[[8]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-D_az_Moreno_2022></a>[[9]](#cite-D_az_Moreno_2022) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Fuzzy logic programs as hypergraphs. Termination results”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 22–42. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.02.001](https://doi.org/10.1016%2Fj.fss.2022.02.001). URL: [http://dx.doi.org/10.1016/j.fss.2022.02.001](http://dx.doi.org/10.1016/j.fss.2022.02.001).
+
+<a name=bib-D_az_Moreno_2023></a>[[10]](#cite-D_az_Moreno_2023) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Hypergraphs in Logic Programming”. In: _Symbolic and Quantitative Approaches to Reasoning with Uncertainty_. Springer Nature Switzerland, Nov. 2023, p. 442–452. ISBN: 9783031456084. DOI: [10.1007/978-3-031-45608-4_33](https://doi.org/10.1007%2F978-3-031-45608-4_33). URL: [http://dx.doi.org/10.1007/978-3-031-45608-4_33](http://dx.doi.org/10.1007/978-3-031-45608-4_33).
+
+<a name=bib-JANSSEN_2011></a>[[11]](#cite-JANSSEN_2011) J. JANSSEN, D. VERMEIR, S. SCHOCKAERT, et al. “Reducing fuzzy answer set programming to model finding in fuzzy logics”. In: _Theory and Practice of Logic Programming_ 12.6 (Jun. 2011), p. 811–842. ISSN: 1475-3081. DOI: [10.1017/s1471068411000093](https://doi.org/10.1017%2Fs1471068411000093). URL: [http://dx.doi.org/10.1017/s1471068411000093](http://dx.doi.org/10.1017/s1471068411000093).
+
+<a name=bib-Le_2022></a>[[12]](#cite-Le_2022) V. H. Le. “Extending Fuzzy Linguistic Logic Programming with Negation †”. In: _Mathematics_ 10.17 (Aug. 2022), p. 3105. ISSN: 2227-7390. DOI: [10.3390/math10173105](https://doi.org/10.3390%2Fmath10173105). URL: [http://dx.doi.org/10.3390/math10173105](http://dx.doi.org/10.3390/math10173105).
+
+<a name=bib-Le_2019></a>[[13]](#cite-Le_2019) V. H. Le. “The Stable Model Semantics of Normal Fuzzy Linguistic Logic Programs”. In: _Computational Collective Intelligence_. Springer International Publishing, 2019, p. 53–65. ISBN: 9783030283773. DOI: [10.1007/978-3-030-28377-3_5](https://doi.org/10.1007%2F978-3-030-28377-3_5). URL: [http://dx.doi.org/10.1007/978-3-030-28377-3_5](http://dx.doi.org/10.1007/978-3-030-28377-3_5).
+
+<a name=bib-Lobo_2019></a>[[14]](#cite-Lobo_2019) D. Lobo, M. E. Cornejo Piñero, and J. Medina. “Abductive reasoning in normal residuated logic programming via bipolar max-product fuzzy relation equations”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.81](https://doi.org/10.2991%2Feusflat-19.2019.81). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.81](http://dx.doi.org/10.2991/eusflat-19.2019.81).
+
+<a name=bib-Madrid_2017></a>[[15]](#cite-Madrid_2017) N. Madrid. “A sufficient condition to guarantee the existence of fuzzy stable models on residuated logic programming with constrains”. In: _2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2017, p. 1–6. DOI: [10.1109/fuzz-ieee.2017.8015741](https://doi.org/10.1109%2Ffuzz-ieee.2017.8015741). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2017.8015741](http://dx.doi.org/10.1109/fuzz-ieee.2017.8015741).
+
+<a name=bib-Madrid_2020></a>[[16]](#cite-Madrid_2020) N. Madrid, J. Medina, and E. Ramírez-Poussa. “Rough sets based on Galois connections”. In: _International Journal of Applied Mathematics and Computer Science_ 30.2 (2020). ISSN: 2083-8492. DOI: [10.34768/amcs-2020-0023](https://doi.org/10.34768%2Famcs-2020-0023). URL: [http://dx.doi.org/10.34768/amcs-2020-0023](http://dx.doi.org/10.34768/amcs-2020-0023).
+
+<a name=bib-Madrid_20171></a>[[17]](#cite-Madrid_20171) N. Madrid and M. Ojeda-Aciego. “Modelling fuzzy partitions with fuzzy answer sets”. In: _2017 IEEE Symposium Series on Computational Intelligence (SSCI)_. IEEE, Nov. 2017, p. 1–8. DOI: [10.1109/ssci.2017.8285308](https://doi.org/10.1109%2Fssci.2017.8285308). URL: [http://dx.doi.org/10.1109/ssci.2017.8285308](http://dx.doi.org/10.1109/ssci.2017.8285308).
+
+<a name=bib-Madrid_20211></a>[[18]](#cite-Madrid_20211) N. Madrid and M. Ojeda-Aciego. “Multi-adjoint lattices from adjoint triples with involutive negation”. In: _Fuzzy Sets and Systems_ 405 (Feb. 2021), p. 88–105. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.12.004](https://doi.org/10.1016%2Fj.fss.2019.12.004). URL: [http://dx.doi.org/10.1016/j.fss.2019.12.004](http://dx.doi.org/10.1016/j.fss.2019.12.004).
+
+<a name=bib-Madrid_2011></a>[[19]](#cite-Madrid_2011) N. Madrid and M. Ojeda-Aciego. “On the use of fuzzy stable models for inconsistent classical logic programs”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 115–121. DOI: [10.1109/foci.2011.5949476](https://doi.org/10.1109%2Ffoci.2011.5949476). URL: [http://dx.doi.org/10.1109/foci.2011.5949476](http://dx.doi.org/10.1109/foci.2011.5949476).
+
+<a name=bib-Madrid_2023></a>[[20]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Madrid_2021></a>[[21]](#cite-Madrid_2021) N. Madrid and M. Ojeda‐Aciego. “A measure of consistency for fuzzy logic theories”. In: _Mathematical Methods in the Applied Sciences_ 46.15 (May. 2021), p. 15982–15995. ISSN: 1099-1476. DOI: [10.1002/mma.7470](https://doi.org/10.1002%2Fmma.7470). URL: [http://dx.doi.org/10.1002/mma.7470](http://dx.doi.org/10.1002/mma.7470).
+
+<a name=bib-Vigo_Aguiar_2012></a>[[22]](#cite-Vigo_Aguiar_2012) J. Vigo-Aguiar, J. C. Reboredo, and H. R. Calle. “Topics of contemporary computational mathematics”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 265–267. ISSN: 1029-0265. DOI: [10.1080/00207160.2012.649131](https://doi.org/10.1080%2F00207160.2012.649131). URL: [http://dx.doi.org/10.1080/00207160.2012.649131](http://dx.doi.org/10.1080/00207160.2012.649131).
+

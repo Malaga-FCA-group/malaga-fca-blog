@@ -1,0 +1,113 @@
+---
+title: A New Algebraic Tool for Automatic Theorem Provers
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Gloria Gutiérrez
+- Javier Martínez
+- Inmaculada Perez de Guzmán
+date: '2004'
+categories: uncategorised
+slug: 2004/NeAlToAuThPr
+details: Ann. Math. Artif. Intell. vol. 42 (4), pages 369--398.
+doi: 10.1023/B:AMAI.0000038312.77514.3C
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2004></a>[[Cor+04]](#cite-Cordero2004) P. Cordero, G. Gutiérrez, J. Mart\'\inez, et al. “A New Algebraic Tool for Automatic Theorem Provers”. In: _Ann. Math. Artif. Intell._ 42.4 (2004), pp. 369-398. DOI: [10.1023/B:AMAI.0000038312.77514.3C](https://doi.org/10.1023%2FB%3AAMAI.0000038312.77514.3C). URL: [https://doi.org/10.1023/B:AMAI.0000038312.77514.3c](https://doi.org/10.1023/B:AMAI.0000038312.77514.3c).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cordero2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Gloria Guti{\a'e}rrez and Javier Mart\'\inez and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Ann. Math. Artif. Intell.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A New Algebraic Tool for Automatic Theorem Provers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {369--398},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {42},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/amai/CorderoGMG04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1023/B:AMAI.0000038312.77514.3C},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1023/B:AMAI.0000038312.77514.3c},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1023/B:AMAI.0000038312.77514.3C" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1023/B:AMAI.0000038312.77514.3C" class="plumx-details" data-site="plum" data-hide-when-empty="true">A New Algebraic Tool for Automatic Theorem Provers</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1023/B:AMAI.0000038312.77514.3C"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2009></a>[[1]](#cite-Cabrera_2009) I. P. Cabrera, P. Cordero, G. Gutiérrez, et al. “Congruence relations on some hyperstructures”. In: _Annals of Mathematics and Artificial Intelligence_ 56.3–4 (Jul. 2009), p. 361–370. ISSN: 1573-7470. DOI: [10.1007/s10472-009-9146-5](https://doi.org/10.1007%2Fs10472-009-9146-5). URL: [http://dx.doi.org/10.1007/s10472-009-9146-5](http://dx.doi.org/10.1007/s10472-009-9146-5).
+
+<a name=bib-Cabrera_2011></a>[[2]](#cite-Cabrera_2011) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Non-deterministic Algebraic Structures for Soft Computing”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 437–444. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_55](https://doi.org/10.1007%2F978-3-642-21498-1_55). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_55](http://dx.doi.org/10.1007/978-3-642-21498-1_55).
+
+<a name=bib-Cabrera_2010></a>[[3]](#cite-Cabrera_2010) I. Cabrera, P. Cordero, G. Gutiérrez, et al. “A coalgebraic approach to non-determinism: Applications to multilattices”. In: _Information Sciences_ 180.22 (Nov. 2010), p. 4323–4335. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.002](https://doi.org/10.1016%2Fj.ins.2010.07.002). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.002](http://dx.doi.org/10.1016/j.ins.2010.07.002).
+
+<a name=bib-Cabrera_2012></a>[[4]](#cite-Cabrera_2012) I. Cabrera, P. Cordero, G. Gutiérrez, et al. “Finitary coalgebraic multisemilattices and multilattices”. In: _Applied Mathematics and Computation_ 219.1 (Sep. 2012), p. 31–44. ISSN: 0096-3003. DOI: [10.1016/j.amc.2011.10.081](https://doi.org/10.1016%2Fj.amc.2011.10.081). URL: [http://dx.doi.org/10.1016/j.amc.2011.10.081](http://dx.doi.org/10.1016/j.amc.2011.10.081).
+
+<a name=bib-Cordero_2008></a>[[5]](#cite-Cordero_2008) P. Cordero, A. Mora, I. de Guzmán, et al. “Non-deterministic ideal operators: An adequate tool for formalization in Data Bases”. In: _Discrete Applied Mathematics_ 156.6 (Mar. 2008), p. 911–923. ISSN: 0166-218X. DOI: [10.1016/j.dam.2007.02.014](https://doi.org/10.1016%2Fj.dam.2007.02.014). URL: [http://dx.doi.org/10.1016/j.dam.2007.02.014](http://dx.doi.org/10.1016/j.dam.2007.02.014).
+
+<a name=bib-Cornejo_2014></a>[[6]](#cite-Cornejo_2014) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint Triples and Residuated Aggregators”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2014, p. 345–354. ISBN: 9783319088525. DOI: [10.1007/978-3-319-08852-5_36](https://doi.org/10.1007%2F978-3-319-08852-5_36). URL: [http://dx.doi.org/10.1007/978-3-319-08852-5_36](http://dx.doi.org/10.1007/978-3-319-08852-5_36).
+
+<a name=bib-Cornejo_2015></a>[[7]](#cite-Cornejo_2015) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Multi-adjoint algebras versus non-commutative residuated structures”. In: _International Journal of Approximate Reasoning_ 66 (Nov. 2015), p. 119–138. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2015.08.003](https://doi.org/10.1016%2Fj.ijar.2015.08.003). URL: [http://dx.doi.org/10.1016/j.ijar.2015.08.003](http://dx.doi.org/10.1016/j.ijar.2015.08.003).
+
+<a name=bib-D_az_2013></a>[[8]](#cite-D_az_2013) J. C. Díaz and J. Medina. “Multi-adjoint relation equations: Definition, properties and solutions using concept lattices”. In: _Information Sciences_ 253 (Dec. 2013), p. 100–109. ISSN: 0020-0255. DOI: [10.1016/j.ins.2013.07.024](https://doi.org/10.1016%2Fj.ins.2013.07.024). URL: [http://dx.doi.org/10.1016/j.ins.2013.07.024](http://dx.doi.org/10.1016/j.ins.2013.07.024).
+
+<a name=bib-Inoue_2018></a>[[9]](#cite-Inoue_2018) K. Inoue, N. V. Do, V. T. Pham, et al. “Solving problems on a knowledge model of operators and application”. In: _International Journal of Digital Enterprise Technology_ 1.1/2 (2018), p. 37. ISSN: 1756-2562. DOI: [10.1504/ijdet.2018.10013744](https://doi.org/10.1504%2Fijdet.2018.10013744). URL: [http://dx.doi.org/10.1504/ijdet.2018.10013744](http://dx.doi.org/10.1504/ijdet.2018.10013744).
+
+<a name=bib-Mart_nez_2005></a>[[10]](#cite-Mart_nez_2005) J. Martínez, G. Gutiérrez, I. de Guzmán, et al. “Generalizations of lattices via non-deterministic operators”. In: _Discrete Mathematics_ 295.1–3 (May. 2005), p. 107–141. ISSN: 0012-365X. DOI: [10.1016/j.disc.2004.08.043](https://doi.org/10.1016%2Fj.disc.2004.08.043). URL: [http://dx.doi.org/10.1016/j.disc.2004.08.043](http://dx.doi.org/10.1016/j.disc.2004.08.043).
+
+<a name=bib-Medina_Moreno_2013></a>[[11]](#cite-Medina_Moreno_2013) J. Medina-Moreno, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Concept-Forming Operators on Multilattices”. In: _Formal Concept Analysis_. Springer Berlin Heidelberg, 2013, p. 203–215. ISBN: 9783642383175. DOI: [10.1007/978-3-642-38317-5_13](https://doi.org/10.1007%2F978-3-642-38317-5_13). URL: [http://dx.doi.org/10.1007/978-3-642-38317-5_13](http://dx.doi.org/10.1007/978-3-642-38317-5_13).
+
+<a name=bib-Medina_2016></a>[[12]](#cite-Medina_2016) J. Medina, M. Ojeda-Aciego, J. Pócs, et al. “On the Dedekind–MacNeille completion and formal concept analysis based on multilattices”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 1–20. ISSN: 0165-0114. DOI: [10.1016/j.fss.2016.01.007](https://doi.org/10.1016%2Fj.fss.2016.01.007). URL: [http://dx.doi.org/10.1016/j.fss.2016.01.007](http://dx.doi.org/10.1016/j.fss.2016.01.007).
+
+<a name=bib-Medina_2007></a>[[13]](#cite-Medina_2007) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Fuzzy logic programming via multilattices”. In: _Fuzzy Sets and Systems_ 158.6 (Mar. 2007), p. 674–688. ISSN: 0165-0114. DOI: [10.1016/j.fss.2006.11.006](https://doi.org/10.1016%2Fj.fss.2006.11.006). URL: [http://dx.doi.org/10.1016/j.fss.2006.11.006](http://dx.doi.org/10.1016/j.fss.2006.11.006).
+
+<a name=bib-Medina_2006></a>[[14]](#cite-Medina_2006) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Multi-lattices as a Basis for Generalized Fuzzy Logic Programming”. In: _Fuzzy Logic and Applications_. Springer Berlin Heidelberg, 2006, p. 61–70. ISBN: 9783540325307. DOI: [10.1007/11676935_8](https://doi.org/10.1007%2F11676935_8). URL: [http://dx.doi.org/10.1007/11676935_8](http://dx.doi.org/10.1007/11676935_8).
+
+<a name=bib-Nguyen_2016></a>[[15]](#cite-Nguyen_2016) H. D. Nguyen and N. V. Do. “Method for solving problems on a knowledge model of operators”. In: _2016 IEEE Conference on e-Learning, e-Management and e-Services (IC3e)_. IEEE, Oct. 2016, p. 122–127. DOI: [10.1109/ic3e.2016.8009052](https://doi.org/10.1109%2Fic3e.2016.8009052). URL: [http://dx.doi.org/10.1109/ic3e.2016.8009052](http://dx.doi.org/10.1109/ic3e.2016.8009052).
+
+<a name=bib-Nguyen_2018></a>[[16]](#cite-Nguyen_2018) H. D. Nguyen, N. V. Do, V. T. Pham, et al. “Solving problems on a knowledge model of operators and application”. In: _International Journal of Digital Enterprise Technology_ 1.1/2 (2018), p. 37. ISSN: 1756-2562. DOI: [10.1504/ijdet.2018.092632](https://doi.org/10.1504%2Fijdet.2018.092632). URL: [http://dx.doi.org/10.1504/ijdet.2018.092632](http://dx.doi.org/10.1504/ijdet.2018.092632).
+
+<a name=bib-V__2015></a>[[17]](#cite-V__2015) N. V., H. D., and T. T. “Reasoning Method on Knowledge about Functions and Operators”. In: _International Journal of Advanced Computer Science and Applications_ 6.6 (2015). ISSN: 2158-107X. DOI: [10.14569/ijacsa.2015.060622](https://doi.org/10.14569%2Fijacsa.2015.060622). URL: [http://dx.doi.org/10.14569/ijacsa.2015.060622](http://dx.doi.org/10.14569/ijacsa.2015.060622).
+

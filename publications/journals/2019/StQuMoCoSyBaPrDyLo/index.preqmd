@@ -1,0 +1,35 @@
+---
+title: A Stable Qualitative Movement Control System Based on Propositional Dynamic
+  Logic
+author:
+- Przemyslaw Andrzej Walega
+- ejmunoz
+date: '2019'
+categories: uncategorised
+slug: 2019/StQuMoCoSyBaPrDyLo
+details: J. Multiple Valued Log. Soft Comput. vol. 32 (3-4), pages 221--239.
+doi: []
+
+---
+
+
+# Abstract
+
+
+We present a qualitative movement control system based on Propositional Dynamic Logic (PDL). Firstly, we obtain a stable qualitative representation by means of hysteresis loops. Second, we build the qualitative movement control system in order to represent relative movement of an object with respect to another, that is capable to perform qualitative composition of qualitative relations. Third, we express the control rules of the system by using PDL. Finally, we implement the framework in Robotic Operating System (ROS) and test it with the computer simulator STAGE, which indicates the possibility of using our system in real world applications.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

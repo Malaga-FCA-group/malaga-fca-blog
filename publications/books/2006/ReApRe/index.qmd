@@ -1,0 +1,104 @@
+---
+title: Relational Approach to Order-of-Magnitude Reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Ewa Orlowska
+date: '2006'
+categories: uncategorised
+slug: 2006/ReApRe
+details: Theory and Applications of Relational Structures as Knowledge Instruments
+  II, International Workshops of {COST} Action 274, TARSKI, 2002-2005, Selected Revised
+  Papers , Lecture Notes in Computer Science vol. 4342, pages 105--124.
+doi: 10.1007/11964810_6
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2006></a>[[BOO06]](#cite-Burrieza2006) A. Burrieza, M. Ojeda-Aciego, and E. Orlowska. “Relational Approach to Order-of-Magnitude Reasoning”. In: _Theory and Applications of Relational Structures as Knowledge Instruments II, International Workshops of COST Action 274, TARSKI, 2002-2005, Selected Revised Papers_. Ed. by H. C. M. de Swart, E. Orlowska, G. Schmidt and M. Roubens. Vol. 4342. Lecture Notes in Computer Science. Springer, 2006, pp. 105-124. DOI: [10.1007/11964810\_6](https://doi.org/10.1007%2F11964810%5C_6). URL: [https://doi.org/10.1007/11964810\_6](https://doi.org/10.1007/11964810\_6).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InCollection{Burrieza2006,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Manuel Ojeda-Aciego and Ewa Orlowska},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Theory and Applications of Relational Structures as Knowledge Instruments II, International Workshops of {COST} Action 274, TARSKI, 2002-2005, Selected Revised Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Relational Approach to Order-of-Magnitude Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Harrie C. M. {de Swart} and Ewa Orlowska and Gunther Schmidt and Marc Roubens},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {105--124},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4342},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/RelMiCS/BurriezaOO06.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11964810\_6},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 02 Oct 2022 15:53:27 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11964810\_6},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/11964810_6" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/11964810_6" class="plumx-details" data-site="plum" data-hide-when-empty="true">Relational Approach to Order-of-Magnitude Reasoning</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/11964810_6"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Balbiani_2016></a>[[1]](#cite-Balbiani_2016) P. Balbiani. “Reasoning about negligibility and proximity in the set of all hyperreals”. In: _Journal of Applied Logic_ 16 (Jul. 2016), p. 14–36. ISSN: 1570-8683. DOI: [10.1016/j.jal.2016.04.002](https://doi.org/10.1016%2Fj.jal.2016.04.002). URL: [http://dx.doi.org/10.1016/j.jal.2016.04.002](http://dx.doi.org/10.1016/j.jal.2016.04.002).
+
+<a name=bib-Burrieza_2009></a>[[2]](#cite-Burrieza_2009) A. Burrieza, A. Mora, M. Ojeda-Aciego, et al. “An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning”. In: _International Journal of Computer Mathematics_ 86.10–11 (Nov. 2009), p. 1852–1866. ISSN: 1029-0265. DOI: [10.1080/00207160902777906](https://doi.org/10.1080%2F00207160902777906). URL: [http://dx.doi.org/10.1080/00207160902777906](http://dx.doi.org/10.1080/00207160902777906).
+
+<a name=bib-Burrieza_2010></a>[[3]](#cite-Burrieza_2010) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Closeness and Distance Relations in Order of Magnitude Qualitative Reasoning via PDL”. In: _Current Topics in Artificial Intelligence_. Springer Berlin Heidelberg, 2010, p. 71–80. ISBN: 9783642142642. DOI: [10.1007/978-3-642-14264-2_8](https://doi.org/10.1007%2F978-3-642-14264-2_8). URL: [http://dx.doi.org/10.1007/978-3-642-14264-2_8](http://dx.doi.org/10.1007/978-3-642-14264-2_8).
+
+<a name=bib-Burrieza_2018></a>[[4]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-Goli_ska_Pilarek_2014></a>[[5]](#cite-Goli_ska_Pilarek_2014) J. Golińska-Pilarek, T. Huuskonen, and E. Muñoz-Velasco. “Relational dual tableau decision procedures and their applications to modal and intuitionistic logics”. In: _Annals of Pure and Applied Logic_ 165.2 (Feb. 2014), p. 409–427. ISSN: 0168-0072. DOI: [10.1016/j.apal.2013.06.003](https://doi.org/10.1016%2Fj.apal.2013.06.003). URL: [http://dx.doi.org/10.1016/j.apal.2013.06.003](http://dx.doi.org/10.1016/j.apal.2013.06.003).
+
+<a name=bib-Goli_ska_Pilarek_2008></a>[[6]](#cite-Goli_ska_Pilarek_2008) J. Golińska-Pilarek, A. Mora, and E. Muñoz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence_. Springer Berlin Heidelberg, 2008, p. 128–139. ISBN: 9783540891970. DOI: [10.1007/978-3-540-89197-0_15](https://doi.org/10.1007%2F978-3-540-89197-0_15). URL: [http://dx.doi.org/10.1007/978-3-540-89197-0_15](http://dx.doi.org/10.1007/978-3-540-89197-0_15).
+
+<a name=bib-Golinska_Pilarek_2009></a>[[7]](#cite-Golinska_Pilarek_2009) J. Golinska-Pilarek and E. Munoz-Velasco. “Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance”. In: _Logic Journal of IGPL_ 17.4 (Jun. 2009), p. 375–394. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzp016](https://doi.org/10.1093%2Fjigpal%2Fjzp016). URL: [http://dx.doi.org/10.1093/jigpal/jzp016](http://dx.doi.org/10.1093/jigpal/jzp016).
+
+<a name=bib-Goli_ska_Pilarek_2009></a>[[8]](#cite-Goli_ska_Pilarek_2009) J. Golińska-Pilarek and E. Muñoz-Velasco. “Dual tableau for a multimodal logic for order of magnitude qualitative reasoning with bidirectional negligibility”. In: _International Journal of Computer Mathematics_ 86.10–11 (Nov. 2009), p. 1707–1718. ISSN: 1029-0265. DOI: [10.1080/00207160902930752](https://doi.org/10.1080%2F00207160902930752). URL: [http://dx.doi.org/10.1080/00207160902930752](http://dx.doi.org/10.1080/00207160902930752).
+
+<a name=bib-Goli_ska_Pilarek_20081></a>[[9]](#cite-Goli_ska_Pilarek_20081) J. Golińska-Pilarek and E. Orłowska. “Logics of Similarity and their Dual Tableaux A Survey”. In: _Preferences and Similarities_. Springer Vienna, 2008, p. 129–159. ISBN: 9783211854327. DOI: [10.1007/978-3-211-85432-7_5](https://doi.org/10.1007%2F978-3-211-85432-7_5). URL: [http://dx.doi.org/10.1007/978-3-211-85432-7_5](http://dx.doi.org/10.1007/978-3-211-85432-7_5).
+
+<a name=bib-Goli_ska_Pilarek_2006></a>[[10]](#cite-Goli_ska_Pilarek_2006) J. Golińska-Pilarek and E. Orłowska. “Relational Logics and Their Applications”. In: _Theory and Applications of Relational Structures as Knowledge Instruments II_. Springer Berlin Heidelberg, 2006, p. 125–161. ISBN: 9783540692249. DOI: [10.1007/11964810_7](https://doi.org/10.1007%2F11964810_7). URL: [http://dx.doi.org/10.1007/11964810_7](http://dx.doi.org/10.1007/11964810_7).
+
+<a name=bib-Goli_ska_Pilarek_2018></a>[[11]](#cite-Goli_ska_Pilarek_2018) J. Golińska-Pilarek and M. Zawidzki. “Everything is a Relation: A Preview”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 3–24. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_1](https://doi.org/10.1007%2F978-3-319-97879-6_1). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_1](http://dx.doi.org/10.1007/978-3-319-97879-6_1).
+
+<a name=bib-Or_owska_2018></a>[[12]](#cite-Or_owska_2018) E. Orłowska. “Autobiography”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 25–49. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_2](https://doi.org/10.1007%2F978-3-319-97879-6_2). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_2](http://dx.doi.org/10.1007/978-3-319-97879-6_2).
+

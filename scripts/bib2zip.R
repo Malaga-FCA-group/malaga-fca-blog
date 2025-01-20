@@ -147,12 +147,13 @@ bib2zip <- function(bibori) {
 
   new_folder <- here::here("publications", type, date, slug)
 
-  # if (dir.exists(new_folder)) {
-  #   warning("This paper was already on the site.")
-  #   print(bibori)
+  if (dir.exists(new_folder)) {
+    warning("This paper was already on the site.", 
+    immediate. = TRUE)
+    print(bibori)
 
-  #   return(invisible(NULL))
-  # }
+    return(invisible(NULL))
+  }
 
   dir.create(folder, showWarnings = FALSE, recursive = TRUE)
 
@@ -164,6 +165,9 @@ bib2zip <- function(bibori) {
   #   stringr::str_flatten()
 
   # filename <- paste(slug, ".zip", sep = "")
+
+  doi <- doi |> 
+    stringr::str_remove_all(stringr::fixed("https://doi.org/"))
 
   content <- generate_publication_preqmd_text(
     type = type,
@@ -264,3 +268,11 @@ migrate <- function(input_file) {
 
   cli::cli_alert_success("  Created {.val {header$slug}}")
 }
+
+all_files <- fs::dir_ls(
+  path = here::here("publications"),
+  regexp = "[.]preqmd$",
+  recurse = TRUE
+)
+
+all_files |> lapply(migrate)

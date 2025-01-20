@@ -1,0 +1,48 @@
+---
+title: On the Representation Theorem of Multi-Adjoint Concept Lattices
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/ReThCoLa
+details: Proceedings of the Joint 2009 International Fuzzy Systems Association World
+  Congress and 2009 European Society of Fuzzy Logic and Technology Conference, Lisbon,
+  Portugal, July 20-24, 2009 , pages 1091--1095.
+---
+
+
+
+# Abstract
+
+
+Formal concept analysis has become an important and appealing research topic. There exist a number of different fuzzy extensions of formal concept analysis and of its representation theorem, which gives conditions for a complete lattice in order to be isomorphic to a concept lattice. In this paper we concentrate on the study of operational properties of the mappings α and β required in the representation theorem.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2009a></a>[[MO09]](#cite-Medina2009a) J. Medina and M. Ojeda-Aciego. “On the Representation Theorem of Multi-Adjoint Concept Lattices”. In: _Proceedings of the Joint 2009 International Fuzzy Systems Association World Congress and 2009 European Society of Fuzzy Logic and Technology Conference, Lisbon, Portugal, July 20-24, 2009_. Ed. by J. P. Carvalho, D. Dubois, U. Kaymak and J. M. da Costa Sousa. 2009, pp. 1091-1095. URL: [http://www.eusflat.org/proceedings/IFSA-EUSFLAT\_2009/pdf/tema\_1091.pdf](http://www.eusflat.org/proceedings/IFSA-EUSFLAT\_2009/pdf/tema\_1091.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2009a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Joint 2009 International Fuzzy Systems Association World Congress and 2009 European Society of Fuzzy Logic and Technology Conference, Lisbon, Portugal, July 20-24, 2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the Representation Theorem of Multi-Adjoint Concept Lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jo~ao Paulo Carvalho and Didier Dubois and Uzay Kaymak and Jo~ao Miguel {da Costa Sousa}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1091--1095},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Formal concept analysis has become an important and appealing research topic. There exist a number of different fuzzy extensions of formal concept analysis and of its representation theorem, which gives conditions for a complete lattice in order to be isomorphic to a concept lattice. In this paper we concentrate on the study of operational properties of the mappings α and β required in the representation theorem.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/MedinaO09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.eusflat.org/proceedings/IFSA-EUSFLAT\_2009/pdf/tema\_1091.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

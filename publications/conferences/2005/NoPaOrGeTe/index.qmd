@@ -1,0 +1,52 @@
+---
+title: A note on partially ordered generalized terms
+author:
+- Patrik Eklund
+- Maria A. Galán
+- Werner Gähler
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '2005'
+categories: uncategorised
+slug: 2005/NoPaOrGeTe
+details: Proceedings of the Joint 4th Conference of the European Society for Fuzzy
+  Logic and Technology and the 11th Rencontres Francophones sur la Logique Floue et
+  ses Applications, Barcelona, Spain, September 7-9, 2005 , pages 793--796.
+---
+
+
+
+# Abstract
+
+
+In this paper we study the definition of generalized powerset of terms in the context of partially ordered monads. We provide a definition of the powerset of terms over acSLAT and study some possible directions for the definition of a partially ordered term monad.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Eklund2005></a>[[Ekl+05]](#cite-Eklund2005) P. Eklund, M. A. Galán, W. Gähler, et al. “A note on partially ordered generalized terms”. In: _Proceedings of the Joint 4th Conference of the European Society for Fuzzy Logic and Technology and the 11th Rencontres Francophones sur la Logique Floue et ses Applications, Barcelona, Spain, September 7-9, 2005_. Ed. by E. Montseny and P. Sobrevilla. Universidad Polytecnica de Catalunya, 2005, pp. 793-796. URL: [http://www.eusflat.org/proceedings/EUSFLAT-LFA\_2005/papers/S115-05.pdf](http://www.eusflat.org/proceedings/EUSFLAT-LFA\_2005/papers/S115-05.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Eklund2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Patrik Eklund and Maria A. Gal{\a'a}n and Werner G{\"a}hler and Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Joint 4th Conference of the European Society for Fuzzy Logic and Technology and the 11th Rencontres Francophones sur la Logique Floue et ses Applications, Barcelona, Spain, September 7-9, 2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A note on partially ordered generalized terms},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Eduard Montseny and Pilar Sobrevilla},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {793--796},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Universidad Polytecnica de Catalunya},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper we study the definition of generalized powerset of terms in the context of partially ordered monads. We provide a definition of the powerset of terms over acSLAT and study some possible directions for the definition of a partially ordered term monad.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/EklundGGMOV05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.eusflat.org/proceedings/EUSFLAT-LFA\_2005/papers/S115-05.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

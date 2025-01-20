@@ -1,0 +1,34 @@
+---
+title: The \emph{f}-index of inclusion as optimal adjoint pair for fuzzy modus ponens
+author:
+- Nicolás Madrid
+- aciego
+date: '2023'
+categories: uncategorised
+slug: 2023/InOpAdPaFuMoPo
+details: Fuzzy Sets Syst. vol. 466 , pages 108474.
+doi: 10.1016/J.FSS.2023.01.009
+
+---
+
+
+# Abstract
+
+
+We continue studying the properties of the f-index of inclusion and show that, given a fixed pair of fuzzy sets, their f-index of inclusion can be linked to a fuzzy conjunction which is part of an adjoint pair. We also show that, when this pair is used as the underlying structure to provide a fuzzy interpretation of the modus ponens inference rule, it provides the maximum possible truth-value in the conclusion among all those values obtained by fuzzy modus ponens using any other possible adjoint pair.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

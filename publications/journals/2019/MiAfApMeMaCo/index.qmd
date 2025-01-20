@@ -1,0 +1,91 @@
+---
+title: Minimal generators, an affordable approach by means of massive computation
+author:
+- Fernando Benito Picazo
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/MiAfApMeMaCo
+details: J. Supercomput. vol. 75 (3), pages 1350--1367.
+doi: 10.1007/S11227-018-2453-Z
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Picazo2019></a>[[Pic+19]](#cite-Picazo2019) F. B. Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _J. Supercomput._ 75.3 (2019), pp. 1350-1367. DOI: [10.1007/S11227-018-2453-Z](https://doi.org/10.1007%2FS11227-018-2453-Z). URL: [https://doi.org/10.1007/s11227-018-2453-z](https://doi.org/10.1007/s11227-018-2453-z).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Picazo2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Fernando Benito Picazo and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {J. Supercomput.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Minimal generators, an affordable approach by means of massive computation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1350--1367},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {75},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/tjs/PicazoCEM19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/S11227-018-2453-Z},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/s11227-018-2453-z},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/S11227-018-2453-Z" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/S11227-018-2453-Z" class="plumx-details" data-site="plum" data-hide-when-empty="true">Minimal generators, an affordable approach by means of massive computation</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/S11227-018-2453-Z"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2022></a>[[1]](#cite-Cordero_2022) P. Cordero, M. Enciso, A. Mora, et al. “Interactive Search by Using Minimal Generators”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 147–153. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_17](https://doi.org/10.1007%2F978-3-030-88817-6_17). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_17](http://dx.doi.org/10.1007/978-3-030-88817-6_17).
+
+<a name=bib-Cordero_20201></a>[[2]](#cite-Cordero_20201) P. Cordero, M. Enciso, Á. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 1243. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200806.001](http://dx.doi.org/10.2991/ijcis.d.200806.001).
+
+<a name=bib-Cordero_2020></a>[[3]](#cite-Cordero_2020) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized simplification logic I: reasoning with implications and classes of closure operators”. In: _International Journal of General Systems_ 49.7 (Oct. 2020), p. 724–746. ISSN: 1563-5104. DOI: [10.1080/03081079.2020.1831484](https://doi.org/10.1080%2F03081079.2020.1831484). URL: [http://dx.doi.org/10.1080/03081079.2020.1831484](http://dx.doi.org/10.1080/03081079.2020.1831484).
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[4]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[5]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+
+<a name=bib-Pattison_2021></a>[[6]](#cite-Pattison_2021) T. Pattison, M. Enciso, Á. Mora, et al. “Scalable Visual Analytics in FCA”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 167–200. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_8](https://doi.org/10.1007%2F978-3-030-93278-7_8). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_8](http://dx.doi.org/10.1007/978-3-030-93278-7_8).
+

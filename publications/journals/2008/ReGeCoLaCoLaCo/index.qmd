@@ -1,0 +1,99 @@
+---
+title: Relating generalized concept lattices and concept lattices for non-commutative
+  conjunctors
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Jorge Ruiz-Calvi~no
+date: '2008'
+categories: uncategorised
+slug: 2008/ReGeCoLaCoLaCo
+details: Appl. Math. Lett. vol. 21 (12), pages 1296--1300.
+doi: 10.1016/J.AML.2007.12.026
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2008></a>[[MOR08]](#cite-Medina2008) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calvi~no. “Relating generalized concept lattices and concept lattices for non-commutative conjunctors”. In: _Appl. Math. Lett._ 21.12 (2008), pp. 1296-1300. DOI: [10.1016/J.AML.2007.12.026](https://doi.org/10.1016%2FJ.AML.2007.12.026). URL: [https://doi.org/10.1016/j.aml.2007.12.026](https://doi.org/10.1016/j.aml.2007.12.026).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Medina2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jorge Ruiz-Calvi~no},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Appl. Math. Lett.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Relating generalized concept lattices and concept lattices for non-commutative conjunctors},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {12},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1296--1300},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {21},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/appml/MedinaOR08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.AML.2007.12.026},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 06 Oct 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.aml.2007.12.026},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.AML.2007.12.026" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.AML.2007.12.026" class="plumx-details" data-site="plum" data-hide-when-empty="true">Relating generalized concept lattices and concept lattices for non-commutative conjunctors</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.AML.2007.12.026"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2018></a>[[1]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Arag_n_2021></a>[[2]](#cite-Arag_n_2021) R. G. Aragón, J. Medina, and E. Ramírez-Poussa. “Identifying Non-Sublattice Equivalence Classes Induced by an Attribute Reduction in FCA”. In: _Mathematics_ 9.5 (Mar. 2021), p. 565. ISSN: 2227-7390. DOI: [10.3390/math9050565](https://doi.org/10.3390%2Fmath9050565). URL: [http://dx.doi.org/10.3390/math9050565](http://dx.doi.org/10.3390/math9050565).
+
+<a name=bib-Konecny_2014></a>[[3]](#cite-Konecny_2014) J. Konecny, J. Medina, and M. Ojeda-Aciego. “Multi-adjoint concept lattices with heterogeneous conjunctors and hedges”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Mar. 2014), p. 73–89. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9405-y](https://doi.org/10.1007%2Fs10472-014-9405-y). URL: [http://dx.doi.org/10.1007/s10472-014-9405-y](http://dx.doi.org/10.1007/s10472-014-9405-y).
+
+<a name=bib-Li_2014></a>[[4]](#cite-Li_2014) L. Li, J. Mi, and B. Xie. “Attribute reduction based on maximal rules in decision formal context”. In: _International Journal of Computational Intelligence Systems_ 7.6 (2014), p. 1044. ISSN: 1875-6883. DOI: [10.1080/18756891.2014.963972](https://doi.org/10.1080%2F18756891.2014.963972). URL: [http://dx.doi.org/10.1080/18756891.2014.963972](http://dx.doi.org/10.1080/18756891.2014.963972).
+
+<a name=bib-Medina_Moreno_2013></a>[[5]](#cite-Medina_Moreno_2013) J. Medina-Moreno, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Concept-Forming Operators on Multilattices”. In: _Formal Concept Analysis_. Springer Berlin Heidelberg, 2013, p. 203–215. ISBN: 9783642383175. DOI: [10.1007/978-3-642-38317-5_13](https://doi.org/10.1007%2F978-3-642-38317-5_13). URL: [http://dx.doi.org/10.1007/978-3-642-38317-5_13](http://dx.doi.org/10.1007/978-3-642-38317-5_13).
+
+<a name=bib-Medina_2009></a>[[6]](#cite-Medina_2009) J. Medina. “Overcoming Non-commutativity in Multi-adjoint Concept Lattices”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 278–285. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_35](https://doi.org/10.1007%2F978-3-642-02478-8_35). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_35](http://dx.doi.org/10.1007/978-3-642-02478-8_35).
+
+<a name=bib-Medina_2010></a>[[7]](#cite-Medina_2010) J. Medina and M. Ojeda-Aciego. “Multi-adjoint t-concept lattices”. In: _Information Sciences_ 180.5 (Mar. 2010), p. 712–725. ISSN: 0020-0255. DOI: [10.1016/j.ins.2009.11.018](https://doi.org/10.1016%2Fj.ins.2009.11.018). URL: [http://dx.doi.org/10.1016/j.ins.2009.11.018](http://dx.doi.org/10.1016/j.ins.2009.11.018).
+
+<a name=bib-Medina_2016></a>[[8]](#cite-Medina_2016) J. Medina, M. Ojeda-Aciego, J. Pócs, et al. “On the Dedekind–MacNeille completion and formal concept analysis based on multilattices”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 1–20. ISSN: 0165-0114. DOI: [10.1016/j.fss.2016.01.007](https://doi.org/10.1016%2Fj.fss.2016.01.007). URL: [http://dx.doi.org/10.1016/j.fss.2016.01.007](http://dx.doi.org/10.1016/j.fss.2016.01.007).
+
+<a name=bib-Poelmans_2014></a>[[9]](#cite-Poelmans_2014) J. Poelmans, D. I. Ignatov, S. O. Kuznetsov, et al. “Fuzzy and rough formal concept analysis: a survey”. In: _International Journal of General Systems_ 43.2 (Jan. 2014), p. 105–134. ISSN: 1563-5104. DOI: [10.1080/03081079.2013.862377](https://doi.org/10.1080%2F03081079.2013.862377). URL: [http://dx.doi.org/10.1080/03081079.2013.862377](http://dx.doi.org/10.1080/03081079.2013.862377).
+
+<a name=bib-Wang_2010></a>[[10]](#cite-Wang_2010) L. Wang, X. Liu, and J. Cao. “A new algebraic structure for formal concept analysis”. In: _Information Sciences_ 180.24 (Dec. 2010), p. 4865–4876. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.08.020](https://doi.org/10.1016%2Fj.ins.2010.08.020). URL: [http://dx.doi.org/10.1016/j.ins.2010.08.020](http://dx.doi.org/10.1016/j.ins.2010.08.020).
+

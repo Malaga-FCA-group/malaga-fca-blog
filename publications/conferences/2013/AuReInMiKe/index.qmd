@@ -1,0 +1,48 @@
+---
+title: Automated Reasoning to Infer all Minimal Keys
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/AuReInMiKe
+details: '{IJCAI} 2013, Proceedings of the 23rd International Joint Conference on
+  Artificial Intelligence, Beijing, China, August 3-9, 2013 , pages 817--823.'
+---
+
+
+
+# Abstract
+
+
+Wastl introduced for first time a tableaux-like method based on an inference system for deriving all minimal keys from a relational schema. He introduced two inference rules and built an automated method over them. In this work we tackle the key finding problem with a tableaux method, but we will use two inference rules inspired by the Simplification Logic for Functional Dependencies. Wastl's method requires the input to be a set of functional dependencies (FDs) with atomic right hand sides. Therefore, it is necessary to apply fragmentation rule with the consequent increasing of the input. The main novelty of our rules is that they deal with generalized formulas, avoiding the fragmentation needed in the former tableaux. Finally we illustrate the advantages of our new tableaux method with an experiment.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2013c></a>[[CEM13]](#cite-Cordero2013c) P. Cordero, M. Enciso, and Á. Mora. “Automated Reasoning to Infer all Minimal Keys”. In: _IJCAI 2013, Proceedings of the 23rd International Joint Conference on Artificial Intelligence, Beijing, China, August 3-9, 2013_. Ed. by F. Rossi. IJCAI/AAAI, 2013, pp. 817-823. URL: [http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6672](http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6672).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2013c,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IJCAI} 2013, Proceedings of the 23rd International Joint Conference on Artificial Intelligence, Beijing, China, August 3-9, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Automated Reasoning to Infer all Minimal Keys},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francesca Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {817--823},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IJCAI/AAAI}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Wastl introduced for first time a tableaux-like method based on an inference system for deriving all minimal keys from a relational schema. He introduced two inference rules and built an automated method over them. In this work we tackle the key finding problem with a tableaux method, but we will use two inference rules inspired by the Simplification Logic for Functional Dependencies. Wastl's method requires the input to be a set of functional dependencies (FDs) with atomic right hand sides. Therefore, it is necessary to apply fragmentation rule with the consequent increasing of the input. The main novelty of our rules is that they deal with generalized formulas, avoiding the fragmentation needed in the former tableaux. Finally we illustrate the advantages of our new tableaux method with an experiment.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ijcai/CorderoEM13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 23 Jan 2024 13:25:46 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6672},<br>}
+
+:::
+
+
+
+
+
+
+
+

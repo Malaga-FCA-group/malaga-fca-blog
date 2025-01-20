@@ -1,0 +1,48 @@
+---
+title: Modelling fuzzy partitions with fuzzy answer sets
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/MoFuPaFuAnSe
+details: 2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI} 2017,
+  Honolulu, HI, USA, November 27 - Dec. 1, 2017 , pages 1--8.
+doi: 10.1109/SSCI.2017.8285308
+---
+
+
+
+# Abstract
+
+
+This paper introduces a representation of fuzzy partitions in terms of fuzzy logic programming. This representation models relationships among the different classes that define the fuzzy partition. There are essentially two such relationships. The first one is that classes are disjoint and, therefore, contradictory each other; on the other hand, the second one is that classes cover all the universe. These two relationships are modeled via two different negations, namely, the explicit and default negation. Last but not least, the semantics used to model both negations is the fuzzy answer set semantics.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2017></a>[[MO17]](#cite-Madrid2017) N. Madrid and M. Ojeda-Aciego. “Modelling fuzzy partitions with fuzzy answer sets”. In: _2017 IEEE Symposium Series on Computational Intelligence, SSCI 2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017_. IEEE, 2017, pp. 1-8. DOI: [10.1109/SSCI.2017.8285308](https://doi.org/10.1109%2FSSCI.2017.8285308). URL: [https://doi.org/10.1109/SSCI.2017.8285308](https://doi.org/10.1109/SSCI.2017.8285308).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI} 2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Modelling fuzzy partitions with fuzzy answer sets},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--8},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ssci/MadridO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/SSCI.2017.8285308},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/SSCI.2017.8285308},<br>}
+
+:::
+
+
+
+
+
+
+
+

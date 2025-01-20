@@ -1,0 +1,50 @@
+---
+title: An Approach to Visualize Implications
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Pablo Gomez González
+date: '2019'
+categories: uncategorised
+slug: 2019/ApViIm
+details: Supplementary Proceedings of {ICFCA} 2019 Conference and Workshops, Frankfurt,
+  Germany, June 25-28, 2019 , {CEUR} Workshop Proceedings vol. 2378, pages 113--124.
+---
+
+
+
+# Abstract
+
+
+Visualizing implications has become a hot topic, providing new solutions to reveal the knowledge contained in the sets of rules. In Big Data applications, it is even more fundamental since their datasets usually produce a huge number of rules. Data visualization can be considered as a tool to illuminate the information, guiding the search for important rules or significant attributes. Usually, the user do not want to exhaustively examine all the implications, but rather to analyze the relevant knowledge in the rules.
+In Formal Concept Analysis (FCA), some well-known tools allow to visualize the concept lattice and, even more, the implications. They focus on how to present these two visions of the same information, but they do not extract a further knowledge. Here, we present a new visualization model for implications, oriented to display and infer some interesting insights from the set of implications.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2019></a>[[Cor+19]](#cite-Cordero2019) P. Cordero, M. Enciso, Á. Mora, et al. “An Approach to Visualize Implications”. In: _Supplementary Proceedings of ICFCA 2019 Conference and Workshops, Frankfurt, Germany, June 25-28, 2019_. Ed. by D. Cristea, F. L. Ber, R. Missaoui, L. Kwuida and B. Sertkaya. Vol. 2378. CEUR Workshop Proceedings. CEUR-WS.org, 2019, pp. 113-124. URL: [https://ceur-ws.org/Vol-2378/longBDE2.pdf](https://ceur-ws.org/Vol-2378/longBDE2.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Pablo Gomez Gonz{\a'a}lez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Supplementary Proceedings of {ICFCA} 2019 Conference and Workshops, Frankfurt, Germany, June 25-28, 2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An Approach to Visualize Implications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Diana Cristea and Florence Le Ber and Rokia Missaoui and L{\a'e}onard Kwuida and Baris Sertkaya},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {113--124},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2378},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Visualizing implications has become a hot topic, providing new solutions to reveal the knowledge contained in the sets of rules. In Big Data applications, it is even more fundamental since their datasets usually produce a huge number of rules. Data visualization can be considered as a tool to illuminate the information, guiding the search for important rules or significant attributes. Usually, the user do not want to exhaustively examine all the implications, but rather to analyze the relevant knowledge in the rules.<br>&nbsp;&nbsp;&nbsp;&nbsp;In Formal Concept Analysis (FCA), some well-known tools allow to visualize the concept lattice and, even more, the implications. They focus on how to present these two visions of the same information, but they do not extract a further knowledge. Here, we present a new visualization model for implications, oriented to display and infer some interesting insights from the set of implications.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/CorderoE0G19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:46 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-2378/longBDE2.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

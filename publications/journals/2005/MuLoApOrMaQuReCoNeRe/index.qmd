@@ -1,0 +1,47 @@
+---
+title: A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning with
+  Comparability and Negligibility Relations
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2005'
+categories: uncategorised
+slug: 2005/MuLoApOrMaQuReCoNeRe
+details: Fundam. Informaticae vol. 68 (1-2), pages 21--46.
+---
+
+
+
+# Abstract
+
+
+Non-classical logics have proven to be an adequate framework to formalize knowledge representation. In this paper we focus on a multimodal approach to formalize order-of-magnitude qualitative reasoning, extending the recently introduced system MQ, by means of a certain notion of negligibility relation which satisfies a number of intuitively plausible properties, as well as a minimal axiom system allowing for interaction among the different qualitative relations. The main aim is to show the completeness of the formal system introduced. Moreover, we consider some definability results and discuss possible directions for further research.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2005a></a>[[BO05]](#cite-Burrieza2005a) A. Burrieza and M. Ojeda-Aciego. “A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning with Comparability and Negligibility Relations”. In: _Fundam. Informaticae_ 68.1-2 (2005), pp. 21-46. URL: [http://content.iospress.com/articles/fundamenta-informaticae/fi68-1-2-02](http://content.iospress.com/articles/fundamenta-informaticae/fi68-1-2-02).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2005a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fundam. Informaticae},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning with Comparability and Negligibility Relations},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {21--46},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {68},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Non-classical logics have proven to be an adequate framework to formalize knowledge representation. In this paper we focus on a multimodal approach to formalize order-of-magnitude qualitative reasoning, extending the recently introduced system MQ, by means of a certain notion of negligibility relation which satisfies a number of intuitively plausible properties, as well as a minimal axiom system allowing for interaction among the different qualitative relations. The main aim is to show the completeness of the formal system introduced. Moreover, we consider some definability results and discuss possible directions for further research.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fuin/BurriezaO05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 18 Sep 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://content.iospress.com/articles/fundamenta-informaticae/fi68-1-2-02},<br>}
+
+:::
+
+
+
+
+
+
+
+

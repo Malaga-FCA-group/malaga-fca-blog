@@ -1,0 +1,103 @@
+---
+title: 'A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness,
+  Completeness and Optimizations'
+author:
+- Carlos Viegas Damásio
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2006'
+categories: uncategorised
+slug: 2006/TaPrPrReLoCoOp
+details: '{IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2006, Vancouver,
+  BC, Canada, July 16-21, 2006 , pages 2004--2011.'
+doi: 10.1109/FUZZY.2006.1681978
+---
+
+
+
+# Abstract
+
+
+Residuated logic programs have shown to be a generalisation of a number of approaches to logic programming under uncertain or vague information, including fuzzy or annotated or probabilistic or similarity-based logic programming frameworks. Various computational approaches have been developed for propositional residuated logic programs: on the one hand, there exists a bottom-up neural-like implementation of the fixed-point semantics which calculates the successive iterations of the immediate consequences operator; on the other hand, a goal-oriented top-down tabulation procedure has recently been introduced. In this paper, we introduce a sound and complete tabulation-based proof procedure for the first-order extension of residuated logic programs.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Damasio2006></a>[[DMO06]](#cite-Damasio2006) C. V. Damásio, J. Medina, and M. Ojeda-Aciego. “A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness, Completeness and Optimizations”. In: _IEEE International Conference on Fuzzy Systems, FUZZ-IEEE 2006, Vancouver, BC, Canada, July 16-21, 2006_. IEEE, 2006, pp. 2004-2011. DOI: [10.1109/FUZZY.2006.1681978](https://doi.org/10.1109%2FFUZZY.2006.1681978). URL: [https://doi.org/10.1109/FUZZY.2006.1681978](https://doi.org/10.1109/FUZZY.2006.1681978).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Damasio2006,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Viegas Dam{\a'a}sio and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2006, Vancouver, BC, Canada, July 16-21, 2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness, Completeness and Optimizations},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {2004--2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/DamasioMO06.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZY.2006.1681978},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZY.2006.1681978},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZY.2006.1681978" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZY.2006.1681978" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness, Completeness and Optimizations</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZY.2006.1681978"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Chortaras_2007></a>[[1]](#cite-Chortaras_2007) A. Chortaras, G. Stamou, and A. Stafylopatis. “Integrated Query Answering with Weighted Fuzzy Rules”. In: _Symbolic and Quantitative Approaches to Reasoning with Uncertainty_. Springer Berlin Heidelberg, 2007, p. 767–778. ISBN: 9783540752561. DOI: [10.1007/978-3-540-75256-1_67](https://doi.org/10.1007%2F978-3-540-75256-1_67). URL: [http://dx.doi.org/10.1007/978-3-540-75256-1_67](http://dx.doi.org/10.1007/978-3-540-75256-1_67).
+
+<a name=bib-Damasio_2006></a>[[2]](#cite-Damasio_2006) C. Damasio, J. Medina, and M. Ojeda-Aciego. “A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness, Completeness and Optimizations”. In: _2006 IEEE International Conference on Fuzzy Systems_. IEEE, 2006, p. 2004–2011. DOI: [10.1109/fuzzy.2006.1681978](https://doi.org/10.1109%2Ffuzzy.2006.1681978). URL: [http://dx.doi.org/10.1109/fuzzy.2006.1681978](http://dx.doi.org/10.1109/fuzzy.2006.1681978).
+
+<a name=bib-Damasio_20061></a>[[3]](#cite-Damasio_20061) C. Damasio, J. Pan, G. Stoilos, et al. “An Approach to Representing Uncertainty Rules in RuleML”. In: _2006 Second International Conference on Rules and Rule Markup Languages for the Semantic Web (RuleML’06)_. IEEE, Nov. 2006, p. 97–106. DOI: [10.1109/ruleml.2006.3](https://doi.org/10.1109%2Fruleml.2006.3). URL: [http://dx.doi.org/10.1109/ruleml.2006.3](http://dx.doi.org/10.1109/ruleml.2006.3).
+
+<a name=bib-Juli_n_Iranzo_2017></a>[[4]](#cite-Juli_n_Iranzo_2017) P. Julián-Iranzo, J. Medina, and M. Ojeda-Aciego. “On reductants in the framework of multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 317 (Jun. 2017), p. 27–43. ISSN: 0165-0114. DOI: [10.1016/j.fss.2016.09.004](https://doi.org/10.1016%2Fj.fss.2016.09.004). URL: [http://dx.doi.org/10.1016/j.fss.2016.09.004](http://dx.doi.org/10.1016/j.fss.2016.09.004).
+
+<a name=bib-Juli_n_Iranzo_2020></a>[[5]](#cite-Juli_n_Iranzo_2020) P. Julián-Iranzo, G. Moreno, and J. A. Riaza. “The Fuzzy Logic Programming language FASILL: Design and implementation”. In: _International Journal of Approximate Reasoning_ 125 (Oct. 2020), p. 139–168. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2020.06.002](https://doi.org/10.1016%2Fj.ijar.2020.06.002). URL: [http://dx.doi.org/10.1016/j.ijar.2020.06.002](http://dx.doi.org/10.1016/j.ijar.2020.06.002).
+
+<a name=bib-Le_2012></a>[[6]](#cite-Le_2012) V. H. Le. “Efficient Query Answering for Fuzzy Linguistic Logic Programming”. In: _2012 IEEE RIVF International Conference on Computing &amp; Communication Technologies, Research, Innovation, and Vision for the Future_. IEEE, Feb. 2012, p. 1–4. DOI: [10.1109/rivf.2012.6169836](https://doi.org/10.1109%2Frivf.2012.6169836). URL: [http://dx.doi.org/10.1109/rivf.2012.6169836](http://dx.doi.org/10.1109/rivf.2012.6169836).
+
+<a name=bib-Le_2015></a>[[7]](#cite-Le_2015) V. H. Le and F. Liu. “Tabulation proof procedures for fuzzy linguistic logic programming”. In: _International Journal of Approximate Reasoning_ 63 (Aug. 2015), p. 62–88. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2015.06.001](https://doi.org/10.1016%2Fj.ijar.2015.06.001). URL: [http://dx.doi.org/10.1016/j.ijar.2015.06.001](http://dx.doi.org/10.1016/j.ijar.2015.06.001).
+
+<a name=bib-Loyer_2008></a>[[8]](#cite-Loyer_2008) Y. Loyer and U. Straccia. “Approximate well-founded semantics, query answering and generalized normal logic programs over lattices”. In: _Annals of Mathematics and Artificial Intelligence_ 55.3–4 (Oct. 2008), p. 389–417. ISSN: 1573-7470. DOI: [10.1007/s10472-008-9099-0](https://doi.org/10.1007%2Fs10472-008-9099-0). URL: [http://dx.doi.org/10.1007/s10472-008-9099-0](http://dx.doi.org/10.1007/s10472-008-9099-0).
+
+<a name=bib-Straccia_2008></a>[[9]](#cite-Straccia_2008) U. Straccia. “Managing Uncertainty and Vagueness in Description Logics, Logic Programs and Description Logic Programs”. In: _Reasoning Web_. Springer Berlin Heidelberg, 2008, p. 54–103. ISBN: 9783540856580. DOI: [10.1007/978-3-540-85658-0_2](https://doi.org/10.1007%2F978-3-540-85658-0_2). URL: [http://dx.doi.org/10.1007/978-3-540-85658-0_2](http://dx.doi.org/10.1007/978-3-540-85658-0_2).
+
+<a name=bib-Straccia_2013></a>[[10]](#cite-Straccia_2013) U. Straccia. “On the Top-k Retrieval Problem for Ontology-Based Access to Databases”. In: _Flexible Approaches in Data, Information and Knowledge Management_. Springer International Publishing, Sep. 2013, p. 95–114. ISBN: 9783319009544. DOI: [10.1007/978-3-319-00954-4_5](https://doi.org/10.1007%2F978-3-319-00954-4_5). URL: [http://dx.doi.org/10.1007/978-3-319-00954-4_5](http://dx.doi.org/10.1007/978-3-319-00954-4_5).
+
+<a name=bib-Straccia_2017></a>[[11]](#cite-Straccia_2017) U. Straccia and F. Bobillo. “From Fuzzy to Annotated Semantic Web Languages”. In: _Reasoning Web: Logical Foundation of Knowledge Graph Construction and Query Answering_. Springer International Publishing, 2017, p. 203–240. ISBN: 9783319494937. DOI: [10.1007/978-3-319-49493-7_6](https://doi.org/10.1007%2F978-3-319-49493-7_6). URL: [http://dx.doi.org/10.1007/978-3-319-49493-7_6](http://dx.doi.org/10.1007/978-3-319-49493-7_6).
+

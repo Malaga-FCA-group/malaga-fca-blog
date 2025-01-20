@@ -1,0 +1,48 @@
+---
+title: A Formal Identification between Tuples and Lists with an Application to List-Arithmetic
+  Categories
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '1995'
+categories: uncategorised
+slug: 1995/FoIdTuLiApCa
+details: Acta Informatica vol. 32 (1), pages 61--78.
+doi: 10.1007/BF01185405
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman1995></a>[[GOA95]](#cite-Guzman1995) I. P. de Guzmán, M. Ojeda-Aciego, and Agust\'\inValverde. “A Formal Identification between Tuples and Lists with an Application to List-Arithmetic Categories”. In: _Acta Informatica_ 32.1 (1995), pp. 61-78. DOI: [10.1007/BF01185405](https://doi.org/10.1007%2FBF01185405). URL: [https://doi.org/10.1007/BF01185405](https://doi.org/10.1007/BF01185405).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Guzman1995,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Acta Informatica},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Formal Identification between Tuples and Lists with an Application to List-Arithmetic Categories},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1995},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {61--78},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {32},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/acta/GuzmanOV95.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/BF01185405},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 21 Jun 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/BF01185405},<br>}
+
+:::
+
+
+
+
+
+
+
+

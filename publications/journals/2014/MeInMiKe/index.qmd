@@ -1,0 +1,96 @@
+---
+title: A tableaux-like method to infer all minimal keys
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Inmaculada Perez de Guzmán
+date: '2014'
+categories: uncategorised
+slug: 2014/MeInMiKe
+details: Log. J. {IGPL} vol. 22 (6), pages 1019--1044.
+doi: 10.1093/JIGPAL/JZU025
+---
+
+
+
+# Abstract
+
+
+The problem of enumerating a kind of minimal generator from a set of if–then rules is addressed. The if–then rules are widely used in several areas and always are associated with a closure operator in a set. So, they are used in databases as functional dependencies and in formal concept analysis as implications. In this article, the minimal generators to be enumerated are those that generate the full set, also called minimal keys. There are several ad hoc approaches corresponding to particular instances of the key finding problem, but our objective is to provide a general approach directly based on logic. More specifically we use a tableaux-like method to find all minimal keys. We select the tableaux-like approach because it allows to design new methods by incorporating new inference rules and new strategies. In this work, we present a new method which is more efficient than previous tableaux-like methods.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2014></a>[[Cor+14]](#cite-Cordero2014) P. Cordero, M. Enciso, Á. Mora, et al. “A tableaux-like method to infer all minimal keys”. In: _Log. J. IGPL_ 22.6 (2014), pp. 1019-1044. DOI: [10.1093/JIGPAL/JZU025](https://doi.org/10.1093%2FJIGPAL%2FJZU025). URL: [https://doi.org/10.1093/jigpal/jzu025](https://doi.org/10.1093/jigpal/jzu025).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cordero2014,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Log. J. {IGPL}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A tableaux-like method to infer all minimal keys},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {6},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1019--1044},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {22},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/igpl/CorderoEMG14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1093/JIGPAL/JZU025},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1093/jigpal/jzu025},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1093/JIGPAL/JZU025" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1093/JIGPAL/JZU025" class="plumx-details" data-site="plum" data-hide-when-empty="true">A tableaux-like method to infer all minimal keys</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1093/JIGPAL/JZU025"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Benito_Picazo_2016></a>[[1]](#cite-Benito_Picazo_2016) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Reducing the search space by closure and simplification paradigms: A parallel key finding method”. In: _The Journal of Supercomputing_ 73.1 (Jan. 2016), p. 75–87. ISSN: 1573-0484. DOI: [10.1007/s11227-016-1622-1](https://doi.org/10.1007%2Fs11227-016-1622-1). URL: [http://dx.doi.org/10.1007/s11227-016-1622-1](http://dx.doi.org/10.1007/s11227-016-1622-1).
+
+<a name=bib-Benito_Picazo_2017></a>[[2]](#cite-Benito_Picazo_2017) F. Benito‐Picazo, M. Enciso, C. Rossi, et al. “Enhancing the conversational process by using a logical closure operator in phenotypes implications”. In: _Mathematical Methods in the Applied Sciences_ 41.3 (Feb. 2017), p. 1089–1100. ISSN: 1099-1476. DOI: [10.1002/mma.4338](https://doi.org/10.1002%2Fmma.4338). URL: [http://dx.doi.org/10.1002/mma.4338](http://dx.doi.org/10.1002/mma.4338).
+
+<a name=bib-Cordero_20201></a>[[3]](#cite-Cordero_20201) P. Cordero, M. Enciso, Á. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 1243. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200806.001](http://dx.doi.org/10.2991/ijcis.d.200806.001).
+
+<a name=bib-Cordero_2020></a>[[4]](#cite-Cordero_2020) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized simplification logic I: reasoning with implications and classes of closure operators”. In: _International Journal of General Systems_ 49.7 (Oct. 2020), p. 724–746. ISSN: 1563-5104. DOI: [10.1080/03081079.2020.1831484](https://doi.org/10.1080%2F03081079.2020.1831484). URL: [http://dx.doi.org/10.1080/03081079.2020.1831484](http://dx.doi.org/10.1080/03081079.2020.1831484).
+
+<a name=bib-Demba_2021></a>[[5]](#cite-Demba_2021) M. Demba. “KeyFinder: An Efficient Minimal Keys Finding Algorithm For Relational Databases”. In: _Inteligencia Artificial_ 24.68 (Sep. 2021), p. 37–52. ISSN: 1137-3601. DOI: [10.4114/intartif.vol24iss68pp37-52](https://doi.org/10.4114%2Fintartif.vol24iss68pp37-52). URL: [http://dx.doi.org/10.4114/intartif.vol24iss68pp37-52](http://dx.doi.org/10.4114/intartif.vol24iss68pp37-52).
+
+<a name=bib-Leutwyler_2024></a>[[6]](#cite-Leutwyler_2024) N. Leutwyler, M. Lezoche, C. Franciosi, et al. “Methods for concept analysis and multi-relational data mining: a systematic literature review”. In: _Knowledge and Information Systems_ 66.9 (May. 2024), p. 5113–5150. ISSN: 0219-3116. DOI: [10.1007/s10115-024-02139-x](https://doi.org/10.1007%2Fs10115-024-02139-x). URL: [http://dx.doi.org/10.1007/s10115-024-02139-x](http://dx.doi.org/10.1007/s10115-024-02139-x).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[7]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+
+<a name=bib-Rodr_guez_Lorenzo_2017></a>[[8]](#cite-Rodr_guez_Lorenzo_2017) E. Rodríguez-Lorenzo, P. Cordero, M. Enciso, et al. “Canonical dichotomous direct bases”. In: _Information Sciences_ 376 (Jan. 2017), p. 39–53. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.10.004](https://doi.org/10.1016%2Fj.ins.2016.10.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.10.004](http://dx.doi.org/10.1016/j.ins.2016.10.004).
+

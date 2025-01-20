@@ -1,0 +1,90 @@
+---
+title: On homogeneous \emph{L}-bonds and heterogeneous \emph{L}-bonds
+author:
+- Jan Konecny
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2016'
+categories: uncategorised
+slug: 2016/HoHe
+details: Int. J. Gen. Syst. vol. 45 (2), pages 160--186.
+doi: 10.1080/03081079.2015.1072926
+---
+
+
+
+# Abstract
+
+
+In this paper, we deal with suitable generalizations of the notion of bond between contexts, as part of the research area of Formal Concept Analysis. We study different generalizations of the notion of bond within the L-fuzzy setting. Specifically, given a formal context, there are three prototypical pairs of concept-forming operators, and this immediately leads to three possible versions of the notion of bond (so-called homogeneous bond wrt certain pair of concept-forming operators). The first results show a close correspondence between a homogeneous bond between two contexts and certain special types of mappings between the sets of extents (or intents) of the corresponding concept lattices. Later, we introduce the so-called heterogeneous bonds (considering simultaneously two types of concept-forming operators) and generalize the previous relationship to mappings between the sets of extents (or intents) of the corresponding concept lattices.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Konecny2016></a>[[KO16]](#cite-Konecny2016) J. Konecny and M. Ojeda-Aciego. “On homogeneous _L_-bonds and heterogeneous _L_-bonds”. In: _Int. J. Gen. Syst._ 45.2 (2016), pp. 160-186. DOI: [10.1080/03081079.2015.1072926](https://doi.org/10.1080%2F03081079.2015.1072926). URL: [https://doi.org/10.1080/03081079.2015.1072926](https://doi.org/10.1080/03081079.2015.1072926).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Konecny2016,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jan Konecny and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Gen. Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On homogeneous \emph{L}-bonds and heterogeneous \emph{L}-bonds},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {160--186},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {45},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijgs/KonecnyO16.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/03081079.2015.1072926},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 20 Aug 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/03081079.2015.1072926},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/03081079.2015.1072926" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/03081079.2015.1072926" class="plumx-details" data-site="plum" data-hide-when-empty="true">On homogeneous \emph{L}-bonds and heterogeneous \emph{L}-bonds</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/03081079.2015.1072926"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2018></a>[[1]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 36–53. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.006](https://doi.org/10.1016%2Fj.fss.2017.04.006). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.006](http://dx.doi.org/10.1016/j.fss.2017.04.006).
+
+<a name=bib-Arag_n_2024></a>[[2]](#cite-Arag_n_2024) R. G. Aragón, J. Medina, and S. Molina-Ruiz. “The Notion of Bond in the Multi-adjoint Concept Lattice Framework”. In: _Advances in Artificial Intelligence_. Springer Nature Switzerland, 2024, p. 243–253. ISBN: 9783031627996. DOI: [10.1007/978-3-031-62799-6_25](https://doi.org/10.1007%2F978-3-031-62799-6_25). URL: [http://dx.doi.org/10.1007/978-3-031-62799-6_25](http://dx.doi.org/10.1007/978-3-031-62799-6_25).
+
+<a name=bib-Konecny_2016></a>[[3]](#cite-Konecny_2016) J. Konecny and M. Krupka. “Block relations in formal fuzzy concept analysis”. In: _International Journal of Approximate Reasoning_ 73 (Jun. 2016), p. 27–55. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2016.02.004](https://doi.org/10.1016%2Fj.ijar.2016.02.004). URL: [http://dx.doi.org/10.1016/j.ijar.2016.02.004](http://dx.doi.org/10.1016/j.ijar.2016.02.004).
+
+<a name=bib-Kr_dlo_2022></a>[[4]](#cite-Kr_dlo_2022) O. Krídlo, Ľ. Antoni, and S. Krajči. “Selection of appropriate bonds between <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si295.svg"><mml:mrow><mml:mi mathvariant="script">L</mml:mi></mml:mrow></mml:math>-fuzzy formal contexts for recommendation tasks”. In: _Information Sciences_ 606 (Aug. 2022), p. 21–37. ISSN: 0020-0255. DOI: [10.1016/j.ins.2022.05.047](https://doi.org/10.1016%2Fj.ins.2022.05.047). URL: [http://dx.doi.org/10.1016/j.ins.2022.05.047](http://dx.doi.org/10.1016/j.ins.2022.05.047).
+
+<a name=bib-Kr_dlo_2023></a>[[5]](#cite-Kr_dlo_2023) O. Krídlo, D. López-Rodríguez, L. Antoni, et al. “Connecting concept lattices with bonds induced by external information”. In: _Information Sciences_ 648 (Nov. 2023), p. 119498. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.119498](https://doi.org/10.1016%2Fj.ins.2023.119498). URL: [http://dx.doi.org/10.1016/j.ins.2023.119498](http://dx.doi.org/10.1016/j.ins.2023.119498).
+
+<a name=bib-P_cs_2021></a>[[6]](#cite-P_cs_2021) J. Pócs and J. Pócsová. “On Bonds for Generalized One-Sided Concept Lattices”. In: _Mathematics_ 9.3 (Jan. 2021), p. 211. ISSN: 2227-7390. DOI: [10.3390/math9030211](https://doi.org/10.3390%2Fmath9030211). URL: [http://dx.doi.org/10.3390/math9030211](http://dx.doi.org/10.3390/math9030211).
+

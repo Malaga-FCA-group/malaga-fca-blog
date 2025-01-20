@@ -1,0 +1,95 @@
+---
+title: Fuzzy congruence relations on nd-groupoids
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Gloria Gutiérrez
+- Javier Martínez
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/FuCoRe
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1684--1695.
+doi: 10.1080/00207160902721797
+---
+
+
+
+# Abstract
+
+
+In this work we introduce the notion of fuzzy congruence relation on an nd-groupoid and study conditions on the nd-groupoid that guarantee a complete lattice structure on the set of fuzzy congruence relations. The study of these conditions allowed to construct a counterexample to the statement that the set of fuzzy congruences on a hypergroupoid is a complete lattice.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2009a></a>[[Cab+09]](#cite-Cabrera2009a) I. P. Cabrera, P. Cordero, G. Gutiérrez, et al. “Fuzzy congruence relations on nd-groupoids”. In: _Int. J. Comput. Math._ 86.10\&11 (2009), pp. 1684-1695. DOI: [10.1080/00207160902721797](https://doi.org/10.1080%2F00207160902721797). URL: [https://doi.org/10.1080/00207160902721797](https://doi.org/10.1080/00207160902721797).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cabrera2009a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Gloria Guti{\a'e}rrez and Javier Mart\'\inez and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Fuzzy congruence relations on nd-groupoids},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {10{\&}11},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1684--1695},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {86},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/CabreraCGMO09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160902721797},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160902721797},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160902721797" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160902721797" class="plumx-details" data-site="plum" data-hide-when-empty="true">Fuzzy congruence relations on nd-groupoids</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160902721797"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2011></a>[[1]](#cite-Cabrera_2011) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Non-deterministic Algebraic Structures for Soft Computing”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 437–444. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_55](https://doi.org/10.1007%2F978-3-642-21498-1_55). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_55](http://dx.doi.org/10.1007/978-3-642-21498-1_55).
+
+<a name=bib-Cabrera_2010></a>[[2]](#cite-Cabrera_2010) I. Cabrera, P. Cordero, G. Gutiérrez, et al. “A coalgebraic approach to non-determinism: Applications to multilattices”. In: _Information Sciences_ 180.22 (Nov. 2010), p. 4323–4335. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.002](https://doi.org/10.1016%2Fj.ins.2010.07.002). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.002](http://dx.doi.org/10.1016/j.ins.2010.07.002).
+
+<a name=bib-Cordero_2009></a>[[3]](#cite-Cordero_2009) P. Cordero, M. Enciso, A. Mora, et al. “A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 261–269. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_33](https://doi.org/10.1007%2F978-3-642-02478-8_33). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_33](http://dx.doi.org/10.1007/978-3-642-02478-8_33).
+
+<a name=bib-Hendukolaii_2011></a>[[4]](#cite-Hendukolaii_2011) E. Hendukolaii. “On Fuzzy Homomorphisms Between Hypernear-rings”. In: _Journal of Mathematics and Computer Science_ 02.04 (May. 2011), p. 702–716. ISSN: 2008-949X. DOI: [10.22436/jmcs.02.04.16](https://doi.org/10.22436%2Fjmcs.02.04.16). URL: [http://dx.doi.org/10.22436/jmcs.02.04.16](http://dx.doi.org/10.22436/jmcs.02.04.16).
+
+<a name=bib-Koguep_2017></a>[[5]](#cite-Koguep_2017) B. B. N. Koguep and C. Lele. “Weak-hyperlattices derived from fuzzy congruences”. In: _Discussiones Mathematicae - General Algebra and Applications_ 37.1 (2017), p. 75. ISSN: 2084-0373. DOI: [10.7151/dmgaa.1260](https://doi.org/10.7151%2Fdmgaa.1260). URL: [http://dx.doi.org/10.7151/dmgaa.1260](http://dx.doi.org/10.7151/dmgaa.1260).
+
+<a name=bib-Mora_2012></a>[[6]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-_e_elja_2015></a>[[7]](#cite-_e_elja_2015) B. Šešelja, V. Stepanović, and A. Tepavčević. “Representation of lattices by fuzzy weak congruence relations”. In: _Fuzzy Sets and Systems_ 260 (Feb. 2015), p. 97–109. ISSN: 0165-0114. DOI: [10.1016/j.fss.2014.05.009](https://doi.org/10.1016%2Fj.fss.2014.05.009). URL: [http://dx.doi.org/10.1016/j.fss.2014.05.009](http://dx.doi.org/10.1016/j.fss.2014.05.009).
+

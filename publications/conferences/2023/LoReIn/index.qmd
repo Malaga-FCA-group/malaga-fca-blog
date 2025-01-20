@@ -1,0 +1,51 @@
+---
+title: A Logic to Reason About f-Indices of Inclusion over {\L}\({}_{\mbox{n}}\)
+author:
+- Tommaso Flaminio
+- Lluís Godo
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2023'
+categories: uncategorised
+slug: 2023/LoReIn
+details: Fuzzy Logic and Technology, and Aggregation Operators - 13th Conference of
+  the European Society for Fuzzy Logic and Technology, {EUSFLAT} 2023, and 12th International
+  Summer School on Aggregation Operators, {AGOP} 2023, Palma de Mallorca, Spain, September
+  4-8, 2023, Proceedings , Lecture Notes in Computer Science vol. 14069, pages 530--539.
+doi: 10.1007/978-3-031-39965-7_44
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Flaminio2023></a>[[Fla+23]](#cite-Flaminio2023) T. Flaminio, Llu\'\isGodo, N. Madrid, et al. “A Logic to Reason About f-Indices of Inclusion over Ł\(_\mboxn\)”. In: _Fuzzy Logic and Technology, and Aggregation Operators - 13th Conference of the European Society for Fuzzy Logic and Technology, EUSFLAT 2023, and 12th International Summer School on Aggregation Operators, AGOP 2023, Palma de Mallorca, Spain, September 4-8, 2023, Proceedings_. Ed. by S. Massanet, S. Montes, D. Ruiz-Aguilera and M. G. Hidalgo. Vol. 14069. Lecture Notes in Computer Science. Springer, 2023, pp. 530-539. DOI: [10.1007/978-3-031-39965-7\_44](https://doi.org/10.1007%2F978-3-031-39965-7%5C_44). URL: [https://doi.org/10.1007/978-3-031-39965-7\_44](https://doi.org/10.1007/978-3-031-39965-7\_44).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Flaminio2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Tommaso Flaminio and Llu\'\is Godo and Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Fuzzy Logic and Technology, and Aggregation Operators - 13th Conference of the European Society for Fuzzy Logic and Technology, {EUSFLAT} 2023, and 12th International Summer School on Aggregation Operators, {AGOP} 2023, Palma de Mallorca, Spain, September 4-8, 2023, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Logic to Reason About f-Indices of Inclusion over {\L}\({}_{\mbox{n}}\)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Sebastia Massanet and Susana Montes and Daniel Ruiz-Aguilera and Manuel Gonz{\a'a}lez Hidalgo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {530--539},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {14069},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/FlaminioGMO23.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-39965-7\_44},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 27 Jun 2024 20:49:01 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-39965-7\_44},<br>}
+
+:::
+
+
+
+
+
+
+
+

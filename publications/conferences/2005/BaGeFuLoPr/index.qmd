@@ -1,0 +1,82 @@
+---
+title: Multi-lattices as a Basis for Generalized Fuzzy Logic Programming
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Jorge Ruiz-Calvi~no
+date: '2005'
+categories: uncategorised
+slug: 2005/BaGeFuLoPr
+details: Fuzzy Logic and Applications, 6th International Workshop, {WILF} 2005, Crema,
+  Italy, September 15-17, 2005, Revised Selected Papers , Lecture Notes in Computer
+  Science vol. 3849, pages 61--70.
+doi: 10.1007/11676935_8
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2005a></a>[[MOR05]](#cite-Medina2005a) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calvi~no. “Multi-lattices as a Basis for Generalized Fuzzy Logic Programming”. In: _Fuzzy Logic and Applications, 6th International Workshop, WILF 2005, Crema, Italy, September 15-17, 2005, Revised Selected Papers_. Ed. by I. Bloch, A. Petrosino and A. Tettamanzi. Vol. 3849. Lecture Notes in Computer Science. Springer, 2005, pp. 61-70. DOI: [10.1007/11676935\_8](https://doi.org/10.1007%2F11676935%5C_8). URL: [https://doi.org/10.1007/11676935\_8](https://doi.org/10.1007/11676935\_8).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2005a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jorge Ruiz-Calvi~no},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Fuzzy Logic and Applications, 6th International Workshop, {WILF} 2005, Crema, Italy, September 15-17, 2005, Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Multi-lattices as a Basis for Generalized Fuzzy Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Isabelle Bloch and Alfredo Petrosino and Andrea Tettamanzi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {61--70},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3849},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/wilf/MedinaOR05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11676935\_8},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 06 Oct 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11676935\_8},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/11676935_8" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/11676935_8" class="plumx-details" data-site="plum" data-hide-when-empty="true">Multi-lattices as a Basis for Generalized Fuzzy Logic Programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/11676935_8"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Gireesan_2021></a>[[1]](#cite-Gireesan_2021) K. K. Gireesan. “Nd-M-fuzzy join semi-lattice and Nd-M-fuzzy meet semi-lattice”. In: _INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES-MODELLING, COMPUTING AND SOFT COMPUTING (CSMCS 2020)_. Vol. 2336. AIP Publishing, 2021, p. 040007. DOI: [10.1063/5.0046105](https://doi.org/10.1063%2F5.0046105). URL: [http://dx.doi.org/10.1063/5.0046105](http://dx.doi.org/10.1063/5.0046105).
+

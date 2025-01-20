@@ -1,0 +1,51 @@
+---
+title: An Approach to Fuzzy Modal Logic of Time Intervals
+author:
+- Willem Conradie
+- Dario Della Monica
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+date: '2020'
+categories: uncategorised
+slug: 2020/ApFuMoLoTiIn
+details: '{ECAI} 2020 - 24th European Conference on Artificial Intelligence, 29 August-8
+  September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including
+  10th Conference on Prestigious Applications of Artificial Intelligence {(PAIS} 2020)
+  , Frontiers in Artificial Intelligence and Applications vol. 325, pages 696--703.'
+doi: 10.3233/FAIA200156
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Conradie2020></a>[[Con+20]](#cite-Conradie2020) W. Conradie, D. D. Monica, E. Mu~noz-Velasco, et al. “An Approach to Fuzzy Modal Logic of Time Intervals”. In: _ECAI 2020 - 24th European Conference on Artificial Intelligence, 29 August-8 September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including 10th Conference on Prestigious Applications of Artificial Intelligence (PAIS 2020)_. Ed. by G. D. Giacomo, A. Catalá, B. Dilkina, M. Milano, S. Barro, A. Bugar\'\in and J. Lang. Vol. 325. Frontiers in Artificial Intelligence and Applications. IOS Press, 2020, pp. 696-703. DOI: [10.3233/FAIA200156](https://doi.org/10.3233%2FFAIA200156). URL: [https://doi.org/10.3233/FAIA200156](https://doi.org/10.3233/FAIA200156).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Conradie2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Willem Conradie and Dario Della Monica and Emilio Mu~noz-Velasco and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ECAI} 2020 - 24th European Conference on Artificial Intelligence, 29 August-8 September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including 10th Conference on Prestigious Applications of Artificial Intelligence {(PAIS} 2020)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An Approach to Fuzzy Modal Logic of Time Intervals},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Giuseppe De Giacomo and Alejandro Catal{\a'a} and Bistra Dilkina and Michela Milano and Sen{\a'e}n Barro and Alberto Bugar\'\in and J{\a'e}r{\^o}me Lang},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {696--703},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IOS} Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Frontiers in Artificial Intelligence and Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {325},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ecai/ConradieMMS20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.3233/FAIA200156},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 14 Oct 2021 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.3233/FAIA200156},<br>}
+
+:::
+
+
+
+
+
+
+
+

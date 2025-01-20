@@ -1,0 +1,81 @@
+---
+title: A multimodal logic for closeness
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/MuLoCl
+details: J. Appl. Non Class. Logics vol. 27 (3-4), pages 225--237.
+doi: 10.1080/11663081.2018.1442137
+---
+
+
+
+# Abstract
+
+
+We introduce a multimodal logic for order of magnitude reasoning which considers a new logic-based alternative to the notion of closeness, we provide an axiom system and prove its soundness and completeness.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2017></a>[[BMO17]](#cite-Burrieza2017) A. Burrieza, E. Mu~noz-Velasco, and M. Ojeda-Aciego. “A multimodal logic for closeness”. In: _J. Appl. Non Class. Logics_ 27.3-4 (2017), pp. 225-237. DOI: [10.1080/11663081.2018.1442137](https://doi.org/10.1080%2F11663081.2018.1442137). URL: [https://doi.org/10.1080/11663081.2018.1442137](https://doi.org/10.1080/11663081.2018.1442137).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {J. Appl. Non Class. Logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A multimodal logic for closeness},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {225--237},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {27},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/jancl/BurriezaMO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/11663081.2018.1442137},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 25 Apr 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/11663081.2018.1442137},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/11663081.2018.1442137" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/11663081.2018.1442137" class="plumx-details" data-site="plum" data-hide-when-empty="true">A multimodal logic for closeness</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/11663081.2018.1442137"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2019></a>[[1]](#cite-Burrieza_2019) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “A flexible logic-based approach to closeness using order of magnitude qualitative reasoning”. In: _Logic Journal of the IGPL_ 28.1 (Dec. 2019), p. 121–133. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzz076](https://doi.org/10.1093%2Fjigpal%2Fjzz076). URL: [http://dx.doi.org/10.1093/jigpal/jzz076](http://dx.doi.org/10.1093/jigpal/jzz076).
+

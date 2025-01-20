@@ -1,0 +1,35 @@
+---
+title: On basic conditions to generate multi-adjoint concept lattices via Galois connections
+author:
+- Juan Carlos Díaz-Moreno
+- Jesús Medina
+- aciego
+date: '2014'
+categories: uncategorised
+slug: 2014/BaCoGeCoLaViGaCo
+details: Int. J. Gen. Syst. vol. 43 (2), pages 149--161.
+doi: 10.1080/03081079.2013.879302
+
+---
+
+
+# Abstract
+
+
+This paper introduces sufficient and necessary conditions with respect to the fuzzy operators considered in a multi-adjoint frame under which the standard combinations of multi-adjoint sufficiency, possibility, and necessity operators form (antitone or isotone) Galois connections. The underlying idea is to study the minimal algebraic requirements so that the concept-forming operators (defined using the same syntactical form than the extension and intension operators of multi-adjoint concept lattices) form a Galois connection. As a consequence, given a relational database, we have much more possibilities to construct concept lattices associated with it, so that we can choose the specific version which better suits the situation.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

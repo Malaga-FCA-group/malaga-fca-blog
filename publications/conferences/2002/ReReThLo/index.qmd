@@ -1,0 +1,84 @@
+---
+title: Restricted Delta-Trees and Reduction Theorems in Multiple-Valued Logics
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '2002'
+categories: uncategorised
+slug: 2002/ReReThLo
+details: Advances in Artificial Intelligence - {IBERAMIA} 2002, 8th Ibero-American
+  Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings , Lecture Notes
+  in Computer Science vol. 2527, pages 161--171.
+doi: 10.1007/3-540-36131-6_17
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman2002a></a>[[GOA02]](#cite-Guzman2002a) I. P. de Guzmán, M. Ojeda-Aciego, and Agust\'\inValverde. “Restricted Delta-Trees and Reduction Theorems in Multiple-Valued Logics”. In: _Advances in Artificial Intelligence - IBERAMIA 2002, 8th Ibero-American Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings_. Ed. by F. J. Garijo, J. C. R. Santos and M. Toro. Vol. 2527. Lecture Notes in Computer Science. Springer, 2002, pp. 161-171. DOI: [10.1007/3-540-36131-6\_17](https://doi.org/10.1007%2F3-540-36131-6%5C_17). URL: [https://doi.org/10.1007/3-540-36131-6\_17](https://doi.org/10.1007/3-540-36131-6\_17).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Guzman2002a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Artificial Intelligence - {IBERAMIA} 2002, 8th Ibero-American Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Restricted Delta-Trees and Reduction Theorems in Multiple-Valued Logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco J. Garijo and Jos{\a'e} Crist{\a'o}bal Riquelme Santos and Miguel Toro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {161--171},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2527},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iberamia/GuzmanOV02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-36131-6\_17},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:40 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-36131-6\_17},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/3-540-36131-6_17" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/3-540-36131-6_17" class="plumx-details" data-site="plum" data-hide-when-empty="true">Restricted Delta-Trees and Reduction Theorems in Multiple-Valued Logics</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/3-540-36131-6_17"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Fortes_2013></a>[[1]](#cite-Fortes_2013) I. Fortes, M. Galán, G. Aguilera, et al. “A logic with imprecise probabilities and an application to automated reasoning using rewriting techniques”. In: _Fuzzy Sets and Systems_ 218 (May. 2013), p. 53–72. ISSN: 0165-0114. DOI: [10.1016/j.fss.2012.08.004](https://doi.org/10.1016%2Fj.fss.2012.08.004). URL: [http://dx.doi.org/10.1016/j.fss.2012.08.004](http://dx.doi.org/10.1016/j.fss.2012.08.004).
+
+<a name=bib-Ojeda_Aciego_2004></a>[[2]](#cite-Ojeda_Aciego_2004) M. Ojeda-Aciego and A. Valverde. “tascpl: TAS Solver for Classical Propositional Logic”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2004, p. 738–741. ISBN: 9783540302278. DOI: [10.1007/978-3-540-30227-8_70](https://doi.org/10.1007%2F978-3-540-30227-8_70). URL: [http://dx.doi.org/10.1007/978-3-540-30227-8_70](http://dx.doi.org/10.1007/978-3-540-30227-8_70).
+

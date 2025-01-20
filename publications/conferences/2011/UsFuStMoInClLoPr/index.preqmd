@@ -1,0 +1,36 @@
+---
+title: On the use of fuzzy stable models for inconsistent classical logic programs
+author:
+- Nicolás Madrid
+- aciego
+date: '2011'
+categories: uncategorised
+slug: 2011/UsFuStMoInClLoPr
+details: Proceedings of the {IEEE} Symposium on Foundations of Computational Intelligence,
+  {FOCI} 2011, part of the {IEEE} Symposium Series on Computational Intelligence 2011,
+  Paris, France, 11-15 April 2011 , pages 115--121.
+doi: 10.1109/FOCI.2011.5949476
+
+---
+
+
+# Abstract
+
+
+Based on the recently proved fact that the continuity of the connectives involved in a normal residuated logic program ensures the existence of fuzzy stable models, we focus on the assignment of a fuzzy stable model semantics to inconsistent classical logic programs on the basis of the separation of the notion of inconsistency and uncertainty.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

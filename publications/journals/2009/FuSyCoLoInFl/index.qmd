@@ -1,0 +1,54 @@
+---
+title: Functional systems in the context of temporal{\texttimes}modal logics with
+  indexed flows
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/FuSyCoLoInFl
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1696--1706.
+doi: 10.1080/00207160902795619
+---
+
+
+
+# Abstract
+
+
+Abstract We consider logics which define different properties of functions – such as injectivity, surjectivity, monotonicity, etc. – in the context of temporal×modal logic. In this type of logics, the possible worlds semantics is modified by considering each world as a temporal flow and using accessibility functions to represent the connection among them. This approach is adequate to model interactions between processes with clocks that can be either synchronized or not. We study the definability and give indexed axiomatic systems for these properties. Keywords: temporal logicmodal logiclogic in computer sciencedefinability T×W-logicsfunctional axiomatic systems 2000 AMS Subject Classifications : 03B4403B4503B70 Acknowledgements Partially supported by the Spanish research projects TIN2006-15455-C03-01 and P6-FQM-02049.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2009></a>[[BGM09]](#cite-Burrieza2009) A. Burrieza, I. P. de Guzmán, and E. Mu~noz-Velasco. “Functional systems in the context of temporal×modal logics with indexed flows”. In: _Int. J. Comput. Math._ 86.10\&11 (2009), pp. 1696-1706. DOI: [10.1080/00207160902795619](https://doi.org/10.1080%2F00207160902795619). URL: [https://doi.org/10.1080/00207160902795619](https://doi.org/10.1080/00207160902795619).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2009,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Inman P. {de Guzm{\a'a}n} and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Functional systems in the context of temporal{\texttimes}modal logics with indexed flows},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {10{\&}11},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1696--1706},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {86},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/BurriezaGM09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160902795619},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 06 Jun 2017 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160902795619},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2010></a>[[1]](#cite-Burrieza_2010) A. Burrieza, I. P. de Guzmán, and E. Muñoz‐Velasco. “Analyzing completeness of axiomatic functional systems for temporal × modal logics”. In: _Mathematical Logic Quarterly_ 56.1 (Jan. 2010), p. 89–102. ISSN: 1521-3870. DOI: [10.1002/malq.200810038](https://doi.org/10.1002%2Fmalq.200810038). URL: [http://dx.doi.org/10.1002/malq.200810038](http://dx.doi.org/10.1002/malq.200810038).
+

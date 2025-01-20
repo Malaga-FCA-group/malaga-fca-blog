@@ -1,0 +1,35 @@
+---
+title: A new deduction system for deciding validity in modal logic {K}
+author:
+- Joanna Golinska-Pilarek
+- ejmunoz
+- amora
+date: '2011'
+categories: uncategorised
+slug: 2011/NeDeSyDeVaMoLo
+details: Log. J. {IGPL} vol. 19 (2), pages 425--434.
+doi: 10.1093/JIGPAL/JZQ033
+
+---
+
+
+# Abstract
+
+
+A new deduction system for deciding validity for the minimal decidable normal modal logic K is presented in this article. Modal logics could be very helpful in modelling dynamic and reactive systems such as bio-inspired systems and process algebras. In fact, recently the Connectionist Modal Logics has been presented, which combines the strengths of modal logics and neural networks. Thus, modal logic K is the basis for these approaches. Soundness, completeness and the fact that the system itself is a decision procedure are proved in this article. The main advantages of this approach are: first, the system is deterministic, i.e. it generates one proof tree for a given formula; second, the system is a validity-checker, hence it generates a proof of a formula (if such exists); and third, the language of deduction and the language of a logic coincide. Some of these advantages are compared with other classical approaches.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

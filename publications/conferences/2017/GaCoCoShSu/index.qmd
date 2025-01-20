@@ -1,0 +1,84 @@
+---
+title: 'Galois connections in computational intelligence: {A} short survey'
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/GaCoCoShSu
+details: 2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI} 2017,
+  Honolulu, HI, USA, November 27 - Dec. 1, 2017 , pages 1--7.
+doi: 10.1109/SSCI.2017.8285310
+---
+
+
+
+# Abstract
+
+
+The construction of Galois connections between different structures provides a number of advantages, both from the theoretical and the applied standpoints. In this paper, we survey some works on Galois connections focused essentially on certain aspects of Computational Intelligence.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2017c></a>[[CCO17]](#cite-Cabrera2017c) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Galois connections in computational intelligence: A short survey”. In: _2017 IEEE Symposium Series on Computational Intelligence, SSCI 2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017_. IEEE, 2017, pp. 1-7. DOI: [10.1109/SSCI.2017.8285310](https://doi.org/10.1109%2FSSCI.2017.8285310). URL: [https://doi.org/10.1109/SSCI.2017.8285310](https://doi.org/10.1109/SSCI.2017.8285310).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2017c,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI} 2017, Honolulu, HI, USA, November 27 - Dec. 1, 2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Galois connections in computational intelligence: {A} short survey},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ssci/CabreraCO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/SSCI.2017.8285310},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 27 Dec 2019 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/SSCI.2017.8285310},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/SSCI.2017.8285310" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/SSCI.2017.8285310" class="plumx-details" data-site="plum" data-hide-when-empty="true">Galois connections in computational intelligence: {A} short survey</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/SSCI.2017.8285310"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2020></a>[[1]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Galois Connections Between Unbalanced Structures in a Fuzzy Framework”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2020, p. 736–747. ISBN: 9783030501532. DOI: [10.1007/978-3-030-50153-2_54](https://doi.org/10.1007%2F978-3-030-50153-2_54). URL: [http://dx.doi.org/10.1007/978-3-030-50153-2_54](http://dx.doi.org/10.1007/978-3-030-50153-2_54).
+
+<a name=bib-Ferr__2020></a>[[2]](#cite-Ferr__2020) S. Ferré, M. Huchard, M. Kaytoue, et al. “Formal Concept Analysis: From Knowledge Discovery to Knowledge Processing”. In: _A Guided Tour of Artificial Intelligence Research_. Springer International Publishing, 2020, p. 411–445. ISBN: 9783030061678. DOI: [10.1007/978-3-030-06167-8_13](https://doi.org/10.1007%2F978-3-030-06167-8_13). URL: [http://dx.doi.org/10.1007/978-3-030-06167-8_13](http://dx.doi.org/10.1007/978-3-030-06167-8_13).
+

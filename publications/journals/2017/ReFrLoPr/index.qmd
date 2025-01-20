@@ -1,0 +1,104 @@
+---
+title: On reductants in the framework of multi-adjoint logic programming
+author:
+- Pascual Julián Iranzo
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/ReFrLoPr
+details: Fuzzy Sets Syst. vol. 317 , pages 27--43.
+doi: 10.1016/J.FSS.2016.09.004
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Iranzo2017></a>[[IMO17]](#cite-Iranzo2017) P. J. Iranzo, J. Medina, and M. Ojeda-Aciego. “On reductants in the framework of multi-adjoint logic programming”. In: _Fuzzy Sets Syst._ 317 (2017), pp. 27-43. DOI: [10.1016/J.FSS.2016.09.004](https://doi.org/10.1016%2FJ.FSS.2016.09.004). URL: [https://doi.org/10.1016/j.fss.2016.09.004](https://doi.org/10.1016/j.fss.2016.09.004).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Iranzo2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pascual Juli{\a'a}n Iranzo and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On reductants in the framework of multi-adjoint logic programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {27--43},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {317},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/IranzoMO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2016.09.004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2016.09.004},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2016.09.004" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2016.09.004" class="plumx-details" data-site="plum" data-hide-when-empty="true">On reductants in the framework of multi-adjoint logic programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2016.09.004"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2017></a>[[1]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Chac_n_G_mez_2024></a>[[2]](#cite-Chac_n_G_mez_2024) F. Chacón-Gómez, M. E. Cornejo, J. Medina, et al. “Rough set decision algorithms for modeling with uncertainty”. In: _Journal of Computational and Applied Mathematics_ 437 (Feb. 2024), p. 115413. ISSN: 0377-0427. DOI: [10.1016/j.cam.2023.115413](https://doi.org/10.1016%2Fj.cam.2023.115413). URL: [http://dx.doi.org/10.1016/j.cam.2023.115413](http://dx.doi.org/10.1016/j.cam.2023.115413).
+
+<a name=bib-Cornejo_2022></a>[[3]](#cite-Cornejo_2022) M. E. Cornejo, L. Fariñas del Cerro, and J. Medina. “Multi-adjoint lattice logic and truth-stressing hedges”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 43–65. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.03.006](https://doi.org/10.1016%2Fj.fss.2022.03.006). URL: [http://dx.doi.org/10.1016/j.fss.2022.03.006](http://dx.doi.org/10.1016/j.fss.2022.03.006).
+
+<a name=bib-Cornejo_20221></a>[[4]](#cite-Cornejo_20221) M. E. Cornejo, L. Fariñas del Cerro, and J. Medina. “Multi-adjoint Lattice Logic. Properties and Query Answering”. In: _Progress in Artificial Intelligence_. Springer International Publishing, 2022, p. 701–712. ISBN: 9783031164743. DOI: [10.1007/978-3-031-16474-3_57](https://doi.org/10.1007%2F978-3-031-16474-3_57). URL: [http://dx.doi.org/10.1007/978-3-031-16474-3_57](http://dx.doi.org/10.1007/978-3-031-16474-3_57).
+
+<a name=bib-Cornejo_20201></a>[[5]](#cite-Cornejo_20201) M. E. Cornejo, D. Lobo, and J. Medina. “Extended multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 388 (Jun. 2020), p. 124–145. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.016](https://doi.org/10.1016%2Fj.fss.2019.03.016). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.016](http://dx.doi.org/10.1016/j.fss.2019.03.016).
+
+<a name=bib-Cornejo_2017></a>[[6]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Measuring the Incoherent Information in Multi-adjoint Normal Logic Programs”. In: _Advances in Fuzzy Logic and Technology 2017_. Springer International Publishing, Sep. 2017, p. 521–533. ISBN: 9783319668307. DOI: [10.1007/978-3-319-66830-7_47](https://doi.org/10.1007%2F978-3-319-66830-7_47). URL: [http://dx.doi.org/10.1007/978-3-319-66830-7_47](http://dx.doi.org/10.1007/978-3-319-66830-7_47).
+
+<a name=bib-Cornejo_2020></a>[[7]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Relating Multi-Adjoint Normal Logic Programs to Core Fuzzy Answer Set Programs from a Semantical Approach”. In: _Mathematics_ 8.6 (Jun. 2020), p. 881. ISSN: 2227-7390. DOI: [10.3390/math8060881](https://doi.org/10.3390%2Fmath8060881). URL: [http://dx.doi.org/10.3390/math8060881](http://dx.doi.org/10.3390/math8060881).
+
+<a name=bib-Cornejo_2021></a>[[8]](#cite-Cornejo_2021) M. E. Cornejo and J. Medina. “Right Adjoint Algebras Versus Operator Left Residuated Posets”. In: _Rough Sets_. Springer International Publishing, 2021, p. 180–191. ISBN: 9783030873349. DOI: [10.1007/978-3-030-87334-9_15](https://doi.org/10.1007%2F978-3-030-87334-9_15). URL: [http://dx.doi.org/10.1007/978-3-030-87334-9_15](http://dx.doi.org/10.1007/978-3-030-87334-9_15).
+
+<a name=bib-D_az_Moreno_2022></a>[[9]](#cite-D_az_Moreno_2022) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Fuzzy logic programs as hypergraphs. Termination results”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 22–42. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.02.001](https://doi.org/10.1016%2Fj.fss.2022.02.001). URL: [http://dx.doi.org/10.1016/j.fss.2022.02.001](http://dx.doi.org/10.1016/j.fss.2022.02.001).
+
+<a name=bib-Kondratenko_20181></a>[[10]](#cite-Kondratenko_20181) Y. P. Kondratenko, G. Kondratenko, and I. Sidenko. “Intelligent Decision Support System for Selecting the University-Industry Cooperation Model Using Modified Antecedent-Consequent Method”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 596–607. ISBN: 9783319914763. DOI: [10.1007/978-3-319-91476-3_49](https://doi.org/10.1007%2F978-3-319-91476-3_49). URL: [http://dx.doi.org/10.1007/978-3-319-91476-3_49](http://dx.doi.org/10.1007/978-3-319-91476-3_49).
+
+<a name=bib-Kondratenko_2018></a>[[11]](#cite-Kondratenko_2018) Y. P. Kondratenko, O. V. Kozlov, and O. V. Korobko. “Two Modifications of the Automatic Rule Base Synthesis for Fuzzy Control and Decision Making Systems”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 570–582. ISBN: 9783319914763. DOI: [10.1007/978-3-319-91476-3_47](https://doi.org/10.1007%2F978-3-319-91476-3_47). URL: [http://dx.doi.org/10.1007/978-3-319-91476-3_47](http://dx.doi.org/10.1007/978-3-319-91476-3_47).
+
+<a name=bib-Lv_2018></a>[[12]](#cite-Lv_2018) X. Lv, D. Zhou, Y. Tang, et al. “An Improved Test Selection Optimization Model Based on Fault Ambiguity Group Isolation and Chaotic Discrete PSO”. In: _Complexity_ 2018.1 (Jan. 2018). Ed. by L. T. Kóczy. ISSN: 1099-0526. DOI: [10.1155/2018/3942723](https://doi.org/10.1155%2F2018%2F3942723). URL: [http://dx.doi.org/10.1155/2018/3942723](http://dx.doi.org/10.1155/2018/3942723).
+
+<a name=bib-Madrid_2023></a>[[13]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+

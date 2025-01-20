@@ -1,0 +1,49 @@
+---
+title: Linking L-Chu Correspondences and Completely Lattice L-ordered Sets
+author:
+- Ondrej Kridlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/LiCoCoLaSe
+details: Proceedings of The Ninth International Conference on Concept Lattices and
+  Their Applications, Fuengirola (M{\'{a}}laga), Spain, October 11-14, 2012 , {CEUR}
+  Workshop Proceedings vol. 972, pages 233--244.
+---
+
+
+
+# Abstract
+
+
+Continuing our categorical study of L-fuzzy extensions of formal concept analysis, we provide a representation theorem for the
+category of L-Chu correspondences between L-formal contexts and prove that it is equivalent to the category of completely lattice L-ordered sets.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2012a></a>[[KO12]](#cite-Kridlo2012a) O. Kridlo and M. Ojeda-Aciego. “Linking L-Chu Correspondences and Completely Lattice L-ordered Sets”. In: _Proceedings of The Ninth International Conference on Concept Lattices and Their Applications, Fuengirola (Málaga), Spain, October 11-14, 2012_. Ed. by L. Szathmary and U. Priss. Vol. 972. CEUR Workshop Proceedings. CEUR-WS.org, 2012, pp. 233-244. URL: [https://ceur-ws.org/Vol-972/paper20.pdf](https://ceur-ws.org/Vol-972/paper20.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Kridlo2012a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kridlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of The Ninth International Conference on Concept Lattices and Their Applications, Fuengirola (M{\'{a}}laga), Spain, October 11-14, 2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Linking L-Chu Correspondences and Completely Lattice L-ordered Sets},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Laszlo Szathmary and Uta Priss},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {233--244},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {972},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Continuing our categorical study of L-fuzzy extensions of formal concept analysis, we provide a representation theorem for the<br>&nbsp;&nbsp;&nbsp;&nbsp;category of L-Chu correspondences between L-formal contexts and prove that it is equivalent to the category of completely lattice L-ordered sets.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/KridloO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-972/paper20.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

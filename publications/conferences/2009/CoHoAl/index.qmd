@@ -1,0 +1,50 @@
+---
+title: On Congruences and Homomorphisms on Some Non-deterministic Algebras
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Gloria Gutiérrez
+- Javier Martínez
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/CoHoAl
+details: '{IJCCI} 2009 - Proceedings of the International Joint Conference on Computational
+  Intelligence, Funchal, Madeira, Portugal, October 5-7, 2009 , pages 59--67.'
+---
+
+
+
+# Abstract
+
+
+Starting with the underlying motivation of developing a general theory of L-fuzzy sets where L is a multilat- tice (a particular case of non-deterministic algebra), we study the relationship between the crisp notions of congruence, homomorphism and substructure on some non-deterministic algebras which have been used in the literature, i.e. hypergroups, and join spaces. Moreover, we provide suitable extensions of these notions to the fuzzy case.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2009b></a>[[Cab+09]](#cite-Cabrera2009b) I. P. Cabrera, P. Cordero, G. Gutiérrez, et al. “On Congruences and Homomorphisms on Some Non-deterministic Algebras”. In: _IJCCI 2009 - Proceedings of the International Joint Conference on Computational Intelligence, Funchal, Madeira, Portugal, October 5-7, 2009_. Ed. by A. D. Correia, A. C. Rosa and K. Madani. INSTICC Press, 2009, pp. 59-67.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2009b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Gloria Guti{\a'e}rrez and Javier Mart\'\inez and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IJCCI} 2009 - Proceedings of the International Joint Conference on Computational Intelligence, Funchal, Madeira, Portugal, October 5-7, 2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Congruences and Homomorphisms on Some Non-deterministic Algebras},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ant{\a'o}nio Dourado Correia and Agostinho C. Rosa and Kurosh Madani},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {59--67},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{INSTICC} Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Starting with the underlying motivation of developing a general theory of L-fuzzy sets where L is a multilat- tice (a particular case of non-deterministic algebra), we study the relationship between the crisp notions of congruence, homomorphism and substructure on some non-deterministic algebras which have been used in the literature, i.e. hypergroups, and join spaces. Moreover, we provide suitable extensions of these notions to the fuzzy case.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ijcci/CabreraCGMO09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Aug 2023 01:00:00 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

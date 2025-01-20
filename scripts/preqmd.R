@@ -9,8 +9,14 @@ process_preqmd <- function(file) {
     yaml::yaml.load()
 
   if (!is.null(header$doi)) {
-    if (nchar(header$doi) < 3) {
+    if ((length(header$doi) == 0) || (nchar(header$doi) < 3)) {
       header$doi <- NULL
+    } else {
+      header$doi <- header$doi |>
+        stringr::str_replace_all(
+          stringr::fixed("\\_"),
+          "_"
+        )
     }
   }
 
@@ -346,7 +352,7 @@ prepare_for_citations <- function(header, folder) {
       )
     }
 
-    if (!is.null(L$citations) && (L$citations[1] != "NULL")) {
+    if (!is.null(L$citations) && (length(L$citations) > 0) && (L$citations[1] != "NULL")) {
       cat(L$citations,
         file = file.path(folder, "citations.txt"),
         sep = "\n"
@@ -365,14 +371,20 @@ citation_history <- function(header, folder) {
 
   if (file.exists(this_file)) {
     string <- c(
-      "# Bibliometric data\n\n", 
-      "The following data has been extracted from free resources such as [OpenAlex](https://openalex.org/) or [Dimensions](https://app.dimensions.ai/).",
+      "# Bibliometric data\n\n",
+      "The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).",
       "",
       ifelse(!is.null(header$doi),
-      glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<span class="__dimensions_badge_embed__" data-doi="{header$doi}" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>'), ""),
+        glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<span class="__dimensions_badge_embed__" data-doi="{header$doi}" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>'), ""
+      ),
       "",
       ifelse(!is.null(header$doi),
-      glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<a href="https://plu.mx/plum/a/?doi={header$doi}" class="plumx-details" data-site="plum" data-hide-when-empty="true">{header$title}</a></div>'), ""),
+        glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<a href="https://plu.mx/plum/a/?doi={header$doi}" class="plumx-details" data-site="plum" data-hide-when-empty="true">{header$title}</a></div>'), ""
+      ),
+      "",
+      ifelse(!is.null(header$doi),
+        glue::glue('<div style="display: flex; justify-content: center; align-items: center; height: 100%;">\n<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="{header$doi}"></div></div>'), ""
+      ),
       "\n\n## Cites\n",
       "The following graph plots the number of cites received by this work from its publication, on a yearly basis.\n",
       "```{r citing2}", "#| echo: false", "#| results: asis",

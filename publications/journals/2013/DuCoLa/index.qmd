@@ -1,0 +1,127 @@
+---
+title: Dual multi-adjoint concept lattices
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/DuCoLa
+details: Inf. Sci. vol. 225 , pages 47--54.
+doi: 10.1016/J.INS.2012.10.030
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2013></a>[[MO13]](#cite-Medina2013) J. Medina and M. Ojeda-Aciego. “Dual multi-adjoint concept lattices”. In: _Inf. Sci._ 225 (2013), pp. 47-54. DOI: [10.1016/J.INS.2012.10.030](https://doi.org/10.1016%2FJ.INS.2012.10.030). URL: [https://doi.org/10.1016/j.ins.2012.10.030](https://doi.org/10.1016/j.ins.2012.10.030).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Medina2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Inf. Sci.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Dual multi-adjoint concept lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {47--54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {225},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/isci/MedinaO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.INS.2012.10.030},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.ins.2012.10.030},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.INS.2012.10.030" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.INS.2012.10.030" class="plumx-details" data-site="plum" data-hide-when-empty="true">Dual multi-adjoint concept lattices</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.INS.2012.10.030"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Alcalde_20171></a>[[1]](#cite-Alcalde_20171) C. Alcalde and A. Burusco. “Multivalued contexts associated with criteria”. In: _International Journal of General Systems_ 47.2 (Dec. 2017), p. 118–136. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1410147](https://doi.org/10.1080%2F03081079.2017.1410147). URL: [http://dx.doi.org/10.1080/03081079.2017.1410147](http://dx.doi.org/10.1080/03081079.2017.1410147).
+
+<a name=bib-Alcalde_2019></a>[[2]](#cite-Alcalde_2019) C. Alcalde and A. Burusco. “Reduction of the size ofL-fuzzy contexts. A tool for differential diagnoses of diseases”. In: _International Journal of General Systems_ 48.7 (May. 2019), p. 692–712. ISSN: 1563-5104. DOI: [10.1080/03081079.2019.1620740](https://doi.org/10.1080%2F03081079.2019.1620740). URL: [http://dx.doi.org/10.1080/03081079.2019.1620740](http://dx.doi.org/10.1080/03081079.2019.1620740).
+
+<a name=bib-Alcalde_2018></a>[[3]](#cite-Alcalde_2018) C. Alcalde and A. Burusco. “Study of the Relevance of Objects and Attributes of L-fuzzy Contexts Using Overlap Indexes”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 537–548. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_46](https://doi.org/10.1007%2F978-3-319-91473-2_46). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_46](http://dx.doi.org/10.1007/978-3-319-91473-2_46).
+
+<a name=bib-Alcalde_20151></a>[[4]](#cite-Alcalde_20151) C. Alcalde and A. Burusco. “WOWA operators in fuzzy context sequences”. In: _Proceedings of the 2015 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology_. ifsa-eusflat-15. Atlantis Press, 2015. DOI: [10.2991/ifsa-eusflat-15.2015.52](https://doi.org/10.2991%2Fifsa-eusflat-15.2015.52). URL: [http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.52](http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.52).
+
+<a name=bib-Alcalde_2017></a>[[5]](#cite-Alcalde_2017) C. Alcalde, A. Burusco, H. Bustince, et al. “Linking Mathematical Morphology andL-Fuzzy Concepts”. In: _International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems_ 25.Suppl. 1 (Dec. 2017), p. 73–98. ISSN: 1793-6411. DOI: [10.1142/s0218488517400049](https://doi.org/10.1142%2Fs0218488517400049). URL: [http://dx.doi.org/10.1142/s0218488517400049](http://dx.doi.org/10.1142/s0218488517400049).
+
+<a name=bib-Alcalde_2016></a>[[6]](#cite-Alcalde_2016) C. Alcalde, A. Burusco, H. Bustince, et al. “Evolution in time of L-fuzzy context sequences”. In: _Information Sciences_ 326 (Jan. 2016), p. 202–214. ISSN: 0020-0255. DOI: [10.1016/j.ins.2015.07.050](https://doi.org/10.1016%2Fj.ins.2015.07.050). URL: [http://dx.doi.org/10.1016/j.ins.2015.07.050](http://dx.doi.org/10.1016/j.ins.2015.07.050).
+
+<a name=bib-Alcalde_2015></a>[[7]](#cite-Alcalde_2015) C. Alcalde, A. Burusco, and R. Fuentes-González. “The use of two relations in L-fuzzy contexts”. In: _Information Sciences_ 301 (Apr. 2015), p. 1–12. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.12.057](https://doi.org/10.1016%2Fj.ins.2014.12.057). URL: [http://dx.doi.org/10.1016/j.ins.2014.12.057](http://dx.doi.org/10.1016/j.ins.2014.12.057).
+
+<a name=bib-Antoni_2016></a>[[8]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[9]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 36–53. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.006](https://doi.org/10.1016%2Fj.fss.2017.04.006). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.006](http://dx.doi.org/10.1016/j.fss.2017.04.006).
+
+<a name=bib-Antoni_2015></a>[[10]](#cite-Antoni_2015) L. Antoni, S. Krajči, and O. Krídlo. “Randomized Fuzzy Formal Contexts and Relevance of One-Sided Concepts”. In: _Formal Concept Analysis_. Springer International Publishing, 2015, p. 183–199. ISBN: 9783319195452. DOI: [10.1007/978-3-319-19545-2_12](https://doi.org/10.1007%2F978-3-319-19545-2_12). URL: [http://dx.doi.org/10.1007/978-3-319-19545-2_12](http://dx.doi.org/10.1007/978-3-319-19545-2_12).
+
+<a name=bib-Antoni_2017></a>[[11]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Chen_2015></a>[[12]](#cite-Chen_2015) J. Chen, J. Li, Y. Lin, et al. “Relations of reduction between covering generalized rough sets and concept lattices”. In: _Information Sciences_ 304 (May. 2015), p. 16–27. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.11.053](https://doi.org/10.1016%2Fj.ins.2014.11.053). URL: [http://dx.doi.org/10.1016/j.ins.2014.11.053](http://dx.doi.org/10.1016/j.ins.2014.11.053).
+
+<a name=bib-Gong_2015></a>[[13]](#cite-Gong_2015) F. Gong, M. Shao, and G. Qiu. “Concept granular computing systems and their approximation operators”. In: _International Journal of Machine Learning and Cybernetics_ 8.2 (Nov. 2015), p. 627–640. ISSN: 1868-808X. DOI: [10.1007/s13042-015-0457-z](https://doi.org/10.1007%2Fs13042-015-0457-z). URL: [http://dx.doi.org/10.1007/s13042-015-0457-z](http://dx.doi.org/10.1007/s13042-015-0457-z).
+
+<a name=bib-Hala__2017></a>[[14]](#cite-Hala__2017) R. Halaš, R. Mesiar, and J. Pócs. “Description of sup- and inf-preserving aggregation functions via families of clusters in data tables”. In: _Information Sciences_ 400–401 (Aug. 2017), p. 173–183. ISSN: 0020-0255. DOI: [10.1016/j.ins.2017.02.060](https://doi.org/10.1016%2Fj.ins.2017.02.060). URL: [http://dx.doi.org/10.1016/j.ins.2017.02.060](http://dx.doi.org/10.1016/j.ins.2017.02.060).
+
+<a name=bib-Konecny_2014></a>[[15]](#cite-Konecny_2014) J. Konecny, J. Medina, and M. Ojeda-Aciego. “Multi-adjoint concept lattices with heterogeneous conjunctors and hedges”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Mar. 2014), p. 73–89. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9405-y](https://doi.org/10.1007%2Fs10472-014-9405-y). URL: [http://dx.doi.org/10.1007/s10472-014-9405-y](http://dx.doi.org/10.1007/s10472-014-9405-y).
+
+<a name=bib-Konecny_2015></a>[[16]](#cite-Konecny_2015) J. Konecny and M. Ojeda-Aciego. “On homogeneousL-bonds and heterogeneousL-bonds”. In: _International Journal of General Systems_ 45.2 (Oct. 2015), p. 160–186. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072926](https://doi.org/10.1080%2F03081079.2015.1072926). URL: [http://dx.doi.org/10.1080/03081079.2015.1072926](http://dx.doi.org/10.1080/03081079.2015.1072926).
+
+<a name=bib-Kr_dlo_2016></a>[[17]](#cite-Kr_dlo_2016) O. Krídlo, S. Krajči, and L. Antoni. “Formal concept analysis of higher order”. In: _International Journal of General Systems_ 45.2 (Jan. 2016), p. 116–134. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072924](https://doi.org/10.1080%2F03081079.2015.1072924). URL: [http://dx.doi.org/10.1080/03081079.2015.1072924](http://dx.doi.org/10.1080/03081079.2015.1072924).
+
+<a name=bib-Kridlo_2017></a>[[18]](#cite-Kridlo_2017) O. Kridlo and M. Ojeda-Aciego. “Extending formal concept analysis using intuitionistic l-fuzzy sets”. In: _2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2017, p. 1–6. DOI: [10.1109/fuzz-ieee.2017.8015570](https://doi.org/10.1109%2Ffuzz-ieee.2017.8015570). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570](http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570).
+
+<a name=bib-Li_2015></a>[[19]](#cite-Li_2015) J. Li, C. Huang, W. Xu, et al. “Cognitive concept learning via granular computing for big data”. In: _2015 International Conference on Machine Learning and Cybernetics (ICMLC)_. IEEE, Jul. 2015, p. 289–294. DOI: [10.1109/icmlc.2015.7340937](https://doi.org/10.1109%2Ficmlc.2015.7340937). URL: [http://dx.doi.org/10.1109/icmlc.2015.7340937](http://dx.doi.org/10.1109/icmlc.2015.7340937).
+
+<a name=bib-Li_20151></a>[[20]](#cite-Li_20151) J. Li, C. Mei, W. Xu, et al. “Concept learning via granular computing: A cognitive viewpoint”. In: _Information Sciences_ 298 (Mar. 2015), p. 447–467. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.12.010](https://doi.org/10.1016%2Fj.ins.2014.12.010). URL: [http://dx.doi.org/10.1016/j.ins.2014.12.010](http://dx.doi.org/10.1016/j.ins.2014.12.010).
+
+<a name=bib-Li_2016></a>[[21]](#cite-Li_2016) K. Li, M. Shao, and W. Wu. “A data reduction method in formal fuzzy contexts”. In: _International Journal of Machine Learning and Cybernetics_ 8.4 (Jan. 2016), p. 1145–1155. ISSN: 1868-808X. DOI: [10.1007/s13042-015-0485-8](https://doi.org/10.1007%2Fs13042-015-0485-8). URL: [http://dx.doi.org/10.1007/s13042-015-0485-8](http://dx.doi.org/10.1007/s13042-015-0485-8).
+
+<a name=bib-Urbanova_2014></a>[[22]](#cite-Urbanova_2014) L. Urbanova and V. Vychodil. “Derivation digraphs for dependencies in ordinal and similarity-based data”. In: _Information Sciences_ 268 (Jun. 2014), p. 381–396. ISSN: 0020-0255. DOI: [10.1016/j.ins.2013.12.046](https://doi.org/10.1016%2Fj.ins.2013.12.046). URL: [http://dx.doi.org/10.1016/j.ins.2013.12.046](http://dx.doi.org/10.1016/j.ins.2013.12.046).
+
+<a name=bib-Vychodil_2016></a>[[23]](#cite-Vychodil_2016) V. Vychodil. “Computing sets of graded attribute implications with witnessed non-redundancy”. In: _Information Sciences_ 351 (Jul. 2016), p. 90–100. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.03.004](https://doi.org/10.1016%2Fj.ins.2016.03.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.03.004](http://dx.doi.org/10.1016/j.ins.2016.03.004).
+
+<a name=bib-Vychodil_20161></a>[[24]](#cite-Vychodil_20161) V. Vychodil. “Parameterizing the Semantics of Fuzzy Attribute Implications by Systems of Isotone Galois Connections”. In: _IEEE Transactions on Fuzzy Systems_ 24.3 (Jun. 2016), p. 645–660. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2015.2470530](https://doi.org/10.1109%2Ftfuzz.2015.2470530). URL: [http://dx.doi.org/10.1109/tfuzz.2015.2470530](http://dx.doi.org/10.1109/tfuzz.2015.2470530).
+
+<a name=bib-Wang_2024></a>[[25]](#cite-Wang_2024) F. Wang, J. Li, and C. Yu. “Optimal scale selection approach for classification based on generalized multi-scale formal context”. In: _Applied Soft Computing_ 152 (Feb. 2024), p. 111277. ISSN: 1568-4946. DOI: [10.1016/j.asoc.2024.111277](https://doi.org/10.1016%2Fj.asoc.2024.111277). URL: [http://dx.doi.org/10.1016/j.asoc.2024.111277](http://dx.doi.org/10.1016/j.asoc.2024.111277).
+

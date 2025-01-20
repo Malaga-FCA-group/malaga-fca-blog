@@ -1,0 +1,83 @@
+---
+title: Approaching the square of opposition in terms of the \emph{f}-indexes of inclusion
+  and contradiction
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2024'
+categories: uncategorised
+slug: 2024/ApSqOpTeInCo
+details: Fuzzy Sets Syst. vol. 476 , pages 108769.
+doi: 10.1016/J.FSS.2023.108769
+---
+
+
+
+# Abstract
+
+
+We continue our research line on the analysis of the properties of the f-indexes of inclusion and contradiction; in this paper, specifically, we show that both notions can be related by means of the, conveniently reformulated, Aristotelian square of opposition. We firstly show that the extreme cases of the f-indexes of inclusion and contradiction coincide with the vertexes of the Aristotelian square of opposition in the crisp case; then, we allocate the rest of f-indexes in the diagonals of the extreme cases and we prove that the Contradiction, Contrariety, Subcontrariety, Subalternation and Superalternation relations also hold between the f-indexes of inclusion and contradiction.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2024></a>[[MO24]](#cite-Madrid2024) N. Madrid and M. Ojeda-Aciego. “Approaching the square of opposition in terms of the _f_-indexes of inclusion and contradiction”. In: _Fuzzy Sets Syst._ 476 (2024), p. 108769. DOI: [10.1016/J.FSS.2023.108769](https://doi.org/10.1016%2FJ.FSS.2023.108769). URL: [https://doi.org/10.1016/j.fss.2023.108769](https://doi.org/10.1016/j.fss.2023.108769).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2024,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Approaching the square of opposition in terms of the \emph{f}-indexes of inclusion and contradiction},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {108769},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {476},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/MadridO24.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2023.108769},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 08 Jun 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2023.108769},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2023.108769" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2023.108769" class="plumx-details" data-site="plum" data-hide-when-empty="true">Approaching the square of opposition in terms of the \emph{f}-indexes of inclusion and contradiction</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2023.108769"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Dombi_2025></a>[[1]](#cite-Dombi_2025) J. Dombi and T. Jónás. “Approximate reasoning based on the preference implication”. In: _Fuzzy Sets and Systems_ 499 (Jan. 2025), p. 109187. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109187](https://doi.org/10.1016%2Fj.fss.2024.109187). URL: [http://dx.doi.org/10.1016/j.fss.2024.109187](http://dx.doi.org/10.1016/j.fss.2024.109187).
+
+<a name=bib-Madrid_2024></a>[[2]](#cite-Madrid_2024) N. Madrid and E. Ramírez-Poussa. “Analysis of the $$\varphi $$-Index of Inclusion Restricted to a Set of Indexes”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer Nature Switzerland, 2024, p. 3–11. ISBN: 9783031740039. DOI: [10.1007/978-3-031-74003-9_1](https://doi.org/10.1007%2F978-3-031-74003-9_1). URL: [http://dx.doi.org/10.1007/978-3-031-74003-9_1](http://dx.doi.org/10.1007/978-3-031-74003-9_1).
+

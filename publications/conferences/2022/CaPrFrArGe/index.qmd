@@ -1,0 +1,52 @@
+---
+title: Can {FCA} Provide a Framework for Artificial General Intelligence?
+author:
+- Francisco J. Valverde-Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2022'
+categories: uncategorised
+slug: 2022/CaPrFrArGe
+details: Proceedings of the 10th International Workshop "What can {FCA} do for Artificial
+  Intelligence?" co-located with the 31st International Joint Conference on Artificial
+  Intelligence {(IJCAI-ECAI} 2022), Vienna, Austria, July 23, 2022 , {CEUR} Workshop
+  Proceedings vol. 3233, pages 35--40.
+---
+
+
+
+# Abstract
+
+
+This paper is an attempt at bridging two strains of research being developed by the authors: a theory of information flows to subserve intelligence and a theory of affordances for the modelling of Embodied, Embedded, Extended and Enacted Computational Intelligence as provided by FCA. We list previous successes, present challenges, and future avenues of research that suggest themselves.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-ValverdeAlbacete2022a></a>[[Val+22]](#cite-ValverdeAlbacete2022a) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Can FCA Provide a Framework for Artificial General Intelligence?” In: _Proceedings of the 10th International Workshop "What can FCA do for Artificial Intelligence?" co-located with the 31st International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2022), Vienna, Austria, July 23, 2022_. Ed. by S. O. Kuznetsov, A. Napoli and S. Rudolph. Vol. 3233. CEUR Workshop Proceedings. CEUR-WS.org, 2022, pp. 35-40. URL: [https://ceur-ws.org/Vol-3233/paper4.pdf](https://ceur-ws.org/Vol-3233/paper4.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{ValverdeAlbacete2022a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco J. Valverde-Albacete and Carmen Pel{\a'a}ez-Moreno and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 10th International Workshop "What can {FCA} do for Artificial Intelligence?" co-located with the 31st International Joint Conference on Artificial Intelligence {(IJCAI-ECAI} 2022), Vienna, Austria, July 23, 2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Can {FCA} Provide a Framework for Artificial General Intelligence?},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Sergei O. Kuznetsov and Amedeo Napoli and Sebastian Rudolph},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {35--40},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3233},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {This paper is an attempt at bridging two strains of research being developed by the authors: a theory of information flows to subserve intelligence and a theory of affordances for the modelling of Embodied, Embedded, Extended and Enacted Computational Intelligence as provided by FCA. We list previous successes, present challenges, and future avenues of research that suggest themselves.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ijcai/Valverde-Albacete22.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:23:32 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-3233/paper4.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

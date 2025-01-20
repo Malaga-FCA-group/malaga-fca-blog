@@ -1,0 +1,101 @@
+---
+title: An Efficient Preprocessing Transformation for Functional Dependencies Sets
+  Based on the Substitution Paradigm
+author:
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Inmaculada Perez de Guzmán
+date: '2003'
+categories: uncategorised
+slug: 2003/EfPrTrFuDeSeBaSuPa
+details: Current Topics in Artificial Intelligence, 10th Conference of the Spanish
+  Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology
+  Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected
+  Papers , Lecture Notes in Computer Science vol. 3040, pages 136--146.
+doi: 10.1007/978-3-540-25945-9_14
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Mora2003></a>[[Mor+03]](#cite-Mora2003) Á. Mora, M. Enciso, P. Cordero, et al. “An Efficient Preprocessing Transformation for Functional Dependencies Sets Based on the Substitution Paradigm”. In: _Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2003, and 5th Conference on Technology Transfer, TTIA 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers_. Ed. by R. Conejo, M. Urretavizcaya and J. Pérez-de-la-Cruz. Vol. 3040. Lecture Notes in Computer Science. Springer, 2003, pp. 136-146. DOI: [10.1007/978-3-540-25945-9\_14](https://doi.org/10.1007%2F978-3-540-25945-9%5C_14). URL: [https://doi.org/10.1007/978-3-540-25945-9\_14](https://doi.org/10.1007/978-3-540-25945-9\_14).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Mora2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {{\a'A}ngel Mora and Manuel Enciso and Pablo Cordero and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An Efficient Preprocessing Transformation for Functional Dependencies Sets Based on the Substitution Paradigm},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ricardo Conejo and Maite Urretavizcaya and Jos{\a'e}-Luis P{\a'e}rez-de-la-Cruz},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {136--146},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3040},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/MoraECG03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-25945-9\_14},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-25945-9\_14},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-540-25945-9_14" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-540-25945-9_14" class="plumx-details" data-site="plum" data-hide-when-empty="true">An Efficient Preprocessing Transformation for Functional Dependencies Sets Based on the Substitution Paradigm</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-540-25945-9_14"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aguilera_2004></a>[[1]](#cite-Aguilera_2004) G. Aguilera, P. Cordero, M. Enciso, et al. “A Non-explosive Treatment of Functional Dependencies Using Rewriting Logic”. In: _Advances in Artificial Intelligence – SBIA 2004_. Springer Berlin Heidelberg, 2004, p. 31–40. ISBN: 9783540286455. DOI: [10.1007/978-3-540-28645-5_4](https://doi.org/10.1007%2F978-3-540-28645-5_4). URL: [http://dx.doi.org/10.1007/978-3-540-28645-5_4](http://dx.doi.org/10.1007/978-3-540-28645-5_4).
+
+<a name=bib-Bahmani_2010></a>[[2]](#cite-Bahmani_2010) A. Bahmani, S. K. Shekofteh, M. Naghibzadeh, et al. “Parallel algorithms for automatic database normalization”. In: _2010 The 2nd International Conference on Computer and Automation Engineering (ICCAE)_. IEEE, Feb. 2010, p. 157–161. DOI: [10.1109/iccae.2010.5451437](https://doi.org/10.1109%2Ficcae.2010.5451437). URL: [http://dx.doi.org/10.1109/iccae.2010.5451437](http://dx.doi.org/10.1109/iccae.2010.5451437).
+
+<a name=bib-Cordero_2022></a>[[3]](#cite-Cordero_2022) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Formal Concept Analysis with R”. In: _The R Journal_ 14.1 (Jun. 2022), p. 341–361. ISSN: 2073-4859. DOI: [10.32614/rj-2022-014](https://doi.org/10.32614%2Frj-2022-014). URL: [http://dx.doi.org/10.32614/rj-2022-014](http://dx.doi.org/10.32614/rj-2022-014).
+
+<a name=bib-Cordero_2009></a>[[4]](#cite-Cordero_2009) P. Cordero, M. Enciso, A. Mora, et al. “A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 261–269. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_33](https://doi.org/10.1007%2F978-3-642-02478-8_33). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_33](http://dx.doi.org/10.1007/978-3-642-02478-8_33).
+
+<a name=bib-Cordero_2013></a>[[5]](#cite-Cordero_2013) P. Cordero, M. Enciso, A. Mora, et al. “Computing non-redundant sets of functional dependencies via simplification”. In: _2013 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2013, p. 9–14. DOI: [10.1109/foci.2013.6602449](https://doi.org/10.1109%2Ffoci.2013.6602449). URL: [http://dx.doi.org/10.1109/foci.2013.6602449](http://dx.doi.org/10.1109/foci.2013.6602449).
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[6]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+
+<a name=bib-Mora_2012></a>[[7]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-Rodr_guez_Lorenzo_2018></a>[[8]](#cite-Rodr_guez_Lorenzo_2018) E. Rodríguez-Lorenzo, K. Bertet, P. Cordero, et al. “Direct-optimal basis computation by means of the fusion of simplification rules”. In: _Discrete Applied Mathematics_ 249 (Nov. 2018), p. 106–119. ISSN: 0166-218X. DOI: [10.1016/j.dam.2017.12.031](https://doi.org/10.1016%2Fj.dam.2017.12.031). URL: [http://dx.doi.org/10.1016/j.dam.2017.12.031](http://dx.doi.org/10.1016/j.dam.2017.12.031).
+
+<a name=bib-Rodr_guez_Lorenzo_2017></a>[[9]](#cite-Rodr_guez_Lorenzo_2017) E. Rodríguez-Lorenzo, P. Cordero, M. Enciso, et al. “Canonical dichotomous direct bases”. In: _Information Sciences_ 376 (Jan. 2017), p. 39–53. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.10.004](https://doi.org/10.1016%2Fj.ins.2016.10.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.10.004](http://dx.doi.org/10.1016/j.ins.2016.10.004).
+

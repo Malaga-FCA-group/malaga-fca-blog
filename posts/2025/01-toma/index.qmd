@@ -1,0 +1,33 @@
+---
+title: 'Manuel Enciso becomes Director of the School of Computer Science at the University of Málaga'
+image: toma.jpg
+author:
+- Domingo López Rodríguez
+date: '2025-01-16T00:00:00Z'
+categories:
+  - computer science
+lightbox: true
+comments:
+  giscus:
+    repo: Malaga-FCA-group/malaga-fca-blog
+---
+
+Yesterday, January 15, 2025, marked an important milestone for the School of Computer Science at the University of Málaga as our colleague [Manuel Enciso](/people/staff/enciso/) officially assumed the role of director. The ceremony, held on campus, was a moment of pride and celebration for faculty, students, and staff alike.
+
+Presided over by the Rector of the University of Málaga, the event highlighted the institution's commitment to innovation, academic excellence, and the advancement of computer science education. During his inaugural speech, Manuel Enciso shared his vision for the future of the school, emphasizing collaboration, cutting-edge research, and creating opportunities for students to excel in a rapidly evolving technological landscape.
+
+::::{layout="[0.4, -0.1, 0.4]"}
+
+:::{#left}
+![Manuel Enciso assuming the role of director](toma.jpg){.lightbox group="toma"}
+:::
+
+
+:::{#right}
+![Manuel with the Department of Applied Mathematics](matap.jpeg){.lightbox group="toma"}
+:::
+::::
+
+As a respected member of the academic community, Manuel Enciso brings years of experience, dedication, and a passion for computer science that will undoubtedly guide the school toward new achievements.
+
+Congratulations to Manuel Enciso on this well-deserved appointment!

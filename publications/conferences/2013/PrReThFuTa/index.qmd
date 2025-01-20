@@ -1,0 +1,111 @@
+---
+title: An Unfolding-Based Preprocess for Reinforcing Thresholds in Fuzzy Tabulation
+author:
+- Pascual Julián Iranzo
+- Jesús Medina-Moreno
+- Pedro J. Morcillo
+- Ginés Moreno
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/PrReThFuTa
+details: Advances in Computational Intelligence - 12th International Work-Conference
+  on Artificial Neural Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife, Spain,
+  June 12-14, 2013, Proceedings, Part {I} , Lecture Notes in Computer Science vol.
+  7902, pages 647--655.
+doi: 10.1007/978-3-642-38679-4_65
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Iranzo2013></a>[[Ira+13]](#cite-Iranzo2013) P. J. Iranzo, J. Medina-Moreno, P. J. Morcillo, et al. “An Unfolding-Based Preprocess for Reinforcing Thresholds in Fuzzy Tabulation”. In: _Advances in Computational Intelligence - 12th International Work-Conference on Artificial Neural Networks, IWANN 2013, Puerto de la Cruz, Tenerife, Spain, June 12-14, 2013, Proceedings, Part I_. Ed. by I. Rojas, G. J. Caparrós and J. Cabestany. Vol. 7902. Lecture Notes in Computer Science. Springer, 2013, pp. 647-655. DOI: [10.1007/978-3-642-38679-4\_65](https://doi.org/10.1007%2F978-3-642-38679-4%5C_65). URL: [https://doi.org/10.1007/978-3-642-38679-4\_65](https://doi.org/10.1007/978-3-642-38679-4\_65).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Iranzo2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pascual Juli{\a'a}n Iranzo and Jes{\a'u}s Medina-Moreno and Pedro J. Morcillo and Gin{\a'e}s Moreno and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Computational Intelligence - 12th International Work-Conference on Artificial Neural Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife, Spain, June 12-14, 2013, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An Unfolding-Based Preprocess for Reinforcing Thresholds in Fuzzy Tabulation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ignacio Rojas and Gonzalo Joya Caparr{\a'o}s and Joan Cabestany},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {647--655},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {7902},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/IranzoMMMO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-38679-4\_65},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:51 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-38679-4\_65},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-38679-4_65" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-38679-4_65" class="plumx-details" data-site="plum" data-hide-when-empty="true">An Unfolding-Based Preprocess for Reinforcing Thresholds in Fuzzy Tabulation</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-38679-4_65"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Almendros_Jim_nez_2014></a>[[1]](#cite-Almendros_Jim_nez_2014) J. M. Almendros-Jiménez, A. Luna Tedesqui, and G. Moreno. “Dynamic Filtering of Ranked Answers When Evaluating Fuzzy XPath Queries”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 319–330. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_33](https://doi.org/10.1007%2F978-3-319-08644-6_33). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_33](http://dx.doi.org/10.1007/978-3-319-08644-6_33).
+
+<a name=bib-Almendros_Jim_nez_2015></a>[[2]](#cite-Almendros_Jim_nez_2015) J. M. Almendros-Jiménez, A. Luna Tedesqui, and G. Moreno. “Fuzzy XPath through Fuzzy Logic Programming”. In: _New Generation Computing_ 33.2 (Apr. 2015), p. 173–209. ISSN: 1882-7055. DOI: [10.1007/s00354-015-0201-y](https://doi.org/10.1007%2Fs00354-015-0201-y). URL: [http://dx.doi.org/10.1007/s00354-015-0201-y](http://dx.doi.org/10.1007/s00354-015-0201-y).
+
+<a name=bib-Almendros_Jimenez_2016></a>[[3]](#cite-Almendros_Jimenez_2016) J. M. Almendros-Jimenez, A. Luna, and G. Moreno. “Debugging while interpreting fuzzy XPath queries”. In: _2016 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2016, p. 233–240. DOI: [10.1109/fuzz-ieee.2016.7737692](https://doi.org/10.1109%2Ffuzz-ieee.2016.7737692). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2016.7737692](http://dx.doi.org/10.1109/fuzz-ieee.2016.7737692).
+
+<a name=bib-Almendros_Jimenez_2015></a>[[4]](#cite-Almendros_Jimenez_2015) J. M. Almendros-Jimenez, A. Luna, and G. Moreno. “Thresholded debugging of XPath queries”. In: _2015 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Aug. 2015, p. 1–9. DOI: [10.1109/fuzz-ieee.2015.7338027](https://doi.org/10.1109%2Ffuzz-ieee.2015.7338027). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2015.7338027](http://dx.doi.org/10.1109/fuzz-ieee.2015.7338027).
+
+<a name=bib-D_az_Moreno_2022></a>[[5]](#cite-D_az_Moreno_2022) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Fuzzy logic programs as hypergraphs. Termination results”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 22–42. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.02.001](https://doi.org/10.1016%2Fj.fss.2022.02.001). URL: [http://dx.doi.org/10.1016/j.fss.2022.02.001](http://dx.doi.org/10.1016/j.fss.2022.02.001).
+
+<a name=bib-Guerrero_2017></a>[[6]](#cite-Guerrero_2017) J. A. Guerrero, F. Mendieta, G. Moreno, et al. “Testing properties of fuzzy connectives and truth degrees with the latticemaker tool”. In: _2017 IEEE Symposium Series on Computational Intelligence (SSCI)_. IEEE, Nov. 2017, p. 1–8. DOI: [10.1109/ssci.2017.8280961](https://doi.org/10.1109%2Fssci.2017.8280961). URL: [http://dx.doi.org/10.1109/ssci.2017.8280961](http://dx.doi.org/10.1109/ssci.2017.8280961).
+
+<a name=bib-Guerrero_2018></a>[[7]](#cite-Guerrero_2018) J. A. Guerrero, G. Moreno, J. A. Riaza, et al. “Smart Design of Similarity Relations for Fuzzy Logic Programming Environments”. In: _2018 IEEE Symposium Series on Computational Intelligence (SSCI)_. IEEE, Nov. 2018, p. 220–227. DOI: [10.1109/ssci.2018.8628871](https://doi.org/10.1109%2Fssci.2018.8628871). URL: [http://dx.doi.org/10.1109/ssci.2018.8628871](http://dx.doi.org/10.1109/ssci.2018.8628871).
+
+<a name=bib-Guerrero_2015></a>[[8]](#cite-Guerrero_2015) J. Guerrero, M. Del Senor Martinez, G. Moreno, et al. “Designing Lattices of Truth Degrees for Fuzzy Logic Programming Environments”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 995–1004. DOI: [10.1109/ssci.2015.145](https://doi.org/10.1109%2Fssci.2015.145). URL: [http://dx.doi.org/10.1109/ssci.2015.145](http://dx.doi.org/10.1109/ssci.2015.145).
+
+<a name=bib-Juli_n_Iranzo_2020></a>[[9]](#cite-Juli_n_Iranzo_2020) P. Julián-Iranzo, G. Moreno, and J. A. Riaza. “The Fuzzy Logic Programming language FASILL: Design and implementation”. In: _International Journal of Approximate Reasoning_ 125 (Oct. 2020), p. 139–168. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2020.06.002](https://doi.org/10.1016%2Fj.ijar.2020.06.002). URL: [http://dx.doi.org/10.1016/j.ijar.2020.06.002](http://dx.doi.org/10.1016/j.ijar.2020.06.002).
+
+<a name=bib-Morcillo_2018></a>[[10]](#cite-Morcillo_2018) P. J. Morcillo and G. Moreno. “Efficient Unfolding of Fuzzy Connectives for Multi-adjoint Logic Programs”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 57–78. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_5](https://doi.org/10.1007%2F978-3-319-74681-4_5). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_5](http://dx.doi.org/10.1007/978-3-319-74681-4_5).
+
+<a name=bib-Morcillo_2015></a>[[11]](#cite-Morcillo_2015) P. J. Morcillo and G. Moreno. “Improving Multi-adjoint Logic Programs by Unfolding Fuzzy Connective Definitions”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2015, p. 511–524. ISBN: 9783319192581. DOI: [10.1007/978-3-319-19258-1_42](https://doi.org/10.1007%2F978-3-319-19258-1_42). URL: [http://dx.doi.org/10.1007/978-3-319-19258-1_42](http://dx.doi.org/10.1007/978-3-319-19258-1_42).
+
+<a name=bib-Moreno_20141></a>[[12]](#cite-Moreno_20141) G. Moreno, J. Penabad, and C. Vázquez. “Beyond multi-adjoint logic programming”. In: _International Journal of Computer Mathematics_ 92.9 (Nov. 2014), p. 1956–1975. ISSN: 1029-0265. DOI: [10.1080/00207160.2014.975218](https://doi.org/10.1080%2F00207160.2014.975218). URL: [http://dx.doi.org/10.1080/00207160.2014.975218](http://dx.doi.org/10.1080/00207160.2014.975218).
+
+<a name=bib-Moreno_2019></a>[[13]](#cite-Moreno_2019) G. Moreno and J. A. Riaza. “An Online Tool for Unfolding Symbolic Fuzzy Logic Programs”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2019, p. 475–487. ISBN: 9783030205188. DOI: [10.1007/978-3-030-20518-8_40](https://doi.org/10.1007%2F978-3-030-20518-8_40). URL: [http://dx.doi.org/10.1007/978-3-030-20518-8_40](http://dx.doi.org/10.1007/978-3-030-20518-8_40).
+
+<a name=bib-Moreno_2014></a>[[14]](#cite-Moreno_2014) G. Moreno and C. Vázquez. “Fuzzy Logic Programming in Action with &amp;lt;i&amp;gt;FLOPER&amp;lt;/i&amp;gt;”. In: _Journal of Software Engineering and Applications_ 07.04 (2014), p. 273–298. ISSN: 1945-3124. DOI: [10.4236/jsea.2014.74028](https://doi.org/10.4236%2Fjsea.2014.74028). URL: [http://dx.doi.org/10.4236/jsea.2014.74028](http://dx.doi.org/10.4236/jsea.2014.74028).
+

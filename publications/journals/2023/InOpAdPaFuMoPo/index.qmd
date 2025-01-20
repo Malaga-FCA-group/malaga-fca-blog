@@ -1,0 +1,86 @@
+---
+title: The \emph{f}-index of inclusion as optimal adjoint pair for fuzzy modus ponens
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2023'
+categories: uncategorised
+slug: 2023/InOpAdPaFuMoPo
+details: Fuzzy Sets Syst. vol. 466 , pages 108474.
+doi: 10.1016/J.FSS.2023.01.009
+---
+
+
+
+# Abstract
+
+
+We continue studying the properties of the f-index of inclusion and show that, given a fixed pair of fuzzy sets, their f-index of inclusion can be linked to a fuzzy conjunction which is part of an adjoint pair. We also show that, when this pair is used as the underlying structure to provide a fuzzy interpretation of the modus ponens inference rule, it provides the maximum possible truth-value in the conclusion among all those values obtained by fuzzy modus ponens using any other possible adjoint pair.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2023></a>[[MO23]](#cite-Madrid2023) N. Madrid and M. Ojeda-Aciego. “The _f_-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets Syst._ 466 (2023), p. 108474. DOI: [10.1016/J.FSS.2023.01.009](https://doi.org/10.1016%2FJ.FSS.2023.01.009). URL: [https://doi.org/10.1016/j.fss.2023.01.009](https://doi.org/10.1016/j.fss.2023.01.009).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {The \emph{f}-index of inclusion as optimal adjoint pair for fuzzy modus ponens},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {108474},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {466},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/MadridO23.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2023.01.009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 12 Sep 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2023.01.009},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2023.01.009" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2023.01.009" class="plumx-details" data-site="plum" data-hide-when-empty="true">The \emph{f}-index of inclusion as optimal adjoint pair for fuzzy modus ponens</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2023.01.009"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-D_az_Montarroso_2024></a>[[1]](#cite-D_az_Montarroso_2024) C. Díaz-Montarroso, N. Madrid, and E. Ramírez-Poussa. “Towards a Generalized Modus Ponens Based on the $$\varphi $$-Index of Inclusion”. In: _Conceptual Knowledge Structures_. Springer Nature Switzerland, 2024, p. 36–48. ISBN: 9783031678684. DOI: [10.1007/978-3-031-67868-4_3](https://doi.org/10.1007%2F978-3-031-67868-4_3). URL: [http://dx.doi.org/10.1007/978-3-031-67868-4_3](http://dx.doi.org/10.1007/978-3-031-67868-4_3).
+
+<a name=bib-Dombi_2025></a>[[2]](#cite-Dombi_2025) J. Dombi and T. Jónás. “Approximate reasoning based on the preference implication”. In: _Fuzzy Sets and Systems_ 499 (Jan. 2025), p. 109187. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109187](https://doi.org/10.1016%2Fj.fss.2024.109187). URL: [http://dx.doi.org/10.1016/j.fss.2024.109187](http://dx.doi.org/10.1016/j.fss.2024.109187).
+
+<a name=bib-Flaminio_2023></a>[[3]](#cite-Flaminio_2023) T. Flaminio, L. Godo, N. Madrid, et al. “A Logic to Reason About f-Indices of Inclusion over Ł$$_n$$”. In: _Fuzzy Logic and Technology, and Aggregation Operators_. Springer Nature Switzerland, 2023, p. 530–539. ISBN: 9783031399657. DOI: [10.1007/978-3-031-39965-7_44](https://doi.org/10.1007%2F978-3-031-39965-7_44). URL: [http://dx.doi.org/10.1007/978-3-031-39965-7_44](http://dx.doi.org/10.1007/978-3-031-39965-7_44).
+
+<a name=bib-Madrid_2024></a>[[4]](#cite-Madrid_2024) N. Madrid and E. Ramírez-Poussa. “Analysis of the $$\varphi $$-Index of Inclusion Restricted to a Set of Indexes”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer Nature Switzerland, 2024, p. 3–11. ISBN: 9783031740039. DOI: [10.1007/978-3-031-74003-9_1](https://doi.org/10.1007%2F978-3-031-74003-9_1). URL: [http://dx.doi.org/10.1007/978-3-031-74003-9_1](http://dx.doi.org/10.1007/978-3-031-74003-9_1).
+

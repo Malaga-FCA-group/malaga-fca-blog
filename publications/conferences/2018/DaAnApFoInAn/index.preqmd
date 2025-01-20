@@ -1,0 +1,40 @@
+---
+title: A Data Analysis Application of Formal Independence Analysis
+author:
+- Francisco J. Valverde-Albacete
+- Carmen Peláez-Moreno
+- ipcabrera
+- pcordero
+- aciego
+date: '2018'
+categories: uncategorised
+slug: 2018/DaAnApFoInAn
+details: Proceedings of the Fourteenth International Conference on Concept Lattices
+  and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018 ,
+  {CEUR} Workshop Proceedings vol. 2123, pages 117--128.
+doi: []
+
+---
+
+
+# Abstract
+
+
+In this paper we present a new technique for the analysis of data tables by means of Formal Independence Analysis (FIA). This is
+an analogue of Formal Concept Analysis for the study of independence relations in data, instead of hierarchical relations. A FIA of a context produces, when possible, its block diagonalization by detecting pairs of sets of objects and attributes that are not mutually incident, or tomoi, that partition the context. In this paper we combine this technique with the exploration of contexts with entries in a semifield to find independent sets in contingency matrices. Specifically, we apply it to a number of confusion matrices issued from cognitive experiments to find evidences for the hypothesis of perceptual channels.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

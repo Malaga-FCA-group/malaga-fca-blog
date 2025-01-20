@@ -1,0 +1,47 @@
+---
+title: '{\(f\)}-inclusion indexes between fuzzy sets'
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Irina Perfilieva
+date: '2015'
+categories: uncategorised
+slug: 2015/InFuSe
+details: []
+---
+
+
+
+# Abstract
+
+
+We introduce the notion of f-inclusion, which is used todescribe diﬀerent kinds of subsethood relations betweenfuzzy sets by means of monotonic functions f: [0,1] →[0,1]. We show that these monotonic functions can beconsidered indexes of inclusion, since the greater thefunction considered, the more restrictive is the relation-ship. Finally, we propose a general index of inclusion byproving the existence of a representative f-inclusion forany two ordered pairs of fuzzy sets. In such a way, ourapproach is diﬀerent from others in the literature in notaking a priori assumptions like residuated implicationsor t-norms.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2015></a>[[MOP15]](#cite-Madrid2015) N. Madrid, M. Ojeda-Aciego, and I. Perfilieva. “\( f\)-inclusion indexes between fuzzy sets”. In: _2015 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (IFSA-EUSFLAT-15), Gijón, Spain., June 30, 2015_. Ed. by J. M. Alonso, H. Bustince and M. Z. Reformat. Atlantis Press, 2015.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego and Irina Perfilieva},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {2015 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (IFSA-EUSFLAT-15), Gij{\'{o}}n, Spain., June 30, 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {{\(f\)}-inclusion indexes between fuzzy sets},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} Maria Alonso and Humberto Bustince and Marek Z. Reformat},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Atlantis Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We introduce the notion of f-inclusion, which is used todescribe diﬀerent kinds of subsethood relations betweenfuzzy sets by means of monotonic functions f: [0,1] →[0,1]. We show that these monotonic functions can beconsidered indexes of inclusion, since the greater thefunction considered, the more restrictive is the relation-ship. Finally, we propose a general index of inclusion byproving the existence of a representative f-inclusion forany two ordered pairs of fuzzy sets. In such a way, ourapproach is diﬀerent from others in the literature in notaking a priori assumptions like residuated implicationsor t-norms.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/MadridOP15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 06 Oct 2022 12:30:16 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

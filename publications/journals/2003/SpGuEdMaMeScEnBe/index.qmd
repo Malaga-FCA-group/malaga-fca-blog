@@ -1,0 +1,47 @@
+---
+title: 'Special issue: Guest Editorial [Computational and Mathematical Methods in
+  Science and Engineering 2002 - Best Papers]'
+author:
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Peter Vojtás
+- Slawomir Zadrozny
+date: '2003'
+categories: uncategorised
+slug: 2003/SpGuEdMaMeScEnBe
+details: Kybernetika vol. 39 (5), pages 509--510.
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2003></a>[[OVZ03]](#cite-OjedaAciego2003) M. Ojeda-Aciego, P. Vojtás, and S. Zadrozny. “Special issue: Guest Editorial [Computational and Mathematical Methods in Science and Engineering 2002 - Best Papers]”. In: _Kybernetika_ 39.5 (2003), pp. 509-510. URL: [http://www.kybernetika.cz/content/2003/5/509](http://www.kybernetika.cz/content/2003/5/509).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{OjedaAciego2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Ojeda-Aciego and Peter Vojt{\a'a}s and Slawomir Zadrozny},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Kybernetika},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Special issue: Guest Editorial [Computational and Mathematical Methods in Science and Engineering 2002 - Best Papers]},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {509--510},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {39},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/kybernetika/Ojeda-AciegoVZ03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 17 Feb 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.kybernetika.cz/content/2003/5/509},<br>}
+
+:::
+
+
+
+
+
+
+
+

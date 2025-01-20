@@ -1,0 +1,36 @@
+---
+title: A measure of contradiction based on the notion of N-weak-contradiction
+author:
+- Humberto Bustince
+- Nicolás Madrid
+- aciego
+date: '2013'
+categories: uncategorised
+slug: 2013/MeCoBaNo
+details: '{FUZZ-IEEE} 2013, {IEEE} International Conference on Fuzzy Systems, Hyderabad,
+  India, 7-10 July, 2013, Proceedings , pages 1--6.'
+doi: 10.1109/FUZZ-IEEE.2013.6622563
+
+---
+
+
+# Abstract
+
+
+In this work we elaborate on the notion of contradiction between fuzzy sets introduced by Trillas et al in a fuzzy logic context. Our approach is parametric in that the operator used to define contradiction is rather a variable than a constant introduced prior to the analysis of contradiction. We give several motivations to consider weaker operators than the usual involutive negations, and obtain some preliminary results which validate this proposal.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

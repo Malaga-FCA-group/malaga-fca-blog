@@ -1,0 +1,104 @@
+---
+title: 'Fuzzy functional dependencies: {A} comparative survey'
+author:
+- L. Jezková
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/FuFuCoSu
+details: Fuzzy Sets Syst. vol. 317 , pages 88--120.
+doi: 10.1016/J.FSS.2016.06.019
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Jezkova2017></a>[[JCE17]](#cite-Jezkova2017) L. Jezková, P. Cordero, and M. Enciso. “Fuzzy functional dependencies: A comparative survey”. In: _Fuzzy Sets Syst._ 317 (2017), pp. 88-120. DOI: [10.1016/J.FSS.2016.06.019](https://doi.org/10.1016%2FJ.FSS.2016.06.019). URL: [https://doi.org/10.1016/j.fss.2016.06.019](https://doi.org/10.1016/j.fss.2016.06.019).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Jezkova2017,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {L. Jezkov{\a'a} and Pablo Cordero and Manuel Enciso},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Fuzzy functional dependencies: {A} comparative survey},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {88--120},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {317},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/JezkovaCE17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2016.06.019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 19 Feb 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2016.06.019},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2016.06.019" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2016.06.019" class="plumx-details" data-site="plum" data-hide-when-empty="true">Fuzzy functional dependencies: {A} comparative survey</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2016.06.019"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Belohlavek_2017></a>[[1]](#cite-Belohlavek_2017) R. Belohlavek and V. Vychodil. “Relational similarity-based model of data part 2: dependencies in data”. In: _International Journal of General Systems_ 47.1 (Aug. 2017), p. 1–50. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1357551](https://doi.org/10.1080%2F03081079.2017.1357551). URL: [http://dx.doi.org/10.1080/03081079.2017.1357551](http://dx.doi.org/10.1080/03081079.2017.1357551).
+
+<a name=bib-Cao_2022></a>[[2]](#cite-Cao_2022) T. Cao. “A relational database model and algebra integrating fuzzy attributes and probabilistic tuples”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 123–146. ISSN: 0165-0114. DOI: [10.1016/j.fss.2021.10.017](https://doi.org/10.1016%2Fj.fss.2021.10.017). URL: [http://dx.doi.org/10.1016/j.fss.2021.10.017](http://dx.doi.org/10.1016/j.fss.2021.10.017).
+
+<a name=bib-Cao_2019></a>[[3]](#cite-Cao_2019) T. Cao, H. Nguyen, A. Inoue, et al. “A Probabilistic Relational Database Model with Fuzzy Attribute Values”. In: _2019 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jun. 2019, p. 1–6. DOI: [10.1109/fuzz-ieee.2019.8858914](https://doi.org/10.1109%2Ffuzz-ieee.2019.8858914). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2019.8858914](http://dx.doi.org/10.1109/fuzz-ieee.2019.8858914).
+
+<a name=bib-Cordero_2022></a>[[4]](#cite-Cordero_2022) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Formal Concept Analysis with R”. In: _The R Journal_ 14.1 (Jun. 2022), p. 341–361. ISSN: 2073-4859. DOI: [10.32614/rj-2022-014](https://doi.org/10.32614%2Frj-2022-014). URL: [http://dx.doi.org/10.32614/rj-2022-014](http://dx.doi.org/10.32614/rj-2022-014).
+
+<a name=bib-Cordero_2018></a>[[5]](#cite-Cordero_2018) P. Cordero, M. Enciso, and A. Mora. “Directness in Fuzzy Formal Concept Analysis”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 585–595. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_50](https://doi.org/10.1007%2F978-3-319-91473-2_50). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_50](http://dx.doi.org/10.1007/978-3-319-91473-2_50).
+
+<a name=bib-Cordero_2020></a>[[6]](#cite-Cordero_2020) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized simplification logic I: reasoning with implications and classes of closure operators”. In: _International Journal of General Systems_ 49.7 (Oct. 2020), p. 724–746. ISSN: 1563-5104. DOI: [10.1080/03081079.2020.1831484](https://doi.org/10.1080%2F03081079.2020.1831484). URL: [http://dx.doi.org/10.1080/03081079.2020.1831484](http://dx.doi.org/10.1080/03081079.2020.1831484).
+
+<a name=bib-Cordero_20221></a>[[7]](#cite-Cordero_20221) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized Simplification Logic: Reasoning With Implications in an Automated Way”. In: _IEEE Transactions on Fuzzy Systems_ 30.12 (Dec. 2022), p. 5534–5543. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2022.3179847](https://doi.org/10.1109%2Ftfuzz.2022.3179847). URL: [http://dx.doi.org/10.1109/tfuzz.2022.3179847](http://dx.doi.org/10.1109/tfuzz.2022.3179847).
+
+<a name=bib-Gatto_2023></a>[[8]](#cite-Gatto_2023) D. Gatto, R. Leonardis, D. Napolitano, et al. “Fuzzy Inference System and Fuzzy Neural Inference System Applied to Risk Matrix Classification in Projects: Sistema de Inferência Fuzzy e Sistema de Inferência Neural Fuzzy Aplicados à Classificação de Matrizes de Risco em Projetos”. In: _Concilium_ 23.11 (Jun. 2023), p. 498–519. ISSN: 0010-5236. DOI: [10.53660/clm-1478-23h18](https://doi.org/10.53660%2Fclm-1478-23h18). URL: [http://dx.doi.org/10.53660/clm-1478-23h18](http://dx.doi.org/10.53660/clm-1478-23h18).
+
+<a name=bib-Le_Guilly_2019></a>[[9]](#cite-Le_Guilly_2019) M. Le Guilly, J. Petit, and M. Scuturici. “A First Experimental Study on Functional Dependencies for Imbalanced Datasets Classification”. In: _Information Search, Integration, and Personalization_. Springer International Publishing, 2019, p. 116–133. ISBN: 9783030302849. DOI: [10.1007/978-3-030-30284-9_8](https://doi.org/10.1007%2F978-3-030-30284-9_8). URL: [http://dx.doi.org/10.1007/978-3-030-30284-9_8](http://dx.doi.org/10.1007/978-3-030-30284-9_8).
+
+<a name=bib-httpsdoiorg1034658jacs201624321-32></a>[[10]](#cite-httpsdoiorg1034658jacs201624321-32) K. Myszkorowski. “Integrity Rules for Multiargument Relationships in Possibilistic Databases”. En. In: _Journal of Applied Computer Science_ (2020), p. Tom 24 Nr 3 (2016): Journal of Applied Computer Science. DOI: [10.34658/JACS.2016.24.3.21-32](https://doi.org/10.34658%2FJACS.2016.24.3.21-32). URL: [https://eczasopisma.p.lodz.pl/JACS/article/view/261](https://eczasopisma.p.lodz.pl/JACS/article/view/261).
+
+<a name=bib-Nourine_2024></a>[[11]](#cite-Nourine_2024) L. Nourine, J. Petit, and S. Vilmin. “Towards declarative comparabilities: Application to functional dependencies”. In: _Journal of Computer and System Sciences_ 146 (Dec. 2024), p. 103576. ISSN: 0022-0000. DOI: [10.1016/j.jcss.2024.103576](https://doi.org/10.1016%2Fj.jcss.2024.103576). URL: [http://dx.doi.org/10.1016/j.jcss.2024.103576](http://dx.doi.org/10.1016/j.jcss.2024.103576).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[12]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+
+<a name=bib-Vu_eti__2020></a>[[13]](#cite-Vu_eti__2020) M. Vučetić, M. Hudec, and B. Božilović. “Fuzzy functional dependencies and linguistic interpretations employed in knowledge discovery tasks from relational databases”. In: _Engineering Applications of Artificial Intelligence_ 88 (Feb. 2020), p. 103395. ISSN: 0952-1976. DOI: [10.1016/j.engappai.2019.103395](https://doi.org/10.1016%2Fj.engappai.2019.103395). URL: [http://dx.doi.org/10.1016/j.engappai.2019.103395](http://dx.doi.org/10.1016/j.engappai.2019.103395).
+

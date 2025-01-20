@@ -1,0 +1,102 @@
+---
+title: On \emph{L}-fuzzy Chu correspondences
+author:
+- Ondrej Kridlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/ChCo
+details: Int. J. Comput. Math. vol. 88 (9), pages 1808--1818.
+doi: 10.1080/00207160903494147
+---
+
+
+
+# Abstract
+
+
+In this paper, we focus on the framework of Chu correspondences introduced by Mori for a classical formal concept analysis, and we propose a suitable extension of the framework in a more general and flexible environment based on L-fuzzy sets, and define the notions of L-Chu correspondence and of L-bond. After introducing the generalized framework, the sets of L-Chu correspondences and of L-bonds are proved to have the structure of complete lattice and, furthermore, there exists a natural anti-isomorphism between them.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2011></a>[[KO11]](#cite-Kridlo2011) O. Kridlo and M. Ojeda-Aciego. “On _L_-fuzzy Chu correspondences”. In: _Int. J. Comput. Math._ 88.9 (2011), pp. 1808-1818. DOI: [10.1080/00207160903494147](https://doi.org/10.1080%2F00207160903494147). URL: [https://doi.org/10.1080/00207160903494147](https://doi.org/10.1080/00207160903494147).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Kridlo2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kridlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On \emph{L}-fuzzy Chu correspondences},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1808--1818},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {88},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/KridloO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160903494147},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Dec 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160903494147},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160903494147" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160903494147" class="plumx-details" data-site="plum" data-hide-when-empty="true">On \emph{L}-fuzzy Chu correspondences</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160903494147"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2017></a>[[1]](#cite-Antoni_2017) L. Antoni, I. P. Cabrera, S. Krajči, et al. “The Chu construction and generalized formal concept analysis”. In: _International Journal of General Systems_ 46.5 (Jul. 2017), p. 458–474. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1349579](https://doi.org/10.1080%2F03081079.2017.1349579). URL: [http://dx.doi.org/10.1080/03081079.2017.1349579](http://dx.doi.org/10.1080/03081079.2017.1349579).
+
+<a name=bib-Antoni_2018></a>[[2]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Butka_2013></a>[[3]](#cite-Butka_2013) P. Butka, J. Pócs, J. Pócsová, et al. “Multiple Data Tables Processing via One-Sided Concept Lattices”. In: _Multimedia and Internet Systems: Theory and Practice_. Springer Berlin Heidelberg, 2013, p. 89–98. ISBN: 9783642323355. DOI: [10.1007/978-3-642-32335-5_9](https://doi.org/10.1007%2F978-3-642-32335-5_9). URL: [http://dx.doi.org/10.1007/978-3-642-32335-5_9](http://dx.doi.org/10.1007/978-3-642-32335-5_9).
+
+<a name=bib-Cabrera_2019></a>[[4]](#cite-Cabrera_2019) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Relational Connections Between Preordered Sets”. In: _Applied Physics, System Science and Computers III_. Springer International Publishing, 2019, p. 163–169. ISBN: 9783030215071. DOI: [10.1007/978-3-030-21507-1_24](https://doi.org/10.1007%2F978-3-030-21507-1_24). URL: [http://dx.doi.org/10.1007/978-3-030-21507-1_24](http://dx.doi.org/10.1007/978-3-030-21507-1_24).
+
+<a name=bib-Kr_dlo_2016></a>[[5]](#cite-Kr_dlo_2016) O. Krídlo, S. Krajči, and L. Antoni. “Formal concept analysis of higher order”. In: _International Journal of General Systems_ 45.2 (Jan. 2016), p. 116–134. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072924](https://doi.org/10.1080%2F03081079.2015.1072924). URL: [http://dx.doi.org/10.1080/03081079.2015.1072924](http://dx.doi.org/10.1080/03081079.2015.1072924).
+
+<a name=bib-Kr_dlo_2012></a>[[6]](#cite-Kr_dlo_2012) O. Krídlo, S. Krajči, and M. Ojeda-Aciego. “The Category of L-Chu Correspondences and the Structure of L-Bonds”. In: _Fundamenta Informaticae_ 115.4 (2012), p. 297–325. ISSN: 0169-2968. DOI: [10.3233/fi-2012-657](https://doi.org/10.3233%2Ffi-2012-657). URL: [http://dx.doi.org/10.3233/fi-2012-657](http://dx.doi.org/10.3233/fi-2012-657).
+
+<a name=bib-Kr_dlo_2018></a>[[7]](#cite-Kr_dlo_2018) O. Krídlo and M. Ojeda-Aciego. “Formal Concept Analysis and Structures Underlying Quantum Logics”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 574–584. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_49](https://doi.org/10.1007%2F978-3-319-91473-2_49). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_49](http://dx.doi.org/10.1007/978-3-319-91473-2_49).
+
+<a name=bib-Kr_dlo_2019></a>[[8]](#cite-Kr_dlo_2019) O. Krídlo and M. Ojeda-Aciego. “Relating Hilbert-Chu Correspondences and Big Toy Models for Quantum Mechanics”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems_. Springer International Publishing, May. 2019, p. 75–80. ISBN: 9783030160241. DOI: [10.1007/978-3-030-16024-1_10](https://doi.org/10.1007%2F978-3-030-16024-1_10). URL: [http://dx.doi.org/10.1007/978-3-030-16024-1_10](http://dx.doi.org/10.1007/978-3-030-16024-1_10).
+
+<a name=bib-Kr_dlo_2014></a>[[9]](#cite-Kr_dlo_2014) O. Krídlo and M. Ojeda-Aciego. “Revising the link between L-Chu correspondences and completely lattice L-ordered sets”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Apr. 2014), p. 91–113. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9416-8](https://doi.org/10.1007%2Fs10472-014-9416-8). URL: [http://dx.doi.org/10.1007/s10472-014-9416-8](http://dx.doi.org/10.1007/s10472-014-9416-8).
+
+<a name=bib-Mora_2012></a>[[10]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-P_cs_2021></a>[[11]](#cite-P_cs_2021) J. Pócs and J. Pócsová. “On Bonds for Generalized One-Sided Concept Lattices”. In: _Mathematics_ 9.3 (Jan. 2021), p. 211. ISSN: 2227-7390. DOI: [10.3390/math9030211](https://doi.org/10.3390%2Fmath9030211). URL: [http://dx.doi.org/10.3390/math9030211](http://dx.doi.org/10.3390/math9030211).
+
+<a name=bib-Vigo_Aguiar_2011></a>[[12]](#cite-Vigo_Aguiar_2011) J. Vigo-Aguiar and J. A. Lopez-Ramos. “Applications of computational mathematics in science and engineering”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1805–1807. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.578828](https://doi.org/10.1080%2F00207160.2011.578828). URL: [http://dx.doi.org/10.1080/00207160.2011.578828](http://dx.doi.org/10.1080/00207160.2011.578828).
+

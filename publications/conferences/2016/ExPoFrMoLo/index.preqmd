@@ -1,0 +1,37 @@
+---
+title: On the Expressive Power of Sub-Propositional Fragments of Modal Logic
+author:
+- Davide Bresolin
+- ejmunoz
+- Guido Sciavicco
+date: '2016'
+categories: uncategorised
+slug: 2016/ExPoFrMoLo
+details: Proceedings of the Seventh International Symposium on Games, Automata, Logics
+  and Formal Verification, GandALF 2016, Catania, Italy, 14-16 September 2016 , {EPTCS}
+  vol. 226, pages 91--104.
+doi: 10.4204/EPTCS.226.7
+
+---
+
+
+# Abstract
+
+
+Modal logic is a paradigm for several useful and applicable formal systems in computer science. It generally retains the low complexity of classical propositional logic, but notable exceptions exist in the domains of description, temporal, and spatial logic, where the most expressive formalisms have a very high complexity or are even undecidable. In search of computationally well-behaved fragments, clausal forms and other sub-propositional restrictions of temporal and description logics have been recently studied. This renewed interest on sub-propositional logics, which mainly focus on the complexity of the various fragments, raise natural questions on their the relative expressive power, which we try to answer here for the basic multi-modal logic Kn. We consider the Horn and the Krom restrictions, as well as the combined restriction (known as the core fragment) of modal logic, and, orthogonally, the fragments that emerge by disallowing boxes or diamonds from positive literals. We study the problem in a very general setting, to ease transferring our results to other meaningful cases.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

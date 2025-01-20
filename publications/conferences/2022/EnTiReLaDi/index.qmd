@@ -1,0 +1,51 @@
+---
+title: Encoding Non-global Time Representations into the Lattice of Divisibility
+author:
+- Francisco José Valverde Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2022'
+categories: uncategorised
+slug: 2022/EnTiReLaDi
+details: Information Processing and Management of Uncertainty in Knowledge-Based Systems
+  - 19th International Conference, {IPMU} 2022, Milan, Italy, July 11-15, 2022, Proceedings,
+  Part {I} , Communications in Computer and Information Science vol. 1601, pages 118--129.
+doi: 10.1007/978-3-031-08971-8_11
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Albacete2022></a>[[Alb+22]](#cite-Albacete2022) F. J. V. Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Encoding Non-global Time Representations into the Lattice of Divisibility”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems - 19th International Conference, IPMU 2022, Milan, Italy, July 11-15, 2022, Proceedings, Part I_. Ed. by D. Ciucci, I. Couso, J. Medina, D. Slezak, D. Petturiti, B. Bouchon-Meunier and R. R. Yager. Vol. 1601. Communications in Computer and Information Science. Springer, 2022, pp. 118-129. DOI: [10.1007/978-3-031-08971-8\_11](https://doi.org/10.1007%2F978-3-031-08971-8%5C_11). URL: [https://doi.org/10.1007/978-3-031-08971-8\_11](https://doi.org/10.1007/978-3-031-08971-8\_11).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Albacete2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco Jos{\a'e} Valverde Albacete and Carmen Pel{\a'a}ez-Moreno and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems - 19th International Conference, {IPMU} 2022, Milan, Italy, July 11-15, 2022, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Encoding Non-global Time Representations into the Lattice of Divisibility},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Davide Ciucci and In{\a'e}s Couso and Jes{\a'u}s Medina and Dominik Slezak and Davide Petturiti and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {118--129},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1601},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/AlbacetePCCO22.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-08971-8\_11},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 25 Aug 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-08971-8\_11},<br>}
+
+:::
+
+
+
+
+
+
+
+

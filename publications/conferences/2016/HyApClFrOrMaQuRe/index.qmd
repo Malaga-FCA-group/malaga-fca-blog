@@ -1,0 +1,85 @@
+---
+title: A Hybrid Approach to Closeness in the Framework of Order of Magnitude Qualitative
+  Reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2016'
+categories: uncategorised
+slug: 2016/HyApClFrOrMaQuRe
+details: Hybrid Artificial Intelligent Systems - 11th International Conference, {HAIS}
+  2016, Seville, Spain, April 18-20, 2016, Proceedings , Lecture Notes in Computer
+  Science vol. 9648, pages 721--729.
+doi: 10.1007/978-3-319-32034-2_60
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2016></a>[[BMO16]](#cite-Burrieza2016) A. Burrieza, E. Mu~noz-Velasco, and M. Ojeda-Aciego. “A Hybrid Approach to Closeness in the Framework of Order of Magnitude Qualitative Reasoning”. In: _Hybrid Artificial Intelligent Systems - 11th International Conference, HAIS 2016, Seville, Spain, April 18-20, 2016, Proceedings_. Ed. by F. Mart\'\inez-Álvarez, A. Troncoso, H. Quintián and E. Corchado. Vol. 9648. Lecture Notes in Computer Science. Springer, 2016, pp. 721-729. DOI: [10.1007/978-3-319-32034-2\_60](https://doi.org/10.1007%2F978-3-319-32034-2%5C_60). URL: [https://doi.org/10.1007/978-3-319-32034-2\_60](https://doi.org/10.1007/978-3-319-32034-2\_60).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Burrieza2016,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Hybrid Artificial Intelligent Systems - 11th International Conference, {HAIS} 2016, Seville, Spain, April 18-20, 2016, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Hybrid Approach to Closeness in the Framework of Order of Magnitude Qualitative Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco Mart\'\inez-{\a'A}lvarez and Alicia Troncoso and H{\a'e}ctor Quinti{\a'a}n and Emilio Corchado},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {721--729},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {9648},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/hais/BurriezaMO16.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-32034-2\_60},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 27 Mar 2020 08:52:04 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-32034-2\_60},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-32034-2_60" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-32034-2_60" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Hybrid Approach to Closeness in the Framework of Order of Magnitude Qualitative Reasoning</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-32034-2_60"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2017></a>[[1]](#cite-Burrieza_2017) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “A multimodal logic for closeness”. In: _Journal of Applied Non-Classical Logics_ 27.3–4 (Oct. 2017), p. 225–237. ISSN: 1958-5780. DOI: [10.1080/11663081.2018.1442137](https://doi.org/10.1080%2F11663081.2018.1442137). URL: [http://dx.doi.org/10.1080/11663081.2018.1442137](http://dx.doi.org/10.1080/11663081.2018.1442137).
+
+<a name=bib-Burrieza_2018></a>[[2]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+

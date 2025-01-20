@@ -1,0 +1,38 @@
+---
+title: Bases via Minimal Generators
+author:
+- pcordero
+- enciso
+- amora
+- aciego
+date: '2013'
+categories: uncategorised
+slug: 2013/BaViMiGe
+details: Proceedings of the International Workshop "What can {FCA} do for Artificial
+  Intelligence?" {(FCA4AI} at {IJCAI} 2013), Beijing, China, August 5, 2013 , {CEUR}
+  Workshop Proceedings vol. 1058, pages 33--36.
+doi: []
+
+---
+
+
+# Abstract
+
+
+The concept lattice corresponding to a context may be alternatively specified by means of attribute implications. One outstanding problem in formal concept analysis and other areas is the study of the equivalences between a given set of implications and its corresponding basis (notice that there exists a wide range of approaches to basis in the literature). In this work we introduce a method to provide a Duquenne-Guigues basis corresponding to the minimal generators and their closed sets from a context
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

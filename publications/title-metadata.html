@@ -82,8 +82,11 @@ $endif$
       $if(arxiv)$
       <a href="https://arxiv.org/abs/$arxiv$" target="_blank" class="badge badge badge-red">arXiv</a>
       $endif$
-      $if(online)$
-      <a href=$online$ target="_blank" class="badge badge badge-blue">Online</a>
+      $if(preprint)$
+      <a href=$preprint$ target="_blank"><img src="https://img.shields.io/static/v1?label=Link+to&message=Preprint PDF&color=a4402e" alt="Link to - Preprint PDF"></a>
+      $endif$
+      $if(link)$
+      <a href=$link$ target="_blank"><img src="https://img.shields.io/static/v1?label=Link+to&message=PDF&color=a4402e" alt="Link to - PDF"></a>
       $endif$
       $if(project)$
       <a href="../projects/$project$" target="_blank" class="badge badge badge-green">Project</a>

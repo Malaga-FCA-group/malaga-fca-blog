@@ -1,0 +1,105 @@
+---
+title: A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity
+  Relations
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Inmaculada Perez de Guzmán
+date: '2009'
+categories: uncategorised
+slug: 2009/CoLoFuFuDeDoSiRe
+details: 'Bio-Inspired Systems: Computational and Ambient Intelligence, 10th International
+  Work-Conference on Artificial Neural Networks, {IWANN} 2009, Salamanca, Spain, June
+  10-12, 2009. Proceedings, Part {I} , Lecture Notes in Computer Science vol. 5517,
+  pages 261--269.'
+doi: 10.1007/978-3-642-02478-8_33
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2009></a>[[Cor+09]](#cite-Cordero2009) P. Cordero, M. Enciso, Á. Mora, et al. “A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence, 10th International Work-Conference on Artificial Neural Networks, IWANN 2009, Salamanca, Spain, June 10-12, 2009. Proceedings, Part I_. Ed. by J. Cabestany, F. S. Hernández, A. Prieto and J. M. Corchado. Vol. 5517. Lecture Notes in Computer Science. Springer, 2009, pp. 261-269. DOI: [10.1007/978-3-642-02478-8\_33](https://doi.org/10.1007%2F978-3-642-02478-8%5C_33). URL: [https://doi.org/10.1007/978-3-642-02478-8\_33](https://doi.org/10.1007/978-3-642-02478-8\_33).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2009,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Bio-Inspired Systems: Computational and Ambient Intelligence, 10th International Work-Conference on Artificial Neural Networks, {IWANN} 2009, Salamanca, Spain, June 10-12, 2009. Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Joan Cabestany and Francisco Sandoval Hern{\a'a}ndez and Alberto Prieto and Juan M. Corchado},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {261--269},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {5517},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/CorderoEMG09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-02478-8\_33},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-02478-8\_33},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-02478-8_33" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-02478-8_33" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-02478-8_33"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2009></a>[[1]](#cite-Cabrera_2009) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Fuzzy Logic, Soft Computing, and Applications”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 236–244. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_30](https://doi.org/10.1007%2F978-3-642-02478-8_30). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_30](http://dx.doi.org/10.1007/978-3-642-02478-8_30).
+
+<a name=bib-Cordero_2018></a>[[2]](#cite-Cordero_2018) P. Cordero, M. Enciso, and A. Mora. “Directness in Fuzzy Formal Concept Analysis”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 585–595. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_50](https://doi.org/10.1007%2F978-3-319-91473-2_50). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_50](http://dx.doi.org/10.1007/978-3-319-91473-2_50).
+
+<a name=bib-Cordero_20111></a>[[3]](#cite-Cordero_20111) P. Cordero, M. Enciso, A. Mora, et al. “An Efficient Algorithm for Reasoning about Fuzzy Functional Dependencies”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 412–420. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_52](https://doi.org/10.1007%2F978-3-642-21498-1_52). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_52](http://dx.doi.org/10.1007/978-3-642-21498-1_52).
+
+<a name=bib-Cordero_2011></a>[[4]](#cite-Cordero_2011) P. Cordero, M. Enciso, A. Mora, et al. “Specification and inference of fuzzy attributes”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 107–114. DOI: [10.1109/foci.2011.5949472](https://doi.org/10.1109%2Ffoci.2011.5949472). URL: [http://dx.doi.org/10.1109/foci.2011.5949472](http://dx.doi.org/10.1109/foci.2011.5949472).
+
+<a name=bib-Datta_2016></a>[[5]](#cite-Datta_2016) N. S. Datta, H. S. Dutta, and K. Majumder. “Application of Fuzzy Logic and Fuzzy Optimization Techniques in Medical Image Processing”. In: _Handbook of Research on Natural Computing for Optimization Problems_. IGI Global, 2016, p. 822–846. DOI: [10.4018/978-1-5225-0058-2.ch033](https://doi.org/10.4018%2F978-1-5225-0058-2.ch033). URL: [http://dx.doi.org/10.4018/978-1-5225-0058-2.ch033](http://dx.doi.org/10.4018/978-1-5225-0058-2.ch033).
+
+<a name=bib-Datta_2017></a>[[6]](#cite-Datta_2017) N. S. Datta, H. S. Dutta, and K. Majumder. “Application of Fuzzy Logic and Fuzzy Optimization Techniques in Medical Image Processing”. In: _Biometrics_. IGI Global, 2017, p. 907–932. DOI: [10.4018/978-1-5225-0983-7.ch036](https://doi.org/10.4018%2F978-1-5225-0983-7.ch036). URL: [http://dx.doi.org/10.4018/978-1-5225-0983-7.ch036](http://dx.doi.org/10.4018/978-1-5225-0983-7.ch036).
+
+<a name=bib-Je_kov__2017></a>[[7]](#cite-Je_kov__2017) L. Ježková, P. Cordero, and M. Enciso. “Fuzzy functional dependencies: A comparative survey”. In: _Fuzzy Sets and Systems_ 317 (Jun. 2017), p. 88–120. ISSN: 0165-0114. DOI: [10.1016/j.fss.2016.06.019](https://doi.org/10.1016%2Fj.fss.2016.06.019). URL: [http://dx.doi.org/10.1016/j.fss.2016.06.019](http://dx.doi.org/10.1016/j.fss.2016.06.019).
+
+<a name=bib-Mora_2012></a>[[8]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-Mora_2011></a>[[9]](#cite-Mora_2011) A. Mora, I. P. de Guzmán, M. Enciso, et al. “Ideal non-deterministic operators as a formal framework to reduce the key finding problem”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1860–1868. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.484488](https://doi.org/10.1080%2F00207160.2010.484488). URL: [http://dx.doi.org/10.1080/00207160.2010.484488](http://dx.doi.org/10.1080/00207160.2010.484488).
+
+<a name=bib-Rodr_guez_Jim_nez_2013></a>[[10]](#cite-Rodr_guez_Jim_nez_2013) J. M. Rodríguez-Jiménez, P. Cordero, M. Enciso, et al. “Automated Inference with Fuzzy Functional Dependencies over Graded Data”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2013, p. 254–265. ISBN: 9783642386824. DOI: [10.1007/978-3-642-38682-4_29](https://doi.org/10.1007%2F978-3-642-38682-4_29). URL: [http://dx.doi.org/10.1007/978-3-642-38682-4_29](http://dx.doi.org/10.1007/978-3-642-38682-4_29).
+
+<a name=bib-Rodriguez_Jimenez_2015></a>[[11]](#cite-Rodriguez_Jimenez_2015) J. Rodriguez-Jimenez, E. Rodriguez-Lorenzo, P. Cordero, et al. “A Normal Form for Fuzzy Functional Dependencies”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 984–989. DOI: [10.1109/ssci.2015.143](https://doi.org/10.1109%2Fssci.2015.143). URL: [http://dx.doi.org/10.1109/ssci.2015.143](http://dx.doi.org/10.1109/ssci.2015.143).
+

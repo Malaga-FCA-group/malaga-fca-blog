@@ -1,1 +1,123 @@
-[]
+- title: A Formal Identification between Tuples and Lists with an Application to List-Arithmetic
+    Categories
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1995'
+  details: Acta Informatica vol. 32 (1), pages 61--78.
+  path: /publications/journals/1995/FoIdTuLiApCa
+- title: Increasing the efficiency of automated theorem proving
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '1995'
+  details: J. Appl. Non Class. Logics vol. 5 (1), pages 9--29.
+  path: /publications/journals/1995/InEfAuThPr
+- title: Reducing signed propositional formulas
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1998'
+  details: Soft Comput. vol. 2 (4), pages 157--166.
+  path: /publications/journals/1998/ReSiPrFo
+- title: Implicates and reduction techniques for temporal logics
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '1999'
+  details: Ann. Math. Artif. Intell. vol. 27 (1-4), pages 3--23.
+  path: /publications/journals/1999/ImReTeTeLo
+- title: A temporal negative normal form which preserves implicants and implicates
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2000'
+  details: J. Appl. Non Class. Logics vol. 10 (3-4), pages 243--272.
+  path: /publications/journals/2000/TeNeNoFoPrImIm
+- title: Reductions for non-clausal theorem proving
+  author:
+  - Gabriel Aguilera
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2001'
+  details: Theor. Comput. Sci. vol. 266 (1-2), pages 81--112.
+  path: /publications/journals/2001/ReThPr
+- title: Bases for closed sets of implicants and implicates in temporal logic
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Acta Informatica vol. 38 (9), pages 599--619.
+  path: /publications/journals/2002/BaClSeImImTeLo
+- title: From the Poset of Temporal Implicates/implicants to a Temporal Negative Form
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Reports Math. Log. vol. 36 , pages 3--53.
+  path: /publications/journals/2002/PoTeTeNeFo
+- title: Preface
+  author:
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Gerhard Brewka
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - Luís Moniz Pereira
+  date: '2002'
+  details: Stud Logica vol. 72 (1), pages 3--5.
+  path: /publications/journals/2002/Pr
+- title: Satisfiability Testing for Boolean Formulas Using Delta-trees
+  author:
+  - Gloria Gutiérrez
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Agustín Valverde
+  date: '2002'
+  details: Stud Logica vol. 72 (1), pages 85--112.
+  path: /publications/journals/2002/SaTeBoFoUs
+- title: Restricted ideals and the groupability property. Tools for temporal reasoning
+  author:
+  - Javier Martínez
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2003'
+  details: Kybernetika vol. 39 (5), pages 521--546.
+  path: /publications/journals/2003/ReIdGrToTeRe
+- title: Generalization of some properties of relations in the context of functional
+    temporal{\texttimes}modal logic
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2008'
+  details: Int. J. Comput. Math. vol. 85 (3{\&}4), pages 371--383.
+  path: /publications/journals/2008/GePrReCoFuLo
+- title: 'Non-deterministic ideal operators: An adequate tool for formalization in
+    Data Bases'
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  date: '2008'
+  details: Discret. Appl. Math. vol. 156 (6), pages 911--923.
+  path: /publications/journals/2008/IdAdToFoDaBa
+- title: Functional systems in the context of temporal{\texttimes}modal logics with
+    indexed flows
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1696--1706.
+  path: /publications/journals/2009/FuSyCoLoInFl

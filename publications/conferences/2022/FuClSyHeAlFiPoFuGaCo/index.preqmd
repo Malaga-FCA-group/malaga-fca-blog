@@ -1,0 +1,39 @@
+---
+title: Fuzzy closure systems over Heyting algebras as fixed points of a fuzzy Galois
+  connection
+author:
+- manuojeda
+- ipcabrera
+- pcordero
+- ejmunoz
+date: '2022'
+categories: uncategorised
+slug: 2022/FuClSyHeAlFiPoFuGaCo
+details: Proceedings of the Sixteenth International Conference on Concept Lattices
+  and Their Applications {(CLA} 2022) Tallinn, Estonia, June 20-22, 2022., Tallinn,
+  Estonia, June 20-22, 2022 , {CEUR} Workshop Proceedings vol. 3308, pages 9--18.
+doi: []
+
+---
+
+
+# Abstract
+
+
+Galois connections are useful to model solutions for both pure and application-oriented problems. Throughout the paper, the general framework is a complete fuzzy lattice over a Heyting algebra. We have established a fuzzy Galois connection between the fuzzy powerset lattice and the set of functions in 𝐴. Furthermore, the fixed points, or formal concepts, of this fuzzy Galois connection are exactly the fuzzy closure systems and fuzzy closure operators on 𝐴. The extension of this fuzzy Galois connection to the general framework is discussed but the study of the fixed points is still an open problem.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

@@ -1,0 +1,37 @@
+---
+title: A Critical Analysis of the Theoretical Framework of the Extreme Learning Machine
+author:
+- Irina Perfilieva
+- Nicolás Madrid
+- aciego
+- Piotr Artiemjew
+- Agnieszka Niemczynowicz
+date: '2024'
+categories: uncategorised
+slug: 2024/CrAnThFrExLeMa
+details: []
+doi: 10.48550/ARXIV.2406.17427
+
+---
+
+
+# Abstract
+
+
+Despite the number of successful applications of the Extreme Learning Machine (ELM), we show that its underlying foundational principles do not have a rigorous mathematical justification. Specifically, we refute the proofs of two main statements, and we also create a dataset that provides a counterexample to the ELM learning algorithm and explain its design, which leads to many such counterexamples. Finally, we provide alternative statements of the foundations, which justify the efficiency of ELM in some theoretical cases.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

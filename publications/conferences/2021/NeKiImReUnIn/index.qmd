@@ -1,0 +1,88 @@
+---
+title: A New Kind of Implication to Reason with Unknown Information
+author:
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2021'
+categories: uncategorised
+slug: 2021/NeKiImReUnIn
+details: Formal Concept Analysis - 16th International Conference, {ICFCA} 2021, Strasbourg,
+  France, June 29 - July 2, 2021, Proceedings , Lecture Notes in Computer Science
+  vol. 12733, pages 74--90.
+doi: 10.1007/978-3-030-77867-5_5
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-PerezGamez2021></a>[[Pér+21]](#cite-PerezGamez2021) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “A New Kind of Implication to Reason with Unknown Information”. In: _Formal Concept Analysis - 16th International Conference, ICFCA 2021, Strasbourg, France, June 29 - July 2, 2021, Proceedings_. Ed. by A. Braud, A. Buzmakov, T. Hanika and F. L. Ber. Vol. 12733. Lecture Notes in Computer Science. Springer, 2021, pp. 74-90. DOI: [10.1007/978-3-030-77867-5\_5](https://doi.org/10.1007%2F978-3-030-77867-5%5C_5). URL: [https://doi.org/10.1007/978-3-030-77867-5\_5](https://doi.org/10.1007/978-3-030-77867-5\_5).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{PerezGamez2021,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco P{\a'e}rez-G{\a'a}mez and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Formal Concept Analysis - 16th International Conference, {ICFCA} 2021, Strasbourg, France, June 29 - July 2, 2021, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A New Kind of Implication to Reason with Unknown Information},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2021},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Agn{\a`e}s Braud and Aleksey Buzmakov and Tom Hanika and Florence Le Ber},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {74--90},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {12733},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/Perez-GamezCE021.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-030-77867-5\_5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 10 Aug 2023 08:30:07 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-030-77867-5\_5},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-77867-5_5" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-77867-5_5" class="plumx-details" data-site="plum" data-hide-when-empty="true">A New Kind of Implication to Reason with Unknown Information</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-030-77867-5_5"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-P_rez_G_mez_2023></a>[[1]](#cite-P_rez_G_mez_2023) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Simplification logic for the management of unknown information”. In: _Information Sciences_ 634 (Jul. 2023), p. 505–519. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.03.015](https://doi.org/10.1016%2Fj.ins.2023.03.015). URL: [http://dx.doi.org/10.1016/j.ins.2023.03.015](http://dx.doi.org/10.1016/j.ins.2023.03.015).
+
+<a name=bib-P_rez_G_mez_2022></a>[[2]](#cite-P_rez_G_mez_2022) F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al. “Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: _Mathematics_ 10.4 (Feb. 2022), p. 607. ISSN: 2227-7390. DOI: [10.3390/math10040607](https://doi.org/10.3390%2Fmath10040607). URL: [http://dx.doi.org/10.3390/math10040607](http://dx.doi.org/10.3390/math10040607).
+
+<a name=bib-Sinclair_Desgagn__2023></a>[[3]](#cite-Sinclair_Desgagn__2023) B. Sinclair-Desgagné. “Mining for Unknown Unknowns”. In: _Electronic Proceedings in Theoretical Computer Science_ 379 (Jul. 2023), p. 507–517. ISSN: 2075-2180. DOI: [10.4204/eptcs.379.38](https://doi.org/10.4204%2Feptcs.379.38). URL: [http://dx.doi.org/10.4204/eptcs.379.38](http://dx.doi.org/10.4204/eptcs.379.38).
+

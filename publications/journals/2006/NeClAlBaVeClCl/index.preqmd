@@ -1,0 +1,38 @@
+---
+title: 'A new closure algorithm based in logic: SLFD-Closure versus classical closures'
+author:
+- amora
+- Gabriel Aguilera
+- enciso
+- pcordero
+- Inmaculada Perez de Guzmán
+date: '2006'
+categories: uncategorised
+slug: 2006/NeClAlBaVeClCl
+details: Inteligencia Artif. vol. 10 (31), pages 31--40.
+doi: []
+
+---
+
+
+# Abstract
+
+
+The field of application of closure systems goes from theoretical areas as algebra or geometry to practical areas as databases and artificial intelligence. In these practical areas, a kind of constraint named functional dependencies have an important role. Given a set of attributes X and a set of functional dependencies 
+$\Gamma$, the computation of the closure of $X$ for $\Gamma$, denoted as $X^+$ is abundantly used in artificial intelligence and database literature and is one of the key points in many problems: knowledge compilation, redundant constraint elimination, query optimization, the finding key problem, etc. We outline the main classical closure algorithms and we compare them with a novel algorithm named SLFD-Closure. We show an empirical study with the execution of the closure algorithms, and we establish that SLFD-Closure is the fastest.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

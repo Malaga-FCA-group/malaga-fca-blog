@@ -1,0 +1,55 @@
+---
+title: Interval-Valued Neural Multi-adjoint Logic Programs
+author:
+- Jesús Medina
+- Enrique Mérida Casermeiro
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2005'
+categories: uncategorised
+slug: 2005/NeLoPr
+details: 'Mechanisms, Symbols, and Models Underlying Cognition: First International
+  Work-Conference on the Interplay Between Natural and Artificial Computation, {IWINAC}
+  2005, Las Palmas, Canary Islands, Spain, June 15-18, 2005, Proceedings, Part {I}
+  , Lecture Notes in Computer Science vol. 3561, pages 518--527.'
+doi: 10.1007/11499220_53
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2005></a>[[MCO05]](#cite-Medina2005) J. Medina, E. M. Casermeiro, and M. Ojeda-Aciego. “Interval-Valued Neural Multi-adjoint Logic Programs”. In: _Mechanisms, Symbols, and Models Underlying Cognition: First International Work-Conference on the Interplay Between Natural and Artificial Computation, IWINAC 2005, Las Palmas, Canary Islands, Spain, June 15-18, 2005, Proceedings, Part I_. Ed. by J. Mira and J. R. Álvarez. Vol. 3561. Lecture Notes in Computer Science. Springer, 2005, pp. 518-527. DOI: [10.1007/11499220\_53](https://doi.org/10.1007%2F11499220%5C_53). URL: [https://doi.org/10.1007/11499220\_53](https://doi.org/10.1007/11499220\_53).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Enrique M{\a'e}rida Casermeiro and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Mechanisms, Symbols, and Models Underlying Cognition: First International Work-Conference on the Interplay Between Natural and Artificial Computation, {IWINAC} 2005, Las Palmas, Canary Islands, Spain, June 15-18, 2005, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Interval-Valued Neural Multi-adjoint Logic Programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} Mira and Jos{\a'e} R. {\a'A}lvarez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {518--527},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3561},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwinac/MedinaCO05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11499220\_53},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 13 Jan 2021 08:41:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11499220\_53},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Medina_2010></a>[[1]](#cite-Medina_2010) J. Medina. “Adjoint Pairs on Interval-Valued Fuzzy Sets”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Applications_. Springer Berlin Heidelberg, 2010, p. 430–439. ISBN: 9783642140587. DOI: [10.1007/978-3-642-14058-7_45](https://doi.org/10.1007%2F978-3-642-14058-7_45). URL: [http://dx.doi.org/10.1007/978-3-642-14058-7_45](http://dx.doi.org/10.1007/978-3-642-14058-7_45).
+

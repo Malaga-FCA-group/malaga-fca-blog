@@ -1,0 +1,47 @@
+---
+title: Homogenizing multi-adjoint logic programs
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2003'
+categories: uncategorised
+slug: 2003/HoLoPr
+details: Proceedings of the 3rd Conference of the European Society for Fuzzy Logic
+  and Technology, Zittau, Germany, September 10-12, 2003 , pages 640--644.
+---
+
+
+
+# Abstract
+
+
+The concept of homogeneous multi-adjoint logic program is introduced, and a procedure to homogenize an arbitrary multi-adjoint logic program is presented. The procedure is proved to preserve models and, moreover, some complexity results are given.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2003a></a>[[MO03]](#cite-Medina2003a) J. Medina and M. Ojeda-Aciego. “Homogenizing multi-adjoint logic programs”. In: _Proceedings of the 3rd Conference of the European Society for Fuzzy Logic and Technology, Zittau, Germany, September 10-12, 2003_. Ed. by M. Wagenknecht and R. Hampel. University of Applied Sciences at Zittau/Görlitz, Germany, 2003, pp. 640-644. URL: [http://www.eusflat.org/proceedings/EUSFLAT\_2003/papers/09Medina.pdf](http://www.eusflat.org/proceedings/EUSFLAT\_2003/papers/09Medina.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2003a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 3rd Conference of the European Society for Fuzzy Logic and Technology, Zittau, Germany, September 10-12, 2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Homogenizing multi-adjoint logic programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Michael Wagenknecht and Rainer Hampel},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {640--644},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {University of Applied Sciences at Zittau/G{\"{o}}rlitz, Germany},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {The concept of homogeneous multi-adjoint logic program is introduced, and a procedure to homogenize an arbitrary multi-adjoint logic program is presented. The procedure is proved to preserve models and, moreover, some complexity results are given.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/MedinaO03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.eusflat.org/proceedings/EUSFLAT\_2003/papers/09Medina.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

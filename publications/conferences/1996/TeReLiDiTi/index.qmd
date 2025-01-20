@@ -1,0 +1,66 @@
+---
+title: Temporal Reasoning over Linear Discrete Time
+author:
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- Carlos Rossi
+date: '1996'
+categories: uncategorised
+slug: 1996/TeReLiDiTi
+details: Logics in Artificial Intelligence, European Workshop, {JELIA} '96, {\'{E}}vora,
+  Portugal, September 30 - October 3, 1996, Proceedings , Lecture Notes in Computer
+  Science vol. 1126, pages 303--319.
+doi: 10.1007/3-540-61630-6_22
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Enciso1996a></a>[[EGR96]](#cite-Enciso1996a) M. Enciso, I. P. de Guzmán, and C. Rossi. “Temporal Reasoning over Linear Discrete Time”. In: _Logics in Artificial Intelligence, European Workshop, JELIA '96, Évora, Portugal, September 30 - October 3, 1996, Proceedings_. Ed. by J. J. Alferes, L. Pereira and E. Orlowska. Vol. 1126. Lecture Notes in Computer Science. Springer, 1996, pp. 303-319. DOI: [10.1007/3-540-61630-6\_22](https://doi.org/10.1007%2F3-540-61630-6%5C_22). URL: [https://doi.org/10.1007/3-540-61630-6\_22](https://doi.org/10.1007/3-540-61630-6\_22).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Enciso1996a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso and Inman P. {de Guzm{\a'a}n} and Carlos Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Logics in Artificial Intelligence, European Workshop, {JELIA} '96, {\'{E}}vora, Portugal, September 30 - October 3, 1996, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Temporal Reasoning over Linear Discrete Time},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1996},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} J{\a'u}lio Alferes and Lu\'\is Moniz Pereira and Ewa Orlowska},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {303--319},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1126},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/jelia/EncisoGR96.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-61630-6\_22},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 19 Oct 2019 20:16:50 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-61630-6\_22},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cardenas_Viedma_2006></a>[[1]](#cite-Cardenas_Viedma_2006) M. Cardenas-Viedma. “A sound and complete fuzzy temporal constraint logic”. In: _IEEE Transactions on Systems, Man and Cybernetics, Part B (Cybernetics)_ 36.1 (Feb. 2006), p. 223–228. ISSN: 1083-4419. DOI: [10.1109/tsmcb.2005.856146](https://doi.org/10.1109%2Ftsmcb.2005.856146). URL: [http://dx.doi.org/10.1109/tsmcb.2005.856146](http://dx.doi.org/10.1109/tsmcb.2005.856146).
+
+<a name=bib-Cordero_2002></a>[[2]](#cite-Cordero_2002) P. Cordero, M. Enciso, and I. de Guzmán. “Bases for closed sets of implicants and implicates in temporal logic”. In: _Acta Informatica_ 38.9 (Aug. 2002), p. 599–619. ISSN: 1432-0525. DOI: [10.1007/s00236-002-0087-2](https://doi.org/10.1007%2Fs00236-002-0087-2). URL: [http://dx.doi.org/10.1007/s00236-002-0087-2](http://dx.doi.org/10.1007/s00236-002-0087-2).
+
+<a name=bib-Cordero_2000></a>[[3]](#cite-Cordero_2000) P. Cordero, M. Enciso, and I. P. de Guzmán. “A temporal negative normal form which preserves implicants and implicates”. In: _Journal of Applied Non-Classical Logics_ 10.3–4 (Jan. 2000), p. 243–272. ISSN: 1958-5780. DOI: [10.1080/11663081.2000.10510999](https://doi.org/10.1080%2F11663081.2000.10510999). URL: [http://dx.doi.org/10.1080/11663081.2000.10510999](http://dx.doi.org/10.1080/11663081.2000.10510999).
+
+<a name=bib-Cordero_2004></a>[[4]](#cite-Cordero_2004) P. Cordero, G. Gutiérrez, J. Martínez, et al. “A New Algebraic Tool for Automatic Theorem Provers”. In: _Annals of Mathematics and Artificial Intelligence_ 42.4 (Dec. 2004), p. 369–398. ISSN: 1012-2443. DOI: [10.1023/b:amai.0000038312.77514.3c](https://doi.org/10.1023%2Fb%3Aamai.0000038312.77514.3c). URL: [http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c](http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c).
+
+<a name=bib-de_Guzm_n_1999></a>[[5]](#cite-de_Guzm_n_1999) I. P. de Guzmán, P. Cordero, and M. Enciso. “Structure Theorems for Closed Sets of Implicates/Implicants in Temporal Logic”. In: _Progress in Artificial Intelligence_. Springer Berlin Heidelberg, 1999, p. 193–207. ISBN: 9783540481591. DOI: [10.1007/3-540-48159-1_14](https://doi.org/10.1007%2F3-540-48159-1_14). URL: [http://dx.doi.org/10.1007/3-540-48159-1_14](http://dx.doi.org/10.1007/3-540-48159-1_14).
+
+<a name=bib-Juarez_2009></a>[[6]](#cite-Juarez_2009) J. M. Juarez, F. Guil, J. Palma, et al. “Temporal similarity by measuring possibilistic uncertainty in CBR”. In: _Fuzzy Sets and Systems_ 160.2 (Jan. 2009), p. 214–230. ISSN: 0165-0114. DOI: [10.1016/j.fss.2008.05.017](https://doi.org/10.1016%2Fj.fss.2008.05.017). URL: [http://dx.doi.org/10.1016/j.fss.2008.05.017](http://dx.doi.org/10.1016/j.fss.2008.05.017).
+
+<a name=bib-Rossi_2004></a>[[7]](#cite-Rossi_2004) C. Rossi, M. Enciso, and Á. Mora. “A First Order Temporal Logic for Behavior Representation”. In: _Advances in Artificial Intelligence – IBERAMIA 2004_. Springer Berlin Heidelberg, 2004, p. 408–418. ISBN: 9783540304982. DOI: [10.1007/978-3-540-30498-2_41](https://doi.org/10.1007%2F978-3-540-30498-2_41). URL: [http://dx.doi.org/10.1007/978-3-540-30498-2_41](http://dx.doi.org/10.1007/978-3-540-30498-2_41).
+

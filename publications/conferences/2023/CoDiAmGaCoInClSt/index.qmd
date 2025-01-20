@@ -1,0 +1,50 @@
+---
+title: On the Commutative Diagrams Among Galois Connections Involved in Closure Structures
+author:
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2023'
+categories: uncategorised
+slug: 2023/CoDiAmGaCoInClSt
+details: Formal Concept Analysis - 17th International Conference, {ICFCA} 2023, Kassel,
+  Germany, July 17-21, 2023, Proceedings , Lecture Notes in Computer Science vol.
+  13934, pages 49--63.
+doi: 10.1007/978-3-031-35949-1_4
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaHernandez2023c></a>[[Oje+23]](#cite-OjedaHernandez2023c) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “On the Commutative Diagrams Among Galois Connections Involved in Closure Structures”. In: _Formal Concept Analysis - 17th International Conference, ICFCA 2023, Kassel, Germany, July 17-21, 2023, Proceedings_. Ed. by D. Dürrschnabel and D. López-Rodr\'\iguez. Vol. 13934. Lecture Notes in Computer Science. Springer, 2023, pp. 49-63. DOI: [10.1007/978-3-031-35949-1\_4](https://doi.org/10.1007%2F978-3-031-35949-1%5C_4). URL: [https://doi.org/10.1007/978-3-031-35949-1\_4](https://doi.org/10.1007/978-3-031-35949-1\_4).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{OjedaHernandez2023c,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Ojeda-Hern{\a'a}ndez and Inma P. Cabrera and Pablo Cordero and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Formal Concept Analysis - 17th International Conference, {ICFCA} 2023, Kassel, Germany, July 17-21, 2023, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the Commutative Diagrams Among Galois Connections Involved in Closure Structures},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Dominik D{\"u}rrschnabel and Domingo L{\a'o}pez-Rodr\'\iguez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {49--63},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {13934},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/Ojeda-Hernandez23.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-35949-1\_4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 05 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-35949-1\_4},<br>}
+
+:::
+
+
+
+
+
+
+
+

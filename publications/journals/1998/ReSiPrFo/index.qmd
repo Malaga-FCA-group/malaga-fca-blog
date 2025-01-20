@@ -1,0 +1,101 @@
+---
+title: Reducing signed propositional formulas
+author:
+- Gabriel Aguilera
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '1998'
+categories: uncategorised
+slug: 1998/ReSiPrFo
+details: Soft Comput. vol. 2 (4), pages 157--166.
+doi: 10.1007/S005000050048
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Aguilera1998></a>[[Agu+98]](#cite-Aguilera1998) G. Aguilera, I. P. de Guzmán, M. Ojeda-Aciego, et al. “Reducing signed propositional formulas”. In: _Soft Comput._ 2.4 (1998), pp. 157-166. DOI: [10.1007/S005000050048](https://doi.org/10.1007%2FS005000050048). URL: [https://doi.org/10.1007/s005000050048](https://doi.org/10.1007/s005000050048).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Aguilera1998,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Gabriel Aguilera and Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Soft Comput.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Reducing signed propositional formulas},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1998},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {157--166},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/soco/AguileraGOV98.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/S005000050048},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 26 May 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/s005000050048},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/S005000050048" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/S005000050048" class="plumx-details" data-site="plum" data-hide-when-empty="true">Reducing signed propositional formulas</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/S005000050048"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aguilera_2001></a>[[1]](#cite-Aguilera_2001) G. Aguilera, I. de Guzmán, M. Ojeda-Aciego, et al. “Reductions for non-clausal theorem proving”. In: _Theoretical Computer Science_ 266.1–2 (Sep. 2001), p. 81–112. ISSN: 0304-3975. DOI: [10.1016/s0304-3975(00)00044-x](https://doi.org/10.1016%2Fs0304-3975%2800%2900044-x). URL: [http://dx.doi.org/10.1016/s0304-3975(00)00044-x](http://dx.doi.org/10.1016/s0304-3975(00)00044-x).
+
+<a name=bib-Cordero_2002></a>[[2]](#cite-Cordero_2002) P. Cordero, M. Enciso, and I. de Guzmán. “Bases for closed sets of implicants and implicates in temporal logic”. In: _Acta Informatica_ 38.9 (Aug. 2002), p. 599–619. ISSN: 1432-0525. DOI: [10.1007/s00236-002-0087-2](https://doi.org/10.1007%2Fs00236-002-0087-2). URL: [http://dx.doi.org/10.1007/s00236-002-0087-2](http://dx.doi.org/10.1007/s00236-002-0087-2).
+
+<a name=bib-Cordero_2000></a>[[3]](#cite-Cordero_2000) P. Cordero, M. Enciso, and I. P. de Guzmán. “A temporal negative normal form which preserves implicants and implicates”. In: _Journal of Applied Non-Classical Logics_ 10.3–4 (Jan. 2000), p. 243–272. ISSN: 1958-5780. DOI: [10.1080/11663081.2000.10510999](https://doi.org/10.1080%2F11663081.2000.10510999). URL: [http://dx.doi.org/10.1080/11663081.2000.10510999](http://dx.doi.org/10.1080/11663081.2000.10510999).
+
+<a name=bib-de_Guzm_n_20021></a>[[4]](#cite-de_Guzm_n_20021) I. de Guzmán, M. Ojeda-Aciego, and A. Valverde. “Restricted Δ-Trees in Multiple-Valued Logics”. In: _Artificial Intelligence: Methodology, Systems, and Applications_. Springer Berlin Heidelberg, 2002, p. 223–232. ISBN: 9783540461487. DOI: [10.1007/3-540-46148-5_23](https://doi.org/10.1007%2F3-540-46148-5_23). URL: [http://dx.doi.org/10.1007/3-540-46148-5_23](http://dx.doi.org/10.1007/3-540-46148-5_23).
+
+<a name=bib-de_Guzm_n_1999></a>[[5]](#cite-de_Guzm_n_1999) I. P. de Guzmán, P. Cordero, and M. Enciso. “Structure Theorems for Closed Sets of Implicates/Implicants in Temporal Logic”. In: _Progress in Artificial Intelligence_. Springer Berlin Heidelberg, 1999, p. 193–207. ISBN: 9783540481591. DOI: [10.1007/3-540-48159-1_14](https://doi.org/10.1007%2F3-540-48159-1_14). URL: [http://dx.doi.org/10.1007/3-540-48159-1_14](http://dx.doi.org/10.1007/3-540-48159-1_14).
+
+<a name=bib-de_Guzm_n_2002></a>[[6]](#cite-de_Guzm_n_2002) I. P. de Guzmán, M. Ojeda-Aciego, and A. Valverde. “Restricted Δ-Trees and Reduction Theorems in Multiple-Valued Logics”. In: _Advances in Artificial Intelligence — IBERAMIA 2002_. Springer Berlin Heidelberg, 2002, p. 161–171. ISBN: 9783540361312. DOI: [10.1007/3-540-36131-6_17](https://doi.org/10.1007%2F3-540-36131-6_17). URL: [http://dx.doi.org/10.1007/3-540-36131-6_17](http://dx.doi.org/10.1007/3-540-36131-6_17).
+
+<a name=bib-H_hnle_2001></a>[[7]](#cite-H_hnle_2001) R. Hähnle. “Advanced Many-Valued Logics”. In: _Handbook of Philosophical Logic_. Springer Netherlands, 2001, p. 297–395. ISBN: 9789401704526. DOI: [10.1007/978-94-017-0452-6_5](https://doi.org/10.1007%2F978-94-017-0452-6_5). URL: [http://dx.doi.org/10.1007/978-94-017-0452-6_5](http://dx.doi.org/10.1007/978-94-017-0452-6_5).
+
+<a name=bib-Imaz_2023></a>[[8]](#cite-Imaz_2023) G. E. Imaz. “A first polynomial non-clausal class in many-valued logic”. In: _Fuzzy Sets and Systems_ 456 (Mar. 2023), p. 1–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.10.008](https://doi.org/10.1016%2Fj.fss.2022.10.008). URL: [http://dx.doi.org/10.1016/j.fss.2022.10.008](http://dx.doi.org/10.1016/j.fss.2022.10.008).
+
+<a name=bib-Pearce_2000></a>[[9]](#cite-Pearce_2000) D. Pearce, I. P. de Guzmán, and A. Valverde. “A Tableau Calculus for Equilibrium Entailment”. In: _Automated Reasoning with Analytic Tableaux and Related Methods_. Springer Berlin Heidelberg, 2000, p. 352–367. ISBN: 9783540450085. DOI: [10.1007/10722086_28](https://doi.org/10.1007%2F10722086_28). URL: [http://dx.doi.org/10.1007/10722086_28](http://dx.doi.org/10.1007/10722086_28).
+
+<a name=bib-Pearce_20001></a>[[10]](#cite-Pearce_20001) D. Pearce, I. P. de Guzmán, and A. Valverde. “Computing Equilibrium Models Using Signed Formulas”. In: _Computational Logic — CL 2000_. Springer Berlin Heidelberg, 2000, p. 688–702. ISBN: 9783540449577. DOI: [10.1007/3-540-44957-4_46](https://doi.org/10.1007%2F3-540-44957-4_46). URL: [http://dx.doi.org/10.1007/3-540-44957-4_46](http://dx.doi.org/10.1007/3-540-44957-4_46).
+
+<a name=bib-Pearce_2003></a>[[11]](#cite-Pearce_2003) D. Pearce and A. Valverde. “Uniform Equivalence for Equilibrium Logic and Logic Programs”. In: _Logic Programming and Nonmonotonic Reasoning_. Springer Berlin Heidelberg, 2003, p. 194–206. ISBN: 9783540246091. DOI: [10.1007/978-3-540-24609-1_18](https://doi.org/10.1007%2F978-3-540-24609-1_18). URL: [http://dx.doi.org/10.1007/978-3-540-24609-1_18](http://dx.doi.org/10.1007/978-3-540-24609-1_18).
+

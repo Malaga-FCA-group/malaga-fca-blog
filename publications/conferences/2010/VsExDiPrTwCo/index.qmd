@@ -1,0 +1,49 @@
+---
+title: L-Bonds vs Extents of Direct Products of Two L-fuzzy Contexts
+author:
+- Ondrej Kridlo
+- Stanislav Krajci
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2010'
+categories: uncategorised
+slug: 2010/VsExDiPrTwCo
+details: Proceedings of the 7th International Conference on Concept Lattices and Their
+  Applications, Sevilla, Spain, October 19-21, 2010 , {CEUR} Workshop Proceedings
+  vol. 672, pages 70--79.
+---
+
+
+
+# Abstract
+
+
+We focus on the direct product of two L-fuzzy contexts, which are defined with the help of a binary operation on a lattice of truth-values L. This operation, essentially a disjunction, is defined as k ⋉ l = ¬k → l, for k, l ∈ L where negation is interpreted as ¬l = l → 0. We provide some results which extend previous work by Kr¨otzsch, Hitzler and Zhang.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2010></a>[[KKO10]](#cite-Kridlo2010) O. Kridlo, S. Krajci, and M. Ojeda-Aciego. “L-Bonds vs Extents of Direct Products of Two L-fuzzy Contexts”. In: _Proceedings of the 7th International Conference on Concept Lattices and Their Applications, Sevilla, Spain, October 19-21, 2010_. Ed. by M. Kryszkiewicz and S. A. Obiedkov. Vol. 672. CEUR Workshop Proceedings. CEUR-WS.org, 2010, pp. 70-79. URL: [https://ceur-ws.org/Vol-672/paper7.pdf](https://ceur-ws.org/Vol-672/paper7.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Kridlo2010,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kridlo and Stanislav Krajci and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 7th International Conference on Concept Lattices and Their Applications, Sevilla, Spain, October 19-21, 2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {L-Bonds vs Extents of Direct Products of Two L-fuzzy Contexts},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Marzena Kryszkiewicz and Sergei A. Obiedkov},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {70--79},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {672},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We focus on the direct product of two L-fuzzy contexts, which are defined with the help of a binary operation on a lattice of truth-values L. This operation, essentially a disjunction, is defined as k ⋉ l = ¬k → l, for k, l ∈ L where negation is interpreted as ¬l = l → 0. We provide some results which extend previous work by Kr¨otzsch, Hitzler and Zhang.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/KridloKO10.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-672/paper7.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

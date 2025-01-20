@@ -1,0 +1,96 @@
+---
+title: Formal Concept Analysis - 13th International Conference, {ICFCA} 2015, Nerja,
+  Spain, June 23-26, 2015, Proceedings
+author: ''
+date: '2015'
+categories: uncategorised
+slug: 2015/FoCoAnInJuPr
+details: []
+doi: 10.1007/978-3-319-19545-2
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Baixeries2015></a>[[BSO15]](#cite-Baixeries2015) J. Baixeries, C. Sacarea, and M. Ojeda-Aciego, ed. _Formal Concept Analysis - 13th International Conference, ICFCA 2015, Nerja, Spain, June 23-26, 2015, Proceedings_. Vol. 9113. Lecture Notes in Computer Science. Springer, 2015. ISBN: 978-3-319-19544-5. DOI: [10.1007/978-3-319-19545-2](https://doi.org/10.1007%2F978-3-319-19545-2). URL: [https://doi.org/10.1007/978-3-319-19545-2](https://doi.org/10.1007/978-3-319-19545-2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Baixeries2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Formal Concept Analysis - 13th International Conference, {ICFCA} 2015, Nerja, Spain, June 23-26, 2015, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jaume Baixeries and Christian Sacarea and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-319-19544-5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {9113},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/2015.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-19545-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 14 Oct 2021 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-19545-2},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-19545-2" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-19545-2" class="plumx-details" data-site="plum" data-hide-when-empty="true">Formal Concept Analysis - 13th International Conference, {ICFCA} 2015, Nerja, Spain, June 23-26, 2015, Proceedings</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-19545-2"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Chiaselotti_2018></a>[[1]](#cite-Chiaselotti_2018) G. Chiaselotti, T. Gentile, F. Infusino, et al. “Dependency and accuracy measures for directed graphs”. In: _Applied Mathematics and Computation_ 320 (Mar. 2018), p. 781–794. ISSN: 0096-3003. DOI: [10.1016/j.amc.2017.10.031](https://doi.org/10.1016%2Fj.amc.2017.10.031). URL: [http://dx.doi.org/10.1016/j.amc.2017.10.031](http://dx.doi.org/10.1016/j.amc.2017.10.031).
+
+<a name=bib-Dai_2019></a>[[2]](#cite-Dai_2019) G. Dai, Y. Hu, Y. Yang, et al. “A novel fuzzy rule extraction approach using Gaussian kernel-based granular computing”. In: _Knowledge and Information Systems_ 61.2 (Jan. 2019), p. 821–846. ISSN: 0219-3116. DOI: [10.1007/s10115-018-1318-3](https://doi.org/10.1007%2Fs10115-018-1318-3). URL: [http://dx.doi.org/10.1007/s10115-018-1318-3](http://dx.doi.org/10.1007/s10115-018-1318-3).
+
+<a name=bib-Demey_2021></a>[[3]](#cite-Demey_2021) L. Demey. “Logic-Sensitivity of Aristotelian Diagrams in Non-Normal Modal Logics”. In: _Axioms_ 10.3 (Jun. 2021), p. 128. ISSN: 2075-1680. DOI: [10.3390/axioms10030128](https://doi.org/10.3390%2Faxioms10030128). URL: [http://dx.doi.org/10.3390/axioms10030128](http://dx.doi.org/10.3390/axioms10030128).
+
+<a name=bib-Demey_2017></a>[[4]](#cite-Demey_2017) L. Demey and H. Smessaert. “Logical and Geometrical Distance in Polyhedral Aristotelian Diagrams in Knowledge Representation”. In: _Symmetry_ 9.10 (Sep. 2017), p. 204. ISSN: 2073-8994. DOI: [10.3390/sym9100204](https://doi.org/10.3390%2Fsym9100204). URL: [http://dx.doi.org/10.3390/sym9100204](http://dx.doi.org/10.3390/sym9100204).
+
+<a name=bib-Kriegel_2024></a>[[5]](#cite-Kriegel_2024) F. Kriegel. “Efficient Axiomatization of OWL 2 EL Ontologies from Data by Means of Formal Concept Analysis”. In: _Proceedings of the AAAI Conference on Artificial Intelligence_ 38.9 (Mar. 2024), p. 10597–10606. ISSN: 2159-5399. DOI: [10.1609/aaai.v38i9.28930](https://doi.org/10.1609%2Faaai.v38i9.28930). URL: [http://dx.doi.org/10.1609/aaai.v38i9.28930](http://dx.doi.org/10.1609/aaai.v38i9.28930).
+
+<a name=bib-20162></a>[[6]](#cite-20162) V. Kuchuganov. “ONTOLOGY AND ANIMATION OF PRECEDENTS”. In: _Ontology of Designing_ 6.3 (2016), p. 287–296. ISSN: 2313-1039. DOI: [10.18287/2223-9537-2016-6-3-287-296](https://doi.org/10.18287%2F2223-9537-2016-6-3-287-296). URL: [http://dx.doi.org/10.18287/2223-9537-2016-6-3-287-296](http://dx.doi.org/10.18287/2223-9537-2016-6-3-287-296).
+
+<a name=bib-20163></a>[[7]](#cite-20163) V. Levin. “DIFFERENTIAL CALCULUS OF INTERVAL ELEMENTARY FUNCTIONS AND DECISION-MAKING”. In: _Ontology of Designing_ 6.3 (2016), p. 340–354. ISSN: 2313-1039. DOI: [10.18287/2223-9537-2016-6-3-340-354](https://doi.org/10.18287%2F2223-9537-2016-6-3-340-354). URL: [http://dx.doi.org/10.18287/2223-9537-2016-6-3-340-354](http://dx.doi.org/10.18287/2223-9537-2016-6-3-340-354).
+
+<a name=bib-Negm_2017></a>[[8]](#cite-Negm_2017) E. Negm, S. AbdelRahman, and R. Bahgat. “PREFCA: A portal retrieval engine based on formal concept analysis”. In: _Information Processing &amp; Management_ 53.1 (Jan. 2017), p. 203–222. ISSN: 0306-4573. DOI: [10.1016/j.ipm.2016.08.002](https://doi.org/10.1016%2Fj.ipm.2016.08.002). URL: [http://dx.doi.org/10.1016/j.ipm.2016.08.002](http://dx.doi.org/10.1016/j.ipm.2016.08.002).
+
+<a name=bib-2016></a>[[9]](#cite-2016) D. Samoilov, V. Semenova, and S. Smirnov. “INCOMPLETE DATA ANALYSIS FOR BUILDING FORMAL ONTOLOGIES”. In: _Ontology of Designing_ 6.3 (2016), p. 317–339. ISSN: 2313-1039. DOI: [10.18287/2223-9537-2016-6-3-317-339](https://doi.org/10.18287%2F2223-9537-2016-6-3-317-339). URL: [http://dx.doi.org/10.18287/2223-9537-2016-6-3-317-339](http://dx.doi.org/10.18287/2223-9537-2016-6-3-317-339).
+
+<a name=bib-20161></a>[[10]](#cite-20161) S. Shalagin and G. Shalagina. “COGNITIVE PROBLEMS OF DESIGNING BASED ON COMPUTER MODELS: TECHNICAL AND SOCIO-HUMANITARIAN ASPECTS”. In: _Ontology of Designing_ 6.3 (2016), p. 368–376. ISSN: 2313-1039. DOI: [10.18287/2223-9537-2016-6-3-368-376](https://doi.org/10.18287%2F2223-9537-2016-6-3-368-376). URL: [http://dx.doi.org/10.18287/2223-9537-2016-6-3-368-376](http://dx.doi.org/10.18287/2223-9537-2016-6-3-368-376).
+

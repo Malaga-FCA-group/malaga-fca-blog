@@ -1,0 +1,124 @@
+---
+title: Towards a Fuzzy Answer Set Semantics for Residuated Logic Programs
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2008'
+categories: uncategorised
+slug: 2008/ToFuAnSeSeReLoPr
+details: Proceedings of the 2008 {IEEE/WIC/ACM} International Conference on Web Intelligence
+  and International Conference on Intelligent Agent Technology - Workshops, 9-12 December
+  2008, Sydney, NSW, Australia , pages 260--264.
+doi: 10.1109/WIIAT.2008.357
+---
+
+
+
+# Abstract
+
+
+In this work we introduce the first steps towards the definition of an answer set semantics for residuated logic programs with negation.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2008></a>[[MO08]](#cite-Madrid2008) N. Madrid and M. Ojeda-Aciego. “Towards a Fuzzy Answer Set Semantics for Residuated Logic Programs”. In: _Proceedings of the 2008 IEEE/WIC/ACM International Conference on Web Intelligence and International Conference on Intelligent Agent Technology - Workshops, 9-12 December 2008, Sydney, NSW, Australia_. IEEE Computer Society, 2008, pp. 260-264. DOI: [10.1109/WIIAT.2008.357](https://doi.org/10.1109%2FWIIAT.2008.357). URL: [https://doi.org/10.1109/WIIAT.2008.357](https://doi.org/10.1109/WIIAT.2008.357).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 2008 {IEEE/WIC/ACM} International Conference on Web Intelligence and International Conference on Intelligent Agent Technology - Workshops, 9-12 December 2008, Sydney, NSW, Australia},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards a Fuzzy Answer Set Semantics for Residuated Logic Programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {260--264},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE} Computer Society},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iat/MadridO08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/WIIAT.2008.357},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 24 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/WIIAT.2008.357},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/WIIAT.2008.357" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/WIIAT.2008.357" class="plumx-details" data-site="plum" data-hide-when-empty="true">Towards a Fuzzy Answer Set Semantics for Residuated Logic Programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/WIIAT.2008.357"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-httpsdoiorg1048550arxiv12033466></a>[[1]](#cite-httpsdoiorg1048550arxiv12033466) K. Bauters, S. Schockaert, M. De Cock, et al. _Possibilistic Answer Set Programming Revisited_. 2012. DOI: [10.48550/ARXIV.1203.3466](https://doi.org/10.48550%2FARXIV.1203.3466). URL: [https://arxiv.org/abs/1203.3466](https://arxiv.org/abs/1203.3466).
+
+<a name=bib-Bustince_2013></a>[[2]](#cite-Bustince_2013) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “A measure of contradiction based on the notion of N-weak-contradiction”. In: _2013 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2013, p. 1–6. DOI: [10.1109/fuzz-ieee.2013.6622563](https://doi.org/10.1109%2Ffuzz-ieee.2013.6622563). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2013.6622563](http://dx.doi.org/10.1109/fuzz-ieee.2013.6622563).
+
+<a name=bib-Bustince_2015></a>[[3]](#cite-Bustince_2015) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “The Notion of Weak-Contradiction: Definition and Measures”. In: _IEEE Transactions on Fuzzy Systems_ 23.4 (Aug. 2015), p. 1057–1069. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2014.2337934](https://doi.org/10.1109%2Ftfuzz.2014.2337934). URL: [http://dx.doi.org/10.1109/tfuzz.2014.2337934](http://dx.doi.org/10.1109/tfuzz.2014.2337934).
+
+<a name=bib-Cornejo_2020></a>[[4]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Relating Multi-Adjoint Normal Logic Programs to Core Fuzzy Answer Set Programs from a Semantical Approach”. In: _Mathematics_ 8.6 (Jun. 2020), p. 881. ISSN: 2227-7390. DOI: [10.3390/math8060881](https://doi.org/10.3390%2Fmath8060881). URL: [http://dx.doi.org/10.3390/math8060881](http://dx.doi.org/10.3390/math8060881).
+
+<a name=bib-Cornejo_2018></a>[[5]](#cite-Cornejo_2018) M. E. Cornejo, D. Lobo, and J. Medina. “Syntax and semantics of multi-adjoint normal logic programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 41–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.12.009](https://doi.org/10.1016%2Fj.fss.2017.12.009). URL: [http://dx.doi.org/10.1016/j.fss.2017.12.009](http://dx.doi.org/10.1016/j.fss.2017.12.009).
+
+<a name=bib-Dam_sio_2011></a>[[6]](#cite-Dam_sio_2011) C. V. Damásio, N. Madrid, and M. Ojeda-Aciego. “On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence”. In: _Fuzzy Logic and Applications_. Springer Berlin Heidelberg, 2011, p. 115–122. ISBN: 9783642237133. DOI: [10.1007/978-3-642-23713-3_15](https://doi.org/10.1007%2F978-3-642-23713-3_15). URL: [http://dx.doi.org/10.1007/978-3-642-23713-3_15](http://dx.doi.org/10.1007/978-3-642-23713-3_15).
+
+<a name=bib-Janssen_2012></a>[[7]](#cite-Janssen_2012) J. Janssen, S. Schockaert, D. Vermeir, et al. “A core language for fuzzy answer set programming”. In: _International Journal of Approximate Reasoning_ 53.4 (Jun. 2012), p. 660–692. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2012.01.005](https://doi.org/10.1016%2Fj.ijar.2012.01.005). URL: [http://dx.doi.org/10.1016/j.ijar.2012.01.005](http://dx.doi.org/10.1016/j.ijar.2012.01.005).
+
+<a name=bib-Janssen_2011></a>[[8]](#cite-Janssen_2011) J. Janssen, S. Schockaert, D. Vermeir, et al. “Aggregated Fuzzy Answer Set Programming”. In: _Annals of Mathematics and Artificial Intelligence_ 63.2 (Aug. 2011), p. 103–147. ISSN: 1573-7470. DOI: [10.1007/s10472-011-9256-8](https://doi.org/10.1007%2Fs10472-011-9256-8). URL: [http://dx.doi.org/10.1007/s10472-011-9256-8](http://dx.doi.org/10.1007/s10472-011-9256-8).
+
+<a name=bib-JANSSEN_2011></a>[[9]](#cite-JANSSEN_2011) J. JANSSEN, D. VERMEIR, S. SCHOCKAERT, et al. “Reducing fuzzy answer set programming to model finding in fuzzy logics”. In: _Theory and Practice of Logic Programming_ 12.6 (Jun. 2011), p. 811–842. ISSN: 1475-3081. DOI: [10.1017/s1471068411000093](https://doi.org/10.1017%2Fs1471068411000093). URL: [http://dx.doi.org/10.1017/s1471068411000093](http://dx.doi.org/10.1017/s1471068411000093).
+
+<a name=bib-Lee_2014></a>[[10]](#cite-Lee_2014) J. Lee and Y. Wang. “Stable Models of Fuzzy Propositional Formulas”. In: _Logics in Artificial Intelligence_. Springer International Publishing, 2014, p. 326–339. ISBN: 9783319115580. DOI: [10.1007/978-3-319-11558-0_23](https://doi.org/10.1007%2F978-3-319-11558-0_23). URL: [http://dx.doi.org/10.1007/978-3-319-11558-0_23](http://dx.doi.org/10.1007/978-3-319-11558-0_23).
+
+<a name=bib-Madrid_2017></a>[[11]](#cite-Madrid_2017) N. Madrid. “A sufficient condition to guarantee the existence of fuzzy stable models on residuated logic programming with constrains”. In: _2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2017, p. 1–6. DOI: [10.1109/fuzz-ieee.2017.8015741](https://doi.org/10.1109%2Ffuzz-ieee.2017.8015741). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2017.8015741](http://dx.doi.org/10.1109/fuzz-ieee.2017.8015741).
+
+<a name=bib-Madrid_2011></a>[[12]](#cite-Madrid_2011) N. Madrid and M. Ojeda-Aciego. “Measuring Inconsistency in Fuzzy Answer Set Semantics”. In: _IEEE Transactions on Fuzzy Systems_ 19.4 (Aug. 2011), p. 605–622. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2011.2114669](https://doi.org/10.1109%2Ftfuzz.2011.2114669). URL: [http://dx.doi.org/10.1109/tfuzz.2011.2114669](http://dx.doi.org/10.1109/tfuzz.2011.2114669).
+
+<a name=bib-Madrid_20101></a>[[13]](#cite-Madrid_20101) N. Madrid and M. Ojeda-Aciego. “Measuring instability in normal residuated logic programs: Adding information”. In: _International Conference on Fuzzy Systems_. IEEE, Jul. 2010, p. 1–7. DOI: [10.1109/fuzzy.2010.5584819](https://doi.org/10.1109%2Ffuzzy.2010.5584819). URL: [http://dx.doi.org/10.1109/fuzzy.2010.5584819](http://dx.doi.org/10.1109/fuzzy.2010.5584819).
+
+<a name=bib-Madrid_2010></a>[[14]](#cite-Madrid_2010) N. Madrid and M. Ojeda-Aciego. “Measuring Instability in Normal Residuated Logic Programs: Discarding Information”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Methods_. Springer Berlin Heidelberg, 2010, p. 128–137. ISBN: 9783642140556. DOI: [10.1007/978-3-642-14055-6_14](https://doi.org/10.1007%2F978-3-642-14055-6_14). URL: [http://dx.doi.org/10.1007/978-3-642-14055-6_14](http://dx.doi.org/10.1007/978-3-642-14055-6_14).
+
+<a name=bib-Madrid_2009></a>[[15]](#cite-Madrid_2009) N. Madrid and M. Ojeda-Aciego. “On Coherence and Consistence in Fuzzy Answer Set Semantics for Residuated Logic Programs”. In: _Fuzzy Logic and Applications_. Springer Berlin Heidelberg, 2009, p. 60–67. ISBN: 9783642022821. DOI: [10.1007/978-3-642-02282-1_8](https://doi.org/10.1007%2F978-3-642-02282-1_8). URL: [http://dx.doi.org/10.1007/978-3-642-02282-1_8](http://dx.doi.org/10.1007/978-3-642-02282-1_8).
+
+<a name=bib-Madrid_2012></a>[[16]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On least coherence-preserving negations”. In: _2012 Annual Meeting of the North American Fuzzy Information Processing Society (NAFIPS)_. IEEE, Aug. 2012, p. 1–6. DOI: [10.1109/nafips.2012.6290981](https://doi.org/10.1109%2Fnafips.2012.6290981). URL: [http://dx.doi.org/10.1109/nafips.2012.6290981](http://dx.doi.org/10.1109/nafips.2012.6290981).
+
+<a name=bib-Madrid_20121></a>[[17]](#cite-Madrid_20121) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 310–324. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [http://dx.doi.org/10.1080/00207160.2011.580842](http://dx.doi.org/10.1080/00207160.2011.580842).
+
+<a name=bib-Madrid_20091></a>[[18]](#cite-Madrid_20091) N. Madrid and M. Ojeda-Aciego. “On the measure of incoherence in extended residuated logic programs”. In: _2009 IEEE International Conference on Fuzzy Systems_. IEEE, Aug. 2009, p. 598–603. DOI: [10.1109/fuzzy.2009.5277277](https://doi.org/10.1109%2Ffuzzy.2009.5277277). URL: [http://dx.doi.org/10.1109/fuzzy.2009.5277277](http://dx.doi.org/10.1109/fuzzy.2009.5277277).
+
+<a name=bib-Madrid_20111></a>[[19]](#cite-Madrid_20111) N. Madrid and M. Ojeda-Aciego. “On the use of fuzzy stable models for inconsistent classical logic programs”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 115–121. DOI: [10.1109/foci.2011.5949476](https://doi.org/10.1109%2Ffoci.2011.5949476). URL: [http://dx.doi.org/10.1109/foci.2011.5949476](http://dx.doi.org/10.1109/foci.2011.5949476).
+
+<a name=bib-Mushthofa_2018></a>[[20]](#cite-Mushthofa_2018) M. Mushthofa, S. Schockaert, L. Hung, et al. “Modeling multi-valued biological interaction networks using fuzzy answer set programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 63–82. ISSN: 0165-0114. DOI: [10.1016/j.fss.2018.01.003](https://doi.org/10.1016%2Fj.fss.2018.01.003). URL: [http://dx.doi.org/10.1016/j.fss.2018.01.003](http://dx.doi.org/10.1016/j.fss.2018.01.003).
+
+<a name=bib-Saad_2010></a>[[21]](#cite-Saad_2010) E. Saad. “Disjunctive Fuzzy Logic Programs with Fuzzy Answer Set Semantics”. In: _Scalable Uncertainty Management_. Springer Berlin Heidelberg, 2010, p. 306–318. ISBN: 9783642159510. DOI: [10.1007/978-3-642-15951-0_29](https://doi.org/10.1007%2F978-3-642-15951-0_29). URL: [http://dx.doi.org/10.1007/978-3-642-15951-0_29](http://dx.doi.org/10.1007/978-3-642-15951-0_29).
+
+<a name=bib-Saad_2009></a>[[22]](#cite-Saad_2009) E. Saad. “Extended Fuzzy Logic Programs with Fuzzy Answer Set Semantics”. In: _Scalable Uncertainty Management_. Springer Berlin Heidelberg, 2009, p. 223–239. ISBN: 9783642043888. DOI: [10.1007/978-3-642-04388-8_18](https://doi.org/10.1007%2F978-3-642-04388-8_18). URL: [http://dx.doi.org/10.1007/978-3-642-04388-8_18](http://dx.doi.org/10.1007/978-3-642-04388-8_18).
+

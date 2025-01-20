@@ -1,0 +1,96 @@
+---
+title: Formalization of {UML} state machines using temporal logic
+author:
+- Carlos Rossi
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- Inmaculada Perez de Guzmán
+date: '2004'
+categories: uncategorised
+slug: 2004/FoStMaUsTeLo
+details: Softw. Syst. Model. vol. 3 (1), pages 31--54.
+doi: 10.1007/S10270-003-0029-7
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Rossi2004></a>[[REG04]](#cite-Rossi2004) C. Rossi, M. Enciso, and I. P. de Guzmán. “Formalization of UML state machines using temporal logic”. In: _Softw. Syst. Model._ 3.1 (2004), pp. 31-54. DOI: [10.1007/S10270-003-0029-7](https://doi.org/10.1007%2FS10270-003-0029-7). URL: [https://doi.org/10.1007/s10270-003-0029-7](https://doi.org/10.1007/s10270-003-0029-7).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Rossi2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Rossi and Manuel Enciso and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Softw. Syst. Model.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Formalization of {UML} state machines using temporal logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {31--54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/sosym/RossiEG04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/S10270-003-0029-7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 18 Sep 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/s10270-003-0029-7},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/S10270-003-0029-7" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/S10270-003-0029-7" class="plumx-details" data-site="plum" data-hide-when-empty="true">Formalization of {UML} state machines using temporal logic</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/S10270-003-0029-7"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Belghiat_2014></a>[[1]](#cite-Belghiat_2014) A. Belghiat, A. Chaoui, M. Maouche, et al. “Formalization of Mobile UML Statechart Diagrams Using the π-calculus: An Approach for Modeling and Analysis”. In: _Information and Software Technologies_. Springer International Publishing, 2014, p. 236–247. ISBN: 9783319119588. DOI: [10.1007/978-3-319-11958-8_19](https://doi.org/10.1007%2F978-3-319-11958-8_19). URL: [http://dx.doi.org/10.1007/978-3-319-11958-8_19](http://dx.doi.org/10.1007/978-3-319-11958-8_19).
+
+<a name=bib-Gogolla_2003></a>[[2]](#cite-Gogolla_2003) M. Gogolla, P. Ziemann, and S. Kuske. “Towards an Integrated Graph Based Semantics for UML”. In: _Electronic Notes in Theoretical Computer Science_ 72.3 (Feb. 2003), p. 160–175. ISSN: 1571-0661. DOI: [10.1016/s1571-0661(04)80619-4](https://doi.org/10.1016%2Fs1571-0661%2804%2980619-4). URL: [http://dx.doi.org/10.1016/s1571-0661(04)80619-4](http://dx.doi.org/10.1016/s1571-0661(04)80619-4).
+
+<a name=bib-Graw_2004></a>[[3]](#cite-Graw_2004) G. Graw and P. Herrmann. “Transformation and Verification of Executable UML Models”. In: _Electronic Notes in Theoretical Computer Science_ 101 (Nov. 2004), p. 3–24. ISSN: 1571-0661. DOI: [10.1016/j.entcs.2004.09.006](https://doi.org/10.1016%2Fj.entcs.2004.09.006). URL: [http://dx.doi.org/10.1016/j.entcs.2004.09.006](http://dx.doi.org/10.1016/j.entcs.2004.09.006).
+
+<a name=bib-Kezai_2022></a>[[4]](#cite-Kezai_2022) M. Kezai and A. Khababa. “Generating Maude Specifications from M-UML Statechart Diagrams”. In: _Journal of Advanced Computational Intelligence and Intelligent Informatics_ 26.1 (Jan. 2022), p. 8–16. ISSN: 1343-0130. DOI: [10.20965/jaciii.2022.p0008](https://doi.org/10.20965%2Fjaciii.2022.p0008). URL: [http://dx.doi.org/10.20965/jaciii.2022.p0008](http://dx.doi.org/10.20965/jaciii.2022.p0008).
+
+<a name=bib-httpsdoiorg1048550arxiv14021985></a>[[5]](#cite-httpsdoiorg1048550arxiv14021985) R. Klimek. _Generating Logical Specifications from Requirements Models for Deduction-based Formal Verification_. 2014. DOI: [10.48550/ARXIV.1402.1985](https://doi.org/10.48550%2FARXIV.1402.1985). URL: [https://arxiv.org/abs/1402.1985](https://arxiv.org/abs/1402.1985).
+
+<a name=bib-Kuske_2008></a>[[6]](#cite-Kuske_2008) S. Kuske, M. Gogolla, H. Kreowski, et al. “Towards an integrated graph-based semantics for UML”. In: _Software &amp; Systems Modeling_ 8.3 (Aug. 2008), p. 403–422. ISSN: 1619-1374. DOI: [10.1007/s10270-008-0101-4](https://doi.org/10.1007%2Fs10270-008-0101-4). URL: [http://dx.doi.org/10.1007/s10270-008-0101-4](http://dx.doi.org/10.1007/s10270-008-0101-4).
+
+<a name=bib-Lund_2010></a>[[7]](#cite-Lund_2010) M. S. Lund, A. Refsdal, and K. Stølen. “4 Semantics of UML Models for Dynamic Behavior: A Survey of Different Approaches”. In: _Model-Based Engineering of Embedded Real-Time Systems_. Springer Berlin Heidelberg, 2010, p. 77–103. ISBN: 9783642162770. DOI: [10.1007/978-3-642-16277-0_4](https://doi.org/10.1007%2F978-3-642-16277-0_4). URL: [http://dx.doi.org/10.1007/978-3-642-16277-0_4](http://dx.doi.org/10.1007/978-3-642-16277-0_4).
+
+<a name=bib-Rossi_2004></a>[[8]](#cite-Rossi_2004) C. Rossi, M. Enciso, and Á. Mora. “A First Order Temporal Logic for Behavior Representation”. In: _Advances in Artificial Intelligence – IBERAMIA 2004_. Springer Berlin Heidelberg, 2004, p. 408–418. ISBN: 9783540304982. DOI: [10.1007/978-3-540-30498-2_41](https://doi.org/10.1007%2F978-3-540-30498-2_41). URL: [http://dx.doi.org/10.1007/978-3-540-30498-2_41](http://dx.doi.org/10.1007/978-3-540-30498-2_41).
+
+<a name=bib-Storey_2023></a>[[9]](#cite-Storey_2023) V. C. Storey, R. Lukyanenko, and A. Castellanos. “Conceptual Modeling: Topics, Themes, and Technology Trends”. In: _ACM Computing Surveys_ 55.14s (Jul. 2023), p. 1–38. ISSN: 1557-7341. DOI: [10.1145/3589338](https://doi.org/10.1145%2F3589338). URL: [http://dx.doi.org/10.1145/3589338](http://dx.doi.org/10.1145/3589338).
+

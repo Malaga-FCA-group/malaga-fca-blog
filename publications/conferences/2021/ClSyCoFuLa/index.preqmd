@@ -1,0 +1,37 @@
+---
+title: On (fuzzy) closure systems in complete fuzzy lattices
+author:
+- manuojeda
+- ipcabrera
+- pcordero
+- ejmunoz
+date: '2021'
+categories: uncategorised
+slug: 2021/ClSyCoFuLa
+details: 30th {IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2021,
+  Luxembourg, July 11-14, 2021 , pages 1--6.
+doi: 10.1109/FUZZ45933.2021.9494404
+
+---
+
+
+# Abstract
+
+
+Two alternative definitions of closure system in complete fuzzy lattices are introduced, first as a crisp set and then as a fuzzy one. It is valuated in a complete Heyting algebra and follows the classical definition on complete lattices. The classical bijection between closure systems and fuzzy closure operators is preserved. Then, the notion is compared with the most used definition given by Bělohlávek on the fuzzy powerset lattice.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

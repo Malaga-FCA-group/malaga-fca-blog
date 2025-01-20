@@ -1,0 +1,92 @@
+---
+title: Finitary coalgebraic multisemilattices and multilattices
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Gloria Gutiérrez
+- Javier Martínez
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/FiCoMuMu
+details: Appl. Math. Comput. vol. 219 (1), pages 31--44.
+doi: 10.1016/J.AMC.2011.10.081
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2012></a>[[Cab+12]](#cite-Cabrera2012) I. P. Cabrera, P. Cordero, G. Gutiérrez, et al. “Finitary coalgebraic multisemilattices and multilattices”. In: _Appl. Math. Comput._ 219.1 (2012), pp. 31-44. DOI: [10.1016/J.AMC.2011.10.081](https://doi.org/10.1016%2FJ.AMC.2011.10.081). URL: [https://doi.org/10.1016/j.amc.2011.10.081](https://doi.org/10.1016/j.amc.2011.10.081).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cabrera2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Gloria Guti{\a'e}rrez and Javier Mart\'\inez and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Appl. Math. Comput.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Finitary coalgebraic multisemilattices and multilattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {31--44},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {219},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/amc/CabreraCGMO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.AMC.2011.10.081},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.amc.2011.10.081},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.AMC.2011.10.081" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.AMC.2011.10.081" class="plumx-details" data-site="plum" data-hide-when-empty="true">Finitary coalgebraic multisemilattices and multilattices</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.AMC.2011.10.081"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Awouafack_20221></a>[[1]](#cite-Awouafack_20221) D. C. Awouafack and E. Fouotsa. “The Properties of Maximal Filters in Multilattices”. In: _Journal of Mathematics_ 2022.1 (Jan. 2022). Ed. by F. Mynard. ISSN: 2314-4785. DOI: [10.1155/2022/9714656](https://doi.org/10.1155%2F2022%2F9714656). URL: [http://dx.doi.org/10.1155/2022/9714656](http://dx.doi.org/10.1155/2022/9714656).
+
+<a name=bib-Awouafack_2022></a>[[2]](#cite-Awouafack_2022) D. C. Awouafack, B. B. Koguep Njionou, and C. Lélé. “The Prime Filter Theorem for Multilattices”. In: _International Journal of Mathematics and Mathematical Sciences_ 2022 (Apr. 2022). Ed. by F. Mynard, p. 1–5. ISSN: 0161-1712. DOI: [10.1155/2022/8060503](https://doi.org/10.1155%2F2022%2F8060503). URL: [http://dx.doi.org/10.1155/2022/8060503](http://dx.doi.org/10.1155/2022/8060503).
+
+<a name=bib-Cabrera_2014></a>[[3]](#cite-Cabrera_2014) I. Cabrera, P. Cordero, G. Gutiérrez, et al. “On residuation in multilattices: Filters, congruences, and homomorphisms”. In: _Fuzzy Sets and Systems_ 234 (Jan. 2014), p. 1–21. ISSN: 0165-0114. DOI: [10.1016/j.fss.2013.04.002](https://doi.org/10.1016%2Fj.fss.2013.04.002). URL: [http://dx.doi.org/10.1016/j.fss.2013.04.002](http://dx.doi.org/10.1016/j.fss.2013.04.002).
+
+<a name=bib-Garc_a_Pardo_2014></a>[[4]](#cite-Garc_a_Pardo_2014) F. García-Pardo, I. Cabrera, P. Cordero, et al. “On the definition of suitable orderings to generate adjunctions over an unstructured codomain”. In: _Information Sciences_ 286 (Dec. 2014), p. 173–187. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.07.006](https://doi.org/10.1016%2Fj.ins.2014.07.006). URL: [http://dx.doi.org/10.1016/j.ins.2014.07.006](http://dx.doi.org/10.1016/j.ins.2014.07.006).
+
+<a name=bib-Kengne_2022></a>[[5]](#cite-Kengne_2022) P. C. Kengne, B. B. Koguep Njionou, D. C. Awouafack, et al. “<math xmlns="http://www.w3.org/1998/Math/MathML" id="M1"> <mi mathvariant="normal">ℒ</mi> </math>-Fuzzy Cosets of <math xmlns="http://www.w3.org/1998/Math/MathML" id="M2"> <mi mathvariant="normal">ℒ</mi> </math>-Fuzzy Filters of Residuated Multilattices”. In: _International Journal of Mathematics and Mathematical Sciences_ 2022 (Sep. 2022). Ed. by F. Mynard, p. 1–14. ISSN: 0161-1712. DOI: [10.1155/2022/6833943](https://doi.org/10.1155%2F2022%2F6833943). URL: [http://dx.doi.org/10.1155/2022/6833943](http://dx.doi.org/10.1155/2022/6833943).
+
+<a name=bib-Nguepy_Dongmo_2024></a>[[6]](#cite-Nguepy_Dongmo_2024) G. Nguepy Dongmo, B. B. Koguep Njionou, L. Kwuida, et al. “Multilattice as the set of truth values for fuzzy rough sets”. In: _Journal of Applied Non-Classical Logics_ (Jul. 2024), p. 1–20. ISSN: 1958-5780. DOI: [10.1080/11663081.2024.2373016](https://doi.org/10.1080%2F11663081.2024.2373016). URL: [http://dx.doi.org/10.1080/11663081.2024.2373016](http://dx.doi.org/10.1080/11663081.2024.2373016).
+

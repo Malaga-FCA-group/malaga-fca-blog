@@ -1,0 +1,84 @@
+---
+title: A flexible logic-based approach to closeness using order of magnitude qualitative
+  reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/FlApClUsOrMaQuRe
+details: Log. J. {IGPL} vol. 28 (1), pages 121--133.
+doi: 10.1093/JIGPAL/JZZ076
+---
+
+
+
+# Abstract
+
+
+Abstract In this paper, we focus on a logical approach to the important notion of closeness, which has not received much attention in the literature. Our notion of closeness is based on the so-called proximity intervals, which will be used to decide the elements that are close to each other. Some of the intuitions of this definition are explained on the basis of examples. We prove the decidability of the recently introduced multimodal logic for closeness and, then, we show some capabilities of the logic with respect to expressivity in order to denote particular positions of the proximity intervals.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2020></a>[[BMO20]](#cite-Burrieza2020) A. Burrieza, E. Mu~noz-Velasco, and M. Ojeda-Aciego. “A flexible logic-based approach to closeness using order of magnitude qualitative reasoning”. In: _Log. J. IGPL_ 28.1 (2020), pp. 121-133. DOI: [10.1093/JIGPAL/JZZ076](https://doi.org/10.1093%2FJIGPAL%2FJZZ076). URL: [https://doi.org/10.1093/jigpal/jzz076](https://doi.org/10.1093/jigpal/jzz076).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Log. J. {IGPL}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A flexible logic-based approach to closeness using order of magnitude qualitative reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {121--133},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {28},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/igpl/BurriezaMO20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1093/JIGPAL/JZZ076},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 06 Mar 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1093/jigpal/jzz076},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1093/JIGPAL/JZZ076" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1093/JIGPAL/JZZ076" class="plumx-details" data-site="plum" data-hide-when-empty="true">A flexible logic-based approach to closeness using order of magnitude qualitative reasoning</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1093/JIGPAL/JZZ076"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Barreno_2021></a>[[1]](#cite-Barreno_2021) F. Barreno, M. G. Romana, and M. Santos. “Fuzzy expert system for road type identification and risk assessment of conventional two‐lane roads”. In: _Expert Systems_ 39.9 (Sep. 2021). ISSN: 1468-0394. DOI: [10.1111/exsy.12837](https://doi.org/10.1111%2Fexsy.12837). URL: [http://dx.doi.org/10.1111/exsy.12837](http://dx.doi.org/10.1111/exsy.12837).
+
+<a name=bib-Barreno_2020></a>[[2]](#cite-Barreno_2020) F. Barreno, M. Santos, and M. G. Romana. “Fuzzy-Logic Based Identification of Conventional Two-Lane Roads”. In: _15th International Conference on Soft Computing Models in Industrial and Environmental Applications (SOCO 2020)_. Springer International Publishing, Aug. 2020, p. 418–428. ISBN: 9783030578022. DOI: [10.1007/978-3-030-57802-2_40](https://doi.org/10.1007%2F978-3-030-57802-2_40). URL: [http://dx.doi.org/10.1007/978-3-030-57802-2_40](http://dx.doi.org/10.1007/978-3-030-57802-2_40).
+

@@ -55,13 +55,16 @@ Please, cite this work as:
 # Bibliometric data
 
 
-The following data has been extracted from free resources such as [OpenAlex](https://openalex.org/) or [Dimensions](https://app.dimensions.ai/).
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ins.2023.03.015" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
 <a href="https://plu.mx/plum/a/?doi=10.1016/j.ins.2023.03.015" class="plumx-details" data-site="plum" data-hide-when-empty="true">Simplification logic for the management of unknown information</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/j.ins.2023.03.015"></div></div>
 
 
 ## Cites

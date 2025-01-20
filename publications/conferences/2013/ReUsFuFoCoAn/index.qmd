@@ -1,0 +1,51 @@
+---
+title: Context-aware Recommendation using Fuzzy Formal Concept Analysis
+author:
+- José Luis Leiva
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- Carlos Rossi
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Antonio Guevara
+date: '2013'
+categories: uncategorised
+slug: 2013/ReUsFuFoCoAn
+details: '{ICSOFT} 2013 - Proceedings of the 8th International Joint Conference on
+  Software Technologies, Reykjav{\''{\i}}k, Iceland, 29-31 July, 2013 , pages 617--623.'
+doi: 10.5220/0004594406170623
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Leiva2013a></a>[[Lei+13]](#cite-Leiva2013a) J. L. Leiva, M. Enciso, C. Rossi, et al. “Context-aware Recommendation using Fuzzy Formal Concept Analysis”. In: _ICSOFT 2013 - Proceedings of the 8th International Joint Conference on Software Technologies, Reykjav\'\ik, Iceland, 29-31 July, 2013_. Ed. by J. Cordeiro, D. A. Marca and M. van Sinderen. SciTePress, 2013, pp. 617-623. DOI: [10.5220/0004594406170623](https://doi.org/10.5220%2F0004594406170623). URL: [https://doi.org/10.5220/0004594406170623](https://doi.org/10.5220/0004594406170623).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Leiva2013a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jos{\a'e} Luis Leiva and Manuel Enciso and Carlos Rossi and Pablo Cordero and {\a'A}ngel Mora and Antonio Guevara},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ICSOFT} 2013 - Proceedings of the 8th International Joint Conference on Software Technologies, Reykjav{\'{\i}}k, Iceland, 29-31 July, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Context-aware Recommendation using Fuzzy Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} Cordeiro and David A. Marca and Marten {van Sinderen}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {617--623},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {SciTePress},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icsoft/LeivaERCMG13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.5220/0004594406170623},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.5220/0004594406170623},<br>}
+
+:::
+
+
+
+
+
+
+
+

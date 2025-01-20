@@ -1,1 +1,0 @@
-Sitemap: https://fca-malaga.netlify.app/sitemap.xml

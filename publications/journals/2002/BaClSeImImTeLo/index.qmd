@@ -1,0 +1,58 @@
+---
+title: Bases for closed sets of implicants and implicates in temporal logic
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+date: '2002'
+categories: uncategorised
+slug: 2002/BaClSeImImTeLo
+details: Acta Informatica vol. 38 (9), pages 599--619.
+doi: 10.1007/S00236-002-0087-2
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2002></a>[[CEG02]](#cite-Cordero2002) P. Cordero, M. Enciso, and I. P. de Guzmán. “Bases for closed sets of implicants and implicates in temporal logic”. In: _Acta Informatica_ 38.9 (2002), pp. 599-619. DOI: [10.1007/S00236-002-0087-2](https://doi.org/10.1007%2FS00236-002-0087-2). URL: [https://doi.org/10.1007/s00236-002-0087-2](https://doi.org/10.1007/s00236-002-0087-2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cordero2002,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and Inman P. {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Acta Informatica},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Bases for closed sets of implicants and implicates in temporal logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {599--619},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {38},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/acta/CorderoEG02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/S00236-002-0087-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 21 Jun 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/s00236-002-0087-2},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2004></a>[[1]](#cite-Cordero_2004) P. Cordero, G. Gutiérrez, J. Martínez, et al. “A New Algebraic Tool for Automatic Theorem Provers”. In: _Annals of Mathematics and Artificial Intelligence_ 42.4 (Dec. 2004), p. 369–398. ISSN: 1012-2443. DOI: [10.1023/b:amai.0000038312.77514.3c](https://doi.org/10.1023%2Fb%3Aamai.0000038312.77514.3c). URL: [http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c](http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c).
+
+<a name=bib-Enciso_2007></a>[[2]](#cite-Enciso_2007) M. Enciso, I. P. del Guzman, and C. Rossi. “Una forma normal temporal independiente del método de deducción”. In: _INTELIGENCIA ARTIFICIAL_ 8.23 (Sep. 2007). ISSN: 1137-3601. DOI: [10.4114/ia.v8i23.790](https://doi.org/10.4114%2Fia.v8i23.790). URL: [http://dx.doi.org/10.4114/ia.v8i23.790](http://dx.doi.org/10.4114/ia.v8i23.790).
+
+<a name=bib-Mart_nez_2005></a>[[3]](#cite-Mart_nez_2005) J. Martínez, G. Gutiérrez, I. de Guzmán, et al. “Generalizations of lattices via non-deterministic operators”. In: _Discrete Mathematics_ 295.1–3 (May. 2005), p. 107–141. ISSN: 0012-365X. DOI: [10.1016/j.disc.2004.08.043](https://doi.org/10.1016%2Fj.disc.2004.08.043). URL: [http://dx.doi.org/10.1016/j.disc.2004.08.043](http://dx.doi.org/10.1016/j.disc.2004.08.043).
+
+<a name=bib-Rossi_2004></a>[[4]](#cite-Rossi_2004) C. Rossi, M. Enciso, and Á. Mora. “A First Order Temporal Logic for Behavior Representation”. In: _Advances in Artificial Intelligence – IBERAMIA 2004_. Springer Berlin Heidelberg, 2004, p. 408–418. ISBN: 9783540304982. DOI: [10.1007/978-3-540-30498-2_41](https://doi.org/10.1007%2F978-3-540-30498-2_41). URL: [http://dx.doi.org/10.1007/978-3-540-30498-2_41](http://dx.doi.org/10.1007/978-3-540-30498-2_41).
+

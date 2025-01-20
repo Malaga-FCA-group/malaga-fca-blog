@@ -1,0 +1,52 @@
+---
+title: 'Computing Minimal Generators from Implications: a Logic-guided Approach'
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/CoMiGeAp
+details: Proceedings of The Ninth International Conference on Concept Lattices and
+  Their Applications, Fuengirola (M{\'{a}}laga), Spain, October 11-14, 2012 , {CEUR}
+  Workshop Proceedings vol. 972, pages 187--198.
+---
+
+
+
+# Abstract
+
+
+Sets of attribute implications may have a certain degree of redundancy and the notion of basis appears as a way to characterize the
+implication set with less redundancy. The most widely accepted is the Duquenne-Guigues basis, strongly based on the notion of pseudo-intents. In this work we propose the minimal generators as an element to remove redundancy in the basis. The main problem is to enumerate all the minimal generators from a set of implications. We introduce a method to compute all the minimal
+generators which is based on the Simplification Rule for implications. The simplification paradigm allows us to remove redundancy in the implications by deleting attributes inside the implication without removing the whole implication itself. In this work, the application of the Simplification Rule to the set of implications guides the search of the minimal generators in a logic-based style, providing a deterministic approach.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2012a></a>[[Cor+12]](#cite-Cordero2012a) P. Cordero, M. Enciso, Á. Mora, et al. “Computing Minimal Generators from Implications: a Logic-guided Approach”. In: _Proceedings of The Ninth International Conference on Concept Lattices and Their Applications, Fuengirola (Málaga), Spain, October 11-14, 2012_. Ed. by L. Szathmary and U. Priss. Vol. 972. CEUR Workshop Proceedings. CEUR-WS.org, 2012, pp. 187-198. URL: [https://ceur-ws.org/Vol-972/paper16.pdf](https://ceur-ws.org/Vol-972/paper16.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2012a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of The Ninth International Conference on Concept Lattices and Their Applications, Fuengirola (M{\'{a}}laga), Spain, October 11-14, 2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Computing Minimal Generators from Implications: a Logic-guided Approach},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Laszlo Szathmary and Uta Priss},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {187--198},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {972},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Sets of attribute implications may have a certain degree of redundancy and the notion of basis appears as a way to characterize the<br>&nbsp;&nbsp;&nbsp;&nbsp;implication set with less redundancy. The most widely accepted is the Duquenne-Guigues basis, strongly based on the notion of pseudo-intents. In this work we propose the minimal generators as an element to remove redundancy in the basis. The main problem is to enumerate all the minimal generators from a set of implications. We introduce a method to compute all the minimal<br>&nbsp;&nbsp;&nbsp;&nbsp;generators which is based on the Simplification Rule for implications. The simplification paradigm allows us to remove redundancy in the implications by deleting attributes inside the implication without removing the whole implication itself. In this work, the application of the Simplification Rule to the set of implications guides the search of the minimal generators in a logic-based style, providing a deterministic approach.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/CorderoEMO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-972/paper16.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

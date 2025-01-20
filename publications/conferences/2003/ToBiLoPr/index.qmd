@@ -1,0 +1,126 @@
+---
+title: Towards Biresiduated Multi-adjoint Logic Programming
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+- Peter Vojtás
+date: '2003'
+categories: uncategorised
+slug: 2003/ToBiLoPr
+details: Current Topics in Artificial Intelligence, 10th Conference of the Spanish
+  Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology
+  Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected
+  Papers , Lecture Notes in Computer Science vol. 3040, pages 608--617.
+doi: 10.1007/978-3-540-25945-9_60
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2003></a>[[Med+03]](#cite-Medina2003) J. Medina, M. Ojeda-Aciego, Agust\'\inValverde, et al. “Towards Biresiduated Multi-adjoint Logic Programming”. In: _Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2003, and 5th Conference on Technology Transfer, TTIA 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers_. Ed. by R. Conejo, M. Urretavizcaya and J. Pérez-de-la-Cruz. Vol. 3040. Lecture Notes in Computer Science. Springer, 2003, pp. 608-617. DOI: [10.1007/978-3-540-25945-9\_60](https://doi.org/10.1007%2F978-3-540-25945-9%5C_60). URL: [https://doi.org/10.1007/978-3-540-25945-9\_60](https://doi.org/10.1007/978-3-540-25945-9\_60).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Agust\'\in Valverde and Peter Vojt{\a'a}s},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards Biresiduated Multi-adjoint Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ricardo Conejo and Maite Urretavizcaya and Jos{\a'e}-Luis P{\a'e}rez-de-la-Cruz},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {608--617},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3040},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/MedinaOVV03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-25945-9\_60},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-25945-9\_60},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-540-25945-9_60" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-540-25945-9_60" class="plumx-details" data-site="plum" data-hide-when-empty="true">Towards Biresiduated Multi-adjoint Logic Programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-540-25945-9_60"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2022></a>[[1]](#cite-Antoni_2022) Ľ. Antoni, P. Eliaš, S. Krajči, et al. “Heterogeneous formal context and its decomposition by heterogeneous fuzzy subsets”. In: _Fuzzy Sets and Systems_ 451 (Dec. 2022), p. 361–384. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.015](https://doi.org/10.1016%2Fj.fss.2022.05.015). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.015](http://dx.doi.org/10.1016/j.fss.2022.05.015).
+
+<a name=bib-Antoni_2016></a>[[2]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[3]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Antoni_2017></a>[[4]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Antoni_2014></a>[[5]](#cite-Antoni_2014) L. Antoni, S. Krajči, O. Krídlo, et al. “On heterogeneous formal contexts”. In: _Fuzzy Sets and Systems_ 234 (Jan. 2014), p. 22–33. ISSN: 0165-0114. DOI: [10.1016/j.fss.2013.04.008](https://doi.org/10.1016%2Fj.fss.2013.04.008). URL: [http://dx.doi.org/10.1016/j.fss.2013.04.008](http://dx.doi.org/10.1016/j.fss.2013.04.008).
+
+<a name=bib-Cornejo_Pi_ero_2014></a>[[6]](#cite-Cornejo_Pi_ero_2014) M. E. Cornejo Piñero, J. Medina-Moreno, and E. Ramírez-Poussa. “General Negations for Residuated Fuzzy Logics”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 13–22. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_2](https://doi.org/10.1007%2F978-3-319-08644-6_2). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_2](http://dx.doi.org/10.1007/978-3-319-08644-6_2).
+
+<a name=bib-Cornejo_2021></a>[[7]](#cite-Cornejo_2021) M. E. Cornejo, L. Fariñas del Cerro, and J. Medina. “A logical characterization of multi-adjoint algebras”. In: _Fuzzy Sets and Systems_ 425 (Nov. 2021), p. 140–156. ISSN: 0165-0114. DOI: [10.1016/j.fss.2021.02.003](https://doi.org/10.1016%2Fj.fss.2021.02.003). URL: [http://dx.doi.org/10.1016/j.fss.2021.02.003](http://dx.doi.org/10.1016/j.fss.2021.02.003).
+
+<a name=bib-Cornejo_2016></a>[[8]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-Cornejo_2015></a>[[9]](#cite-Cornejo_2015) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Multi-adjoint algebras versus non-commutative residuated structures”. In: _International Journal of Approximate Reasoning_ 66 (Nov. 2015), p. 119–138. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2015.08.003](https://doi.org/10.1016%2Fj.ijar.2015.08.003). URL: [http://dx.doi.org/10.1016/j.ijar.2015.08.003](http://dx.doi.org/10.1016/j.ijar.2015.08.003).
+
+<a name=bib-Cornejo_2014></a>[[10]](#cite-Cornejo_2014) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “On the use of thresholds in multi-adjoint concept lattices”. In: _International Journal of Computer Mathematics_ 92.9 (Apr. 2014), p. 1855–1873. ISSN: 1029-0265. DOI: [10.1080/00207160.2014.896078](https://doi.org/10.1080%2F00207160.2014.896078). URL: [http://dx.doi.org/10.1080/00207160.2014.896078](http://dx.doi.org/10.1080/00207160.2014.896078).
+
+<a name=bib-Cornejo_20161></a>[[11]](#cite-Cornejo_20161) M. E. Cornejo, J. Medina, E. Ramírez-Poussa, et al. “Multi-adjoint Concept Lattices, Preferences and Bousi Prolog”. In: _Rough Sets_. Springer International Publishing, 2016, p. 331–341. ISBN: 9783319471600. DOI: [10.1007/978-3-319-47160-0_30](https://doi.org/10.1007%2F978-3-319-47160-0_30). URL: [http://dx.doi.org/10.1007/978-3-319-47160-0_30](http://dx.doi.org/10.1007/978-3-319-47160-0_30).
+
+<a name=bib-Cornejo_2023></a>[[12]](#cite-Cornejo_2023) M. E. Cornejo, J. Medina, E. Ramírez-Poussa, et al. “Preferences in discrete multi-adjoint formal concept analysis”. In: _Information Sciences_ 650 (Dec. 2023), p. 119507. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.119507](https://doi.org/10.1016%2Fj.ins.2023.119507). URL: [http://dx.doi.org/10.1016/j.ins.2023.119507](http://dx.doi.org/10.1016/j.ins.2023.119507).
+
+<a name=bib-Cornejo_2011></a>[[13]](#cite-Cornejo_2011) M. E. Cornejo, J. Medina, and E. Ramírez. “Implication Triples versus Adjoint Triples”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 453–460. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_57](https://doi.org/10.1007%2F978-3-642-21498-1_57). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_57](http://dx.doi.org/10.1007/978-3-642-21498-1_57).
+
+<a name=bib-Cornelis_2014></a>[[14]](#cite-Cornelis_2014) C. Cornelis, J. Medina, and N. Verbiest. “Multi-adjoint fuzzy rough sets: Definition, properties and attribute selection”. In: _International Journal of Approximate Reasoning_ 55.1 (Jan. 2014), p. 412–426. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2013.09.007](https://doi.org/10.1016%2Fj.ijar.2013.09.007). URL: [http://dx.doi.org/10.1016/j.ijar.2013.09.007](http://dx.doi.org/10.1016/j.ijar.2013.09.007).
+
+<a name=bib-D_az_Moreno_2014></a>[[15]](#cite-D_az_Moreno_2014) J. Díaz-Moreno, J. Medina, and M. Ojeda-Aciego. “On basic conditions to generate multi-adjoint concept lattices via Galois connections”. In: _International Journal of General Systems_ 43.2 (Jan. 2014), p. 149–161. ISSN: 1563-5104. DOI: [10.1080/03081079.2013.879302](https://doi.org/10.1080%2F03081079.2013.879302). URL: [http://dx.doi.org/10.1080/03081079.2013.879302](http://dx.doi.org/10.1080/03081079.2013.879302).
+
+<a name=bib-D_az_2013></a>[[16]](#cite-D_az_2013) J. C. Díaz and J. Medina. “Multi-adjoint relation equations: Definition, properties and solutions using concept lattices”. In: _Information Sciences_ 253 (Dec. 2013), p. 100–109. ISSN: 0020-0255. DOI: [10.1016/j.ins.2013.07.024](https://doi.org/10.1016%2Fj.ins.2013.07.024). URL: [http://dx.doi.org/10.1016/j.ins.2013.07.024](http://dx.doi.org/10.1016/j.ins.2013.07.024).
+
+<a name=bib-Lobo_2023></a>[[17]](#cite-Lobo_2023) D. Lobo, V. López‐Marchante, and J. Medina. “On the impact of sup‐compositions in the resolution of multi‐adjoint relation equations”. In: _Mathematical Methods in the Applied Sciences_ 46.14 (Jun. 2023), p. 15581–15598. ISSN: 1099-1476. DOI: [10.1002/mma.9414](https://doi.org/10.1002%2Fmma.9414). URL: [http://dx.doi.org/10.1002/mma.9414](http://dx.doi.org/10.1002/mma.9414).
+
+<a name=bib-Medina_2010></a>[[18]](#cite-Medina_2010) J. Medina and M. Ojeda-Aciego. “Multi-adjoint t-concept lattices”. In: _Information Sciences_ 180.5 (Mar. 2010), p. 712–725. ISSN: 0020-0255. DOI: [10.1016/j.ins.2009.11.018](https://doi.org/10.1016%2Fj.ins.2009.11.018). URL: [http://dx.doi.org/10.1016/j.ins.2009.11.018](http://dx.doi.org/10.1016/j.ins.2009.11.018).
+
+<a name=bib-Medina_2012></a>[[19]](#cite-Medina_2012) J. Medina and M. Ojeda-Aciego. “On multi-adjoint concept lattices based on heterogeneous conjunctors”. In: _Fuzzy Sets and Systems_ 208 (Dec. 2012), p. 95–110. ISSN: 0165-0114. DOI: [10.1016/j.fss.2012.02.008](https://doi.org/10.1016%2Fj.fss.2012.02.008). URL: [http://dx.doi.org/10.1016/j.fss.2012.02.008](http://dx.doi.org/10.1016/j.fss.2012.02.008).
+
+<a name=bib-Medina_2009></a>[[20]](#cite-Medina_2009) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Formal concept analysis via multi-adjoint concept lattices”. In: _Fuzzy Sets and Systems_ 160.2 (Jan. 2009), p. 130–144. ISSN: 0165-0114. DOI: [10.1016/j.fss.2008.05.004](https://doi.org/10.1016%2Fj.fss.2008.05.004). URL: [http://dx.doi.org/10.1016/j.fss.2008.05.004](http://dx.doi.org/10.1016/j.fss.2008.05.004).
+
+<a name=bib-Medina_2008></a>[[21]](#cite-Medina_2008) J. Medina, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Relating generalized concept lattices and concept lattices for non-commutative conjunctors”. In: _Applied Mathematics Letters_ 21.12 (Dec. 2008), p. 1296–1300. ISSN: 0893-9659. DOI: [10.1016/j.aml.2007.12.026](https://doi.org/10.1016%2Fj.aml.2007.12.026). URL: [http://dx.doi.org/10.1016/j.aml.2007.12.026](http://dx.doi.org/10.1016/j.aml.2007.12.026).
+
+<a name=bib-tiwari_perfilieva_singh_2018></a>[[22]](#cite-tiwari_perfilieva_singh_2018) S. P. Tiwari, I. Perfilieva, and A. P. Singh. “GENERALIZED RESIDUATED LATTICES BASED F-TRANSFORM”. In: _Iranian Journal of Fuzzy Systems_ 15.2 (Apr. 2018). DOI: [10.22111/ijfs.2018.3766](https://doi.org/10.22111%2Fijfs.2018.3766). URL: [https://doi.org/10.22111/ijfs.2018.3766](https://doi.org/10.22111/ijfs.2018.3766).
+

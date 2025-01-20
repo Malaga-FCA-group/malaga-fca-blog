@@ -1,3 +1,170 @@
+- title: A temporal negative normal form which preserves implicants and implicates
+  author:
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2000'
+  details: J. Appl. Non Class. Logics vol. 10 (3-4), pages 243--272.
+  path: /publications/journals/2000/TeNeNoFoPrImIm
+- title: Bases for closed sets of implicants and implicates in temporal logic
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Acta Informatica vol. 38 (9), pages 599--619.
+  path: /publications/journals/2002/BaClSeImImTeLo
+- title: From the Poset of Temporal Implicates/implicants to a Temporal Negative Form
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  date: '2002'
+  details: Reports Math. Log. vol. 36 , pages 3--53.
+  path: /publications/journals/2002/PoTeTeNeFo
+- title: Una forma normal temporal independiente del m{\'{e}}todo de deducci{\'{o}}n
+  author:
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Inmaculada Perez de Guzmán
+  - Carlos Rossi
+  date: '2004'
+  details: Inteligencia Artif. vol. 8 (23), pages 27--45.
+  path: /publications/journals/2004/FoNoTeIn
+- title: Formalization of {UML} state machines using temporal logic
+  author:
+  - Carlos Rossi
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Inmaculada Perez de Guzmán
+  date: '2004'
+  details: Softw. Syst. Model. vol. 3 (1), pages 31--54.
+  path: /publications/journals/2004/FoStMaUsTeLo
+- title: 'A new closure algorithm based in logic: SLFD-Closure versus classical closures'
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Gabriel Aguilera
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Inmaculada Perez de Guzmán
+  date: '2006'
+  details: Inteligencia Artif. vol. 10 (31), pages 31--40.
+  path: /publications/journals/2006/NeClAlBaVeClCl
+- title: 'Non-deterministic ideal operators: An adequate tool for formalization in
+    Data Bases'
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  date: '2008'
+  details: Discret. Appl. Math. vol. 156 (6), pages 911--923.
+  path: /publications/journals/2008/IdAdToFoDaBa
+- title: Ideal non-deterministic operators as a formal framework to reduce the key
+    finding problem
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Inmaculada Perez de Guzmán
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  date: '2011'
+  details: Int. J. Comput. Math. vol. 88 (9), pages 1860--1868.
+  path: /publications/journals/2011/IdOpFoFrReKeFiPr
+- title: Closure via functional dependence simplification
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Inmaculada Fortes
+  - Gabriel Aguilera
+  date: '2012'
+  details: Int. J. Comput. Math. vol. 89 (4), pages 510--526.
+  path: /publications/journals/2012/ClViFuDeSi
+- title: A tableaux-like method to infer all minimal keys
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Inmaculada Perez de Guzmán
+  date: '2014'
+  details: Log. J. {IGPL} vol. 22 (6), pages 1019--1044.
+  path: /publications/journals/2014/MeInMiKe
+- title: Knowledge discovery in social networks by using a logic-based treatment of
+    implications
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Carlos Rossi
+  date: '2015'
+  details: Knowl. Based Syst. vol. 87 , pages 16--25.
+  path: /publications/journals/2015/KnDiSoNeUsTrIm
+- title: Automated prover for attribute dependencies in data with grades
+  author:
+  - Radim Belohlávek
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - Vilém Vychodil
+  date: '2016'
+  details: Int. J. Approx. Reason. vol. 70 , pages 51--67.
+  path: /publications/journals/2016/AuPrAtDeDaGr
+- title: 'Concept lattices with negative information: {A} characterization theorem'
+  author:
+  - José Manuel Rodríguez-Jiménez
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Sebastian Rudolph
+  date: '2016'
+  details: Inf. Sci. vol. 369 , pages 51--62.
+  path: /publications/journals/2016/CoLaNeChTh
+- title: An Axiomatic System for Conditional Attribute Implications in Triadic Concept
+    Analysis
+  author:
+  - Estrella Rodríguez Lorenzo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Rokia Missaoui
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Int. J. Intell. Syst. vol. 32 (8), pages 760--777.
+  path: /publications/journals/2017/AxSyCoAtImTrCoAn
+- title: Canonical dichotomous direct bases
+  author:
+  - Estrella Rodríguez Lorenzo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Inf. Sci. vol. 376 , pages 39--53.
+  path: /publications/journals/2017/CaDiDiBa
+- title: Formation of the D-basis from implicational systems using Simplification
+    logic
+  author:
+  - Estrella Rodríguez Lorenzo
+  - Kira V. Adaricheva
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: Int. J. Gen. Syst. vol. 46 (5), pages 547--568.
+  path: /publications/journals/2017/FoImSyUsSiLo
+- title: 'Fuzzy functional dependencies: {A} comparative survey'
+  author:
+  - L. Jezková
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 317 , pages 88--120.
+  path: /publications/journals/2017/FuFuCoSu
+- title: Reducing the search space by closure and simplification paradigms
+  author:
+  - Fernando Benito Picazo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2017'
+  details: J. Supercomput. vol. 73 (1), pages 75--87.
+  path: /publications/journals/2017/ReSeSpClSiPa
 - title: Direct-optimal basis computation by means of the fusion of simplification
     rules
   author:
@@ -18,6 +185,30 @@
   date: '2018-06-04'
   details: <em>the Journal of Supercomputing</em> vol. 75, pp. 1350–1367
   path: /publications/journals/2018/MiAfApMeMaCo
+- title: Minimal generators, an affordable approach by means of massive computation
+  author:
+  - Fernando Benito Picazo
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2019'
+  details: J. Supercomput. vol. 75 (3), pages 1350--1367.
+  path: /publications/journals/2019/MiAfApMeMaCo
+- title: 'QModeling: a Multiplatform, Easy-to-Use and Open-Source Toolbox for {PET}
+    Kinetic Analysis'
+  author:
+  - Francisco Javier López-González
+  - José Paredes-Pacheco
+  - Karl Thurnhofer-Hemsi
+  - Carlos Rossi
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - Daniel Toro-Flores
+  - Belén Murcia-Casas
+  - Antonio L. Gutiérrez-Cardo
+  - Núria Roé-Vellvé
+  date: '2019'
+  details: Neuroinformatics vol. 17 (1), pages 103--114.
+  path: /publications/journals/2019/ToKiAn
 - title: A conversational recommender system for diagnosis using fuzzy rules
   author:
   - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
@@ -80,3 +271,13 @@
   date: '2023-07-03T00:00:00Z'
   details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
   path: /publications/journals/2023/SiLoMaUnIn
+- title: Attribute implications with unknown information based on weak Heyting algebras
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
+    Pérez Gámez</a>
+  date: '2024'
+  details: Fuzzy Sets Syst. vol. 490 , pages 109026.
+  path: /publications/journals/2024/AtImUnInBaWeHeAl

@@ -1,0 +1,47 @@
+---
+title: On the n-ary Generalization of Dual Bonds
+author:
+- Ondrej Kridlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/GeDuBo
+details: Interactions Between Computational Intelligence and Mathematics Part 2 ,
+  Studies in Computational Intelligence vol. 794, pages 55--63.
+doi: 10.1007/978-3-030-01632-6_4
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2019></a>[[KO19]](#cite-Kridlo2019) O. Kridlo and M. Ojeda-Aciego. “On the n-ary Generalization of Dual Bonds”. In: _Interactions Between Computational Intelligence and Mathematics Part 2_. Ed. by L. T. Kóczy, J. Medina-Moreno and Elo\'\isaRam\'\irez-Poussa. Vol. 794. Studies in Computational Intelligence. Springer, 2019, pp. 55-63. DOI: [10.1007/978-3-030-01632-6\_4](https://doi.org/10.1007%2F978-3-030-01632-6%5C_4). URL: [https://doi.org/10.1007/978-3-030-01632-6\_4](https://doi.org/10.1007/978-3-030-01632-6\_4).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InCollection{Kridlo2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kridlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Interactions Between Computational Intelligence and Mathematics Part 2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the n-ary Generalization of Dual Bonds},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {L{\a'a}szl{\a'o} T. K{\a'o}czy and Jes{\a'u}s Medina-Moreno and Elo\'\isa Ram\'\irez-Poussa},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {55--63},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Studies in Computational Intelligence},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {794},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/series/sci/KridloO19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-030-01632-6\_4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Dec 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-030-01632-6\_4},<br>}
+
+:::
+
+
+
+
+
+
+
+

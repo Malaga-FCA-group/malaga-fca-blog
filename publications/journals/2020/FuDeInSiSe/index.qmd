@@ -1,0 +1,105 @@
+---
+title: Functional degrees of inclusion and similarity between \emph{L}-fuzzy sets
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/FuDeInSiSe
+details: Fuzzy Sets Syst. vol. 390 , pages 1--22.
+doi: 10.1016/J.FSS.2019.03.018
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2020></a>[[MO20]](#cite-Madrid2020) N. Madrid and M. Ojeda-Aciego. “Functional degrees of inclusion and similarity between _L_-fuzzy sets”. In: _Fuzzy Sets Syst._ 390 (2020), pp. 1-22. DOI: [10.1016/J.FSS.2019.03.018](https://doi.org/10.1016%2FJ.FSS.2019.03.018). URL: [https://doi.org/10.1016/j.fss.2019.03.018](https://doi.org/10.1016/j.fss.2019.03.018).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Functional degrees of inclusion and similarity between \emph{L}-fuzzy sets},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--22},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {390},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/MadridO20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2019.03.018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 16 Jun 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2019.03.018},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2019.03.018" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2019.03.018" class="plumx-details" data-site="plum" data-hide-when-empty="true">Functional degrees of inclusion and similarity between \emph{L}-fuzzy sets</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2019.03.018"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-D_az_Montarroso_2024></a>[[1]](#cite-D_az_Montarroso_2024) C. Díaz-Montarroso, N. Madrid, and E. Ramírez-Poussa. “Towards a Generalized Modus Ponens Based on the $$\varphi $$-Index of Inclusion”. In: _Conceptual Knowledge Structures_. Springer Nature Switzerland, 2024, p. 36–48. ISBN: 9783031678684. DOI: [10.1007/978-3-031-67868-4_3](https://doi.org/10.1007%2F978-3-031-67868-4_3). URL: [http://dx.doi.org/10.1007/978-3-031-67868-4_3](http://dx.doi.org/10.1007/978-3-031-67868-4_3).
+
+<a name=bib-Dombi_2025></a>[[2]](#cite-Dombi_2025) J. Dombi and T. Jónás. “Approximate reasoning based on the preference implication”. In: _Fuzzy Sets and Systems_ 499 (Jan. 2025), p. 109187. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109187](https://doi.org/10.1016%2Fj.fss.2024.109187). URL: [http://dx.doi.org/10.1016/j.fss.2024.109187](http://dx.doi.org/10.1016/j.fss.2024.109187).
+
+<a name=bib-Flaminio_2023></a>[[3]](#cite-Flaminio_2023) T. Flaminio, L. Godo, N. Madrid, et al. “A Logic to Reason About f-Indices of Inclusion over Ł$$_n$$”. In: _Fuzzy Logic and Technology, and Aggregation Operators_. Springer Nature Switzerland, 2023, p. 530–539. ISBN: 9783031399657. DOI: [10.1007/978-3-031-39965-7_44](https://doi.org/10.1007%2F978-3-031-39965-7_44). URL: [http://dx.doi.org/10.1007/978-3-031-39965-7_44](http://dx.doi.org/10.1007/978-3-031-39965-7_44).
+
+<a name=bib-Madrid_20231></a>[[4]](#cite-Madrid_20231) N. Madrid and C. Cornelis. “Kitainik axioms do not characterize the class of inclusion measures based on contrapositive fuzzy implications”. In: _Fuzzy Sets and Systems_ 456 (Mar. 2023), p. 208–214. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.010](https://doi.org/10.1016%2Fj.fss.2022.05.010). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.010](http://dx.doi.org/10.1016/j.fss.2022.05.010).
+
+<a name=bib-Madrid_20241></a>[[5]](#cite-Madrid_20241) N. Madrid and M. Ojeda-Aciego. “Approaching the square of opposition in terms of the f-indexes of inclusion and contradiction”. In: _Fuzzy Sets and Systems_ 476 (Jan. 2024), p. 108769. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108769](https://doi.org/10.1016%2Fj.fss.2023.108769). URL: [http://dx.doi.org/10.1016/j.fss.2023.108769](http://dx.doi.org/10.1016/j.fss.2023.108769).
+
+<a name=bib-Madrid_20211></a>[[6]](#cite-Madrid_20211) N. Madrid and M. Ojeda-Aciego. “Approaching the Square of Oppositions in Terms of the f -indexes of Inclusion and Contradiction”. In: _Joint Proceedings of the 19th World Congress of the International Fuzzy Systems Association (IFSA), the 12th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT), and the 11th International Summer School on Aggregation Operators (AGOP)_. ifsa-eusflat-agop-21. Atlantis Press, 2021. DOI: [10.2991/asum.k.210827.055](https://doi.org/10.2991%2Fasum.k.210827.055). URL: [http://dx.doi.org/10.2991/asum.k.210827.055](http://dx.doi.org/10.2991/asum.k.210827.055).
+
+<a name=bib-Madrid_2021></a>[[7]](#cite-Madrid_2021) N. Madrid and M. Ojeda-Aciego. “Measures of inclusion and entropy based on the φ-index of inclusion”. In: _Fuzzy Sets and Systems_ 423 (Oct. 2021), p. 29–54. ISSN: 0165-0114. DOI: [10.1016/j.fss.2021.01.011](https://doi.org/10.1016%2Fj.fss.2021.01.011). URL: [http://dx.doi.org/10.1016/j.fss.2021.01.011](http://dx.doi.org/10.1016/j.fss.2021.01.011).
+
+<a name=bib-Madrid_2020></a>[[8]](#cite-Madrid_2020) N. Madrid and M. Ojeda-Aciego. “On Contradiction and Inclusion Using Functional Degrees”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 464. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200409.001](https://doi.org/10.2991%2Fijcis.d.200409.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200409.001](http://dx.doi.org/10.2991/ijcis.d.200409.001).
+
+<a name=bib-Madrid_2022></a>[[9]](#cite-Madrid_2022) N. Madrid and M. Ojeda-Aciego. “Some Relationships Between the Notions of f-Inclusion and f-Contradiction”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 175–181. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_20](https://doi.org/10.1007%2F978-3-030-88817-6_20). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_20](http://dx.doi.org/10.1007/978-3-030-88817-6_20).
+
+<a name=bib-Madrid_2023></a>[[10]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Madrid_2024></a>[[11]](#cite-Madrid_2024) N. Madrid and E. Ramírez-Poussa. “Analysis of the $$\varphi $$-Index of Inclusion Restricted to a Set of Indexes”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer Nature Switzerland, 2024, p. 3–11. ISBN: 9783031740039. DOI: [10.1007/978-3-031-74003-9_1](https://doi.org/10.1007%2F978-3-031-74003-9_1). URL: [http://dx.doi.org/10.1007/978-3-031-74003-9_1](http://dx.doi.org/10.1007/978-3-031-74003-9_1).
+
+<a name=bib-Peng_2024></a>[[12]](#cite-Peng_2024) Z. Peng and X. Zhang. “A New Similarity Measure of Hesitant Fuzzy Sets and Its Application”. In: _International Journal of Fuzzy Systems_ (Sep. 2024). ISSN: 2199-3211. DOI: [10.1007/s40815-024-01857-2](https://doi.org/10.1007%2Fs40815-024-01857-2). URL: [http://dx.doi.org/10.1007/s40815-024-01857-2](http://dx.doi.org/10.1007/s40815-024-01857-2).
+
+<a name=bib-Por_bski_2022></a>[[13]](#cite-Por_bski_2022) S. Porębski. “Selection of T-Norms for Calculating Belief Measure and Their Influence on Support Decision with Uncertainty”. In: _Uncertainty and Imprecision in Decision Making and Decision Support: New Advances, Challenges, and Perspectives_. Springer International Publishing, 2022, p. 229–240. ISBN: 9783030959296. DOI: [10.1007/978-3-030-95929-6_18](https://doi.org/10.1007%2F978-3-030-95929-6_18). URL: [http://dx.doi.org/10.1007/978-3-030-95929-6_18](http://dx.doi.org/10.1007/978-3-030-95929-6_18).
+
+<a name=bib-Wang_2021></a>[[14]](#cite-Wang_2021) H. Wang and R. Niu. “Knowledge Service Technology for Supporting Intelligent Product Design”. In: _Shock and Vibration_ 2021.1 (Jan. 2021). Ed. by B. Niu. ISSN: 1875-9203. DOI: [10.1155/2021/2561950](https://doi.org/10.1155%2F2021%2F2561950). URL: [http://dx.doi.org/10.1155/2021/2561950](http://dx.doi.org/10.1155/2021/2561950).
+

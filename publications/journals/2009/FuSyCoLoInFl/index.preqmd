@@ -1,0 +1,36 @@
+---
+title: Functional systems in the context of temporal{\texttimes}modal logics with
+  indexed flows
+author:
+- Alfredo Burrieza
+- ipguzman
+- ejmunoz
+date: '2009'
+categories: uncategorised
+slug: 2009/FuSyCoLoInFl
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1696--1706.
+doi: 10.1080/00207160902795619
+
+---
+
+
+# Abstract
+
+
+Abstract We consider logics which define different properties of functions – such as injectivity, surjectivity, monotonicity, etc. – in the context of temporal×modal logic. In this type of logics, the possible worlds semantics is modified by considering each world as a temporal flow and using accessibility functions to represent the connection among them. This approach is adequate to model interactions between processes with clocks that can be either synchronized or not. We study the definability and give indexed axiomatic systems for these properties. Keywords: temporal logicmodal logiclogic in computer sciencedefinability T×W-logicsfunctional axiomatic systems 2000 AMS Subject Classifications : 03B4403B4503B70 Acknowledgements Partially supported by the Spanish research projects TIN2006-15455-C03-01 and P6-FQM-02049.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

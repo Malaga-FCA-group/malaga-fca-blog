@@ -1,0 +1,50 @@
+---
+title: Attribute implications with unknown information based on weak Heyting algebras
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco Pérez
+  Gámez</a>
+date: '2024'
+categories: uncategorised
+slug: 2024/AtImUnInBaWeHeAl
+details: Fuzzy Sets Syst. vol. 490 , pages 109026.
+doi: 10.1016/J.FSS.2024.109026
+---
+
+
+
+# Abstract
+
+
+Simplification logic, a logic for attribute implications, was originally defined for Boolean sets. It was extended to distributive fuzzy sets by using a complete dual Heyting algebra. In this paper, we weaken this restriction in the sense that we prove that it is possible to define a simplification logic on fuzzy sets in which the membership value structure is not necessarily distributive. For this purpose, we replace the structure of the complete dual Heyting algebra by the so-called weak complete dual Heyting algebra. We demonstrate the soundness and completeness of this simplification logic, and provide a characterisation of the operations defining weak complete dual Heyting algebras.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2024></a>[[Cor+24]](#cite-Cordero2024) P. Cordero, M. Enciso, Á. Mora, et al. “Attribute implications with unknown information based on weak Heyting algebras”. In: _Fuzzy Sets Syst._ 490 (2024), p. 109026. DOI: [10.1016/J.FSS.2024.109026](https://doi.org/10.1016%2FJ.FSS.2024.109026). URL: [https://doi.org/10.1016/j.fss.2024.109026](https://doi.org/10.1016/j.fss.2024.109026).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cordero2024,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Francisco P{\a'e}rez-G{\a'a}mez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Attribute implications with unknown information based on weak Heyting algebras},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {109026},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {490},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/CorderoEMP24.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2024.109026},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 19 Jul 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2024.109026},<br>}
+
+:::
+
+
+
+
+
+
+
+

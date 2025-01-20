@@ -1,0 +1,92 @@
+---
+title: A measure of contradiction based on the notion of N-weak-contradiction
+author:
+- Humberto Bustince
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/MeCoBaNo
+details: '{FUZZ-IEEE} 2013, {IEEE} International Conference on Fuzzy Systems, Hyderabad,
+  India, 7-10 July, 2013, Proceedings , pages 1--6.'
+doi: 10.1109/FUZZ-IEEE.2013.6622563
+---
+
+
+
+# Abstract
+
+
+In this work we elaborate on the notion of contradiction between fuzzy sets introduced by Trillas et al in a fuzzy logic context. Our approach is parametric in that the operator used to define contradiction is rather a variable than a constant introduced prior to the analysis of contradiction. We give several motivations to consider weaker operators than the usual involutive negations, and obtain some preliminary results which validate this proposal.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bustince2013></a>[[BMO13]](#cite-Bustince2013) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “A measure of contradiction based on the notion of N-weak-contradiction”. In: _FUZZ-IEEE 2013, IEEE International Conference on Fuzzy Systems, Hyderabad, India, 7-10 July, 2013, Proceedings_. IEEE, 2013, pp. 1-6. DOI: [10.1109/FUZZ-IEEE.2013.6622563](https://doi.org/10.1109%2FFUZZ-IEEE.2013.6622563). URL: [https://doi.org/10.1109/FUZZ-IEEE.2013.6622563](https://doi.org/10.1109/FUZZ-IEEE.2013.6622563).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Bustince2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Humberto Bustince and Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{FUZZ-IEEE} 2013, {IEEE} International Conference on Fuzzy Systems, Hyderabad, India, 7-10 July, 2013, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A measure of contradiction based on the notion of N-weak-contradiction},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--6},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/BustinceMO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZ-IEEE.2013.6622563},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZ-IEEE.2013.6622563},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZ-IEEE.2013.6622563" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZ-IEEE.2013.6622563" class="plumx-details" data-site="plum" data-hide-when-empty="true">A measure of contradiction based on the notion of N-weak-contradiction</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZ-IEEE.2013.6622563"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Bustince_2015></a>[[1]](#cite-Bustince_2015) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “The Notion of Weak-Contradiction: Definition and Measures”. In: _IEEE Transactions on Fuzzy Systems_ 23.4 (Aug. 2015), p. 1057–1069. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2014.2337934](https://doi.org/10.1109%2Ftfuzz.2014.2337934). URL: [http://dx.doi.org/10.1109/tfuzz.2014.2337934](http://dx.doi.org/10.1109/tfuzz.2014.2337934).
+
+<a name=bib-Cornejo_2017></a>[[2]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Selecting the Coherence Notion in Multi-adjoint Normal Logic Programming”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2017, p. 447–457. ISBN: 9783319591537. DOI: [10.1007/978-3-319-59153-7_39](https://doi.org/10.1007%2F978-3-319-59153-7_39). URL: [http://dx.doi.org/10.1007/978-3-319-59153-7_39](http://dx.doi.org/10.1007/978-3-319-59153-7_39).
+
+<a name=bib-Madrid_2021></a>[[3]](#cite-Madrid_2021) N. Madrid and M. Ojeda-Aciego. “Approaching the Square of Oppositions in Terms of the f -indexes of Inclusion and Contradiction”. In: _Joint Proceedings of the 19th World Congress of the International Fuzzy Systems Association (IFSA), the 12th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT), and the 11th International Summer School on Aggregation Operators (AGOP)_. ifsa-eusflat-agop-21. Atlantis Press, 2021. DOI: [10.2991/asum.k.210827.055](https://doi.org/10.2991%2Fasum.k.210827.055). URL: [http://dx.doi.org/10.2991/asum.k.210827.055](http://dx.doi.org/10.2991/asum.k.210827.055).
+
+<a name=bib-Madrid_2020></a>[[4]](#cite-Madrid_2020) N. Madrid and M. Ojeda-Aciego. “On Contradiction and Inclusion Using Functional Degrees”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 464. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200409.001](https://doi.org/10.2991%2Fijcis.d.200409.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200409.001](http://dx.doi.org/10.2991/ijcis.d.200409.001).
+
+<a name=bib-Madrid_2022></a>[[5]](#cite-Madrid_2022) N. Madrid and M. Ojeda-Aciego. “Some Relationships Between the Notions of f-Inclusion and f-Contradiction”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 175–181. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_20](https://doi.org/10.1007%2F978-3-030-88817-6_20). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_20](http://dx.doi.org/10.1007/978-3-030-88817-6_20).
+
+<a name=bib-Madrid_2015></a>[[6]](#cite-Madrid_2015) N. Madrid, M. Ojeda-Aciego, and I. Perfilieva. “ƒ-inclusion indexes between fuzzy sets”. In: _Proceedings of the 2015 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology_. ifsa-eusflat-15. Atlantis Press, 2015. DOI: [10.2991/ifsa-eusflat-15.2015.217](https://doi.org/10.2991%2Fifsa-eusflat-15.2015.217). URL: [http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.217](http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.217).
+

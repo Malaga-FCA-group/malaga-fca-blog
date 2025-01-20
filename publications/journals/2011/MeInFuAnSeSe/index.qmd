@@ -1,0 +1,128 @@
+---
+title: Measuring Inconsistency in Fuzzy Answer Set Semantics
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/MeInFuAnSeSe
+details: '{IEEE} Trans. Fuzzy Syst. vol. 19 (4), pages 605--622.'
+doi: 10.1109/TFUZZ.2011.2114669
+---
+
+
+
+# Abstract
+
+
+Recent approaches have shown that the measurement of the amount of inconsistent information contained in a logic theory can be useful to infer positive information. This paper deals with the definition of measures of inconsistency in the residuated-logic-programming paradigm under the fuzzy answer set semantics. This fuzzy framework provides a soft mechanism to control the amount of information inferred and, thus, controlling the inconsistencies by modifying slightly the truth values of some rules.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2011></a>[[MO11]](#cite-Madrid2011) N. Madrid and M. Ojeda-Aciego. “Measuring Inconsistency in Fuzzy Answer Set Semantics”. In: _IEEE Trans. Fuzzy Syst._ 19.4 (2011), pp. 605-622. DOI: [10.1109/TFUZZ.2011.2114669](https://doi.org/10.1109%2FTFUZZ.2011.2114669). URL: [https://doi.org/10.1109/TFUZZ.2011.2114669](https://doi.org/10.1109/TFUZZ.2011.2114669).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {{IEEE} Trans. Fuzzy Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Measuring Inconsistency in Fuzzy Answer Set Semantics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {605--622},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {19},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/tfs/MadridO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/TFUZZ.2011.2114669},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/TFUZZ.2011.2114669},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/TFUZZ.2011.2114669" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/TFUZZ.2011.2114669" class="plumx-details" data-site="plum" data-hide-when-empty="true">Measuring Inconsistency in Fuzzy Answer Set Semantics</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/TFUZZ.2011.2114669"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Blondeel_2014></a>[[1]](#cite-Blondeel_2014) M. Blondeel, S. Schockaert, D. Vermeir, et al. “Complexity of fuzzy answer set programming under Łukasiewicz semantics”. In: _International Journal of Approximate Reasoning_ 55.9 (Dec. 2014), p. 1971–2003. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2013.10.011](https://doi.org/10.1016%2Fj.ijar.2013.10.011). URL: [http://dx.doi.org/10.1016/j.ijar.2013.10.011](http://dx.doi.org/10.1016/j.ijar.2013.10.011).
+
+<a name=bib-Brys_2012></a>[[2]](#cite-Brys_2012) T. Brys, Y. De Hauwere, M. De Cock, et al. “Solving satisfiability in fuzzy logics with evolution strategies”. In: _2012 Annual Meeting of the North American Fuzzy Information Processing Society (NAFIPS)_. IEEE, Aug. 2012, p. 1–6. DOI: [10.1109/nafips.2012.6290998](https://doi.org/10.1109%2Fnafips.2012.6290998). URL: [http://dx.doi.org/10.1109/nafips.2012.6290998](http://dx.doi.org/10.1109/nafips.2012.6290998).
+
+<a name=bib-Brys_2013></a>[[3]](#cite-Brys_2013) T. Brys, M. M. Drugan, P. A. Bosman, et al. “Solving satisfiability in fuzzy logics by mixing CMA-ES”. In: _Proceedings of the 15th annual conference on Genetic and evolutionary computation_. GECCO ’13. ACM, Jul. 2013, p. 1125–1132. DOI: [10.1145/2463372.2463510](https://doi.org/10.1145%2F2463372.2463510). URL: [http://dx.doi.org/10.1145/2463372.2463510](http://dx.doi.org/10.1145/2463372.2463510).
+
+<a name=bib-Bustince_2013></a>[[4]](#cite-Bustince_2013) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “A measure of contradiction based on the notion of N-weak-contradiction”. In: _2013 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2013, p. 1–6. DOI: [10.1109/fuzz-ieee.2013.6622563](https://doi.org/10.1109%2Ffuzz-ieee.2013.6622563). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2013.6622563](http://dx.doi.org/10.1109/fuzz-ieee.2013.6622563).
+
+<a name=bib-Bustince_2015></a>[[5]](#cite-Bustince_2015) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “The Notion of Weak-Contradiction: Definition and Measures”. In: _IEEE Transactions on Fuzzy Systems_ 23.4 (Aug. 2015), p. 1057–1069. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2014.2337934](https://doi.org/10.1109%2Ftfuzz.2014.2337934). URL: [http://dx.doi.org/10.1109/tfuzz.2014.2337934](http://dx.doi.org/10.1109/tfuzz.2014.2337934).
+
+<a name=bib-Cornejo_2018></a>[[6]](#cite-Cornejo_2018) M. E. Cornejo, D. Lobo, and J. Medina. “Characterizing Fuzzy y-Models in Multi-adjoint Normal Logic Programming”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Applications_. Springer International Publishing, 2018, p. 541–552. ISBN: 9783319914794. DOI: [10.1007/978-3-319-91479-4_45](https://doi.org/10.1007%2F978-3-319-91479-4_45). URL: [http://dx.doi.org/10.1007/978-3-319-91479-4_45](http://dx.doi.org/10.1007/978-3-319-91479-4_45).
+
+<a name=bib-Cornejo_2020></a>[[7]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Extended multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 388 (Jun. 2020), p. 124–145. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.016](https://doi.org/10.1016%2Fj.fss.2019.03.016). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.016](http://dx.doi.org/10.1016/j.fss.2019.03.016).
+
+<a name=bib-Cornejo_20171></a>[[8]](#cite-Cornejo_20171) M. E. Cornejo, D. Lobo, and J. Medina. “Measuring the Incoherent Information in Multi-adjoint Normal Logic Programs”. In: _Advances in Fuzzy Logic and Technology 2017_. Springer International Publishing, Sep. 2017, p. 521–533. ISBN: 9783319668307. DOI: [10.1007/978-3-319-66830-7_47](https://doi.org/10.1007%2F978-3-319-66830-7_47). URL: [http://dx.doi.org/10.1007/978-3-319-66830-7_47](http://dx.doi.org/10.1007/978-3-319-66830-7_47).
+
+<a name=bib-Cornejo_2017></a>[[9]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Selecting the Coherence Notion in Multi-adjoint Normal Logic Programming”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2017, p. 447–457. ISBN: 9783319591537. DOI: [10.1007/978-3-319-59153-7_39](https://doi.org/10.1007%2F978-3-319-59153-7_39). URL: [http://dx.doi.org/10.1007/978-3-319-59153-7_39](http://dx.doi.org/10.1007/978-3-319-59153-7_39).
+
+<a name=bib-Cornejo_20181></a>[[10]](#cite-Cornejo_20181) M. E. Cornejo, D. Lobo, and J. Medina. “Syntax and semantics of multi-adjoint normal logic programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 41–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.12.009](https://doi.org/10.1016%2Fj.fss.2017.12.009). URL: [http://dx.doi.org/10.1016/j.fss.2017.12.009](http://dx.doi.org/10.1016/j.fss.2017.12.009).
+
+<a name=bib-Cornejo_2016></a>[[11]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-Dam_sio_2011></a>[[12]](#cite-Dam_sio_2011) C. V. Damásio, N. Madrid, and M. Ojeda-Aciego. “On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence”. In: _Fuzzy Logic and Applications_. Springer Berlin Heidelberg, 2011, p. 115–122. ISBN: 9783642237133. DOI: [10.1007/978-3-642-23713-3_15](https://doi.org/10.1007%2F978-3-642-23713-3_15). URL: [http://dx.doi.org/10.1007/978-3-642-23713-3_15](http://dx.doi.org/10.1007/978-3-642-23713-3_15).
+
+<a name=bib-De_Bona_2019></a>[[13]](#cite-De_Bona_2019) G. De Bona, J. Grant, A. Hunter, et al. “Classifying Inconsistency Measures Using Graphs”. In: _Journal of Artificial Intelligence Research_ 66 (Dec. 2019), p. 937–987. ISSN: 1076-9757. DOI: [10.1613/jair.1.11852](https://doi.org/10.1613%2Fjair.1.11852). URL: [http://dx.doi.org/10.1613/jair.1.11852](http://dx.doi.org/10.1613/jair.1.11852).
+
+<a name=bib-Grant_2023></a>[[14]](#cite-Grant_2023) J. Grant and A. Hunter. “Semantic inconsistency measures using 3-valued logics”. In: _International Journal of Approximate Reasoning_ 156 (May. 2023), p. 38–60. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2023.02.008](https://doi.org/10.1016%2Fj.ijar.2023.02.008). URL: [http://dx.doi.org/10.1016/j.ijar.2023.02.008](http://dx.doi.org/10.1016/j.ijar.2023.02.008).
+
+<a name=bib-Lee_2014></a>[[15]](#cite-Lee_2014) J. Lee and Y. Wang. “Stable Models of Fuzzy Propositional Formulas”. In: _Logics in Artificial Intelligence_. Springer International Publishing, 2014, p. 326–339. ISBN: 9783319115580. DOI: [10.1007/978-3-319-11558-0_23](https://doi.org/10.1007%2F978-3-319-11558-0_23). URL: [http://dx.doi.org/10.1007/978-3-319-11558-0_23](http://dx.doi.org/10.1007/978-3-319-11558-0_23).
+
+<a name=bib-Lobo_2019></a>[[16]](#cite-Lobo_2019) D. Lobo, M. E. Cornejo Piñero, and J. Medina. “Abductive reasoning in normal residuated logic programming via bipolar max-product fuzzy relation equations”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.81](https://doi.org/10.2991%2Feusflat-19.2019.81). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.81](http://dx.doi.org/10.2991/eusflat-19.2019.81).
+
+<a name=bib-Lobo_2024></a>[[17]](#cite-Lobo_2024) D. Lobo, V. López-Marchante, and J. Medina. “On Measuring the Solvability of a Fuzzy Relation Equation”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 5_. Springer Nature Switzerland, 2024, p. 9–15. ISBN: 9783031469794. DOI: [10.1007/978-3-031-46979-4_2](https://doi.org/10.1007%2F978-3-031-46979-4_2). URL: [http://dx.doi.org/10.1007/978-3-031-46979-4_2](http://dx.doi.org/10.1007/978-3-031-46979-4_2).
+
+<a name=bib-Madrid_2020></a>[[18]](#cite-Madrid_2020) N. Madrid, J. Medina, and E. Ramírez-Poussa. “Rough sets based on Galois connections”. In: _International Journal of Applied Mathematics and Computer Science_ 30.2 (2020). ISSN: 2083-8492. DOI: [10.34768/amcs-2020-0023](https://doi.org/10.34768%2Famcs-2020-0023). URL: [http://dx.doi.org/10.34768/amcs-2020-0023](http://dx.doi.org/10.34768/amcs-2020-0023).
+
+<a name=bib-Madrid_20201></a>[[19]](#cite-Madrid_20201) N. Madrid and M. Ojeda-Aciego. “Functional degrees of inclusion and similarity between L-fuzzy sets”. In: _Fuzzy Sets and Systems_ 390 (Jul. 2020), p. 1–22. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.018](https://doi.org/10.1016%2Fj.fss.2019.03.018). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.018](http://dx.doi.org/10.1016/j.fss.2019.03.018).
+
+<a name=bib-Madrid_20211></a>[[20]](#cite-Madrid_20211) N. Madrid and M. Ojeda-Aciego. “Multi-adjoint lattices from adjoint triples with involutive negation”. In: _Fuzzy Sets and Systems_ 405 (Feb. 2021), p. 88–105. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.12.004](https://doi.org/10.1016%2Fj.fss.2019.12.004). URL: [http://dx.doi.org/10.1016/j.fss.2019.12.004](http://dx.doi.org/10.1016/j.fss.2019.12.004).
+
+<a name=bib-Madrid_2013></a>[[21]](#cite-Madrid_2013) N. Madrid and M. Ojeda-Aciego. “On the measure of incoherent information in extended multi-adjoint logic programs”. In: _2013 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2013, p. 30–37. DOI: [10.1109/foci.2013.6602452](https://doi.org/10.1109%2Ffoci.2013.6602452). URL: [http://dx.doi.org/10.1109/foci.2013.6602452](http://dx.doi.org/10.1109/foci.2013.6602452).
+
+<a name=bib-Madrid_2023></a>[[22]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Madrid_2021></a>[[23]](#cite-Madrid_2021) N. Madrid and M. Ojeda‐Aciego. “A measure of consistency for fuzzy logic theories”. In: _Mathematical Methods in the Applied Sciences_ 46.15 (May. 2021), p. 15982–15995. ISSN: 1099-1476. DOI: [10.1002/mma.7470](https://doi.org/10.1002%2Fmma.7470). URL: [http://dx.doi.org/10.1002/mma.7470](http://dx.doi.org/10.1002/mma.7470).
+
+<a name=bib-Mushthofa_2015></a>[[24]](#cite-Mushthofa_2015) M. Mushthofa, S. Schockaert, and M. De Cock. “Solving Disjunctive Fuzzy Answer Set Programs”. In: _Logic Programming and Nonmonotonic Reasoning_. Springer International Publishing, 2015, p. 453–466. ISBN: 9783319232645. DOI: [10.1007/978-3-319-23264-5_38](https://doi.org/10.1007%2F978-3-319-23264-5_38). URL: [http://dx.doi.org/10.1007/978-3-319-23264-5_38](http://dx.doi.org/10.1007/978-3-319-23264-5_38).
+
+<a name=bib-Ulbricht_2016></a>[[25]](#cite-Ulbricht_2016) M. Ulbricht, M. Thimm, and G. Brewka. “Measuring Inconsistency in Answer Set Programs”. In: _Logics in Artificial Intelligence_. Springer International Publishing, 2016, p. 577–583. ISBN: 9783319487588. DOI: [10.1007/978-3-319-48758-8_42](https://doi.org/10.1007%2F978-3-319-48758-8_42). URL: [http://dx.doi.org/10.1007/978-3-319-48758-8_42](http://dx.doi.org/10.1007/978-3-319-48758-8_42).
+

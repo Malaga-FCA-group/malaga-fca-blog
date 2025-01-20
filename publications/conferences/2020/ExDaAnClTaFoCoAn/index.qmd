@@ -1,0 +1,53 @@
+---
+title: Exploratory Data Analysis of Multi-label Classification Tasks with Formal Context
+  Analysis
+author:
+- Francisco J. Valverde-Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/ExDaAnClTaFoCoAn
+details: Proceedings of the Fifthteenth International Conference on Concept Lattices
+  and Their Applications, Tallinn, Estonia, June 29-July 1, 2020 , {CEUR} Workshop
+  Proceedings vol. 2668, pages 171--183.
+---
+
+
+
+# Abstract
+
+
+We introduce a new framework, Formal Context Analysis (FxA), for the exploratory analysis of data tasks cast in the guise of
+formal contexts. FxA gathers a number of results from Formal Concept Analysis, Formal Independence Analysis and Formal Equivalence Analysis to enhance the establishment and processing of hypothesis about data. We apply this framework to the study of the Multi-label Classification (MLC) task and obtain a number of results of technical nature about how the induction mechanism for MLC classifiers should proceed. The application is based on an analysis of multilabel classification from the standpoint of FxA.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-ValverdeAlbacete2020></a>[[Val+20]](#cite-ValverdeAlbacete2020) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Exploratory Data Analysis of Multi-label Classification Tasks with Formal Context Analysis”. In: _Proceedings of the Fifthteenth International Conference on Concept Lattices and Their Applications, Tallinn, Estonia, June 29-July 1, 2020_. Ed. by F. J. Valverde-Albacete and M. Trnecka. Vol. 2668. CEUR Workshop Proceedings. CEUR-WS.org, 2020, pp. 171-183. URL: [https://ceur-ws.org/Vol-2668/paper13.pdf](https://ceur-ws.org/Vol-2668/paper13.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{ValverdeAlbacete2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco J. Valverde-Albacete and Carmen Pel{\a'a}ez-Moreno and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Fifthteenth International Conference on Concept Lattices and Their Applications, Tallinn, Estonia, June 29-July 1, 2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Exploratory Data Analysis of Multi-label Classification Tasks with Formal Context Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco J. Valverde-Albacete and Martin Trnecka},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {171--183},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2668},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We introduce a new framework, Formal Context Analysis (FxA), for the exploratory analysis of data tasks cast in the guise of<br>&nbsp;&nbsp;&nbsp;&nbsp;formal contexts. FxA gathers a number of results from Formal Concept Analysis, Formal Independence Analysis and Formal Equivalence Analysis to enhance the establishment and processing of hypothesis about data. We apply this framework to the study of the Multi-label Classification (MLC) task and obtain a number of results of technical nature about how the induction mechanism for MLC classifiers should proceed. The application is based on an analysis of multilabel classification from the standpoint of FxA.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/Valverde-Albacete20a.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-2668/paper13.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

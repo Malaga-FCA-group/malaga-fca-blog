@@ -1,0 +1,83 @@
+---
+title: Directness in Fuzzy Formal Concept Analysis
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2018'
+categories: uncategorised
+slug: 2018/DiFuFoCoAn
+details: Information Processing and Management of Uncertainty in Knowledge-Based Systems.
+  Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz,
+  Spain, June 11-15, 2018, Proceedings, Part {I} , Communications in Computer and
+  Information Science vol. 853, pages 585--595.
+doi: 10.1007/978-3-319-91473-2_50
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2018a></a>[[CEM18]](#cite-Cordero2018a) P. Cordero, M. Enciso, and Á. Mora. “Directness in Fuzzy Formal Concept Analysis”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, IPMU 2018, Cádiz, Spain, June 11-15, 2018, Proceedings, Part I_. Ed. by J. Medina, M. Ojeda-Aciego, J. L. V. Galdeano, D. A. Pelta, I. P. Cabrera, B. Bouchon-Meunier and R. R. Yager. Vol. 853. Communications in Computer and Information Science. Springer, 2018, pp. 585-595. DOI: [10.1007/978-3-319-91473-2\_50](https://doi.org/10.1007%2F978-3-319-91473-2%5C_50). URL: [https://doi.org/10.1007/978-3-319-91473-2\_50](https://doi.org/10.1007/978-3-319-91473-2\_50).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2018a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz, Spain, June 11-15, 2018, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Directness in Fuzzy Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jos{\a'e} Luis Verdegay Galdeano and David A. Pelta and Inma P. Cabrera and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {585--595},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {853},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/CorderoE018.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-91473-2\_50},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-91473-2\_50},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-91473-2_50" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-91473-2_50" class="plumx-details" data-site="plum" data-hide-when-empty="true">Directness in Fuzzy Formal Concept Analysis</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-91473-2_50"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-L_pez_Rodr_guez_2021></a>[[1]](#cite-L_pez_Rodr_guez_2021) D. López-Rodríguez, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Formal Methods in FCA and Big Data”. In: _Complex Data Analytics with Formal Concept Analysis_. Springer International Publishing, Dec. 2021, p. 201–224. ISBN: 9783030932787. DOI: [10.1007/978-3-030-93278-7_9](https://doi.org/10.1007%2F978-3-030-93278-7_9). URL: [http://dx.doi.org/10.1007/978-3-030-93278-7_9](http://dx.doi.org/10.1007/978-3-030-93278-7_9).
+

@@ -1,0 +1,98 @@
+---
+title: Powersets of terms and composite monads
+author:
+- Patrik Eklund
+- Maria A. Galán
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '2007'
+categories: uncategorised
+slug: 2007/PoTeCoMo
+details: Fuzzy Sets Syst. vol. 158 (23), pages 2552--2574.
+doi: 10.1016/J.FSS.2007.06.002
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Eklund2007></a>[[Ekl+07]](#cite-Eklund2007) P. Eklund, M. A. Galán, J. Medina, et al. “Powersets of terms and composite monads”. In: _Fuzzy Sets Syst._ 158.23 (2007), pp. 2552-2574. DOI: [10.1016/J.FSS.2007.06.002](https://doi.org/10.1016%2FJ.FSS.2007.06.002). URL: [https://doi.org/10.1016/j.fss.2007.06.002](https://doi.org/10.1016/j.fss.2007.06.002).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Eklund2007,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Patrik Eklund and Maria A. Gal{\a'a}n and Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Powersets of terms and composite monads},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {23},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {2552--2574},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {158},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/EklundGMOV07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2007.06.002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2007.06.002},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2007.06.002" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2007.06.002" class="plumx-details" data-site="plum" data-hide-when-empty="true">Powersets of terms and composite monads</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2007.06.002"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Barone_2009></a>[[1]](#cite-Barone_2009) J. M. Barone. “T-algebras as predictors”. In: _NAFIPS 2009 - 2009 Annual Meeting of the North American Fuzzy Information Processing Society_. IEEE, Jun. 2009, p. 1–6. DOI: [10.1109/nafips.2009.5156436](https://doi.org/10.1109%2Fnafips.2009.5156436). URL: [http://dx.doi.org/10.1109/nafips.2009.5156436](http://dx.doi.org/10.1109/nafips.2009.5156436).
+
+<a name=bib-Denniston_2016></a>[[2]](#cite-Denniston_2016) J. T. Denniston, A. Melton, S. E. Rodabaugh, et al. “Topological systems as a framework for institutions”. In: _Fuzzy Sets and Systems_ 298 (Sep. 2016), p. 91–108. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.08.009](https://doi.org/10.1016%2Fj.fss.2015.08.009). URL: [http://dx.doi.org/10.1016/j.fss.2015.08.009](http://dx.doi.org/10.1016/j.fss.2015.08.009).
+
+<a name=bib-Eklund_20091></a>[[3]](#cite-Eklund_20091) P. Eklund. “Early diagnosis of cognitive disorder based on ground categories for decision support structures”. In: _2009 IEEE International Conference on Fuzzy Systems_. IEEE, Aug. 2009, p. 997–1002. DOI: [10.1109/fuzzy.2009.5277098](https://doi.org/10.1109%2Ffuzzy.2009.5277098). URL: [http://dx.doi.org/10.1109/fuzzy.2009.5277098](http://dx.doi.org/10.1109/fuzzy.2009.5277098).
+
+<a name=bib-Eklund_2014></a>[[4]](#cite-Eklund_2014) P. Eklund, M. Galán, R. Helgesson, et al. “Fuzzy terms”. In: _Fuzzy Sets and Systems_ 256 (Dec. 2014), p. 211–235. ISSN: 0165-0114. DOI: [10.1016/j.fss.2013.02.012](https://doi.org/10.1016%2Fj.fss.2013.02.012). URL: [http://dx.doi.org/10.1016/j.fss.2013.02.012](http://dx.doi.org/10.1016/j.fss.2013.02.012).
+
+<a name=bib-Eklund_2010></a>[[5]](#cite-Eklund_2010) P. Eklund and R. Helgesson. “Monadic extensions of institutions”. In: _Fuzzy Sets and Systems_ 161.18 (Sep. 2010), p. 2354–2368. ISSN: 0165-0114. DOI: [10.1016/j.fss.2010.03.002](https://doi.org/10.1016%2Fj.fss.2010.03.002). URL: [http://dx.doi.org/10.1016/j.fss.2010.03.002](http://dx.doi.org/10.1016/j.fss.2010.03.002).
+
+<a name=bib-Eklund_2016></a>[[6]](#cite-Eklund_2016) P. Eklund, U. Höhle, and J. Kortelainen. “A survey on the categorical term construction with applications”. In: _Fuzzy Sets and Systems_ 298 (Sep. 2016), p. 128–157. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.07.003](https://doi.org/10.1016%2Fj.fss.2015.07.003). URL: [http://dx.doi.org/10.1016/j.fss.2015.07.003](http://dx.doi.org/10.1016/j.fss.2015.07.003).
+
+<a name=bib-Eklund_2009></a>[[7]](#cite-Eklund_2009) P. Eklund, M. Johansson, J. Karlsson, et al. “BPMN and its Semantics for Information Management in Emergency Care”. In: _2009 Fourth International Conference on Computer Sciences and Convergence Information Technology_. IEEE, 2009, p. 273–278. DOI: [10.1109/iccit.2009.27](https://doi.org/10.1109%2Ficcit.2009.27). URL: [http://dx.doi.org/10.1109/iccit.2009.27](http://dx.doi.org/10.1109/iccit.2009.27).
+
+<a name=bib-Eklund_2012></a>[[8]](#cite-Eklund_2012) P. Eklund, J. Kortelainen, and L. N. Stout. “Adding fuzziness to terms and powerobjects using a monadic approach”. In: _Fuzzy Sets and Systems_ 192 (Apr. 2012), p. 104–122. ISSN: 0165-0114. DOI: [10.1016/j.fss.2010.10.014](https://doi.org/10.1016%2Fj.fss.2010.10.014). URL: [http://dx.doi.org/10.1016/j.fss.2010.10.014](http://dx.doi.org/10.1016/j.fss.2010.10.014).
+
+<a name=bib-Mo_ko__2021></a>[[9]](#cite-Mo_ko__2021) J. Močkoř. “Relational, closure and partition powerset theories”. In: _Fuzzy Sets and Systems_ 420 (Sep. 2021), p. 100–122. ISSN: 0165-0114. DOI: [10.1016/j.fss.2020.11.009](https://doi.org/10.1016%2Fj.fss.2020.11.009). URL: [http://dx.doi.org/10.1016/j.fss.2020.11.009](http://dx.doi.org/10.1016/j.fss.2020.11.009).
+

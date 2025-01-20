@@ -1,0 +1,126 @@
+---
+title: On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application
+  to Generalized Logic Programs
+author:
+- Umberto Straccia
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Carlos Viegas Damásio
+date: '2009'
+categories: uncategorised
+slug: 2009/MuFuCoLaApGeLoPr
+details: '{SIAM} J. Comput. vol. 38 (5), pages 1881--1911.'
+doi: 10.1137/070695976
+---
+
+
+
+# Abstract
+
+
+Unlike monotone single-valued functions, multivalued mappings may have zero, one, or (possibly infinitely) many minimal fixed-points. The contribution of this work is twofold. First, we overview and investigate the existence and computation of minimal fixed-points of multivalued mappings, whose domain is a complete lattice and whose range is its power set. Second, we show how these results are applied to a general form of logic programs, where the truth space is a complete lattice. We show that a multivalued operator can be defined whose fixed-points are in one-to-one correspondence with the models of the logic program.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Straccia2009></a>[[SOD09]](#cite-Straccia2009) U. Straccia, M. Ojeda-Aciego, and C. V. Damásio. “On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application to Generalized Logic Programs”. In: _SIAM J. Comput._ 38.5 (2009), pp. 1881-1911. DOI: [10.1137/070695976](https://doi.org/10.1137%2F070695976). URL: [https://doi.org/10.1137/070695976](https://doi.org/10.1137/070695976).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Straccia2009,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Umberto Straccia and Manuel Ojeda-Aciego and Carlos Viegas Dam{\a'a}sio},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {{SIAM} J. Comput.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application to Generalized Logic Programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1881--1911},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {38},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/siamcomp/StracciaOD09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1137/070695976},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 14 Nov 2018 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1137/070695976},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1137/070695976" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1137/070695976" class="plumx-details" data-site="plum" data-hide-when-empty="true">On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application to Generalized Logic Programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1137/070695976"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Acemoglu_2011></a>[[1]](#cite-Acemoglu_2011) D. Acemoglu and M. Jackson. _History, Expectations, and Leadership in the Evolution of Social Norms_. May. 2011. DOI: [10.3386/w17066](https://doi.org/10.3386%2Fw17066). URL: [http://dx.doi.org/10.3386/w17066](http://dx.doi.org/10.3386/w17066).
+
+<a name=bib-Acemoglu_20111></a>[[2]](#cite-Acemoglu_20111) D. Acemoglu and M. O. Jackson. “History, Expectations, and Leadership in Evolution of Social Norms”. In: _SSRN Electronic Journal_ (2011). ISSN: 1556-5068. DOI: [10.2139/ssrn.1839768](https://doi.org/10.2139%2Fssrn.1839768). URL: [http://dx.doi.org/10.2139/ssrn.1839768](http://dx.doi.org/10.2139/ssrn.1839768).
+
+<a name=bib-Acemoglu_2014></a>[[3]](#cite-Acemoglu_2014) D. Acemoglu and M. O. Jackson. “History, Expectations, and Leadership in the Evolution of Social Norms”. In: _The Review of Economic Studies_ 82.2 (Dec. 2014), p. 423–456. ISSN: 1467-937X. DOI: [10.1093/restud/rdu039](https://doi.org/10.1093%2Frestud%2Frdu039). URL: [http://dx.doi.org/10.1093/restud/rdu039](http://dx.doi.org/10.1093/restud/rdu039).
+
+<a name=bib-Alfuraidan_2016></a>[[4]](#cite-Alfuraidan_2016) M. R. Alfuraidan. “Metric Fixed Point Theory in Spaces with a Graph”. In: _Fixed Point Theory and Graph Theory_. Elsevier, 2016, p. 287–363. ISBN: 9780128042953. DOI: [10.1016/b978-0-12-804295-3.50007-3](https://doi.org/10.1016%2Fb978-0-12-804295-3.50007-3). URL: [http://dx.doi.org/10.1016/b978-0-12-804295-3.50007-3](http://dx.doi.org/10.1016/b978-0-12-804295-3.50007-3).
+
+<a name=bib-Alfuraidan_2015></a>[[5]](#cite-Alfuraidan_2015) M. R. Alfuraidan. “Remarks on monotone multivalued mappings on a metric space with a graph”. In: _Journal of Inequalities and Applications_ 2015.1 (Jun. 2015). ISSN: 1029-242X. DOI: [10.1186/s13660-015-0712-6](https://doi.org/10.1186%2Fs13660-015-0712-6). URL: [http://dx.doi.org/10.1186/s13660-015-0712-6](http://dx.doi.org/10.1186/s13660-015-0712-6).
+
+<a name=bib-Blondeel_20141></a>[[6]](#cite-Blondeel_20141) M. Blondeel, S. Schockaert, M. De Cock, et al. “Fuzzy autoepistemic logic and its relation to fuzzy answer set programming”. In: _Fuzzy Sets and Systems_ 239 (Mar. 2014), p. 51–80. ISSN: 0165-0114. DOI: [10.1016/j.fss.2012.09.012](https://doi.org/10.1016%2Fj.fss.2012.09.012). URL: [http://dx.doi.org/10.1016/j.fss.2012.09.012](http://dx.doi.org/10.1016/j.fss.2012.09.012).
+
+<a name=bib-Blondeel_2014></a>[[7]](#cite-Blondeel_2014) M. Blondeel, S. Schockaert, D. Vermeir, et al. “Complexity of fuzzy answer set programming under Łukasiewicz semantics”. In: _International Journal of Approximate Reasoning_ 55.9 (Dec. 2014), p. 1971–2003. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2013.10.011](https://doi.org/10.1016%2Fj.ijar.2013.10.011). URL: [http://dx.doi.org/10.1016/j.ijar.2013.10.011](http://dx.doi.org/10.1016/j.ijar.2013.10.011).
+
+<a name=bib-Blondeel_2013></a>[[8]](#cite-Blondeel_2013) M. Blondeel, S. Schockaert, D. Vermeir, et al. “Fuzzy Answer Set Programming: An Introduction”. In: _Soft Computing: State of the Art Theory and Novel Applications_. Springer Berlin Heidelberg, 2013, p. 209–222. ISBN: 9783642349225. DOI: [10.1007/978-3-642-34922-5_15](https://doi.org/10.1007%2F978-3-642-34922-5_15). URL: [http://dx.doi.org/10.1007/978-3-642-34922-5_15](http://dx.doi.org/10.1007/978-3-642-34922-5_15).
+
+<a name=bib-Cornejo_2018></a>[[9]](#cite-Cornejo_2018) M. E. Cornejo, D. Lobo, and J. Medina. “Syntax and semantics of multi-adjoint normal logic programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 41–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.12.009](https://doi.org/10.1016%2Fj.fss.2017.12.009). URL: [http://dx.doi.org/10.1016/j.fss.2017.12.009](http://dx.doi.org/10.1016/j.fss.2017.12.009).
+
+<a name=bib-Hanjing_2015></a>[[10]](#cite-Hanjing_2015) A. Hanjing and S. Suantai. “Coincidence point and fixed point theorems for a new type of G-contraction multivalued mappings on a metric space endowed with a graph”. In: _Fixed Point Theory and Applications_ 2015.1 (Sep. 2015). ISSN: 1687-1812. DOI: [10.1186/s13663-015-0420-4](https://doi.org/10.1186%2Fs13663-015-0420-4). URL: [http://dx.doi.org/10.1186/s13663-015-0420-4](http://dx.doi.org/10.1186/s13663-015-0420-4).
+
+<a name=bib-Hitzler_2016></a>[[11]](#cite-Hitzler_2016) P. Hitzler and A. Seda. _Mathematical Aspects of Logic Programming Semantics_. CRC Press, Apr. 2016. ISBN: 9780429094231. DOI: [10.1201/b10397](https://doi.org/10.1201%2Fb10397). URL: [http://dx.doi.org/10.1201/b10397](http://dx.doi.org/10.1201/b10397).
+
+<a name=bib-Janssen_2012></a>[[12]](#cite-Janssen_2012) J. Janssen, S. Schockaert, D. Vermeir, et al. “A core language for fuzzy answer set programming”. In: _International Journal of Approximate Reasoning_ 53.4 (Jun. 2012), p. 660–692. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2012.01.005](https://doi.org/10.1016%2Fj.ijar.2012.01.005). URL: [http://dx.doi.org/10.1016/j.ijar.2012.01.005](http://dx.doi.org/10.1016/j.ijar.2012.01.005).
+
+<a name=bib-Janssen_2011></a>[[13]](#cite-Janssen_2011) J. Janssen, S. Schockaert, D. Vermeir, et al. “Aggregated Fuzzy Answer Set Programming”. In: _Annals of Mathematics and Artificial Intelligence_ 63.2 (Aug. 2011), p. 103–147. ISSN: 1573-7470. DOI: [10.1007/s10472-011-9256-8](https://doi.org/10.1007%2Fs10472-011-9256-8). URL: [http://dx.doi.org/10.1007/s10472-011-9256-8](http://dx.doi.org/10.1007/s10472-011-9256-8).
+
+<a name=bib-JANSSEN_2011></a>[[14]](#cite-JANSSEN_2011) J. JANSSEN, D. VERMEIR, S. SCHOCKAERT, et al. “Reducing fuzzy answer set programming to model finding in fuzzy logics”. In: _Theory and Practice of Logic Programming_ 12.6 (Jun. 2011), p. 811–842. ISSN: 1475-3081. DOI: [10.1017/s1471068411000093](https://doi.org/10.1017%2Fs1471068411000093). URL: [http://dx.doi.org/10.1017/s1471068411000093](http://dx.doi.org/10.1017/s1471068411000093).
+
+<a name=bib-Medina_2023></a>[[15]](#cite-Medina_2023) J. Medina and J. A. Torné-Zambrano. “Immediate consequences operator on generalized quantifiers”. In: _Fuzzy Sets and Systems_ 456 (Mar. 2023), p. 72–91. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.08.014](https://doi.org/10.1016%2Fj.fss.2022.08.014). URL: [http://dx.doi.org/10.1016/j.fss.2022.08.014](http://dx.doi.org/10.1016/j.fss.2022.08.014).
+
+<a name=bib-Moreno_2014></a>[[16]](#cite-Moreno_2014) G. Moreno, J. Penabad, and C. Vázquez. “Beyond multi-adjoint logic programming”. In: _International Journal of Computer Mathematics_ 92.9 (Nov. 2014), p. 1956–1975. ISSN: 1029-0265. DOI: [10.1080/00207160.2014.975218](https://doi.org/10.1080%2F00207160.2014.975218). URL: [http://dx.doi.org/10.1080/00207160.2014.975218](http://dx.doi.org/10.1080/00207160.2014.975218).
+
+<a name=bib-Ranzato_2016></a>[[17]](#cite-Ranzato_2016) F. Ranzato. “Abstract Interpretation of Supermodular Games”. In: _Static Analysis_. Springer Berlin Heidelberg, 2016, p. 403–423. ISBN: 9783662534137. DOI: [10.1007/978-3-662-53413-7_20](https://doi.org/10.1007%2F978-3-662-53413-7_20). URL: [http://dx.doi.org/10.1007/978-3-662-53413-7_20](http://dx.doi.org/10.1007/978-3-662-53413-7_20).
+
+<a name=bib-Romaguera_2011></a>[[18]](#cite-Romaguera_2011) S. Romaguera, M. P. Schellekens, and O. Valero. “The complexity space of partial functions: a connection between complexity analysis and denotational semantics”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1819–1829. ISSN: 1029-0265. DOI: [10.1080/00207161003631885](https://doi.org/10.1080%2F00207161003631885). URL: [http://dx.doi.org/10.1080/00207161003631885](http://dx.doi.org/10.1080/00207161003631885).
+
+<a name=bib-Saad_2009></a>[[19]](#cite-Saad_2009) E. Saad. “Extended Fuzzy Logic Programs with Fuzzy Answer Set Semantics”. In: _Scalable Uncertainty Management_. Springer Berlin Heidelberg, 2009, p. 223–239. ISBN: 9783642043888. DOI: [10.1007/978-3-642-04388-8_18](https://doi.org/10.1007%2F978-3-642-04388-8_18). URL: [http://dx.doi.org/10.1007/978-3-642-04388-8_18](http://dx.doi.org/10.1007/978-3-642-04388-8_18).
+
+<a name=bib-Schockaert_2012></a>[[20]](#cite-Schockaert_2012) S. Schockaert, J. Janssen, and D. Vermeir. “Fuzzy Equilibrium Logic: Declarative Problem Solving in Continuous Domains”. In: _ACM Transactions on Computational Logic_ 13.4 (Oct. 2012), p. 1–39. ISSN: 1557-945X. DOI: [10.1145/2362355.2362361](https://doi.org/10.1145%2F2362355.2362361). URL: [http://dx.doi.org/10.1145/2362355.2362361](http://dx.doi.org/10.1145/2362355.2362361).
+
+<a name=bib-Schockaert_2010></a>[[21]](#cite-Schockaert_2010) S. Schockaert, N. Makarytska, and M. De Cock. “Fuzzy Methods on the Web: A Critical Discussion”. In: _35 Years of Fuzzy Set Theory_. Springer Berlin Heidelberg, 2010, p. 237–266. ISBN: 9783642166297. DOI: [10.1007/978-3-642-16629-7_12](https://doi.org/10.1007%2F978-3-642-16629-7_12). URL: [http://dx.doi.org/10.1007/978-3-642-16629-7_12](http://dx.doi.org/10.1007/978-3-642-16629-7_12).
+
+<a name=bib-Straccia_2017></a>[[22]](#cite-Straccia_2017) U. Straccia and F. Bobillo. “From Fuzzy to Annotated Semantic Web Languages”. In: _Reasoning Web: Logical Foundation of Knowledge Graph Construction and Query Answering_. Springer International Publishing, 2017, p. 203–240. ISBN: 9783319494937. DOI: [10.1007/978-3-319-49493-7_6](https://doi.org/10.1007%2F978-3-319-49493-7_6). URL: [http://dx.doi.org/10.1007/978-3-319-49493-7_6](http://dx.doi.org/10.1007/978-3-319-49493-7_6).
+
+<a name=bib-Vives_2024></a>[[23]](#cite-Vives_2024) X. Vives and O. Vravosinos. “Strategic complementarity in games”. In: _Journal of Mathematical Economics_ 113 (Aug. 2024), p. 103005. ISSN: 0304-4068. DOI: [10.1016/j.jmateco.2024.103005](https://doi.org/10.1016%2Fj.jmateco.2024.103005). URL: [http://dx.doi.org/10.1016/j.jmateco.2024.103005](http://dx.doi.org/10.1016/j.jmateco.2024.103005).
+

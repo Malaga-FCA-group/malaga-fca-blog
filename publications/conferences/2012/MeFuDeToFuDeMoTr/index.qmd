@@ -1,0 +1,49 @@
+---
+title: A Metamodel for Functional Dependencies - Towards a Functional Dependency Model
+  Transformation
+author:
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- Carlos Rossi
+- Antonio Guevara
+date: '2012'
+categories: uncategorised
+slug: 2012/MeFuDeToFuDeMoTr
+details: '{ICSOFT} 2012 - Proceedings of the 7th International Conference on Software
+  Paradigm Trends, Rome, Italy, 24 - 27 July, 2012 , pages 291--296.'
+doi: 10.5220/0004129002910296
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Enciso2012></a>[[ERG12]](#cite-Enciso2012) M. Enciso, C. Rossi, and A. Guevara. “A Metamodel for Functional Dependencies - Towards a Functional Dependency Model Transformation”. In: _ICSOFT 2012 - Proceedings of the 7th International Conference on Software Paradigm Trends, Rome, Italy, 24 - 27 July, 2012_. Ed. by S. Hammoudi, M. van Sinderen and J. Cordeiro. SciTePress, 2012, pp. 291-296. DOI: [10.5220/0004129002910296](https://doi.org/10.5220%2F0004129002910296). URL: [https://doi.org/10.5220/0004129002910296](https://doi.org/10.5220/0004129002910296).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Enciso2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso and Carlos Rossi and Antonio Guevara},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ICSOFT} 2012 - Proceedings of the 7th International Conference on Software Paradigm Trends, Rome, Italy, 24 - 27 July, 2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Metamodel for Functional Dependencies - Towards a Functional Dependency Model Transformation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Slimane Hammoudi and Marten {van Sinderen} and Jos{\a'e} Cordeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {291--296},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {SciTePress},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icsoft/EncisoRG12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.5220/0004129002910296},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 14 Dec 2017 12:26:02 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.5220/0004129002910296},<br>}
+
+:::
+
+
+
+
+
+
+
+

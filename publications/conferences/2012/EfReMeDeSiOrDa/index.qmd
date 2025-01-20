@@ -1,0 +1,95 @@
+---
+title: An Efficient Reasoning Method for Dependencies over Similarity and Ordinal
+  Data
+author:
+- Radim Belohlávek
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Vilém Vychodil
+date: '2012'
+categories: uncategorised
+slug: 2012/EfReMeDeSiOrDa
+details: Modeling Decisions for Artificial Intelligence - 9th International Conference,
+  {MDAI} 2012, Girona, Catalonia, Spain, November 21-23, 2012. Proceedings , Lecture
+  Notes in Computer Science vol. 7647, pages 408--419.
+doi: 10.1007/978-3-642-34620-0_36
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Belohlavek2012></a>[[Bel+12]](#cite-Belohlavek2012) R. Belohlávek, P. Cordero, M. Enciso, et al. “An Efficient Reasoning Method for Dependencies over Similarity and Ordinal Data”. In: _Modeling Decisions for Artificial Intelligence - 9th International Conference, MDAI 2012, Girona, Catalonia, Spain, November 21-23, 2012. Proceedings_. Ed. by V. Torra, Y. Narukawa, B. López and M. Villaret. Vol. 7647. Lecture Notes in Computer Science. Springer, 2012, pp. 408-419. DOI: [10.1007/978-3-642-34620-0\_36](https://doi.org/10.1007%2F978-3-642-34620-0%5C_36). URL: [https://doi.org/10.1007/978-3-642-34620-0\_36](https://doi.org/10.1007/978-3-642-34620-0\_36).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Belohlavek2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Radim Belohl{\a'a}vek and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Vil{\a'e}m Vychodil},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Modeling Decisions for Artificial Intelligence - 9th International Conference, {MDAI} 2012, Girona, Catalonia, Spain, November 21-23, 2012. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An Efficient Reasoning Method for Dependencies over Similarity and Ordinal Data},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Vicen{\c c} Torra and Yasuo Narukawa and Beatriz L{\a'o}pez and Mateu Villaret},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {408--419},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {7647},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/mdai/BelohlavekCEMV12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-34620-0\_36},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 07 May 2024 20:11:44 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-34620-0\_36},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-34620-0_36" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-34620-0_36" class="plumx-details" data-site="plum" data-hide-when-empty="true">An Efficient Reasoning Method for Dependencies over Similarity and Ordinal Data</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-34620-0_36"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Ben_tez_Caballero_2018></a>[[1]](#cite-Ben_tez_Caballero_2018) M. J. Benítez-Caballero, J. Medina, E. Ramírez-Poussa, et al. “Bireducts with tolerance relations”. In: _Information Sciences_ 435 (Apr. 2018), p. 26–39. ISSN: 0020-0255. DOI: [10.1016/j.ins.2017.12.037](https://doi.org/10.1016%2Fj.ins.2017.12.037). URL: [http://dx.doi.org/10.1016/j.ins.2017.12.037](http://dx.doi.org/10.1016/j.ins.2017.12.037).
+
+<a name=bib-Cordero_2013></a>[[2]](#cite-Cordero_2013) P. Cordero, M. Enciso, A. Mora, et al. “Computing non-redundant sets of functional dependencies via simplification”. In: _2013 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2013, p. 9–14. DOI: [10.1109/foci.2013.6602449](https://doi.org/10.1109%2Ffoci.2013.6602449). URL: [http://dx.doi.org/10.1109/foci.2013.6602449](http://dx.doi.org/10.1109/foci.2013.6602449).
+
+<a name=bib-Leiva_2014></a>[[3]](#cite-Leiva_2014) J. L. Leiva, M. Enciso, C. Rossi, et al. “Improving Recommender Systems with Simplification Logic to Manage Implications with Grades”. In: _Software Technologies_. Springer Berlin Heidelberg, 2014, p. 290–305. ISBN: 9783662449202. DOI: [10.1007/978-3-662-44920-2_18](https://doi.org/10.1007%2F978-3-662-44920-2_18). URL: [http://dx.doi.org/10.1007/978-3-662-44920-2_18](http://dx.doi.org/10.1007/978-3-662-44920-2_18).
+
+<a name=bib-Leiva_20141></a>[[4]](#cite-Leiva_20141) J. L. Leiva, M. Enciso, C. Rossi, et al. “Improving Recommender Systems with Simplification Logic to Manage Implications with Grades”. In: _Software Technologies_. Springer Berlin Heidelberg, 2014, p. 290–305. ISBN: 9783662449202. DOI: [10.1007/978-3-662-44920-2_18](https://doi.org/10.1007%2F978-3-662-44920-2_18). URL: [http://dx.doi.org/10.1007/978-3-662-44920-2_18](http://dx.doi.org/10.1007/978-3-662-44920-2_18).
+
+<a name=bib-Rodriguez_Jimenez_2015></a>[[5]](#cite-Rodriguez_Jimenez_2015) J. Rodriguez-Jimenez, E. Rodriguez-Lorenzo, P. Cordero, et al. “A Normal Form for Fuzzy Functional Dependencies”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 984–989. DOI: [10.1109/ssci.2015.143](https://doi.org/10.1109%2Fssci.2015.143). URL: [http://dx.doi.org/10.1109/ssci.2015.143](http://dx.doi.org/10.1109/ssci.2015.143).
+
+<a name=bib-Vychodil_2016></a>[[6]](#cite-Vychodil_2016) V. Vychodil. “Computing sets of graded attribute implications with witnessed non-redundancy”. In: _Information Sciences_ 351 (Jul. 2016), p. 90–100. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.03.004](https://doi.org/10.1016%2Fj.ins.2016.03.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.03.004](http://dx.doi.org/10.1016/j.ins.2016.03.004).
+

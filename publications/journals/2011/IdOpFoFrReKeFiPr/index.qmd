@@ -1,0 +1,97 @@
+---
+title: Ideal non-deterministic operators as a formal framework to reduce the key finding
+  problem
+author:
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- Inmaculada Perez de Guzmán
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/IdOpFoFrReKeFiPr
+details: Int. J. Comput. Math. vol. 88 (9), pages 1860--1868.
+doi: 10.1080/00207160.2010.484488
+---
+
+
+
+# Abstract
+
+
+Abstract A formal development in the framework of the lattice theory for functional dependencies and minimal keys is presented. Beyond this theoretical study, a technique to prune the key finding problem, named scheme pruning transformation, is proposed in this work. This transformation is founded on theoretical results and has linear cost in the worst case. Moreover, this approach has provided a better size reduction than the usual techniques existing in the literature. Keywords: functional dependenceminimal keylattice theory 2000 AMS Subject Classifications : 06B1068P15H.2.0 Acknowledgements This paper has been partially supported by the Spanish project TIN2007-65819 and the Andalusian project P06-FQM-02049. We are grateful to the referees for their suggestions, which had lead to improve the paper itself and our future work. Notes From now on, the elements of will be denoted by juxtaposition and without braces. That is, abc denotes the subset {a, b, c}.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Mora2011></a>[[Mor+11]](#cite-Mora2011) Á. Mora, I. P. de Guzmán, M. Enciso, et al. “Ideal non-deterministic operators as a formal framework to reduce the key finding problem”. In: _Int. J. Comput. Math._ 88.9 (2011), pp. 1860-1868. DOI: [10.1080/00207160.2010.484488](https://doi.org/10.1080%2F00207160.2010.484488). URL: [https://doi.org/10.1080/00207160.2010.484488](https://doi.org/10.1080/00207160.2010.484488).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Mora2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {{\a'A}ngel Mora and Inmaculada Perez {de Guzm{\a'a}n} and Manuel Enciso and Pablo Cordero},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Ideal non-deterministic operators as a formal framework to reduce the key finding problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1860--1868},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {88},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/MoraGEC11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160.2010.484488},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160.2010.484488},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160.2010.484488" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160.2010.484488" class="plumx-details" data-site="plum" data-hide-when-empty="true">Ideal non-deterministic operators as a formal framework to reduce the key finding problem</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160.2010.484488"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Benito_Picazo_2016></a>[[1]](#cite-Benito_Picazo_2016) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Reducing the search space by closure and simplification paradigms: A parallel key finding method”. In: _The Journal of Supercomputing_ 73.1 (Jan. 2016), p. 75–87. ISSN: 1573-0484. DOI: [10.1007/s11227-016-1622-1](https://doi.org/10.1007%2Fs11227-016-1622-1). URL: [http://dx.doi.org/10.1007/s11227-016-1622-1](http://dx.doi.org/10.1007/s11227-016-1622-1).
+
+<a name=bib-Cordero_2014></a>[[2]](#cite-Cordero_2014) P. Cordero, M. Enciso, A. Mora, et al. “A tableaux-like method to infer all minimal keys”. In: _Logic Journal of IGPL_ 22.6 (Sep. 2014), p. 1019–1044. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzu025](https://doi.org/10.1093%2Fjigpal%2Fjzu025). URL: [http://dx.doi.org/10.1093/jigpal/jzu025](http://dx.doi.org/10.1093/jigpal/jzu025).
+
+<a name=bib-Medina_2013></a>[[3]](#cite-Medina_2013) J. Medina and M. Ojeda-Aciego. “Dual multi-adjoint concept lattices”. In: _Information Sciences_ 225 (Mar. 2013), p. 47–54. ISSN: 0020-0255. DOI: [10.1016/j.ins.2012.10.030](https://doi.org/10.1016%2Fj.ins.2012.10.030). URL: [http://dx.doi.org/10.1016/j.ins.2012.10.030](http://dx.doi.org/10.1016/j.ins.2012.10.030).
+
+<a name=bib-Mora_2012></a>[[4]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-Rodr_guez_Lorenzo_2017></a>[[5]](#cite-Rodr_guez_Lorenzo_2017) E. Rodríguez-Lorenzo, P. Cordero, M. Enciso, et al. “Canonical dichotomous direct bases”. In: _Information Sciences_ 376 (Jan. 2017), p. 39–53. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.10.004](https://doi.org/10.1016%2Fj.ins.2016.10.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.10.004](http://dx.doi.org/10.1016/j.ins.2016.10.004).
+
+<a name=bib-Tu_n_2017></a>[[6]](#cite-Tu_n_2017) V. Q. Tuấn and H. Thuần. “Một số kết quả về thuật toán tính bao đóng và rút gọn bài toán tìm khóa của lược đồ quan hệ”. In: _Research and Development on Information and Communication Technology_ (Nov. 2017). ISSN: 1859-3526. DOI: [10.32913/rd-ict.vol2.no38.364](https://doi.org/10.32913%2Frd-ict.vol2.no38.364). URL: [http://dx.doi.org/10.32913/rd-ict.vol2.no38.364](http://dx.doi.org/10.32913/rd-ict.vol2.no38.364).
+
+<a name=bib-Viaud_2017></a>[[7]](#cite-Viaud_2017) J. Viaud, K. Bertet, R. Missaoui, et al. “Distributed and Parallel Computation of the Canonical Direct Basis”. In: _Formal Concept Analysis_. Springer International Publishing, 2017, p. 228–241. ISBN: 9783319592718. DOI: [10.1007/978-3-319-59271-8_15](https://doi.org/10.1007%2F978-3-319-59271-8_15). URL: [http://dx.doi.org/10.1007/978-3-319-59271-8_15](http://dx.doi.org/10.1007/978-3-319-59271-8_15).
+
+<a name=bib-Vigo_Aguiar_2011></a>[[8]](#cite-Vigo_Aguiar_2011) J. Vigo-Aguiar and J. A. Lopez-Ramos. “Applications of computational mathematics in science and engineering”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1805–1807. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.578828](https://doi.org/10.1080%2F00207160.2011.578828). URL: [http://dx.doi.org/10.1080/00207160.2011.578828](http://dx.doi.org/10.1080/00207160.2011.578828).
+

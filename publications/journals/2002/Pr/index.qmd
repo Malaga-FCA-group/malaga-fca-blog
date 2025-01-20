@@ -1,0 +1,48 @@
+---
+title: Preface
+author:
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Gerhard Brewka
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- Luís Moniz Pereira
+date: '2002'
+categories: uncategorised
+slug: 2002/Pr
+details: Stud Logica vol. 72 (1), pages 3--5.
+doi: 10.1023/A:1020534210459
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2002></a>[[Oje+02]](#cite-OjedaAciego2002) M. Ojeda-Aciego, G. Brewka, I. P. de Guzmán, et al. “Preface”. In: _Stud Logica_ 72.1 (2002), pp. 3-5. DOI: [10.1023/A:1020534210459](https://doi.org/10.1023%2FA%3A1020534210459). URL: [https://doi.org/10.1023/A:1020534210459](https://doi.org/10.1023/A:1020534210459).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{OjedaAciego2002,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Ojeda-Aciego and Gerhard Brewka and Inman P. {de Guzm{\a'a}n} and Lu\'\is Moniz Pereira},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Stud Logica},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Preface},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {3--5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {72},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/sLogica/Ojeda-AciegoBGP02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1023/A:1020534210459},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 01 Sep 2020 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1023/A:1020534210459},<br>}
+
+:::
+
+
+
+
+
+
+
+

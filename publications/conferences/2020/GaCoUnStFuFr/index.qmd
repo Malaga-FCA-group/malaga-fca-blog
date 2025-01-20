@@ -1,0 +1,84 @@
+---
+title: Galois Connections Between Unbalanced Structures in a Fuzzy Framework
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/GaCoUnStFuFr
+details: Information Processing and Management of Uncertainty in Knowledge-Based Systems
+  - 18th International Conference, {IPMU} 2020, Lisbon, Portugal, June 15-19, 2020,
+  Proceedings, Part {III} , Communications in Computer and Information Science vol.
+  1239, pages 736--747.
+doi: 10.1007/978-3-030-50153-2_54
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2020a></a>[[Cab+20]](#cite-Cabrera2020a) I. P. Cabrera, P. Cordero, E. Mu~noz-Velasco, et al. “Galois Connections Between Unbalanced Structures in a Fuzzy Framework”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems - 18th International Conference, IPMU 2020, Lisbon, Portugal, June 15-19, 2020, Proceedings, Part III_. Ed. by M. Lesot, S. M. Vieira, M. Z. Reformat, J. P. Carvalho, A. Wilbik, B. Bouchon-Meunier and R. R. Yager. Vol. 1239. Communications in Computer and Information Science. Springer, 2020, pp. 736-747. DOI: [10.1007/978-3-030-50153-2\_54](https://doi.org/10.1007%2F978-3-030-50153-2%5C_54). URL: [https://doi.org/10.1007/978-3-030-50153-2\_54](https://doi.org/10.1007/978-3-030-50153-2\_54).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2020a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems - 18th International Conference, {IPMU} 2020, Lisbon, Portugal, June 15-19, 2020, Proceedings, Part {III}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Galois Connections Between Unbalanced Structures in a Fuzzy Framework},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Marie-Jeanne Lesot and Susana M. Vieira and Marek Z. Reformat and Jo~ao Paulo Carvalho and Anna Wilbik and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {736--747},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1239},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/CabreraCMO20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-030-50153-2\_54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Dec 2020 18:36:32 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-030-50153-2\_54},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-50153-2_54" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-50153-2_54" class="plumx-details" data-site="plum" data-hide-when-empty="true">Galois Connections Between Unbalanced Structures in a Fuzzy Framework</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-030-50153-2_54"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Murthy_2023></a>[[1]](#cite-Murthy_2023) N. V. E. S. Murthy, C. Maheswari, P. V. N. H. Ravi, et al. “Galois connection between soft sets and soft point sets”. In: _2ND INTERNATIONAL CONFERENCE ON ADVANCED INFORMATION SCIENTIFIC DEVELOPMENT (ICAISD) 2021: Innovating Scientific Learning for Deep Communication_. Vol. 2714. AIP Publishing, 2023, p. 020044. DOI: [10.1063/5.0143270](https://doi.org/10.1063%2F5.0143270). URL: [http://dx.doi.org/10.1063/5.0143270](http://dx.doi.org/10.1063/5.0143270).
+

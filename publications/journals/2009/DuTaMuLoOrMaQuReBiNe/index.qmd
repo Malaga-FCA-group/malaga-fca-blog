@@ -1,0 +1,95 @@
+---
+title: Dual tableau for a multimodal logic for order of magnitude qualitative reasoning
+  with bidirectional negligibility
+author:
+- Joanna Golinska-Pilarek
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2009'
+categories: uncategorised
+slug: 2009/DuTaMuLoOrMaQuReBiNe
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1707--1718.
+doi: 10.1080/00207160902930752
+---
+
+
+
+# Abstract
+
+
+Abstract We present a relational proof system in the style of dual tableaux for the relational logic associated with a multimodal propositional logic for order of magnitude qualitative reasoning with a bidirectional relation of negligibility. We study soundness and completeness of the proof system and we show how it can be used for verification of validity of formulas of the logic. Keywords: relational logicsdual tableau systemsmultimodal propositional logicorder-of-magnitude qualitative reasoning 2000 AMS Subject Classifications : 03F0368T2768T1503B45 Acknowledgements We thank Prof. Ewa Orłowska for suggesting the subject of the paper and for her helpful remarks on the first version of this article. The first author of the paper is a recipient of the 2007 and 2008 Grant for Young Scientists of the Foundation for Polish Science and is partially supported by the Polish Ministry of Science and Higher Education grant N N206 399134. Both authors are partially supported by the Spanish research project TIN2006-15455-C03-01 and the second author is partially supported also by project P6-FQM-02049. Notes As usual in modal logic, we use , , ◊ N , as abbreviations of , , , and , respectively. Note that in standard models m′(<) is a strict linear ordering on U′.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GolinskaPilarek2009a></a>[[GM09]](#cite-GolinskaPilarek2009a) J. Golinska-Pilarek and E. Mu~noz-Velasco. “Dual tableau for a multimodal logic for order of magnitude qualitative reasoning with bidirectional negligibility”. In: _Int. J. Comput. Math._ 86.10\&11 (2009), pp. 1707-1718. DOI: [10.1080/00207160902930752](https://doi.org/10.1080%2F00207160902930752). URL: [https://doi.org/10.1080/00207160902930752](https://doi.org/10.1080/00207160902930752).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{GolinskaPilarek2009a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Joanna Golinska-Pilarek and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Dual tableau for a multimodal logic for order of magnitude qualitative reasoning with bidirectional negligibility},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {10{\&}11},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1707--1718},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {86},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/Golinska-PilarekM09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160902930752},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 02 Nov 2018 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160902930752},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160902930752" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160902930752" class="plumx-details" data-site="plum" data-hide-when-empty="true">Dual tableau for a multimodal logic for order of magnitude qualitative reasoning with bidirectional negligibility</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160902930752"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2010></a>[[1]](#cite-Burrieza_2010) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Closeness and Distance Relations in Order of Magnitude Qualitative Reasoning via PDL”. In: _Current Topics in Artificial Intelligence_. Springer Berlin Heidelberg, 2010, p. 71–80. ISBN: 9783642142642. DOI: [10.1007/978-3-642-14264-2_8](https://doi.org/10.1007%2F978-3-642-14264-2_8). URL: [http://dx.doi.org/10.1007/978-3-642-14264-2_8](http://dx.doi.org/10.1007/978-3-642-14264-2_8).
+
+<a name=bib-Burrieza_2018></a>[[2]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-Goli_ska_Pilarek_2015></a>[[3]](#cite-Goli_ska_Pilarek_2015) J. Goli ska-Pilarek and E. Munoz-Velasco. “A hybrid qualitative approach for relative movements”. In: _Logic Journal of IGPL_ 23.3 (Apr. 2015), p. 410–420. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzv012](https://doi.org/10.1093%2Fjigpal%2Fjzv012). URL: [http://dx.doi.org/10.1093/jigpal/jzv012](http://dx.doi.org/10.1093/jigpal/jzv012).
+
+<a name=bib-Goli_ska_Pilarek_20121></a>[[4]](#cite-Goli_ska_Pilarek_20121) J. Golińska-Pilarek. “On Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 255–266. ISBN: 9783642333538. DOI: [10.1007/978-3-642-33353-8_20](https://doi.org/10.1007%2F978-3-642-33353-8_20). URL: [http://dx.doi.org/10.1007/978-3-642-33353-8_20](http://dx.doi.org/10.1007/978-3-642-33353-8_20).
+
+<a name=bib-Golinska_Pilarek_2009></a>[[5]](#cite-Golinska_Pilarek_2009) J. Golinska-Pilarek and E. Munoz-Velasco. “Relational approach for a logic for order of magnitude qualitative reasoning with negligibility, non-closeness and distance”. In: _Logic Journal of IGPL_ 17.4 (Jun. 2009), p. 375–394. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzp016](https://doi.org/10.1093%2Fjigpal%2Fjzp016). URL: [http://dx.doi.org/10.1093/jigpal/jzp016](http://dx.doi.org/10.1093/jigpal/jzp016).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[6]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek and E. Muñoz-Velasco. “Reasoning with Qualitative Velocity: Towards a Hybrid Approach”. In: _Hybrid Artificial Intelligent Systems_. Springer Berlin Heidelberg, 2012, p. 635–646. ISBN: 9783642289422. DOI: [10.1007/978-3-642-28942-2_57](https://doi.org/10.1007%2F978-3-642-28942-2_57). URL: [http://dx.doi.org/10.1007/978-3-642-28942-2_57](http://dx.doi.org/10.1007/978-3-642-28942-2_57).
+
+<a name=bib-Madrid_2012></a>[[7]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 310–324. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [http://dx.doi.org/10.1080/00207160.2011.580842](http://dx.doi.org/10.1080/00207160.2011.580842).
+
+<a name=bib-Mora_2011></a>[[8]](#cite-Mora_2011) A. Mora, E. Muñoz-Velasco, and J. Golińska-Pilarek. “Implementing a relational theorem prover for modal logic”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1869–1884. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.493211](https://doi.org/10.1080%2F00207160.2010.493211). URL: [http://dx.doi.org/10.1080/00207160.2010.493211](http://dx.doi.org/10.1080/00207160.2010.493211).
+

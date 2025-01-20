@@ -1,0 +1,48 @@
+---
+title: Restricted ideals and the groupability property. Tools for temporal reasoning
+author:
+- Javier Martínez
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Gloria Gutiérrez
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+date: '2003'
+categories: uncategorised
+slug: 2003/ReIdGrToTeRe
+details: Kybernetika vol. 39 (5), pages 521--546.
+---
+
+
+
+# Abstract
+
+
+In the field of automatic proving, the study of the sets of prime implicants or implicates of a formula has proven to be very important [17, 19, 20, 21]. If we focus on non-classical logics and, in particular, on temporal logics, such study is useful even if it is restricted to the set of unitary implicants/implicates [3, 4, 5, 6]. In this paper, a new concept we call restricted ideal/filter is introduced, it is proved that the set of restricted ideals/filters with the relation of inclusion has lattice structure and its utility for the efficient manipulation of the set of unitary implicants/implicates of formulas in propositional temporal logics is shown. We introduce a new property for subsets of lattices, which we call groupability, and we prove that the existence of groupable subsets in a lattice allows us to express restricted ideals/filters as the inductive closure for a binary non-deterministic operator and, consequently, the presence of this property guarantees a proper computational behavior of the set of unitary  implicants/implicates.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Martinez2003></a>[[Mar+03]](#cite-Martinez2003) J. Mart\'\inez, P. Cordero, G. Gutiérrez, et al. “Restricted ideals and the groupability property. Tools for temporal reasoning”. In: _Kybernetika_ 39.5 (2003), pp. 521-546. URL: [http://www.kybernetika.cz/content/2003/5/521](http://www.kybernetika.cz/content/2003/5/521).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Martinez2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Javier Mart\'\inez and Pablo Cordero and Gloria Guti{\a'e}rrez and Inman P. {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Kybernetika},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Restricted ideals and the groupability property. Tools for temporal reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {521--546},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {39},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In the field of automatic proving, the study of the sets of prime implicants or implicates of a formula has proven to be very important [17, 19, 20, 21]. If we focus on non-classical logics and, in particular, on temporal logics, such study is useful even if it is restricted to the set of unitary implicants/implicates [3, 4, 5, 6]. In this paper, a new concept we call restricted ideal/filter is introduced, it is proved that the set of restricted ideals/filters with the relation of inclusion has lattice structure and its utility for the efficient manipulation of the set of unitary implicants/implicates of formulas in propositional temporal logics is shown. We introduce a new property for subsets of lattices, which we call groupability, and we prove that the existence of groupable subsets in a lattice allows us to express restricted ideals/filters as the inductive closure for a binary non-deterministic operator and, consequently, the presence of this property guarantees a proper computational behavior of the set of unitary  implicants/implicates.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/kybernetika/MartinezCGG03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://www.kybernetika.cz/content/2003/5/521},<br>}
+
+:::
+
+
+
+
+
+
+
+

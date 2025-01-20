@@ -1,0 +1,49 @@
+---
+title: A Formal Tool that Integrates Relational Database Schemes and Preserves the
+  Original Information
+author:
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+date: '2006'
+categories: uncategorised
+slug: 2006/FoToInReDaScPrOrIn
+details: '{ICEIS} 2006 - Proceedings of the Eighth International Conference on Enterprise
+  Information Systems: Databases and Information Systems Integration, Paphos, Cyprus,
+  May 23-27, 2006 , pages 302--305.'
+---
+
+
+
+# Abstract
+
+
+In this work we face on with the main problem concerning the database design process in a collaborative environment: several users provide different models representing a part of the global model and we must integrate these database sub-shemes to render a unified database schema. In this work we propose a technique to integrate relational database sub-schemes based on a formal language. The extraction, integration and generation tasks are carried out efficiently using the SLFD logic (Substitution Logic for functional dependencies). We have selected this logic because it is appropriated to manage the functional dependencies in a automatic way.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Mora2006a></a>[[ME06]](#cite-Mora2006a) Á. Mora and M. Enciso. “A Formal Tool that Integrates Relational Database Schemes and Preserves the Original Information”. In: _ICEIS 2006 - Proceedings of the Eighth International Conference on Enterprise Information Systems: Databases and Information Systems Integration, Paphos, Cyprus, May 23-27, 2006_. Ed. by Y. Manolopoulos, J. Filipe, P. Constantopoulos and J. Cordeiro. 2006, pp. 302-305.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Mora2006a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {{\a'A}ngel Mora and Manuel Enciso},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ICEIS} 2006 - Proceedings of the Eighth International Conference on Enterprise Information Systems: Databases and Information Systems Integration, Paphos, Cyprus, May 23-27, 2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Formal Tool that Integrates Relational Database Schemes and Preserves the Original Information},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2006},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Yannis Manolopoulos and Joaquim Filipe and Panos Constantopoulos and Jos{\a'e} Cordeiro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {302--305},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this work we face on with the main problem concerning the database design process in a collaborative environment: several users provide different models representing a part of the global model and we must integrate these database sub-shemes to render a unified database schema. In this work we propose a technique to integrate relational database sub-schemes based on a formal language. The extraction, integration and generation tasks are carried out efficiently using the SLFD logic (Substitution Logic for functional dependencies). We have selected this logic because it is appropriated to manage the functional dependencies in a automatic way.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iceis/MoraE06.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

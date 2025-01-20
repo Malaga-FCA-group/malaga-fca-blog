@@ -1,0 +1,46 @@
+---
+title: Advances in Artificial Intelligence - 19th Conference of the Spanish Association
+  for Artificial Intelligence, {CAEPIA} 2020/2021, M{\'{a}}laga, Spain, September
+  22-24, 2021, Proceedings
+author: ''
+date: '2021'
+categories: uncategorised
+slug: 2021/AdArInCoSpAsArSePr
+details: []
+doi: 10.1007/978-3-030-85713-4
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Alba2021></a>[[Alb+21]](#cite-Alba2021) E. Alba, G. Luque, F. Chicano, et al., ed. _Advances in Artificial Intelligence - 19th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2020/2021, Málaga, Spain, September 22-24, 2021, Proceedings_. Vol. 12882. Lecture Notes in Computer Science. Springer, 2021. ISBN: 978-3-030-85712-7. DOI: [10.1007/978-3-030-85713-4](https://doi.org/10.1007%2F978-3-030-85713-4). URL: [https://doi.org/10.1007/978-3-030-85713-4](https://doi.org/10.1007/978-3-030-85713-4).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Alba2021,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Advances in Artificial Intelligence - 19th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2020/2021, M{\'{a}}laga, Spain, September 22-24, 2021, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2021},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Enrique Alba and Gabriel Luque and Francisco Chicano and Carlos Cotta and David Camacho and Manuel Ojeda-Aciego and Susana Montes and Alicia Troncoso and Jos{\a'e} C. Riquelme and Rodrigo Gil-Merino},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-030-85712-7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {12882},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/2021.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-030-85713-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 13 Jul 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-030-85713-4},<br>}
+
+:::
+
+
+
+
+
+
+
+

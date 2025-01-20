@@ -1,0 +1,105 @@
+---
+title: Advances in Artificial Intelligence - 20th Conference of the Spanish Association
+  for Artificial Intelligence, {CAEPIA} 2024, {A} Coru{\~{n}}a, Spain, June 19-21,
+  2024, Proceedings
+author: ''
+date: '2024'
+categories: uncategorised
+slug: 2024/AdArInCoSpAsArJuPr
+details: []
+doi: 10.1007/978-3-031-62799-6
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-AlonsoBetanzos2024></a>[[Alo+24]](#cite-AlonsoBetanzos2024) A. Alonso-Betanzos, B. Guijarro-Berdi~nas, V. Bolón-Canedo, et al., ed. _Advances in Artificial Intelligence - 20th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2024, A Coru~na, Spain, June 19-21, 2024, Proceedings_. Vol. 14640. Lecture Notes in Computer Science. Springer, 2024. ISBN: 978-3-031-62798-9. DOI: [10.1007/978-3-031-62799-6](https://doi.org/10.1007%2F978-3-031-62799-6). URL: [https://doi.org/10.1007/978-3-031-62799-6](https://doi.org/10.1007/978-3-031-62799-6).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{AlonsoBetanzos2024,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Advances in Artificial Intelligence - 20th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2024, {A} Coru{\~{n}}a, Spain, June 19-21, 2024, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Amparo Alonso-Betanzos and Bertha Guijarro-Berdi~nas and Ver{\a'o}nica Bol{\a'o}n-Canedo and Elena Hern{\a'a}ndez-Pereira and Oscar Fontenla-Romero and David Camacho and Juan Ram{\a'o}n Rabu~nal and Manuel Ojeda-Aciego and Jes{\a'u}s Medina and Jos{\a'e} C. Riquelme and Alicia Troncoso},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-031-62798-9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {14640},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/2024.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-62799-6},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 19 Jun 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-62799-6},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-031-62799-6" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-031-62799-6" class="plumx-details" data-site="plum" data-hide-when-empty="true">Advances in Artificial Intelligence - 20th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2024, {A} Coru{\~{n}}a, Spain, June 19-21, 2024, Proceedings</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-031-62799-6"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Airenti_1993></a>[[1]](#cite-Airenti_1993) G. Airenti, B. G. Bara, and M. Colombetti. “Conversation and Behavior Games in the Pragmatics of Dialogue”. In: _Cognitive Science_ 17.2 (Apr. 1993), p. 197–256. ISSN: 1551-6709. DOI: [10.1207/s15516709cog1702_2](https://doi.org/10.1207%2Fs15516709cog1702_2). URL: [http://dx.doi.org/10.1207/s15516709cog1702_2](http://dx.doi.org/10.1207/s15516709cog1702_2).
+
+<a name=bib-Almerekhi_2020></a>[[2]](#cite-Almerekhi_2020) H. Almerekhi, H. Kwak, J. Salminen, et al. “Are These Comments Triggering? Predicting Triggers of Toxicity in Online Discussions”. In: _Proceedings of The Web Conference 2020_. WWW ’20. ACM, Apr. 2020, p. 3033–3040. DOI: [10.1145/3366423.3380074](https://doi.org/10.1145%2F3366423.3380074). URL: [http://dx.doi.org/10.1145/3366423.3380074](http://dx.doi.org/10.1145/3366423.3380074).
+
+<a name=bib-Ceskouts__2024></a>[[3]](#cite-Ceskouts__2024) R. F. T. Ceskoutsé, A. B. Bomgni, D. R. G. Zanfack, et al. “HeteroKGRep: Heterogeneous Knowledge Graph based Drug Repositioning”. In: _Knowledge-Based Systems_ 305 (Dec. 2024), p. 112638. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2024.112638](https://doi.org/10.1016%2Fj.knosys.2024.112638). URL: [http://dx.doi.org/10.1016/j.knosys.2024.112638](http://dx.doi.org/10.1016/j.knosys.2024.112638).
+
+<a name=bib-Teja_Reddy_Gatla_2019></a>[[4]](#cite-Teja_Reddy_Gatla_2019) T. R. Gatla. “A CUTTING-EDGE RESEARCH ON AI COMBATING CLIMATE CHANGE: INNOVATIONS AND ITS IMPACTS”. In: _International Journal of Innovations in Engineering Research and Technology_ 6.9 (Sep. 2019), p. 1–8. ISSN: 2394-3696. DOI: [10.26662/ijiert.v11i3.pp1-8](https://doi.org/10.26662%2Fijiert.v11i3.pp1-8). URL: [http://dx.doi.org/10.26662/ijiert.v11i3.pp1-8](http://dx.doi.org/10.26662/ijiert.v11i3.pp1-8).
+
+<a name=bib-Holsapple_1994></a>[[5]](#cite-Holsapple_1994) C. W. Holsapple and V. S. Raj. “An exploratory study of two KA methods”. In: _Expert Systems_ 11.2 (May. 1994), p. 77–87. ISSN: 1468-0394. DOI: [10.1111/j.1468-0394.1994.tb00001.x](https://doi.org/10.1111%2Fj.1468-0394.1994.tb00001.x). URL: [http://dx.doi.org/10.1111/j.1468-0394.1994.tb00001.x](http://dx.doi.org/10.1111/j.1468-0394.1994.tb00001.x).
+
+<a name=bib-Jim_nez_Navarro_2024></a>[[6]](#cite-Jim_nez_Navarro_2024) M. J. Jiménez-Navarro, M. Lovrić, S. Kecorius, et al. “Explainable deep learning on multi-target time series forecasting: An air pollution use case”. In: _Results in Engineering_ 24 (Dec. 2024), p. 103290. ISSN: 2590-1230. DOI: [10.1016/j.rineng.2024.103290](https://doi.org/10.1016%2Fj.rineng.2024.103290). URL: [http://dx.doi.org/10.1016/j.rineng.2024.103290](http://dx.doi.org/10.1016/j.rineng.2024.103290).
+
+<a name=bib-Johnson_Laird_1993></a>[[7]](#cite-Johnson_Laird_1993) P. N. Johnson-Laird and R. M. J. Byrne. “Précis ofDeduction”. In: _Behavioral and Brain Sciences_ 16.2 (Jun. 1993), p. 323–333. ISSN: 1469-1825. DOI: [10.1017/s0140525x00030260](https://doi.org/10.1017%2Fs0140525x00030260). URL: [http://dx.doi.org/10.1017/s0140525x00030260](http://dx.doi.org/10.1017/s0140525x00030260).
+
+<a name=bib-Kov_cs_2022></a>[[8]](#cite-Kov_cs_2022) Á. Kovács, K. Gémes, E. Iklódi, et al. “POTATO: exPlainable infOrmation exTrAcTion framewOrk”. In: _Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management_. CIKM ’22. ACM, Oct. 2022, p. 4897–4901. DOI: [10.1145/3511808.3557196](https://doi.org/10.1145%2F3511808.3557196). URL: [http://dx.doi.org/10.1145/3511808.3557196](http://dx.doi.org/10.1145/3511808.3557196).
+
+<a name=bib-Li_2021></a>[[9]](#cite-Li_2021) R. Li, Z. Wang, Y. Du, et al. “Maintenance Decision Generator for Electrical Equipment Based on Reinforcement Learning”. In: _2021 4th International Conference on Signal Processing and Machine Learning_. SPML 2021. ACM, Aug. 2021, p. 160–165. DOI: [10.1145/3483207.3483233](https://doi.org/10.1145%2F3483207.3483233). URL: [http://dx.doi.org/10.1145/3483207.3483233](http://dx.doi.org/10.1145/3483207.3483233).
+
+<a name=bib-Maity_2024></a>[[10]](#cite-Maity_2024) A. Maity and G. Saha. “Enhancing cross-domain robustness in phonocardiogram signal classification using domain-invariant preprocessing and transfer learning”. In: _Computer Methods and Programs in Biomedicine_ 257 (Dec. 2024), p. 108462. ISSN: 0169-2607. DOI: [10.1016/j.cmpb.2024.108462](https://doi.org/10.1016%2Fj.cmpb.2024.108462). URL: [http://dx.doi.org/10.1016/j.cmpb.2024.108462](http://dx.doi.org/10.1016/j.cmpb.2024.108462).
+
+<a name=bib-Murray_1991></a>[[11]](#cite-Murray_1991) D. W. Murray and D. M. Pickup. “Recursive Updating of Planar Motion”. In: _BMVC91_. Springer London, 1991, p. 169–177. ISBN: 9781447119210. DOI: [10.1007/978-1-4471-1921-0_22](https://doi.org/10.1007%2F978-1-4471-1921-0_22). URL: [http://dx.doi.org/10.1007/978-1-4471-1921-0_22](http://dx.doi.org/10.1007/978-1-4471-1921-0_22).
+
+<a name=bib-Pan_2024></a>[[12]](#cite-Pan_2024) Y. Pan, J. Jiang, K. Jiang, et al. “Disentangled-Multimodal Privileged Knowledge Distillation for Depression Recognition with Incomplete Multimodal Data”. In: _Proceedings of the 32nd ACM International Conference on Multimedia_. MM ’24. ACM, Oct. 2024, p. 5712–5721. DOI: [10.1145/3664647.3681227](https://doi.org/10.1145%2F3664647.3681227). URL: [http://dx.doi.org/10.1145/3664647.3681227](http://dx.doi.org/10.1145/3664647.3681227).
+
+<a name=bib-Repp_2024></a>[[13]](#cite-Repp_2024) S. Repp and E. G. Haffner. “Dynamic Segmentation for Efficient Retrieval of Podcasts: The Repping Algorithm”. In: _Proceedings of the 2024 International Conference on Multimedia Retrieval_. ICMR ’24. ACM, May. 2024, p. 29–36. DOI: [10.1145/3652583.3658047](https://doi.org/10.1145%2F3652583.3658047). URL: [http://dx.doi.org/10.1145/3652583.3658047](http://dx.doi.org/10.1145/3652583.3658047).
+
+<a name=bib-Zeng_2024></a>[[14]](#cite-Zeng_2024) L. Zeng and H. H. Zhang. “Robust brain MRI image classification with SIBOW-SVM”. In: _Computerized Medical Imaging and Graphics_ 118 (Dec. 2024), p. 102451. ISSN: 0895-6111. DOI: [10.1016/j.compmedimag.2024.102451](https://doi.org/10.1016%2Fj.compmedimag.2024.102451). URL: [http://dx.doi.org/10.1016/j.compmedimag.2024.102451](http://dx.doi.org/10.1016/j.compmedimag.2024.102451).
+

@@ -1,0 +1,37 @@
+---
+title: Closure via functional dependence simplification
+author:
+- amora
+- pcordero
+- enciso
+- Inmaculada Fortes
+- Gabriel Aguilera
+date: '2012'
+categories: uncategorised
+slug: 2012/ClViFuDeSi
+details: Int. J. Comput. Math. vol. 89 (4), pages 510--526.
+doi: 10.1080/00207160.2011.644275
+
+---
+
+
+# Abstract
+
+
+In this paper, a method for computing the closure of a set of attributes according to a specification of functional dependencies of the relational model is described. The main feature of this method is that it computes the closure using solely the inference system of the SL FD logic. For the first time, logic is used in the design of automated deduction methods to solve the closure problem. The strong link between the SL FD logic and the closure algorithm is presented and an SL FD simplification paradigm emerges as the key element of our method. In addition, the soundness and completeness of the closure algorithm are shown. Our method has linear complexity, as the classical closure algorithms, and it has all the advantages provided by the use of logic. We have empirically compared our algorithm with the Diederich and Milton classical algorithm. This experiment reveals the best behaviour of our method which shows a significant improvement in the average speed.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

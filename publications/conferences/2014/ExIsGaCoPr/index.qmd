@@ -1,0 +1,96 @@
+---
+title: On the Existence of Isotone Galois Connections between Preorders
+author:
+- Francisca García-Pardo
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Francisco J. Rodríguez-Sanchez
+date: '2014'
+categories: uncategorised
+slug: 2014/ExIsGaCoPr
+details: Formal Concept Analysis - 12th International Conference, {ICFCA} 2014, Cluj-Napoca,
+  Romania, June 10-13, 2014. Proceedings , Lecture Notes in Computer Science vol.
+  8478, pages 67--79.
+doi: 10.1007/978-3-319-07248-7_6
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GarciaPardo2014a></a>[[Gar+14]](#cite-GarciaPardo2014a) F. Garc\'\ia-Pardo, I. P. Cabrera, P. Cordero, et al. “On the Existence of Isotone Galois Connections between Preorders”. In: _Formal Concept Analysis - 12th International Conference, ICFCA 2014, Cluj-Napoca, Romania, June 10-13, 2014. Proceedings_. Ed. by C. V. Glodeanu, M. Kaytoue and C. Sacarea. Vol. 8478. Lecture Notes in Computer Science. Springer, 2014, pp. 67-79. DOI: [10.1007/978-3-319-07248-7\_6](https://doi.org/10.1007%2F978-3-319-07248-7%5C_6). URL: [https://doi.org/10.1007/978-3-319-07248-7\_6](https://doi.org/10.1007/978-3-319-07248-7\_6).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GarciaPardo2014a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisca Garc\'\ia-Pardo and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego and Francisco J. Rodr\'\iguez-Sanchez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Formal Concept Analysis - 12th International Conference, {ICFCA} 2014, Cluj-Napoca, Romania, June 10-13, 2014. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the Existence of Isotone Galois Connections between Preorders},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Cynthia Vera Glodeanu and Mehdi Kaytoue and Christian Sacarea},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {67--79},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {8478},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/Garcia-PardoCCOR14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-07248-7\_6},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 30 Sep 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-07248-7\_6},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-07248-7_6" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-07248-7_6" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the Existence of Isotone Galois Connections between Preorders</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-07248-7_6"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2019></a>[[1]](#cite-Cabrera_2019) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “A Relational Extension of Galois Connections”. In: _Formal Concept Analysis_. Springer International Publishing, 2019, p. 290–303. ISBN: 9783030214623. DOI: [10.1007/978-3-030-21462-3_19](https://doi.org/10.1007%2F978-3-030-21462-3_19). URL: [http://dx.doi.org/10.1007/978-3-030-21462-3_19](http://dx.doi.org/10.1007/978-3-030-21462-3_19).
+
+<a name=bib-Cabrera_20191></a>[[2]](#cite-Cabrera_20191) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Towards fuzzy relational Galois connections between fuzzy T-digraphs”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.112](https://doi.org/10.2991%2Feusflat-19.2019.112). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.112](http://dx.doi.org/10.2991/eusflat-19.2019.112).
+
+<a name=bib-Cabrera_2020></a>[[3]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz‐Velasco, et al. “Relational Galois connections between transitive fuzzy digraphs”. In: _Mathematical Methods in the Applied Sciences_ 43.9 (Feb. 2020), p. 5673–5680. ISSN: 1099-1476. DOI: [10.1002/mma.6302](https://doi.org/10.1002%2Fmma.6302). URL: [http://dx.doi.org/10.1002/mma.6302](http://dx.doi.org/10.1002/mma.6302).
+
+<a name=bib-Cabrera_2017></a>[[4]](#cite-Cabrera_2017) I. Cabrera, P. Cordero, F. García-Pardo, et al. “On the construction of adjunctions between a fuzzy preposet and an unstructured set”. In: _Fuzzy Sets and Systems_ 320 (Aug. 2017), p. 81–92. ISSN: 0165-0114. DOI: [10.1016/j.fss.2016.09.013](https://doi.org/10.1016%2Fj.fss.2016.09.013). URL: [http://dx.doi.org/10.1016/j.fss.2016.09.013](http://dx.doi.org/10.1016/j.fss.2016.09.013).
+
+<a name=bib-Cabrera_2023></a>[[5]](#cite-Cabrera_2023) I. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Fuzzy relational Galois connections between fuzzy transitive digraphs”. In: _Fuzzy Sets and Systems_ 463 (Jul. 2023), p. 108456. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.12.012](https://doi.org/10.1016%2Fj.fss.2022.12.012). URL: [http://dx.doi.org/10.1016/j.fss.2022.12.012](http://dx.doi.org/10.1016/j.fss.2022.12.012).
+
+<a name=bib-Garc_a_Pardo_2014></a>[[6]](#cite-Garc_a_Pardo_2014) F. García-Pardo, I. P. Cabrera, P. Cordero, et al. “On Adjunctions between Fuzzy Preordered Sets: Necessary Conditions”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 211–221. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_22](https://doi.org/10.1007%2F978-3-319-08644-6_22). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_22](http://dx.doi.org/10.1007/978-3-319-08644-6_22).
+
+<a name=bib-Garcia_Pardo_2015></a>[[7]](#cite-Garcia_Pardo_2015) F. Garcia-Pardo, I. Cabrera, P. Cordero, et al. “On Fuzzy Preordered Sets and Monotone Galois Connections”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 990–994. DOI: [10.1109/ssci.2015.144](https://doi.org/10.1109%2Fssci.2015.144). URL: [http://dx.doi.org/10.1109/ssci.2015.144](http://dx.doi.org/10.1109/ssci.2015.144).
+

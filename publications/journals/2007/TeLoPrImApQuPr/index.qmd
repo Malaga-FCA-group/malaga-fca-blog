@@ -1,0 +1,125 @@
+---
+title: 'Termination of logic programs with imperfect information: applications and
+  query procedure'
+author:
+- Carlos Viegas Damásio
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2007'
+categories: uncategorised
+slug: 2007/TeLoPrImApQuPr
+details: J. Appl. Log. vol. 5 (3), pages 435--458.
+doi: 10.1016/J.JAL.2006.03.004
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Damasio2007></a>[[DMO07]](#cite-Damasio2007) C. V. Damásio, J. Medina, and M. Ojeda-Aciego. “Termination of logic programs with imperfect information: applications and query procedure”. In: _J. Appl. Log._ 5.3 (2007), pp. 435-458. DOI: [10.1016/J.JAL.2006.03.004](https://doi.org/10.1016%2FJ.JAL.2006.03.004). URL: [https://doi.org/10.1016/j.jal.2006.03.004](https://doi.org/10.1016/j.jal.2006.03.004).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Damasio2007,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Viegas Dam{\a'a}sio and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {J. Appl. Log.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Termination of logic programs with imperfect information: applications and query procedure},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2007},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {435--458},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/japll/DamasioMO07.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.JAL.2006.03.004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 16 Feb 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.jal.2006.03.004},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.JAL.2006.03.004" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.JAL.2006.03.004" class="plumx-details" data-site="plum" data-hide-when-empty="true">Termination of logic programs with imperfect information: applications and query procedure</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.JAL.2006.03.004"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2010></a>[[1]](#cite-Cabrera_2010) I. Cabrera, P. Cordero, G. Gutiérrez, et al. “A coalgebraic approach to non-determinism: Applications to multilattices”. In: _Information Sciences_ 180.22 (Nov. 2010), p. 4323–4335. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.002](https://doi.org/10.1016%2Fj.ins.2010.07.002). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.002](http://dx.doi.org/10.1016/j.ins.2010.07.002).
+
+<a name=bib-CHORTARAS_2009></a>[[2]](#cite-CHORTARAS_2009) A. CHORTARAS, G. STAMOU, and A. STAFYLOPATIS. “DEFINITION AND ADAPTATION OF WEIGHTED FUZZY LOGIC PROGRAMS”. In: _International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems_ 17.01 (Feb. 2009), p. 85–135. ISSN: 1793-6411. DOI: [10.1142/s0218488509005759](https://doi.org/10.1142%2Fs0218488509005759). URL: [http://dx.doi.org/10.1142/s0218488509005759](http://dx.doi.org/10.1142/s0218488509005759).
+
+<a name=bib-Cornejo_2020></a>[[3]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Relating Multi-Adjoint Normal Logic Programs to Core Fuzzy Answer Set Programs from a Semantical Approach”. In: _Mathematics_ 8.6 (Jun. 2020), p. 881. ISSN: 2227-7390. DOI: [10.3390/math8060881](https://doi.org/10.3390%2Fmath8060881). URL: [http://dx.doi.org/10.3390/math8060881](http://dx.doi.org/10.3390/math8060881).
+
+<a name=bib-Cornejo_20181></a>[[4]](#cite-Cornejo_20181) M. E. Cornejo, D. Lobo, and J. Medina. “Syntax and semantics of multi-adjoint normal logic programming”. In: _Fuzzy Sets and Systems_ 345 (Aug. 2018), p. 41–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.12.009](https://doi.org/10.1016%2Fj.fss.2017.12.009). URL: [http://dx.doi.org/10.1016/j.fss.2017.12.009](http://dx.doi.org/10.1016/j.fss.2017.12.009).
+
+<a name=bib-Cornejo_2018></a>[[5]](#cite-Cornejo_2018) M. E. Cornejo, J. Medina Moreno, and C. Rubio-Manzano. “Towards a Full Fuzzy Unification in the Bousi Prolog system”. In: _2018 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2018, p. 1–7. DOI: [10.1109/fuzz-ieee.2018.8491514](https://doi.org/10.1109%2Ffuzz-ieee.2018.8491514). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2018.8491514](http://dx.doi.org/10.1109/fuzz-ieee.2018.8491514).
+
+<a name=bib-Cornejo_2011></a>[[6]](#cite-Cornejo_2011) M. E. Cornejo, J. Medina, and E. Ramírez. “Implication Triples versus Adjoint Triples”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 453–460. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_57](https://doi.org/10.1007%2F978-3-642-21498-1_57). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_57](http://dx.doi.org/10.1007/978-3-642-21498-1_57).
+
+<a name=bib-D_az_Moreno_2022></a>[[7]](#cite-D_az_Moreno_2022) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Fuzzy logic programs as hypergraphs. Termination results”. In: _Fuzzy Sets and Systems_ 445 (Sep. 2022), p. 22–42. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.02.001](https://doi.org/10.1016%2Fj.fss.2022.02.001). URL: [http://dx.doi.org/10.1016/j.fss.2022.02.001](http://dx.doi.org/10.1016/j.fss.2022.02.001).
+
+<a name=bib-D_az_Moreno_2018></a>[[8]](#cite-D_az_Moreno_2018) J. C. Díaz-Moreno, J. Medina, and J. R. Portillo. “Towards the Use of Hypergraphs in Multi-adjoint Logic Programming”. In: _Trends in Mathematics and Computational Intelligence_. Springer International Publishing, Oct. 2018, p. 53–59. ISBN: 9783030004859. DOI: [10.1007/978-3-030-00485-9_6](https://doi.org/10.1007%2F978-3-030-00485-9_6). URL: [http://dx.doi.org/10.1007/978-3-030-00485-9_6](http://dx.doi.org/10.1007/978-3-030-00485-9_6).
+
+<a name=bib-Janssen_2012></a>[[9]](#cite-Janssen_2012) J. Janssen, S. Schockaert, D. Vermeir, et al. “A core language for fuzzy answer set programming”. In: _International Journal of Approximate Reasoning_ 53.4 (Jun. 2012), p. 660–692. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2012.01.005](https://doi.org/10.1016%2Fj.ijar.2012.01.005). URL: [http://dx.doi.org/10.1016/j.ijar.2012.01.005](http://dx.doi.org/10.1016/j.ijar.2012.01.005).
+
+<a name=bib-Janssen_2011></a>[[10]](#cite-Janssen_2011) J. Janssen, S. Schockaert, D. Vermeir, et al. “Aggregated Fuzzy Answer Set Programming”. In: _Annals of Mathematics and Artificial Intelligence_ 63.2 (Aug. 2011), p. 103–147. ISSN: 1573-7470. DOI: [10.1007/s10472-011-9256-8](https://doi.org/10.1007%2Fs10472-011-9256-8). URL: [http://dx.doi.org/10.1007/s10472-011-9256-8](http://dx.doi.org/10.1007/s10472-011-9256-8).
+
+<a name=bib-JANSSEN_2011></a>[[11]](#cite-JANSSEN_2011) J. JANSSEN, D. VERMEIR, S. SCHOCKAERT, et al. “Reducing fuzzy answer set programming to model finding in fuzzy logics”. In: _Theory and Practice of Logic Programming_ 12.6 (Jun. 2011), p. 811–842. ISSN: 1475-3081. DOI: [10.1017/s1471068411000093](https://doi.org/10.1017%2Fs1471068411000093). URL: [http://dx.doi.org/10.1017/s1471068411000093](http://dx.doi.org/10.1017/s1471068411000093).
+
+<a name=bib-Juli_n_2010></a>[[12]](#cite-Juli_n_2010) P. Julián, J. Medina, G. Moreno, et al. “Efficient Thresholded Tabulation for Fuzzy Query Answering”. In: _Foundations of Reasoning under Uncertainty_. Springer Berlin Heidelberg, 2010, p. 125–141. ISBN: 9783642107283. DOI: [10.1007/978-3-642-10728-3_7](https://doi.org/10.1007%2F978-3-642-10728-3_7). URL: [http://dx.doi.org/10.1007/978-3-642-10728-3_7](http://dx.doi.org/10.1007/978-3-642-10728-3_7).
+
+<a name=bib-Juli_n_2009></a>[[13]](#cite-Juli_n_2009) P. Julián, J. Medina, G. Moreno, et al. “Thresholded Tabulation in a Fuzzy Logic Setting”. In: _Electronic Notes in Theoretical Computer Science_ 248 (Aug. 2009), p. 115–130. ISSN: 1571-0661. DOI: [10.1016/j.entcs.2009.07.063](https://doi.org/10.1016%2Fj.entcs.2009.07.063). URL: [http://dx.doi.org/10.1016/j.entcs.2009.07.063](http://dx.doi.org/10.1016/j.entcs.2009.07.063).
+
+<a name=bib-Juli_n_20091></a>[[14]](#cite-Juli_n_20091) P. Julián, G. Moreno, and J. Penabad. “An improved reductant calculus using fuzzy partial evaluation techniques”. In: _Fuzzy Sets and Systems_ 160.2 (Jan. 2009), p. 162–181. ISSN: 0165-0114. DOI: [10.1016/j.fss.2008.05.006](https://doi.org/10.1016%2Fj.fss.2008.05.006). URL: [http://dx.doi.org/10.1016/j.fss.2008.05.006](http://dx.doi.org/10.1016/j.fss.2008.05.006).
+
+<a name=bib-Le_2015></a>[[15]](#cite-Le_2015) V. H. Le and F. Liu. “Tabulation proof procedures for fuzzy linguistic logic programming”. In: _International Journal of Approximate Reasoning_ 63 (Aug. 2015), p. 62–88. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2015.06.001](https://doi.org/10.1016%2Fj.ijar.2015.06.001). URL: [http://dx.doi.org/10.1016/j.ijar.2015.06.001](http://dx.doi.org/10.1016/j.ijar.2015.06.001).
+
+<a name=bib-Loyer_2008></a>[[16]](#cite-Loyer_2008) Y. Loyer and U. Straccia. “Approximate well-founded semantics, query answering and generalized normal logic programs over lattices”. In: _Annals of Mathematics and Artificial Intelligence_ 55.3–4 (Oct. 2008), p. 389–417. ISSN: 1573-7470. DOI: [10.1007/s10472-008-9099-0](https://doi.org/10.1007%2Fs10472-008-9099-0). URL: [http://dx.doi.org/10.1007/s10472-008-9099-0](http://dx.doi.org/10.1007/s10472-008-9099-0).
+
+<a name=bib-Madrid_2012></a>[[17]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 310–324. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [http://dx.doi.org/10.1080/00207160.2011.580842](http://dx.doi.org/10.1080/00207160.2011.580842).
+
+<a name=bib-Madrid_2011></a>[[18]](#cite-Madrid_2011) N. Madrid and M. Ojeda-Aciego. “On the use of fuzzy stable models for inconsistent classical logic programs”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 115–121. DOI: [10.1109/foci.2011.5949476](https://doi.org/10.1109%2Ffoci.2011.5949476). URL: [http://dx.doi.org/10.1109/foci.2011.5949476](http://dx.doi.org/10.1109/foci.2011.5949476).
+
+<a name=bib-Medina_Moreno_2013></a>[[19]](#cite-Medina_Moreno_2013) J. Medina-Moreno, M. Ojeda-Aciego, and J. Ruiz-Calviño. “Concept-Forming Operators on Multilattices”. In: _Formal Concept Analysis_. Springer Berlin Heidelberg, 2013, p. 203–215. ISBN: 9783642383175. DOI: [10.1007/978-3-642-38317-5_13](https://doi.org/10.1007%2F978-3-642-38317-5_13). URL: [http://dx.doi.org/10.1007/978-3-642-38317-5_13](http://dx.doi.org/10.1007/978-3-642-38317-5_13).
+
+<a name=bib-Straccia_2008></a>[[20]](#cite-Straccia_2008) U. Straccia. “Managing Uncertainty and Vagueness in Description Logics, Logic Programs and Description Logic Programs”. In: _Reasoning Web_. Springer Berlin Heidelberg, 2008, p. 54–103. ISBN: 9783540856580. DOI: [10.1007/978-3-540-85658-0_2](https://doi.org/10.1007%2F978-3-540-85658-0_2). URL: [http://dx.doi.org/10.1007/978-3-540-85658-0_2](http://dx.doi.org/10.1007/978-3-540-85658-0_2).
+
+<a name=bib-Straccia_2017></a>[[21]](#cite-Straccia_2017) U. Straccia and F. Bobillo. “From Fuzzy to Annotated Semantic Web Languages”. In: _Reasoning Web: Logical Foundation of Knowledge Graph Construction and Query Answering_. Springer International Publishing, 2017, p. 203–240. ISBN: 9783319494937. DOI: [10.1007/978-3-319-49493-7_6](https://doi.org/10.1007%2F978-3-319-49493-7_6). URL: [http://dx.doi.org/10.1007/978-3-319-49493-7_6](http://dx.doi.org/10.1007/978-3-319-49493-7_6).
+
+<a name=bib-Straccia_2012></a>[[22]](#cite-Straccia_2012) U. Straccia and N. Madrid. “A top-k query answering procedure for fuzzy logic programming”. In: _Fuzzy Sets and Systems_ 205 (Oct. 2012), p. 1–29. ISSN: 0165-0114. DOI: [10.1016/j.fss.2012.01.016](https://doi.org/10.1016%2Fj.fss.2012.01.016). URL: [http://dx.doi.org/10.1016/j.fss.2012.01.016](http://dx.doi.org/10.1016/j.fss.2012.01.016).
+
+<a name=bib-Viegas_Dam_sio_2011></a>[[23]](#cite-Viegas_Dam_sio_2011) C. Viegas Damásio and F. Ferreira. “Practical RDF Schema Reasoning with Annotated Semantic Web Data”. In: _The Semantic Web – ISWC 2011_. Springer Berlin Heidelberg, 2011, p. 746–761. ISBN: 9783642250736. DOI: [10.1007/978-3-642-25073-6_47](https://doi.org/10.1007%2F978-3-642-25073-6_47). URL: [http://dx.doi.org/10.1007/978-3-642-25073-6_47](http://dx.doi.org/10.1007/978-3-642-25073-6_47).
+

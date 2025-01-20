@@ -1,0 +1,131 @@
+---
+title: Negative Attributes and Implications in Formal Concept Analysis
+author:
+- José Manuel Rodríguez-Jiménez
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2014'
+categories: uncategorised
+slug: 2014/NeAtImFoCoAn
+details: Proceedings of the Second International Conference on Information Technology
+  and Quantitative Management, {ITQM} 2014, National Research University Higher School
+  of Economics (HSE), Moscow, Russia, June 3-5, 2014 , Procedia Computer Science vol.
+  31, pages 758--765.
+doi: 10.1016/J.PROCS.2014.05.325
+---
+
+
+
+# Abstract
+
+
+The mining of negative attributes from datasets has been studied in the last decade to obtain additional and useful information. There exists an exhaustive study around the notion of negative association rules between sets of attributes. However, in Formal Concept Analysis, the needed theory for the management of negative attributes is in an incipient stage. In this work we present an algorithm, based on the NextClosure algorithm, that allows to obtain mixed implications. The proposed algorithm returns a feasible and complete basis of mixed implications by performing a reduced number of requests to the formal context.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-RodriguezJimenez2014a></a>[[Rod+14]](#cite-RodriguezJimenez2014a) J. M. Rodr\'\iguez-Jiménez, P. Cordero, M. Enciso, et al. “Negative Attributes and Implications in Formal Concept Analysis”. In: _Proceedings of the Second International Conference on Information Technology and Quantitative Management, ITQM 2014, National Research University Higher School of Economics (HSE), Moscow, Russia, June 3-5, 2014_. Ed. by F. Aleskerov, Y. Shi and A. Lepskiy. Vol. 31. Procedia Computer Science. Elsevier, 2014, pp. 758-765. DOI: [10.1016/J.PROCS.2014.05.325](https://doi.org/10.1016%2FJ.PROCS.2014.05.325). URL: [https://doi.org/10.1016/j.procs.2014.05.325](https://doi.org/10.1016/j.procs.2014.05.325).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{RodriguezJimenez2014a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jos{\a'e} Manuel Rodr\'\iguez-Jim{\a'e}nez and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Second International Conference on Information Technology and Quantitative Management, {ITQM} 2014, National Research University Higher School of Economics (HSE), Moscow, Russia, June 3-5, 2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Negative Attributes and Implications in Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Fuad Aleskerov and Yong Shi and Alexander Lepskiy},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {758--765},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Elsevier},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Procedia Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {31},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/itqm/Rodriguez-JimenezCEM14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.PROCS.2014.05.325},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 20 Aug 2024 07:54:44 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.procs.2014.05.325},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.PROCS.2014.05.325" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.PROCS.2014.05.325" class="plumx-details" data-site="plum" data-hide-when-empty="true">Negative Attributes and Implications in Formal Concept Analysis</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.PROCS.2014.05.325"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Bazin_2022></a>[[1]](#cite-Bazin_2022) A. Bazin, M. Couceiro, M. Devignes, et al. “Steps towards causal Formal Concept Analysis”. In: _International Journal of Approximate Reasoning_ 142 (Mar. 2022), p. 338–348. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2021.12.007](https://doi.org/10.1016%2Fj.ijar.2021.12.007). URL: [http://dx.doi.org/10.1016/j.ijar.2021.12.007](http://dx.doi.org/10.1016/j.ijar.2021.12.007).
+
+<a name=bib-Chac_n_G_mez_2023></a>[[2]](#cite-Chac_n_G_mez_2023) F. Chacón-Gómez, M. E. Cornejo, and J. Medina. “Towards Confirmation Measures to Mixed Attribute Implications”. In: _Graph-Based Representation and Reasoning_. Springer Nature Switzerland, 2023, p. 193–196. ISBN: 9783031409608. DOI: [10.1007/978-3-031-40960-8_16](https://doi.org/10.1007%2F978-3-031-40960-8_16). URL: [http://dx.doi.org/10.1007/978-3-031-40960-8_16](http://dx.doi.org/10.1007/978-3-031-40960-8_16).
+
+<a name=bib-Cordero_2024></a>[[3]](#cite-Cordero_2024) P. Cordero, M. Enciso, Á. Mora, et al. “Attribute implications with unknown information based on weak Heyting algebras”. In: _Fuzzy Sets and Systems_ 490 (Aug. 2024), p. 109026. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109026](https://doi.org/10.1016%2Fj.fss.2024.109026). URL: [http://dx.doi.org/10.1016/j.fss.2024.109026](http://dx.doi.org/10.1016/j.fss.2024.109026).
+
+<a name=bib-Dubois_2025></a>[[4]](#cite-Dubois_2025) D. Dubois, J. Medina, and H. Prade. “Extracting attribute implications from a formal context: Unifying the basic approaches”. In: _Information Sciences_ 689 (Jan. 2025), p. 121419. ISSN: 0020-0255. DOI: [10.1016/j.ins.2024.121419](https://doi.org/10.1016%2Fj.ins.2024.121419). URL: [http://dx.doi.org/10.1016/j.ins.2024.121419](http://dx.doi.org/10.1016/j.ins.2024.121419).
+
+<a name=bib-Dubois_2021></a>[[5]](#cite-Dubois_2021) D. Dubois, J. Medina, H. Prade, et al. “Disjunctive attribute dependencies in formal concept analysis under the epistemic view of formal contexts”. In: _Information Sciences_ 561 (Jun. 2021), p. 31–51. ISSN: 0020-0255. DOI: [10.1016/j.ins.2020.12.085](https://doi.org/10.1016%2Fj.ins.2020.12.085). URL: [http://dx.doi.org/10.1016/j.ins.2020.12.085](http://dx.doi.org/10.1016/j.ins.2020.12.085).
+
+<a name=bib-Hu_2021></a>[[6]](#cite-Hu_2021) M. Hu. “Three-way data analytics: Preparing and analyzing data in threes”. In: _Information Sciences_ 573 (Sep. 2021), p. 412–432. ISSN: 0020-0255. DOI: [10.1016/j.ins.2021.05.058](https://doi.org/10.1016%2Fj.ins.2021.05.058). URL: [http://dx.doi.org/10.1016/j.ins.2021.05.058](http://dx.doi.org/10.1016/j.ins.2021.05.058).
+
+<a name=bib-Janostik_2020></a>[[7]](#cite-Janostik_2020) R. Janostik, J. Konecny, and P. Krajča. “Interface between Logical Analysis of Data and Formal Concept Analysis”. In: _European Journal of Operational Research_ 284.2 (Jul. 2020), p. 792–800. ISSN: 0377-2217. DOI: [10.1016/j.ejor.2020.01.015](https://doi.org/10.1016%2Fj.ejor.2020.01.015). URL: [http://dx.doi.org/10.1016/j.ejor.2020.01.015](http://dx.doi.org/10.1016/j.ejor.2020.01.015).
+
+<a name=bib-Konecny_2020></a>[[8]](#cite-Konecny_2020) J. Konecny. “Attribute implications in L-concept analysis with positive and negative attributes: Validity and properties of models”. In: _International Journal of Approximate Reasoning_ 120 (May. 2020), p. 203–215. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2020.02.009](https://doi.org/10.1016%2Fj.ijar.2020.02.009). URL: [http://dx.doi.org/10.1016/j.ijar.2020.02.009](http://dx.doi.org/10.1016/j.ijar.2020.02.009).
+
+<a name=bib-Li_2020></a>[[9]](#cite-Li_2020) J. Li and Z. Liu. “Granule description in knowledge granularity and representation”. In: _Knowledge-Based Systems_ 203 (Sep. 2020), p. 106160. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2020.106160](https://doi.org/10.1016%2Fj.knosys.2020.106160). URL: [http://dx.doi.org/10.1016/j.knosys.2020.106160](http://dx.doi.org/10.1016/j.knosys.2020.106160).
+
+<a name=bib-Li_2016></a>[[10]](#cite-Li_2016) M. Li and G. Wang. “Approximate concept construction with three-way decisions and attribute reduction in incomplete contexts”. In: _Knowledge-Based Systems_ 91 (Jan. 2016), p. 165–178. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2015.10.010](https://doi.org/10.1016%2Fj.knosys.2015.10.010). URL: [http://dx.doi.org/10.1016/j.knosys.2015.10.010](http://dx.doi.org/10.1016/j.knosys.2015.10.010).
+
+<a name=bib-Liu_2024></a>[[11]](#cite-Liu_2024) J. Liu, J. Mi, and D. Niu. “A novel method for generating a canonical basis for decision implications based on object-induced three-way operators”. In: _Knowledge-Based Systems_ 283 (Jan. 2024), p. 111161. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2023.111161](https://doi.org/10.1016%2Fj.knosys.2023.111161). URL: [http://dx.doi.org/10.1016/j.knosys.2023.111161](http://dx.doi.org/10.1016/j.knosys.2023.111161).
+
+<a name=bib-Ojeda_Aciego_2020></a>[[12]](#cite-Ojeda_Aciego_2020) M. Ojeda‐Aciego and J. M. Rodriguez‐Jimenez. “Formal concept analysis with negative attributes for forgery detection”. In: _Computational and Mathematical Methods_ 3.6 (Sep. 2020). ISSN: 2577-7408. DOI: [10.1002/cmm4.1124](https://doi.org/10.1002%2Fcmm4.1124). URL: [http://dx.doi.org/10.1002/cmm4.1124](http://dx.doi.org/10.1002/cmm4.1124).
+
+<a name=bib-P_rez_G_mez_2022></a>[[13]](#cite-P_rez_G_mez_2022) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Computing the Mixed Concept Lattice”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 87–99. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_8](https://doi.org/10.1007%2F978-3-031-08971-8_8). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_8](http://dx.doi.org/10.1007/978-3-031-08971-8_8).
+
+<a name=bib-Qian_2019></a>[[14]](#cite-Qian_2019) T. Qian, L. Wei, and J. Qi. “A theoretical study on the object (property) oriented concept lattices based on three-way decisions”. In: _Soft Computing_ 23.19 (Mar. 2019), p. 9477–9489. ISSN: 1433-7479. DOI: [10.1007/s00500-019-03799-6](https://doi.org/10.1007%2Fs00500-019-03799-6). URL: [http://dx.doi.org/10.1007/s00500-019-03799-6](http://dx.doi.org/10.1007/s00500-019-03799-6).
+
+<a name=bib-Rezk_2016></a>[[15]](#cite-Rezk_2016) E. Rezk, S. Babi, F. Islam, et al. “Uncertain training data set conceptual reduction: A machine learning perspective”. In: _2016 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2016, p. 1842–1849. DOI: [10.1109/fuzz-ieee.2016.7737914](https://doi.org/10.1109%2Ffuzz-ieee.2016.7737914). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2016.7737914](http://dx.doi.org/10.1109/fuzz-ieee.2016.7737914).
+
+<a name=bib-Rodriguez_Jimenez_2018></a>[[16]](#cite-Rodriguez_Jimenez_2018) J. M. Rodriguez-Jimenez. “Detecting Criminal Behaviour Patterns in Spain and Italy Using Formal Concept Analysis”. In: _Traffic Mining Applied to Police Activities_. Springer International Publishing, 2018, p. 57–68. ISBN: 9783319756080. DOI: [10.1007/978-3-319-75608-0_5](https://doi.org/10.1007%2F978-3-319-75608-0_5). URL: [http://dx.doi.org/10.1007/978-3-319-75608-0_5](http://dx.doi.org/10.1007/978-3-319-75608-0_5).
+
+<a name=bib-Rodriguez_Jimenez_2016></a>[[17]](#cite-Rodriguez_Jimenez_2016) J. Rodriguez-Jimenez, P. Cordero, M. Enciso, et al. “Concept lattices with negative information: A characterization theorem”. In: _Information Sciences_ 369 (Nov. 2016), p. 51–62. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.06.015](https://doi.org/10.1016%2Fj.ins.2016.06.015). URL: [http://dx.doi.org/10.1016/j.ins.2016.06.015](http://dx.doi.org/10.1016/j.ins.2016.06.015).
+
+<a name=bib-Rodr_guez_Jim_nez_2016></a>[[18]](#cite-Rodr_guez_Jim_nez_2016) J. M. Rodríguez‐Jiménez, P. Cordero, M. Enciso, et al. “Data mining algorithms to compute mixed concepts with negative attributes: an application to breast cancer data analysis”. In: _Mathematical Methods in the Applied Sciences_ 39.16 (Jan. 2016), p. 4829–4845. ISSN: 1099-1476. DOI: [10.1002/mma.3814](https://doi.org/10.1002%2Fmma.3814). URL: [http://dx.doi.org/10.1002/mma.3814](http://dx.doi.org/10.1002/mma.3814).
+
+<a name=bib-Wei_2020></a>[[19]](#cite-Wei_2020) L. Wei, L. Liu, J. Qi, et al. “Rules acquisition of formal decision contexts based on three-way concept lattices”. In: _Information Sciences_ 516 (Apr. 2020), p. 529–544. ISSN: 0020-0255. DOI: [10.1016/j.ins.2019.12.024](https://doi.org/10.1016%2Fj.ins.2019.12.024). URL: [http://dx.doi.org/10.1016/j.ins.2019.12.024](http://dx.doi.org/10.1016/j.ins.2019.12.024).
+
+<a name=bib-Yu_2018></a>[[20]](#cite-Yu_2018) H. Yu, Q. Li, and M. Cai. “Characteristics of three-way concept lattices and three-way rough concept lattices”. In: _Knowledge-Based Systems_ 146 (Apr. 2018), p. 181–189. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2018.02.007](https://doi.org/10.1016%2Fj.knosys.2018.02.007). URL: [http://dx.doi.org/10.1016/j.knosys.2018.02.007](http://dx.doi.org/10.1016/j.knosys.2018.02.007).
+
+<a name=bib-Zhi_2018></a>[[21]](#cite-Zhi_2018) H. Zhi and H. Chao. “Three-Way Concept Analysis for Incomplete Formal Contexts”. In: _Mathematical Problems in Engineering_ 2018 (Sep. 2018), p. 1–11. ISSN: 1563-5147. DOI: [10.1155/2018/9546846](https://doi.org/10.1155%2F2018%2F9546846). URL: [http://dx.doi.org/10.1155/2018/9546846](http://dx.doi.org/10.1155/2018/9546846).
+
+<a name=bib-Zhi_20191></a>[[22]](#cite-Zhi_20191) H. Zhi and J. Li. “Granule description based knowledge discovery from incomplete formal contexts via necessary attribute analysis”. In: _Information Sciences_ 485 (Jun. 2019), p. 347–361. ISSN: 0020-0255. DOI: [10.1016/j.ins.2019.02.032](https://doi.org/10.1016%2Fj.ins.2019.02.032). URL: [http://dx.doi.org/10.1016/j.ins.2019.02.032](http://dx.doi.org/10.1016/j.ins.2019.02.032).
+
+<a name=bib-Zhi_2021></a>[[23]](#cite-Zhi_2021) H. Zhi and J. Qi. “Common-possible concept analysis: A granule description viewpoint”. In: _Applied Intelligence_ 52.3 (Jun. 2021), p. 2975–2986. ISSN: 1573-7497. DOI: [10.1007/s10489-021-02499-9](https://doi.org/10.1007%2Fs10489-021-02499-9). URL: [http://dx.doi.org/10.1007/s10489-021-02499-9](http://dx.doi.org/10.1007/s10489-021-02499-9).
+
+<a name=bib-Zhi_2019></a>[[24]](#cite-Zhi_2019) H. Zhi, J. Qi, T. Qian, et al. “Three-way dual concept analysis”. In: _International Journal of Approximate Reasoning_ 114 (Nov. 2019), p. 151–165. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2019.08.010](https://doi.org/10.1016%2Fj.ijar.2019.08.010). URL: [http://dx.doi.org/10.1016/j.ijar.2019.08.010](http://dx.doi.org/10.1016/j.ijar.2019.08.010).
+

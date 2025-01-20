@@ -1,0 +1,54 @@
+---
+title: Implicates and Reduction Techniques for Temporal Logics
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '1998'
+categories: uncategorised
+slug: 1998/ImReTeTeLo
+details: Logics in Artificial Intelligence, European Workshop, {JELIA} '98, Dagstuhl,
+  Germany, October 12-15, 1998, Proceedings , Lecture Notes in Computer Science vol.
+  1489, pages 309--323.
+doi: 10.1007/3-540-49545-2_21
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman1998></a>[[GOA98]](#cite-Guzman1998) I. P. de Guzmán, M. Ojeda-Aciego, and Agust\'\inValverde. “Implicates and Reduction Techniques for Temporal Logics”. In: _Logics in Artificial Intelligence, European Workshop, JELIA '98, Dagstuhl, Germany, October 12-15, 1998, Proceedings_. Ed. by J. Dix, L. F. del Cerro and U. Furbach. Vol. 1489. Lecture Notes in Computer Science. Springer, 1998, pp. 309-323. DOI: [10.1007/3-540-49545-2\_21](https://doi.org/10.1007%2F3-540-49545-2%5C_21). URL: [https://doi.org/10.1007/3-540-49545-2\_21](https://doi.org/10.1007/3-540-49545-2\_21).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Guzman1998,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Logics in Artificial Intelligence, European Workshop, {JELIA} '98, Dagstuhl, Germany, October 12-15, 1998, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Implicates and Reduction Techniques for Temporal Logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1998},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {J{\"u}rgen Dix and Luis Fari~nas {del Cerro} and Ulrich Furbach},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {309--323},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1489},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/jelia/GuzmanOV98.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-49545-2\_21},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:44 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-49545-2\_21},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aguilera_2001></a>[[1]](#cite-Aguilera_2001) G. Aguilera, I. de Guzmán, M. Ojeda-Aciego, et al. “Reductions for non-clausal theorem proving”. In: _Theoretical Computer Science_ 266.1–2 (Sep. 2001), p. 81–112. ISSN: 0304-3975. DOI: [10.1016/s0304-3975(00)00044-x](https://doi.org/10.1016%2Fs0304-3975%2800%2900044-x). URL: [http://dx.doi.org/10.1016/s0304-3975(00)00044-x](http://dx.doi.org/10.1016/s0304-3975(00)00044-x).
+

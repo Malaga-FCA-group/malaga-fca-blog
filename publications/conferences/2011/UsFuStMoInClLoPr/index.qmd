@@ -1,0 +1,84 @@
+---
+title: On the use of fuzzy stable models for inconsistent classical logic programs
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/UsFuStMoInClLoPr
+details: Proceedings of the {IEEE} Symposium on Foundations of Computational Intelligence,
+  {FOCI} 2011, part of the {IEEE} Symposium Series on Computational Intelligence 2011,
+  Paris, France, 11-15 April 2011 , pages 115--121.
+doi: 10.1109/FOCI.2011.5949476
+---
+
+
+
+# Abstract
+
+
+Based on the recently proved fact that the continuity of the connectives involved in a normal residuated logic program ensures the existence of fuzzy stable models, we focus on the assignment of a fuzzy stable model semantics to inconsistent classical logic programs on the basis of the separation of the notion of inconsistency and uncertainty.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2011a></a>[[MO11]](#cite-Madrid2011a) N. Madrid and M. Ojeda-Aciego. “On the use of fuzzy stable models for inconsistent classical logic programs”. In: _Proceedings of the IEEE Symposium on Foundations of Computational Intelligence, FOCI 2011, part of the IEEE Symposium Series on Computational Intelligence 2011, Paris, France, 11-15 April 2011_. IEEE, 2011, pp. 115-121. DOI: [10.1109/FOCI.2011.5949476](https://doi.org/10.1109%2FFOCI.2011.5949476). URL: [https://doi.org/10.1109/FOCI.2011.5949476](https://doi.org/10.1109/FOCI.2011.5949476).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2011a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the {IEEE} Symposium on Foundations of Computational Intelligence, {FOCI} 2011, part of the {IEEE} Symposium Series on Computational Intelligence 2011, Paris, France, 11-15 April 2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the use of fuzzy stable models for inconsistent classical logic programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {115--121},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/foci/MadridO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FOCI.2011.5949476},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FOCI.2011.5949476},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FOCI.2011.5949476" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FOCI.2011.5949476" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the use of fuzzy stable models for inconsistent classical logic programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FOCI.2011.5949476"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cornejo_2016></a>[[1]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-Madrid_2012></a>[[2]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On least coherence-preserving negations”. In: _2012 Annual Meeting of the North American Fuzzy Information Processing Society (NAFIPS)_. IEEE, Aug. 2012, p. 1–6. DOI: [10.1109/nafips.2012.6290981](https://doi.org/10.1109%2Fnafips.2012.6290981). URL: [http://dx.doi.org/10.1109/nafips.2012.6290981](http://dx.doi.org/10.1109/nafips.2012.6290981).
+

@@ -1,0 +1,35 @@
+---
+title: Modelling fuzzy partitions with fuzzy answer sets
+author:
+- Nicolás Madrid
+- aciego
+date: '2017'
+categories: uncategorised
+slug: 2017/MoFuPaFuAnSe
+details: 2017 {IEEE} Symposium Series on Computational Intelligence, {SSCI} 2017,
+  Honolulu, HI, USA, November 27 - Dec. 1, 2017 , pages 1--8.
+doi: 10.1109/SSCI.2017.8285308
+
+---
+
+
+# Abstract
+
+
+This paper introduces a representation of fuzzy partitions in terms of fuzzy logic programming. This representation models relationships among the different classes that define the fuzzy partition. There are essentially two such relationships. The first one is that classes are disjoint and, therefore, contradictory each other; on the other hand, the second one is that classes cover all the universe. These two relationships are modeled via two different negations, namely, the explicit and default negation. Last but not least, the semantics used to model both negations is the fuzzy answer set semantics.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

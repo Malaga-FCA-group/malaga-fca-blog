@@ -1,0 +1,48 @@
+---
+title: Executing Intensional Logic with the {TAS} Tool
+author:
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- J. F. Moncada
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '1996'
+categories: uncategorised
+slug: 1996/ExInLoTo
+details: 1996 Joint Conf. on Declarative Programming, APPIA-GULP-PRODE'96, Donostia-San
+  Sebastian, Spain, July 15-18, 1996 , pages 561--566.
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Enciso1996></a>[[Enc+96]](#cite-Enciso1996) M. Enciso, J. F. Moncada, I. P. de Guzmán, et al. “Executing Intensional Logic with the TAS Tool”. In: _1996 Joint Conf. on Declarative Programming, APPIA-GULP-PRODE'96, Donostia-San Sebastian, Spain, July 15-18, 1996_. Ed. by P. Lucio, M. Martelli and M. Navarro. 1996, pp. 561-566.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Enciso1996,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso and J. F. Moncada and Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {1996 Joint Conf. on Declarative Programming, APPIA-GULP-PRODE'96, Donostia-San Sebastian, Spain, July 15-18, 1996},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Executing Intensional Logic with the {TAS} Tool},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1996},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Paqui Lucio and Maurizio Martelli and Marisa Navarro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {561--566},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/agp/EncisoMGO96.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 02 Dec 2004 11:12:18 +0100},<br>}
+
+:::
+
+
+
+
+
+
+
+

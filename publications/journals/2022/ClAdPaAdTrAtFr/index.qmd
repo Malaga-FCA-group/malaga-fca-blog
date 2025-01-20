@@ -1,0 +1,81 @@
+---
+title: Classifying Adjoint Pairs and Adjoint Triples in an Atanassov {\textdollar}L{\textdollar}-Fuzzy
+  Framework
+author:
+- Ondrej Krídlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2022'
+categories: uncategorised
+slug: 2022/ClAdPaAdTrAtFr
+details: '{IEEE} Trans. Fuzzy Syst. vol. 30 (3), pages 863--868.'
+doi: 10.1109/TFUZZ.2020.3038482
+---
+
+
+
+# Abstract
+
+
+In this article, we study and classify a family of adjoint pairs and adjoint triples for Atanassov <inline-formula><tex-math notation="LaTeX">$L$</tex-math></inline-formula>-fuzzy framework based on a complete residuated lattice satisfying the double negation law.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2022></a>[[KO22]](#cite-Kridlo2022) O. Kr\'\idlo and M. Ojeda-Aciego. “Classifying Adjoint Pairs and Adjoint Triples in an Atanassov \textdollarL\textdollar-Fuzzy Framework”. In: _IEEE Trans. Fuzzy Syst._ 30.3 (2022), pp. 863-868. DOI: [10.1109/TFUZZ.2020.3038482](https://doi.org/10.1109%2FTFUZZ.2020.3038482). URL: [https://doi.org/10.1109/TFUZZ.2020.3038482](https://doi.org/10.1109/TFUZZ.2020.3038482).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Kridlo2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kr\'\idlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {{IEEE} Trans. Fuzzy Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Classifying Adjoint Pairs and Adjoint Triples in an Atanassov {\textdollar}L{\textdollar}-Fuzzy Framework},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {863--868},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {30},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/tfs/KridloO22.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/TFUZZ.2020.3038482},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 01 Apr 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/TFUZZ.2020.3038482},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/TFUZZ.2020.3038482" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/TFUZZ.2020.3038482" class="plumx-details" data-site="plum" data-hide-when-empty="true">Classifying Adjoint Pairs and Adjoint Triples in an Atanassov {\textdollar}L{\textdollar}-Fuzzy Framework</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/TFUZZ.2020.3038482"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Kr_dlo_2022></a>[[1]](#cite-Kr_dlo_2022) O. Krídlo and M. Ojeda-Aciego. “Sugeno Integral for Atanassov Intuitionistic Fuzzy Sets”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 4_. Springer International Publishing, Sep. 2022, p. 71–77. ISBN: 9783031077074. DOI: [10.1007/978-3-031-07707-4_9](https://doi.org/10.1007%2F978-3-031-07707-4_9). URL: [http://dx.doi.org/10.1007/978-3-031-07707-4_9](http://dx.doi.org/10.1007/978-3-031-07707-4_9).
+

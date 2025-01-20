@@ -1,0 +1,89 @@
+---
+title: 'Reasoning with Qualitative Velocity: Towards a Hybrid Approach'
+author:
+- Joanna Golinska-Pilarek
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/ReQuToHyAp
+details: Hybrid Artificial Intelligent Systems - 7th International Conference, {HAIS}
+  2012, Salamanca, Spain, March 28-30th, 2012. Proceedings, Part {I} , Lecture Notes
+  in Computer Science vol. 7208, pages 635--646.
+doi: 10.1007/978-3-642-28942-2_57
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GolinskaPilarek2012a></a>[[GM12]](#cite-GolinskaPilarek2012a) J. Golinska-Pilarek and E. Mu~noz-Velasco. “Reasoning with Qualitative Velocity: Towards a Hybrid Approach”. In: _Hybrid Artificial Intelligent Systems - 7th International Conference, HAIS 2012, Salamanca, Spain, March 28-30th, 2012. Proceedings, Part I_. Ed. by E. Corchado, V. Snásel, A. Abraham, M. Wozniak, M. Gra~na and S. Cho. Vol. 7208. Lecture Notes in Computer Science. Springer, 2012, pp. 635-646. DOI: [10.1007/978-3-642-28942-2\_57](https://doi.org/10.1007%2F978-3-642-28942-2%5C_57). URL: [https://doi.org/10.1007/978-3-642-28942-2\_57](https://doi.org/10.1007/978-3-642-28942-2\_57).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GolinskaPilarek2012a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Joanna Golinska-Pilarek and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Hybrid Artificial Intelligent Systems - 7th International Conference, {HAIS} 2012, Salamanca, Spain, March 28-30th, 2012. Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Reasoning with Qualitative Velocity: Towards a Hybrid Approach},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Emilio Corchado and V{\a'a}clav Sn{\a'a}sel and Ajith Abraham and Michal Wozniak and Manuel Gra~na and Sung-Bae Cho},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {635--646},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {7208},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/hais/Golinska-PilarekM12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-28942-2\_57},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Nov 2019 15:14:46 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-28942-2\_57},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-28942-2_57" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-28942-2_57" class="plumx-details" data-site="plum" data-hide-when-empty="true">Reasoning with Qualitative Velocity: Towards a Hybrid Approach</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-28942-2_57"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Goli_ska_Pilarek_2015></a>[[1]](#cite-Goli_ska_Pilarek_2015) J. Goli ska-Pilarek and E. Munoz-Velasco. “A hybrid qualitative approach for relative movements”. In: _Logic Journal of IGPL_ 23.3 (Apr. 2015), p. 410–420. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzv012](https://doi.org/10.1093%2Fjigpal%2Fjzv012). URL: [http://dx.doi.org/10.1093/jigpal/jzv012](http://dx.doi.org/10.1093/jigpal/jzv012).
+
+<a name=bib-Goli_ska_Pilarek_2014></a>[[2]](#cite-Goli_ska_Pilarek_2014) J. Golińska-Pilarek, T. Huuskonen, and E. Muñoz-Velasco. “Relational dual tableau decision procedures and their applications to modal and intuitionistic logics”. In: _Annals of Pure and Applied Logic_ 165.2 (Feb. 2014), p. 409–427. ISSN: 0168-0072. DOI: [10.1016/j.apal.2013.06.003](https://doi.org/10.1016%2Fj.apal.2013.06.003). URL: [http://dx.doi.org/10.1016/j.apal.2013.06.003](http://dx.doi.org/10.1016/j.apal.2013.06.003).
+
+<a name=bib-Mu_oz_Velasco_2014></a>[[3]](#cite-Mu_oz_Velasco_2014) E. Muñoz-Velasco, A. Burrieza, and M. Ojeda-Aciego. “A logic framework for reasoning with movement based on fuzzy qualitative representation”. In: _Fuzzy Sets and Systems_ 242 (May. 2014), p. 114–131. ISSN: 0165-0114. DOI: [10.1016/j.fss.2013.07.014](https://doi.org/10.1016%2Fj.fss.2013.07.014). URL: [http://dx.doi.org/10.1016/j.fss.2013.07.014](http://dx.doi.org/10.1016/j.fss.2013.07.014).
+
+<a name=bib-Sioutis_2014></a>[[4]](#cite-Sioutis_2014) M. Sioutis, J. Condotta, Y. Salhi, et al. “A Qualitative Spatio-Temporal Framework Based on Point Algebra”. In: _Artificial Intelligence: Methodology, Systems, and Applications_. Springer International Publishing, 2014, p. 117–128. ISBN: 9783319105543. DOI: [10.1007/978-3-319-10554-3_11](https://doi.org/10.1007%2F978-3-319-10554-3_11). URL: [http://dx.doi.org/10.1007/978-3-319-10554-3_11](http://dx.doi.org/10.1007/978-3-319-10554-3_11).
+
+<a name=bib-httpsdoiorg1048550arxiv13077405></a>[[5]](#cite-httpsdoiorg1048550arxiv13077405) P. A. Wałȩga. _Reasoning for Moving Blocks Problem: Formal Representation and Implementation_. 2013. DOI: [10.48550/ARXIV.1307.7405](https://doi.org/10.48550%2FARXIV.1307.7405). URL: [https://arxiv.org/abs/1307.7405](https://arxiv.org/abs/1307.7405).
+

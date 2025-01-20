@@ -1,0 +1,100 @@
+---
+title: A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2003'
+categories: uncategorised
+slug: 2003/MuLoApOrMaQuRe
+details: Current Topics in Artificial Intelligence, 10th Conference of the Spanish
+  Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology
+  Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected
+  Papers , Lecture Notes in Computer Science vol. 3040, pages 66--75.
+doi: 10.1007/978-3-540-25945-9_7
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2003></a>[[BO03]](#cite-Burrieza2003) A. Burrieza and M. Ojeda-Aciego. “A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning”. In: _Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2003, and 5th Conference on Technology Transfer, TTIA 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers_. Ed. by R. Conejo, M. Urretavizcaya and J. Pérez-de-la-Cruz. Vol. 3040. Lecture Notes in Computer Science. Springer, 2003, pp. 66-75. DOI: [10.1007/978-3-540-25945-9\_7](https://doi.org/10.1007%2F978-3-540-25945-9%5C_7). URL: [https://doi.org/10.1007/978-3-540-25945-9\_7](https://doi.org/10.1007/978-3-540-25945-9\_7).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Burrieza2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 10th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2003, and 5th Conference on Technology Transfer, {TTIA} 2003, San Sebastian, Spain, November 12-14, 2003. Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ricardo Conejo and Maite Urretavizcaya and Jos{\a'e}-Luis P{\a'e}rez-de-la-Cruz},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {66--75},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3040},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/BurriezaO03.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-25945-9\_7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:50 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-25945-9\_7},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-540-25945-9_7" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-540-25945-9_7" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-540-25945-9_7"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2013></a>[[1]](#cite-Burrieza_2013) A. Burrieza. “Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Comparability and Negligibility Relations”. In: _Advances in Artificial Intelligence_. Springer Berlin Heidelberg, 2013, p. 101–110. ISBN: 9783642406430. DOI: [10.1007/978-3-642-40643-0_11](https://doi.org/10.1007%2F978-3-642-40643-0_11). URL: [http://dx.doi.org/10.1007/978-3-642-40643-0_11](http://dx.doi.org/10.1007/978-3-642-40643-0_11).
+
+<a name=bib-Burrieza_2009></a>[[2]](#cite-Burrieza_2009) A. Burrieza, A. Mora, M. Ojeda-Aciego, et al. “An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning”. In: _International Journal of Computer Mathematics_ 86.10–11 (Nov. 2009), p. 1852–1866. ISSN: 1029-0265. DOI: [10.1080/00207160902777906](https://doi.org/10.1080%2F00207160902777906). URL: [http://dx.doi.org/10.1080/00207160902777906](http://dx.doi.org/10.1080/00207160902777906).
+
+<a name=bib-Burrieza_2018></a>[[3]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-Burrieza_20061></a>[[4]](#cite-Burrieza_20061) A. Burrieza, E. Muñoz, and M. Ojeda-Aciego. “Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Current Topics in Artificial Intelligence_. Springer Berlin Heidelberg, 2006, p. 370–378. ISBN: 9783540459156. DOI: [10.1007/11881216_39](https://doi.org/10.1007%2F11881216_39). URL: [http://dx.doi.org/10.1007/11881216_39](http://dx.doi.org/10.1007/11881216_39).
+
+<a name=bib-Burrieza_2005></a>[[5]](#cite-Burrieza_2005) A. Burrieza and M. Ojeda-Aciego. “A Multimodal Logic Approach to Order of Magnitude Qualitative Reasoning with Comparability and Negligibility Relations”. In: _Fundamenta Informaticae_ 68.1–2 (Jan. 2005), p. 21–46. ISSN: 1875-8681. DOI: [10.3233/fun-2005-681-202](https://doi.org/10.3233%2Ffun-2005-681-202). URL: [http://dx.doi.org/10.3233/fun-2005-681-202](http://dx.doi.org/10.3233/fun-2005-681-202).
+
+<a name=bib-Burrieza_20051></a>[[6]](#cite-Burrieza_20051) A. Burrieza and M. Ojeda-Aciego. “On the modal logic of order-of-magnitude qualitative reasoning: a tableau calculus”. In: _2005 Purtuguese Conference on Artificial Intelligence_. IEEE, Dec. 2005, p. 33–37. DOI: [10.1109/epia.2005.341259](https://doi.org/10.1109%2Fepia.2005.341259). URL: [http://dx.doi.org/10.1109/epia.2005.341259](http://dx.doi.org/10.1109/epia.2005.341259).
+
+<a name=bib-Burrieza_2006></a>[[7]](#cite-Burrieza_2006) A. Burrieza, M. Ojeda-Aciego, and E. Orłowska. “Relational Approach to Order-of-Magnitude Reasoning”. In: _Theory and Applications of Relational Structures as Knowledge Instruments II_. Springer Berlin Heidelberg, 2006, p. 105–124. ISBN: 9783540692249. DOI: [10.1007/11964810_6](https://doi.org/10.1007%2F11964810_6). URL: [http://dx.doi.org/10.1007/11964810_6](http://dx.doi.org/10.1007/11964810_6).
+
+<a name=bib-Goli_ska_Pilarek_2015></a>[[8]](#cite-Goli_ska_Pilarek_2015) J. Goli ska-Pilarek and E. Munoz-Velasco. “A hybrid qualitative approach for relative movements”. In: _Logic Journal of IGPL_ 23.3 (Apr. 2015), p. 410–420. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzv012](https://doi.org/10.1093%2Fjigpal%2Fjzv012). URL: [http://dx.doi.org/10.1093/jigpal/jzv012](http://dx.doi.org/10.1093/jigpal/jzv012).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[9]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek. “On Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 255–266. ISBN: 9783642333538. DOI: [10.1007/978-3-642-33353-8_20](https://doi.org/10.1007%2F978-3-642-33353-8_20). URL: [http://dx.doi.org/10.1007/978-3-642-33353-8_20](http://dx.doi.org/10.1007/978-3-642-33353-8_20).
+
+<a name=bib-Goli_ska_Pilarek_2018></a>[[10]](#cite-Goli_ska_Pilarek_2018) J. Golińska-Pilarek and M. Zawidzki. “Everything is a Relation: A Preview”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 3–24. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_1](https://doi.org/10.1007%2F978-3-319-97879-6_1). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_1](http://dx.doi.org/10.1007/978-3-319-97879-6_1).
+

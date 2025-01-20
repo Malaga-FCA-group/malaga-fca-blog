@@ -1,0 +1,38 @@
+---
+title: Thresholded Tabulation in a Fuzzy Logic Setting
+author:
+- Pascual Julián Iranzo
+- Jesús Medina
+- Ginés Moreno
+- aciego
+date: '2008'
+categories: uncategorised
+slug: 2008/ThTaFuLoSe
+details: Proceedings of the Eighth Spanish Conference on Programming and Computer
+  Languages, {PROLE} 2008, Gij{\'{o}}n, Spain, October 8-10, 2008 , Electronic Notes
+  in Theoretical Computer Science vol. 248, pages 115--130.
+doi: 10.1016/J.ENTCS.2009.07.063
+
+---
+
+
+# Abstract
+
+
+Fuzzy logic programming represents a flexible and powerful declarative paradigm amalgamating fuzzy logic and logic programming, for which there exists different promising approaches described in the literature. In this paper we propose an improved fuzzy query answering procedure for the so called multi-adjoint logic programming approach, which avoids the re-evaluation of goals and the generation of useless computations thanks to the combined use of tabulation with thresholding techniques. The general idea is that, when trying to perform a computation step by using a given program rule R, we firstly analyze if such step might contribute to reach further significant solutions (non tabulated yet). When it is the case, it is possible to avoid a useless computation step via a rule R by using thresholds and filters based on the truth degree of R, as well as a safe, accurate and dynamic estimation of the maximum truth degree associated to its body.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

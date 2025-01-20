@@ -1,0 +1,37 @@
+---
+title: From the Poset of Temporal Implicates/implicants to a Temporal Negative Form
+author:
+- pcordero
+- enciso
+- ipguzman
+date: '2002'
+categories: uncategorised
+slug: 2002/PoTeTeNeFo
+details: Reports Math. Log. vol. 36 , pages 3--53.
+---
+
+
+# Abstract
+
+
+Linear time temporal logics have proven to yield successful formalisms for a wide range of applications. Nevertheless, the lack of an efficient automated deduction method has prevented temporal logics from playing a more important role in computer science.
+Recently, the use of unitary implicates and implicants has guided a lot of work in automated deduction.
+In this paper, we present a formal framework in the study of unitary implicants and implicates in Temporal Logic. It is focussed on the temporal propositional logic, FNext$\pm$, with an infinite, linear and discrete flow of time. In our opinion, this formal framework allows an outstanding advance in the search for efficient automated deduction methods in temporal logics. The sets of unitary implicates and implicants of a formula in FNext$\pm$ can be infinite and therefore difficult to handle. We introduce the notion of temporal literal in FNext$\pm$ and we consider the semantic implication as an order relation over the set of temporal literals. Then, we develop theoretical studies of the poset of temporal literals and the sets of implicants and implicates. The formal results obtained allow us to define an efficient way to extract the maximum amount of information about the set of unitary implicants and implicates of the formula.
+To emphasize the interest of these theoretical results, we show how this study allows us to introduce a suitable notion of Temporal Negative Normal Form for Temporal Logic.
+The definition of such a normal form constitutes an unsolved problem until now. This is a major contribution of the paper and it will have a significant relevance in the future design of efficient automated theorem provers.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

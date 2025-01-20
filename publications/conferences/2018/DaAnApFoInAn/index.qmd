@@ -1,0 +1,52 @@
+---
+title: A Data Analysis Application of Formal Independence Analysis
+author:
+- Francisco J. Valverde-Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2018'
+categories: uncategorised
+slug: 2018/DaAnApFoInAn
+details: Proceedings of the Fourteenth International Conference on Concept Lattices
+  and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018 ,
+  {CEUR} Workshop Proceedings vol. 2123, pages 117--128.
+---
+
+
+
+# Abstract
+
+
+In this paper we present a new technique for the analysis of data tables by means of Formal Independence Analysis (FIA). This is
+an analogue of Formal Concept Analysis for the study of independence relations in data, instead of hierarchical relations. A FIA of a context produces, when possible, its block diagonalization by detecting pairs of sets of objects and attributes that are not mutually incident, or tomoi, that partition the context. In this paper we combine this technique with the exploration of contexts with entries in a semifield to find independent sets in contingency matrices. Specifically, we apply it to a number of confusion matrices issued from cognitive experiments to find evidences for the hypothesis of perceptual channels.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-ValverdeAlbacete2018></a>[[Val+18]](#cite-ValverdeAlbacete2018) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “A Data Analysis Application of Formal Independence Analysis”. In: _Proceedings of the Fourteenth International Conference on Concept Lattices and Their Applications, CLA 2018, Olomouc, Czech Republic, June 12-14, 2018_. Ed. by D. I. Ignatov and L. Nourine. Vol. 2123. CEUR Workshop Proceedings. CEUR-WS.org, 2018, pp. 117-128. URL: [https://ceur-ws.org/Vol-2123/paper10.pdf](https://ceur-ws.org/Vol-2123/paper10.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{ValverdeAlbacete2018,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco J. Valverde-Albacete and Carmen Pel{\a'a}ez-Moreno and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Fourteenth International Conference on Concept Lattices and Their Applications, {CLA} 2018, Olomouc, Czech Republic, June 12-14, 2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Data Analysis Application of Formal Independence Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Dmitry I. Ignatov and Lhouari Nourine},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {117--128},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2123},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper we present a new technique for the analysis of data tables by means of Formal Independence Analysis (FIA). This is<br>&nbsp;&nbsp;&nbsp;&nbsp;an analogue of Formal Concept Analysis for the study of independence relations in data, instead of hierarchical relations. A FIA of a context produces, when possible, its block diagonalization by detecting pairs of sets of objects and attributes that are not mutually incident, or tomoi, that partition the context. In this paper we combine this technique with the exploration of contexts with entries in a semifield to find independent sets in contingency matrices. Specifically, we apply it to a number of confusion matrices issued from cognitive experiments to find evidences for the hypothesis of perceptual channels.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/Valverde-Albacete18.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-2123/paper10.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

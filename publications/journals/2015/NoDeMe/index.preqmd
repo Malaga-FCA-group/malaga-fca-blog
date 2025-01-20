@@ -1,0 +1,35 @@
+---
+title: 'The Notion of Weak-Contradiction: Definition and Measures'
+author:
+- Humberto Bustince
+- Nicolás Madrid
+- aciego
+date: '2015'
+categories: uncategorised
+slug: 2015/NoDeMe
+details: '{IEEE} Trans. Fuzzy Syst. vol. 23 (4), pages 1057--1069.'
+doi: 10.1109/TFUZZ.2014.2337934
+
+---
+
+
+# Abstract
+
+
+In this paper, we present a way to represent contradiction between fuzzy sets. This representation is given in terms of the notion of f-weak-contradiction. Unlike other approaches, we do not define contradiction just by using one of the relations of f-weak-contradiction but by considering the whole set of relations. This consideration avoids the need to fix an operator beforehand in order to take into account all the information between two fuzzy sets. As a result, we characterize the contradiction between fuzzy sets and define a family of measures of contradiction satisfying four interesting properties: symmetry; antitonicity; if the intersection is empty, then the measure is one; and if there is an element in the intersection with degree of membership 1, then the measure is zero.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

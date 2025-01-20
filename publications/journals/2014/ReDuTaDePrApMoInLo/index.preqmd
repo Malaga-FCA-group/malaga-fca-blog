@@ -1,0 +1,36 @@
+---
+title: Relational dual tableau decision procedures and their applications to modal
+  and intuitionistic logics
+author:
+- Joanna Golinska-Pilarek
+- Taneli Huuskonen
+- ejmunoz
+date: '2014'
+categories: uncategorised
+slug: 2014/ReDuTaDePrApMoInLo
+details: Ann. Pure Appl. Log. vol. 165 (2), pages 409--427.
+doi: 10.1016/J.APAL.2013.06.003
+
+---
+
+
+# Abstract
+
+
+We study a class DL of certain decidable relational logics of binary relations with a single relational constant and restricted composition. The logics in DL are defined in terms of semantic restrictions on the models. The main contribution of the present article is the construction of relational dual tableau decision procedures for the logics in DL. The systems are constructed in the framework of the original methodology of relational proof systems, determined only by axioms and inference rules, without any external techniques. All necessary bookkeeping is contained in the proof tree itself and used according to the explicit rules. All the systems are deterministic, producing exactly one proof tree for every formula. Furthermore, we show how the systems for logics in DL can be used as deterministic decision procedures for some modal and intuitionistic logics.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

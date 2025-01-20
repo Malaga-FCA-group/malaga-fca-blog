@@ -1,0 +1,58 @@
+---
+title: Implicates and reduction techniques for temporal logics
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '1999'
+categories: uncategorised
+slug: 1999/ImReTeTeLo
+details: Ann. Math. Artif. Intell. vol. 27 (1-4), pages 3--23.
+doi: 10.1023/A:1018923315631
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman1999a></a>[[GOA99]](#cite-Guzman1999a) I. P. de Guzmán, M. Ojeda-Aciego, and Agust\'\inValverde. “Implicates and reduction techniques for temporal logics”. In: _Ann. Math. Artif. Intell._ 27.1-4 (1999), pp. 3-23. DOI: [10.1023/A:1018923315631](https://doi.org/10.1023%2FA%3A1018923315631). URL: [https://doi.org/10.1023/A:1018923315631](https://doi.org/10.1023/A:1018923315631).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Guzman1999a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Ann. Math. Artif. Intell.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Implicates and reduction techniques for temporal logics},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1999},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {3--23},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {27},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/amai/GuzmanOV99.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1023/A:1018923315631},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 28 May 2017 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1023/A:1018923315631},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2002></a>[[1]](#cite-Cordero_2002) P. Cordero, M. Enciso, and I. de Guzmán. “Bases for closed sets of implicants and implicates in temporal logic”. In: _Acta Informatica_ 38.9 (Aug. 2002), p. 599–619. ISSN: 1432-0525. DOI: [10.1007/s00236-002-0087-2](https://doi.org/10.1007%2Fs00236-002-0087-2). URL: [http://dx.doi.org/10.1007/s00236-002-0087-2](http://dx.doi.org/10.1007/s00236-002-0087-2).
+
+<a name=bib-Cordero_2004></a>[[2]](#cite-Cordero_2004) P. Cordero, G. Gutiérrez, J. Martínez, et al. “A New Algebraic Tool for Automatic Theorem Provers”. In: _Annals of Mathematics and Artificial Intelligence_ 42.4 (Dec. 2004), p. 369–398. ISSN: 1012-2443. DOI: [10.1023/b:amai.0000038312.77514.3c](https://doi.org/10.1023%2Fb%3Aamai.0000038312.77514.3c). URL: [http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c](http://dx.doi.org/10.1023/b:amai.0000038312.77514.3c).
+
+<a name=bib-Guti_rrez_2000></a>[[3]](#cite-Guti_rrez_2000) G. Gutiérrez, I. P. de Guzmán, J. Martínez, et al. “Reduction Theorems for Boolean Formulas Using Δ-Trees”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2000, p. 179–192. ISBN: 9783540400066. DOI: [10.1007/3-540-40006-0_13](https://doi.org/10.1007%2F3-540-40006-0_13). URL: [http://dx.doi.org/10.1007/3-540-40006-0_13](http://dx.doi.org/10.1007/3-540-40006-0_13).
+
+<a name=bib-Ojeda_Aciego_2004></a>[[4]](#cite-Ojeda_Aciego_2004) M. Ojeda-Aciego and A. Valverde. “tascpl: TAS Solver for Classical Propositional Logic”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2004, p. 738–741. ISBN: 9783540302278. DOI: [10.1007/978-3-540-30227-8_70](https://doi.org/10.1007%2F978-3-540-30227-8_70). URL: [http://dx.doi.org/10.1007/978-3-540-30227-8_70](http://dx.doi.org/10.1007/978-3-540-30227-8_70).
+

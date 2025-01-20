@@ -1,0 +1,47 @@
+---
+title: A Temporal Logic for Program Specification
+author:
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- Carlos Rossi
+date: '1994'
+categories: uncategorised
+slug: 1994/TeLoPrSp
+details: 1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe{\~{n}}iscola,
+  Spain, September 19-22, 1994, Volume 2 , pages 309--323.
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Enciso1994></a>[[EGR94]](#cite-Enciso1994) M. Enciso, I. P. de Guzmán, and C. Rossi. “A Temporal Logic for Program Specification”. In: _1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe~niscola, Spain, September 19-22, 1994, Volume 2_. Ed. by Mar\'\iaAlpuente, R. Barbuti and I. Ramos. 1994, pp. 309-323.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Enciso1994,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso and Inman P. {de Guzm{\a'a}n} and Carlos Rossi},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe{\~{n}}iscola, Spain, September 19-22, 1994, Volume 2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Temporal Logic for Program Specification},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1994},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Mar\'\ia Alpuente and Roberto Barbuti and Isidro Ramos},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {309--323},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/agp/EncisoGR94.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 01 Dec 2004 15:33:41 +0100},<br>}
+
+:::
+
+
+
+
+
+
+
+

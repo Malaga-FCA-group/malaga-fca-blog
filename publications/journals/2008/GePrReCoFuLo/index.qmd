@@ -1,0 +1,58 @@
+---
+title: Generalization of some properties of relations in the context of functional
+  temporal{\texttimes}modal logic
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2008'
+categories: uncategorised
+slug: 2008/GePrReCoFuLo
+details: Int. J. Comput. Math. vol. 85 (3{\&}4), pages 371--383.
+doi: 10.1080/00207160701210141
+---
+
+
+
+# Abstract
+
+
+Abstract In this paper, we generalize the definitions of transitivity, reflexivity, symmetry, Euclidean and serial properties of relations in the context of a functional approach for temporal×modal logic. The main result is the proof of definability of these definitions which is obtained by using algebraic characterizations. As a consequence, we will have in our temporal×modal context the generalizations of modal logics T, S4, S5, KD45, etc. These new logics will allow us to establish connections among time flows in very different ways, which enables us to carry out different relations among asynchronous systems. Our further research is focused on the construction of logics with these properties and the design of theorem provers for these logics. Keywords: DefinabilityLogic in computer scienceModal logicTemporal logic Acknowledgements This work has been partially supported by Spanish projects TIC2003-09001-C02-01, TIN2006-15455-C03-01 and TIC2003-08687-C02-01. Notes 1The notation 𝒞od comes from codomain.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2008></a>[[BGM08]](#cite-Burrieza2008) A. Burrieza, I. P. de Guzmán, and E. Mu~noz-Velasco. “Generalization of some properties of relations in the context of functional temporal×modal logic”. In: _Int. J. Comput. Math._ 85.3\&4 (2008), pp. 371-383. DOI: [10.1080/00207160701210141](https://doi.org/10.1080%2F00207160701210141). URL: [https://doi.org/10.1080/00207160701210141](https://doi.org/10.1080/00207160701210141).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Inman P. {de Guzm{\a'a}n} and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Generalization of some properties of relations in the context of functional temporal{\texttimes}modal logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3{\&}4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {371--383},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {85},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/BurriezaGM08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160701210141},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 06 Jun 2017 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160701210141},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Burrieza_2009></a>[[1]](#cite-Burrieza_2009) A. Burrieza, I. P. de Guzmán, and E. Muñoz-Velasco. “Functional systems in the context of temporal×modal logics with indexed flows”. In: _International Journal of Computer Mathematics_ 86.10–11 (Nov. 2009), p. 1696–1706. ISSN: 1029-0265. DOI: [10.1080/00207160902795619](https://doi.org/10.1080%2F00207160902795619). URL: [http://dx.doi.org/10.1080/00207160902795619](http://dx.doi.org/10.1080/00207160902795619).
+
+<a name=bib-Burrieza_2010></a>[[2]](#cite-Burrieza_2010) A. Burrieza, I. P. de Guzmán, and E. Muñoz‐Velasco. “Analyzing completeness of axiomatic functional systems for temporal × modal logics”. In: _Mathematical Logic Quarterly_ 56.1 (Jan. 2010), p. 89–102. ISSN: 1521-3870. DOI: [10.1002/malq.200810038](https://doi.org/10.1002%2Fmalq.200810038). URL: [http://dx.doi.org/10.1002/malq.200810038](http://dx.doi.org/10.1002/malq.200810038).
+
+<a name=bib-Madrid_2012></a>[[3]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 310–324. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [http://dx.doi.org/10.1080/00207160.2011.580842](http://dx.doi.org/10.1080/00207160.2011.580842).
+

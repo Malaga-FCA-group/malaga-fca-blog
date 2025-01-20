@@ -1,0 +1,48 @@
+---
+title: '{TAS-D++} vs tablas semanticas'
+author:
+- Gabriel Aguilera
+- José Luis Galán
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '1994'
+categories: uncategorised
+slug: 1994/VsTaSe
+details: 1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe{\~{n}}iscola,
+  Spain, September 19-22, 1994, Volume 2 , pages 438--439.
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Aguilera1994></a>[[Agu+94]](#cite-Aguilera1994) G. Aguilera, J. L. Galán, I. P. de Guzmán, et al. “TAS-D++ vs tablas semanticas”. In: _1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe~niscola, Spain, September 19-22, 1994, Volume 2_. Ed. by Mar\'\iaAlpuente, R. Barbuti and I. Ramos. 1994, pp. 438-439.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Aguilera1994,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Gabriel Aguilera and Jos{\a'e} Luis Gal{\a'a}n and Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {1994 Joint Conference on Declarative Programming, GULP-PRODE'94 Pe{\~{n}}iscola, Spain, September 19-22, 1994, Volume 2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {{TAS-D++} vs tablas semanticas},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1994},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Mar\'\ia Alpuente and Roberto Barbuti and Isidro Ramos},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {438--439},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/agp/AguileraGGO94.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 26 May 2023 01:00:00 +0200},<br>}
+
+:::
+
+
+
+
+
+
+
+

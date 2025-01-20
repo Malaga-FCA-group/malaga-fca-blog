@@ -1,0 +1,95 @@
+---
+title: Generating Isotone Galois Connections on an Unstructured Codomain
+author:
+- Francisca García-Pardo
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Francisco J. Rodríguez-Sanchez
+date: '2014'
+categories: uncategorised
+slug: 2014/GeIsGaCoUnCo
+details: Information Processing and Management of Uncertainty in Knowledge-Based Systems
+  - 15th International Conference, {IPMU} 2014, Montpellier, France, July 15-19, 2014,
+  Proceedings, Part {III} , Communications in Computer and Information Science vol.
+  444, pages 91--99.
+doi: 10.1007/978-3-319-08852-5_10
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GarciaPardo2014b></a>[[Gar+14]](#cite-GarciaPardo2014b) F. Garc\'\ia-Pardo, I. P. Cabrera, P. Cordero, et al. “Generating Isotone Galois Connections on an Unstructured Codomain”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems - 15th International Conference, IPMU 2014, Montpellier, France, July 15-19, 2014, Proceedings, Part III_. Ed. by A. Laurent, O. Strauss, B. Bouchon-Meunier and R. R. Yager. Vol. 444. Communications in Computer and Information Science. Springer, 2014, pp. 91-99. DOI: [10.1007/978-3-319-08852-5\_10](https://doi.org/10.1007%2F978-3-319-08852-5%5C_10). URL: [https://doi.org/10.1007/978-3-319-08852-5\_10](https://doi.org/10.1007/978-3-319-08852-5\_10).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GarciaPardo2014b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisca Garc\'\ia-Pardo and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego and Francisco J. Rodr\'\iguez-Sanchez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems - 15th International Conference, {IPMU} 2014, Montpellier, France, July 15-19, 2014, Proceedings, Part {III}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Generating Isotone Galois Connections on an Unstructured Codomain},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Anne Laurent and Olivier Strauss and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {91--99},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {444},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/Garcia-PardoCCOR14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-08852-5\_10},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 30 Sep 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-08852-5\_10},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-08852-5_10" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-08852-5_10" class="plumx-details" data-site="plum" data-hide-when-empty="true">Generating Isotone Galois Connections on an Unstructured Codomain</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-08852-5_10"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Encheva_20161></a>[[1]](#cite-Encheva_20161) S. Encheva. “Isotone Galois Connections and Employees Resource Management”. In: _Cooperative Design, Visualization, and Engineering_. Springer International Publishing, 2016, p. 142–148. ISBN: 9783319467719. DOI: [10.1007/978-3-319-46771-9_19](https://doi.org/10.1007%2F978-3-319-46771-9_19). URL: [http://dx.doi.org/10.1007/978-3-319-46771-9_19](http://dx.doi.org/10.1007/978-3-319-46771-9_19).
+
+<a name=bib-Encheva_2016></a>[[2]](#cite-Encheva_2016) S. Encheva. “Supplier Selection Based on Recommendations”. In: _Cooperative Design, Visualization, and Engineering_. Springer International Publishing, 2016, p. 86–89. ISBN: 9783319467719. DOI: [10.1007/978-3-319-46771-9_11](https://doi.org/10.1007%2F978-3-319-46771-9_11). URL: [http://dx.doi.org/10.1007/978-3-319-46771-9_11](http://dx.doi.org/10.1007/978-3-319-46771-9_11).
+
+<a name=bib-Encheva_2017></a>[[3]](#cite-Encheva_2017) S. Encheva. “Systematic Assignments in Merging Organizations”. In: _Recent Advances in Information Systems and Technologies_. Springer International Publishing, 2017, p. 447–452. ISBN: 9783319565385. DOI: [10.1007/978-3-319-56538-5_45](https://doi.org/10.1007%2F978-3-319-56538-5_45). URL: [http://dx.doi.org/10.1007/978-3-319-56538-5_45](http://dx.doi.org/10.1007/978-3-319-56538-5_45).
+
+<a name=bib-Garc_a_Pardo_20141></a>[[4]](#cite-Garc_a_Pardo_20141) F. García-Pardo, I. P. Cabrera, P. Cordero, et al. “On Adjunctions between Fuzzy Preordered Sets: Necessary Conditions”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 211–221. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_22](https://doi.org/10.1007%2F978-3-319-08644-6_22). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_22](http://dx.doi.org/10.1007/978-3-319-08644-6_22).
+
+<a name=bib-Garc_a_Pardo_2014></a>[[5]](#cite-Garc_a_Pardo_2014) F. García-Pardo, I. P. Cabrera, P. Cordero, et al. “On the Existence of Isotone Galois Connections between Preorders”. In: _Formal Concept Analysis_. Springer International Publishing, 2014, p. 67–79. ISBN: 9783319072487. DOI: [10.1007/978-3-319-07248-7_6](https://doi.org/10.1007%2F978-3-319-07248-7_6). URL: [http://dx.doi.org/10.1007/978-3-319-07248-7_6](http://dx.doi.org/10.1007/978-3-319-07248-7_6).
+
+<a name=bib-Garcia_Pardo_2015></a>[[6]](#cite-Garcia_Pardo_2015) F. Garcia-Pardo, I. Cabrera, P. Cordero, et al. “On Fuzzy Preordered Sets and Monotone Galois Connections”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 990–994. DOI: [10.1109/ssci.2015.144](https://doi.org/10.1109%2Fssci.2015.144). URL: [http://dx.doi.org/10.1109/ssci.2015.144](http://dx.doi.org/10.1109/ssci.2015.144).
+

@@ -1,0 +1,34 @@
+---
+title: Measuring Inconsistency in Fuzzy Answer Set Semantics
+author:
+- Nicolás Madrid
+- aciego
+date: '2011'
+categories: uncategorised
+slug: 2011/MeInFuAnSeSe
+details: '{IEEE} Trans. Fuzzy Syst. vol. 19 (4), pages 605--622.'
+doi: 10.1109/TFUZZ.2011.2114669
+
+---
+
+
+# Abstract
+
+
+Recent approaches have shown that the measurement of the amount of inconsistent information contained in a logic theory can be useful to infer positive information. This paper deals with the definition of measures of inconsistency in the residuated-logic-programming paradigm under the fuzzy answer set semantics. This fuzzy framework provides a soft mechanism to control the amount of information inferred and, thus, controlling the inconsistencies by modifying slightly the truth values of some rules.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

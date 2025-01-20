@@ -1,0 +1,104 @@
+---
+title: A Completeness Theorem for Multi-Adjoint Logic Programming
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Peter Vojtás
+date: '2001'
+categories: uncategorised
+slug: 2001/CoThLoPr
+details: Proceedings of the 10th {IEEE} International Conference on Fuzzy Systems,
+  Melbourne, Australia, December 2-5, 2001 , pages 1031--1034.
+doi: 10.1109/FUZZ.2001.1009138
+---
+
+
+
+# Abstract
+
+
+Multi-adjoint logic programs generalise monotonic and residuated logic programs in that simultaneous use of several implications in the rules and rather general connectives in the bodies are allowed. As our approach has continuous fixpoint semantics, in this work, a procedural semantics is given for the paradigm of multi-adjoint logic programming and a completeness result is proved. Some applications which could benefit from this theoretical approach, such as threshold computation, fuzzy databases and general fuzzy resolution, are commented on.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2001b></a>[[MOV01]](#cite-Medina2001b) J. Medina, M. Ojeda-Aciego, and P. Vojtás. “A Completeness Theorem for Multi-Adjoint Logic Programming”. In: _Proceedings of the 10th IEEE International Conference on Fuzzy Systems, Melbourne, Australia, December 2-5, 2001_. IEEE, 2001, pp. 1031-1034. DOI: [10.1109/FUZZ.2001.1009138](https://doi.org/10.1109%2FFUZZ.2001.1009138). URL: [https://doi.org/10.1109/FUZZ.2001.1009138](https://doi.org/10.1109/FUZZ.2001.1009138).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2001b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Peter Vojt{\a'a}s},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 10th {IEEE} International Conference on Fuzzy Systems, Melbourne, Australia, December 2-5, 2001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Completeness Theorem for Multi-Adjoint Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1031--1034},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/MedinaOV01.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZ.2001.1009138},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZ.2001.1009138},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZ.2001.1009138" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZ.2001.1009138" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Completeness Theorem for Multi-Adjoint Logic Programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZ.2001.1009138"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Deedar_2020></a>[[1]](#cite-Deedar_2020) M. H. Deedar and S. Munoz-Hernandez. “UFleSe: User-Friendly Parametric Framework for Expressive Flexible Searches”. In: _Canadian Journal of Electrical and Computer Engineering_ 43.4 (2020), p. 235–250. ISSN: 0840-8688. DOI: [10.1109/cjece.2020.2966733](https://doi.org/10.1109%2Fcjece.2020.2966733). URL: [http://dx.doi.org/10.1109/cjece.2020.2966733](http://dx.doi.org/10.1109/cjece.2020.2966733).
+
+<a name=bib-Deedar_2021></a>[[2]](#cite-Deedar_2021) M. H. Deedar and S. Muñoz-Hernández. “Personalizing Fuzzy Search Criteria for Improving User-Based Flexible Search”. In: _Human Interaction, Emerging Technologies and Future Applications IV_. Springer International Publishing, 2021, p. 186–199. ISBN: 9783030740092. DOI: [10.1007/978-3-030-74009-2_24](https://doi.org/10.1007%2F978-3-030-74009-2_24). URL: [http://dx.doi.org/10.1007/978-3-030-74009-2_24](http://dx.doi.org/10.1007/978-3-030-74009-2_24).
+
+<a name=bib-Guadarrama_2004></a>[[3]](#cite-Guadarrama_2004) S. Guadarrama, S. Muñoz, and C. Vaucheret. “Fuzzy Prolog: a new approach using soft constraints propagation”. In: _Fuzzy Sets and Systems_ 144.1 (May. 2004), p. 127–150. ISSN: 0165-0114. DOI: [10.1016/j.fss.2003.10.017](https://doi.org/10.1016%2Fj.fss.2003.10.017). URL: [http://dx.doi.org/10.1016/j.fss.2003.10.017](http://dx.doi.org/10.1016/j.fss.2003.10.017).
+
+<a name=bib-Guller_2004></a>[[4]](#cite-Guller_2004) D. Guller. “Model and Fixpoint Semantics for Fuzzy Disjunctive Programs with Weak Similarity”. In: _Innovations in Intelligent Systems_. Springer Berlin Heidelberg, 2004, p. 151–202. ISBN: 9783540396154. DOI: [10.1007/978-3-540-39615-4_7](https://doi.org/10.1007%2F978-3-540-39615-4_7). URL: [http://dx.doi.org/10.1007/978-3-540-39615-4_7](http://dx.doi.org/10.1007/978-3-540-39615-4_7).
+
+<a name=bib-Madrid_2021></a>[[5]](#cite-Madrid_2021) N. Madrid and M. Ojeda-Aciego. “Multi-adjoint lattices from adjoint triples with involutive negation”. In: _Fuzzy Sets and Systems_ 405 (Feb. 2021), p. 88–105. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.12.004](https://doi.org/10.1016%2Fj.fss.2019.12.004). URL: [http://dx.doi.org/10.1016/j.fss.2019.12.004](http://dx.doi.org/10.1016/j.fss.2019.12.004).
+
+<a name=bib-Medina_2001></a>[[6]](#cite-Medina_2001) J. Medina, M. Ojeda-Aciego, and P. Vojtáš. “A Procedural Semantics for Multi-adjoint Logic Programming”. In: _Progress in Artificial Intelligence_. Springer Berlin Heidelberg, 2001, p. 290–297. ISBN: 9783540453291. DOI: [10.1007/3-540-45329-6_29](https://doi.org/10.1007%2F3-540-45329-6_29). URL: [http://dx.doi.org/10.1007/3-540-45329-6_29](http://dx.doi.org/10.1007/3-540-45329-6_29).
+
+<a name=bib-Munoz_Hernandez_2009></a>[[7]](#cite-Munoz_Hernandez_2009) S. Munoz-Hernandez, V. P. Ceruelo, and H. Strass. “RFuzzy: An Expressive Simple Fuzzy Compiler”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 270–277. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_34](https://doi.org/10.1007%2F978-3-642-02478-8_34). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_34](http://dx.doi.org/10.1007/978-3-642-02478-8_34).
+
+<a name=bib-Munoz_Hernandez_2011></a>[[8]](#cite-Munoz_Hernandez_2011) S. Munoz-Hernandez, V. Pablos-Ceruelo, and H. Strass. “RFuzzy: Syntax, semantics and implementation details of a simple and expressive fuzzy tool over Prolog”. In: _Information Sciences_ 181.10 (May. 2011), p. 1951–1970. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.033](https://doi.org/10.1016%2Fj.ins.2010.07.033). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.033](http://dx.doi.org/10.1016/j.ins.2010.07.033).
+
+<a name=bib-Pablos_Ceruelo_2015></a>[[9]](#cite-Pablos_Ceruelo_2015) V. Pablos-Ceruelo and S. Munoz-Hernandez. “A Framework for Modelling Real-World Knowledge Capable of Obtaining Answers to Fuzzy and Flexible Searches”. In: _Computational Intelligence_. Springer International Publishing, Nov. 2015, p. 281–297. ISBN: 9783319233925. DOI: [10.1007/978-3-319-23392-5_16](https://doi.org/10.1007%2F978-3-319-23392-5_16). URL: [http://dx.doi.org/10.1007/978-3-319-23392-5_16](http://dx.doi.org/10.1007/978-3-319-23392-5_16).
+
+<a name=bib-Pablos_Ceruelo_2014></a>[[10]](#cite-Pablos_Ceruelo_2014) V. Pablos-Ceruelo and S. Munoz-Hernandez. “FleSe: A Tool for Posing Flexible and Expressive (Fuzzy) Queries to a Regular Database”. In: _Distributed Computing and Artificial Intelligence, 11th International Conference_. Springer International Publishing, 2014, p. 157–164. ISBN: 9783319075938. DOI: [10.1007/978-3-319-07593-8_20](https://doi.org/10.1007%2F978-3-319-07593-8_20). URL: [http://dx.doi.org/10.1007/978-3-319-07593-8_20](http://dx.doi.org/10.1007/978-3-319-07593-8_20).
+
+<a name=bib-Pablos_Ceruelo_20142></a>[[11]](#cite-Pablos_Ceruelo_20142) V. Pablos-Ceruelo and S. Munoz-Hernandez. “On modelling real-world knowledge to get answers to fuzzy and flexible searches without human intervention”. In: _2014 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2014, p. 2329–2336. DOI: [10.1109/fuzz-ieee.2014.6891723](https://doi.org/10.1109%2Ffuzz-ieee.2014.6891723). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2014.6891723](http://dx.doi.org/10.1109/fuzz-ieee.2014.6891723).
+
+<a name=bib-Pablos_Ceruelo_20141></a>[[12]](#cite-Pablos_Ceruelo_20141) V. Pablos-Ceruelo and S. Muñoz-Hernández. “Introducing Similarity Relations in a Framework for Modelling Real-World Fuzzy Knowledge”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2014, p. 51–60. ISBN: 9783319088525. DOI: [10.1007/978-3-319-08852-5_6](https://doi.org/10.1007%2F978-3-319-08852-5_6). URL: [http://dx.doi.org/10.1007/978-3-319-08852-5_6](http://dx.doi.org/10.1007/978-3-319-08852-5_6).
+

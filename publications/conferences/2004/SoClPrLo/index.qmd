@@ -1,0 +1,53 @@
+---
+title: 'tascpl: {TAS} Solver for Classical Propositional Logic'
+author:
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '2004'
+categories: uncategorised
+slug: 2004/SoClPrLo
+details: Logics in Artificial Intelligence, 9th European Conference, {JELIA} 2004,
+  Lisbon, Portugal, September 27-30, 2004, Proceedings , Lecture Notes in Computer
+  Science vol. 3229, pages 738--741.
+doi: 10.1007/978-3-540-30227-8_70
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2004></a>[[OA04]](#cite-OjedaAciego2004) M. Ojeda-Aciego and Agust\'\inValverde. “tascpl: TAS Solver for Classical Propositional Logic”. In: _Logics in Artificial Intelligence, 9th European Conference, JELIA 2004, Lisbon, Portugal, September 27-30, 2004, Proceedings_. Ed. by J. J. Alferes and J. A. Leite. Vol. 3229. Lecture Notes in Computer Science. Springer, 2004, pp. 738-741. DOI: [10.1007/978-3-540-30227-8\_70](https://doi.org/10.1007%2F978-3-540-30227-8%5C_70). URL: [https://doi.org/10.1007/978-3-540-30227-8\_70](https://doi.org/10.1007/978-3-540-30227-8\_70).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{OjedaAciego2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Logics in Artificial Intelligence, 9th European Conference, {JELIA} 2004, Lisbon, Portugal, September 27-30, 2004, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {tascpl: {TAS} Solver for Classical Propositional Logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} J{\a'u}lio Alferes and Jo~ao Alexandre Leite},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {738--741},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3229},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/jelia/Ojeda-AciegoV04.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-540-30227-8\_70},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 25 May 2017 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-540-30227-8\_70},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Inverardi_2009></a>[[1]](#cite-Inverardi_2009) P. Inverardi, P. Pelliccione, and M. Tivoli. “Towards an assume-guarantee theory for adaptable systems”. In: _2009 ICSE Workshop on Software Engineering for Adaptive and Self-Managing Systems_. IEEE, May. 2009, p. 106–115. DOI: [10.1109/seams.2009.5069079](https://doi.org/10.1109%2Fseams.2009.5069079). URL: [http://dx.doi.org/10.1109/seams.2009.5069079](http://dx.doi.org/10.1109/seams.2009.5069079).
+

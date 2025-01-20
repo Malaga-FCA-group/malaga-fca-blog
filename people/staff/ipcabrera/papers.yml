@@ -1,3 +1,96 @@
+- title: Congruence relations on some hyperstructures
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Ann. Math. Artif. Intell. vol. 56 (3-4), pages 361--370.
+  path: /publications/journals/2009/CoReHy
+- title: Fuzzy congruence relations on nd-groupoids
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1684--1695.
+  path: /publications/journals/2009/FuCoRe
+- title: 'A coalgebraic approach to non-determinism: Applications to multilattices'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2010'
+  details: Inf. Sci. vol. 180 (22), pages 4323--4335.
+  path: /publications/journals/2010/CoApApMu
+- title: Finitary coalgebraic multisemilattices and multilattices
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2012'
+  details: Appl. Math. Comput. vol. 219 (1), pages 31--44.
+  path: /publications/journals/2012/FiCoMuMu
+- title: On the definition of suitable orderings to generate adjunctions over an unstructured
+    codomain
+  author:
+  - Francisca García-Pardo
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Francisco J. Rodríguez-Sanchez
+  date: '2014'
+  details: Inf. Sci. vol. 286 , pages 173--187.
+  path: /publications/journals/2014/DeSuOrGeAdUnCo
+- title: 'On residuation in multilattices: Filters, congruences, and homomorphisms'
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Gloria Gutiérrez
+  - Javier Martínez
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Fuzzy Sets Syst. vol. 234 , pages 1--21.
+  path: /publications/journals/2014/ReHo
+- title: The Chu construction and generalized formal concept analysis
+  author:
+  - L'ubomír Antoni
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - Stanislav Krajci
+  - Ondrej Kridlo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: Int. J. Gen. Syst. vol. 46 (5), pages 458--474.
+  path: /publications/journals/2017/ChCoGeFoCoAn
+- title: On the construction of adjunctions between a fuzzy preposet and an unstructured
+    set
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2017'
+  details: Fuzzy Sets Syst. vol. 320 , pages 81--92.
+  path: /publications/journals/2017/CoAdFuPrUnSe
+- title: Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy
+    Structure
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - Francisca García-Pardo
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  - Bernard De Baets
+  date: '2018'
+  details: '{IEEE} Trans. Fuzzy Syst. vol. 26 (3), pages 1274--1287.'
+  path: /publications/journals/2018/GaCoFuPrStGeFuSt
 - title: 'Relational Galois connections between transitive digraphs: Characterization
     and construction'
   author:
@@ -74,3 +167,12 @@
   date: '2023-01-01'
   details: 'Fuzzy Sets Syst. 463: 108456'
   path: /publications/journals/2023/FuReGaCoFuTrDi
+- title: Selected papers from the First International Joint Conference on Conceptual
+    Knowledge Structures
+  author:
+  - <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+  - Sébastien Ferré
+  - Sergei Obiedkov
+  date: '2024'
+  details: Int. J. Approx. Reason. vol. 175 , pages 109303.
+  path: /publications/journals/2024/SePaFiInJoCoCoKnSt

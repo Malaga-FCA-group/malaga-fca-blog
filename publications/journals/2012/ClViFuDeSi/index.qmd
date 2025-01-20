@@ -1,0 +1,121 @@
+---
+title: Closure via functional dependence simplification
+author:
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- Inmaculada Fortes
+- Gabriel Aguilera
+date: '2012'
+categories: uncategorised
+slug: 2012/ClViFuDeSi
+details: Int. J. Comput. Math. vol. 89 (4), pages 510--526.
+doi: 10.1080/00207160.2011.644275
+---
+
+
+
+# Abstract
+
+
+In this paper, a method for computing the closure of a set of attributes according to a specification of functional dependencies of the relational model is described. The main feature of this method is that it computes the closure using solely the inference system of the SL FD logic. For the first time, logic is used in the design of automated deduction methods to solve the closure problem. The strong link between the SL FD logic and the closure algorithm is presented and an SL FD simplification paradigm emerges as the key element of our method. In addition, the soundness and completeness of the closure algorithm are shown. Our method has linear complexity, as the classical closure algorithms, and it has all the advantages provided by the use of logic. We have empirically compared our algorithm with the Diederich and Milton classical algorithm. This experiment reveals the best behaviour of our method which shows a significant improvement in the average speed.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Mora2012></a>[[Mor+12]](#cite-Mora2012) Á. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _Int. J. Comput. Math._ 89.4 (2012), pp. 510-526. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [https://doi.org/10.1080/00207160.2011.644275](https://doi.org/10.1080/00207160.2011.644275).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Mora2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {{\a'A}ngel Mora and Pablo Cordero and Manuel Enciso and Inmaculada Fortes and Gabriel Aguilera},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Closure via functional dependence simplification},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {510--526},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {89},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/MoraCEFA12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160.2011.644275},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 26 May 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160.2011.644275},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160.2011.644275" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160.2011.644275" class="plumx-details" data-site="plum" data-hide-when-empty="true">Closure via functional dependence simplification</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160.2011.644275"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Belohlavek_2012></a>[[1]](#cite-Belohlavek_2012) R. Belohlavek, P. Cordero, M. Enciso, et al. “An Efficient Reasoning Method for Dependencies over Similarity and Ordinal Data”. In: _Modeling Decisions for Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 408–419. ISBN: 9783642346200. DOI: [10.1007/978-3-642-34620-0_36](https://doi.org/10.1007%2F978-3-642-34620-0_36). URL: [http://dx.doi.org/10.1007/978-3-642-34620-0_36](http://dx.doi.org/10.1007/978-3-642-34620-0_36).
+
+<a name=bib-Benito_Picazo_2018></a>[[2]](#cite-Benito_Picazo_2018) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _The Journal of Supercomputing_ 75.3 (Jun. 2018), p. 1350–1367. ISSN: 1573-0484. DOI: [10.1007/s11227-018-2453-z](https://doi.org/10.1007%2Fs11227-018-2453-z). URL: [http://dx.doi.org/10.1007/s11227-018-2453-z](http://dx.doi.org/10.1007/s11227-018-2453-z).
+
+<a name=bib-Cordero_2022></a>[[3]](#cite-Cordero_2022) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Formal Concept Analysis with R”. In: _The R Journal_ 14.1 (Jun. 2022), p. 341–361. ISSN: 2073-4859. DOI: [10.32614/rj-2022-014](https://doi.org/10.32614%2Frj-2022-014). URL: [http://dx.doi.org/10.32614/rj-2022-014](http://dx.doi.org/10.32614/rj-2022-014).
+
+<a name=bib-Cordero_2020></a>[[4]](#cite-Cordero_2020) P. Cordero, M. Enciso, D. López, et al. “A conversational recommender system for diagnosis using fuzzy rules”. In: _Expert Systems with Applications_ 154 (Sep. 2020), p. 113449. ISSN: 0957-4174. DOI: [10.1016/j.eswa.2020.113449](https://doi.org/10.1016%2Fj.eswa.2020.113449). URL: [http://dx.doi.org/10.1016/j.eswa.2020.113449](http://dx.doi.org/10.1016/j.eswa.2020.113449).
+
+<a name=bib-Cordero_2015></a>[[5]](#cite-Cordero_2015) P. Cordero, M. Enciso, A. Mora, et al. “Knowledge discovery in social networks by using a logic-based treatment of implications”. In: _Knowledge-Based Systems_ 87 (Oct. 2015), p. 16–25. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2015.07.018](https://doi.org/10.1016%2Fj.knosys.2015.07.018). URL: [http://dx.doi.org/10.1016/j.knosys.2015.07.018](http://dx.doi.org/10.1016/j.knosys.2015.07.018).
+
+<a name=bib-Cordero_20202></a>[[6]](#cite-Cordero_20202) P. Cordero, M. Enciso, Á. Mora, et al. “A Formal Concept Analysis Approach to Cooperative Conversational Recommendation”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 1243. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200806.001](https://doi.org/10.2991%2Fijcis.d.200806.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200806.001](http://dx.doi.org/10.2991/ijcis.d.200806.001).
+
+<a name=bib-Cordero_2014></a>[[7]](#cite-Cordero_2014) P. Cordero, M. Enciso, A. Mora, et al. “A tableaux-like method to infer all minimal keys”. In: _Logic Journal of IGPL_ 22.6 (Sep. 2014), p. 1019–1044. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzu025](https://doi.org/10.1093%2Fjigpal%2Fjzu025). URL: [http://dx.doi.org/10.1093/jigpal/jzu025](http://dx.doi.org/10.1093/jigpal/jzu025).
+
+<a name=bib-Cordero_2024></a>[[8]](#cite-Cordero_2024) P. Cordero, M. Enciso, Á. Mora, et al. “Attribute implications with unknown information based on weak Heyting algebras”. In: _Fuzzy Sets and Systems_ 490 (Aug. 2024), p. 109026. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109026](https://doi.org/10.1016%2Fj.fss.2024.109026). URL: [http://dx.doi.org/10.1016/j.fss.2024.109026](http://dx.doi.org/10.1016/j.fss.2024.109026).
+
+<a name=bib-Cordero_20201></a>[[9]](#cite-Cordero_20201) P. Cordero, M. Enciso, A. Mora, et al. “Parameterized simplification logic I: reasoning with implications and classes of closure operators”. In: _International Journal of General Systems_ 49.7 (Oct. 2020), p. 724–746. ISSN: 1563-5104. DOI: [10.1080/03081079.2020.1831484](https://doi.org/10.1080%2F03081079.2020.1831484). URL: [http://dx.doi.org/10.1080/03081079.2020.1831484](http://dx.doi.org/10.1080/03081079.2020.1831484).
+
+<a name=bib-Janostik_2021></a>[[10]](#cite-Janostik_2021) R. Janostik, J. Konecny, and P. Krajča. “LinCbO: Fast algorithm for computation of the Duquenne-Guigues basis”. In: _Information Sciences_ 572 (Sep. 2021), p. 223–240. ISSN: 0020-0255. DOI: [10.1016/j.ins.2021.04.104](https://doi.org/10.1016%2Fj.ins.2021.04.104). URL: [http://dx.doi.org/10.1016/j.ins.2021.04.104](http://dx.doi.org/10.1016/j.ins.2021.04.104).
+
+<a name=bib-Konecny_2015></a>[[11]](#cite-Konecny_2015) J. Konecny and M. Ojeda-Aciego. “On homogeneousL-bonds and heterogeneousL-bonds”. In: _International Journal of General Systems_ 45.2 (Oct. 2015), p. 160–186. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072926](https://doi.org/10.1080%2F03081079.2015.1072926). URL: [http://dx.doi.org/10.1080/03081079.2015.1072926](http://dx.doi.org/10.1080/03081079.2015.1072926).
+
+<a name=bib-Kr_dlo_2014></a>[[12]](#cite-Kr_dlo_2014) O. Krídlo and M. Ojeda-Aciego. “Revising the link between L-Chu correspondences and completely lattice L-ordered sets”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Apr. 2014), p. 91–113. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9416-8](https://doi.org/10.1007%2Fs10472-014-9416-8). URL: [http://dx.doi.org/10.1007/s10472-014-9416-8](http://dx.doi.org/10.1007/s10472-014-9416-8).
+
+<a name=bib-Ojeda_Hern_ndez_2024></a>[[13]](#cite-Ojeda_Hern_ndez_2024) M. Ojeda-Hernández, D. López-Rodríguez, and Á. Mora. “A Formal Concept Analysis approach to hierarchical description of malware threats”. In: _Forensic Science International: Digital Investigation_ 50 (Sep. 2024), p. 301797. ISSN: 2666-2817. DOI: [10.1016/j.fsidi.2024.301797](https://doi.org/10.1016%2Fj.fsidi.2024.301797). URL: [http://dx.doi.org/10.1016/j.fsidi.2024.301797](http://dx.doi.org/10.1016/j.fsidi.2024.301797).
+
+<a name=bib-P_rez_G_mez_2023></a>[[14]](#cite-P_rez_G_mez_2023) F. Pérez-Gámez, P. Cordero, M. Enciso, et al. “Simplification logic for the management of unknown information”. In: _Information Sciences_ 634 (Jul. 2023), p. 505–519. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.03.015](https://doi.org/10.1016%2Fj.ins.2023.03.015). URL: [http://dx.doi.org/10.1016/j.ins.2023.03.015](http://dx.doi.org/10.1016/j.ins.2023.03.015).
+
+<a name=bib-P_rez_G_mez_2022></a>[[15]](#cite-P_rez_G_mez_2022) F. Pérez-Gámez, D. López-Rodríguez, P. Cordero, et al. “Simplifying Implications with Positive and Negative Attributes: A Logic-Based Approach”. In: _Mathematics_ 10.4 (Feb. 2022), p. 607. ISSN: 2227-7390. DOI: [10.3390/math10040607](https://doi.org/10.3390%2Fmath10040607). URL: [http://dx.doi.org/10.3390/math10040607](http://dx.doi.org/10.3390/math10040607).
+
+<a name=bib-Rodr_guez_Lorenzo_2017></a>[[16]](#cite-Rodr_guez_Lorenzo_2017) E. Rodríguez-Lorenzo, K. Adaricheva, P. Cordero, et al. “Formation of the D-basis from implicational systems using Simplification logic”. In: _International Journal of General Systems_ 46.5 (Jul. 2017), p. 547–568. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1349632](https://doi.org/10.1080%2F03081079.2017.1349632). URL: [http://dx.doi.org/10.1080/03081079.2017.1349632](http://dx.doi.org/10.1080/03081079.2017.1349632).
+
+<a name=bib-Rodr_guez_Lorenzo_2018></a>[[17]](#cite-Rodr_guez_Lorenzo_2018) E. Rodríguez-Lorenzo, K. Bertet, P. Cordero, et al. “Direct-optimal basis computation by means of the fusion of simplification rules”. In: _Discrete Applied Mathematics_ 249 (Nov. 2018), p. 106–119. ISSN: 0166-218X. DOI: [10.1016/j.dam.2017.12.031](https://doi.org/10.1016%2Fj.dam.2017.12.031). URL: [http://dx.doi.org/10.1016/j.dam.2017.12.031](http://dx.doi.org/10.1016/j.dam.2017.12.031).
+
+<a name=bib-Rodr_guez_Lorenzo_20171></a>[[18]](#cite-Rodr_guez_Lorenzo_20171) E. Rodríguez-Lorenzo, P. Cordero, M. Enciso, et al. “Canonical dichotomous direct bases”. In: _Information Sciences_ 376 (Jan. 2017), p. 39–53. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.10.004](https://doi.org/10.1016%2Fj.ins.2016.10.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.10.004](http://dx.doi.org/10.1016/j.ins.2016.10.004).
+
+<a name=bib-Rodr_guez_Jim_nez_2016></a>[[19]](#cite-Rodr_guez_Jim_nez_2016) J. M. Rodríguez‐Jiménez, P. Cordero, M. Enciso, et al. “Data mining algorithms to compute mixed concepts with negative attributes: an application to breast cancer data analysis”. In: _Mathematical Methods in the Applied Sciences_ 39.16 (Jan. 2016), p. 4829–4845. ISSN: 1099-1476. DOI: [10.1002/mma.3814](https://doi.org/10.1002%2Fmma.3814). URL: [http://dx.doi.org/10.1002/mma.3814](http://dx.doi.org/10.1002/mma.3814).
+
+<a name=bib-Shadab_2024></a>[[20]](#cite-Shadab_2024) N. Shadab, T. Cody, A. Salado, et al. “A Systems-Theoretical Formalization of Closed Systems”. In: _IEEE Open Journal of Systems Engineering_ 2 (2024), p. 26–37. ISSN: 2771-9987. DOI: [10.1109/ojse.2024.3369070](https://doi.org/10.1109%2Fojse.2024.3369070). URL: [http://dx.doi.org/10.1109/ojse.2024.3369070](http://dx.doi.org/10.1109/ojse.2024.3369070).
+

@@ -1,0 +1,48 @@
+---
+title: Selected papers from the First International Joint Conference on Conceptual
+  Knowledge Structures
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- Sébastien Ferré
+- Sergei Obiedkov
+date: '2024'
+categories: uncategorised
+slug: 2024/SePaFiInJoCoCoKnSt
+details: Int. J. Approx. Reason. vol. 175 , pages 109303.
+doi: 10.1016/J.IJAR.2024.109303
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2024></a>[[CFO24]](#cite-Cabrera2024) I. P. Cabrera, S. Ferré, and S. Obiedkov. “Selected papers from the First International Joint Conference on Conceptual Knowledge Structures”. In: _Int. J. Approx. Reason._ 175 (2024), p. 109303. DOI: [10.1016/J.IJAR.2024.109303](https://doi.org/10.1016%2FJ.IJAR.2024.109303). URL: [https://doi.org/10.1016/j.ijar.2024.109303](https://doi.org/10.1016/j.ijar.2024.109303).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cabrera2024,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and S{\a'e}bastien Ferr{\a'e} and Sergei Obiedkov},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Approx. Reason.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Selected papers from the First International Joint Conference on Conceptual Knowledge Structures},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {109303},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {175},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijar/CabreraFO24.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.IJAR.2024.109303},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 12 Nov 2024 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.ijar.2024.109303},<br>}
+
+:::
+
+
+
+
+
+
+
+

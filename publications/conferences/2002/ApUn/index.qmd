@@ -1,0 +1,99 @@
+---
+title: A Multi-Adjoint Approach to Similarity-Based Unification
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Peter Vojtás
+date: '2002'
+categories: uncategorised
+slug: 2002/ApUn
+details: Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite
+  Workshop, M{\'{a}}laga, Spain, July 12-13, 2002 , Electronic Notes in Theoretical
+  Computer Science vol. 66, pages 70--85.
+doi: 10.1016/S1571-0661(04)80515-2
+---
+
+
+
+# Abstract
+
+
+A formal model for similarity-based fuzzy unification in multi-adjoint logic programs is presented. On this computational model, a similarity-based unification approach is constructed by simply adding axioms of fuzzy similarities and using classical crisp unification which provides a semantic framework for logic programming with different notions of similarity.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2002b></a>[[MOV02]](#cite-Medina2002b) J. Medina, M. Ojeda-Aciego, and P. Vojtás. “A Multi-Adjoint Approach to Similarity-Based Unification”. In: _Unification in Non-Classical Logics, UNCL 2002, ICALP 2002 Satellite Workshop, Málaga, Spain, July 12-13, 2002_. Ed. by P. Eklund and M. Ojeda-Aciego. Vol. 66. Electronic Notes in Theoretical Computer Science 5. Elsevier, 2002, pp. 70-85. DOI: [10.1016/S1571-0661(04)80515-2](https://doi.org/10.1016%2FS1571-0661%2804%2980515-2). URL: [https://doi.org/10.1016/S1571-0661(04)80515-2](https://doi.org/10.1016/S1571-0661(04)80515-2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2002b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Peter Vojt{\a'a}s},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite Workshop, M{\'{a}}laga, Spain, July 12-13, 2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Multi-Adjoint Approach to Similarity-Based Unification},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Patrik Eklund and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {70--85},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Elsevier},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Electronic Notes in Theoretical Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {66},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/entcs/MedinaOV02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/S1571-0661(04)80515-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 06 Dec 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/S1571-0661(04)80515-2},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/S1571-0661(04)80515-2" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/S1571-0661(04)80515-2" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Multi-Adjoint Approach to Similarity-Based Unification</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/S1571-0661(04)80515-2"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Deedar_2020></a>[[1]](#cite-Deedar_2020) M. H. Deedar and S. Munoz-Hernandez. “UFleSe: User-Friendly Parametric Framework for Expressive Flexible Searches”. In: _Canadian Journal of Electrical and Computer Engineering_ 43.4 (2020), p. 235–250. ISSN: 0840-8688. DOI: [10.1109/cjece.2020.2966733](https://doi.org/10.1109%2Fcjece.2020.2966733). URL: [http://dx.doi.org/10.1109/cjece.2020.2966733](http://dx.doi.org/10.1109/cjece.2020.2966733).
+
+<a name=bib-Deedar_2019></a>[[2]](#cite-Deedar_2019) M. H. Deedar and S. Muñoz-Hernández. “Allowing Users to Create Similarity Relations for Their Flexible Searches over Databases”. In: _Artificial Intelligence and Soft Computing_. Springer International Publishing, 2019, p. 526–541. ISBN: 9783030209155. DOI: [10.1007/978-3-030-20915-5_47](https://doi.org/10.1007%2F978-3-030-20915-5_47). URL: [http://dx.doi.org/10.1007/978-3-030-20915-5_47](http://dx.doi.org/10.1007/978-3-030-20915-5_47).
+
+<a name=bib-Deedar_2021></a>[[3]](#cite-Deedar_2021) M. H. Deedar and S. Muñoz-Hernández. “Personalizing Fuzzy Search Criteria for Improving User-Based Flexible Search”. In: _Human Interaction, Emerging Technologies and Future Applications IV_. Springer International Publishing, 2021, p. 186–199. ISBN: 9783030740092. DOI: [10.1007/978-3-030-74009-2_24](https://doi.org/10.1007%2F978-3-030-74009-2_24). URL: [http://dx.doi.org/10.1007/978-3-030-74009-2_24](http://dx.doi.org/10.1007/978-3-030-74009-2_24).
+
+<a name=bib-Kraj_i_2002></a>[[4]](#cite-Kraj_i_2002) S. Krajči, R. Lencses, J. Medina, et al. “A Similarity-Based Unification Model for Flexible Querying”. In: _Flexible Query Answering Systems_. Springer Berlin Heidelberg, 2002, p. 263–273. ISBN: 9783540361091. DOI: [10.1007/3-540-36109-x_21](https://doi.org/10.1007%2F3-540-36109-x_21). URL: [http://dx.doi.org/10.1007/3-540-36109-x_21](http://dx.doi.org/10.1007/3-540-36109-x_21).
+
+<a name=bib-Munoz_Hernandez_2011></a>[[5]](#cite-Munoz_Hernandez_2011) S. Munoz-Hernandez, V. Pablos-Ceruelo, and H. Strass. “RFuzzy: Syntax, semantics and implementation details of a simple and expressive fuzzy tool over Prolog”. In: _Information Sciences_ 181.10 (May. 2011), p. 1951–1970. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.033](https://doi.org/10.1016%2Fj.ins.2010.07.033). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.033](http://dx.doi.org/10.1016/j.ins.2010.07.033).
+
+<a name=bib-Pablos_Ceruelo_2015></a>[[6]](#cite-Pablos_Ceruelo_2015) V. Pablos-Ceruelo and S. Munoz-Hernandez. “A Framework for Modelling Real-World Knowledge Capable of Obtaining Answers to Fuzzy and Flexible Searches”. In: _Computational Intelligence_. Springer International Publishing, Nov. 2015, p. 281–297. ISBN: 9783319233925. DOI: [10.1007/978-3-319-23392-5_16](https://doi.org/10.1007%2F978-3-319-23392-5_16). URL: [http://dx.doi.org/10.1007/978-3-319-23392-5_16](http://dx.doi.org/10.1007/978-3-319-23392-5_16).
+
+<a name=bib-Pablos_Ceruelo_2014></a>[[7]](#cite-Pablos_Ceruelo_2014) V. Pablos-Ceruelo and S. Munoz-Hernandez. “FleSe: A Tool for Posing Flexible and Expressive (Fuzzy) Queries to a Regular Database”. In: _Distributed Computing and Artificial Intelligence, 11th International Conference_. Springer International Publishing, 2014, p. 157–164. ISBN: 9783319075938. DOI: [10.1007/978-3-319-07593-8_20](https://doi.org/10.1007%2F978-3-319-07593-8_20). URL: [http://dx.doi.org/10.1007/978-3-319-07593-8_20](http://dx.doi.org/10.1007/978-3-319-07593-8_20).
+
+<a name=bib-Pablos_Ceruelo_20142></a>[[8]](#cite-Pablos_Ceruelo_20142) V. Pablos-Ceruelo and S. Munoz-Hernandez. “On modelling real-world knowledge to get answers to fuzzy and flexible searches without human intervention”. In: _2014 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2014, p. 2329–2336. DOI: [10.1109/fuzz-ieee.2014.6891723](https://doi.org/10.1109%2Ffuzz-ieee.2014.6891723). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2014.6891723](http://dx.doi.org/10.1109/fuzz-ieee.2014.6891723).
+
+<a name=bib-Pablos_Ceruelo_20141></a>[[9]](#cite-Pablos_Ceruelo_20141) V. Pablos-Ceruelo and S. Muñoz-Hernández. “Introducing Similarity Relations in a Framework for Modelling Real-World Fuzzy Knowledge”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2014, p. 51–60. ISBN: 9783319088525. DOI: [10.1007/978-3-319-08852-5_6](https://doi.org/10.1007%2F978-3-319-08852-5_6). URL: [http://dx.doi.org/10.1007/978-3-319-08852-5_6](http://dx.doi.org/10.1007/978-3-319-08852-5_6).
+

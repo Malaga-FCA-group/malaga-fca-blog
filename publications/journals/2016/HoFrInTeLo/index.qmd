@@ -1,0 +1,50 @@
+---
+title: Horn Fragments of the Halpern-Shoham Interval Temporal Logic (Technical Report)
+author:
+- Davide Bresolin
+- Agi Kurucz
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Vladislav Ryzhikov
+- Guido Sciavicco
+- Michael Zakharyaschev
+date: '2016'
+categories: uncategorised
+slug: 2016/HoFrInTeLo
+details: []
+---
+
+
+
+# Abstract
+
+
+We investigate the satisfiability problem for Horn fragments of the Halpern-Shoham interval temporal logic depending on the type (box or diamond) of the interval modal operators, the type of the underlying linear order (discrete or dense), and the type of semantics for the interval relations (reflexive or irreflexive). For example, we show that satisfiability of Horn formulas with diamonds is undecidable for any type of linear orders and semantics. On the contrary, satisfiability of Horn formulas with boxes is tractable over both discrete and dense orders under the reflexive semantics and over dense orders under the irreflexive semantics, but becomes undecidable over discrete orders under the irreflexive semantics. Satisfiability of binary Horn formulas with both boxes and diamonds is always undecidable under the irreflexive semantics.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bresolin2016b></a>[[Bre+16]](#cite-Bresolin2016b) D. Bresolin, A. Kurucz, E. Mu~noz-Velasco, et al. “Horn Fragments of the Halpern-Shoham Interval Temporal Logic (Technical Report)”. In: _CoRR_ abs/1604.03515 (2016). eprint: 1604.03515. URL: [http://arxiv.org/abs/1604.03515](http://arxiv.org/abs/1604.03515).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bresolin2016b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Davide Bresolin and Agi Kurucz and Emilio Mu~noz-Velasco and Vladislav Ryzhikov and Guido Sciavicco and Michael Zakharyaschev},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {CoRR},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Horn Fragments of the Halpern-Shoham Interval Temporal Logic (Technical Report)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {abs/1604.03515},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We investigate the satisfiability problem for Horn fragments of the Halpern-Shoham interval temporal logic depending on the type (box or diamond) of the interval modal operators, the type of the underlying linear order (discrete or dense), and the type of semantics for the interval relations (reflexive or irreflexive). For example, we show that satisfiability of Horn formulas with diamonds is undecidable for any type of linear orders and semantics. On the contrary, satisfiability of Horn formulas with boxes is tractable over both discrete and dense orders under the reflexive semantics and over dense orders under the irreflexive semantics, but becomes undecidable over discrete orders under the irreflexive semantics. Satisfiability of binary Horn formulas with both boxes and diamonds is always undecidable under the irreflexive semantics.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  archiveprefix = {arXiv},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/corr/BresolinKMRSZ16.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  eprint = {1604.03515},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://arxiv.org/abs/1604.03515},<br>}
+
+:::
+
+
+
+
+
+
+
+

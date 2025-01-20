@@ -1,0 +1,34 @@
+---
+title: On Contradiction and Inclusion Using Functional Degrees
+author:
+- Nicolás Madrid
+- aciego
+date: '2020'
+categories: uncategorised
+slug: 2020/CoInUsFuDe
+details: Int. J. Comput. Intell. Syst. vol. 13 (1), pages 464--471.
+doi: 10.2991/IJCIS.D.200409.001
+
+---
+
+
+# Abstract
+
+
+The notion of inclusion is a cornerstone in set theory and therefore, its generalization in fuzzy set theory is of great interest.The degree of f-inclusion is one generalization of such a notion that differs from others existing in the literature because the degree of inclusion is considered as a mapping instead of a value in the unit interval.On the other hand, the degree of f-weakcontradiction was introduced to represent the contradiction between two fuzzy sets via a mapping and its definition has many similarities with the f-degree of inclusion.This suggests the existence of relations between both f-degrees.Specifically, following this line, we analyze the relationship between the f-degree of inclusion and the f-degree of contradiction via the complement of fuzzy sets and Galois connections.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

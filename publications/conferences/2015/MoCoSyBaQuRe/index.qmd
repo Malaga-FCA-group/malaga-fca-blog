@@ -1,0 +1,48 @@
+---
+title: A Movement Control System Based on Qualitative Reasoning
+author:
+- Przemyslaw Andrzej Walega
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+date: '2015'
+categories: uncategorised
+slug: 2015/MoCoSyBaQuRe
+details: 10th International Conference on Soft Computing Models in Industrial and
+  Environmental Applications, {SOCO} 2015, Burgos, Spain, June 2015 , Advances in
+  Intelligent Systems and Computing vol. 368, pages 179--189.
+doi: 10.1007/978-3-319-19719-7_16
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Walega2015></a>[[WM15]](#cite-Walega2015) P. A. Walega and E. Mu~noz-Velasco. “A Movement Control System Based on Qualitative Reasoning”. In: _10th International Conference on Soft Computing Models in Industrial and Environmental Applications, SOCO 2015, Burgos, Spain, June 2015_. Ed. by Á. Herrero, J. Sedano, B. Baruque, H. Quintián and E. Corchado. Vol. 368. Advances in Intelligent Systems and Computing. Springer, 2015, pp. 179-189. DOI: [10.1007/978-3-319-19719-7\_16](https://doi.org/10.1007%2F978-3-319-19719-7%5C_16). URL: [https://doi.org/10.1007/978-3-319-19719-7\_16](https://doi.org/10.1007/978-3-319-19719-7\_16).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Walega2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Przemyslaw Andrzej Walega and Emilio Mu~noz-Velasco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {10th International Conference on Soft Computing Models in Industrial and Environmental Applications, {SOCO} 2015, Burgos, Spain, June 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Movement Control System Based on Qualitative Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {{\a'A}lvaro Herrero and Javier Sedano and Bruno Baruque and H{\a'e}ctor Quinti{\a'a}n and Emilio Corchado},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {179--189},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Advances in Intelligent Systems and Computing},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {368},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/softcomp/WalegaM15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-19719-7\_16},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 12 Aug 2022 13:44:55 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-19719-7\_16},<br>}
+
+:::
+
+
+
+
+
+
+
+

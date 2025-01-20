@@ -1,0 +1,49 @@
+---
+title: Undecidability of Chop
+author:
+- Angelo Montanari
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+date: '2015'
+categories: uncategorised
+slug: 2015/UnCh
+details: 22nd International Symposium on Temporal Representation and Reasoning, {TIME}
+  2015, Kassel, Germany, September 23-25, 2015 , pages 79--89.
+doi: 10.1109/TIME.2015.25
+---
+
+
+
+# Abstract
+
+
+The chop operator C is a binary modality that plays an important role in interval temporal logics. Such an operator, which is not definable in Halpern and Shoham's modal logic of time intervals HS, allows one to split an interval into two parts and to specify what is true over them. C appears both in Moszkowski's PITL (that pairs it with a modal constant Pi which is true on all and only the intervals with coincident endpoints) and in Venema's CDT (that also features the binary modalities D and T, and Pi). Without the so-called locality principle, which restricts the semantics of proposition letters, the satisfiability problem for both PITL and CDT turns out to be undecidable over all meaningful classes of linear orders. The problem has been shown to be undecidable also for the fragment C, that is, PITL without Pi, over infinite linear orders. In this paper, we prove that the same holds for C over finite linear orders. To this end, we exploit the close relation between C and the reflexive version of the HS fragment BE, whose modalities correspond to Allen's relations starts and finishes: we prove that the satisfiability problem for reflexive BE is undecidable, undecidability of the same problem for C comes as a corollary.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Montanari2015></a>[[MMS15]](#cite-Montanari2015) A. Montanari, E. Mu~noz-Velasco, and G. Sciavicco. “Undecidability of Chop”. In: _22nd International Symposium on Temporal Representation and Reasoning, TIME 2015, Kassel, Germany, September 23-25, 2015_. Ed. by F. Grandi, M. Lange and A. Lomuscio. IEEE Computer Society, 2015, pp. 79-89. DOI: [10.1109/TIME.2015.25](https://doi.org/10.1109%2FTIME.2015.25). URL: [https://doi.org/10.1109/TIME.2015.25](https://doi.org/10.1109/TIME.2015.25).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Montanari2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Angelo Montanari and Emilio Mu~noz-Velasco and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {22nd International Symposium on Temporal Representation and Reasoning, {TIME} 2015, Kassel, Germany, September 23-25, 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Undecidability of Chop},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Fabio Grandi and Martin Lange and Alessio Lomuscio},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {79--89},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE} Computer Society},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/time/MontanariMS15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/TIME.2015.25},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 24 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/TIME.2015.25},<br>}
+
+:::
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+---
+title: 27th International Symposium on Temporal Representation and Reasoning, {TIME}
+  2020, September 23-25, 2020, Bozen-Bolzano, Italy
+author: ''
+date: '2020'
+categories: uncategorised
+slug: 2020/InSyTeReSeIt
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-MunozVelasco2020></a>[[MOT20]](#cite-MunozVelasco2020) E. Mu~noz-Velasco, A. Ozaki, and M. Theobald, ed. _27th International Symposium on Temporal Representation and Reasoning, TIME 2020, September 23-25, 2020, Bozen-Bolzano, Italy_. Vol. 178. LIPIcs. Schloss Dagstuhl - Leibniz-Zentrum für Informatik, 2020. ISBN: 978-3-95977-167-2. URL: [https://www.dagstuhl.de/dagpub/978-3-95977-167-2](https://www.dagstuhl.de/dagpub/978-3-95977-167-2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{MunozVelasco2020,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {27th International Symposium on Temporal Representation and Reasoning, {TIME} 2020, September 23-25, 2020, Bozen-Bolzano, Italy},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Emilio Mu~noz-Velasco and Ana Ozaki and Martin Theobald},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-95977-167-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {LIPIcs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {178},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/time/2020.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 21 Aug 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.dagstuhl.de/dagpub/978-3-95977-167-2},<br>}
+
+:::
+
+
+
+
+
+
+
+

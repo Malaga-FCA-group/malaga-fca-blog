@@ -1,0 +1,88 @@
+---
+title: On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence
+author:
+- Carlos Viegas Damásio
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/NoCoCo
+details: Fuzzy Logic and Applications - 9th International Workshop, {WILF} 2011, Trani,
+  Italy, August 29-31,2011. Proceedings , Lecture Notes in Computer Science vol. 6857,
+  pages 115--122.
+doi: 10.1007/978-3-642-23713-3_15
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Damasio2011></a>[[DMO11]](#cite-Damasio2011) C. V. Damásio, N. Madrid, and M. Ojeda-Aciego. “On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence”. In: _Fuzzy Logic and Applications - 9th International Workshop, WILF 2011, Trani, Italy, August 29-31,2011. Proceedings_. Ed. by A. M. Fanelli, W. Pedrycz and A. Petrosino. Vol. 6857. Lecture Notes in Computer Science. Springer, 2011, pp. 115-122. DOI: [10.1007/978-3-642-23713-3\_15](https://doi.org/10.1007%2F978-3-642-23713-3%5C_15). URL: [https://doi.org/10.1007/978-3-642-23713-3\_15](https://doi.org/10.1007/978-3-642-23713-3\_15).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Damasio2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Viegas Dam{\a'a}sio and Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Fuzzy Logic and Applications - 9th International Workshop, {WILF} 2011, Trani, Italy, August 29-31,2011. Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Anna Maria Fanelli and Witold Pedrycz and Alfredo Petrosino},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {115--122},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {6857},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/wilf/DamasioMO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-23713-3\_15},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-23713-3\_15},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-23713-3_15" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-23713-3_15" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the Notions of Residuated-Based Coherence and Bilattice-Based Consistence</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-23713-3_15"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Madrid_2012></a>[[1]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On least coherence-preserving negations”. In: _2012 Annual Meeting of the North American Fuzzy Information Processing Society (NAFIPS)_. IEEE, Aug. 2012, p. 1–6. DOI: [10.1109/nafips.2012.6290981](https://doi.org/10.1109%2Fnafips.2012.6290981). URL: [http://dx.doi.org/10.1109/nafips.2012.6290981](http://dx.doi.org/10.1109/nafips.2012.6290981).
+
+<a name=bib-Madrid_2013></a>[[2]](#cite-Madrid_2013) N. Madrid and M. Ojeda-Aciego. “On the measure of incoherent information in extended multi-adjoint logic programs”. In: _2013 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2013, p. 30–37. DOI: [10.1109/foci.2013.6602452](https://doi.org/10.1109%2Ffoci.2013.6602452). URL: [http://dx.doi.org/10.1109/foci.2013.6602452](http://dx.doi.org/10.1109/foci.2013.6602452).
+
+<a name=bib-Madrid_2023></a>[[3]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Morcillo_2012></a>[[4]](#cite-Morcillo_2012) P. J. Morcillo, G. Moreno, J. Penabad, et al. “Dedekind–MacNeille completion and Cartesian product of multi-adjoint lattices”. In: _International Journal of Computer Mathematics_ 89.13–14 (Sep. 2012), p. 1742–1752. ISSN: 1029-0265. DOI: [10.1080/00207160.2012.689826](https://doi.org/10.1080%2F00207160.2012.689826). URL: [http://dx.doi.org/10.1080/00207160.2012.689826](http://dx.doi.org/10.1080/00207160.2012.689826).
+

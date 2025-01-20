@@ -1,0 +1,35 @@
+---
+title: A {PDL} Approach for Qualitative Velocity
+author:
+- Alfredo Burrieza
+- ejmunoz
+- aciego
+date: '2011'
+categories: uncategorised
+slug: 2011/ApQuVe
+details: Int. J. Uncertain. Fuzziness Knowl. Based Syst. vol. 19 (1), pages 11--26.
+doi: 10.1142/S021848851100685X
+
+---
+
+
+# Abstract
+
+
+We introduce the syntax, semantics, and an axiom system for a PDL-based extension of the logic for order of magnitude qualitative reasoning, developed in order to deal with the concept of qualitative velocity, which together with qualitative distance and orientation, are important notions in order to represent spatial reasoning for moving objects, such as robots. The main advantages of using a PDL-based approach are, on the one hand, all the well-known advantages of using logic in AI, and, on the other hand, the possibility of constructing complex relations from simpler ones, the flexibility for using different levels of granularity, its possible extension by adding other spatial components, and the use of a language close to programming languages.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

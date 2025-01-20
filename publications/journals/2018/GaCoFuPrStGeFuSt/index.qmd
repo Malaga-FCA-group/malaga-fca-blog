@@ -1,0 +1,130 @@
+---
+title: Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy
+  Structure
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Francisca García-Pardo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Bernard De Baets
+date: '2018'
+categories: uncategorised
+slug: 2018/GaCoFuPrStGeFuSt
+details: '{IEEE} Trans. Fuzzy Syst. vol. 26 (3), pages 1274--1287.'
+doi: 10.1109/TFUZZ.2017.2718495
+---
+
+
+
+# Abstract
+
+
+We continue the study of (isotone) Galois connections, also called adjunctions, in the framework of fuzzy preordered structures, which generalize fuzzy preposets by considering underlying fuzzy equivalence relations. Specifically, we present necessary and sufficient conditions so that, given a mapping f : A → B from a fuzzy preordered structure A = 〈A, ≈ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">A</sub> , <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">ρA</sub> 〉 into a fuzzy structure 〈B, ≈ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">B</sub> 〉, it is possible to construct a fuzzy relation ρ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">B</sub> that induces a suitable fuzzy preorder structure on B and such that there exists a mapping g : B → A such that the pair (f, g) constitutes an Galois connection.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2018></a>[[Cab+18]](#cite-Cabrera2018) I. P. Cabrera, P. Cordero, F. Garc\'\ia-Pardo, et al. “Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy Structure”. In: _IEEE Trans. Fuzzy Syst._ 26.3 (2018), pp. 1274-1287. DOI: [10.1109/TFUZZ.2017.2718495](https://doi.org/10.1109%2FTFUZZ.2017.2718495). URL: [https://doi.org/10.1109/TFUZZ.2017.2718495](https://doi.org/10.1109/TFUZZ.2017.2718495).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cabrera2018,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Francisca Garc\'\ia-Pardo and Manuel Ojeda-Aciego and Bernard De Baets},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {{IEEE} Trans. Fuzzy Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy Structure},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {3},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1274--1287},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {26},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/tfs/CabreraCGOB18.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/TFUZZ.2017.2718495},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 30 Sep 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/TFUZZ.2017.2718495},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/TFUZZ.2017.2718495" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/TFUZZ.2017.2718495" class="plumx-details" data-site="plum" data-hide-when-empty="true">Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy Structure</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/TFUZZ.2017.2718495"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2022></a>[[1]](#cite-Antoni_2022) Ľ. Antoni, P. Eliaš, S. Krajči, et al. “Heterogeneous formal context and its decomposition by heterogeneous fuzzy subsets”. In: _Fuzzy Sets and Systems_ 451 (Dec. 2022), p. 361–384. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.015](https://doi.org/10.1016%2Fj.fss.2022.05.015). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.015](http://dx.doi.org/10.1016/j.fss.2022.05.015).
+
+<a name=bib-Cabrera_2019></a>[[2]](#cite-Cabrera_2019) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “A Relational Extension of Galois Connections”. In: _Formal Concept Analysis_. Springer International Publishing, 2019, p. 290–303. ISBN: 9783030214623. DOI: [10.1007/978-3-030-21462-3_19](https://doi.org/10.1007%2F978-3-030-21462-3_19). URL: [http://dx.doi.org/10.1007/978-3-030-21462-3_19](http://dx.doi.org/10.1007/978-3-030-21462-3_19).
+
+<a name=bib-Cabrera_20202></a>[[3]](#cite-Cabrera_20202) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Galois Connections Between Unbalanced Structures in a Fuzzy Framework”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2020, p. 736–747. ISBN: 9783030501532. DOI: [10.1007/978-3-030-50153-2_54](https://doi.org/10.1007%2F978-3-030-50153-2_54). URL: [http://dx.doi.org/10.1007/978-3-030-50153-2_54](http://dx.doi.org/10.1007/978-3-030-50153-2_54).
+
+<a name=bib-Cabrera_20191></a>[[4]](#cite-Cabrera_20191) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Relational Connections Between Preordered Sets”. In: _Applied Physics, System Science and Computers III_. Springer International Publishing, 2019, p. 163–169. ISBN: 9783030215071. DOI: [10.1007/978-3-030-21507-1_24](https://doi.org/10.1007%2F978-3-030-21507-1_24). URL: [http://dx.doi.org/10.1007/978-3-030-21507-1_24](http://dx.doi.org/10.1007/978-3-030-21507-1_24).
+
+<a name=bib-Cabrera_2022></a>[[5]](#cite-Cabrera_2022) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “On the Definition of Fuzzy Relational Galois Connections Between Fuzzy Transitive Digraphs”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 100–106. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_9](https://doi.org/10.1007%2F978-3-031-08971-8_9). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_9](http://dx.doi.org/10.1007/978-3-031-08971-8_9).
+
+<a name=bib-Cabrera_20201></a>[[6]](#cite-Cabrera_20201) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Relational Galois connections between transitive digraphs: Characterization and construction”. In: _Information Sciences_ 519 (May. 2020), p. 439–450. ISSN: 0020-0255. DOI: [10.1016/j.ins.2020.01.034](https://doi.org/10.1016%2Fj.ins.2020.01.034). URL: [http://dx.doi.org/10.1016/j.ins.2020.01.034](http://dx.doi.org/10.1016/j.ins.2020.01.034).
+
+<a name=bib-Cabrera_2020></a>[[7]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz‐Velasco, et al. “Relational Galois connections between transitive fuzzy digraphs”. In: _Mathematical Methods in the Applied Sciences_ 43.9 (Feb. 2020), p. 5673–5680. ISSN: 1099-1476. DOI: [10.1002/mma.6302](https://doi.org/10.1002%2Fmma.6302). URL: [http://dx.doi.org/10.1002/mma.6302](http://dx.doi.org/10.1002/mma.6302).
+
+<a name=bib-Cabrera_2023></a>[[8]](#cite-Cabrera_2023) I. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Fuzzy relational Galois connections between fuzzy transitive digraphs”. In: _Fuzzy Sets and Systems_ 463 (Jul. 2023), p. 108456. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.12.012](https://doi.org/10.1016%2Fj.fss.2022.12.012). URL: [http://dx.doi.org/10.1016/j.fss.2022.12.012](http://dx.doi.org/10.1016/j.fss.2022.12.012).
+
+<a name=bib-Cabrera_2017></a>[[9]](#cite-Cabrera_2017) I. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Galois connections in computational intelligence: A short survey”. In: _2017 IEEE Symposium Series on Computational Intelligence (SSCI)_. IEEE, Nov. 2017, p. 1–7. DOI: [10.1109/ssci.2017.8285310](https://doi.org/10.1109%2Fssci.2017.8285310). URL: [http://dx.doi.org/10.1109/ssci.2017.8285310](http://dx.doi.org/10.1109/ssci.2017.8285310).
+
+<a name=bib-Cornejo_2021></a>[[10]](#cite-Cornejo_2021) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Implication operators generating pairs of weak negations and their algebraic structure”. In: _Fuzzy Sets and Systems_ 405 (Feb. 2021), p. 18–39. ISSN: 0165-0114. DOI: [10.1016/j.fss.2020.01.008](https://doi.org/10.1016%2Fj.fss.2020.01.008). URL: [http://dx.doi.org/10.1016/j.fss.2020.01.008](http://dx.doi.org/10.1016/j.fss.2020.01.008).
+
+<a name=bib-Demirci_20231></a>[[11]](#cite-Demirci_20231) M. Demirci. “A characterization of categorical many-valued partial orderings by categorical topologies and an application to comma categories”. In: _Fuzzy Sets and Systems_ 469 (Oct. 2023), p. 108629. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108629](https://doi.org/10.1016%2Fj.fss.2023.108629). URL: [http://dx.doi.org/10.1016/j.fss.2023.108629](http://dx.doi.org/10.1016/j.fss.2023.108629).
+
+<a name=bib-Demirci_2023></a>[[12]](#cite-Demirci_2023) M. Demirci. “Many-valued partial orders in a closed monoidal category”. In: _Fuzzy Sets and Systems_ 468 (Sep. 2023), p. 108591. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108591](https://doi.org/10.1016%2Fj.fss.2023.108591). URL: [http://dx.doi.org/10.1016/j.fss.2023.108591](http://dx.doi.org/10.1016/j.fss.2023.108591).
+
+<a name=bib-Farhadinia_2021></a>[[13]](#cite-Farhadinia_2021) B. Farhadinia and F. Chiclana. “Extended Fuzzy Sets and Their Applications”. In: _Mathematics_ 9.7 (Apr. 2021), p. 770. ISSN: 2227-7390. DOI: [10.3390/math9070770](https://doi.org/10.3390%2Fmath9070770). URL: [http://dx.doi.org/10.3390/math9070770](http://dx.doi.org/10.3390/math9070770).
+
+<a name=bib-Garc_a_Pardo_2023></a>[[14]](#cite-Garc_a_Pardo_2023) F. García-Pardo and E. Bárcena-Martín. “Fuzzy Logic Approach in the Social Sciences”. In: _Encyclopedia of Quality of Life and Well-Being Research_. Springer International Publishing, 2023, p. 2629–2634. ISBN: 9783031172991. DOI: [10.1007/978-3-031-17299-1_104666](https://doi.org/10.1007%2F978-3-031-17299-1_104666). URL: [http://dx.doi.org/10.1007/978-3-031-17299-1_104666](http://dx.doi.org/10.1007/978-3-031-17299-1_104666).
+
+<a name=bib-Horv_th_2020></a>[[15]](#cite-Horv_th_2020) E. K. Horváth, S. Radeleczki, B. Šešelja, et al. “Cuts of poset-valued functions in the framework of residuated maps”. In: _Fuzzy Sets and Systems_ 397 (Oct. 2020), p. 28–40. ISSN: 0165-0114. DOI: [10.1016/j.fss.2020.01.003](https://doi.org/10.1016%2Fj.fss.2020.01.003). URL: [http://dx.doi.org/10.1016/j.fss.2020.01.003](http://dx.doi.org/10.1016/j.fss.2020.01.003).
+
+<a name=bib-Madrid_2020></a>[[16]](#cite-Madrid_2020) N. Madrid and M. Ojeda-Aciego. “On Contradiction and Inclusion Using Functional Degrees”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 464. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200409.001](https://doi.org/10.2991%2Fijcis.d.200409.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200409.001](http://dx.doi.org/10.2991/ijcis.d.200409.001).
+
+<a name=bib-Madrid_2023></a>[[17]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Ojeda_Hern_ndez_20222></a>[[18]](#cite-Ojeda_Hern_ndez_20222) M. Ojeda-Hernández, I. P. Cabrera, and P. Cordero. “Quasi-closed elements in fuzzy posets”. In: _Journal of Computational and Applied Mathematics_ 404 (Apr. 2022), p. 113390. ISSN: 0377-0427. DOI: [10.1016/j.cam.2021.113390](https://doi.org/10.1016%2Fj.cam.2021.113390). URL: [http://dx.doi.org/10.1016/j.cam.2021.113390](http://dx.doi.org/10.1016/j.cam.2021.113390).
+
+<a name=bib-Ojeda_Hernandez_2021></a>[[19]](#cite-Ojeda_Hernandez_2021) M. Ojeda-Hernandez, I. P. Cabrera, P. Cordero, et al. “On (fuzzy) closure systems in complete fuzzy lattices”. In: _2021 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2021, p. 1–6. DOI: [10.1109/fuzz45933.2021.9494404](https://doi.org/10.1109%2Ffuzz45933.2021.9494404). URL: [http://dx.doi.org/10.1109/fuzz45933.2021.9494404](http://dx.doi.org/10.1109/fuzz45933.2021.9494404).
+
+<a name=bib-Ojeda_Hern_ndez_2021></a>[[20]](#cite-Ojeda_Hern_ndez_2021) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Closure Systems as a Fuzzy Extension of Meet-subsemilattices”. In: _Joint Proceedings of the 19th World Congress of the International Fuzzy Systems Association (IFSA), the 12th Conference of the European Society for Fuzzy Logic and Technology (EUSFLAT), and the 11th International Summer School on Aggregation Operators (AGOP)_. ifsa-eusflat-agop-21. Atlantis Press, 2021. DOI: [10.2991/asum.k.210827.006](https://doi.org/10.2991%2Fasum.k.210827.006). URL: [http://dx.doi.org/10.2991/asum.k.210827.006](http://dx.doi.org/10.2991/asum.k.210827.006).
+
+<a name=bib-Ojeda_Hern_ndez_2022></a>[[21]](#cite-Ojeda_Hern_ndez_2022) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Fuzzy closure systems: Motivation, definition and properties”. In: _International Journal of Approximate Reasoning_ 148 (Sep. 2022), p. 151–161. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2022.06.004](https://doi.org/10.1016%2Fj.ijar.2022.06.004). URL: [http://dx.doi.org/10.1016/j.ijar.2022.06.004](http://dx.doi.org/10.1016/j.ijar.2022.06.004).
+
+<a name=bib-Ojeda_Hern_ndez_20221></a>[[22]](#cite-Ojeda_Hern_ndez_20221) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “Relational Extension of Closure Structures”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 77–86. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_7](https://doi.org/10.1007%2F978-3-031-08971-8_7). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_7](http://dx.doi.org/10.1007/978-3-031-08971-8_7).
+
+<a name=bib-_e_elja_2022></a>[[23]](#cite-_e_elja_2022) B. Šešelja and A. Tepavčević. “Congruences on Lattices and Lattice-Valued Functions”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 2_. Springer International Publishing, 2022, p. 219–228. ISBN: 9783030888176. DOI: [10.1007/978-3-030-88817-6_25](https://doi.org/10.1007%2F978-3-030-88817-6_25). URL: [http://dx.doi.org/10.1007/978-3-030-88817-6_25](http://dx.doi.org/10.1007/978-3-030-88817-6_25).
+
+<a name=bib-_e_elja_2020></a>[[24]](#cite-_e_elja_2020) B. Šešelja and A. Tepavčević. “Kernels of Residuated Maps as Complete Congruences in Lattices”. In: _International Journal of Computational Intelligence Systems_ 13.1 (2020), p. 966. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.200714.001](https://doi.org/10.2991%2Fijcis.d.200714.001). URL: [http://dx.doi.org/10.2991/ijcis.d.200714.001](http://dx.doi.org/10.2991/ijcis.d.200714.001).
+

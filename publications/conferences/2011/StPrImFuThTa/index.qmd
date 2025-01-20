@@ -1,0 +1,89 @@
+---
+title: A Static Preprocess for Improving Fuzzy Thresholded Tabulation
+author:
+- Pascual Julián
+- Jesús Medina
+- Pedro J. Morcillo
+- Ginés Moreno
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/StPrImFuThTa
+details: Advances in Computational Intelligence - 11th International Work-Conference
+  on Artificial Neural Networks, {IWANN} 2011, Torremolinos-M{\'{a}}laga, Spain, June
+  8-10, 2011, Proceedings, Part {II} , Lecture Notes in Computer Science vol. 6692,
+  pages 429--436.
+doi: 10.1007/978-3-642-21498-1_54
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Julian2011></a>[[Jul+11]](#cite-Julian2011) P. Julián, J. Medina, P. J. Morcillo, et al. “A Static Preprocess for Improving Fuzzy Thresholded Tabulation”. In: _Advances in Computational Intelligence - 11th International Work-Conference on Artificial Neural Networks, IWANN 2011, Torremolinos-Málaga, Spain, June 8-10, 2011, Proceedings, Part II_. Ed. by J. Cabestany, I. Rojas and G. J. Caparrós. Vol. 6692. Lecture Notes in Computer Science. Springer, 2011, pp. 429-436. DOI: [10.1007/978-3-642-21498-1\_54](https://doi.org/10.1007%2F978-3-642-21498-1%5C_54). URL: [https://doi.org/10.1007/978-3-642-21498-1\_54](https://doi.org/10.1007/978-3-642-21498-1\_54).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Julian2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pascual Juli{\a'a}n and Jes{\a'u}s Medina and Pedro J. Morcillo and Gin{\a'e}s Moreno and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Computational Intelligence - 11th International Work-Conference on Artificial Neural Networks, {IWANN} 2011, Torremolinos-M{\'{a}}laga, Spain, June 8-10, 2011, Proceedings, Part {II}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Static Preprocess for Improving Fuzzy Thresholded Tabulation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Joan Cabestany and Ignacio Rojas and Gonzalo Joya Caparr{\a'o}s},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {429--436},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {6692},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/JulianMMMO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-21498-1\_54},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-21498-1\_54},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-21498-1_54" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-21498-1_54" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Static Preprocess for Improving Fuzzy Thresholded Tabulation</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-21498-1_54"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Almendros_Jim_nez_2013></a>[[1]](#cite-Almendros_Jim_nez_2013) J. M. Almendros-Jiménez, A. Luna Tedesqui, and G. Moreno. “Annotating “Fuzzy Chance Degrees” When Debugging XPath Queries”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2013, p. 300–311. ISBN: 9783642386824. DOI: [10.1007/978-3-642-38682-4_33](https://doi.org/10.1007%2F978-3-642-38682-4_33). URL: [http://dx.doi.org/10.1007/978-3-642-38682-4_33](http://dx.doi.org/10.1007/978-3-642-38682-4_33).
+
+<a name=bib-Juli_n_Iranzo_2013></a>[[2]](#cite-Juli_n_Iranzo_2013) P. Julián-Iranzo, J. Medina-Moreno, P. J. Morcillo, et al. “An Unfolding-Based Preprocess for Reinforcing Thresholds in Fuzzy Tabulation”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2013, p. 647–655. ISBN: 9783642386794. DOI: [10.1007/978-3-642-38679-4_65](https://doi.org/10.1007%2F978-3-642-38679-4_65). URL: [http://dx.doi.org/10.1007/978-3-642-38679-4_65](http://dx.doi.org/10.1007/978-3-642-38679-4_65).
+
+<a name=bib-Juli_n_Iranzo_2020></a>[[3]](#cite-Juli_n_Iranzo_2020) P. Julián-Iranzo, G. Moreno, and J. A. Riaza. “The Fuzzy Logic Programming language FASILL: Design and implementation”. In: _International Journal of Approximate Reasoning_ 125 (Oct. 2020), p. 139–168. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2020.06.002](https://doi.org/10.1016%2Fj.ijar.2020.06.002). URL: [http://dx.doi.org/10.1016/j.ijar.2020.06.002](http://dx.doi.org/10.1016/j.ijar.2020.06.002).
+

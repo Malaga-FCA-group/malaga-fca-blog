@@ -1,0 +1,37 @@
+---
+title: Formation of the D-basis from implicational systems using Simplification logic
+author:
+- Estrella Rodríguez Lorenzo
+- Kira V. Adaricheva
+- pcordero
+- enciso
+- amora
+date: '2017'
+categories: uncategorised
+slug: 2017/FoImSyUsSiLo
+details: Int. J. Gen. Syst. vol. 46 (5), pages 547--568.
+doi: 10.1080/03081079.2017.1349632
+
+---
+
+
+# Abstract
+
+
+Sets of implications defining closure systems are used as a standard way to represent knowledge, and the search of implicational systems satisfying some criteria constitutes one of the most active topics in the study of closure systems and their applications. Here, we focus on the generation of the D-basis, known to be an ordered direct basis, allowing a very efficient attribute closure computation. We operate with the aggregated D-basis and provide an algorithm to get it from an arbitrary implicational set. The method has been designed on the interrelation between minimal covers and minimal generators, and it is inspired by the inference system of the Simplification Logic. Moreover, we develop an experiment to show the better performance of the new method compared to the earlier version of the algorithm.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

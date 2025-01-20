@@ -1,0 +1,51 @@
+---
+title: From the Poset of Temporal Implicates/implicants to a Temporal Negative Form
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+date: '2002'
+categories: uncategorised
+slug: 2002/PoTeTeNeFo
+details: Reports Math. Log. vol. 36 , pages 3--53.
+---
+
+
+
+# Abstract
+
+
+Linear time temporal logics have proven to yield successful formalisms for a wide range of applications. Nevertheless, the lack of an efficient automated deduction method has prevented temporal logics from playing a more important role in computer science.
+Recently, the use of unitary implicates and implicants has guided a lot of work in automated deduction.
+In this paper, we present a formal framework in the study of unitary implicants and implicates in Temporal Logic. It is focussed on the temporal propositional logic, FNext$\pm$, with an infinite, linear and discrete flow of time. In our opinion, this formal framework allows an outstanding advance in the search for efficient automated deduction methods in temporal logics. The sets of unitary implicates and implicants of a formula in FNext$\pm$ can be infinite and therefore difficult to handle. We introduce the notion of temporal literal in FNext$\pm$ and we consider the semantic implication as an order relation over the set of temporal literals. Then, we develop theoretical studies of the poset of temporal literals and the sets of implicants and implicates. The formal results obtained allow us to define an efficient way to extract the maximum amount of information about the set of unitary implicants and implicates of the formula.
+To emphasize the interest of these theoretical results, we show how this study allows us to introduce a suitable notion of Temporal Negative Normal Form for Temporal Logic.
+The definition of such a normal form constitutes an unsolved problem until now. This is a major contribution of the paper and it will have a significant relevance in the future design of efficient automated theorem provers.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2002a></a>[[CEG02]](#cite-Cordero2002a) P. Cordero, M. Enciso, and I. P. de Guzmán. “From the Poset of Temporal Implicates/implicants to a Temporal Negative Form”. In: _Reports Math. Log._ 36 (2002), pp. 3-53. URL: [https://rml.tcs.uj.edu.pl/rml-36/a-cor-36.htm](https://rml.tcs.uj.edu.pl/rml-36/a-cor-36.htm).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Cordero2002a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and Inmaculada Perez {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Reports Math. Log.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {From the Poset of Temporal Implicates/implicants to a Temporal Negative Form},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {3--53},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {36},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Linear time temporal logics have proven to yield successful formalisms for a wide range of applications. Nevertheless, the lack of an efficient automated deduction method has prevented temporal logics from playing a more important role in computer science.<br>&nbsp;&nbsp;&nbsp;&nbsp;Recently, the use of unitary implicates and implicants has guided a lot of work in automated deduction.<br>&nbsp;&nbsp;&nbsp;&nbsp;In this paper, we present a formal framework in the study of unitary implicants and implicates in Temporal Logic. It is focussed on the temporal propositional logic, FNext$\pm$, with an infinite, linear and discrete flow of time. In our opinion, this formal framework allows an outstanding advance in the search for efficient automated deduction methods in temporal logics. The sets of unitary implicates and implicants of a formula in FNext$\pm$ can be infinite and therefore difficult to handle. We introduce the notion of temporal literal in FNext$\pm$ and we consider the semantic implication as an order relation over the set of temporal literals. Then, we develop theoretical studies of the poset of temporal literals and the sets of implicants and implicates. The formal results obtained allow us to define an efficient way to extract the maximum amount of information about the set of unitary implicants and implicates of the formula.<br>&nbsp;&nbsp;&nbsp;&nbsp;To emphasize the interest of these theoretical results, we show how this study allows us to introduce a suitable notion of Temporal Negative Normal Form for Temporal Logic.<br>&nbsp;&nbsp;&nbsp;&nbsp;The definition of such a normal form constitutes an unsolved problem until now. This is a major contribution of the paper and it will have a significant relevance in the future design of efficient automated theorem provers.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/rml/CorderoEG02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 08 Dec 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://rml.tcs.uj.edu.pl/rml-36/a-cor-36.htm},<br>}
+
+:::
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+---
+title: 'Teaching database design: {A} reverse engineering approach'
+author:
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- Enrique Soler
+date: '2013'
+categories: uncategorised
+slug: 2013/TeDaReEnAp
+details: '{IEEE} Global Engineering Education Conference, {EDUCON} 2013, Berlin, Germany,
+  March 13-15, 2013 , pages 474--480.'
+doi: 10.1109/EDUCON.2013.6530148
+---
+
+
+
+# Abstract
+
+
+Software design constitutes a central issue in Computer Science and its weight is very significant in university courses. The teaching of this discipline requires an adequate and balanced composition of different models, techniques, languages and tools. None of them might be eliminated if we want to ensure a complete formation of the undergraduate student. In this paper we present a methodology to teach database design which combines all these elements using both reverse and direct engineering. We also show the benefits of this approach with our practical experience over a five-year period.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Enciso2013></a>[[ES13]](#cite-Enciso2013) M. Enciso and E. Soler. “Teaching database design: A reverse engineering approach”. In: _IEEE Global Engineering Education Conference, EDUCON 2013, Berlin, Germany, March 13-15, 2013_. IEEE, 2013, pp. 474-480. DOI: [10.1109/EDUCON.2013.6530148](https://doi.org/10.1109%2FEDUCON.2013.6530148). URL: [https://doi.org/10.1109/EduCon.2013.6530148](https://doi.org/10.1109/EduCon.2013.6530148).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Enciso2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Enciso and Enrique Soler},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IEEE} Global Engineering Education Conference, {EDUCON} 2013, Berlin, Germany, March 13-15, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Teaching database design: {A} reverse engineering approach},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {474--480},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/educon/EncisoS13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/EDUCON.2013.6530148},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 16 Oct 2019 14:14:53 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/EduCon.2013.6530148},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/EDUCON.2013.6530148" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/EDUCON.2013.6530148" class="plumx-details" data-site="plum" data-hide-when-empty="true">Teaching database design: {A} reverse engineering approach</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/EDUCON.2013.6530148"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Chavarr_a_B_ez_2021></a>[[1]](#cite-Chavarr_a_B_ez_2021) L. Chavarría-Báez, J. A. Hijar-Miranda, and D. E. Vázquez Ceballos. “Estudio comparativo sobre herramientas de software para la enseñanza del diseño conceptual de bases de datos”. In: _Tecnología Educativa Revista CONAIC_ 1.2 (Feb. 2021), p. 41–50. ISSN: 2395-9061. DOI: [10.32671/terc.v1i2.181](https://doi.org/10.32671%2Fterc.v1i2.181). URL: [http://dx.doi.org/10.32671/terc.v1i2.181](http://dx.doi.org/10.32671/terc.v1i2.181).
+

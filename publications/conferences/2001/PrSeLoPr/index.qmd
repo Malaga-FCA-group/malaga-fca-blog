@@ -1,0 +1,123 @@
+---
+title: A Procedural Semantics for Multi-adjoint Logic Programming
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Peter Vojtás
+date: '2001'
+categories: uncategorised
+slug: 2001/PrSeLoPr
+details: Progress in Artificial Intelligence, Knowledge Extraction, Multi-agent Systems,
+  Logic Programming and Constraint Solving, 10th Portuguese Conference on Artificial
+  Intelligence, {EPIA} 2001, Porto, Portugal, December 17-20, 2001, Proceedings ,
+  Lecture Notes in Computer Science vol. 2258, pages 290--297.
+doi: 10.1007/3-540-45329-6_29
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2001></a>[[MOV01]](#cite-Medina2001) J. Medina, M. Ojeda-Aciego, and P. Vojtás. “A Procedural Semantics for Multi-adjoint Logic Programming”. In: _Progress in Artificial Intelligence, Knowledge Extraction, Multi-agent Systems, Logic Programming and Constraint Solving, 10th Portuguese Conference on Artificial Intelligence, EPIA 2001, Porto, Portugal, December 17-20, 2001, Proceedings_. Ed. by P. Brazdil and Al\'\ipioJorge. Vol. 2258. Lecture Notes in Computer Science. Springer, 2001, pp. 290-297. DOI: [10.1007/3-540-45329-6\_29](https://doi.org/10.1007%2F3-540-45329-6%5C_29). URL: [https://doi.org/10.1007/3-540-45329-6\_29](https://doi.org/10.1007/3-540-45329-6\_29).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2001,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Peter Vojt{\a'a}s},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Progress in Artificial Intelligence, Knowledge Extraction, Multi-agent Systems, Logic Programming and Constraint Solving, 10th Portuguese Conference on Artificial Intelligence, {EPIA} 2001, Porto, Portugal, December 17-20, 2001, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Procedural Semantics for Multi-adjoint Logic Programming},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Pavel Brazdil and Al\'\ipio Jorge},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {290--297},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2258},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/epia/MedinaOV01.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-45329-6\_29},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-45329-6\_29},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/3-540-45329-6_29" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/3-540-45329-6_29" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Procedural Semantics for Multi-adjoint Logic Programming</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/3-540-45329-6_29"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Caballero_2008></a>[[1]](#cite-Caballero_2008) R. Caballero, M. Rodríguez-Artalejo, and C. A. Romero-Díaz. “Similarity-based reasoning in qualified logic programming”. In: _Proceedings of the 10th international ACM SIGPLAN conference on Principles and practice of declarative programming_. PPDP08. ACM, Jul. 2008, p. 185–194. DOI: [10.1145/1389449.1389472](https://doi.org/10.1145%2F1389449.1389472). URL: [http://dx.doi.org/10.1145/1389449.1389472](http://dx.doi.org/10.1145/1389449.1389472).
+
+<a name=bib-Cabrera_2009></a>[[2]](#cite-Cabrera_2009) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Fuzzy Logic, Soft Computing, and Applications”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 236–244. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_30](https://doi.org/10.1007%2F978-3-642-02478-8_30). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_30](http://dx.doi.org/10.1007/978-3-642-02478-8_30).
+
+<a name=bib-Damasio_2006></a>[[3]](#cite-Damasio_2006) C. Damasio, J. Medina, and M. Ojeda-Aciego. “A Tabulation Proof Procedure for First-order Residuated Logic Programs: Soundness, Completeness and Optimizations”. In: _2006 IEEE International Conference on Fuzzy Systems_. IEEE, 2006, p. 2004–2011. DOI: [10.1109/fuzzy.2006.1681978](https://doi.org/10.1109%2Ffuzzy.2006.1681978). URL: [http://dx.doi.org/10.1109/fuzzy.2006.1681978](http://dx.doi.org/10.1109/fuzzy.2006.1681978).
+
+<a name=bib-Guadarrama_2004></a>[[4]](#cite-Guadarrama_2004) S. Guadarrama, S. Muñoz, and C. Vaucheret. “Fuzzy Prolog: a new approach using soft constraints propagation”. In: _Fuzzy Sets and Systems_ 144.1 (May. 2004), p. 127–150. ISSN: 0165-0114. DOI: [10.1016/j.fss.2003.10.017](https://doi.org/10.1016%2Fj.fss.2003.10.017). URL: [http://dx.doi.org/10.1016/j.fss.2003.10.017](http://dx.doi.org/10.1016/j.fss.2003.10.017).
+
+<a name=bib-Guerrero_2008></a>[[5]](#cite-Guerrero_2008) J. A. Guerrero and G. Moreno. “Optimizing Fuzzy Logic Programs by Unfolding, Aggregation and Folding”. In: _Electronic Notes in Theoretical Computer Science_ 219 (Nov. 2008), p. 19–34. ISSN: 1571-0661. DOI: [10.1016/j.entcs.2008.10.032](https://doi.org/10.1016%2Fj.entcs.2008.10.032). URL: [http://dx.doi.org/10.1016/j.entcs.2008.10.032](http://dx.doi.org/10.1016/j.entcs.2008.10.032).
+
+<a name=bib-Juli_n_Iranzo_2009></a>[[6]](#cite-Juli_n_Iranzo_2009) P. Julián-Iranzo and C. Rubio-Manzano. “A declarative semantics for Bousi~Prolog”. In: _Proceedings of the 11th ACM SIGPLAN conference on Principles and practice of declarative programming_. PPDP ’09. ACM, Sep. 2009, p. 149–160. DOI: [10.1145/1599410.1599430](https://doi.org/10.1145%2F1599410.1599430). URL: [http://dx.doi.org/10.1145/1599410.1599430](http://dx.doi.org/10.1145/1599410.1599430).
+
+<a name=bib-Juli_n_2010></a>[[7]](#cite-Juli_n_2010) P. Julián, J. Medina, G. Moreno, et al. “Efficient Thresholded Tabulation for Fuzzy Query Answering”. In: _Foundations of Reasoning under Uncertainty_. Springer Berlin Heidelberg, 2010, p. 125–141. ISBN: 9783642107283. DOI: [10.1007/978-3-642-10728-3_7](https://doi.org/10.1007%2F978-3-642-10728-3_7). URL: [http://dx.doi.org/10.1007/978-3-642-10728-3_7](http://dx.doi.org/10.1007/978-3-642-10728-3_7).
+
+<a name=bib-Juli_n_2009></a>[[8]](#cite-Juli_n_2009) P. Julián, J. Medina, G. Moreno, et al. “Thresholded Tabulation in a Fuzzy Logic Setting”. In: _Electronic Notes in Theoretical Computer Science_ 248 (Aug. 2009), p. 115–130. ISSN: 1571-0661. DOI: [10.1016/j.entcs.2009.07.063](https://doi.org/10.1016%2Fj.entcs.2009.07.063). URL: [http://dx.doi.org/10.1016/j.entcs.2009.07.063](http://dx.doi.org/10.1016/j.entcs.2009.07.063).
+
+<a name=bib-Juli_n_20091></a>[[9]](#cite-Juli_n_20091) P. Julián, G. Moreno, and J. Penabad. “An improved reductant calculus using fuzzy partial evaluation techniques”. In: _Fuzzy Sets and Systems_ 160.2 (Jan. 2009), p. 162–181. ISSN: 0165-0114. DOI: [10.1016/j.fss.2008.05.006](https://doi.org/10.1016%2Fj.fss.2008.05.006). URL: [http://dx.doi.org/10.1016/j.fss.2008.05.006](http://dx.doi.org/10.1016/j.fss.2008.05.006).
+
+<a name=bib-Juli_n_2005></a>[[10]](#cite-Juli_n_2005) P. Julián, G. Moreno, and J. Penabad. “On fuzzy unfolding: A multi-adjoint approach”. In: _Fuzzy Sets and Systems_ 154.1 (Aug. 2005), p. 16–33. ISSN: 0165-0114. DOI: [10.1016/j.fss.2005.03.013](https://doi.org/10.1016%2Fj.fss.2005.03.013). URL: [http://dx.doi.org/10.1016/j.fss.2005.03.013](http://dx.doi.org/10.1016/j.fss.2005.03.013).
+
+<a name=bib-Kuhr_2015></a>[[11]](#cite-Kuhr_2015) T. Kuhr and V. Vychodil. “Fuzzy logic programming reduced to reasoning with attribute implications”. In: _Fuzzy Sets and Systems_ 262 (Mar. 2015), p. 1–20. ISSN: 0165-0114. DOI: [10.1016/j.fss.2014.04.013](https://doi.org/10.1016%2Fj.fss.2014.04.013). URL: [http://dx.doi.org/10.1016/j.fss.2014.04.013](http://dx.doi.org/10.1016/j.fss.2014.04.013).
+
+<a name=bib-Medina_2004></a>[[12]](#cite-Medina_2004) J. Medina, E. Mérida-Casermeiro, and M. Ojeda-Aciego. “A neural implementation of multi-adjoint logic programming”. In: _Journal of Applied Logic_ 2.3 (Sep. 2004), p. 301–324. ISSN: 1570-8683. DOI: [10.1016/j.jal.2004.03.006](https://doi.org/10.1016%2Fj.jal.2004.03.006). URL: [http://dx.doi.org/10.1016/j.jal.2004.03.006](http://dx.doi.org/10.1016/j.jal.2004.03.006).
+
+<a name=bib-Medina_20041></a>[[13]](#cite-Medina_20041) J. Medina, M. Ojeda-Aciego, and P. Vojtáš. “Similarity-based unification: a multi-adjoint approach”. In: _Fuzzy Sets and Systems_ 146.1 (Aug. 2004), p. 43–62. ISSN: 0165-0114. DOI: [10.1016/j.fss.2003.11.005](https://doi.org/10.1016%2Fj.fss.2003.11.005). URL: [http://dx.doi.org/10.1016/j.fss.2003.11.005](http://dx.doi.org/10.1016/j.fss.2003.11.005).
+
+<a name=bib-Morcillo_2010></a>[[14]](#cite-Morcillo_2010) P. J. Morcillo, G. Moreno, J. Penabad, et al. “A Practical Management of Fuzzy Truth-Degrees Using FLOPER”. In: _Semantic Web Rules_. Springer Berlin Heidelberg, 2010, p. 20–34. ISBN: 9783642162893. DOI: [10.1007/978-3-642-16289-3_4](https://doi.org/10.1007%2F978-3-642-16289-3_4). URL: [http://dx.doi.org/10.1007/978-3-642-16289-3_4](http://dx.doi.org/10.1007/978-3-642-16289-3_4).
+
+<a name=bib-Morcillo_2012></a>[[15]](#cite-Morcillo_2012) P. J. Morcillo, G. Moreno, J. Penabad, et al. “Dedekind–MacNeille completion and Cartesian product of multi-adjoint lattices”. In: _International Journal of Computer Mathematics_ 89.13–14 (Sep. 2012), p. 1742–1752. ISSN: 1029-0265. DOI: [10.1080/00207160.2012.689826](https://doi.org/10.1080%2F00207160.2012.689826). URL: [http://dx.doi.org/10.1080/00207160.2012.689826](http://dx.doi.org/10.1080/00207160.2012.689826).
+
+<a name=bib-Morcillo_2011></a>[[16]](#cite-Morcillo_2011) P. J. Morcillo, G. Moreno, J. Penabad, et al. “Fuzzy Computed Answers Collecting Proof Information”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 445–452. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_56](https://doi.org/10.1007%2F978-3-642-21498-1_56). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_56](http://dx.doi.org/10.1007/978-3-642-21498-1_56).
+
+<a name=bib-Moreno_2006></a>[[17]](#cite-Moreno_2006) G. Moreno. “Building a Fuzzy Transformation System”. In: _SOFSEM 2006: Theory and Practice of Computer Science_. Springer Berlin Heidelberg, 2006, p. 409–418. ISBN: 9783540322177. DOI: [10.1007/11611257_39](https://doi.org/10.1007%2F11611257_39). URL: [http://dx.doi.org/10.1007/11611257_39](http://dx.doi.org/10.1007/11611257_39).
+
+<a name=bib-Moreno_20141></a>[[18]](#cite-Moreno_20141) G. Moreno, J. Penabad, and C. Vázquez. “Beyond multi-adjoint logic programming”. In: _International Journal of Computer Mathematics_ 92.9 (Nov. 2014), p. 1956–1975. ISSN: 1029-0265. DOI: [10.1080/00207160.2014.975218](https://doi.org/10.1080%2F00207160.2014.975218). URL: [http://dx.doi.org/10.1080/00207160.2014.975218](http://dx.doi.org/10.1080/00207160.2014.975218).
+
+<a name=bib-Moreno_2014></a>[[19]](#cite-Moreno_2014) G. Moreno and C. Vázquez. “Fuzzy Logic Programming in Action with &amp;lt;i&amp;gt;FLOPER&amp;lt;/i&amp;gt;”. In: _Journal of Software Engineering and Applications_ 07.04 (2014), p. 273–298. ISSN: 1945-3124. DOI: [10.4236/jsea.2014.74028](https://doi.org/10.4236%2Fjsea.2014.74028). URL: [http://dx.doi.org/10.4236/jsea.2014.74028](http://dx.doi.org/10.4236/jsea.2014.74028).
+
+<a name=bib-Munoz_Hernandez_2011></a>[[20]](#cite-Munoz_Hernandez_2011) S. Munoz-Hernandez, V. Pablos-Ceruelo, and H. Strass. “RFuzzy: Syntax, semantics and implementation details of a simple and expressive fuzzy tool over Prolog”. In: _Information Sciences_ 181.10 (May. 2011), p. 1951–1970. ISSN: 0020-0255. DOI: [10.1016/j.ins.2010.07.033](https://doi.org/10.1016%2Fj.ins.2010.07.033). URL: [http://dx.doi.org/10.1016/j.ins.2010.07.033](http://dx.doi.org/10.1016/j.ins.2010.07.033).
+
+<a name=bib-Straccia_2008></a>[[21]](#cite-Straccia_2008) U. Straccia. “Managing Uncertainty and Vagueness in Description Logics, Logic Programs and Description Logic Programs”. In: _Reasoning Web_. Springer Berlin Heidelberg, 2008, p. 54–103. ISBN: 9783540856580. DOI: [10.1007/978-3-540-85658-0_2](https://doi.org/10.1007%2F978-3-540-85658-0_2). URL: [http://dx.doi.org/10.1007/978-3-540-85658-0_2](http://dx.doi.org/10.1007/978-3-540-85658-0_2).
+

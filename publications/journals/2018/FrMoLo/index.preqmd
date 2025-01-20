@@ -1,0 +1,46 @@
+---
+title: On Sub-Propositional Fragments of Modal Logic
+author:
+- Davide Bresolin
+- ejmunoz
+- Guido Sciavicco
+date: '2018'
+categories: uncategorised
+slug: 2018/FrMoLo
+details: []
+doi: 10.23638/LMCS-14(2:16)2018
+
+---
+
+
+# Abstract
+
+
+In this paper, we consider the well-known modal logics $\mathbf{K}$,
+$\mathbf{T}$, $\mathbf{K4}$, and $\mathbf{S4}$, and we study some of their
+sub-propositional fragments, namely the classical Horn fragment, the Krom
+fragment, the so-called core fragment, defined as the intersection of the Horn
+and the Krom fragments, plus their sub-fragments obtained by limiting the use
+of boxes and diamonds in clauses. We focus, first, on the relative expressive
+power of such languages: we introduce a suitable measure of expressive power,
+and we obtain a complex hierarchy that encompasses all fragments of the
+considered logics. Then, after observing the low expressive power, in
+particular, of the Horn fragments without diamonds, we study the computational
+complexity of their satisfiability problem, proving that, in general, it
+becomes polynomial.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

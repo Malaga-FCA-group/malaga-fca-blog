@@ -1,0 +1,48 @@
+---
+title: On minimal requirements to obtain fuzzy concept-forming operators
+author:
+- Juan Carlos Díaz
+- Jesús Medina-Moreno
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/MiReObFuOp
+details: []
+doi: 10.2991/EUSFLAT.2013.118
+---
+
+
+
+# Abstract
+
+
+In this work, we introduce sufficient and necessary conditions for a pair of fuzzy conjunctor and implication considered in a multi-adjoint frame under which the usual combinations of multi-adjoint sufficiency, possibility and necessity operators form either antitone or isotone Galois connections.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Diaz2013></a>[[DMO13]](#cite-Diaz2013) J. C. D\'\iaz, J. Medina-Moreno, and M. Ojeda-Aciego. “On minimal requirements to obtain fuzzy concept-forming operators”. In: _Proceedings of the 8th conference of the European Society for Fuzzy Logic and Technology, EUSFLAT-13, Milano, Italy, September 11-13, 2013_. Ed. by J. Montero, G. Pasi and D. Ciucci. Atlantis Press, 2013. DOI: [10.2991/EUSFLAT.2013.118](https://doi.org/10.2991%2FEUSFLAT.2013.118). URL: [https://doi.org/10.2991/eusflat.2013.118](https://doi.org/10.2991/eusflat.2013.118).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Diaz2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Juan Carlos D\'\iaz and Jes{\a'u}s Medina-Moreno and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 8th conference of the European Society for Fuzzy Logic and Technology, EUSFLAT-13, Milano, Italy, September 11-13, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On minimal requirements to obtain fuzzy concept-forming operators},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Javier Montero and Gabriella Pasi and Davide Ciucci},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Atlantis Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/DiazMO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.2991/EUSFLAT.2013.118},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 29 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.2991/eusflat.2013.118},<br>}
+
+:::
+
+
+
+
+
+
+
+

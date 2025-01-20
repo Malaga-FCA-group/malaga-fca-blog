@@ -1,0 +1,45 @@
+---
+title: Proceedings of the Sixteenth International Conference on Concept Lattices and
+  Their Applications {(CLA} 2022) Tallinn, Estonia, June 20-22, 2022., Tallinn, Estonia,
+  June 20-22, 2022
+author: ''
+date: '2022'
+categories: uncategorised
+slug: 2022/PrSiInCoCoLaApJuJu
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2022c></a>[[CK22]](#cite-Cordero2022c) P. Cordero and O. Kr\'\idlo, ed. _Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications (CLA 2022) Tallinn, Estonia, June 20-22, 2022., Tallinn, Estonia, June 20-22, 2022_. Vol. 3308. CEUR Workshop Proceedings. CEUR-WS.org, 2022. URL: [https://ceur-ws.org/Vol-3308](https://ceur-ws.org/Vol-3308).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Cordero2022c,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Proceedings of the Sixteenth International Conference on Concept Lattices and Their Applications {(CLA} 2022) Tallinn, Estonia, June 20-22, 2022., Tallinn, Estonia, June 20-22, 2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Pablo Cordero and Ondrej Kr\'\idlo},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {3308},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/2022.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-3308},<br>&nbsp;&nbsp;&nbsp;&nbsp;  urn = {urn:nbn:de:0074-3308-4},<br>}
+
+:::
+
+
+
+
+
+
+
+

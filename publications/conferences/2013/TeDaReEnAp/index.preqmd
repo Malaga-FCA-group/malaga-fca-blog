@@ -1,0 +1,35 @@
+---
+title: 'Teaching database design: {A} reverse engineering approach'
+author:
+- enciso
+- Enrique Soler
+date: '2013'
+categories: uncategorised
+slug: 2013/TeDaReEnAp
+details: '{IEEE} Global Engineering Education Conference, {EDUCON} 2013, Berlin, Germany,
+  March 13-15, 2013 , pages 474--480.'
+doi: 10.1109/EDUCON.2013.6530148
+
+---
+
+
+# Abstract
+
+
+Software design constitutes a central issue in Computer Science and its weight is very significant in university courses. The teaching of this discipline requires an adequate and balanced composition of different models, techniques, languages and tools. None of them might be eliminated if we want to ensure a complete formation of the undergraduate student. In this paper we present a methodology to teach database design which combines all these elements using both reverse and direct engineering. We also show the benefits of this approach with our practical experience over a five-year period.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

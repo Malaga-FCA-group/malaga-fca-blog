@@ -1,3 +1,68 @@
+- title: Preserving fuzzy subgroups and indistinguishability operators
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - María Jesús Chasco
+  - Jorge Elorza
+  - Jordi Recasens
+  date: '2019'
+  details: Fuzzy Sets Syst. vol. 373 , pages 164--179.
+  path: /publications/journals/2019/PrFuSuInOp
+- title: Aggregation of fuzzy subgroups
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - María Jesús Chasco
+  - Jorge Elorza
+  date: '2021'
+  details: Fuzzy Sets Syst. vol. 418 , pages 170--184.
+  path: /publications/journals/2021/AgFuSu
+- title: The number of t-norms on some special lattices
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - Michaela Brutenicová
+  - María Jesús Chasco
+  - Jorge Elorza
+  - Vladimír Janis
+  date: '2021'
+  details: Fuzzy Sets Syst. vol. 408 , pages 26--43.
+  path: /publications/journals/2021/NuSpLa
+- title: Aggregation of indistinguishability operators
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - Sergio Ardanza-Trevijano
+  - María Jesús Chasco
+  - Jorge Elorza
+  date: '2022'
+  details: Fuzzy Sets Syst. vol. 446 , pages 53--67.
+  path: /publications/journals/2022/AgInOp
+- title: T-norms and t-conorms on a family of lattices
+  author: <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  date: '2022'
+  details: Fuzzy Sets Syst. vol. 439 , pages 55--74.
+  path: /publications/journals/2022/FaLa
+- title: The Fibonacci sequence in the description of maximal discrete Archimedean
+    t-norms
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - Mirko Navara
+  date: '2022'
+  details: Fuzzy Sets Syst. vol. 451 , pages 94--112.
+  path: /publications/journals/2022/FiSeDeMaDiAr
+- title: Counting semicopulas on finite structures
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  date: '2023'
+  details: Fuzzy Sets Syst. vol. 462 , pages 108405.
+  path: /publications/journals/2023/CoSeFiSt
+- title: Aggregation of fuzzy graphs
+  author:
+  - Francisco Javier Talavera
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - Sergio Ardanza-Trevijano
+  - Jorge Elorza
+  date: '2024'
+  details: Int. J. Approx. Reason. vol. 172 , pages 109243.
+  path: /publications/journals/2024/AgFuGr
 - title: Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes
   author:
   - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>

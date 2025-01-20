@@ -1,0 +1,125 @@
+---
+title: On multi-adjoint concept lattices based on heterogeneous conjunctors
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/CoLaBaHeCo
+details: Fuzzy Sets Syst. vol. 208 , pages 95--110.
+doi: 10.1016/J.FSS.2012.02.008
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2012></a>[[MO12]](#cite-Medina2012) J. Medina and M. Ojeda-Aciego. “On multi-adjoint concept lattices based on heterogeneous conjunctors”. In: _Fuzzy Sets Syst._ 208 (2012), pp. 95-110. DOI: [10.1016/J.FSS.2012.02.008](https://doi.org/10.1016%2FJ.FSS.2012.02.008). URL: [https://doi.org/10.1016/j.fss.2012.02.008](https://doi.org/10.1016/j.fss.2012.02.008).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Medina2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On multi-adjoint concept lattices based on heterogeneous conjunctors},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {95--110},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {208},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/MedinaO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2012.02.008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2012.02.008},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2012.02.008" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2012.02.008" class="plumx-details" data-site="plum" data-hide-when-empty="true">On multi-adjoint concept lattices based on heterogeneous conjunctors</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2012.02.008"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2024></a>[[1]](#cite-Antoni_2024) Ľ. Antoni, P. Eliaš, J. Guniš, et al. “Bimorphisms and attribute implications in heterogeneous formal contexts”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109245. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109245](https://doi.org/10.1016%2Fj.ijar.2024.109245). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109245](http://dx.doi.org/10.1016/j.ijar.2024.109245).
+
+<a name=bib-Antoni_2016></a>[[2]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[3]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 36–53. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.006](https://doi.org/10.1016%2Fj.fss.2017.04.006). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.006](http://dx.doi.org/10.1016/j.fss.2017.04.006).
+
+<a name=bib-Antoni_2017></a>[[4]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Antoni_2014></a>[[5]](#cite-Antoni_2014) L. Antoni, S. Krajči, O. Krídlo, et al. “On heterogeneous formal contexts”. In: _Fuzzy Sets and Systems_ 234 (Jan. 2014), p. 22–33. ISSN: 0165-0114. DOI: [10.1016/j.fss.2013.04.008](https://doi.org/10.1016%2Fj.fss.2013.04.008). URL: [http://dx.doi.org/10.1016/j.fss.2013.04.008](http://dx.doi.org/10.1016/j.fss.2013.04.008).
+
+<a name=bib-Butka_2014></a>[[6]](#cite-Butka_2014) P. Butka, J. Pócs, and J. Pócsová. “On equivalence of conceptual scaling and generalized one-sided concept lattices”. In: _Information Sciences_ 259 (Feb. 2014), p. 57–70. ISSN: 0020-0255. DOI: [10.1016/j.ins.2013.08.047](https://doi.org/10.1016%2Fj.ins.2013.08.047). URL: [http://dx.doi.org/10.1016/j.ins.2013.08.047](http://dx.doi.org/10.1016/j.ins.2013.08.047).
+
+<a name=bib-Cornejo_2013></a>[[7]](#cite-Cornejo_2013) M. E. Cornejo, J. Medina-Moreno, and E. Ramírez. “On the Classification of Fuzzy-Attributes in Multi-adjoint Concept Lattices”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2013, p. 266–277. ISBN: 9783642386824. DOI: [10.1007/978-3-642-38682-4_30](https://doi.org/10.1007%2F978-3-642-38682-4_30). URL: [http://dx.doi.org/10.1007/978-3-642-38682-4_30](http://dx.doi.org/10.1007/978-3-642-38682-4_30).
+
+<a name=bib-Cornejo_2016></a>[[8]](#cite-Cornejo_2016) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Adjoint negations, more than residuated negations”. In: _Information Sciences_ 345 (Jun. 2016), p. 355–371. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.01.038](https://doi.org/10.1016%2Fj.ins.2016.01.038). URL: [http://dx.doi.org/10.1016/j.ins.2016.01.038](http://dx.doi.org/10.1016/j.ins.2016.01.038).
+
+<a name=bib-D_az_Moreno_2014></a>[[9]](#cite-D_az_Moreno_2014) J. Díaz-Moreno, J. Medina, and M. Ojeda-Aciego. “On basic conditions to generate multi-adjoint concept lattices via Galois connections”. In: _International Journal of General Systems_ 43.2 (Jan. 2014), p. 149–161. ISSN: 1563-5104. DOI: [10.1080/03081079.2013.879302](https://doi.org/10.1080%2F03081079.2013.879302). URL: [http://dx.doi.org/10.1080/03081079.2013.879302](http://dx.doi.org/10.1080/03081079.2013.879302).
+
+<a name=bib-Dubois_2016></a>[[10]](#cite-Dubois_2016) D. Dubois and H. Prade. “Bridging gaps between several forms of granular computing”. In: _Granular Computing_ 1.2 (Jan. 2016), p. 115–126. ISSN: 2364-4974. DOI: [10.1007/s41066-015-0008-8](https://doi.org/10.1007%2Fs41066-015-0008-8). URL: [http://dx.doi.org/10.1007/s41066-015-0008-8](http://dx.doi.org/10.1007/s41066-015-0008-8).
+
+<a name=bib-Garc_a_Pardo_2013></a>[[11]](#cite-Garc_a_Pardo_2013) F. García-Pardo, I. P. Cabrera, P. Cordero, et al. “On Galois Connections and Soft Computing”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2013, p. 224–235. ISBN: 9783642386824. DOI: [10.1007/978-3-642-38682-4_26](https://doi.org/10.1007%2F978-3-642-38682-4_26). URL: [http://dx.doi.org/10.1007/978-3-642-38682-4_26](http://dx.doi.org/10.1007/978-3-642-38682-4_26).
+
+<a name=bib-Hala__2015></a>[[12]](#cite-Hala__2015) R. Halaš and J. Pócs. “Generalized one-sided concept lattices with attribute preferences”. In: _Information Sciences_ 303 (May. 2015), p. 50–60. ISSN: 0020-0255. DOI: [10.1016/j.ins.2015.01.009](https://doi.org/10.1016%2Fj.ins.2015.01.009). URL: [http://dx.doi.org/10.1016/j.ins.2015.01.009](http://dx.doi.org/10.1016/j.ins.2015.01.009).
+
+<a name=bib-Konecny_2014></a>[[13]](#cite-Konecny_2014) J. Konecny, J. Medina, and M. Ojeda-Aciego. “Multi-adjoint concept lattices with heterogeneous conjunctors and hedges”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Mar. 2014), p. 73–89. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9405-y](https://doi.org/10.1007%2Fs10472-014-9405-y). URL: [http://dx.doi.org/10.1007/s10472-014-9405-y](http://dx.doi.org/10.1007/s10472-014-9405-y).
+
+<a name=bib-Kr_dlo_2016></a>[[14]](#cite-Kr_dlo_2016) O. Krídlo, S. Krajči, and L. Antoni. “Formal concept analysis of higher order”. In: _International Journal of General Systems_ 45.2 (Jan. 2016), p. 116–134. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072924](https://doi.org/10.1080%2F03081079.2015.1072924). URL: [http://dx.doi.org/10.1080/03081079.2015.1072924](http://dx.doi.org/10.1080/03081079.2015.1072924).
+
+<a name=bib-Kr_dlo_2014></a>[[15]](#cite-Kr_dlo_2014) O. Krídlo and M. Ojeda-Aciego. “Revising the link between L-Chu correspondences and completely lattice L-ordered sets”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Apr. 2014), p. 91–113. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9416-8](https://doi.org/10.1007%2Fs10472-014-9416-8). URL: [http://dx.doi.org/10.1007/s10472-014-9416-8](http://dx.doi.org/10.1007/s10472-014-9416-8).
+
+<a name=bib-Singh_2017></a>[[16]](#cite-Singh_2017) P. K. Singh. “Concept lattice visualization of data with m-polar fuzzy attribute”. In: _Granular Computing_ 3.2 (Nov. 2017), p. 123–137. ISSN: 2364-4974. DOI: [10.1007/s41066-017-0060-7](https://doi.org/10.1007%2Fs41066-017-0060-7). URL: [http://dx.doi.org/10.1007/s41066-017-0060-7](http://dx.doi.org/10.1007/s41066-017-0060-7).
+
+<a name=bib-Singh_20181></a>[[17]](#cite-Singh_20181) P. K. Singh. “m -polar fuzzy graph representation of concept lattice”. In: _Engineering Applications of Artificial Intelligence_ 67 (Jan. 2018), p. 52–62. ISSN: 0952-1976. DOI: [10.1016/j.engappai.2017.09.011](https://doi.org/10.1016%2Fj.engappai.2017.09.011). URL: [http://dx.doi.org/10.1016/j.engappai.2017.09.011](http://dx.doi.org/10.1016/j.engappai.2017.09.011).
+
+<a name=bib-Singh_2018></a>[[18]](#cite-Singh_2018) P. K. Singh. “Object and attribute oriented m-polar fuzzy concept lattice using the projection operator”. In: _Granular Computing_ 4.3 (Jul. 2018), p. 545–558. ISSN: 2364-4974. DOI: [10.1007/s41066-018-0117-2](https://doi.org/10.1007%2Fs41066-018-0117-2). URL: [http://dx.doi.org/10.1007/s41066-018-0117-2](http://dx.doi.org/10.1007/s41066-018-0117-2).
+
+<a name=bib-Singh_2014></a>[[19]](#cite-Singh_2014) P. K. Singh and C. Aswani Kumar. “Bipolar fuzzy graph representation of concept lattice”. In: _Information Sciences_ 288 (Dec. 2014), p. 437–448. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.07.038](https://doi.org/10.1016%2Fj.ins.2014.07.038). URL: [http://dx.doi.org/10.1016/j.ins.2014.07.038](http://dx.doi.org/10.1016/j.ins.2014.07.038).
+
+<a name=bib-Singh_2016></a>[[20]](#cite-Singh_2016) P. K. Singh, C. Aswani Kumar, and A. Gani. “A comprehensive survey on formal concept analysis, its research trends and applications”. In: _International Journal of Applied Mathematics and Computer Science_ 26.2 (Jun. 2016), p. 495–516. ISSN: 2083-8492. DOI: [10.1515/amcs-2016-0035](https://doi.org/10.1515%2Famcs-2016-0035). URL: [http://dx.doi.org/10.1515/amcs-2016-0035](http://dx.doi.org/10.1515/amcs-2016-0035).
+
+<a name=bib-Singh_2015></a>[[21]](#cite-Singh_2015) P. K. Singh, C. Aswani Kumar, and J. Li. “Knowledge representation using interval-valued fuzzy formal concept lattice”. In: _Soft Computing_ 20.4 (Feb. 2015), p. 1485–1502. ISSN: 1433-7479. DOI: [10.1007/s00500-015-1600-1](https://doi.org/10.1007%2Fs00500-015-1600-1). URL: [http://dx.doi.org/10.1007/s00500-015-1600-1](http://dx.doi.org/10.1007/s00500-015-1600-1).
+
+<a name=bib-Singh_20141></a>[[22]](#cite-Singh_20141) P. K. Singh and A. K. Ch. “A Note on Constructing Fuzzy Homomorphism Map for a Given Fuzzy Formal Context”. In: _Proceedings of the Third International Conference on Soft Computing for Problem Solving_. Springer India, 2014, p. 845–855. ISBN: 9788132217718. DOI: [10.1007/978-81-322-1771-8_73](https://doi.org/10.1007%2F978-81-322-1771-8_73). URL: [http://dx.doi.org/10.1007/978-81-322-1771-8_73](http://dx.doi.org/10.1007/978-81-322-1771-8_73).
+
+<a name=bib-Singh_2012></a>[[23]](#cite-Singh_2012) P. K. Singh and C. A. Kumar. “Interval-valued fuzzy graph representation of concept lattice”. In: _2012 12th International Conference on Intelligent Systems Design and Applications (ISDA)_. IEEE, Nov. 2012, p. 604–609. DOI: [10.1109/isda.2012.6416606](https://doi.org/10.1109%2Fisda.2012.6416606). URL: [http://dx.doi.org/10.1109/isda.2012.6416606](http://dx.doi.org/10.1109/isda.2012.6416606).
+
+<a name=bib-Vychodil_2016></a>[[24]](#cite-Vychodil_2016) V. Vychodil. “Parameterizing the Semantics of Fuzzy Attribute Implications by Systems of Isotone Galois Connections”. In: _IEEE Transactions on Fuzzy Systems_ 24.3 (Jun. 2016), p. 645–660. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2015.2470530](https://doi.org/10.1109%2Ftfuzz.2015.2470530). URL: [http://dx.doi.org/10.1109/tfuzz.2015.2470530](http://dx.doi.org/10.1109/tfuzz.2015.2470530).
+

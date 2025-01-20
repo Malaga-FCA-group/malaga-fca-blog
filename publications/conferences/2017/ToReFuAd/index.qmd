@@ -1,0 +1,84 @@
+---
+title: Towards relational fuzzy adjunctions
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2017'
+categories: uncategorised
+slug: 2017/ToReFuAd
+details: 2017 {IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2017,
+  Naples, Italy, July 9-12, 2017 , pages 1--5.
+doi: 10.1109/FUZZ-IEEE.2017.8015677
+---
+
+
+
+# Abstract
+
+
+The problem of studying the existence of a right adjoint for a mapping defined between sets with different fuzzy structure naturally leads to the search of new notions of adjunction which fit better with the underlying structure of domain and codomain. In this work, we introduce a version of relational fuzzy adjunction between fuzzy preposets which generalizes previous approaches in that its components are fuzzy relations. We also prove that the construction behaves properly with respect to the formation of quotient with respect to the symmetric kernel relation.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2017a></a>[[CCO17]](#cite-Cabrera2017a) I. P. Cabrera, P. Cordero, and M. Ojeda-Aciego. “Towards relational fuzzy adjunctions”. In: _2017 IEEE International Conference on Fuzzy Systems, FUZZ-IEEE 2017, Naples, Italy, July 9-12, 2017_. IEEE, 2017, pp. 1-5. DOI: [10.1109/FUZZ-IEEE.2017.8015677](https://doi.org/10.1109%2FFUZZ-IEEE.2017.8015677). URL: [https://doi.org/10.1109/FUZZ-IEEE.2017.8015677](https://doi.org/10.1109/FUZZ-IEEE.2017.8015677).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2017a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {2017 {IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2017, Naples, Italy, July 9-12, 2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards relational fuzzy adjunctions},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/CabreraCO17.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZ-IEEE.2017.8015677},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 16 Oct 2019 14:14:52 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZ-IEEE.2017.8015677},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZ-IEEE.2017.8015677" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZ-IEEE.2017.8015677" class="plumx-details" data-site="plum" data-hide-when-empty="true">Towards relational fuzzy adjunctions</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZ-IEEE.2017.8015677"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2019></a>[[1]](#cite-Cabrera_2019) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Towards fuzzy relational Galois connections between fuzzy T-digraphs”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.112](https://doi.org/10.2991%2Feusflat-19.2019.112). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.112](http://dx.doi.org/10.2991/eusflat-19.2019.112).
+
+<a name=bib-Cabrera_2020></a>[[2]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Relational Galois connections between transitive digraphs: Characterization and construction”. In: _Information Sciences_ 519 (May. 2020), p. 439–450. ISSN: 0020-0255. DOI: [10.1016/j.ins.2020.01.034](https://doi.org/10.1016%2Fj.ins.2020.01.034). URL: [http://dx.doi.org/10.1016/j.ins.2020.01.034](http://dx.doi.org/10.1016/j.ins.2020.01.034).
+

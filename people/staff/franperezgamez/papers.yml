@@ -34,3 +34,13 @@
   date: '2023-07-03T00:00:00Z'
   details: <em>Information Sciences</em>, vol. 638, July 2023, pp 505--519
   path: /publications/journals/2023/SiLoMaUnIn
+- title: Attribute implications with unknown information based on weak Heyting algebras
+  author:
+  - <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+  - <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/franperezgamez/' style='color:rgb(100,0,50);'>Francisco
+    Pérez Gámez</a>
+  date: '2024'
+  details: Fuzzy Sets Syst. vol. 490 , pages 109026.
+  path: /publications/journals/2024/AtImUnInBaWeHeAl

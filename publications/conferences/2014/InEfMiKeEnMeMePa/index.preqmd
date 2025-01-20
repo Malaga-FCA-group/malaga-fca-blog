@@ -1,0 +1,37 @@
+---
+title: Increasing the Efficiency of Minimal Key Enumeration Methods by Means of Parallelism
+author:
+- Fernando Benito Picazo
+- pcordero
+- enciso
+- amora
+date: '2014'
+categories: uncategorised
+slug: 2014/InEfMiKeEnMeMePa
+details: '{ICSOFT-EA} 2014 - Proceedings of the 9th International Conference on Software
+  Engineering and Applications, Vienna, Austria, 29-31 August, 2014 , pages 512--517.'
+doi: 10.5220/0005108205120517
+
+---
+
+
+# Abstract
+
+
+Finding all minimal keys in a table is a hard problem but also provides a lot of benefits in database design and optimization. Some of the methods proposed in the literature are based on logic and, more specifically on tableaux paradigm. The size of the problems such methods deal with is strongly limited, which implies that they cannot be applied to big database schemas. We have carried out an experimental analysis to compare the results obtained by these methods in order to estimate their limits. Although tableaux paradigm may be viewed as a search space guiding the key finding task, none of the previous algorithms have incorporated parallelism. In this work, we have developed two different versions of the algorithms, a sequential and a parallel one, stating clearly how parallelism could naturally be integrated and the benefits we get over efficiency. This work has also guided future work guidelines to improve future designs of these methods.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

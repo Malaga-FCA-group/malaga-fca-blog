@@ -1,0 +1,95 @@
+---
+title: Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2005'
+categories: uncategorised
+slug: 2005/OrMaQuReBiNe
+details: Current Topics in Artificial Intelligence, 11th Conference of the Spanish
+  Association for Artificial Intelligence, {CAEPIA} 2005, Santiago de Compostela,
+  Spain, November 16-18, 2005, Revised Selected Papers , Lecture Notes in Computer
+  Science vol. 4177, pages 370--378.
+doi: 10.1007/11881216_39
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2005></a>[[BMO05]](#cite-Burrieza2005) A. Burrieza, E. Mu~noz-Velasco, and M. Ojeda-Aciego. “Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers_. Ed. by R. Mar\'\in, E. Onaindia, A. Bugar\'\in and J. S. Reyes. Vol. 4177. Lecture Notes in Computer Science. Springer, 2005, pp. 370-378. DOI: [10.1007/11881216\_39](https://doi.org/10.1007%2F11881216%5C_39). URL: [https://doi.org/10.1007/11881216\_39](https://doi.org/10.1007/11881216\_39).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Burrieza2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Current Topics in Artificial Intelligence, 11th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2005, Santiago de Compostela, Spain, November 16-18, 2005, Revised Selected Papers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Roque Mar\'\in and Eva Onaindia and Alberto Bugar\'\in and Jos{\a'e} Santos Reyes},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {370--378},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {4177},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/BurriezaMO05.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/11881216\_39},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 14 May 2019 10:00:50 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/11881216\_39},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/11881216_39" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/11881216_39" class="plumx-details" data-site="plum" data-hide-when-empty="true">Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/11881216_39"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Balbiani_2016></a>[[1]](#cite-Balbiani_2016) P. Balbiani. “Reasoning about negligibility and proximity in the set of all hyperreals”. In: _Journal of Applied Logic_ 16 (Jul. 2016), p. 14–36. ISSN: 1570-8683. DOI: [10.1016/j.jal.2016.04.002](https://doi.org/10.1016%2Fj.jal.2016.04.002). URL: [http://dx.doi.org/10.1016/j.jal.2016.04.002](http://dx.doi.org/10.1016/j.jal.2016.04.002).
+
+<a name=bib-Burrieza_2013></a>[[2]](#cite-Burrieza_2013) A. Burrieza. “Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Comparability and Negligibility Relations”. In: _Advances in Artificial Intelligence_. Springer Berlin Heidelberg, 2013, p. 101–110. ISBN: 9783642406430. DOI: [10.1007/978-3-642-40643-0_11](https://doi.org/10.1007%2F978-3-642-40643-0_11). URL: [http://dx.doi.org/10.1007/978-3-642-40643-0_11](http://dx.doi.org/10.1007/978-3-642-40643-0_11).
+
+<a name=bib-Burrieza_2017></a>[[3]](#cite-Burrieza_2017) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “A multimodal logic for closeness”. In: _Journal of Applied Non-Classical Logics_ 27.3–4 (Oct. 2017), p. 225–237. ISSN: 1958-5780. DOI: [10.1080/11663081.2018.1442137](https://doi.org/10.1080%2F11663081.2018.1442137). URL: [http://dx.doi.org/10.1080/11663081.2018.1442137](http://dx.doi.org/10.1080/11663081.2018.1442137).
+
+<a name=bib-Burrieza_2018></a>[[4]](#cite-Burrieza_2018) A. Burrieza, E. Muñoz-Velasco, and M. Ojeda-Aciego. “Logics for Order-of-Magnitude Qualitative Reasoning: Formalizing Negligibility”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 203–231. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_8](https://doi.org/10.1007%2F978-3-319-97879-6_8). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_8](http://dx.doi.org/10.1007/978-3-319-97879-6_8).
+
+<a name=bib-Burrieza_2006></a>[[5]](#cite-Burrieza_2006) A. Burrieza, M. Ojeda-Aciego, and E. Orłowska. “Relational Approach to Order-of-Magnitude Reasoning”. In: _Theory and Applications of Relational Structures as Knowledge Instruments II_. Springer Berlin Heidelberg, 2006, p. 105–124. ISBN: 9783540692249. DOI: [10.1007/11964810_6](https://doi.org/10.1007%2F11964810_6). URL: [http://dx.doi.org/10.1007/11964810_6](http://dx.doi.org/10.1007/11964810_6).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[6]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek. “On Decidability of a Logic for Order of Magnitude Qualitative Reasoning with Bidirectional Negligibility”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 255–266. ISBN: 9783642333538. DOI: [10.1007/978-3-642-33353-8_20](https://doi.org/10.1007%2F978-3-642-33353-8_20). URL: [http://dx.doi.org/10.1007/978-3-642-33353-8_20](http://dx.doi.org/10.1007/978-3-642-33353-8_20).
+
+<a name=bib-Goli_ska_Pilarek_2008></a>[[7]](#cite-Goli_ska_Pilarek_2008) J. Golińska-Pilarek, A. Mora, and E. Muñoz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence_. Springer Berlin Heidelberg, 2008, p. 128–139. ISBN: 9783540891970. DOI: [10.1007/978-3-540-89197-0_15](https://doi.org/10.1007%2F978-3-540-89197-0_15). URL: [http://dx.doi.org/10.1007/978-3-540-89197-0_15](http://dx.doi.org/10.1007/978-3-540-89197-0_15).
+

@@ -1,0 +1,59 @@
+---
+title: 'TAS-D\({}^{\mbox{++}}\): Syntactic Trees Transformations for Automated Theorem
+  Proving'
+author:
+- Gabriel Aguilera
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '1994'
+categories: uncategorised
+slug: 1994/SyTrTrAuThPr
+details: Logics in Artificial Intelligence, European Workshop, {JELIA} '94, York,
+  UK, September 5-8, 1994, Proceedings , Lecture Notes in Computer Science vol. 838,
+  pages 198--216.
+doi: 10.1007/BFB0021973
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Aguilera1994a></a>[[AGO94]](#cite-Aguilera1994a) G. Aguilera, I. P. de Guzmán, and M. Ojeda-Aciego. “TAS-D\(^\mbox++\): Syntactic Trees Transformations for Automated Theorem Proving”. In: _Logics in Artificial Intelligence, European Workshop, JELIA '94, York, UK, September 5-8, 1994, Proceedings_. Ed. by C. MacNish, D. Pearce and L. Pereira. Vol. 838. Lecture Notes in Computer Science. Springer, 1994, pp. 198-216. DOI: [10.1007/BFB0021973](https://doi.org/10.1007%2FBFB0021973). URL: [https://doi.org/10.1007/BFb0021973](https://doi.org/10.1007/BFb0021973).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Aguilera1994a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Gabriel Aguilera and Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Logics in Artificial Intelligence, European Workshop, {JELIA} '94, York, UK, September 5-8, 1994, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {TAS-D\({}^{\mbox{++}}\): Syntactic Trees Transformations for Automated Theorem Proving},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1994},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Craig MacNish and David Pearce and Lu\'\is Moniz Pereira},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {198--216},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {838},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/jelia/AguileraGO94.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/BFB0021973},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 26 May 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/BFb0021973},<br>}
+
+:::
+
+
+
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aguilera_1995></a>[[1]](#cite-Aguilera_1995) G. Aguilera, I. P. de Guzmán, and M. Ojeda. “Increasing the efficiency of automated theorem proving”. In: _Journal of Applied Non-Classical Logics_ 5.1 (Jan. 1995), p. 9–29. ISSN: 1958-5780. DOI: [10.1080/11663081.1995.10510841](https://doi.org/10.1080%2F11663081.1995.10510841). URL: [http://dx.doi.org/10.1080/11663081.1995.10510841](http://dx.doi.org/10.1080/11663081.1995.10510841).
+
+<a name=bib-Cordero_2000></a>[[2]](#cite-Cordero_2000) P. Cordero, M. Enciso, and I. P. de Guzmán. “A temporal negative normal form which preserves implicants and implicates”. In: _Journal of Applied Non-Classical Logics_ 10.3–4 (Jan. 2000), p. 243–272. ISSN: 1958-5780. DOI: [10.1080/11663081.2000.10510999](https://doi.org/10.1080%2F11663081.2000.10510999). URL: [http://dx.doi.org/10.1080/11663081.2000.10510999](http://dx.doi.org/10.1080/11663081.2000.10510999).
+
+<a name=bib-Enciso_1996></a>[[3]](#cite-Enciso_1996) M. Enciso, I. P. Guzmán, and C. Rossi. “Temporal reasoning over linear discrete time”. In: _Logics in Artificial Intelligence_. Springer Berlin Heidelberg, 1996, p. 303–319. ISBN: 9783540706434. DOI: [10.1007/3-540-61630-6_22](https://doi.org/10.1007%2F3-540-61630-6_22). URL: [http://dx.doi.org/10.1007/3-540-61630-6_22](http://dx.doi.org/10.1007/3-540-61630-6_22).
+

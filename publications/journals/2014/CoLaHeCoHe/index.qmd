@@ -1,0 +1,128 @@
+---
+title: Multi-adjoint concept lattices with heterogeneous conjunctors and hedges
+author:
+- Jan Konecny
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2014'
+categories: uncategorised
+slug: 2014/CoLaHeCoHe
+details: Ann. Math. Artif. Intell. vol. 72 (1-2), pages 73--89.
+doi: 10.1007/S10472-014-9405-Y
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Konecny2014></a>[[KMO14]](#cite-Konecny2014) J. Konecny, J. Medina, and M. Ojeda-Aciego. “Multi-adjoint concept lattices with heterogeneous conjunctors and hedges”. In: _Ann. Math. Artif. Intell._ 72.1-2 (2014), pp. 73-89. DOI: [10.1007/S10472-014-9405-Y](https://doi.org/10.1007%2FS10472-014-9405-Y). URL: [https://doi.org/10.1007/s10472-014-9405-y](https://doi.org/10.1007/s10472-014-9405-y).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Konecny2014,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jan Konecny and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Ann. Math. Artif. Intell.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Multi-adjoint concept lattices with heterogeneous conjunctors and hedges},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {73--89},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {72},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/amai/KonecnyMO14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/S10472-014-9405-Y},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/s10472-014-9405-y},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/S10472-014-9405-Y" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/S10472-014-9405-Y" class="plumx-details" data-site="plum" data-hide-when-empty="true">Multi-adjoint concept lattices with heterogeneous conjunctors and hedges</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/S10472-014-9405-Y"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2016></a>[[1]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[2]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Antoni_20181></a>[[3]](#cite-Antoni_20181) L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 36–53. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.006](https://doi.org/10.1016%2Fj.fss.2017.04.006). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.006](http://dx.doi.org/10.1016/j.fss.2017.04.006).
+
+<a name=bib-Antoni_2015></a>[[4]](#cite-Antoni_2015) L. Antoni, S. Krajči, and O. Krídlo. “Randomized Fuzzy Formal Contexts and Relevance of One-Sided Concepts”. In: _Formal Concept Analysis_. Springer International Publishing, 2015, p. 183–199. ISBN: 9783319195452. DOI: [10.1007/978-3-319-19545-2_12](https://doi.org/10.1007%2F978-3-319-19545-2_12). URL: [http://dx.doi.org/10.1007/978-3-319-19545-2_12](http://dx.doi.org/10.1007/978-3-319-19545-2_12).
+
+<a name=bib-Antoni_2017></a>[[5]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Bartl_2016></a>[[6]](#cite-Bartl_2016) E. Bartl and M. Krupka. “Residuated lattices of block relations: size reduction of concept lattices”. In: _International Journal of General Systems_ 45.7–8 (May. 2016), p. 773–789. ISSN: 1563-5104. DOI: [10.1080/03081079.2016.1144601](https://doi.org/10.1080%2F03081079.2016.1144601). URL: [http://dx.doi.org/10.1080/03081079.2016.1144601](http://dx.doi.org/10.1080/03081079.2016.1144601).
+
+<a name=bib-Ben_tez_Caballero_2020></a>[[7]](#cite-Ben_tez_Caballero_2020) M. J. Benítez-Caballero, J. Medina, E. Ramírez-Poussa, et al. “Rough-set-driven approach for attribute reduction in fuzzy formal concept analysis”. In: _Fuzzy Sets and Systems_ 391 (Jul. 2020), p. 117–138. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.11.009](https://doi.org/10.1016%2Fj.fss.2019.11.009). URL: [http://dx.doi.org/10.1016/j.fss.2019.11.009](http://dx.doi.org/10.1016/j.fss.2019.11.009).
+
+<a name=bib-Cornejo_Pi_ero_2014></a>[[8]](#cite-Cornejo_Pi_ero_2014) M. E. Cornejo Piñero, J. Medina-Moreno, and E. Ramírez-Poussa. “Fuzzy-Attributes and a Method to Reduce Concept Lattices”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 189–200. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_20](https://doi.org/10.1007%2F978-3-319-08644-6_20). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_20](http://dx.doi.org/10.1007/978-3-319-08644-6_20).
+
+<a name=bib-Cornejo_2017></a>[[9]](#cite-Cornejo_2017) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “Attribute and size reduction mechanisms in multi-adjoint concept lattices”. In: _Journal of Computational and Applied Mathematics_ 318 (Jul. 2017), p. 388–402. ISSN: 0377-0427. DOI: [10.1016/j.cam.2016.07.012](https://doi.org/10.1016%2Fj.cam.2016.07.012). URL: [http://dx.doi.org/10.1016/j.cam.2016.07.012](http://dx.doi.org/10.1016/j.cam.2016.07.012).
+
+<a name=bib-Cornejo_2015></a>[[10]](#cite-Cornejo_2015) M. E. Cornejo, J. Medina, and E. Ramírez-Poussa. “On the use of irreducible elements for reducing multi-adjoint concept lattices”. In: _Knowledge-Based Systems_ 89 (Nov. 2015), p. 192–202. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2015.07.003](https://doi.org/10.1016%2Fj.knosys.2015.07.003). URL: [http://dx.doi.org/10.1016/j.knosys.2015.07.003](http://dx.doi.org/10.1016/j.knosys.2015.07.003).
+
+<a name=bib-De_Maio_2015></a>[[11]](#cite-De_Maio_2015) C. De Maio, G. Fenza, V. Loia, et al. “Online query-focused twitter summarizer through fuzzy lattice”. In: _2015 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Aug. 2015, p. 1–8. DOI: [10.1109/fuzz-ieee.2015.7337927](https://doi.org/10.1109%2Ffuzz-ieee.2015.7337927). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2015.7337927](http://dx.doi.org/10.1109/fuzz-ieee.2015.7337927).
+
+<a name=bib-Eklund_2014></a>[[12]](#cite-Eklund_2014) P. Eklund, M. Á. Galán García, J. Kortelainen, et al. “Monadic Formal Concept Analysis”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 201–210. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_21](https://doi.org/10.1007%2F978-3-319-08644-6_21). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_21](http://dx.doi.org/10.1007/978-3-319-08644-6_21).
+
+<a name=bib-Kardo__2016></a>[[13]](#cite-Kardo__2016) F. Kardoš, J. Pócs, and J. Pócsová. “On concept reduction based on some graph properties”. In: _Knowledge-Based Systems_ 93 (Feb. 2016), p. 67–74. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2015.11.003](https://doi.org/10.1016%2Fj.knosys.2015.11.003). URL: [http://dx.doi.org/10.1016/j.knosys.2015.11.003](http://dx.doi.org/10.1016/j.knosys.2015.11.003).
+
+<a name=bib-Konecny_2014></a>[[14]](#cite-Konecny_2014) J. Konecny and P. Osicka. “Triadic concept lattices in the framework of aggregation structures”. In: _Information Sciences_ 279 (Sep. 2014), p. 512–527. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.04.006](https://doi.org/10.1016%2Fj.ins.2014.04.006). URL: [http://dx.doi.org/10.1016/j.ins.2014.04.006](http://dx.doi.org/10.1016/j.ins.2014.04.006).
+
+<a name=bib-Kridlo_2017></a>[[15]](#cite-Kridlo_2017) O. Kridlo and M. Ojeda-Aciego. “Extending formal concept analysis using intuitionistic l-fuzzy sets”. In: _2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)_. IEEE, Jul. 2017, p. 1–6. DOI: [10.1109/fuzz-ieee.2017.8015570](https://doi.org/10.1109%2Ffuzz-ieee.2017.8015570). URL: [http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570](http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570).
+
+<a name=bib-Kridlo_20171></a>[[16]](#cite-Kridlo_20171) O. Kridlo and M. Ojeda-Aciego. “Towards intuitionistic L-fuzzy formal t-concepts”. In: _2017 Joint 17th World Congress of International Fuzzy Systems Association and 9th International Conference on Soft Computing and Intelligent Systems (IFSA-SCIS)_. IEEE, Jun. 2017, p. 1–6. DOI: [10.1109/ifsa-scis.2017.8023268](https://doi.org/10.1109%2Fifsa-scis.2017.8023268). URL: [http://dx.doi.org/10.1109/ifsa-scis.2017.8023268](http://dx.doi.org/10.1109/ifsa-scis.2017.8023268).
+
+<a name=bib-Krupka_2018></a>[[17]](#cite-Krupka_2018) M. Krupka. “Basic theorem of fuzzy concept lattices revisited”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 54–70. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.007](https://doi.org/10.1016%2Fj.fss.2017.04.007). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.007](http://dx.doi.org/10.1016/j.fss.2017.04.007).
+
+<a name=bib-Madrid_2021></a>[[18]](#cite-Madrid_2021) N. Madrid and M. Ojeda-Aciego. “Multi-adjoint lattices from adjoint triples with involutive negation”. In: _Fuzzy Sets and Systems_ 405 (Feb. 2021), p. 88–105. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.12.004](https://doi.org/10.1016%2Fj.fss.2019.12.004). URL: [http://dx.doi.org/10.1016/j.fss.2019.12.004](http://dx.doi.org/10.1016/j.fss.2019.12.004).
+
+<a name=bib-Madrid_2023></a>[[19]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Madrid_2019></a>[[20]](#cite-Madrid_2019) N. Madrid, M. Ojeda-Aciego, J. Medina, et al. “L-fuzzy relational mathematical morphology based on adjoint triples”. In: _Information Sciences_ 474 (Feb. 2019), p. 75–89. ISSN: 0020-0255. DOI: [10.1016/j.ins.2018.09.028](https://doi.org/10.1016%2Fj.ins.2018.09.028). URL: [http://dx.doi.org/10.1016/j.ins.2018.09.028](http://dx.doi.org/10.1016/j.ins.2018.09.028).
+
+<a name=bib-Pang_2024></a>[[21]](#cite-Pang_2024) K. Pang, C. Fu, L. Martínez, et al. “An extended multi-expert concept lattice-based heterogeneous multi-attribute group decision-making approach”. In: _Information Sciences_ 665 (Apr. 2024), p. 120345. ISSN: 0020-0255. DOI: [10.1016/j.ins.2024.120345](https://doi.org/10.1016%2Fj.ins.2024.120345). URL: [http://dx.doi.org/10.1016/j.ins.2024.120345](http://dx.doi.org/10.1016/j.ins.2024.120345).
+
+<a name=bib-Smatana_2016></a>[[22]](#cite-Smatana_2016) M. Smatana and P. Butka. “Extraction of keyphrases from single document based on hierarchical concepts”. In: _2016 IEEE 14th International Symposium on Applied Machine Intelligence and Informatics (SAMI)_. IEEE, Jan. 2016, p. 93–98. DOI: [10.1109/sami.2016.7422988](https://doi.org/10.1109%2Fsami.2016.7422988). URL: [http://dx.doi.org/10.1109/sami.2016.7422988](http://dx.doi.org/10.1109/sami.2016.7422988).
+
+<a name=bib-Vukadinovi__2019></a>[[23]](#cite-Vukadinovi__2019) D. Vukadinović, T. D. Nguyen, C. H. Nguyen, et al. “Hedge-Algebra-Based Phase-Locked Loop for Distorted Utility Conditions”. In: _Journal of Control Science and Engineering_ 2019 (Mar. 2019), p. 1–17. ISSN: 1687-5257. DOI: [10.1155/2019/3590527](https://doi.org/10.1155%2F2019%2F3590527). URL: [http://dx.doi.org/10.1155/2019/3590527](http://dx.doi.org/10.1155/2019/3590527).
+
+<a name=bib-Vychodil_2016></a>[[24]](#cite-Vychodil_2016) V. Vychodil. “Computing sets of graded attribute implications with witnessed non-redundancy”. In: _Information Sciences_ 351 (Jul. 2016), p. 90–100. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.03.004](https://doi.org/10.1016%2Fj.ins.2016.03.004). URL: [http://dx.doi.org/10.1016/j.ins.2016.03.004](http://dx.doi.org/10.1016/j.ins.2016.03.004).
+
+<a name=bib-Vychodil_20161></a>[[25]](#cite-Vychodil_20161) V. Vychodil. “Parameterizing the Semantics of Fuzzy Attribute Implications by Systems of Isotone Galois Connections”. In: _IEEE Transactions on Fuzzy Systems_ 24.3 (Jun. 2016), p. 645–660. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2015.2470530](https://doi.org/10.1109%2Ftfuzz.2015.2470530). URL: [http://dx.doi.org/10.1109/tfuzz.2015.2470530](http://dx.doi.org/10.1109/tfuzz.2015.2470530).
+

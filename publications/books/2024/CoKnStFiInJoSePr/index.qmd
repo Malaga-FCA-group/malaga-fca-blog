@@ -1,0 +1,45 @@
+---
+title: Conceptual Knowledge Structures - First International Joint Conference, {CONCEPTS}
+  2024, C{\'{a}}diz, Spain, September 9-13, 2024, Proceedings
+author: ''
+date: '2024'
+categories: uncategorised
+slug: 2024/CoKnStFiInJoSePr
+details: []
+doi: 10.1007/978-3-031-67868-4
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2024a></a>[[CFO24]](#cite-Cabrera2024a) I. P. Cabrera, S. Ferré, and S. A. Obiedkov, ed. _Conceptual Knowledge Structures - First International Joint Conference, CONCEPTS 2024, Cádiz, Spain, September 9-13, 2024, Proceedings_. Vol. 14914. Lecture Notes in Computer Science. Springer, 2024. ISBN: 978-3-031-67867-7. DOI: [10.1007/978-3-031-67868-4](https://doi.org/10.1007%2F978-3-031-67868-4). URL: [https://doi.org/10.1007/978-3-031-67868-4](https://doi.org/10.1007/978-3-031-67868-4).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Cabrera2024a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Conceptual Knowledge Structures - First International Joint Conference, {CONCEPTS} 2024, C{\'{a}}diz, Spain, September 9-13, 2024, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2024},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Inma P. Cabrera and S{\a'e}bastien Ferr{\a'e} and Sergei A. Obiedkov},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-031-67867-7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {14914},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/concepts/2024.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-67868-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 12 Aug 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-67868-4},<br>}
+
+:::
+
+
+
+
+
+
+
+

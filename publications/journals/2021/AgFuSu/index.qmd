@@ -1,0 +1,104 @@
+---
+title: Aggregation of fuzzy subgroups
+author:
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+- María Jesús Chasco
+- Jorge Elorza
+date: '2021'
+categories: uncategorised
+slug: 2021/AgFuSu
+details: Fuzzy Sets Syst. vol. 418 , pages 170--184.
+doi: 10.1016/J.FSS.2020.05.017
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bejines2021b></a>[[BCE21]](#cite-Bejines2021b) C. Bejines, M. Chasco, and J. Elorza. “Aggregation of fuzzy subgroups”. In: _Fuzzy Sets Syst._ 418 (2021), pp. 170-184. DOI: [10.1016/J.FSS.2020.05.017](https://doi.org/10.1016%2FJ.FSS.2020.05.017). URL: [https://doi.org/10.1016/j.fss.2020.05.017](https://doi.org/10.1016/j.fss.2020.05.017).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bejines2021b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Carlos Bejines and Mar\'\ia Jes{\a'u}s Chasco and Jorge Elorza},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Aggregation of fuzzy subgroups},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2021},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {170--184},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {418},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/BejinesCE21.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2020.05.017},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 09 Apr 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2020.05.017},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2020.05.017" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2020.05.017" class="plumx-details" data-site="plum" data-hide-when-empty="true">Aggregation of fuzzy subgroups</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2020.05.017"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Ardanza_Trevijano_2023></a>[[1]](#cite-Ardanza_Trevijano_2023) S. Ardanza-Trevijano, M. Chasco, J. Elorza, et al. “Aggregation of T-subgroups”. In: _Fuzzy Sets and Systems_ 463 (Jul. 2023), p. 108390. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.08.022](https://doi.org/10.1016%2Fj.fss.2022.08.022). URL: [http://dx.doi.org/10.1016/j.fss.2022.08.022](http://dx.doi.org/10.1016/j.fss.2022.08.022).
+
+<a name=bib-Batunna_2024></a>[[2]](#cite-Batunna_2024) I. B. Batunna, H. O. Monim, and J. Sesa. “Study Of Fuzzy Groups In Z_p-0 Group”. In: _Jurnal Matematika, Statistika dan Komputasi_ 20.3 (May. 2024), p. 580–595. ISSN: 1858-1382. DOI: [10.20956/j.v20i3.31827](https://doi.org/10.20956%2Fj.v20i3.31827). URL: [http://dx.doi.org/10.20956/j.v20i3.31827](http://dx.doi.org/10.20956/j.v20i3.31827).
+
+<a name=bib-Bejines_2023></a>[[3]](#cite-Bejines_2023) C. Bejines. “Aggregation of fuzzy vector spaces”. In: _Kybernetika_ (Dec. 2023), p. 752–767. ISSN: 1805-949X. DOI: [10.14736/kyb-2023-5-0752](https://doi.org/10.14736%2Fkyb-2023-5-0752). URL: [http://dx.doi.org/10.14736/kyb-2023-5-0752](http://dx.doi.org/10.14736/kyb-2023-5-0752).
+
+<a name=bib-Bejines_2021></a>[[4]](#cite-Bejines_2021) C. Bejines, S. Ardanza-Trevijano, and J. Elorza. “On Self-Aggregations of Min-Subgroups”. In: _Axioms_ 10.3 (Aug. 2021), p. 201. ISSN: 2075-1680. DOI: [10.3390/axioms10030201](https://doi.org/10.3390%2Faxioms10030201). URL: [http://dx.doi.org/10.3390/axioms10030201](http://dx.doi.org/10.3390/axioms10030201).
+
+<a name=bib-Bejines_2024></a>[[5]](#cite-Bejines_2024) C. Bejines, M. Ojeda-Hernández, and D. López-Rodríguez. “Analysis of Fuzzy Vector Spaces as an Algebraic Framework for Flag Codes”. In: _Mathematics_ 12.3 (Feb. 2024), p. 498. ISSN: 2227-7390. DOI: [10.3390/math12030498](https://doi.org/10.3390%2Fmath12030498). URL: [http://dx.doi.org/10.3390/math12030498](http://dx.doi.org/10.3390/math12030498).
+
+<a name=bib-Kousar_2022></a>[[6]](#cite-Kousar_2022) S. Kousar, T. Saleem, N. Kausar, et al. “Homomorphisms of Lattice-Valued Intuitionistic Fuzzy Subgroup Type-3”. In: _Computational Intelligence and Neuroscience_ 2022 (Apr. 2022). Ed. by A. M. Anter, p. 1–11. ISSN: 1687-5265. DOI: [10.1155/2022/6847138](https://doi.org/10.1155%2F2022%2F6847138). URL: [http://dx.doi.org/10.1155/2022/6847138](http://dx.doi.org/10.1155/2022/6847138).
+
+<a name=bib-Kura__2023></a>[[7]](#cite-Kura__2023) Z. Kurač. “Transfer-stable aggregation functions: Applications, challenges, and emerging trends”. In: _Decision Analytics Journal_ 7 (Jun. 2023), p. 100210. ISSN: 2772-6622. DOI: [10.1016/j.dajour.2023.100210](https://doi.org/10.1016%2Fj.dajour.2023.100210). URL: [http://dx.doi.org/10.1016/j.dajour.2023.100210](http://dx.doi.org/10.1016/j.dajour.2023.100210).
+
+<a name=bib-Masmali_2022></a>[[8]](#cite-Masmali_2022) I. Masmali, U. Shuaib, A. Razaq, et al. “On Fundamental Algebraic Characterizations of<a:math xmlns:a="http://www.w3.org/1998/Math/MathML" id="M1"><a:mi>μ</a:mi></a:math>-Fuzzy Normal Subgroups”. In: _Journal of Function Spaces_ 2022 (May. 2022). Ed. by M. S. Abdo, p. 1–10. ISSN: 2314-8896. DOI: [10.1155/2022/2703489](https://doi.org/10.1155%2F2022%2F2703489). URL: [http://dx.doi.org/10.1155/2022/2703489](http://dx.doi.org/10.1155/2022/2703489).
+
+<a name=bib-Pedraza_2020></a>[[9]](#cite-Pedraza_2020) T. Pedraza and J. Rodríguez-López. “Aggregation of L-Probabilistic Quasi-Uniformities”. In: _Mathematics_ 8.11 (Nov. 2020), p. 1980. ISSN: 2227-7390. DOI: [10.3390/math8111980](https://doi.org/10.3390%2Fmath8111980). URL: [http://dx.doi.org/10.3390/math8111980](http://dx.doi.org/10.3390/math8111980).
+
+<a name=bib-Talavera_2025></a>[[10]](#cite-Talavera_2025) F. J. Talavera, S. Ardanza-Trevijano, J. Bragard, et al. “New types of domination to characterize the preservation of T-subgroups under aggregation”. In: _Fuzzy Sets and Systems_ 498 (Jan. 2025), p. 109139. ISSN: 0165-0114. DOI: [10.1016/j.fss.2024.109139](https://doi.org/10.1016%2Fj.fss.2024.109139). URL: [http://dx.doi.org/10.1016/j.fss.2024.109139](http://dx.doi.org/10.1016/j.fss.2024.109139).
+
+<a name=bib-Talavera_2024></a>[[11]](#cite-Talavera_2024) F. J. Talavera, C. Bejines, S. Ardanza-Trevijano, et al. “Aggregation of fuzzy graphs”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109243. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109243](https://doi.org/10.1016%2Fj.ijar.2024.109243). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109243](http://dx.doi.org/10.1016/j.ijar.2024.109243).
+
+<a name=bib-Talavera_2023></a>[[12]](#cite-Talavera_2023) F. Talavera, S. Ardanza-Trevijano, J. Bragard, et al. “Aggregation of T-subgroups of groups whose subgroup lattice is a chain”. In: _Fuzzy Sets and Systems_ 473 (Dec. 2023), p. 108717. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108717](https://doi.org/10.1016%2Fj.fss.2023.108717). URL: [http://dx.doi.org/10.1016/j.fss.2023.108717](http://dx.doi.org/10.1016/j.fss.2023.108717).
+
+<a name=bib-Tian_2022></a>[[13]](#cite-Tian_2022) X. Tian, J. Ma, L. Li, et al. “Development of prospect theory in decision making with different types of fuzzy sets: A state-of-the-art literature review”. In: _Information Sciences_ 615 (Nov. 2022), p. 504–528. ISSN: 0020-0255. DOI: [10.1016/j.ins.2022.10.016](https://doi.org/10.1016%2Fj.ins.2022.10.016). URL: [http://dx.doi.org/10.1016/j.ins.2022.10.016](http://dx.doi.org/10.1016/j.ins.2022.10.016).
+

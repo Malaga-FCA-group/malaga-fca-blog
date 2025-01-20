@@ -1,0 +1,36 @@
+---
+title: Analyzing completeness of axiomatic functional systems for temporal {\texttimes}
+  modal logics
+author:
+- Alfredo Burrieza
+- Inmaculada Perez de Guzmán
+- ejmunoz
+date: '2010'
+categories: uncategorised
+slug: 2010/AnCoAxFuSyTeMoLo
+details: Math. Log. Q. vol. 56 (1), pages 89--102.
+doi: 10.1002/MALQ.200810038
+
+---
+
+
+# Abstract
+
+
+Abstract In previous works, we presented a modification of the usual possible world semantics by introducing an independent temporal structure in each world and using accessibility functions to represent the relation among them. Different properties ofthe accessibility functions (being injective, surjective, increasing, etc.) have been considered and axiomatic systems (called functional) which define these properties have been given. Only a few ofthese systems have been proved tobe complete. The aim ofthis paper is to make a progress in the study ofcompleteness for functional systems. For this end, we use indexes as names for temporal flows and give new proofs of completeness. Specifically, we focus our attention on the system which defines injectivity, because the system which defines this property without using indexes was proved to be incomplete in previous works. The only system considered which remains incomplete is the one which defines surjectivity, even ifwe consider a sequence ofnatural extensions ofthe previous one (© 2010 WILEY‐VCH Verlag GmbH &amp; Co. KGaA, Weinheim)
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

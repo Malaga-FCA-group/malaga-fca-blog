@@ -1,0 +1,45 @@
+---
+title: Proceedings of the 7th Workshop on Methods for Modalities, {M4M} 2011, and
+  the 4th Workshop on Logical Aspects of Multi-Agent Systems, {LAMAS} 2011, Osuna,
+  Spain, November 10-12, 2011
+author: ''
+date: '2011'
+categories: uncategorised
+slug: 2011/PrWoMeWoLoAsNo
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Ditmarsch2011a></a>[[Dit+11]](#cite-Ditmarsch2011a) H. van Ditmarsch, D. Fernández-Duque, V. Goranko, et al., ed. _Proceedings of the 7th Workshop on Methods for Modalities, M4M 2011, and the 4th Workshop on Logical Aspects of Multi-Agent Systems, LAMAS 2011, Osuna, Spain, November 10-12, 2011_. Vol. 278. Electronic Notes in Theoretical Computer Science. Elsevier, 2011. URL: [https://www.sciencedirect.com/journal/electronic-notes-in-theoretical-computer-science/vol/278/suppl/C](https://www.sciencedirect.com/journal/electronic-notes-in-theoretical-computer-science/vol/278/suppl/C).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Ditmarsch2011a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Proceedings of the 7th Workshop on Methods for Modalities, {M4M} 2011, and the 4th Workshop on Logical Aspects of Multi-Agent Systems, {LAMAS} 2011, Osuna, Spain, November 10-12, 2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Hans {van Ditmarsch} and David Fern{\a'a}ndez-Duque and Valentin Goranko and Wojciech Jamroga and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Elsevier},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Electronic Notes in Theoretical Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {278},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/m4m/2011.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.sciencedirect.com/journal/electronic-notes-in-theoretical-computer-science/vol/278/suppl/C},<br>}
+
+:::
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+---
+title: Proceedings of the 2nd International Workshop on Soft Computing Applications
+  and Knowledge Discovery {(SCAKD} 2016) co-located with the 13th International Conference
+  on Concept Lattices and Their Applications {(CLA} 2016), Moscow, Russia, July 18,
+  2016
+author: ''
+date: '2016'
+categories: uncategorised
+slug: 2016/PrInWoSoCoApKnDiInCoCoLaApJu
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2016a></a>[[OIL16]](#cite-OjedaAciego2016a) M. Ojeda-Aciego, D. I. Ignatov, and A. Lepskiy, ed. _Proceedings of the 2nd International Workshop on Soft Computing Applications and Knowledge Discovery (SCAKD 2016) co-located with the 13th International Conference on Concept Lattices and Their Applications (CLA 2016), Moscow, Russia, July 18, 2016_. Vol. 1687. CEUR Workshop Proceedings. CEUR-WS.org, 2016. URL: [https://ceur-ws.org/Vol-1687](https://ceur-ws.org/Vol-1687).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{OjedaAciego2016a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Proceedings of the 2nd International Workshop on Soft Computing Applications and Knowledge Discovery {(SCAKD} 2016) co-located with the 13th International Conference on Concept Lattices and Their Applications {(CLA} 2016), Moscow, Russia, July 18, 2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Manuel Ojeda-Aciego and Dmitry I. Ignatov and Alexander Lepskiy},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1687},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/2016scakd.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-1687},<br>&nbsp;&nbsp;&nbsp;&nbsp;  urn = {urn:nbn:de:0074-1687-2},<br>}
+
+:::
+
+
+
+
+
+
+
+

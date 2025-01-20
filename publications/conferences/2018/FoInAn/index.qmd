@@ -1,0 +1,95 @@
+---
+title: Formal Independence Analysis
+author:
+- Francisco J. Valverde-Albacete
+- Carmen Peláez-Moreno
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2018'
+categories: uncategorised
+slug: 2018/FoInAn
+details: Information Processing and Management of Uncertainty in Knowledge-Based Systems.
+  Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz,
+  Spain, June 11-15, 2018, Proceedings, Part {I} , Communications in Computer and
+  Information Science vol. 853, pages 596--608.
+doi: 10.1007/978-3-319-91473-2_51
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-ValverdeAlbacete2018a></a>[[Val+18]](#cite-ValverdeAlbacete2018a) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Formal Independence Analysis”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, IPMU 2018, Cádiz, Spain, June 11-15, 2018, Proceedings, Part I_. Ed. by J. Medina, M. Ojeda-Aciego, J. L. V. Galdeano, D. A. Pelta, I. P. Cabrera, B. Bouchon-Meunier and R. R. Yager. Vol. 853. Communications in Computer and Information Science. Springer, 2018, pp. 596-608. DOI: [10.1007/978-3-319-91473-2\_51](https://doi.org/10.1007%2F978-3-319-91473-2%5C_51). URL: [https://doi.org/10.1007/978-3-319-91473-2\_51](https://doi.org/10.1007/978-3-319-91473-2\_51).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{ValverdeAlbacete2018a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisco J. Valverde-Albacete and Carmen Pel{\a'a}ez-Moreno and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz, Spain, June 11-15, 2018, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Formal Independence Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jos{\a'e} Luis Verdegay Galdeano and David A. Pelta and Inma P. Cabrera and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {596--608},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {853},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/Valverde-Albacete18.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-91473-2\_51},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 08:57:40 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-91473-2\_51},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-91473-2_51" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-91473-2_51" class="plumx-details" data-site="plum" data-hide-when-empty="true">Formal Independence Analysis</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-91473-2_51"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Arag_n_2024></a>[[1]](#cite-Arag_n_2024) R. G. Aragón, J. Medina, and S. Molina-Ruiz. “The Notion of Bond in the Multi-adjoint Concept Lattice Framework”. In: _Advances in Artificial Intelligence_. Springer Nature Switzerland, 2024, p. 243–253. ISBN: 9783031627996. DOI: [10.1007/978-3-031-62799-6_25](https://doi.org/10.1007%2F978-3-031-62799-6_25). URL: [http://dx.doi.org/10.1007/978-3-031-62799-6_25](http://dx.doi.org/10.1007/978-3-031-62799-6_25).
+
+<a name=bib-Barbot_2019></a>[[2]](#cite-Barbot_2019) N. Barbot, L. Miclet, and H. Prade. “Analogy between concepts”. In: _Artificial Intelligence_ 275 (Oct. 2019), p. 487–539. ISSN: 0004-3702. DOI: [10.1016/j.artint.2019.06.008](https://doi.org/10.1016%2Fj.artint.2019.06.008). URL: [http://dx.doi.org/10.1016/j.artint.2019.06.008](http://dx.doi.org/10.1016/j.artint.2019.06.008).
+
+<a name=bib-Ignatov_2023></a>[[3]](#cite-Ignatov_2023) D. I. Ignatov. “A Note on the Number of (Maximal) Antichains in the Lattice of Set Partitions”. In: _Graph-Based Representation and Reasoning_. Springer Nature Switzerland, 2023, p. 56–69. ISBN: 9783031409608. DOI: [10.1007/978-3-031-40960-8_6](https://doi.org/10.1007%2F978-3-031-40960-8_6). URL: [http://dx.doi.org/10.1007/978-3-031-40960-8_6](http://dx.doi.org/10.1007/978-3-031-40960-8_6).
+
+<a name=bib-Valverde_Albacete_2019></a>[[4]](#cite-Valverde_Albacete_2019) F. J. Valverde Albacete, C. Peláez-Moreno, P. Cordero, et al. “Formal Equivalence Analysis”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.109](https://doi.org/10.2991%2Feusflat-19.2019.109). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.109](http://dx.doi.org/10.2991/eusflat-19.2019.109).
+
+<a name=bib-Valverde_Albacete_2021></a>[[5]](#cite-Valverde_Albacete_2021) F. J. Valverde-Albacete and C. Peláez-Moreno. “Four-Fold Formal Concept Analysis Based on Complete Idempotent Semifields”. In: _Mathematics_ 9.2 (Jan. 2021), p. 173. ISSN: 2227-7390. DOI: [10.3390/math9020173](https://doi.org/10.3390%2Fmath9020173). URL: [http://dx.doi.org/10.3390/math9020173](http://dx.doi.org/10.3390/math9020173).
+
+<a name=bib-Valverde_Albacete_2022></a>[[6]](#cite-Valverde_Albacete_2022) F. J. Valverde-Albacete, C. Peláez-Moreno, I. P. Cabrera, et al. “Encoding Non-global Time Representations into the Lattice of Divisibility”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2022, p. 118–129. ISBN: 9783031089718. DOI: [10.1007/978-3-031-08971-8_11](https://doi.org/10.1007%2F978-3-031-08971-8_11). URL: [http://dx.doi.org/10.1007/978-3-031-08971-8_11](http://dx.doi.org/10.1007/978-3-031-08971-8_11).
+

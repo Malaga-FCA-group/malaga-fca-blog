@@ -1,0 +1,35 @@
+---
+title: Una forma normal temporal independiente del m{\'{e}}todo de deducci{\'{o}}n
+author:
+- enciso
+- Inmaculada Perez de Guzmán
+- Carlos Rossi
+date: '2004'
+categories: uncategorised
+slug: 2004/FoNoTeIn
+details: Inteligencia Artif. vol. 8 (23), pages 27--45.
+doi: []
+
+---
+
+
+# Abstract
+
+
+A temporal normal form non-dependent on the deduction methodIn this work we present the definition of a new normal form in the area of Modal Temporal Logic. We have selected LNint-e as our target temporal logic. This choice is motivated by the LNint-e characteristics: itcombines points and intervals in a very natural way and the absolute and relative approches time. In the definition of the new normal form we have in mind one main goal: to get a normal form which is not tied on an specific deduction method. Such an independent normal form may be used as a preprocesing task by any automated theorem prover (resolution, semantic tableaux, etc) or even by any deduction method (like model checking) to improve their performance. Thus, the normalization process is not based on a formulae preprocesing which allows (or eases) the treatment by a particular method, but it is guided bythe reduction in the complexity of the formulae itself. The new definition is based on the notion of temporal literal. Temporal literals allow the construction of equivalence transformations which reduce the complexity of the input formula. Among this equivalence transformations, we must remark those which allows the elimination of binary temporal connectives. This kind of transformation are a novelty in the literature. Our proposal have been tested using a Prolog implementation of the normalization process. Thus, the practical benefits of this work have been stablished.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

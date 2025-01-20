@@ -1,0 +1,36 @@
+---
+title: A flexible logic-based approach to closeness using order of magnitude qualitative
+  reasoning
+author:
+- Alfredo Burrieza
+- ejmunoz
+- aciego
+date: '2020'
+categories: uncategorised
+slug: 2020/FlApClUsOrMaQuRe
+details: Log. J. {IGPL} vol. 28 (1), pages 121--133.
+doi: 10.1093/JIGPAL/JZZ076
+
+---
+
+
+# Abstract
+
+
+Abstract In this paper, we focus on a logical approach to the important notion of closeness, which has not received much attention in the literature. Our notion of closeness is based on the so-called proximity intervals, which will be used to decide the elements that are close to each other. Some of the intuitions of this definition are explained on the basis of examples. We prove the decidability of the recently introduced multimodal logic for closeness and, then, we show some capabilities of the logic with respect to expressivity in order to denote particular positions of the proximity intervals.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

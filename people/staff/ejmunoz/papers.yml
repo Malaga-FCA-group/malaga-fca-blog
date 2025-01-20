@@ -1,3 +1,161 @@
+- title: Generalization of some properties of relations in the context of functional
+    temporal{\texttimes}modal logic
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2008'
+  details: Int. J. Comput. Math. vol. 85 (3{\&}4), pages 371--383.
+  path: /publications/journals/2008/GePrReCoFuLo
+- title: Dual tableau for a multimodal logic for order of magnitude qualitative reasoning
+    with bidirectional negligibility
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1707--1718.
+  path: /publications/journals/2009/DuTaMuLoOrMaQuReBiNe
+- title: Functional systems in the context of temporal{\texttimes}modal logics with
+    indexed flows
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2009'
+  details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1696--1706.
+  path: /publications/journals/2009/FuSyCoLoInFl
+- title: Relational approach for a logic for order of magnitude qualitative reasoning
+    with negligibility, non-closeness and distance
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2009'
+  details: Log. J. {IGPL} vol. 17 (4), pages 375--394.
+  path: /publications/journals/2009/ReApLoOrMaQuReDi
+- title: Analyzing completeness of axiomatic functional systems for temporal {\texttimes}
+    modal logics
+  author:
+  - Alfredo Burrieza
+  - Inmaculada Perez de Guzmán
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2010'
+  details: Math. Log. Q. vol. 56 (1), pages 89--102.
+  path: /publications/journals/2010/AnCoAxFuSyTeMoLo
+- title: A {PDL} Approach for Qualitative Velocity
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2011'
+  details: Int. J. Uncertain. Fuzziness Knowl. Based Syst. vol. 19 (1), pages 11--26.
+  path: /publications/journals/2011/ApQuVe
+- title: Implementing a relational theorem prover for modal logic
+  author:
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Joanna Golinska-Pilarek
+  date: '2011'
+  details: Int. J. Comput. Math. vol. 88 (9), pages 1869--1884.
+  path: /publications/journals/2011/ImReThPrMoLo
+- title: A new deduction system for deciding validity in modal logic {K}
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2011'
+  details: Log. J. {IGPL} vol. 19 (2), pages 425--434.
+  path: /publications/journals/2011/NeDeSyDeVaMoLo
+- title: Relational dual tableau decision procedure for modal logic {K}
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Angel Mora-Bonilla
+  date: '2012'
+  details: Log. J. {IGPL} vol. 20 (4), pages 747--756.
+  path: /publications/journals/2012/ReDuTaDePrMoLo
+- title: A logic framework for reasoning with movement based on fuzzy qualitative
+    representation
+  author:
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Alfredo Burrieza
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2014'
+  details: Fuzzy Sets Syst. vol. 242 , pages 114--131.
+  path: /publications/journals/2014/LoFrReMoBaFuQuRe
+- title: Relational dual tableau decision procedures and their applications to modal
+    and intuitionistic logics
+  author:
+  - Joanna Golinska-Pilarek
+  - Taneli Huuskonen
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2014'
+  details: Ann. Pure Appl. Log. vol. 165 (2), pages 409--427.
+  path: /publications/journals/2014/ReDuTaDePrApMoInLo
+- title: A hybrid qualitative approach for relative movements
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2015'
+  details: Log. J. {IGPL} vol. 23 (3), pages 410--420.
+  path: /publications/journals/2015/HyQuApReMo
+- title: On Sub-Propositional Fragments of Modal Logic
+  author:
+  - Davide Bresolin
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Guido Sciavicco
+  date: '2016'
+  details:
+    /Users/domingo/Documents/Repositorios/malaga-fca-blog/publications/journals/2016/FrMoLo/index.preqmd: []
+  path: /publications/journals/2016/FrMoLo
+- title: Horn Fragments of the Halpern-Shoham Interval Temporal Logic (Technical Report)
+  author:
+  - Davide Bresolin
+  - Agi Kurucz
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Vladislav Ryzhikov
+  - Guido Sciavicco
+  - Michael Zakharyaschev
+  date: '2016'
+  details:
+    /Users/domingo/Documents/Repositorios/malaga-fca-blog/publications/journals/2016/HoFrInTeLo/index.preqmd: []
+  path: /publications/journals/2016/HoFrInTeLo
+- title: 'Tableau reductions: Towards an optimal decision procedure for the modal
+    necessity'
+  author:
+  - Joanna Golinska-Pilarek
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+  date: '2016'
+  details: J. Appl. Log. vol. 17 , pages 14--24.
+  path: /publications/journals/2016/TaToOpDePrMoNe
+- title: Horn Fragments of the Halpern-Shoham Interval Temporal Logic
+  author:
+  - Davide Bresolin
+  - Agi Kurucz
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Vladislav Ryzhikov
+  - Guido Sciavicco
+  - Michael Zakharyaschev
+  date: '2017'
+  details: '{ACM} Trans. Comput. Log. vol. 18 (3), pages 22:1--22:39.'
+  path: /publications/journals/2017/HoFrInTeLo
+- title: A multimodal logic for closeness
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2017'
+  details: J. Appl. Non Class. Logics vol. 27 (3-4), pages 225--237.
+  path: /publications/journals/2017/MuLoCl
+- title: On Sub-Propositional Fragments of Modal Logic
+  author:
+  - Davide Bresolin
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - Guido Sciavicco
+  date: '2018'
+  details:
+    /Users/domingo/Documents/Repositorios/malaga-fca-blog/publications/journals/2018/FrMoLo/index.preqmd: []
+  path: /publications/journals/2018/FrMoLo
 - title: On coarser interval temporal logics
   author:
   - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
@@ -17,6 +175,23 @@
   date: '2019'
   details: Logic Journal of the IGPL vol. 28 (1), pages 121-133.
   path: /publications/journals/2019/FlApClUsOrMaQuRe
+- title: A Stable Qualitative Movement Control System Based on Propositional Dynamic
+    Logic
+  author:
+  - Przemyslaw Andrzej Walega
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  date: '2019'
+  details: J. Multiple Valued Log. Soft Comput. vol. 32 (3-4), pages 221--239.
+  path: /publications/journals/2019/StQuMoCoSyBaPrDyLo
+- title: A flexible logic-based approach to closeness using order of magnitude qualitative
+    reasoning
+  author:
+  - Alfredo Burrieza
+  - <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+  - <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+  date: '2020'
+  details: Log. J. {IGPL} vol. 28 (1), pages 121--133.
+  path: /publications/journals/2020/FlApClUsOrMaQuRe
 - title: 'Relational Galois connections between transitive digraphs: Characterization
     and construction'
   author:

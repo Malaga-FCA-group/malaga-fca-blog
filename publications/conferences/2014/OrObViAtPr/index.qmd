@@ -1,0 +1,49 @@
+---
+title: Ordering Objects via Attribute Preferences
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Jozef Pócs
+date: '2014'
+categories: uncategorised
+slug: 2014/OrObViAtPr
+details: Proceedings of the Eleventh International Conference on Concept Lattices
+  and Their Applications, Ko{\v{s}}ice, Slovakia, October 7-10, 2014 , {CEUR} Workshop
+  Proceedings vol. 1252, pages 157--168.
+---
+
+
+
+# Abstract
+
+
+We apply recent results on the construction of suitable orderings for the existence of right adjoint to the analysis of the following problem: given a preference ordering on the set of attributes of a given context, we seek an induced preference among the objects which is compatible with the information provided by the context.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2014a></a>[[COP14]](#cite-Cabrera2014a) I. P. Cabrera, M. Ojeda-Aciego, and J. Pócs. “Ordering Objects via Attribute Preferences”. In: _Proceedings of the Eleventh International Conference on Concept Lattices and Their Applications, Košice, Slovakia, October 7-10, 2014_. Ed. by K. Bertet and S. Rudolph. Vol. 1252. CEUR Workshop Proceedings. CEUR-WS.org, 2014, pp. 157-168. URL: [https://ceur-ws.org/Vol-1252/cla2014\_submission\_19.pdf](https://ceur-ws.org/Vol-1252/cla2014\_submission\_19.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2014a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Manuel Ojeda-Aciego and Jozef P{\a'o}cs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Eleventh International Conference on Concept Lattices and Their Applications, Ko{\v{s}}ice, Slovakia, October 7-10, 2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Ordering Objects via Attribute Preferences},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Karell Bertet and Sebastian Rudolph},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {157--168},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1252},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {We apply recent results on the construction of suitable orderings for the existence of right adjoint to the analysis of the following problem: given a preference ordering on the set of attributes of a given context, we seek an induced preference among the objects which is compatible with the information provided by the context.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/CabreraOP14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-1252/cla2014\_submission\_19.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

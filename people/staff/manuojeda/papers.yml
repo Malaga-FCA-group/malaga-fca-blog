@@ -37,6 +37,13 @@
   date: '2022-08-09T00:00:00Z'
   details: <em>International Journal of Computational Intelligence Systems</em>, 15:58
   path: /publications/journals/2022/MiGePoNeAnKnSpMaCo
+- title: Counting semicopulas on finite structures
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  date: '2023'
+  details: Fuzzy Sets Syst. vol. 462 , pages 108405.
+  path: /publications/journals/2023/CoSeFiSt
 - title: Fuzzy Algebras of Concepts
   author:
   - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>

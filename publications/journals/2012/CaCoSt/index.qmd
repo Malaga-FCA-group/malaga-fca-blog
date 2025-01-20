@@ -1,0 +1,115 @@
+---
+title: The Category of L-Chu Correspondences and the Structure of L-Bonds
+author:
+- Ondrej Kridlo
+- Stanislav Krajci
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2012'
+categories: uncategorised
+slug: 2012/CaCoSt
+details: Fundam. Informaticae vol. 115 (4), pages 297--325.
+doi: 10.3233/FI-2012-657
+---
+
+
+
+# Abstract
+
+
+An L-fuzzy generalization of the so-called Chu correspondences between formal contexts forms a category called L-ChuCors. In this work, we show that this category naturally embeds ChuCors and prove that it is *ast;-autonomous. We also focus on the di
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Kridlo2012></a>[[KKO12]](#cite-Kridlo2012) O. Kridlo, S. Krajci, and M. Ojeda-Aciego. “The Category of L-Chu Correspondences and the Structure of L-Bonds”. In: _Fundam. Informaticae_ 115.4 (2012), pp. 297-325. DOI: [10.3233/FI-2012-657](https://doi.org/10.3233%2FFI-2012-657). URL: [https://doi.org/10.3233/FI-2012-657](https://doi.org/10.3233/FI-2012-657).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Kridlo2012,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Ondrej Kridlo and Stanislav Krajci and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fundam. Informaticae},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {The Category of L-Chu Correspondences and the Structure of L-Bonds},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2012},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {4},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {297--325},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {115},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fuin/KridloKO12.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.3233/FI-2012-657},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 29 Dec 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.3233/FI-2012-657},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.3233/FI-2012-657" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.3233/FI-2012-657" class="plumx-details" data-site="plum" data-hide-when-empty="true">The Category of L-Chu Correspondences and the Structure of L-Bonds</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.3233/FI-2012-657"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Alcalde_2015></a>[[1]](#cite-Alcalde_2015) C. Alcalde, A. Burusco, and R. Fuentes-González. “The use of two relations in L-fuzzy contexts”. In: _Information Sciences_ 301 (Apr. 2015), p. 1–12. ISSN: 0020-0255. DOI: [10.1016/j.ins.2014.12.057](https://doi.org/10.1016%2Fj.ins.2014.12.057). URL: [http://dx.doi.org/10.1016/j.ins.2014.12.057](http://dx.doi.org/10.1016/j.ins.2014.12.057).
+
+<a name=bib-Antoni_20171></a>[[2]](#cite-Antoni_20171) L. Antoni, I. P. Cabrera, S. Krajči, et al. “The Chu construction and generalized formal concept analysis”. In: _International Journal of General Systems_ 46.5 (Jul. 2017), p. 458–474. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1349579](https://doi.org/10.1080%2F03081079.2017.1349579). URL: [http://dx.doi.org/10.1080/03081079.2017.1349579](http://dx.doi.org/10.1080/03081079.2017.1349579).
+
+<a name=bib-Antoni_2016></a>[[3]](#cite-Antoni_2016) L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: _Fuzzy Sets and Systems_ 303 (Nov. 2016), p. 21–37. ISSN: 0165-0114. DOI: [10.1016/j.fss.2015.12.007](https://doi.org/10.1016%2Fj.fss.2015.12.007). URL: [http://dx.doi.org/10.1016/j.fss.2015.12.007](http://dx.doi.org/10.1016/j.fss.2015.12.007).
+
+<a name=bib-Antoni_2018></a>[[4]](#cite-Antoni_2018) L. Antoni, S. Krajči, and O. Krídlo. “On Fuzzy Generalizations of Concept Lattices”. In: _Interactions Between Computational Intelligence and Mathematics_. Springer International Publishing, 2018, p. 79–103. ISBN: 9783319746814. DOI: [10.1007/978-3-319-74681-4_6](https://doi.org/10.1007%2F978-3-319-74681-4_6). URL: [http://dx.doi.org/10.1007/978-3-319-74681-4_6](http://dx.doi.org/10.1007/978-3-319-74681-4_6).
+
+<a name=bib-Antoni_20181></a>[[5]](#cite-Antoni_20181) L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: _Fuzzy Sets and Systems_ 333 (Feb. 2018), p. 36–53. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.04.006](https://doi.org/10.1016%2Fj.fss.2017.04.006). URL: [http://dx.doi.org/10.1016/j.fss.2017.04.006](http://dx.doi.org/10.1016/j.fss.2017.04.006).
+
+<a name=bib-Antoni_2015></a>[[6]](#cite-Antoni_2015) L. Antoni, S. Krajči, and O. Krídlo. “Randomized Fuzzy Formal Contexts and Relevance of One-Sided Concepts”. In: _Formal Concept Analysis_. Springer International Publishing, 2015, p. 183–199. ISBN: 9783319195452. DOI: [10.1007/978-3-319-19545-2_12](https://doi.org/10.1007%2F978-3-319-19545-2_12). URL: [http://dx.doi.org/10.1007/978-3-319-19545-2_12](http://dx.doi.org/10.1007/978-3-319-19545-2_12).
+
+<a name=bib-Antoni_2017></a>[[7]](#cite-Antoni_2017) L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: _Fuzzy Sets and Systems_ 326 (Nov. 2017), p. 52–68. ISSN: 0165-0114. DOI: [10.1016/j.fss.2017.05.020](https://doi.org/10.1016%2Fj.fss.2017.05.020). URL: [http://dx.doi.org/10.1016/j.fss.2017.05.020](http://dx.doi.org/10.1016/j.fss.2017.05.020).
+
+<a name=bib-Butka_2013></a>[[8]](#cite-Butka_2013) P. Butka, J. Pócs, J. Pócsová, et al. “Multiple Data Tables Processing via One-Sided Concept Lattices”. In: _Multimedia and Internet Systems: Theory and Practice_. Springer Berlin Heidelberg, 2013, p. 89–98. ISBN: 9783642323355. DOI: [10.1007/978-3-642-32335-5_9](https://doi.org/10.1007%2F978-3-642-32335-5_9). URL: [http://dx.doi.org/10.1007/978-3-642-32335-5_9](http://dx.doi.org/10.1007/978-3-642-32335-5_9).
+
+<a name=bib-Butka_2012></a>[[9]](#cite-Butka_2012) P. Butka, J. Pocsova, and J. Pocs. “On generation of one-sided concept lattices from restricted context”. In: _2012 IEEE 10th Jubilee International Symposium on Intelligent Systems and Informatics_. IEEE, Sep. 2012, p. 111–115. DOI: [10.1109/sisy.2012.6339498](https://doi.org/10.1109%2Fsisy.2012.6339498). URL: [http://dx.doi.org/10.1109/sisy.2012.6339498](http://dx.doi.org/10.1109/sisy.2012.6339498).
+
+<a name=bib-Konecny_2014></a>[[10]](#cite-Konecny_2014) J. Konecny. “Antitone L-bonds”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems_. Springer International Publishing, 2014, p. 71–80. ISBN: 9783319088525. DOI: [10.1007/978-3-319-08852-5_8](https://doi.org/10.1007%2F978-3-319-08852-5_8). URL: [http://dx.doi.org/10.1007/978-3-319-08852-5_8](http://dx.doi.org/10.1007/978-3-319-08852-5_8).
+
+<a name=bib-Konecny_2017></a>[[11]](#cite-Konecny_2017) J. Konecny and O. Krídlo. “On biconcepts in formal fuzzy concept analysis”. In: _Information Sciences_ 375 (Jan. 2017), p. 16–29. ISSN: 0020-0255. DOI: [10.1016/j.ins.2016.09.042](https://doi.org/10.1016%2Fj.ins.2016.09.042). URL: [http://dx.doi.org/10.1016/j.ins.2016.09.042](http://dx.doi.org/10.1016/j.ins.2016.09.042).
+
+<a name=bib-Konecny_2015></a>[[12]](#cite-Konecny_2015) J. Konecny and M. Ojeda-Aciego. “On homogeneousL-bonds and heterogeneousL-bonds”. In: _International Journal of General Systems_ 45.2 (Oct. 2015), p. 160–186. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072926](https://doi.org/10.1080%2F03081079.2015.1072926). URL: [http://dx.doi.org/10.1080/03081079.2015.1072926](http://dx.doi.org/10.1080/03081079.2015.1072926).
+
+<a name=bib-Kr_dlo_2022></a>[[13]](#cite-Kr_dlo_2022) O. Krídlo, Ľ. Antoni, and S. Krajči. “Selection of appropriate bonds between <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" altimg="si295.svg"><mml:mrow><mml:mi mathvariant="script">L</mml:mi></mml:mrow></mml:math>-fuzzy formal contexts for recommendation tasks”. In: _Information Sciences_ 606 (Aug. 2022), p. 21–37. ISSN: 0020-0255. DOI: [10.1016/j.ins.2022.05.047](https://doi.org/10.1016%2Fj.ins.2022.05.047). URL: [http://dx.doi.org/10.1016/j.ins.2022.05.047](http://dx.doi.org/10.1016/j.ins.2022.05.047).
+
+<a name=bib-Kr_dlo_2016></a>[[14]](#cite-Kr_dlo_2016) O. Krídlo, S. Krajči, and L. Antoni. “Formal concept analysis of higher order”. In: _International Journal of General Systems_ 45.2 (Jan. 2016), p. 116–134. ISSN: 1563-5104. DOI: [10.1080/03081079.2015.1072924](https://doi.org/10.1080%2F03081079.2015.1072924). URL: [http://dx.doi.org/10.1080/03081079.2015.1072924](http://dx.doi.org/10.1080/03081079.2015.1072924).
+
+<a name=bib-Kr_dlo_2023></a>[[15]](#cite-Kr_dlo_2023) O. Krídlo, D. López-Rodríguez, L. Antoni, et al. “Connecting concept lattices with bonds induced by external information”. In: _Information Sciences_ 648 (Nov. 2023), p. 119498. ISSN: 0020-0255. DOI: [10.1016/j.ins.2023.119498](https://doi.org/10.1016%2Fj.ins.2023.119498). URL: [http://dx.doi.org/10.1016/j.ins.2023.119498](http://dx.doi.org/10.1016/j.ins.2023.119498).
+
+<a name=bib-Kr_dlo_2018></a>[[16]](#cite-Kr_dlo_2018) O. Krídlo and M. Ojeda-Aciego. “Formal Concept Analysis and Structures Underlying Quantum Logics”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 574–584. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_49](https://doi.org/10.1007%2F978-3-319-91473-2_49). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_49](http://dx.doi.org/10.1007/978-3-319-91473-2_49).
+
+<a name=bib-Kr_dlo_2019></a>[[17]](#cite-Kr_dlo_2019) O. Krídlo and M. Ojeda-Aciego. “Relating Hilbert-Chu Correspondences and Big Toy Models for Quantum Mechanics”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems_. Springer International Publishing, May. 2019, p. 75–80. ISBN: 9783030160241. DOI: [10.1007/978-3-030-16024-1_10](https://doi.org/10.1007%2F978-3-030-16024-1_10). URL: [http://dx.doi.org/10.1007/978-3-030-16024-1_10](http://dx.doi.org/10.1007/978-3-030-16024-1_10).
+
+<a name=bib-Kr_dlo_2014></a>[[18]](#cite-Kr_dlo_2014) O. Krídlo and M. Ojeda-Aciego. “Revising the link between L-Chu correspondences and completely lattice L-ordered sets”. In: _Annals of Mathematics and Artificial Intelligence_ 72.1–2 (Apr. 2014), p. 91–113. ISSN: 1573-7470. DOI: [10.1007/s10472-014-9416-8](https://doi.org/10.1007%2Fs10472-014-9416-8). URL: [http://dx.doi.org/10.1007/s10472-014-9416-8](http://dx.doi.org/10.1007/s10472-014-9416-8).
+

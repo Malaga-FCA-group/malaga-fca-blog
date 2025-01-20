@@ -1,0 +1,86 @@
+---
+title: Automated Inference with Fuzzy Functional Dependencies over Graded Data
+author:
+- José Manuel Rodríguez-Jiménez
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/AuInFuFuDeGrDa
+details: Advances in Computational Intelligence - 12th International Work-Conference
+  on Artificial Neural Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife, Spain,
+  June 12-14, 2013, Proceedings, Part {II} , Lecture Notes in Computer Science vol.
+  7903, pages 254--265.
+doi: 10.1007/978-3-642-38682-4_29
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-RodriguezJimenez2013></a>[[Rod+13]](#cite-RodriguezJimenez2013) J. M. Rodr\'\iguez-Jiménez, P. Cordero, M. Enciso, et al. “Automated Inference with Fuzzy Functional Dependencies over Graded Data”. In: _Advances in Computational Intelligence - 12th International Work-Conference on Artificial Neural Networks, IWANN 2013, Puerto de la Cruz, Tenerife, Spain, June 12-14, 2013, Proceedings, Part II_. Ed. by I. Rojas, G. J. Caparrós and J. Cabestany. Vol. 7903. Lecture Notes in Computer Science. Springer, 2013, pp. 254-265. DOI: [10.1007/978-3-642-38682-4\_29](https://doi.org/10.1007%2F978-3-642-38682-4%5C_29). URL: [https://doi.org/10.1007/978-3-642-38682-4\_29](https://doi.org/10.1007/978-3-642-38682-4\_29).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{RodriguezJimenez2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jos{\a'e} Manuel Rodr\'\iguez-Jim{\a'e}nez and Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Computational Intelligence - 12th International Work-Conference on Artificial Neural Networks, {IWANN} 2013, Puerto de la Cruz, Tenerife, Spain, June 12-14, 2013, Proceedings, Part {II}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Automated Inference with Fuzzy Functional Dependencies over Graded Data},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Ignacio Rojas and Gonzalo Joya Caparr{\a'o}s and Joan Cabestany},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {254--265},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {7903},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iwann/Rodriguez-JimenezCEM13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-642-38682-4\_29},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-642-38682-4\_29},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-642-38682-4_29" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-642-38682-4_29" class="plumx-details" data-site="plum" data-hide-when-empty="true">Automated Inference with Fuzzy Functional Dependencies over Graded Data</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-642-38682-4_29"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cordero_2018></a>[[1]](#cite-Cordero_2018) P. Cordero, M. Enciso, and A. Mora. “Directness in Fuzzy Formal Concept Analysis”. In: _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations_. Springer International Publishing, 2018, p. 585–595. ISBN: 9783319914732. DOI: [10.1007/978-3-319-91473-2_50](https://doi.org/10.1007%2F978-3-319-91473-2_50). URL: [http://dx.doi.org/10.1007/978-3-319-91473-2_50](http://dx.doi.org/10.1007/978-3-319-91473-2_50).
+
+<a name=bib-Rodriguez_Jimenez_2015></a>[[2]](#cite-Rodriguez_Jimenez_2015) J. Rodriguez-Jimenez, E. Rodriguez-Lorenzo, P. Cordero, et al. “A Normal Form for Fuzzy Functional Dependencies”. In: _2015 IEEE Symposium Series on Computational Intelligence_. IEEE, Dec. 2015, p. 984–989. DOI: [10.1109/ssci.2015.143](https://doi.org/10.1109%2Fssci.2015.143). URL: [http://dx.doi.org/10.1109/ssci.2015.143](http://dx.doi.org/10.1109/ssci.2015.143).
+

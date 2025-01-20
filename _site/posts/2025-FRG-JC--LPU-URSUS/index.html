@@ -10,7 +10,7 @@
 <meta name="author" content="José del Campo-Ávila">
 <meta name="author" content="Domingo López Rodríguez">
 <meta name="author" content="Luis Pérez-Urrestarazu">
-<meta name="dcterms.date" content="2025-02-01">
+<meta name="dcterms.date" content="2024-12-20">
 
 <title>New journal paper: URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect – Málaga FCA Group</title>
 <style>
@@ -220,7 +220,7 @@ function showPopup() {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">1 February 2025</p>
+        <p class="date">20 December 2024</p>
       </div>
     </div>
     
@@ -339,7 +339,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/fca-malaga\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -1,0 +1,45 @@
+---
+title: Proceedings of the International Workshop on Formal Concept Analysis and Applications,
+  FCA{\&}A 2015, co-located with 13th International Conference on Formal Concept Analysis
+  {(ICFCA} 2015), Nerja, M{\'{a}}laga, Spain, June 23-26, 2015
+author: ''
+date: '2015'
+categories: uncategorised
+slug: 2015/PrInWoFoCoAnInCoFoCoAnJu
+details: []
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2015></a>[[OBS15]](#cite-OjedaAciego2015) M. Ojeda-Aciego, J. Baixeries, and C. Sacarea, ed. _Proceedings of the International Workshop on Formal Concept Analysis and Applications, FCA&A 2015, co-located with 13th International Conference on Formal Concept Analysis (ICFCA 2015), Nerja, Málaga, Spain, June 23-26, 2015_. Vol. 1434. CEUR Workshop Proceedings. CEUR-WS.org, 2015. URL: [https://ceur-ws.org/Vol-1434](https://ceur-ws.org/Vol-1434).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{OjedaAciego2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Proceedings of the International Workshop on Formal Concept Analysis and Applications, FCA{\&}A 2015, co-located with 13th International Conference on Formal Concept Analysis {(ICFCA} 2015), Nerja, M{\'{a}}laga, Spain, June 23-26, 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Manuel Ojeda-Aciego and Jaume Baixeries and Christian Sacarea},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1434},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/2015fcaa.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-1434},<br>&nbsp;&nbsp;&nbsp;&nbsp;  urn = {urn:nbn:de:0074-1434-7},<br>}
+
+:::
+
+
+
+
+
+
+
+

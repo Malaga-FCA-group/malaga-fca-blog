@@ -43,8 +43,8 @@ source(
   )
 )
 
-projects |> 
-  sapply(process_preqmd) |> 
+projects |>
+  sapply(process_preqmd) |>
   invisible()
 
 folder <- here::here("publications")
@@ -95,7 +95,18 @@ source(here::here(
 
 
 # Make actual preview and render
-quarto::quarto_preview()
+# quarto::quarto_preview()
+
+if ("rstudioapi" %in% installed.packages()) {
+
+  quarto::quarto_render()
+
+} else {
+
+  quarto::quarto_render(as_job = FALSE)
+
+}
+
 
 # quarto::quarto_preview_stop()
 

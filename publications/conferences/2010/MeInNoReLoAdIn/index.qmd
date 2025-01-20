@@ -1,0 +1,91 @@
+---
+title: 'Measuring instability in normal residuated logic programs: Adding information'
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2010'
+categories: uncategorised
+slug: 2010/MeInNoReLoAdIn
+details: '{FUZZ-IEEE} 2010, {IEEE} International Conference on Fuzzy Systems, Barcelona,
+  Spain, 18-23 July, 2010, Proceedings , pages 1--7.'
+doi: 10.1109/FUZZY.2010.5584819
+---
+
+
+
+# Abstract
+
+
+Inconsistency in the framework of general resid-uated logic programs can be, somehow, decomposed into two notions: incoherence and instability. In this work, we focus on the measure of instability of normal residuated programs. Some measures were already provided and initial results obtained in terms of the amount of information that have to be discarded in order to recover stability; in this paper, our interest is focused precisely on the case in which stability can be recovered by adding information to our program.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2010></a>[[MO10]](#cite-Madrid2010) N. Madrid and M. Ojeda-Aciego. “Measuring instability in normal residuated logic programs: Adding information”. In: _FUZZ-IEEE 2010, IEEE International Conference on Fuzzy Systems, Barcelona, Spain, 18-23 July, 2010, Proceedings_. IEEE, 2010, pp. 1-7. DOI: [10.1109/FUZZY.2010.5584819](https://doi.org/10.1109%2FFUZZY.2010.5584819). URL: [https://doi.org/10.1109/FUZZY.2010.5584819](https://doi.org/10.1109/FUZZY.2010.5584819).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2010,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{FUZZ-IEEE} 2010, {IEEE} International Conference on Fuzzy Systems, Barcelona, Spain, 18-23 July, 2010, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Measuring instability in normal residuated logic programs: Adding information},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--7},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/MadridO10.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZY.2010.5584819},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZY.2010.5584819},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZY.2010.5584819" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZY.2010.5584819" class="plumx-details" data-site="plum" data-hide-when-empty="true">Measuring instability in normal residuated logic programs: Adding information</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZY.2010.5584819"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cornejo_20171></a>[[1]](#cite-Cornejo_20171) M. E. Cornejo, D. Lobo, and J. Medina. “Measuring the Incoherent Information in Multi-adjoint Normal Logic Programs”. In: _Advances in Fuzzy Logic and Technology 2017_. Springer International Publishing, Sep. 2017, p. 521–533. ISBN: 9783319668307. DOI: [10.1007/978-3-319-66830-7_47](https://doi.org/10.1007%2F978-3-319-66830-7_47). URL: [http://dx.doi.org/10.1007/978-3-319-66830-7_47](http://dx.doi.org/10.1007/978-3-319-66830-7_47).
+
+<a name=bib-Cornejo_2017></a>[[2]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Selecting the Coherence Notion in Multi-adjoint Normal Logic Programming”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2017, p. 447–457. ISBN: 9783319591537. DOI: [10.1007/978-3-319-59153-7_39](https://doi.org/10.1007%2F978-3-319-59153-7_39). URL: [http://dx.doi.org/10.1007/978-3-319-59153-7_39](http://dx.doi.org/10.1007/978-3-319-59153-7_39).
+
+<a name=bib-Janssen_2012></a>[[3]](#cite-Janssen_2012) J. Janssen, S. Schockaert, D. Vermeir, et al. “A core language for fuzzy answer set programming”. In: _International Journal of Approximate Reasoning_ 53.4 (Jun. 2012), p. 660–692. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2012.01.005](https://doi.org/10.1016%2Fj.ijar.2012.01.005). URL: [http://dx.doi.org/10.1016/j.ijar.2012.01.005](http://dx.doi.org/10.1016/j.ijar.2012.01.005).
+
+<a name=bib-Janssen_2011></a>[[4]](#cite-Janssen_2011) J. Janssen, S. Schockaert, D. Vermeir, et al. “Aggregated Fuzzy Answer Set Programming”. In: _Annals of Mathematics and Artificial Intelligence_ 63.2 (Aug. 2011), p. 103–147. ISSN: 1573-7470. DOI: [10.1007/s10472-011-9256-8](https://doi.org/10.1007%2Fs10472-011-9256-8). URL: [http://dx.doi.org/10.1007/s10472-011-9256-8](http://dx.doi.org/10.1007/s10472-011-9256-8).
+
+<a name=bib-Madrid_2011></a>[[5]](#cite-Madrid_2011) N. Madrid and M. Ojeda-Aciego. “Measuring Inconsistency in Fuzzy Answer Set Semantics”. In: _IEEE Transactions on Fuzzy Systems_ 19.4 (Aug. 2011), p. 605–622. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2011.2114669](https://doi.org/10.1109%2Ftfuzz.2011.2114669). URL: [http://dx.doi.org/10.1109/tfuzz.2011.2114669](http://dx.doi.org/10.1109/tfuzz.2011.2114669).
+
+<a name=bib-Madrid_20111></a>[[6]](#cite-Madrid_20111) N. Madrid and M. Ojeda-Aciego. “On the use of fuzzy stable models for inconsistent classical logic programs”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 115–121. DOI: [10.1109/foci.2011.5949476](https://doi.org/10.1109%2Ffoci.2011.5949476). URL: [http://dx.doi.org/10.1109/foci.2011.5949476](http://dx.doi.org/10.1109/foci.2011.5949476).
+

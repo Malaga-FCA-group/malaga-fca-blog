@@ -1,0 +1,47 @@
+---
+title: On Sub-Propositional Fragments of Modal Logic
+author:
+- Davide Bresolin
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+date: '2016'
+categories: uncategorised
+slug: 2016/FrMoLo
+details: []
+---
+
+
+
+# Abstract
+
+
+In this paper, we consider the well-known modal logics K, T, K4, and S4, and we study some of their sub-propositional fragments, namely the classical Horn fragment, the Krom fragment, the so-called core fragment, defined as the intersection of the Horn and the Krom fragments, plus their sub-fragments obtained by limiting the use of boxes and diamonds in clauses. We focus, first, on the relative expressive power of such languages: we introduce a suitable measure of expressive power, and we obtain a complex hierarchy that encompasses all fragments of the considered logics. Then, after observing the low expressive power, in particular, of the Horn fragments without diamonds, we study the computational complexity of their satisfiability problem, proving that, in general, it becomes polynomial.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bresolin2016c></a>[[BMS16]](#cite-Bresolin2016c) D. Bresolin, E. Mu~noz-Velasco, and G. Sciavicco. “On Sub-Propositional Fragments of Modal Logic”. In: _CoRR_ abs/1611.08800 (2016). eprint: 1611.08800. URL: [http://arxiv.org/abs/1611.08800](http://arxiv.org/abs/1611.08800).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bresolin2016c,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Davide Bresolin and Emilio Mu~noz-Velasco and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {CoRR},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Sub-Propositional Fragments of Modal Logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {abs/1611.08800},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In this paper, we consider the well-known modal logics K, T, K4, and S4, and we study some of their sub-propositional fragments, namely the classical Horn fragment, the Krom fragment, the so-called core fragment, defined as the intersection of the Horn and the Krom fragments, plus their sub-fragments obtained by limiting the use of boxes and diamonds in clauses. We focus, first, on the relative expressive power of such languages: we introduce a suitable measure of expressive power, and we obtain a complex hierarchy that encompasses all fragments of the considered logics. Then, after observing the low expressive power, in particular, of the Horn fragments without diamonds, we study the computational complexity of their satisfiability problem, proving that, in general, it becomes polynomial.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  archiveprefix = {arXiv},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/corr/BresolinMS16a.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  eprint = {1611.08800},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {http://arxiv.org/abs/1611.08800},<br>}
+
+:::
+
+
+
+
+
+
+
+

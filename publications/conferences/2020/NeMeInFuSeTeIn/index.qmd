@@ -1,0 +1,50 @@
+---
+title: New Measures of Inclusion Between Fuzzy Sets in Terms of the {\(\varphi\)}-Index
+  of Inclusion
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/NeMeInFuSeTeIn
+details: '{ECAI} 2020 - 24th European Conference on Artificial Intelligence, 29 August-8
+  September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including
+  10th Conference on Prestigious Applications of Artificial Intelligence {(PAIS} 2020)
+  , Frontiers in Artificial Intelligence and Applications vol. 325, pages 2616--2623.'
+doi: 10.3233/FAIA200398
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2020b></a>[[MO20]](#cite-Madrid2020b) N. Madrid and M. Ojeda-Aciego. “New Measures of Inclusion Between Fuzzy Sets in Terms of the \(\varphi\)-Index of Inclusion”. In: _ECAI 2020 - 24th European Conference on Artificial Intelligence, 29 August-8 September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including 10th Conference on Prestigious Applications of Artificial Intelligence (PAIS 2020)_. Ed. by G. D. Giacomo, A. Catalá, B. Dilkina, M. Milano, S. Barro, A. Bugar\'\in and J. Lang. Vol. 325. Frontiers in Artificial Intelligence and Applications. IOS Press, 2020, pp. 2616-2623. DOI: [10.3233/FAIA200398](https://doi.org/10.3233%2FFAIA200398). URL: [https://doi.org/10.3233/FAIA200398](https://doi.org/10.3233/FAIA200398).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2020b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{ECAI} 2020 - 24th European Conference on Artificial Intelligence, 29 August-8 September 2020, Santiago de Compostela, Spain, August 29 - September 8, 2020 - Including 10th Conference on Prestigious Applications of Artificial Intelligence {(PAIS} 2020)},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {New Measures of Inclusion Between Fuzzy Sets in Terms of the {\(\varphi\)}-Index of Inclusion},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Giuseppe De Giacomo and Alejandro Catal{\a'a} and Bistra Dilkina and Michela Milano and Sen{\a'e}n Barro and Alberto Bugar\'\in and J{\a'e}r{\^o}me Lang},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {2616--2623},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IOS} Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Frontiers in Artificial Intelligence and Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {325},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ecai/MadridO20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.3233/FAIA200398},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.3233/FAIA200398},<br>}
+
+:::
+
+
+
+
+
+
+
+

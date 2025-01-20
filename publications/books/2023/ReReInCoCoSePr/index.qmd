@@ -1,0 +1,45 @@
+---
+title: Graph-Based Representation and Reasoning - 28th International Conference on
+  Conceptual Structures, {ICCS} 2023, Berlin, Germany, September 11-13, 2023, Proceedings
+author: ''
+date: '2023'
+categories: uncategorised
+slug: 2023/ReReInCoCoSePr
+details: []
+doi: 10.1007/978-3-031-40960-8
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2023></a>[[OSJ23]](#cite-OjedaAciego2023) M. Ojeda-Aciego, K. Sauerwald, and R. Jäschke, ed. _Graph-Based Representation and Reasoning - 28th International Conference on Conceptual Structures, ICCS 2023, Berlin, Germany, September 11-13, 2023, Proceedings_. Vol. 14133. Lecture Notes in Computer Science. Springer, 2023. ISBN: 978-3-031-40959-2. DOI: [10.1007/978-3-031-40960-8](https://doi.org/10.1007%2F978-3-031-40960-8). URL: [https://doi.org/10.1007/978-3-031-40960-8](https://doi.org/10.1007/978-3-031-40960-8).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{OjedaAciego2023,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Graph-Based Representation and Reasoning - 28th International Conference on Conceptual Structures, {ICCS} 2023, Berlin, Germany, September 11-13, 2023, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Manuel Ojeda-Aciego and Kai Sauerwald and Robert J{\"a}schke},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-031-40959-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {14133},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iccs/2023.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-031-40960-8},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 19 Aug 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-031-40960-8},<br>}
+
+:::
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+---
+title: On Contradiction and Inclusion Using Functional Degrees
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2020'
+categories: uncategorised
+slug: 2020/CoInUsFuDe
+details: Int. J. Comput. Intell. Syst. vol. 13 (1), pages 464--471.
+doi: 10.2991/IJCIS.D.200409.001
+---
+
+
+
+# Abstract
+
+
+The notion of inclusion is a cornerstone in set theory and therefore, its generalization in fuzzy set theory is of great interest.The degree of f-inclusion is one generalization of such a notion that differs from others existing in the literature because the degree of inclusion is considered as a mapping instead of a value in the unit interval.On the other hand, the degree of f-weakcontradiction was introduced to represent the contradiction between two fuzzy sets via a mapping and its definition has many similarities with the f-degree of inclusion.This suggests the existence of relations between both f-degrees.Specifically, following this line, we analyze the relationship between the f-degree of inclusion and the f-degree of contradiction via the complement of fuzzy sets and Galois connections.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2020a></a>[[MO20]](#cite-Madrid2020a) N. Madrid and M. Ojeda-Aciego. “On Contradiction and Inclusion Using Functional Degrees”. In: _Int. J. Comput. Intell. Syst._ 13.1 (2020), pp. 464-471. DOI: [10.2991/IJCIS.D.200409.001](https://doi.org/10.2991%2FIJCIS.D.200409.001). URL: [https://doi.org/10.2991/ijcis.d.200409.001](https://doi.org/10.2991/ijcis.d.200409.001).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2020a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Intell. Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Contradiction and Inclusion Using Functional Degrees},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2020},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {464--471},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {13},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcisys/MadridO20.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.2991/IJCIS.D.200409.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.2991/ijcis.d.200409.001},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.2991/IJCIS.D.200409.001" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.2991/IJCIS.D.200409.001" class="plumx-details" data-site="plum" data-hide-when-empty="true">On Contradiction and Inclusion Using Functional Degrees</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.2991/IJCIS.D.200409.001"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Madrid_2023></a>[[1]](#cite-Madrid_2023) N. Madrid and M. Ojeda-Aciego. “The f-index of inclusion as optimal adjoint pair for fuzzy modus ponens”. In: _Fuzzy Sets and Systems_ 466 (Aug. 2023), p. 108474. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.01.009](https://doi.org/10.1016%2Fj.fss.2023.01.009). URL: [http://dx.doi.org/10.1016/j.fss.2023.01.009](http://dx.doi.org/10.1016/j.fss.2023.01.009).
+
+<a name=bib-Medina_2021></a>[[2]](#cite-Medina_2021) J. Medina, J. Moreno-García, E. Ramírez-Poussa, et al. “Mathematics and Computational Intelligence Synergies for Emerging Challenges”. In: _International Journal of Computational Intelligence Systems_ 14.1 (2021), p. 818. ISSN: 1875-6883. DOI: [10.2991/ijcis.d.210121.001](https://doi.org/10.2991%2Fijcis.d.210121.001). URL: [http://dx.doi.org/10.2991/ijcis.d.210121.001](http://dx.doi.org/10.2991/ijcis.d.210121.001).
+

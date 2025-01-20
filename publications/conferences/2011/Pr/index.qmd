@@ -1,0 +1,52 @@
+---
+title: Preface
+author:
+- Hans van Ditmarsch
+- David Fernández-Duque
+- Valentin Goranko
+- Wojtek Jamroga
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2011'
+categories: uncategorised
+slug: 2011/Pr
+details: Proceedings of the 7th Workshop on Methods for Modalities, {M4M} 2011, and
+  the 4th Workshop on Logical Aspects of Multi-Agent Systems, {LAMAS} 2011, Osuna,
+  Spain, November 10-12, 2011 , Electronic Notes in Theoretical Computer Science vol.
+  278, pages 1--2.
+doi: 10.1016/J.ENTCS.2011.10.001
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Ditmarsch2011></a>[[Dit+11]](#cite-Ditmarsch2011) H. van Ditmarsch, D. Fernández-Duque, V. Goranko, et al. “Preface”. In: _Proceedings of the 7th Workshop on Methods for Modalities, M4M 2011, and the 4th Workshop on Logical Aspects of Multi-Agent Systems, LAMAS 2011, Osuna, Spain, November 10-12, 2011_. Ed. by H. van Ditmarsch, D. Fernández-Duque, V. Goranko, W. Jamroga and M. Ojeda-Aciego. Vol. 278. Electronic Notes in Theoretical Computer Science. Elsevier, 2011, pp. 1-2. DOI: [10.1016/J.ENTCS.2011.10.001](https://doi.org/10.1016%2FJ.ENTCS.2011.10.001). URL: [https://doi.org/10.1016/j.entcs.2011.10.001](https://doi.org/10.1016/j.entcs.2011.10.001).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Ditmarsch2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Hans {van Ditmarsch} and David Fern{\a'a}ndez-Duque and Valentin Goranko and Wojtek Jamroga and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 7th Workshop on Methods for Modalities, {M4M} 2011, and the 4th Workshop on Logical Aspects of Multi-Agent Systems, {LAMAS} 2011, Osuna, Spain, November 10-12, 2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Preface},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Hans {van Ditmarsch} and David Fern{\a'a}ndez-Duque and Valentin Goranko and Wojciech Jamroga and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1--2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Elsevier},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Electronic Notes in Theoretical Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {278},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/entcs/DitmarschDGJO11.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.ENTCS.2011.10.001},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 15:30:37 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.entcs.2011.10.001},<br>}
+
+:::
+
+
+
+
+
+
+
+

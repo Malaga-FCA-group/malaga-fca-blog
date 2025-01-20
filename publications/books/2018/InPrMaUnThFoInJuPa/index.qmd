@@ -1,0 +1,105 @@
+---
+title: Information Processing and Management of Uncertainty in Knowledge-Based Systems.
+  Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz,
+  Spain, June 11-15, 2018, Proceedings, Part {I}
+author: ''
+date: '2018'
+categories: uncategorised
+slug: 2018/InPrMaUnThFoInJuPa
+details: []
+doi: 10.1007/978-3-319-91473-2
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2018></a>[[Med+18]](#cite-Medina2018) J. Medina, M. Ojeda-Aciego, J. L. V. Galdeano, et al., ed. _Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, IPMU 2018, Cádiz, Spain, June 11-15, 2018, Proceedings, Part I_. Vol. 853. Communications in Computer and Information Science. Springer, 2018. ISBN: 978-3-319-91472-5. DOI: [10.1007/978-3-319-91473-2](https://doi.org/10.1007%2F978-3-319-91473-2). URL: [https://doi.org/10.1007/978-3-319-91473-2](https://doi.org/10.1007/978-3-319-91473-2).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Proceedings{Medina2018,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz, Spain, June 11-15, 2018, Proceedings, Part {I}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Jos{\a'e} Luis Verdegay Galdeano and David A. Pelta and Inma P. Cabrera and Bernadette Bouchon-Meunier and Ronald R. Yager},<br>&nbsp;&nbsp;&nbsp;&nbsp;  isbn = {978-3-319-91472-5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Communications in Computer and Information Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {853},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ipmu/2018-1.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-91473-2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-91473-2},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-91473-2" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-91473-2" class="plumx-details" data-site="plum" data-hide-when-empty="true">Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations - 17th International Conference, {IPMU} 2018, C{\'{a}}diz, Spain, June 11-15, 2018, Proceedings, Part {I}</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-91473-2"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Andersen_2023></a>[[1]](#cite-Andersen_2023) H. Andersen, A. Lensen, W. Browne, et al. “Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimization Algorithms”. In: _Proceedings of the Genetic and Evolutionary Computation Conference_. GECCO ’23. ACM, Jul. 2023. DOI: [10.1145/3583131.3590444](https://doi.org/10.1145%2F3583131.3590444). URL: [http://dx.doi.org/10.1145/3583131.3590444](http://dx.doi.org/10.1145/3583131.3590444).
+
+<a name=bib-Arag_n_2021></a>[[2]](#cite-Arag_n_2021) R. G. Aragón, J. Medina, and E. Ramírez-Poussa. “Reducing concept lattices by means of a weaker notion of congruence”. In: _Fuzzy Sets and Systems_ 418 (Aug. 2021), p. 153–169. ISSN: 0165-0114. DOI: [10.1016/j.fss.2020.09.013](https://doi.org/10.1016%2Fj.fss.2020.09.013). URL: [http://dx.doi.org/10.1016/j.fss.2020.09.013](http://dx.doi.org/10.1016/j.fss.2020.09.013).
+
+<a name=bib-_ayl__2020></a>[[3]](#cite-_ayl__2020) G. D. Çaylı. “Some results about nullnorms on bounded lattices”. In: _Fuzzy Sets and Systems_ 386 (May. 2020), p. 105–131. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.010](https://doi.org/10.1016%2Fj.fss.2019.03.010). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.010](http://dx.doi.org/10.1016/j.fss.2019.03.010).
+
+<a name=bib-Coletti_2019></a>[[4]](#cite-Coletti_2019) G. Coletti, D. Petturiti, and B. Vantaggi. “Models for pessimistic or optimistic decisions under different uncertain scenarios”. In: _International Journal of Approximate Reasoning_ 105 (Feb. 2019), p. 305–326. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2018.12.005](https://doi.org/10.1016%2Fj.ijar.2018.12.005). URL: [http://dx.doi.org/10.1016/j.ijar.2018.12.005](http://dx.doi.org/10.1016/j.ijar.2018.12.005).
+
+<a name=bib-Davis_2020></a>[[5]](#cite-Davis_2020) J. C. Davis and H. Pernicka. “Spacecraft Identification Leveraging Unsupervised Learning Techniques for Formation and Swarm Missions”. In: _AIAA Scitech 2020 Forum_. American Institute of Aeronautics and Astronautics, Jan. 2020. DOI: [10.2514/6.2020-1195](https://doi.org/10.2514%2F6.2020-1195). URL: [http://dx.doi.org/10.2514/6.2020-1195](http://dx.doi.org/10.2514/6.2020-1195).
+
+<a name=bib-De_Vos_2024></a>[[6]](#cite-De_Vos_2024) S. De Vos, J. De Smedt, M. Verbruggen, et al. “Data-driven internal mobility: Similarity regularization gets the job done”. In: _Knowledge-Based Systems_ 295 (Jul. 2024), p. 111824. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2024.111824](https://doi.org/10.1016%2Fj.knosys.2024.111824). URL: [http://dx.doi.org/10.1016/j.knosys.2024.111824](http://dx.doi.org/10.1016/j.knosys.2024.111824).
+
+<a name=bib-Dimuro_2019></a>[[7]](#cite-Dimuro_2019) G. P. Dimuro, B. Bedregal, J. Fernandez, et al. “The law of O-conditionality for fuzzy implications constructed from overlap and grouping functions”. In: _International Journal of Approximate Reasoning_ 105 (Feb. 2019), p. 27–48. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2018.11.006](https://doi.org/10.1016%2Fj.ijar.2018.11.006). URL: [http://dx.doi.org/10.1016/j.ijar.2018.11.006](http://dx.doi.org/10.1016/j.ijar.2018.11.006).
+
+<a name=bib-Gan_2023></a>[[8]](#cite-Gan_2023) H. Gan, Z. Yang, R. Zhou, et al. “Safe semi-supervised clustering based on Dempster–Shafer evidence theory”. In: _Engineering Applications of Artificial Intelligence_ 123 (Aug. 2023), p. 106334. ISSN: 0952-1976. DOI: [10.1016/j.engappai.2023.106334](https://doi.org/10.1016%2Fj.engappai.2023.106334). URL: [http://dx.doi.org/10.1016/j.engappai.2023.106334](http://dx.doi.org/10.1016/j.engappai.2023.106334).
+
+<a name=bib-Kolajo_2021></a>[[9]](#cite-Kolajo_2021) T. Kolajo, O. Daramola, and A. Adebiyi. _Streaming Data and Data Streams_. May. 2021. DOI: [10.1002/9781118445112.stat08310](https://doi.org/10.1002%2F9781118445112.stat08310). URL: [http://dx.doi.org/10.1002/9781118445112.stat08310](http://dx.doi.org/10.1002/9781118445112.stat08310).
+
+<a name=bib-Koo_2023></a>[[10]](#cite-Koo_2023) J. Koo, D. Klabjan, and J. Utke. “An inverse classification framework with limited budget and maximum number of perturbed samples”. In: _Expert Systems with Applications_ 212 (Feb. 2023), p. 118761. ISSN: 0957-4174. DOI: [10.1016/j.eswa.2022.118761](https://doi.org/10.1016%2Fj.eswa.2022.118761). URL: [http://dx.doi.org/10.1016/j.eswa.2022.118761](http://dx.doi.org/10.1016/j.eswa.2022.118761).
+
+<a name=bib-Mi__2022></a>[[11]](#cite-Mi__2022) K. Miś, M. Baczyński, and P. Helbin. “On functional equations and inequalities related to some reasoning schemes that involve fuzzy implications”. In: _Fuzzy Sets and Systems_ 441 (Aug. 2022), p. 33–57. ISSN: 0165-0114. DOI: [10.1016/j.fss.2021.08.014](https://doi.org/10.1016%2Fj.fss.2021.08.014). URL: [http://dx.doi.org/10.1016/j.fss.2021.08.014](http://dx.doi.org/10.1016/j.fss.2021.08.014).
+
+<a name=bib-Montes_2018></a>[[12]](#cite-Montes_2018) I. Montes, E. Miranda, and P. Vicig. “2-Monotone outer approximations of coherent lower probabilities”. In: _International Journal of Approximate Reasoning_ 101 (Oct. 2018), p. 181–205. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2018.07.004](https://doi.org/10.1016%2Fj.ijar.2018.07.004). URL: [http://dx.doi.org/10.1016/j.ijar.2018.07.004](http://dx.doi.org/10.1016/j.ijar.2018.07.004).
+
+<a name=bib-Petturiti_2019></a>[[13]](#cite-Petturiti_2019) D. Petturiti and B. Vantaggi. “Conditional submodular Choquet expected values and conditional coherent risk measures”. In: _International Journal of Approximate Reasoning_ 113 (Oct. 2019), p. 14–38. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2019.06.004](https://doi.org/10.1016%2Fj.ijar.2019.06.004). URL: [http://dx.doi.org/10.1016/j.ijar.2019.06.004](http://dx.doi.org/10.1016/j.ijar.2019.06.004).
+
+<a name=bib-Qiao_2019></a>[[14]](#cite-Qiao_2019) J. Qiao. “On binary relations induced from overlap and grouping functions”. In: _International Journal of Approximate Reasoning_ 106 (Mar. 2019), p. 155–171. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2019.01.006](https://doi.org/10.1016%2Fj.ijar.2019.01.006). URL: [http://dx.doi.org/10.1016/j.ijar.2019.01.006](http://dx.doi.org/10.1016/j.ijar.2019.01.006).
+

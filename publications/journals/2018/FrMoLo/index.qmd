@@ -1,0 +1,94 @@
+---
+title: On Sub-Propositional Fragments of Modal Logic
+author:
+- Davide Bresolin
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+date: '2018'
+categories: uncategorised
+slug: 2018/FrMoLo
+details: []
+doi: 10.23638/LMCS-14(2:16)2018
+---
+
+
+
+# Abstract
+
+
+In this paper, we consider the well-known modal logics $\mathbf{K}$,
+$\mathbf{T}$, $\mathbf{K4}$, and $\mathbf{S4}$, and we study some of their
+sub-propositional fragments, namely the classical Horn fragment, the Krom
+fragment, the so-called core fragment, defined as the intersection of the Horn
+and the Krom fragments, plus their sub-fragments obtained by limiting the use
+of boxes and diamonds in clauses. We focus, first, on the relative expressive
+power of such languages: we introduce a suitable measure of expressive power,
+and we obtain a complex hierarchy that encompasses all fragments of the
+considered logics. Then, after observing the low expressive power, in
+particular, of the Horn fragments without diamonds, we study the computational
+complexity of their satisfiability problem, proving that, in general, it
+becomes polynomial.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Bresolin2018></a>[[BMS18]](#cite-Bresolin2018) D. Bresolin, E. Mu~noz-Velasco, and G. Sciavicco. “On Sub-Propositional Fragments of Modal Logic”. In: _Log. Methods Comput. Sci._ 14.2 (2018). DOI: [10.23638/LMCS-14(2:16)2018](https://doi.org/10.23638%2FLMCS-14%282%3A16%292018). URL: [https://doi.org/10.23638/LMCS-14(2:16)2018](https://doi.org/10.23638/LMCS-14(2:16)2018).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Bresolin2018,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Davide Bresolin and Emilio Mu~noz-Velasco and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Log. Methods Comput. Sci.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Sub-Propositional Fragments of Modal Logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {14},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/lmcs/BresolinMS18.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.23638/LMCS-14(2:16)2018},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 07 Dec 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.23638/LMCS-14(2:16)2018},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.23638/LMCS-14(2:16)2018" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.23638/LMCS-14(2:16)2018" class="plumx-details" data-site="plum" data-hide-when-empty="true">On Sub-Propositional Fragments of Modal Logic</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.23638/LMCS-14(2:16)2018"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Dziubi_ski_2021></a>[[1]](#cite-Dziubi_ski_2021) M. Dziubiński. “Modal context restriction for multiagent BDI logics”. In: _Artificial Intelligence Review_ 55.4 (Oct. 2021), p. 3075–3151. ISSN: 1573-7462. DOI: [10.1007/s10462-021-10064-6](https://doi.org/10.1007%2Fs10462-021-10064-6). URL: [http://dx.doi.org/10.1007/s10462-021-10064-6](http://dx.doi.org/10.1007/s10462-021-10064-6).
+
+<a name=bib-Wa_ga_2019></a>[[2]](#cite-Wa_ga_2019) P. A. Wałęga. “Computational Complexity of Core Fragments of Modal Logics T, K4, and S4”. In: _Logics in Artificial Intelligence_. Springer International Publishing, 2019, p. 744–759. ISBN: 9783030195700. DOI: [10.1007/978-3-030-19570-0_48](https://doi.org/10.1007%2F978-3-030-19570-0_48). URL: [http://dx.doi.org/10.1007/978-3-030-19570-0_48](http://dx.doi.org/10.1007/978-3-030-19570-0_48).
+

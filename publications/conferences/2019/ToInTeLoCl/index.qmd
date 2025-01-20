@@ -1,0 +1,53 @@
+---
+title: Towards Interval Temporal Logic Rule-Based Classification
+author:
+- Estrella Lucena-Sánchez
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+- Ionel Eduard Stan
+- Alessandro Vaccari
+date: '2019'
+categories: uncategorised
+slug: 2019/ToInTeLoCl
+details: Proceedings of the 1st Workshop on Artificial Intelligence and Formal Verification,
+  Logic, Automata, and Synthesis, co-located with the 18th International Conference
+  of the Italian Association for Artificial Intelligence, OVERLAY@AI*IA 2019, Rende,
+  Italy, November 19-20, 2019 , {CEUR} Workshop Proceedings vol. 2509, pages 65--70.
+---
+
+
+
+# Abstract
+
+
+Supervised classification is one of the main computational tasks of modern Artificial Intelligence, and it is used to automatically extract an underlying theory from a set of already classified instances. The available learning schemata are mostly limited to static instances, in which the temporal component of the information is absent, neglected, or abstracted into atemporal data, and purely, native temporal classification is still largely unexplored. In this paper, we propose a temporal rulebased classifier based on interval temporal logic, that is able to learn a classification model for multivariate classified (abstracted) time series, and we discuss some
+implementation issues.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-LucenaSanchez2019></a>[[Luc+19]](#cite-LucenaSanchez2019) E. Lucena-Sánchez, E. Mu~noz-Velasco, G. Sciavicco, et al. “Towards Interval Temporal Logic Rule-Based Classification”. In: _Proceedings of the 1st Workshop on Artificial Intelligence and Formal Verification, Logic, Automata, and Synthesis, co-located with the 18th International Conference of the Italian Association for Artificial Intelligence, OVERLAY@AI*IA 2019, Rende, Italy, November 19-20, 2019_. Ed. by N. Gigante, F. Mari and A. Orlandini. Vol. 2509. CEUR Workshop Proceedings. CEUR-WS.org, 2019, pp. 65-70. URL: [https://ceur-ws.org/Vol-2509/paper10.pdf](https://ceur-ws.org/Vol-2509/paper10.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{LucenaSanchez2019,  booktitle = {Proceedings of the 1st Workshop on Artificial Intelligence and Formal Verification, Logic, Automata, and Synthesis, co-located with the 18th International Conference of the Italian Association for Artificial Intelligence, OVERLAY@AI*IA 2019, Rende, Italy, November 19-20, 2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Estrella Lucena-S{\a'a}nchez and Emilio Mu~noz-Velasco and Guido Sciavicco and Ionel Eduard Stan and Alessandro Vaccari},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 1st Workshop on Artificial Intelligence and Formal Verification, Logic, Automata, and Synthesis, co-located with the 18th International Conference of the Italian Association for Artificial Intelligence, OVERLAY@AI*IA 2019, Rende, Italy, November 19-20, 2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards Interval Temporal Logic Rule-Based Classification},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Nicola Gigante and Federico Mari and Andrea Orlandini},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {65--70},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2509},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {Supervised classification is one of the main computational tasks of modern Artificial Intelligence, and it is used to automatically extract an underlying theory from a set of already classified instances. The available learning schemata are mostly limited to static instances, in which the temporal component of the information is absent, neglected, or abstracted into atemporal data, and purely, native temporal classification is still largely unexplored. In this paper, we propose a temporal rulebased classifier based on interval temporal logic, that is able to learn a classification model for multivariate classified (abstracted) time series, and we discuss some<br>&nbsp;&nbsp;&nbsp;&nbsp;implementation issues.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/aiia/Lucena-SanchezM19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:23:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-2509/paper10.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

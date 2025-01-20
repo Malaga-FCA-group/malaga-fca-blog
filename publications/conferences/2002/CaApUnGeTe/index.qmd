@@ -1,0 +1,91 @@
+---
+title: A categorical approach to unification of generalised terms
+author:
+- Patrik Eklund
+- Maria A. Galán
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '2002'
+categories: uncategorised
+slug: 2002/CaApUnGeTe
+details: Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite
+  Workshop, M{\'{a}}laga, Spain, July 12-13, 2002 , Electronic Notes in Theoretical
+  Computer Science vol. 66, pages 41--51.
+doi: 10.1016/S1571-0661(04)80513-9
+---
+
+
+
+# Abstract
+
+
+Unification of generalised terms in a many-valued setting involves considerations for equalities in the sense of similarity degrees between operators and thus similarities between terms. Further, allowing for substitutions of variables with powersets of terms requires ‘flattening’ operators for handling composition of variable substitutions. These techniques are available when using powerset functors composed with the term functor so that this composition of functors is extendable to a monad. In this paper we provide a framework for unification of such generalised terms.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Eklund2002></a>[[Ekl+02]](#cite-Eklund2002) P. Eklund, M. A. Galán, J. Medina, et al. “A categorical approach to unification of generalised terms”. In: _Unification in Non-Classical Logics, UNCL 2002, ICALP 2002 Satellite Workshop, Málaga, Spain, July 12-13, 2002_. Ed. by P. Eklund and M. Ojeda-Aciego. Vol. 66. Electronic Notes in Theoretical Computer Science 5. Elsevier, 2002, pp. 41-51. DOI: [10.1016/S1571-0661(04)80513-9](https://doi.org/10.1016%2FS1571-0661%2804%2980513-9). URL: [https://doi.org/10.1016/S1571-0661(04)80513-9](https://doi.org/10.1016/S1571-0661(04)80513-9).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Eklund2002,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Patrik Eklund and Maria A. Gal{\a'a}n and Jes{\a'u}s Medina and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Unification in Non-Classical Logics, {UNCL} 2002, {ICALP} 2002 Satellite Workshop, M{\'{a}}laga, Spain, July 12-13, 2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A categorical approach to unification of generalised terms},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Patrik Eklund and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {5},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {41--51},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Elsevier},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Electronic Notes in Theoretical Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {66},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/entcs/EklundGMOV02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/S1571-0661(04)80513-9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Tue, 06 Dec 2022 10:41:49 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/S1571-0661(04)80513-9},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/S1571-0661(04)80513-9" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/S1571-0661(04)80513-9" class="plumx-details" data-site="plum" data-hide-when-empty="true">A categorical approach to unification of generalised terms</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/S1571-0661(04)80513-9"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Eklund_20091></a>[[1]](#cite-Eklund_20091) P. Eklund. “Early diagnosis of cognitive disorder based on ground categories for decision support structures”. In: _2009 IEEE International Conference on Fuzzy Systems_. IEEE, Aug. 2009, p. 997–1002. DOI: [10.1109/fuzzy.2009.5277098](https://doi.org/10.1109%2Ffuzzy.2009.5277098). URL: [http://dx.doi.org/10.1109/fuzzy.2009.5277098](http://dx.doi.org/10.1109/fuzzy.2009.5277098).
+
+<a name=bib-Eklund_2009></a>[[2]](#cite-Eklund_2009) P. Eklund and R. Helgesson. “Composing Partially Ordered Monads”. In: _Relations and Kleene Algebra in Computer Science_. Springer Berlin Heidelberg, 2009, p. 88–102. ISBN: 9783642046391. DOI: [10.1007/978-3-642-04639-1_7](https://doi.org/10.1007%2F978-3-642-04639-1_7). URL: [http://dx.doi.org/10.1007/978-3-642-04639-1_7](http://dx.doi.org/10.1007/978-3-642-04639-1_7).
+
+<a name=bib-Kahl_2010></a>[[3]](#cite-Kahl_2010) W. Kahl. “Determinisation of relational substitutions in ordered categories with domain”. In: _The Journal of Logic and Algebraic Programming_ 79.8 (Nov. 2010), p. 812–829. ISSN: 1567-8326. DOI: [10.1016/j.jlap.2010.07.017](https://doi.org/10.1016%2Fj.jlap.2010.07.017). URL: [http://dx.doi.org/10.1016/j.jlap.2010.07.017](http://dx.doi.org/10.1016/j.jlap.2010.07.017).
+
+<a name=bib-Zhozhikashvili_2014></a>[[4]](#cite-Zhozhikashvili_2014) A. V. Zhozhikashvili. “Monads for the formalization of a pattern matching procedure”. In: _Programming and Computer Software_ 40.3 (May. 2014), p. 117–127. ISSN: 1608-3261. DOI: [10.1134/s0361768814030074](https://doi.org/10.1134%2Fs0361768814030074). URL: [http://dx.doi.org/10.1134/s0361768814030074](http://dx.doi.org/10.1134/s0361768814030074).
+

@@ -1,0 +1,91 @@
+---
+title: On the measure of incoherent information in extended multi-adjoint logic programs
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2013'
+categories: uncategorised
+slug: 2013/MeInInExLoPr
+details: '{IEEE} Symposium on Foundations of Computational Intelligence, {FOCI} 2013,
+  Singapore, Singapore, April 16-19, 2013 , pages 30--37.'
+doi: 10.1109/FOCI.2013.6602452
+---
+
+
+
+# Abstract
+
+
+We continue analyzing the introduction of negation into the framework of residuated logic programming [8], [10]; specifically, we focus on extended programs, that is we consider programs with strong negation. The classical approach to extended logic programs consists in considering negated literals as new, independent, ones and, then apply the usual monotonic approach (based on the fix-point semantics and the T <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">p</sub> operator); if the least fix-point so obtained is inconsistent, then the approach fails and no meaning is attached to the program. This paper introduces several approaches to measure consistency (under the term coherence) into a multi-adjoint setting.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2013></a>[[MO13]](#cite-Madrid2013) N. Madrid and M. Ojeda-Aciego. “On the measure of incoherent information in extended multi-adjoint logic programs”. In: _IEEE Symposium on Foundations of Computational Intelligence, FOCI 2013, Singapore, Singapore, April 16-19, 2013_. IEEE, 2013, pp. 30-37. DOI: [10.1109/FOCI.2013.6602452](https://doi.org/10.1109%2FFOCI.2013.6602452). URL: [https://doi.org/10.1109/FOCI.2013.6602452](https://doi.org/10.1109/FOCI.2013.6602452).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Madrid2013,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IEEE} Symposium on Foundations of Computational Intelligence, {FOCI} 2013, Singapore, Singapore, April 16-19, 2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On the measure of incoherent information in extended multi-adjoint logic programs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {30--37},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/foci/MadridO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FOCI.2013.6602452},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FOCI.2013.6602452},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FOCI.2013.6602452" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FOCI.2013.6602452" class="plumx-details" data-site="plum" data-hide-when-empty="true">On the measure of incoherent information in extended multi-adjoint logic programs</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FOCI.2013.6602452"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Bustince_2015></a>[[1]](#cite-Bustince_2015) H. Bustince, N. Madrid, and M. Ojeda-Aciego. “The Notion of Weak-Contradiction: Definition and Measures”. In: _IEEE Transactions on Fuzzy Systems_ 23.4 (Aug. 2015), p. 1057–1069. ISSN: 1941-0034. DOI: [10.1109/tfuzz.2014.2337934](https://doi.org/10.1109%2Ftfuzz.2014.2337934). URL: [http://dx.doi.org/10.1109/tfuzz.2014.2337934](http://dx.doi.org/10.1109/tfuzz.2014.2337934).
+
+<a name=bib-Cornejo_20201></a>[[2]](#cite-Cornejo_20201) M. E. Cornejo, D. Lobo, and J. Medina. “Extended multi-adjoint logic programming”. In: _Fuzzy Sets and Systems_ 388 (Jun. 2020), p. 124–145. ISSN: 0165-0114. DOI: [10.1016/j.fss.2019.03.016](https://doi.org/10.1016%2Fj.fss.2019.03.016). URL: [http://dx.doi.org/10.1016/j.fss.2019.03.016](http://dx.doi.org/10.1016/j.fss.2019.03.016).
+
+<a name=bib-Cornejo_20171></a>[[3]](#cite-Cornejo_20171) M. E. Cornejo, D. Lobo, and J. Medina. “Measuring the Incoherent Information in Multi-adjoint Normal Logic Programs”. In: _Advances in Fuzzy Logic and Technology 2017_. Springer International Publishing, Sep. 2017, p. 521–533. ISBN: 9783319668307. DOI: [10.1007/978-3-319-66830-7_47](https://doi.org/10.1007%2F978-3-319-66830-7_47). URL: [http://dx.doi.org/10.1007/978-3-319-66830-7_47](http://dx.doi.org/10.1007/978-3-319-66830-7_47).
+
+<a name=bib-Cornejo_2020></a>[[4]](#cite-Cornejo_2020) M. E. Cornejo, D. Lobo, and J. Medina. “Relating Multi-Adjoint Normal Logic Programs to Core Fuzzy Answer Set Programs from a Semantical Approach”. In: _Mathematics_ 8.6 (Jun. 2020), p. 881. ISSN: 2227-7390. DOI: [10.3390/math8060881](https://doi.org/10.3390%2Fmath8060881). URL: [http://dx.doi.org/10.3390/math8060881](http://dx.doi.org/10.3390/math8060881).
+
+<a name=bib-Cornejo_2017></a>[[5]](#cite-Cornejo_2017) M. E. Cornejo, D. Lobo, and J. Medina. “Selecting the Coherence Notion in Multi-adjoint Normal Logic Programming”. In: _Advances in Computational Intelligence_. Springer International Publishing, 2017, p. 447–457. ISBN: 9783319591537. DOI: [10.1007/978-3-319-59153-7_39](https://doi.org/10.1007%2F978-3-319-59153-7_39). URL: [http://dx.doi.org/10.1007/978-3-319-59153-7_39](http://dx.doi.org/10.1007/978-3-319-59153-7_39).
+
+<a name=bib-Cornejo_2021></a>[[6]](#cite-Cornejo_2021) M. E. Cornejo and J. Medina. “Right Adjoint Algebras Versus Operator Left Residuated Posets”. In: _Rough Sets_. Springer International Publishing, 2021, p. 180–191. ISBN: 9783030873349. DOI: [10.1007/978-3-030-87334-9_15](https://doi.org/10.1007%2F978-3-030-87334-9_15). URL: [http://dx.doi.org/10.1007/978-3-030-87334-9_15](http://dx.doi.org/10.1007/978-3-030-87334-9_15).
+

@@ -1,0 +1,52 @@
+---
+title: A Sound and Complete Tableau System for Fuzzy Halpern and Shoham's Interval
+  Temporal Logic
+author:
+- Willem Conradie
+- Riccardo Monego
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Guido Sciavicco
+- Ionel Eduard Stan
+date: '2023'
+categories: uncategorised
+slug: 2023/SoCoTaSyFuHaInTeLo
+details: 30th International Symposium on Temporal Representation and Reasoning, {TIME}
+  2023, September 25-26, 2023, {NCSR} Demokritos, Athens, Greece , LIPIcs vol. 278,
+  pages 9:1--9:14.
+doi: 10.4230/LIPICS.TIME.2023.9
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Conradie2023a></a>[[Con+23]](#cite-Conradie2023a) W. Conradie, R. Monego, E. Mu~noz-Velasco, et al. “A Sound and Complete Tableau System for Fuzzy Halpern and Shoham's Interval Temporal Logic”. In: _30th International Symposium on Temporal Representation and Reasoning, TIME 2023, September 25-26, 2023, NCSR Demokritos, Athens, Greece_. Ed. by A. Artikis, F. Bruse and L. Hunsberger. Vol. 278. LIPIcs. Schloss Dagstuhl - Leibniz-Zentrum für Informatik, 2023, pp. 9:1-9:14. DOI: [10.4230/LIPICS.TIME.2023.9](https://doi.org/10.4230%2FLIPICS.TIME.2023.9). URL: [https://doi.org/10.4230/LIPIcs.TIME.2023.9](https://doi.org/10.4230/LIPIcs.TIME.2023.9).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Conradie2023a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Willem Conradie and Riccardo Monego and Emilio Mu~noz-Velasco and Guido Sciavicco and Ionel Eduard Stan},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {30th International Symposium on Temporal Representation and Reasoning, {TIME} 2023, September 25-26, 2023, {NCSR} Demokritos, Athens, Greece},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Sound and Complete Tableau System for Fuzzy Halpern and Shoham's Interval Temporal Logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2023},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Alexander Artikis and Florian Bruse and Luke Hunsberger},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {9:1--9:14},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {LIPIcs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {278},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/time/ConradieMMSS23.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.4230/LIPICS.TIME.2023.9},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sun, 06 Oct 2024 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.4230/LIPIcs.TIME.2023.9},<br>}
+
+:::
+
+
+
+
+
+
+
+

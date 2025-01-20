@@ -1,0 +1,47 @@
+---
+title: Editorial
+author:
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Siegfried Gottwald
+- Petr Hájek
+date: '2008'
+categories: uncategorised
+slug: 2008/Ed
+details: Fuzzy Sets Syst. vol. 159 (10), pages 1129--1130.
+doi: 10.1016/J.FSS.2007.12.002
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-OjedaAciego2008></a>[[OGH08]](#cite-OjedaAciego2008) M. Ojeda-Aciego, S. Gottwald, and P. Hájek. “Editorial”. In: _Fuzzy Sets Syst._ 159.10 (2008), pp. 1129-1130. DOI: [10.1016/J.FSS.2007.12.002](https://doi.org/10.1016%2FJ.FSS.2007.12.002). URL: [https://doi.org/10.1016/j.fss.2007.12.002](https://doi.org/10.1016/j.fss.2007.12.002).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{OjedaAciego2008,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Manuel Ojeda-Aciego and Siegfried Gottwald and Petr H{\a'a}jek},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Editorial},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2008},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {10},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1129--1130},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {159},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/Ojeda-AciegoGH08.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2007.12.002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 19 Feb 2020 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2007.12.002},<br>}
+
+:::
+
+
+
+
+
+
+
+

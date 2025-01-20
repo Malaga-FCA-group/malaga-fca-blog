@@ -1,0 +1,49 @@
+---
+title: Towards Attribute Reduction in Multi-adjoint Concept Lattices
+author:
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2010'
+categories: uncategorised
+slug: 2010/ToAtReCoLa
+details: Proceedings of the 7th International Conference on Concept Lattices and Their
+  Applications, Sevilla, Spain, October 19-21, 2010 , {CEUR} Workshop Proceedings
+  vol. 672, pages 92--103.
+---
+
+
+
+# Abstract
+
+
+In Formal Concept Analysis, attribute reduction is a important step in order to reduce the complexity of the computation of the
+concept lattice. This reduction is more complex in fuzzy environments. In this paper, we will present a first approximation to reduce the set of attributes in the multi-adjoint concept lattice. The solution found is based on the development of specific results which allow us to reduce the number of attributes in the classical case, by detecting some relatively necessary and absolutely unnecessary attributes and, then, use linguistic labels in order to obtain a method to reduce the number of attributes in a multi-adjoint context, working up to some level of tolerance, and preserving the original lattice structure of the set of concepts.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Medina2010a></a>[[MO10]](#cite-Medina2010a) J. Medina and M. Ojeda-Aciego. “Towards Attribute Reduction in Multi-adjoint Concept Lattices”. In: _Proceedings of the 7th International Conference on Concept Lattices and Their Applications, Sevilla, Spain, October 19-21, 2010_. Ed. by M. Kryszkiewicz and S. A. Obiedkov. Vol. 672. CEUR Workshop Proceedings. CEUR-WS.org, 2010, pp. 92-103. URL: [https://ceur-ws.org/Vol-672/paper9.pdf](https://ceur-ws.org/Vol-672/paper9.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Medina2010a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 7th International Conference on Concept Lattices and Their Applications, Sevilla, Spain, October 19-21, 2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards Attribute Reduction in Multi-adjoint Concept Lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2010},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Marzena Kryszkiewicz and Sergei A. Obiedkov},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {92--103},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {672},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In Formal Concept Analysis, attribute reduction is a important step in order to reduce the complexity of the computation of the<br>&nbsp;&nbsp;&nbsp;&nbsp;concept lattice. This reduction is more complex in fuzzy environments. In this paper, we will present a first approximation to reduce the set of attributes in the multi-adjoint concept lattice. The solution found is based on the development of specific results which allow us to reduce the number of attributes in the classical case, by detecting some relatively necessary and absolutely unnecessary attributes and, then, use linguistic labels in order to obtain a method to reduce the number of attributes in a multi-adjoint context, working up to some level of tolerance, and preserving the original lattice structure of the set of concepts.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/MedinaO10.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-672/paper9.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

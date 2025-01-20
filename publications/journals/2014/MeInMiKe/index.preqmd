@@ -1,0 +1,36 @@
+---
+title: A tableaux-like method to infer all minimal keys
+author:
+- pcordero
+- enciso
+- amora
+- Inmaculada Perez de Guzmán
+date: '2014'
+categories: uncategorised
+slug: 2014/MeInMiKe
+details: Log. J. {IGPL} vol. 22 (6), pages 1019--1044.
+doi: 10.1093/JIGPAL/JZU025
+
+---
+
+
+# Abstract
+
+
+The problem of enumerating a kind of minimal generator from a set of if–then rules is addressed. The if–then rules are widely used in several areas and always are associated with a closure operator in a set. So, they are used in databases as functional dependencies and in formal concept analysis as implications. In this article, the minimal generators to be enumerated are those that generate the full set, also called minimal keys. There are several ad hoc approaches corresponding to particular instances of the key finding problem, but our objective is to provide a general approach directly based on logic. More specifically we use a tableaux-like method to find all minimal keys. We select the tableaux-like approach because it allows to design new methods by incorporating new inference rules and new strategies. In this work, we present a new method which is more efficient than previous tableaux-like methods.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

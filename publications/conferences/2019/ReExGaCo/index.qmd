@@ -1,0 +1,85 @@
+---
+title: A Relational Extension of Galois Connections
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/ReExGaCo
+details: Formal Concept Analysis - 15th International Conference, {ICFCA} 2019, Frankfurt,
+  Germany, June 25-28, 2019, Proceedings , Lecture Notes in Computer Science vol.
+  11511, pages 290--303.
+doi: 10.1007/978-3-030-21462-3_19
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2019a></a>[[Cab+19]](#cite-Cabrera2019a) I. P. Cabrera, P. Cordero, E. Mu~noz-Velasco, et al. “A Relational Extension of Galois Connections”. In: _Formal Concept Analysis - 15th International Conference, ICFCA 2019, Frankfurt, Germany, June 25-28, 2019, Proceedings_. Ed. by D. Cristea, F. L. Ber and B. Sertkaya. Vol. 11511. Lecture Notes in Computer Science. Springer, 2019, pp. 290-303. DOI: [10.1007/978-3-030-21462-3\_19](https://doi.org/10.1007%2F978-3-030-21462-3%5C_19). URL: [https://doi.org/10.1007/978-3-030-21462-3\_19](https://doi.org/10.1007/978-3-030-21462-3\_19).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2019a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Formal Concept Analysis - 15th International Conference, {ICFCA} 2019, Frankfurt, Germany, June 25-28, 2019, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {A Relational Extension of Galois Connections},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Diana Cristea and Florence Le Ber and Baris Sertkaya},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {290--303},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {11511},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icfca/CabreraCMO19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-030-21462-3\_19},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 09 Apr 2021 18:47:26 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-030-21462-3\_19},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-21462-3_19" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-030-21462-3_19" class="plumx-details" data-site="plum" data-hide-when-empty="true">A Relational Extension of Galois Connections</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-030-21462-3_19"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Cabrera_2019></a>[[1]](#cite-Cabrera_2019) I. P. Cabrera, P. Cordero, E. Muñoz-Velasco, et al. “Towards fuzzy relational Galois connections between fuzzy T-digraphs”. In: _Proceedings of the 2019 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology (EUSFLAT 2019)_. eusflat-19. Atlantis Press, 2019. DOI: [10.2991/eusflat-19.2019.112](https://doi.org/10.2991%2Feusflat-19.2019.112). URL: [http://dx.doi.org/10.2991/eusflat-19.2019.112](http://dx.doi.org/10.2991/eusflat-19.2019.112).
+
+<a name=bib-Cabrera_2020></a>[[2]](#cite-Cabrera_2020) I. P. Cabrera, P. Cordero, E. Muñoz‐Velasco, et al. “Relational Galois connections between transitive fuzzy digraphs”. In: _Mathematical Methods in the Applied Sciences_ 43.9 (Feb. 2020), p. 5673–5680. ISSN: 1099-1476. DOI: [10.1002/mma.6302](https://doi.org/10.1002%2Fmma.6302). URL: [http://dx.doi.org/10.1002/mma.6302](http://dx.doi.org/10.1002/mma.6302).
+

@@ -1,0 +1,87 @@
+---
+title: Multi-adjoint lattices from adjoint triples with involutive negation
+author:
+- Nicolás Madrid
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2021'
+categories: uncategorised
+slug: 2021/LaAdTrInNe
+details: Fuzzy Sets Syst. vol. 405 , pages 88--105.
+doi: 10.1016/J.FSS.2019.12.004
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Madrid2021></a>[[MO21]](#cite-Madrid2021) N. Madrid and M. Ojeda-Aciego. “Multi-adjoint lattices from adjoint triples with involutive negation”. In: _Fuzzy Sets Syst._ 405 (2021), pp. 88-105. DOI: [10.1016/J.FSS.2019.12.004](https://doi.org/10.1016%2FJ.FSS.2019.12.004). URL: [https://doi.org/10.1016/j.fss.2019.12.004](https://doi.org/10.1016/j.fss.2019.12.004).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Madrid2021,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Nicol{\a'a}s Madrid and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets Syst.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Multi-adjoint lattices from adjoint triples with involutive negation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2021},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {88--105},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {405},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/fss/MadridO21.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1016/J.FSS.2019.12.004},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 09 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1016/j.fss.2019.12.004},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.FSS.2019.12.004" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.FSS.2019.12.004" class="plumx-details" data-site="plum" data-hide-when-empty="true">Multi-adjoint lattices from adjoint triples with involutive negation</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1016/J.FSS.2019.12.004"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Antoni_2024></a>[[1]](#cite-Antoni_2024) Ľ. Antoni, P. Eliaš, J. Guniš, et al. “Bimorphisms and attribute implications in heterogeneous formal contexts”. In: _International Journal of Approximate Reasoning_ 172 (Sep. 2024), p. 109245. ISSN: 0888-613X. DOI: [10.1016/j.ijar.2024.109245](https://doi.org/10.1016%2Fj.ijar.2024.109245). URL: [http://dx.doi.org/10.1016/j.ijar.2024.109245](http://dx.doi.org/10.1016/j.ijar.2024.109245).
+
+<a name=bib-Antoni_2023></a>[[2]](#cite-Antoni_2023) L. Antoni, P. Eliaš, T. Horváth, et al. “Squared Symmetric Formal Contexts and Their Connections with Correlation Matrices”. In: _Graph-Based Representation and Reasoning_. Springer Nature Switzerland, 2023, p. 19–27. ISBN: 9783031409608. DOI: [10.1007/978-3-031-40960-8_2](https://doi.org/10.1007%2F978-3-031-40960-8_2). URL: [http://dx.doi.org/10.1007/978-3-031-40960-8_2](http://dx.doi.org/10.1007/978-3-031-40960-8_2).
+
+<a name=bib-Antoni_2022></a>[[3]](#cite-Antoni_2022) Ľ. Antoni, P. Eliaš, S. Krajči, et al. “Heterogeneous formal context and its decomposition by heterogeneous fuzzy subsets”. In: _Fuzzy Sets and Systems_ 451 (Dec. 2022), p. 361–384. ISSN: 0165-0114. DOI: [10.1016/j.fss.2022.05.015](https://doi.org/10.1016%2Fj.fss.2022.05.015). URL: [http://dx.doi.org/10.1016/j.fss.2022.05.015](http://dx.doi.org/10.1016/j.fss.2022.05.015).
+
+<a name=bib-Cornejo_2024></a>[[4]](#cite-Cornejo_2024) M. E. Cornejo, J. Medina, and F. J. Ocaña. “Attribute implications in multi-adjoint concept lattices with hedges”. In: _Fuzzy Sets and Systems_ 479 (Mar. 2024), p. 108854. ISSN: 0165-0114. DOI: [10.1016/j.fss.2023.108854](https://doi.org/10.1016%2Fj.fss.2023.108854). URL: [http://dx.doi.org/10.1016/j.fss.2023.108854](http://dx.doi.org/10.1016/j.fss.2023.108854).
+
+<a name=bib-Elia__2024></a>[[5]](#cite-Elia__2024) P. Eliaš, L. Antoni, O. Krídlo, et al. “Additional Notes on Heterogeneous Concept-Forming Operators”. In: _Computational Intelligence and Mathematics for Tackling Complex Problems 5_. Springer Nature Switzerland, 2024, p. 1–7. ISBN: 9783031469794. DOI: [10.1007/978-3-031-46979-4_1](https://doi.org/10.1007%2F978-3-031-46979-4_1). URL: [http://dx.doi.org/10.1007/978-3-031-46979-4_1](http://dx.doi.org/10.1007/978-3-031-46979-4_1).
+

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jesús Medina">
+<meta name="author" content="Manuel Ojeda-Aciego">
+<meta name="dcterms.date" content="2013-01-01">
+
+<title>Dual multi-adjoint concept lattices – Málaga FCA Group</title>
+
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WFPW0888K7"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WFPW0888K7', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<script src="../../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../../site_libs/plotly-binding-4.10.2/plotly.js"></script>
+<script src="../../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../../../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="../../../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<script type="text/javascript" src="//cdn.plu.mx/widget-details.js"></script>
+
+<script src="../../../../prism.js"></script>
+<script>
+// Carga el archivo JavaScript de resaltado de sintaxis
+// (sustituye "prism.js" por el nombre del archivo que hayas descargado)
+
+// Crea una función que muestre una ventana popup con el contenido del archivo "cite.bib"
+function showPopup() {
+  // Abre la ventana popup
+  var popupWindow = window.open("", "Popup", "height=500,width=500");
+
+  // Lee el contenido del archivo "cite.bib" usando Ajax
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+      // Cuando el archivo se haya cargado, muestra su contenido en la ventana popup
+      // usando resaltado de sintaxis
+      var text = xhr.responseText;
+      popupWindow.document.body.innerHTML = "<pre><code class='language-bibtex'>" + text + "</code></pre>";
+
+      // Aplica el resaltado de sintaxis a la ventana popup
+      Prism.highlightAll();
+    }
+  }
+  xhr.open("GET", "cite.bib", true);
+  xhr.send();
+}
+</script>
+
+
+<link rel="stylesheet" href="../../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../index.html">
+    <span class="navbar-title">Málaga FCA Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/malaga-fca-group"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#bibliometric-data" id="toc-bibliometric-data" class="nav-link" data-scroll-target="#bibliometric-data">Bibliometric data</a>
+  <ul class="collapse">
+  <li><a href="#cites" id="toc-cites" class="nav-link" data-scroll-target="#cites">Cites</a></li>
+  <li><a href="#papers-citing-this-work" id="toc-papers-citing-this-work" class="nav-link" data-scroll-target="#papers-citing-this-work">Papers citing this work</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dual multi-adjoint concept lattices</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">uncategorised</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+            <p>Jesús Medina 
+      </p>
+            <p><a href="../../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda-Aciego</a> 
+      </p>
+          </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 January 2013</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Publication details</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">
+        Inf. Sci. vol.&nbsp;225 , pages 47–54.
+      </p>
+    </div>
+  </div>
+  
+  <div>
+    <div class="quarto-title-meta-heading">Links</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date" style="color: #fff !important;">
+            <a href="https://doi.org/10.1016/J.INS.2012.10.030"><img src="https://zenodo.org/badge/DOI/10.1016/J.INS.2012.10.030.svg" alt="DOI"></a>
+                                                            
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<p>&nbsp;</p>
+
+</header>
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+</section>
+<section id="citation" class="level1">
+<h1>Citation</h1>
+<p>Please, cite this work as:</p>
+<p><a name="bib-Medina2013"></a><a href="#cite-Medina2013">[MO13]</a> J. Medina and M. Ojeda-Aciego. “Dual multi-adjoint concept lattices”. In: <em>Inf. Sci.</em> 225 (2013), pp.&nbsp;47-54. DOI: <a href="https://doi.org/10.1016%2FJ.INS.2012.10.030">10.1016/J.INS.2012.10.030</a>. URL: <a href="https://doi.org/10.1016/j.ins.2012.10.030">https://doi.org/10.1016/j.ins.2012.10.030</a>.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+BibTeX
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="citation" data-cites="Article">@Article</span>{Medina2013,<br>&nbsp;&nbsp;&nbsp;&nbsp; author = {Jes{’u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp; journal = {Inf. Sci.},<br>&nbsp;&nbsp;&nbsp;&nbsp; title = {Dual multi-adjoint concept lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp; year = {2013},<br>&nbsp;&nbsp;&nbsp;&nbsp; pages = {47–54},<br>&nbsp;&nbsp;&nbsp;&nbsp; volume = {225},<br>&nbsp;&nbsp;&nbsp;&nbsp; bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp; biburl = {https://dblp.org/rec/journals/isci/MedinaO13.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp; doi = {10.1016/J.INS.2012.10.030},<br>&nbsp;&nbsp;&nbsp;&nbsp; timestamp = {Thu, 07 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp; url = {https://doi.org/10.1016/j.ins.2012.10.030},<br>}</p>
+</div>
+</div>
+</div>
+</section>
+<section id="bibliometric-data" class="level1">
+<h1>Bibliometric data</h1>
+<p>The following data has been extracted from resources such as <a href="https://openalex.org/">OpenAlex</a>, <a href="https://app.dimensions.ai/">Dimensions</a>, <a href="https://www.elsevier.com/insights/metrics/plumx">PlumX</a> or <a href="https://www.altmetric.com/">Altmetric</a>.</p>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/J.INS.2012.10.030" data-legend="always"></span>
+</div>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1016/J.INS.2012.10.030" class="plumx-details" data-site="plum" data-hide-when-empty="true">Dual multi-adjoint concept lattices</a>
+</div>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-doi="10.1016/J.INS.2012.10.030">
+
+</div>
+</div>
+<section id="cites" class="level2">
+<h2 class="anchored" data-anchor-id="cites">Cites</h2>
+<p>The following graph plots the number of cites received by this work from its publication, on a yearly basis.</p>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-c766248addc8a9e491c3" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-c766248addc8a9e491c3">{"x":{"data":[{"orientation":"v","width":[0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095,0.90000000000009095],"base":[0,0,0,0,0,0,0,0,0,0],"x":[2024,2023,2020,2019,2018,2017,2016,2015,2014,2013],"y":[1,1,1,3,3,8,3,11,5,1],"text":["year: 2024<br />cites:  1","year: 2023<br />cites:  1","year: 2020<br />cites:  1","year: 2019<br />cites:  3","year: 2018<br />cites:  3","year: 2017<br />cites:  8","year: 2016<br />cites:  3","year: 2015<br />cites: 11","year: 2014<br />cites:  5","year: 2013<br />cites:  1"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":31.415525114155255},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2011.9549999999999,2025.0450000000001],"tickmode":"array","ticktext":["2024","2023","2020","2019","2018","2017","2016","2015","2014","2013"],"tickvals":[2024,2023,2020,2019,2018,2017,2016,2015,2014,2013],"categoryorder":"array","categoryarray":["2024","2023","2020","2019","2018","2017","2016","2015","2014","2013"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.55000000000000004,11.550000000000001],"tickmode":"array","ticktext":["0","3","6","9"],"tickvals":[0,3,6.0000000000000009,9],"categoryorder":"array","categoryarray":["0","3","6","9"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"4fa537385b0f":{"x":{},"y":{},"type":"bar"}},"cur_data":"4fa537385b0f","visdat":{"4fa537385b0f":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</section>
+<section id="papers-citing-this-work" class="level2">
+<h2 class="anchored" data-anchor-id="papers-citing-this-work">Papers citing this work</h2>
+<p>The following is a non-exhaustive list of papers that cite this work:</p>
+<p><a name="bib-Alcalde_20171"></a><a href="#cite-Alcalde_20171">[1]</a> C. Alcalde and A. Burusco. “Multivalued contexts associated with criteria”. In: <em>International Journal of General Systems</em> 47.2 (Dec.&nbsp;2017), p.&nbsp;118–136. ISSN: 1563-5104. DOI: <a href="https://doi.org/10.1080%2F03081079.2017.1410147">10.1080/03081079.2017.1410147</a>. URL: <a href="http://dx.doi.org/10.1080/03081079.2017.1410147">http://dx.doi.org/10.1080/03081079.2017.1410147</a>.</p>
+<p><a name="bib-Alcalde_2019"></a><a href="#cite-Alcalde_2019">[2]</a> C. Alcalde and A. Burusco. “Reduction of the size ofL-fuzzy contexts. A tool for differential diagnoses of diseases”. In: <em>International Journal of General Systems</em> 48.7 (May. 2019), p.&nbsp;692–712. ISSN: 1563-5104. DOI: <a href="https://doi.org/10.1080%2F03081079.2019.1620740">10.1080/03081079.2019.1620740</a>. URL: <a href="http://dx.doi.org/10.1080/03081079.2019.1620740">http://dx.doi.org/10.1080/03081079.2019.1620740</a>.</p>
+<p><a name="bib-Alcalde_2018"></a><a href="#cite-Alcalde_2018">[3]</a> C. Alcalde and A. Burusco. “Study of the Relevance of Objects and Attributes of L-fuzzy Contexts Using Overlap Indexes”. In: <em>Information Processing and Management of Uncertainty in Knowledge-Based Systems. Theory and Foundations</em>. Springer International Publishing, 2018, p.&nbsp;537–548. ISBN: 9783319914732. DOI: <a href="https://doi.org/10.1007%2F978-3-319-91473-2_46">10.1007/978-3-319-91473-2_46</a>. URL: <a href="http://dx.doi.org/10.1007/978-3-319-91473-2_46">http://dx.doi.org/10.1007/978-3-319-91473-2_46</a>.</p>
+<p><a name="bib-Alcalde_20151"></a><a href="#cite-Alcalde_20151">[4]</a> C. Alcalde and A. Burusco. “WOWA operators in fuzzy context sequences”. In: <em>Proceedings of the 2015 Conference of the International Fuzzy Systems Association and the European Society for Fuzzy Logic and Technology</em>. ifsa-eusflat-15. Atlantis Press, 2015. DOI: <a href="https://doi.org/10.2991%2Fifsa-eusflat-15.2015.52">10.2991/ifsa-eusflat-15.2015.52</a>. URL: <a href="http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.52">http://dx.doi.org/10.2991/ifsa-eusflat-15.2015.52</a>.</p>
+<p><a name="bib-Alcalde_2017"></a><a href="#cite-Alcalde_2017">[5]</a> C. Alcalde, A. Burusco, H. Bustince, et al.&nbsp;“Linking Mathematical Morphology andL-Fuzzy Concepts”. In: <em>International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</em> 25.Suppl. 1 (Dec.&nbsp;2017), p.&nbsp;73–98. ISSN: 1793-6411. DOI: <a href="https://doi.org/10.1142%2Fs0218488517400049">10.1142/s0218488517400049</a>. URL: <a href="http://dx.doi.org/10.1142/s0218488517400049">http://dx.doi.org/10.1142/s0218488517400049</a>.</p>
+<p><a name="bib-Alcalde_2016"></a><a href="#cite-Alcalde_2016">[6]</a> C. Alcalde, A. Burusco, H. Bustince, et al.&nbsp;“Evolution in time of L-fuzzy context sequences”. In: <em>Information Sciences</em> 326 (Jan.&nbsp;2016), p.&nbsp;202–214. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2015.07.050">10.1016/j.ins.2015.07.050</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2015.07.050">http://dx.doi.org/10.1016/j.ins.2015.07.050</a>.</p>
+<p><a name="bib-Alcalde_2015"></a><a href="#cite-Alcalde_2015">[7]</a> C. Alcalde, A. Burusco, and R. Fuentes-González. “The use of two relations in L-fuzzy contexts”. In: <em>Information Sciences</em> 301 (Apr.&nbsp;2015), p.&nbsp;1–12. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2014.12.057">10.1016/j.ins.2014.12.057</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2014.12.057">http://dx.doi.org/10.1016/j.ins.2014.12.057</a>.</p>
+<p><a name="bib-Antoni_2016"></a><a href="#cite-Antoni_2016">[8]</a> L. Antoni, S. Krajči, and O. Krídlo. “Constraint heterogeneous concept lattices and concept lattices with heterogeneous hedges”. In: <em>Fuzzy Sets and Systems</em> 303 (Nov.&nbsp;2016), p.&nbsp;21–37. ISSN: 0165-0114. DOI: <a href="https://doi.org/10.1016%2Fj.fss.2015.12.007">10.1016/j.fss.2015.12.007</a>. URL: <a href="http://dx.doi.org/10.1016/j.fss.2015.12.007">http://dx.doi.org/10.1016/j.fss.2015.12.007</a>.</p>
+<p><a name="bib-Antoni_2018"></a><a href="#cite-Antoni_2018">[9]</a> L. Antoni, S. Krajči, and O. Krídlo. “On stability of fuzzy formal concepts over randomized one-sided formal context”. In: <em>Fuzzy Sets and Systems</em> 333 (Feb.&nbsp;2018), p.&nbsp;36–53. ISSN: 0165-0114. DOI: <a href="https://doi.org/10.1016%2Fj.fss.2017.04.006">10.1016/j.fss.2017.04.006</a>. URL: <a href="http://dx.doi.org/10.1016/j.fss.2017.04.006">http://dx.doi.org/10.1016/j.fss.2017.04.006</a>.</p>
+<p><a name="bib-Antoni_2015"></a><a href="#cite-Antoni_2015">[10]</a> L. Antoni, S. Krajči, and O. Krídlo. “Randomized Fuzzy Formal Contexts and Relevance of One-Sided Concepts”. In: <em>Formal Concept Analysis</em>. Springer International Publishing, 2015, p.&nbsp;183–199. ISBN: 9783319195452. DOI: <a href="https://doi.org/10.1007%2F978-3-319-19545-2_12">10.1007/978-3-319-19545-2_12</a>. URL: <a href="http://dx.doi.org/10.1007/978-3-319-19545-2_12">http://dx.doi.org/10.1007/978-3-319-19545-2_12</a>.</p>
+<p><a name="bib-Antoni_2017"></a><a href="#cite-Antoni_2017">[11]</a> L. Antoni, S. Krajči, and O. Krídlo. “Representation of fuzzy subsets by Galois connections”. In: <em>Fuzzy Sets and Systems</em> 326 (Nov.&nbsp;2017), p.&nbsp;52–68. ISSN: 0165-0114. DOI: <a href="https://doi.org/10.1016%2Fj.fss.2017.05.020">10.1016/j.fss.2017.05.020</a>. URL: <a href="http://dx.doi.org/10.1016/j.fss.2017.05.020">http://dx.doi.org/10.1016/j.fss.2017.05.020</a>.</p>
+<p><a name="bib-Chen_2015"></a><a href="#cite-Chen_2015">[12]</a> J. Chen, J. Li, Y. Lin, et al.&nbsp;“Relations of reduction between covering generalized rough sets and concept lattices”. In: <em>Information Sciences</em> 304 (May. 2015), p.&nbsp;16–27. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2014.11.053">10.1016/j.ins.2014.11.053</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2014.11.053">http://dx.doi.org/10.1016/j.ins.2014.11.053</a>.</p>
+<p><a name="bib-Gong_2015"></a><a href="#cite-Gong_2015">[13]</a> F. Gong, M. Shao, and G. Qiu. “Concept granular computing systems and their approximation operators”. In: <em>International Journal of Machine Learning and Cybernetics</em> 8.2 (Nov.&nbsp;2015), p.&nbsp;627–640. ISSN: 1868-808X. DOI: <a href="https://doi.org/10.1007%2Fs13042-015-0457-z">10.1007/s13042-015-0457-z</a>. URL: <a href="http://dx.doi.org/10.1007/s13042-015-0457-z">http://dx.doi.org/10.1007/s13042-015-0457-z</a>.</p>
+<p><a name="bib-Hala__2017"></a><a href="#cite-Hala__2017">[14]</a> R. Halaš, R. Mesiar, and J. Pócs. “Description of sup- and inf-preserving aggregation functions via families of clusters in data tables”. In: <em>Information Sciences</em> 400–401 (Aug.&nbsp;2017), p.&nbsp;173–183. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2017.02.060">10.1016/j.ins.2017.02.060</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2017.02.060">http://dx.doi.org/10.1016/j.ins.2017.02.060</a>.</p>
+<p><a name="bib-Konecny_2014"></a><a href="#cite-Konecny_2014">[15]</a> J. Konecny, J. Medina, and M. Ojeda-Aciego. “Multi-adjoint concept lattices with heterogeneous conjunctors and hedges”. In: <em>Annals of Mathematics and Artificial Intelligence</em> 72.1–2 (Mar.&nbsp;2014), p.&nbsp;73–89. ISSN: 1573-7470. DOI: <a href="https://doi.org/10.1007%2Fs10472-014-9405-y">10.1007/s10472-014-9405-y</a>. URL: <a href="http://dx.doi.org/10.1007/s10472-014-9405-y">http://dx.doi.org/10.1007/s10472-014-9405-y</a>.</p>
+<p><a name="bib-Konecny_2015"></a><a href="#cite-Konecny_2015">[16]</a> J. Konecny and M. Ojeda-Aciego. “On homogeneousL-bonds and heterogeneousL-bonds”. In: <em>International Journal of General Systems</em> 45.2 (Oct.&nbsp;2015), p.&nbsp;160–186. ISSN: 1563-5104. DOI: <a href="https://doi.org/10.1080%2F03081079.2015.1072926">10.1080/03081079.2015.1072926</a>. URL: <a href="http://dx.doi.org/10.1080/03081079.2015.1072926">http://dx.doi.org/10.1080/03081079.2015.1072926</a>.</p>
+<p><a name="bib-Kr_dlo_2016"></a><a href="#cite-Kr_dlo_2016">[17]</a> O. Krídlo, S. Krajči, and L. Antoni. “Formal concept analysis of higher order”. In: <em>International Journal of General Systems</em> 45.2 (Jan.&nbsp;2016), p.&nbsp;116–134. ISSN: 1563-5104. DOI: <a href="https://doi.org/10.1080%2F03081079.2015.1072924">10.1080/03081079.2015.1072924</a>. URL: <a href="http://dx.doi.org/10.1080/03081079.2015.1072924">http://dx.doi.org/10.1080/03081079.2015.1072924</a>.</p>
+<p><a name="bib-Kridlo_2017"></a><a href="#cite-Kridlo_2017">[18]</a> O. Kridlo and M. Ojeda-Aciego. “Extending formal concept analysis using intuitionistic l-fuzzy sets”. In: <em>2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)</em>. IEEE, Jul.&nbsp;2017, p.&nbsp;1–6. DOI: <a href="https://doi.org/10.1109%2Ffuzz-ieee.2017.8015570">10.1109/fuzz-ieee.2017.8015570</a>. URL: <a href="http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570">http://dx.doi.org/10.1109/fuzz-ieee.2017.8015570</a>.</p>
+<p><a name="bib-Li_2015"></a><a href="#cite-Li_2015">[19]</a> J. Li, C. Huang, W. Xu, et al.&nbsp;“Cognitive concept learning via granular computing for big data”. In: <em>2015 International Conference on Machine Learning and Cybernetics (ICMLC)</em>. IEEE, Jul.&nbsp;2015, p.&nbsp;289–294. DOI: <a href="https://doi.org/10.1109%2Ficmlc.2015.7340937">10.1109/icmlc.2015.7340937</a>. URL: <a href="http://dx.doi.org/10.1109/icmlc.2015.7340937">http://dx.doi.org/10.1109/icmlc.2015.7340937</a>.</p>
+<p><a name="bib-Li_20151"></a><a href="#cite-Li_20151">[20]</a> J. Li, C. Mei, W. Xu, et al.&nbsp;“Concept learning via granular computing: A cognitive viewpoint”. In: <em>Information Sciences</em> 298 (Mar.&nbsp;2015), p.&nbsp;447–467. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2014.12.010">10.1016/j.ins.2014.12.010</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2014.12.010">http://dx.doi.org/10.1016/j.ins.2014.12.010</a>.</p>
+<p><a name="bib-Li_2016"></a><a href="#cite-Li_2016">[21]</a> K. Li, M. Shao, and W. Wu. “A data reduction method in formal fuzzy contexts”. In: <em>International Journal of Machine Learning and Cybernetics</em> 8.4 (Jan.&nbsp;2016), p.&nbsp;1145–1155. ISSN: 1868-808X. DOI: <a href="https://doi.org/10.1007%2Fs13042-015-0485-8">10.1007/s13042-015-0485-8</a>. URL: <a href="http://dx.doi.org/10.1007/s13042-015-0485-8">http://dx.doi.org/10.1007/s13042-015-0485-8</a>.</p>
+<p><a name="bib-Urbanova_2014"></a><a href="#cite-Urbanova_2014">[22]</a> L. Urbanova and V. Vychodil. “Derivation digraphs for dependencies in ordinal and similarity-based data”. In: <em>Information Sciences</em> 268 (Jun.&nbsp;2014), p.&nbsp;381–396. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2013.12.046">10.1016/j.ins.2013.12.046</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2013.12.046">http://dx.doi.org/10.1016/j.ins.2013.12.046</a>.</p>
+<p><a name="bib-Vychodil_2016"></a><a href="#cite-Vychodil_2016">[23]</a> V. Vychodil. “Computing sets of graded attribute implications with witnessed non-redundancy”. In: <em>Information Sciences</em> 351 (Jul.&nbsp;2016), p.&nbsp;90–100. ISSN: 0020-0255. DOI: <a href="https://doi.org/10.1016%2Fj.ins.2016.03.004">10.1016/j.ins.2016.03.004</a>. URL: <a href="http://dx.doi.org/10.1016/j.ins.2016.03.004">http://dx.doi.org/10.1016/j.ins.2016.03.004</a>.</p>
+<p><a name="bib-Vychodil_20161"></a><a href="#cite-Vychodil_20161">[24]</a> V. Vychodil. “Parameterizing the Semantics of Fuzzy Attribute Implications by Systems of Isotone Galois Connections”. In: <em>IEEE Transactions on Fuzzy Systems</em> 24.3 (Jun.&nbsp;2016), p.&nbsp;645–660. ISSN: 1941-0034. DOI: <a href="https://doi.org/10.1109%2Ftfuzz.2015.2470530">10.1109/tfuzz.2015.2470530</a>. URL: <a href="http://dx.doi.org/10.1109/tfuzz.2015.2470530">http://dx.doi.org/10.1109/tfuzz.2015.2470530</a>.</p>
+<p><a name="bib-Wang_2024"></a><a href="#cite-Wang_2024">[25]</a> F. Wang, J. Li, and C. Yu. “Optimal scale selection approach for classification based on generalized multi-scale formal context”. In: <em>Applied Soft Computing</em> 152 (Feb.&nbsp;2024), p.&nbsp;111277. ISSN: 1568-4946. DOI: <a href="https://doi.org/10.1016%2Fj.asoc.2024.111277">10.1016/j.asoc.2024.111277</a>. URL: <a href="http://dx.doi.org/10.1016/j.asoc.2024.111277">http://dx.doi.org/10.1016/j.asoc.2024.111277</a>.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

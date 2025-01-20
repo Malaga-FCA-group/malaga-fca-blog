@@ -1,0 +1,88 @@
+---
+title: New links between mathematical morphology and fuzzy property-oriented concept
+  lattices
+author:
+- Juan Carlos Díaz
+- Nicolás Madrid
+- Jesús Medina
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2014'
+categories: uncategorised
+slug: 2014/NeLiMaMoFuCoLa
+details: '{IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2014, Beijing,
+  China, July 6-11, 2014 , pages 599--603.'
+doi: 10.1109/FUZZ-IEEE.2014.6891882
+---
+
+
+
+# Abstract
+
+
+The theory of fuzzy property-oriented concept lattices is a formal tool for modeling and processing incomplete knowledge in information systems. This paper relates this research topic to that of mathematical morphology, a theory whose scope is to process and analyze images and signals. Consequently, the theory developed in the concept lattice framework can be used in these particular settings.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Diaz2014></a>[[+14]](#cite-Diaz2014) J. C. D\'\iaz, N. Madrid, J. Medina, et al. “New links between mathematical morphology and fuzzy property-oriented concept lattices”. In: _IEEE International Conference on Fuzzy Systems, FUZZ-IEEE 2014, Beijing, China, July 6-11, 2014_. IEEE, 2014, pp. 599-603. DOI: [10.1109/FUZZ-IEEE.2014.6891882](https://doi.org/10.1109%2FFUZZ-IEEE.2014.6891882). URL: [https://doi.org/10.1109/FUZZ-IEEE.2014.6891882](https://doi.org/10.1109/FUZZ-IEEE.2014.6891882).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Diaz2014,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Juan Carlos D\'\iaz and Nicol{\a'a}s Madrid and Jes{\a'u}s Medina and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IEEE} International Conference on Fuzzy Systems, {FUZZ-IEEE} 2014, Beijing, China, July 6-11, 2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {New links between mathematical morphology and fuzzy property-oriented concept lattices},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {599--603},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/fuzzIEEE/DiazMMO14.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/FUZZ-IEEE.2014.6891882},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 03 Jan 2022 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/FUZZ-IEEE.2014.6891882},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1109/FUZZ-IEEE.2014.6891882" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1109/FUZZ-IEEE.2014.6891882" class="plumx-details" data-site="plum" data-hide-when-empty="true">New links between mathematical morphology and fuzzy property-oriented concept lattices</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1109/FUZZ-IEEE.2014.6891882"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Eklund_2014></a>[[1]](#cite-Eklund_2014) P. Eklund, M. Á. Galán García, J. Kortelainen, et al. “Monadic Formal Concept Analysis”. In: _Rough Sets and Current Trends in Soft Computing_. Springer International Publishing, 2014, p. 201–210. ISBN: 9783319086446. DOI: [10.1007/978-3-319-08644-6_21](https://doi.org/10.1007%2F978-3-319-08644-6_21). URL: [http://dx.doi.org/10.1007/978-3-319-08644-6_21](http://dx.doi.org/10.1007/978-3-319-08644-6_21).
+
+<a name=bib-Madrid_2019></a>[[2]](#cite-Madrid_2019) N. Madrid, M. Ojeda-Aciego, J. Medina, et al. “L-fuzzy relational mathematical morphology based on adjoint triples”. In: _Information Sciences_ 474 (Feb. 2019), p. 75–89. ISSN: 0020-0255. DOI: [10.1016/j.ins.2018.09.028](https://doi.org/10.1016%2Fj.ins.2018.09.028). URL: [http://dx.doi.org/10.1016/j.ins.2018.09.028](http://dx.doi.org/10.1016/j.ins.2018.09.028).
+
+<a name=bib-Zhang_2015></a>[[3]](#cite-Zhang_2015) Y. Zhang, T. Y. Ji, M. S. Li, et al. “Power disturbance identification based on transient behaviors using morphological max-lifting scheme and nonlinear principal component analysis”. In: _2015 IEEE Innovative Smart Grid Technologies - Asia (ISGT ASIA)_. IEEE, Nov. 2015, p. 1–5. DOI: [10.1109/isgt-asia.2015.7387034](https://doi.org/10.1109%2Fisgt-asia.2015.7387034). URL: [http://dx.doi.org/10.1109/isgt-asia.2015.7387034](http://dx.doi.org/10.1109/isgt-asia.2015.7387034).
+

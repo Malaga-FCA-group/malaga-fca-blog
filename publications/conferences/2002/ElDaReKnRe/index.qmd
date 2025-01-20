@@ -1,0 +1,123 @@
+---
+title: 'SL\({}_{\mbox{FD}}\) Logic: Elimination of Data Redundancy in Knowledge Representation'
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/enciso/' style='color:rgb(100,0,50);'>Manuel Enciso</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+date: '2002'
+categories: uncategorised
+slug: 2002/ElDaReKnRe
+details: Advances in Artificial Intelligence - {IBERAMIA} 2002, 8th Ibero-American
+  Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings , Lecture Notes
+  in Computer Science vol. 2527, pages 141--150.
+doi: 10.1007/3-540-36131-6_15
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2002b></a>[[Cor+02]](#cite-Cordero2002b) P. Cordero, M. Enciso, Á. Mora, et al. “SL\(_\mboxFD\) Logic: Elimination of Data Redundancy in Knowledge Representation”. In: _Advances in Artificial Intelligence - IBERAMIA 2002, 8th Ibero-American Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings_. Ed. by F. J. Garijo, J. C. R. Santos and M. Toro. Vol. 2527. Lecture Notes in Computer Science. Springer, 2002, pp. 141-150. DOI: [10.1007/3-540-36131-6\_15](https://doi.org/10.1007%2F3-540-36131-6%5C_15). URL: [https://doi.org/10.1007/3-540-36131-6\_15](https://doi.org/10.1007/3-540-36131-6\_15).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2002b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Manuel Enciso and {\a'A}ngel Mora and Inman P. {de Guzm{\a'a}n}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Artificial Intelligence - {IBERAMIA} 2002, 8th Ibero-American Conference on AI, Seville, Spain, November 12-15, 2002, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {SL\({}_{\mbox{FD}}\) Logic: Elimination of Data Redundancy in Knowledge Representation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2002},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Francisco J. Garijo and Jos{\a'e} Crist{\a'o}bal Riquelme Santos and Miguel Toro},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {141--150},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {2527},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/iberamia/CorderoEMG02.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/3-540-36131-6\_15},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Mon, 05 Feb 2024 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/3-540-36131-6\_15},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/3-540-36131-6_15" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/3-540-36131-6_15" class="plumx-details" data-site="plum" data-hide-when-empty="true">SL\({}_{\mbox{FD}}\) Logic: Elimination of Data Redundancy in Knowledge Representation</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/3-540-36131-6_15"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Aguilera_2004></a>[[1]](#cite-Aguilera_2004) G. Aguilera, P. Cordero, M. Enciso, et al. “A Non-explosive Treatment of Functional Dependencies Using Rewriting Logic”. In: _Advances in Artificial Intelligence – SBIA 2004_. Springer Berlin Heidelberg, 2004, p. 31–40. ISBN: 9783540286455. DOI: [10.1007/978-3-540-28645-5_4](https://doi.org/10.1007%2F978-3-540-28645-5_4). URL: [http://dx.doi.org/10.1007/978-3-540-28645-5_4](http://dx.doi.org/10.1007/978-3-540-28645-5_4).
+
+<a name=bib-Belohlavek_2012></a>[[2]](#cite-Belohlavek_2012) R. Belohlavek, P. Cordero, M. Enciso, et al. “An Efficient Reasoning Method for Dependencies over Similarity and Ordinal Data”. In: _Modeling Decisions for Artificial Intelligence_. Springer Berlin Heidelberg, 2012, p. 408–419. ISBN: 9783642346200. DOI: [10.1007/978-3-642-34620-0_36](https://doi.org/10.1007%2F978-3-642-34620-0_36). URL: [http://dx.doi.org/10.1007/978-3-642-34620-0_36](http://dx.doi.org/10.1007/978-3-642-34620-0_36).
+
+<a name=bib-Benito_Picazo_2018></a>[[3]](#cite-Benito_Picazo_2018) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Minimal generators, an affordable approach by means of massive computation”. In: _The Journal of Supercomputing_ 75.3 (Jun. 2018), p. 1350–1367. ISSN: 1573-0484. DOI: [10.1007/s11227-018-2453-z](https://doi.org/10.1007%2Fs11227-018-2453-z). URL: [http://dx.doi.org/10.1007/s11227-018-2453-z](http://dx.doi.org/10.1007/s11227-018-2453-z).
+
+<a name=bib-Benito_Picazo_2016></a>[[4]](#cite-Benito_Picazo_2016) F. Benito-Picazo, P. Cordero, M. Enciso, et al. “Reducing the search space by closure and simplification paradigms: A parallel key finding method”. In: _The Journal of Supercomputing_ 73.1 (Jan. 2016), p. 75–87. ISSN: 1573-0484. DOI: [10.1007/s11227-016-1622-1](https://doi.org/10.1007%2Fs11227-016-1622-1). URL: [http://dx.doi.org/10.1007/s11227-016-1622-1](http://dx.doi.org/10.1007/s11227-016-1622-1).
+
+<a name=bib-Benito_Picazo_2017></a>[[5]](#cite-Benito_Picazo_2017) F. Benito‐Picazo, M. Enciso, C. Rossi, et al. “Enhancing the conversational process by using a logical closure operator in phenotypes implications”. In: _Mathematical Methods in the Applied Sciences_ 41.3 (Feb. 2017), p. 1089–1100. ISSN: 1099-1476. DOI: [10.1002/mma.4338](https://doi.org/10.1002%2Fmma.4338). URL: [http://dx.doi.org/10.1002/mma.4338](http://dx.doi.org/10.1002/mma.4338).
+
+<a name=bib-Cordero_2022></a>[[6]](#cite-Cordero_2022) P. Cordero, M. Enciso, D. López-Rodríguez, et al. “fcaR, Formal Concept Analysis with R”. In: _The R Journal_ 14.1 (Jun. 2022), p. 341–361. ISSN: 2073-4859. DOI: [10.32614/rj-2022-014](https://doi.org/10.32614%2Frj-2022-014). URL: [http://dx.doi.org/10.32614/rj-2022-014](http://dx.doi.org/10.32614/rj-2022-014).
+
+<a name=bib-Cordero_2009></a>[[7]](#cite-Cordero_2009) P. Cordero, M. Enciso, A. Mora, et al. “A Complete Logic for Fuzzy Functional Dependencies over Domains with Similarity Relations”. In: _Bio-Inspired Systems: Computational and Ambient Intelligence_. Springer Berlin Heidelberg, 2009, p. 261–269. ISBN: 9783642024788. DOI: [10.1007/978-3-642-02478-8_33](https://doi.org/10.1007%2F978-3-642-02478-8_33). URL: [http://dx.doi.org/10.1007/978-3-642-02478-8_33](http://dx.doi.org/10.1007/978-3-642-02478-8_33).
+
+<a name=bib-Cordero_20111></a>[[8]](#cite-Cordero_20111) P. Cordero, M. Enciso, A. Mora, et al. “An Efficient Algorithm for Reasoning about Fuzzy Functional Dependencies”. In: _Advances in Computational Intelligence_. Springer Berlin Heidelberg, 2011, p. 412–420. ISBN: 9783642214981. DOI: [10.1007/978-3-642-21498-1_52](https://doi.org/10.1007%2F978-3-642-21498-1_52). URL: [http://dx.doi.org/10.1007/978-3-642-21498-1_52](http://dx.doi.org/10.1007/978-3-642-21498-1_52).
+
+<a name=bib-Cordero_2013></a>[[9]](#cite-Cordero_2013) P. Cordero, M. Enciso, A. Mora, et al. “Computing non-redundant sets of functional dependencies via simplification”. In: _2013 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2013, p. 9–14. DOI: [10.1109/foci.2013.6602449](https://doi.org/10.1109%2Ffoci.2013.6602449). URL: [http://dx.doi.org/10.1109/foci.2013.6602449](http://dx.doi.org/10.1109/foci.2013.6602449).
+
+<a name=bib-Cordero_2015></a>[[10]](#cite-Cordero_2015) P. Cordero, M. Enciso, A. Mora, et al. “Knowledge discovery in social networks by using a logic-based treatment of implications”. In: _Knowledge-Based Systems_ 87 (Oct. 2015), p. 16–25. ISSN: 0950-7051. DOI: [10.1016/j.knosys.2015.07.018](https://doi.org/10.1016%2Fj.knosys.2015.07.018). URL: [http://dx.doi.org/10.1016/j.knosys.2015.07.018](http://dx.doi.org/10.1016/j.knosys.2015.07.018).
+
+<a name=bib-Cordero_2014></a>[[11]](#cite-Cordero_2014) P. Cordero, M. Enciso, A. Mora, et al. “A tableaux-like method to infer all minimal keys”. In: _Logic Journal of IGPL_ 22.6 (Sep. 2014), p. 1019–1044. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzu025](https://doi.org/10.1093%2Fjigpal%2Fjzu025). URL: [http://dx.doi.org/10.1093/jigpal/jzu025](http://dx.doi.org/10.1093/jigpal/jzu025).
+
+<a name=bib-Cordero_2011></a>[[12]](#cite-Cordero_2011) P. Cordero, M. Enciso, A. Mora, et al. “Specification and inference of fuzzy attributes”. In: _2011 IEEE Symposium on Foundations of Computational Intelligence (FOCI)_. IEEE, Apr. 2011, p. 107–114. DOI: [10.1109/foci.2011.5949472](https://doi.org/10.1109%2Ffoci.2011.5949472). URL: [http://dx.doi.org/10.1109/foci.2011.5949472](http://dx.doi.org/10.1109/foci.2011.5949472).
+
+<a name=bib-Cordero_2018></a>[[13]](#cite-Cordero_2018) P. Cordero, M. Enciso, A. Mora, et al. “Inference of Mixed Information in Formal Concept Analysis”. In: _Trends in Mathematics and Computational Intelligence_. Springer International Publishing, Oct. 2018, p. 81–87. ISBN: 9783030004859. DOI: [10.1007/978-3-030-00485-9_9](https://doi.org/10.1007%2F978-3-030-00485-9_9). URL: [http://dx.doi.org/10.1007/978-3-030-00485-9_9](http://dx.doi.org/10.1007/978-3-030-00485-9_9).
+
+<a name=bib-Cordero_2008></a>[[14]](#cite-Cordero_2008) P. Cordero, A. Mora, I. de Guzmán, et al. “Non-deterministic ideal operators: An adequate tool for formalization in Data Bases”. In: _Discrete Applied Mathematics_ 156.6 (Mar. 2008), p. 911–923. ISSN: 0166-218X. DOI: [10.1016/j.dam.2007.02.014](https://doi.org/10.1016%2Fj.dam.2007.02.014). URL: [http://dx.doi.org/10.1016/j.dam.2007.02.014](http://dx.doi.org/10.1016/j.dam.2007.02.014).
+
+<a name=bib-Mora_2006></a>[[15]](#cite-Mora_2006) A. Mora, G. Aguilera, M. Enciso, et al. “A new closure algorithm based in logic: SLFD-Closure versus classical closures.” In: _INTELIGENCIA ARTIFICIAL_ 10.31 (Dec. 2006). ISSN: 1137-3601. DOI: [10.4114/ia.v10i31.935](https://doi.org/10.4114%2Fia.v10i31.935). URL: [http://dx.doi.org/10.4114/ia.v10i31.935](http://dx.doi.org/10.4114/ia.v10i31.935).
+
+<a name=bib-Mora_2012></a>[[16]](#cite-Mora_2012) A. Mora, P. Cordero, M. Enciso, et al. “Closure via functional dependence simplification”. In: _International Journal of Computer Mathematics_ 89.4 (Mar. 2012), p. 510–526. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.644275](https://doi.org/10.1080%2F00207160.2011.644275). URL: [http://dx.doi.org/10.1080/00207160.2011.644275](http://dx.doi.org/10.1080/00207160.2011.644275).
+
+<a name=bib-Mora_2004></a>[[17]](#cite-Mora_2004) Á. Mora, M. Enciso, P. Cordero, et al. “An Efficient Preprocessing Transformation for Functional Dependencies Sets Based on the Substitution Paradigm”. In: _Current Topics in Artificial Intelligence_. Springer Berlin Heidelberg, 2004, p. 136–146. ISBN: 9783540259459. DOI: [10.1007/978-3-540-25945-9_14](https://doi.org/10.1007%2F978-3-540-25945-9_14). URL: [http://dx.doi.org/10.1007/978-3-540-25945-9_14](http://dx.doi.org/10.1007/978-3-540-25945-9_14).
+
+<a name=bib-Mora_2011></a>[[18]](#cite-Mora_2011) A. Mora, I. P. de Guzmán, M. Enciso, et al. “Ideal non-deterministic operators as a formal framework to reduce the key finding problem”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1860–1868. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.484488](https://doi.org/10.1080%2F00207160.2010.484488). URL: [http://dx.doi.org/10.1080/00207160.2010.484488](http://dx.doi.org/10.1080/00207160.2010.484488).
+
+<a name=bib-Rodr_guez_Lorenzo_2017></a>[[19]](#cite-Rodr_guez_Lorenzo_2017) E. Rodríguez-Lorenzo, K. Adaricheva, P. Cordero, et al. “Formation of the D-basis from implicational systems using Simplification logic”. In: _International Journal of General Systems_ 46.5 (Jul. 2017), p. 547–568. ISSN: 1563-5104. DOI: [10.1080/03081079.2017.1349632](https://doi.org/10.1080%2F03081079.2017.1349632). URL: [http://dx.doi.org/10.1080/03081079.2017.1349632](http://dx.doi.org/10.1080/03081079.2017.1349632).
+
+<a name=bib-Rodr_guez_Lorenzo_2018></a>[[20]](#cite-Rodr_guez_Lorenzo_2018) E. Rodríguez-Lorenzo, K. Bertet, P. Cordero, et al. “Direct-optimal basis computation by means of the fusion of simplification rules”. In: _Discrete Applied Mathematics_ 249 (Nov. 2018), p. 106–119. ISSN: 0166-218X. DOI: [10.1016/j.dam.2017.12.031](https://doi.org/10.1016%2Fj.dam.2017.12.031). URL: [http://dx.doi.org/10.1016/j.dam.2017.12.031](http://dx.doi.org/10.1016/j.dam.2017.12.031).
+
+<a name=bib-Rodr_guez_Jim_nez_2016></a>[[21]](#cite-Rodr_guez_Jim_nez_2016) J. M. Rodríguez‐Jiménez, P. Cordero, M. Enciso, et al. “Data mining algorithms to compute mixed concepts with negative attributes: an application to breast cancer data analysis”. In: _Mathematical Methods in the Applied Sciences_ 39.16 (Jan. 2016), p. 4829–4845. ISSN: 1099-1476. DOI: [10.1002/mma.3814](https://doi.org/10.1002%2Fmma.3814). URL: [http://dx.doi.org/10.1002/mma.3814](http://dx.doi.org/10.1002/mma.3814).
+

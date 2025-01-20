@@ -1,0 +1,37 @@
+---
+title: Ideal non-deterministic operators as a formal framework to reduce the key finding
+  problem
+author:
+- amora
+- Inmaculada Perez de Guzmán
+- enciso
+- pcordero
+date: '2011'
+categories: uncategorised
+slug: 2011/IdOpFoFrReKeFiPr
+details: Int. J. Comput. Math. vol. 88 (9), pages 1860--1868.
+doi: 10.1080/00207160.2010.484488
+
+---
+
+
+# Abstract
+
+
+Abstract A formal development in the framework of the lattice theory for functional dependencies and minimal keys is presented. Beyond this theoretical study, a technique to prune the key finding problem, named scheme pruning transformation, is proposed in this work. This transformation is founded on theoretical results and has linear cost in the worst case. Moreover, this approach has provided a better size reduction than the usual techniques existing in the literature. Keywords: functional dependenceminimal keylattice theory 2000 AMS Subject Classifications : 06B1068P15H.2.0 Acknowledgements This paper has been partially supported by the Spanish project TIN2007-65819 and the Andalusian project P06-FQM-02049. We are grateful to the referees for their suggestions, which had lead to improve the paper itself and our future work. Notes From now on, the elements of will be denoted by juxtaposition and without braces. That is, abc denotes the subset {a, b, c}.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

@@ -1,0 +1,83 @@
+---
+title: On Coarser Interval Temporal Logics and their Satisfiability Problem
+author:
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- Mercedes Pelegrín-García
+- Pietro Sala
+- Guido Sciavicco
+date: '2015'
+categories: uncategorised
+slug: 2015/CoInTeLoSaPr
+details: Advances in Artificial Intelligence - 16th Conference of the Spanish Association
+  for Artificial Intelligence, {CAEPIA} 2015, Albacete, Spain, November 9-12, 2015,
+  Proceedings , Lecture Notes in Computer Science vol. 9422, pages 105--115.
+doi: 10.1007/978-3-319-24598-0_10
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-MunozVelasco2015></a>[[Mun+15]](#cite-MunozVelasco2015) E. Mu~noz-Velasco, M. Pelegr\'\in-Garc\'\ia, P. Sala, et al. “On Coarser Interval Temporal Logics and their Satisfiability Problem”. In: _Advances in Artificial Intelligence - 16th Conference of the Spanish Association for Artificial Intelligence, CAEPIA 2015, Albacete, Spain, November 9-12, 2015, Proceedings_. Ed. by J. M. Puerta, J. A. Gámez, B. Dorronsoro, E. Barrenechea, A. Troncoso, B. Baruque and M. Galar. Vol. 9422. Lecture Notes in Computer Science. Springer, 2015, pp. 105-115. DOI: [10.1007/978-3-319-24598-0\_10](https://doi.org/10.1007%2F978-3-319-24598-0%5C_10). URL: [https://doi.org/10.1007/978-3-319-24598-0\_10](https://doi.org/10.1007/978-3-319-24598-0\_10).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{MunozVelasco2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Emilio Mu~noz-Velasco and Mercedes Pelegr\'\in-Garc\'\ia and Pietro Sala and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Advances in Artificial Intelligence - 16th Conference of the Spanish Association for Artificial Intelligence, {CAEPIA} 2015, Albacete, Spain, November 9-12, 2015, Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Coarser Interval Temporal Logics and their Satisfiability Problem},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Jos{\a'e} Miguel Puerta and Jos{\a'e} A. G{\a'a}mez and Bernab{\a'e} Dorronsoro and Edurne Barrenechea and Alicia Troncoso and Bruno Baruque and Mikel Galar},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {105--115},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Springer},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Lecture Notes in Computer Science},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {9422},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/caepia/Munoz-VelascoPS15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1007/978-3-319-24598-0\_10},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Thu, 14 Oct 2021 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1007/978-3-319-24598-0\_10},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-319-24598-0_10" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1007/978-3-319-24598-0_10" class="plumx-details" data-site="plum" data-hide-when-empty="true">On Coarser Interval Temporal Logics and their Satisfiability Problem</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1007/978-3-319-24598-0_10"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Bresolin_2017></a>[[1]](#cite-Bresolin_2017) D. Bresolin, A. Kurucz, E. Muñoz-Velasco, et al. “Horn Fragments of the Halpern-Shoham Interval Temporal Logic”. In: _ACM Transactions on Computational Logic_ 18.3 (Jul. 2017), p. 1–39. ISSN: 1557-945X. DOI: [10.1145/3105909](https://doi.org/10.1145%2F3105909). URL: [http://dx.doi.org/10.1145/3105909](http://dx.doi.org/10.1145/3105909).
+

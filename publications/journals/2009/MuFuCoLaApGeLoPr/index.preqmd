@@ -1,0 +1,36 @@
+---
+title: On Fixed-Points of Multivalued Functions on Complete Lattices and Their Application
+  to Generalized Logic Programs
+author:
+- Umberto Straccia
+- aciego
+- Carlos Viegas Damásio
+date: '2009'
+categories: uncategorised
+slug: 2009/MuFuCoLaApGeLoPr
+details: '{SIAM} J. Comput. vol. 38 (5), pages 1881--1911.'
+doi: 10.1137/070695976
+
+---
+
+
+# Abstract
+
+
+Unlike monotone single-valued functions, multivalued mappings may have zero, one, or (possibly infinitely) many minimal fixed-points. The contribution of this work is twofold. First, we overview and investigate the existence and computation of minimal fixed-points of multivalued mappings, whose domain is a complete lattice and whose range is its power set. Second, we show how these results are applied to a general form of logic programs, where the truth space is a complete lattice. We show that a multivalued operator can be defined whose fixed-points are in one-to-one correspondence with the models of the logic program.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

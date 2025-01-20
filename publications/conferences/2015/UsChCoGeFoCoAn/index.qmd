@@ -1,0 +1,51 @@
+---
+title: Using the Chu Construction for Generalizing Formal Concept Analysis
+author:
+- L'ubomír Antoni
+- Inmaculada P. Cabrera
+- Stanislav Krajci
+- Ondrej Kridlo
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2015'
+categories: uncategorised
+slug: 2015/UsChCoGeFoCoAn
+details: Proceedings of the Twelfth International Conference on Concept Lattices and
+  Their Applications, Clermont-Ferrand, France, October 13-16, 2015 , {CEUR} Workshop
+  Proceedings vol. 1466, pages 147--158.
+---
+
+
+
+# Abstract
+
+
+The goal of this paper is to show a connection between FCA generalisations and the Chu construction on the category ChuCors, the category of formal contexts and Chu correspondences. All needed categorical properties like categorical product, tensor  product and its bifunctor properties are presented and proved. Finally, the second order generalisation of FCA is represented by a category built up in terms of the Chu construction.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Antoni2015></a>[[Lub+15]](#cite-Antoni2015) L'ubom\'\irAntoni, I. P. Cabrera, S. Krajci, et al. “Using the Chu Construction for Generalizing Formal Concept Analysis”. In: _Proceedings of the Twelfth International Conference on Concept Lattices and Their Applications, Clermont-Ferrand, France, October 13-16, 2015_. Ed. by S. B. Yahia and J. Konecny. Vol. 1466. CEUR Workshop Proceedings. CEUR-WS.org, 2015, pp. 147-158. URL: [https://ceur-ws.org/Vol-1466/paper12.pdf](https://ceur-ws.org/Vol-1466/paper12.pdf).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Antoni2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {L'ubom\'\ir Antoni and Inmaculada P. Cabrera and Stanislav Krajci and Ondrej Kridlo and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the Twelfth International Conference on Concept Lattices and Their Applications, Clermont-Ferrand, France, October 13-16, 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Using the Chu Construction for Generalizing Formal Concept Analysis},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Sadok Ben Yahia and Jan Konecny},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {147--158},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {CEUR-WS.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {{CEUR} Workshop Proceedings},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1466},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {The goal of this paper is to show a connection between FCA generalisations and the Chu construction on the category ChuCors, the category of formal contexts and Chu correspondences. All needed categorical properties like categorical product, tensor  product and its bifunctor properties are presented and proved. Finally, the second order generalisation of FCA is represented by a category built up in terms of the Chu construction.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/cla/AntoniCKKO15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 10 Mar 2023 16:22:10 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://ceur-ws.org/Vol-1466/paper12.pdf},<br>}
+
+:::
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+---
+title: Galois Connections Between a Fuzzy Preordered Structure and a General Fuzzy
+  Structure
+author:
+- ipcabrera
+- pcordero
+- Francisca García-Pardo
+- aciego
+- Bernard De Baets
+date: '2018'
+categories: uncategorised
+slug: 2018/GaCoFuPrStGeFuSt
+details: '{IEEE} Trans. Fuzzy Syst. vol. 26 (3), pages 1274--1287.'
+doi: 10.1109/TFUZZ.2017.2718495
+
+---
+
+
+# Abstract
+
+
+We continue the study of (isotone) Galois connections, also called adjunctions, in the framework of fuzzy preordered structures, which generalize fuzzy preposets by considering underlying fuzzy equivalence relations. Specifically, we present necessary and sufficient conditions so that, given a mapping f : A → B from a fuzzy preordered structure A = 〈A, ≈ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">A</sub> , <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">ρA</sub> 〉 into a fuzzy structure 〈B, ≈ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">B</sub> 〉, it is possible to construct a fuzzy relation ρ <sub xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">B</sub> that induces a suitable fuzzy preorder structure on B and such that there exists a mapping g : B → A such that the pair (f, g) constitutes an Galois connection.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

@@ -1,0 +1,49 @@
+---
+title: Simplifying Inductive Schemes in Temporal Logic
+author:
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- Inmaculada Fortes
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- Sixto Sánchez
+date: '2019'
+categories: uncategorised
+slug: 2019/SiInScTeLo
+details: 26th International Symposium on Temporal Representation and Reasoning, {TIME}
+  2019, October 16-19, 2019, M{\'{a}}laga, Spain , LIPIcs vol. 147, pages 19:1--19:13.
+doi: 10.4230/LIPICS.TIME.2019.19
+---
+
+
+
+# Abstract
+
+
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cordero2019a></a>[[Cor+19]](#cite-Cordero2019a) P. Cordero, I. Fortes, I. P. de Guzmán, et al. “Simplifying Inductive Schemes in Temporal Logic”. In: _26th International Symposium on Temporal Representation and Reasoning, TIME 2019, October 16-19, 2019, Málaga, Spain_. Ed. by J. Gamper, S. Pinchinat and G. Sciavicco. Vol. 147. LIPIcs. Schloss Dagstuhl - Leibniz-Zentrum für Informatik, 2019, pp. 19:1-19:13. DOI: [10.4230/LIPICS.TIME.2019.19](https://doi.org/10.4230%2FLIPICS.TIME.2019.19). URL: [https://doi.org/10.4230/LIPIcs.TIME.2019.19](https://doi.org/10.4230/LIPIcs.TIME.2019.19).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cordero2019a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Pablo Cordero and Inmaculada Fortes and Inmaculada Perez {de Guzm{\a'a}n} and Sixto S{\a'a}nchez},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {26th International Symposium on Temporal Representation and Reasoning, {TIME} 2019, October 16-19, 2019, M{\'{a}}laga, Spain},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Simplifying Inductive Schemes in Temporal Logic},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Johann Gamper and Sophie Pinchinat and Guido Sciavicco},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {19:1--19:13},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {LIPIcs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {147},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/time/CorderoFGS19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.4230/LIPICS.TIME.2019.19},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Wed, 21 Aug 2024 22:46:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.4230/LIPIcs.TIME.2019.19},<br>}
+
+:::
+
+
+
+
+
+
+
+

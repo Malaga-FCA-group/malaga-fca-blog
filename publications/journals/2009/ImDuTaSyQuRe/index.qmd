@@ -1,0 +1,99 @@
+---
+title: An implementation of a dual tableaux system for order-of-magnitude qualitative
+  reasoning
+author:
+- Alfredo Burrieza
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Ewa Orlowska
+date: '2009'
+categories: uncategorised
+slug: 2009/ImDuTaSyQuRe
+details: Int. J. Comput. Math. vol. 86 (10{\&}11), pages 1852--1866.
+doi: 10.1080/00207160902777906
+---
+
+
+
+# Abstract
+
+
+Abstract Logic programming has been used as a natural framework to automate deduction in the logic of order-of-magnitude reasoning. Specifically, we introduce a Prolog implementation of the Rasiowa–Sikorski proof system associated with the relational translation Re(OM) of the multi-modal logic of order-of-magnitude qualitative reasoning OM. Keywords: relational theorem provingRasiowa–Sikorski proceduremodal logictableaux procedureautomated theorem proving 2000 AMS Subject Classifications : 03B4505E1068T15 Acknowledgements The author A. Mora was partially supported by P06-FQM-02049, and the author M. Ojeda-Aciego was partially supported by TIC06-15455-C03-01. The authors acknowledge the anonymous referees for providing valuable suggestions on how to improve the final version of this article. Notes The full implementation (developed in SWI-Prolog Version 5.6.33 for Windows platform) is available from the address http://homepage.mac.com/alicauchy/ The full trace of execution of the procedure applied on all the axioms of Citation5 can be obtained from the address http://homepage.mac.com/alicauchy/
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Burrieza2009b></a>[[Bur+09]](#cite-Burrieza2009b) A. Burrieza, Á. Mora, M. Ojeda-Aciego, et al. “An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning”. In: _Int. J. Comput. Math._ 86.10\&11 (2009), pp. 1852-1866. DOI: [10.1080/00207160902777906](https://doi.org/10.1080%2F00207160902777906). URL: [https://doi.org/10.1080/00207160902777906](https://doi.org/10.1080/00207160902777906).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{Burrieza2009b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Alfredo Burrieza and {\a'A}ngel Mora and Manuel Ojeda-Aciego and Ewa Orlowska},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Int. J. Comput. Math.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2009},<br>&nbsp;&nbsp;&nbsp;&nbsp;  number = {10{\&}11},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {1852--1866},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {86},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/journals/ijcm/BurriezaMOO09.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1080/00207160902777906},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 23 Sep 2022 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1080/00207160902777906},<br>}
+
+:::
+
+
+
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1080/00207160902777906" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.1080/00207160902777906" class="plumx-details" data-site="plum" data-hide-when-empty="true">An implementation of a dual tableaux system for order-of-magnitude qualitative reasoning</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.1080/00207160902777906"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
+
+
+
+## Papers citing this work
+
+The following is a non-exhaustive list of papers that cite this work:
+
+
+<a name=bib-Formisano_2018></a>[[1]](#cite-Formisano_2018) A. Formisano, E. G. Omodeo, and A. Policriti. “Reasoning on Relations, Modalities, and Sets”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 129–168. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_6](https://doi.org/10.1007%2F978-3-319-97879-6_6). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_6](http://dx.doi.org/10.1007/978-3-319-97879-6_6).
+
+<a name=bib-Goli_ska_Pilarek_2015></a>[[2]](#cite-Goli_ska_Pilarek_2015) J. Goli ska-Pilarek and E. Munoz-Velasco. “A hybrid qualitative approach for relative movements”. In: _Logic Journal of IGPL_ 23.3 (Apr. 2015), p. 410–420. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzv012](https://doi.org/10.1093%2Fjigpal%2Fjzv012). URL: [http://dx.doi.org/10.1093/jigpal/jzv012](http://dx.doi.org/10.1093/jigpal/jzv012).
+
+<a name=bib-Goli_ska_Pilarek_2008></a>[[3]](#cite-Goli_ska_Pilarek_2008) J. Golińska-Pilarek, A. Mora, and E. Muñoz-Velasco. “An ATP of a Relational Proof System for Order of Magnitude Reasoning with Negligibility, Non-closeness and Distance”. In: _PRICAI 2008: Trends in Artificial Intelligence_. Springer Berlin Heidelberg, 2008, p. 128–139. ISBN: 9783540891970. DOI: [10.1007/978-3-540-89197-0_15](https://doi.org/10.1007%2F978-3-540-89197-0_15). URL: [http://dx.doi.org/10.1007/978-3-540-89197-0_15](http://dx.doi.org/10.1007/978-3-540-89197-0_15).
+
+<a name=bib-Goli_ska_Pilarek_2012></a>[[4]](#cite-Goli_ska_Pilarek_2012) J. Golińska-Pilarek and E. Muñoz-Velasco. “Reasoning with Qualitative Velocity: Towards a Hybrid Approach”. In: _Hybrid Artificial Intelligent Systems_. Springer Berlin Heidelberg, 2012, p. 635–646. ISBN: 9783642289422. DOI: [10.1007/978-3-642-28942-2_57](https://doi.org/10.1007%2F978-3-642-28942-2_57). URL: [http://dx.doi.org/10.1007/978-3-642-28942-2_57](http://dx.doi.org/10.1007/978-3-642-28942-2_57).
+
+<a name=bib-Golinska_Pilarek_2010></a>[[5]](#cite-Golinska_Pilarek_2010) J. Golinska-Pilarek, E. Munoz-Velasco, and A. Mora. “A new deduction system for deciding validity in modal logic K”. In: _Logic Journal of IGPL_ 19.2 (Jul. 2010), p. 425–434. ISSN: 1368-9894. DOI: [10.1093/jigpal/jzq033](https://doi.org/10.1093%2Fjigpal%2Fjzq033). URL: [http://dx.doi.org/10.1093/jigpal/jzq033](http://dx.doi.org/10.1093/jigpal/jzq033).
+
+<a name=bib-Goli_ska_Pilarek_2011></a>[[6]](#cite-Goli_ska_Pilarek_2011) J. Golińska-Pilarek and E. Orłowska. “Dual tableau for monoidal triangular norm logic MTL”. In: _Fuzzy Sets and Systems_ 162.1 (Jan. 2011), p. 39–52. ISSN: 0165-0114. DOI: [10.1016/j.fss.2010.09.007](https://doi.org/10.1016%2Fj.fss.2010.09.007). URL: [http://dx.doi.org/10.1016/j.fss.2010.09.007](http://dx.doi.org/10.1016/j.fss.2010.09.007).
+
+<a name=bib-Goli_ska_Pilarek_2018></a>[[7]](#cite-Goli_ska_Pilarek_2018) J. Golińska-Pilarek and M. Zawidzki. “Everything is a Relation: A Preview”. In: _Ewa Orłowska on Relational Methods in Logic and Computer Science_. Springer International Publishing, 2018, p. 3–24. ISBN: 9783319978796. DOI: [10.1007/978-3-319-97879-6_1](https://doi.org/10.1007%2F978-3-319-97879-6_1). URL: [http://dx.doi.org/10.1007/978-3-319-97879-6_1](http://dx.doi.org/10.1007/978-3-319-97879-6_1).
+
+<a name=bib-Madrid_2012></a>[[8]](#cite-Madrid_2012) N. Madrid and M. Ojeda-Aciego. “On the existence and unicity of stable models in normal residuated logic programs”. In: _International Journal of Computer Mathematics_ 89.3 (Feb. 2012), p. 310–324. ISSN: 1029-0265. DOI: [10.1080/00207160.2011.580842](https://doi.org/10.1080%2F00207160.2011.580842). URL: [http://dx.doi.org/10.1080/00207160.2011.580842](http://dx.doi.org/10.1080/00207160.2011.580842).
+
+<a name=bib-Mora_2011></a>[[9]](#cite-Mora_2011) A. Mora, E. Muñoz-Velasco, and J. Golińska-Pilarek. “Implementing a relational theorem prover for modal logic”. In: _International Journal of Computer Mathematics_ 88.9 (Jun. 2011), p. 1869–1884. ISSN: 1029-0265. DOI: [10.1080/00207160.2010.493211](https://doi.org/10.1080%2F00207160.2010.493211). URL: [http://dx.doi.org/10.1080/00207160.2010.493211](http://dx.doi.org/10.1080/00207160.2010.493211).
+

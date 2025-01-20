@@ -1,0 +1,38 @@
+---
+title: Computing Left-Minimal Direct Basis of implications
+author:
+- pcordero
+- enciso
+- amora
+- aciego
+date: '2013'
+categories: uncategorised
+slug: 2013/CoDiBaIm
+details: Proceedings of the Tenth International Conference on Concept Lattices and
+  Their Applications, La Rochelle, France, October 15-18, 2013 , {CEUR} Workshop Proceedings
+  vol. 1062, pages 293--298.
+doi: []
+
+---
+
+
+# Abstract
+
+
+The most popular basis in Formal Concept Analysis is the Duquenne-Guigues basis, which ensure minimality in the number of dependencies and it is built with pseudo-intents, and some method to calculate these basis from an arbitrary set of implications have been introduced. We propose in this paper, an automated method to calculate a left-minimal direct basis from the set of all implications built between a closed set and its corresponding minimal generators. The new basis also has the minimal property demanded in the Duquenne-Guigues basis. It is minimal in the cardinal of the set of implications, and minimal in the size of the left-hand side of the implications.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

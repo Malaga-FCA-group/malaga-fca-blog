@@ -1,0 +1,50 @@
+---
+title: On Fuzzy Preordered Sets and Monotone Galois Connections
+author:
+- Francisca García-Pardo
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2015'
+categories: uncategorised
+slug: 2015/FuPrSeMoGaCo
+details: '{IEEE} Symposium Series on Computational Intelligence, {SSCI} 2015, Cape
+  Town, South Africa, December 7-10, 2015 , pages 990--994.'
+doi: 10.1109/SSCI.2015.144
+---
+
+
+
+# Abstract
+
+
+In this work, we focus on the study of necessary and sufficient conditions in order to ensure the existence (under some constraints) of monotone Galois connections between fuzzy preordered sets.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-GarciaPardo2015a></a>[[Gar+15]](#cite-GarciaPardo2015a) F. Garc\'\ia-Pardo, I. P. Cabrera, P. Cordero, et al. “On Fuzzy Preordered Sets and Monotone Galois Connections”. In: _IEEE Symposium Series on Computational Intelligence, SSCI 2015, Cape Town, South Africa, December 7-10, 2015_. IEEE, 2015, pp. 990-994. DOI: [10.1109/SSCI.2015.144](https://doi.org/10.1109%2FSSCI.2015.144). URL: [https://doi.org/10.1109/SSCI.2015.144](https://doi.org/10.1109/SSCI.2015.144).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{GarciaPardo2015a,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Francisca Garc\'\ia-Pardo and Inma P. Cabrera and Pablo Cordero and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {{IEEE} Symposium Series on Computational Intelligence, {SSCI} 2015, Cape Town, South Africa, December 7-10, 2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {On Fuzzy Preordered Sets and Monotone Galois Connections},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {990--994},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{IEEE}},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/ssci/Garcia-PardoCCO15.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.1109/SSCI.2015.144},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Sat, 30 Sep 2023 01:00:00 +0200},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.1109/SSCI.2015.144},<br>}
+
+:::
+
+
+
+
+
+
+
+

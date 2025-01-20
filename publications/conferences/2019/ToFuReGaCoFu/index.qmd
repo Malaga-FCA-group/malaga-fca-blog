@@ -1,0 +1,49 @@
+---
+title: Towards fuzzy relational Galois connections between fuzzy T-digraphs
+author:
+- <a href='/people/staff/ipcabrera/' style='color:rgb(100,0,50);'>Inma P. Cabrera</a>
+- <a href='/people/staff/pcordero/' style='color:rgb(100,0,50);'>Pablo Cordero</a>
+- <a href='/people/staff/ejmunoz/' style='color:rgb(100,0,50);'>Emilio Muñoz Velasco</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+date: '2019'
+categories: uncategorised
+slug: 2019/ToFuReGaCoFu
+details: []
+doi: 10.2991/EUSFLAT-19.2019.112
+---
+
+
+
+# Abstract
+
+
+In this paper, we give the first steps towards a formal definition of fuzzy relational Galois connection between fuzzy sets with arbitrary fuzzy transitive relations (fuzzy T-digraphs), where the two components of the connection are fuzzy relations.To this end we consider, on the one hand, our definition of relational Galois connection between T-digraphs in the crisp case; and, on the other hand, our definition of fuzzy relational Galois connection between fuzzy preorders.We compare both definitions and conclude that some (fuzzy) generalization of the notion of clique is needed.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Cabrera2019></a>[[Cab+19]](#cite-Cabrera2019) I. P. Cabrera, P. Cordero, E. Mu~noz-Velasco, et al. “Towards fuzzy relational Galois connections between fuzzy T-digraphs”. In: _Proceedings of the 11th Conference of the European Society for Fuzzy Logic and Technology, EUSFLAT 2019, Prague, Czech Republic, September 9-13, 2019_. Ed. by V. Novák, Vladim\'\irMar\'\ik, M. Stepnicka, M. Navara and P. Hurt\'\ik. Vol. 1. Atlantis Studies in Uncertainty Modelling. Atlantis Press, 2019. DOI: [10.2991/EUSFLAT-19.2019.112](https://doi.org/10.2991%2FEUSFLAT-19.2019.112). URL: [https://doi.org/10.2991/eusflat-19.2019.112](https://doi.org/10.2991/eusflat-19.2019.112).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Cabrera2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inma P. Cabrera and Pablo Cordero and Emilio Mu~noz-Velasco and Manuel Ojeda-Aciego},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the 11th Conference of the European Society for Fuzzy Logic and Technology, {EUSFLAT} 2019, Prague, Czech Republic, September 9-13, 2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Towards fuzzy relational Galois connections between fuzzy T-digraphs},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Vil{\a'e}m Nov{\a'a}k and Vladim\'\ir Mar\'\ik and Martin Stepnicka and Mirko Navara and Petr Hurt\'\ik},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {Atlantis Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  series = {Atlantis Studies in Uncertainty Modelling},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/eusflat/CabreraCMO19.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {10.2991/EUSFLAT-19.2019.112},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 29 Jan 2021 00:00:00 +0100},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://doi.org/10.2991/eusflat-19.2019.112},<br>}
+
+:::
+
+
+
+
+
+
+
+

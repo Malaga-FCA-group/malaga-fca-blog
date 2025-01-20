@@ -1,0 +1,36 @@
+---
+title: A Completeness Theorem for Multi-Adjoint Logic Programming
+author:
+- Jesús Medina
+- aciego
+- Peter Vojtás
+date: '2001'
+categories: uncategorised
+slug: 2001/CoThLoPr
+details: Proceedings of the 10th {IEEE} International Conference on Fuzzy Systems,
+  Melbourne, Australia, December 2-5, 2001 , pages 1031--1034.
+doi: 10.1109/FUZZ.2001.1009138
+
+---
+
+
+# Abstract
+
+
+Multi-adjoint logic programs generalise monotonic and residuated logic programs in that simultaneous use of several implications in the rules and rather general connectives in the bodies are allowed. As our approach has continuous fixpoint semantics, in this work, a procedural semantics is given for the paradigm of multi-adjoint logic programming and a completeness result is proved. Some applications which could benefit from this theoretical approach, such as threshold computation, fuzzy databases and general fuzzy resolution, are commented on.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

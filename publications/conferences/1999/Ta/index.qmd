@@ -1,0 +1,48 @@
+---
+title: Multiple-Valued Tableaux with delta-reductions
+author:
+- <a href='/people/staff/ipguzman/' style='color:rgb(100,0,50);'>Inma P. de Guzmán</a>
+- <a href='/people/staff/aciego/' style='color:rgb(100,0,50);'>Manuel Ojeda-Aciego</a>
+- Agustín Valverde
+date: '1999'
+categories: uncategorised
+slug: 1999/Ta
+details: Proceedings of the International Conference on Artificial Intelligence, {IC-AI}'99,
+  June 28 - July 1, 1999, Las Vegas, Nevada, USA, Volume 1 , pages 177--183.
+---
+
+
+
+# Abstract
+
+
+This paper generalises the tree-based data structure of Δ-tree to be applied to signed propositional formulas. The Δ-trees allow a compact representation for signed formulas as well as for a number of reduction strategies in order to consider only those occurrences of literals which are relevant for the satisfiability of the input formula. The conversions from signed formulas to Δ- trees and vice versa are described and a notion of restricted form based on this representation is introduced, allowing for a compact representation of formulas in order to consider only those occurrences of literals which are relevant for its satisfiability.
+
+
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-Guzman1999b></a>[[GOA99]](#cite-Guzman1999b) I. P. de Guzmán, M. Ojeda-Aciego, and Agust\'\inValverde. “Multiple-Valued Tableaux with delta-reductions”. In: _Proceedings of the International Conference on Artificial Intelligence, IC-AI '99, June 28 - July 1, 1999, Las Vegas, Nevada, USA, Volume 1_. Ed. by H. R. Arabnia. CSREA Press, 1999, pp. 177-183.
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@InProceedings{Guzman1999b,<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Inman P. {de Guzm{\a'a}n} and Manuel Ojeda-Aciego and Agust\'\in Valverde},<br>&nbsp;&nbsp;&nbsp;&nbsp;  booktitle = {Proceedings of the International Conference on Artificial Intelligence, {IC-AI} '99, June 28 - July 1, 1999, Las Vegas, Nevada, USA, Volume 1},<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Multiple-Valued Tableaux with delta-reductions},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {1999},<br>&nbsp;&nbsp;&nbsp;&nbsp;  editor = {Hamid R. Arabnia},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {177--183},<br>&nbsp;&nbsp;&nbsp;&nbsp;  publisher = {{CSREA} Press},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {This paper generalises the tree-based data structure of Δ-tree to be applied to signed propositional formulas. The Δ-trees allow a compact representation for signed formulas as well as for a number of reduction strategies in order to consider only those occurrences of literals which are relevant for the satisfiability of the input formula. The conversions from signed formulas to Δ- trees and vice versa are described and a notion of restricted form based on this representation is introduced, allowing for a compact representation of formulas in order to consider only those occurrences of literals which are relevant for its satisfiability.},<br>&nbsp;&nbsp;&nbsp;&nbsp;  bibsource = {dblp computer science bibliography, https://dblp.org},<br>&nbsp;&nbsp;&nbsp;&nbsp;  biburl = {https://dblp.org/rec/conf/icai/GuzmanOV99.bib},<br>&nbsp;&nbsp;&nbsp;&nbsp;  timestamp = {Fri, 26 Mar 2004 13:51:06 +0100},<br>}
+
+:::
+
+
+
+
+
+
+
+
