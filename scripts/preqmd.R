@@ -342,6 +342,35 @@ citation_of_work <- function(header, folder) {
 }
 
 prepare_for_citations <- function(header, folder) {
+  history <- file.path(folder, "citation_history.rds")
+  citations <- file.path(folder, "citations.txt")
+  FORCE <- get("FORCE")
+
+
+  if (fs::file_exists(history) && !FORCE) {
+    info <- fs::file_info(history)
+    age <- (lubridate::interval(info$modification_time, end = Sys.Date())) %/% lubridate::dmonths(1)
+
+    if (age <= 1) {
+      return(list(
+        inline = "",
+        header = list()
+      ))
+    }
+  }
+
+  if (fs::file_exists(citations) && !FORCE) {
+    info <- fs::file_info(citations)
+    age <- (lubridate::interval(info$modification_time, end = Sys.Date())) %/% lubridate::dmonths(1)
+
+    if (age <= 1) {
+      return(list(
+        inline = "",
+        header = list()
+      ))
+    }
+  }
+
   if (!is.null(header$doi)) {
     L <- get_citations_from_doi(header$doi)
     if (!is.na(L$by_year)) {

@@ -99,6 +99,14 @@ cookieconsent.run({
 });
 </script> 
   
+<script src="../../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../../site_libs/plotly-binding-4.10.2/plotly.js"></script>
+<script src="../../../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../../../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="../../../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0fba9333d8.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
@@ -199,6 +207,11 @@ function showPopup() {
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#bibliometric-data" id="toc-bibliometric-data" class="nav-link" data-scroll-target="#bibliometric-data">Bibliometric data</a>
+  <ul class="collapse">
+  <li><a href="#cites" id="toc-cites" class="nav-link" data-scroll-target="#cites">Cites</a></li>
+  <li><a href="#papers-citing-this-work" id="toc-papers-citing-this-work" class="nav-link" data-scroll-target="#papers-citing-this-work">Papers citing this work</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -287,8 +300,36 @@ BibTeX
 </div>
 </div>
 </div>
+</section>
+<section id="bibliometric-data" class="level1">
+<h1>Bibliometric data</h1>
+<p>The following data has been extracted from resources such as <a href="https://openalex.org/">OpenAlex</a>, <a href="https://app.dimensions.ai/">Dimensions</a>, <a href="https://www.elsevier.com/insights/metrics/plumx">PlumX</a> or <a href="https://www.altmetric.com/">Altmetric</a>.</p>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.3233/FAIA200398" data-legend="always"></span>
+</div>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.3233/FAIA200398" class="plumx-details" data-site="plum" data-hide-when-empty="true">New Measures of Inclusion Between Fuzzy Sets in Terms of the {()}-Index of Inclusion</a>
+</div>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-doi="10.3233/FAIA200398">
+
+</div>
+</div>
+<section id="cites" class="level2">
+<h2 class="anchored" data-anchor-id="cites">Cites</h2>
+<p>The following graph plots the number of cites received by this work from its publication, on a yearly basis.</p>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-ad899d1254a8faa26073" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ad899d1254a8faa26073">{"x":{"data":[{"orientation":"v","width":0.90000000000009095,"base":0,"x":[2021],"y":[1],"text":"year: 2021<br />cites: 1","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(38,96,164,1)","line":{"width":1.8897637795275593,"color":"rgba(38,96,164,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.228310502283108,"r":7.3059360730593621,"b":40.182648401826498,"l":48.949771689497723},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2020.5049999999999,2021.4950000000001],"tickmode":"array","ticktext":["2021"],"tickvals":[2021],"categoryorder":"array","categoryarray":["2021"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-0.050000000000000003,1.05],"tickmode":"array","ticktext":["0.00","0.25","0.50","0.75","1.00"],"tickvals":[0,0.25,0.5,0.75,1],"categoryorder":"array","categoryarray":["0.00","0.25","0.50","0.75","1.00"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"cites","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displayModeBar":false},"source":"A","attrs":{"fbd041f77b5b":{"x":{},"y":{},"type":"bar"}},"cur_data":"fbd041f77b5b","visdat":{"fbd041f77b5b":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</section>
+<section id="papers-citing-this-work" class="level2">
+<h2 class="anchored" data-anchor-id="papers-citing-this-work">Papers citing this work</h2>
+<p>The following is a non-exhaustive list of papers that cite this work:</p>
+<p><a name="bib-Madrid_2021"></a><a href="#cite-Madrid_2021">[1]</a> N. Madrid and M. Ojeda-Aciego. “Measures of inclusion and entropy based on the φ-index of inclusion”. In: <em>Fuzzy Sets and Systems</em> 423 (Oct.&nbsp;2021), p.&nbsp;29–54. ISSN: 0165-0114. DOI: <a href="https://doi.org/10.1016%2Fj.fss.2021.01.011">10.1016/j.fss.2021.01.011</a>. URL: <a href="http://dx.doi.org/10.1016/j.fss.2021.01.011">http://dx.doi.org/10.1016/j.fss.2021.01.011</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -382,7 +423,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/fca-malaga\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

@@ -66,7 +66,9 @@ conferences <- list.files(
   recursive = TRUE
 )
 
-conferences |> sapply(process_preqmd) |> invisible()
+conferences |>
+  sapply(process_preqmd) |>
+  invisible()
 
 books <- list.files(
   path = file.path(folder, "books"),
@@ -75,7 +77,9 @@ books <- list.files(
   recursive = TRUE
 )
 
-books |> sapply(process_preqmd) |> invisible()
+books |>
+  sapply(process_preqmd) |>
+  invisible()
 
 # FORCE <- FALSE
 # source(here::here(
@@ -98,15 +102,23 @@ source(here::here(
 # quarto::quarto_preview()
 
 if ("rstudioapi" %in% installed.packages()) {
-
   quarto::quarto_render()
-
 } else {
-
   quarto::quarto_render(as_job = FALSE)
-
 }
 
+site_files <- here::here(
+  "_site"
+) |>
+  fs::dir_ls(recurse = TRUE)
+publications_files <- here::here("publications") |>
+  fs::dir_ls(recurse = TRUE)
+scripts_files <- here::here("scripts") |>
+  fs::dir_ls(recurse = TRUE)
+
+git2r::add(path = c(site_files, publications_files, scripts_files))
+git2r::commit(message = "Update 2025-03")
+git2r::push()
 
 # quarto::quarto_preview_stop()
 

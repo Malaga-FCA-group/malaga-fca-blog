@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../../site_libs/quarto-html/quarto.js"></script>
@@ -73,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-funding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-categories","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-funding'] = new List('listing-funding', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WFPW0888K7"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -136,6 +167,22 @@ function showPopup() {
 }
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
 
 <link rel="stylesheet" href="../../../../styles.css">
 </head>
@@ -199,6 +246,7 @@ function showPopup() {
    
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -271,12 +319,76 @@ function showPopup() {
 <h1>Abstract</h1>
 <p>In this paper, new logical equivalences are presented within the simplification logic with mixed attributes paradigm, which allow the obtention of bases of shorter, easier-to-read attribute implications. In addition to the theoretical results which show that the proposed equivalences indeed hold in simplification logic with mixed attributes, experimental results which showcase the effectiveness of this method are also provided. Furthermore, the simplification method presented is iterative and gives sufficiently good results in only one or two iterations, therefore presenting itself as a reasonable procedure in time-sensitive experiments.</p>
 </section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Projects funding this work
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<div id="listing-funding" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Rm9ybWFsJTIwY29uY2VwdCUyMGFuYWx5c2lzJTJDRnV6enklMjBsb2dpYyUyQ1VuY2VydGFpbnR5JTJDSW1wcmVjaXNlJTIwaW5mb3JtYXRpb24=" data-listing-date-sort="1693519200000">
+<div class="thumbnail">
+<p><a href="../../../../projects/2023-valid" class="no-external"></a></p><a href="../../../../projects/2023-valid" class="no-external">
+<p><img loading="lazy" src="../../../../projects/2023-valid/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../../../../projects/2023-valid" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="funding">
+<a href="../../../../projects/2023-valid" class="no-external">VALID: Verifiable Algebraic and Logic tools for Imperfect Data</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../../../../projects/2023-valid" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9ybWFsJTIwY29uY2VwdCUyMGFuYWx5c2lz'); return false;">
+Formal concept analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RnV6enklMjBsb2dpYw=='); return false;">
+Fuzzy logic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VW5jZXJ0YWludHk='); return false;">
+Uncertainty
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SW1wcmVjaXNlJTIwaW5mb3JtYXRpb24='); return false;">
+Imprecise information
+</div>
+</div>
+</div>
+<div class="metadata">
+<a href="../../../../projects/2023-valid" class="no-external">
+<div class="listing-date">
+1 September 2023
+</div>
+</a><div class="listing-author"><a href="../../../../projects/2023-valid" class="no-external">
+</a><a href="../../../../people/staff/aciego/" style="color:rgb(100,0,50);">Manuel Ojeda-Aciego</a>, <a href="../../../../people/staff/dominlopez/" style="color:rgb(100,0,50);">Domingo López Rodríguez</a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="citation" class="level1">
 <h1>Citation</h1>
 <p>Please, cite this work as:</p>
 <p><a name="bib-math13020309"></a><a href="#cite-math13020309">[LOB25]</a> D. López-Rodríguez, M. Ojeda-Hernández, and C. Bejines. “New Simplification Rules for Databases with Positive and Negative Attributes”. In: <em>Mathematics</em> 13.2 (2025). ISSN: 2227-7390. DOI: <a href="https://doi.org/10.3390%2Fmath13020309">10.3390/math13020309</a>. URL: <a href="https://www.mdpi.com/2227-7390/13/2/309">https://www.mdpi.com/2227-7390/13/2/309</a>.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -285,12 +397,13 @@ BibTeX
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="citation" data-cites="Article">@Article</span>{math13020309,<br>&nbsp;&nbsp;&nbsp;&nbsp; author = {Domingo L{‘o}pez-Rodr{’}guez and Manuel Ojeda-Hern{’a}ndez and Carlos Bejines},<br>&nbsp;&nbsp;&nbsp;&nbsp; title = {New Simplification Rules for Databases with Positive and Negative Attributes},<br>&nbsp;&nbsp;&nbsp;&nbsp; journal = {Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp; volume = {13},<br>&nbsp;&nbsp;&nbsp;&nbsp; year = {2025},<br>&nbsp;&nbsp;&nbsp;&nbsp; number = {2},<br>&nbsp;&nbsp;&nbsp;&nbsp; article-number = {309},<br>&nbsp;&nbsp;&nbsp;&nbsp; url = {https://www.mdpi.com/2227-7390/13/2/309},<br>&nbsp;&nbsp;&nbsp;&nbsp; issn = {2227-7390},<br>&nbsp;&nbsp;&nbsp;&nbsp; abstract = {In this paper, new logical equivalences are presented within the simplification logic with mixed attributes paradigm, which allow the obtention of bases of shorter, easier-to-read attribute implications. In addition to the theoretical results which show that the proposed equivalences indeed hold in simplification logic with mixed attributes, experimental results which showcase the effectiveness of this method are also provided. Furthermore, the simplification method presented is iterative and gives sufficiently good results in only one or two iterations, therefore presenting itself as a reasonable procedure in time-sensitive experiments.},<br>&nbsp;&nbsp;&nbsp;&nbsp; doi = {10.3390/math13020309},<br>}</p>
 </div>
 </div>
 </div>
+
 
 
 </section>
@@ -386,7 +499,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/fca-malaga\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

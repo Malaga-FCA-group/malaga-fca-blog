@@ -44,6 +44,34 @@ Please, cite this work as:
 
 
 
+# Bibliometric data
+
+
+The following data has been extracted from resources such as [OpenAlex](https://openalex.org/), [Dimensions](https://app.dimensions.ai/), [PlumX](https://www.elsevier.com/insights/metrics/plumx) or [Altmetric](https://www.altmetric.com/).
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<span class="__dimensions_badge_embed__" data-doi="10.3233/FAIA200156" data-legend="always"></span></div><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<a href="https://plu.mx/plum/a/?doi=10.3233/FAIA200156" class="plumx-details" data-site="plum" data-hide-when-empty="true">An Approach to Fuzzy Modal Logic of Time Intervals</a></div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-type="medium-donut" class="altmetric-embed" data-badge-details="right" data-doi="10.3233/FAIA200156"></div></div>
+
+
+## Cites
+
+The following graph plots the number of cites received by this work from its publication, on a yearly basis.
+
+```{r citing2}
+#| echo: false
+#| results: asis
+#| warning: false
+#| message: false
+source(here::here('scripts', 'manage_publications.R'))
+df <- readRDS('citation_history.rds')
+plot_citation_history(df)
+```
 
 
 

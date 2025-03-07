@@ -104,6 +104,10 @@
     "items": []
   },
   {
+    "listing": "/publications/journals/2025/UrSuInSyPrImUrGrInLaSuTe/index.html",
+    "items": []
+  },
+  {
     "listing": "/publications/journals/2025/UrSuSoDeUnArDuUrHeIsEf/index.html",
     "items": []
   },
@@ -124,6 +128,8 @@
     "items": [
       "/publications/journals/2025/UrSuSoDeUnArDuUrHeIsEf/index.html",
       "/publications/journals/2025/NeSiRuDaPoNeAt/index.html",
+      "/publications/journals/2025/UrSuInSyPrImUrGrInLaSuTe/index.html",
+      "/publications/journals/2025/FuTiSeExScFuNu/index.html",
       "/publications/journals/2024/FoCoAnApHiDeMaTh/index.html",
       "/publications/journals/2024/AnFuVeSpAlFrFlCo/index.html",
       "/publications/journals/2024/AgFuGr/index.html",
@@ -539,6 +545,14 @@
   },
   {
     "listing": "/publications/journals/2022/FuClDePr/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2025/NeSiRuDaPoNeAt/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journals/2025/FuTiSeExScFuNu/index.html",
     "items": []
   },
   {

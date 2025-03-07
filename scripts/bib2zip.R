@@ -1,5 +1,6 @@
 source(here::here("scripts", "generate_templates.R"))
 source(here::here("scripts", "qmd_utils.R"))
+source(here::here("scripts", "master_table_people.R"))
 
 generate_acronym <- function(input_string) {
   # Verifica que los paquetes necesarios estén instalados
@@ -156,7 +157,7 @@ bib2zip <- function(bibori) {
     return(invisible(NULL))
   }
 
-  dir.create(folder, showWarnings = FALSE, recursive = TRUE)
+  dir.create(new_folder, showWarnings = FALSE, recursive = TRUE)
 
   # slug <- c(
   #   date,

@@ -1,0 +1,64 @@
+---
+title: 'Fuzzy time series analysis: Expanding the scope with fuzzy numbers'
+author:
+- Hugo J. Bello
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+date: '2025'
+categories: uncategorised
+slug: 2025/FuTiSeExScFuNu
+details: International Journal of Approximate Reasoning vol. 180 , pages 109387.
+doi: 10.1016/j.ijar.2025.109387
+keywords: Time series, Fuzzy numbers, Fuzzy time series, Fuzzy stochastic process
+project: 2023-valid
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+# Abstract
+
+
+This article delves into the process of fuzzifying time series, which entails converting a conventional time series into a time-indexed sequence of fuzzy numbers. The focus lies on the well-established practice of fuzzifying time series when a predefined degree of uncertainty is known, employing fuzzy numbers to quantify volatility or vagueness. To address practical challenges associated with volatility or vagueness quantification, we introduce the concept of informed time series. An algorithm is proposed to derive fuzzy time series, and findings include the examination of structural breaks within the realm of fuzzy time series. Additionally, this article underscores the significance of employing topological tools in the analysis of fuzzy time series, accentuating the role of these tools in extracting insights and unraveling intricate relationships within the data.
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-BELLO2025109387></a>[[Bel+25]](#cite-BELLO2025109387) H. J. Bello, M. Ojeda-Hernández, D. López-Rodríguez, et al. “Fuzzy time series analysis: Expanding the scope with fuzzy numbers”. In: _International Journal of Approximate Reasoning_ 180 (2025), p. 109387. ISSN: 0888-613X. DOI: [https://doi.org/10.1016/j.ijar.2025.109387](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijar.2025.109387). URL: [https://www.sciencedirect.com/science/article/pii/S0888613X25000283](https://www.sciencedirect.com/science/article/pii/S0888613X25000283).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{BELLO2025109387,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Fuzzy time series analysis: Expanding the scope with fuzzy numbers},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {International Journal of Approximate Reasoning},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {180},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {109387},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {0888-613X},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {https://doi.org/10.1016/j.ijar.2025.109387},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.sciencedirect.com/science/article/pii/S0888613X25000283},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Hugo J. Bello and Manuel Ojeda-Hern{\a'a}ndez and Domingo L{\a'o}pez-Rodr{\a'\i}guez and Carlos Bejines},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Time series, Fuzzy numbers, Fuzzy time series, Fuzzy stochastic process},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {This article delves into the process of fuzzifying time series, which entails converting a conventional time series into a time-indexed sequence of fuzzy numbers. The focus lies on the well-established practice of fuzzifying time series when a predefined degree of uncertainty is known, employing fuzzy numbers to quantify volatility or vagueness. To address practical challenges associated with volatility or vagueness quantification, we introduce the concept of informed time series. An algorithm is proposed to derive fuzzy time series, and findings include the examination of structural breaks within the realm of fuzzy time series. Additionally, this article underscores the significance of employing topological tools in the analysis of fuzzy time series, accentuating the role of these tools in extracting insights and unraveling intricate relationships within the data.},<br>}
+
+:::
+
+
+
+
+
+
+
+
