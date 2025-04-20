@@ -2,7 +2,7 @@
 title: "Manuel Ojeda Hernández"
 signature: "Manuel Ojeda Hernández"
 sortby: ojedahernandez
-subtitle: "Postdoctoral Fellow"
+subtitle: "Assistant Professor"
 image: avatar.png
 started: "April 2001"
 toc: false

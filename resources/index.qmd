@@ -13,7 +13,7 @@ listing:
   - id: "demos"
     contents: demos
     type: table
-    sort: [date, title]
+    sort: [order, date, title]
     sort-ui: false
     filter-ui: false
     date-format: "YYYY"

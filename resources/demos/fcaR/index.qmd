@@ -3,7 +3,8 @@ title: "fcaR: Formal Concept Analysis with R"
 author: 
   - Ángel Mora Bonilla
   - Domingo López Rodríguez
-date: "2020-07-21"
+date: "2025-03-10"
+order: 1
 comments:
   giscus:
     repo: Malaga-FCA-group/malaga-fca-blog
@@ -69,13 +70,43 @@ The package is in a stable phase in a repository on [Github](https://github.com/
 
   * lifecycle: stable
   * CRAN version: 1.2.1
-  * downloads: ~36K
-  
+  * downloads: ~41K
+
+## Installation
+
+1. Install R for your operating system: [CRAN](https://cran.r-project.org/) and (optional, but recommended) install RStudio, an IDE for R: [RStudio Desktop](https://posit.co/download/rstudio-desktop/).
+
+2. (Within R console) Install one dependency to plot lattices: 
+
+```r
+install.packages(c("BiocManager", "remotes"))
+BiocManager::install("Rgraphviz")
+remotes::install_github("kciomek/hasseDiagram")
+```
+
+ > We're planning to remove this dependency and use other, more robust and easier, methods to plot a Hasse diagram.
+
+ 3. (Within R) 
+ 
+Option 1. Install `fcaR` from CRAN official repository:
+```r
+install.packages("fcaR")
+```
+
+Option 2. If you want to install the latest version (with bugfixes and new functionalities, but maybe some new bugs, too):
+```r
+remotes::install_github("neuroimaginador/fcaR")
+```
+
 ## Where to find help
 
-[https://malaga-fca-group.github.io/fcaR/](`fcaR` repository).
+[`fcaR` repository](https://malaga-fca-group.github.io/fcaR/).
 
 ![](figs/pkgdown.png)
+
+<!-- # The most important thing to remember from this presentation
+
+![](figs/fcaR-leviosa.jpg) -->
 
 # Part 0: Introduction
 
@@ -103,7 +134,7 @@ As an advantage, object oriented programming style of R language and all the kno
 
 -   Currently, the package is under active development.
 
--   As of today the package has 36000 downloads, published in CRAN repositories (<https://cran.rstudio.com/web/packages/fcaR/index.html>) with a living lifecycle <https://github.com/Malaga-FCA-group/fcaR> and with vignettes to help spread the package <https://neuroimaginador.github.io/fcaR/>.
+-   As of today the package has 41000 downloads, published in CRAN repositories (<https://cran.rstudio.com/web/packages/fcaR/index.html>) with a living lifecycle <https://github.com/Malaga-FCA-group/fcaR> and with vignettes to help spread the package <https://neuroimaginador.github.io/fcaR/>.
 
 # Part I: Fundamentals
 

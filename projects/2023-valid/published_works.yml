@@ -46,6 +46,34 @@
   categories: [Data mining, Formal concept analysis, Implications, Imprecise information, Text mining]
   description: 'Forensic Science International: Digital Investigation vol. 50 , pages 301797.'
   path: /publications/2024/2024/FoCoAnApHiDeMaTh
+- title: 'Fuzzy time series analysis: Expanding the scope with fuzzy numbers'
+  author: 
+  - Hugo J. Bello
+  - manuojeda
+  - dominlopez
+  - cbejines
+  date: 2025
+  categories: [Uncategorised]
+  description: 'International Journal of Approximate Reasoning vol. 180 , pages 109387.'
+  path: /publications/2025/2025/FuTiSeExScFuNu
+- title: 'New Simplification Rules for Databases with Positive and Negative Attributes'
+  author: 
+  - dominlopez
+  - manuojeda
+  - cbejines
+  date: 2025
+  categories: [Uncategorised]
+  description: 'Mathematics vol. 13 (2), article number 309.'
+  path: /publications/2025/2025/NeSiRuDaPoNeAt
+- title: 'Systems of implications obtained using the Carve decomposition of a formal context'
+  author: 
+  - dominlopez
+  - manuojeda
+  - Tim Pattison
+  date: 2025-04-19
+  categories: [Formal concept analysis, Implications]
+  description: 'Knowledge-Based Systems  , pages 113475.'
+  path: /publications/2025/2025/SyImObUsCaDeFoCo
 - title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect'
   author: 
   - Francisco Rodríguez-Gómez

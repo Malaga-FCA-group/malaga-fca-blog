@@ -100,3 +100,32 @@
   details: 'Forensic Science International: Digital Investigation vol. 50 , pages
     301797.'
   path: /publications/journals/2024/FoCoAnApHiDeMaTh
+- title: 'Fuzzy time series analysis: Expanding the scope with fuzzy numbers'
+  author:
+  - Hugo J. Bello
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  date: '2025'
+  details: International Journal of Approximate Reasoning vol. 180 , pages 109387.
+  path: /publications/journals/2025/FuTiSeExScFuNu
+- title: New Simplification Rules for Databases with Positive and Negative Attributes
+  author:
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  date: '2025'
+  details: Mathematics vol. 13 (2), article number 309.
+  path: /publications/journals/2025/NeSiRuDaPoNeAt
+- title: Systems of implications obtained using the Carve decomposition of a formal
+    context
+  author:
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - Tim Pattison
+  date: '2025-04-19'
+  details: Knowledge-Based Systems  , pages 113475.
+  path: /publications/journals/2025/SyImObUsCaDeFoCo

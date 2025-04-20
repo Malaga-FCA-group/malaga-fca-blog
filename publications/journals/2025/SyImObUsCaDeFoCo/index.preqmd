@@ -1,0 +1,39 @@
+---
+title: Systems of implications obtained using the Carve decomposition of a formal context
+author:
+- dominlopez
+- manuojeda
+- Tim Pattison
+date: '2025-04-19'
+categories:
+- Formal concept analysis
+- Implications
+slug: 2025/SyImObUsCaDeFoCo
+details: Knowledge-Based Systems  , pages 113475.
+doi: 10.1016/j.knosys.2025.113475
+keywords: Formal concept analysis, Implicational systems, Attribute implications,
+  Divide-and-conquer algorithms, Knowledge representation
+project: 2023-valid
+---
+
+
+# Abstract
+
+
+The Carve algorithm uses a divide-and-conquer strategy to compute the concept lattice of a formal context. The decomposition phase of the Carve algorithm discovers hierarchical structure in an amenable formal context, which the synthesis phase then exploits to construct the concept lattice from those of the component sub-contexts. In this paper, the problem of computing a sound and complete set of attribute implications via a refinement of the Carve decomposition is studied. Indeed, a set of rules is devised to obtain a set of valid implications which is proved to be complete. The refined decomposition and these rules are implemented in the novel Carve+ algorithm, whose runtime compares favourably with direct computation of the Duquenne–Guigues base of implications via the NextClosure algorithm.
+
+
+{{funding}}
+
+
+{{prepare}}
+
+
+{{citation}}
+
+
+{{citation_history}}
+
+
+{{citations}}
+

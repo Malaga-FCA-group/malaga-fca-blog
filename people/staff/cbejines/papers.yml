@@ -25,6 +25,14 @@
   date: '2021'
   details: Fuzzy Sets Syst. vol. 408 , pages 26--43.
   path: /publications/journals/2021/NuSpLa
+- title: On Self-Aggregations of Min-Subgroups
+  author:
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  - Sergio Ardanza-Trevijano
+  - Jorge Elorza
+  date: '2021'
+  details: Axioms vol. 10 (3), pages 201.
+  path: /publications/journals/2021/SeAgMiSu
 - title: Aggregation of indistinguishability operators
   author:
   - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
@@ -72,3 +80,22 @@
   date: '2024-02-05'
   details: Mathematics vol. 12 (3), article number 498.
   path: /publications/journals/2024/AnFuVeSpAlFrFlCo
+- title: 'Fuzzy time series analysis: Expanding the scope with fuzzy numbers'
+  author:
+  - Hugo J. Bello
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  date: '2025'
+  details: International Journal of Approximate Reasoning vol. 180 , pages 109387.
+  path: /publications/journals/2025/FuTiSeExScFuNu
+- title: New Simplification Rules for Databases with Positive and Negative Attributes
+  author:
+  - <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López
+    Rodríguez</a>
+  - <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+  - <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+  date: '2025'
+  details: Mathematics vol. 13 (2), article number 309.
+  path: /publications/journals/2025/NeSiRuDaPoNeAt

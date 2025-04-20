@@ -10,6 +10,16 @@
   categories: [Sustainability]
   description: '<em>Urban Forestry &amp; Urban Greening</em>, vol. 78, 127783'
   path: /publications/2022/2022/DeUnUrArHiTeLaGrSpUsSaImSiSpCi
+- title: 'URSUS_LST: URban SUStainability intelligent system for predicting the impact of urban green infrastructure on land surface temperatures'
+  author: 
+  - Francisco Rodríguez-Gómez
+  - José del Campo-Ávila
+  - Luis Pérez-Urrestarazu
+  - dominlopez
+  date: 2025
+  categories: [Uncategorised]
+  description: 'Environmental Modelling & Software vol. 186 , pages 106364.'
+  path: /publications/2025/2025/UrSuInSyPrImUrGrInLaSuTe
 - title: 'URSUS_UHI: URban SUStainability software for detection of unfavourable areas due to the Urban Heat Island effect'
   author: 
   - Francisco Rodríguez-Gómez

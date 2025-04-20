@@ -8,7 +8,7 @@
 
 <meta name="author" content="Ángel Mora Bonilla">
 <meta name="author" content="Domingo López Rodríguez">
-<meta name="dcterms.date" content="2020-07-21">
+<meta name="dcterms.date" content="2025-03-10">
 
 <title>fcaR: Formal Concept Analysis with R – Málaga FCA Group</title>
 <style>
@@ -283,6 +283,7 @@ window.Quarto = {
   <li><a href="#application-of-fca" id="toc-application-of-fca" class="nav-link" data-scroll-target="#application-of-fca">Application of FCA</a>
   <ul class="collapse">
   <li><a href="#the-fcar-library" id="toc-the-fcar-library" class="nav-link" data-scroll-target="#the-fcar-library">The fcaR library</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
   <li><a href="#where-to-find-help" id="toc-where-to-find-help" class="nav-link" data-scroll-target="#where-to-find-help">Where to find help</a></li>
   </ul></li>
   <li><a href="#part-0-introduction" id="toc-part-0-introduction" class="nav-link" data-scroll-target="#part-0-introduction">Part 0: Introduction</a>
@@ -349,7 +350,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21 July 2020</p>
+      <p class="date">10 March 2025</p>
     </div>
   </div>
   
@@ -403,14 +404,37 @@ window.Quarto = {
 <ul>
 <li>lifecycle: stable</li>
 <li>CRAN version: 1.2.1</li>
-<li>downloads: ~36K</li>
+<li>downloads: ~41K</li>
 </ul></li>
 </ul>
 </section>
+<section id="installation" class="level2">
+<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<ol type="1">
+<li><p>Install R for your operating system: <a href="https://cran.r-project.org/">CRAN</a> and (optional, but recommended) install RStudio, an IDE for R: <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop</a>.</p></li>
+<li><p>(Within R console) Install one dependency to plot lattices:</p></li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"BiocManager"</span>, <span class="st">"remotes"</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="st">"Rgraphviz"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"kciomek/hasseDiagram"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>We’re planning to remove this dependency and use other, more robust and easier, methods to plot a Hasse diagram.</p>
+</blockquote>
+<ol start="3" type="1">
+<li>(Within R)</li>
+</ol>
+<p>Option 1. Install <code>fcaR</code> from CRAN official repository:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"fcaR"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Option 2. If you want to install the latest version (with bugfixes and new functionalities, but maybe some new bugs, too):</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"neuroimaginador/fcaR"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="where-to-find-help" class="level2">
 <h2 class="anchored" data-anchor-id="where-to-find-help">Where to find help</h2>
-<p><a href="`fcaR` repository">https://malaga-fca-group.github.io/fcaR/</a>.</p>
+<p><a href="https://malaga-fca-group.github.io/fcaR/"><code>fcaR</code> repository</a>.</p>
 <p><img src="figs/pkgdown.png" class="img-fluid"></p>
+<!-- # The most important thing to remember from this presentation
+
+![](figs/fcaR-leviosa.jpg) -->
 </section>
 </section>
 <section id="part-0-introduction" class="level1">
@@ -434,7 +458,7 @@ window.Quarto = {
 <ul>
 <li><p>From the point of view of efficiency, the <code>fcaR</code> package uses the vectorial and parallelization capabilities of the R language, whereas algorithmic bottlenecks have been implemented in C.</p></li>
 <li><p>Currently, the package is under active development.</p></li>
-<li><p>As of today the package has 36000 downloads, published in CRAN repositories (<a href="https://cran.rstudio.com/web/packages/fcaR/index.html" class="uri">https://cran.rstudio.com/web/packages/fcaR/index.html</a>) with a living lifecycle <a href="https://github.com/Malaga-FCA-group/fcaR" class="uri">https://github.com/Malaga-FCA-group/fcaR</a> and with vignettes to help spread the package <a href="https://neuroimaginador.github.io/fcaR/" class="uri">https://neuroimaginador.github.io/fcaR/</a>.</p></li>
+<li><p>As of today the package has 41000 downloads, published in CRAN repositories (<a href="https://cran.rstudio.com/web/packages/fcaR/index.html" class="uri">https://cran.rstudio.com/web/packages/fcaR/index.html</a>) with a living lifecycle <a href="https://github.com/Malaga-FCA-group/fcaR" class="uri">https://github.com/Malaga-FCA-group/fcaR</a> and with vignettes to help spread the package <a href="https://neuroimaginador.github.io/fcaR/" class="uri">https://neuroimaginador.github.io/fcaR/</a>.</p></li>
 </ul>
 </section>
 </section>
@@ -451,7 +475,7 @@ window.Quarto = {
 </blockquote>
 <p>We load the <code>fcaR</code> package by:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fcaR)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fcaR)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Visualizing the dataset</li>
@@ -573,8 +597,8 @@ window.Quarto = {
 <li>Creating a variable <code>fc_planets</code></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>fc_planets <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(planets)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>fc_planets <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(planets)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>FormalContext with 9 objects and 7 attributes.
          small  medium  large  near  far  moon  no_moon  
@@ -600,9 +624,9 @@ window.Quarto = {
 </ul>
 <p><strong>Help</strong>: <code>fcaR</code> for your .tex documents:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">to_latex</span>(</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Planets dataset."</span>, </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> <span class="st">"tab:planets"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">to_latex</span>(</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">caption =</span> <span class="st">"Planets dataset."</span>, </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> <span class="st">"tab:planets"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>\begin{table} \caption{Planets dataset.}\label{tab:planets} \centering \begin{tabular}{r|ccccccc}
   &amp; $small$ &amp; $medium$ &amp; $large$ &amp; $near$ &amp; $far$ &amp; $moon$ &amp; $no\_moon$\\ 
@@ -736,7 +760,7 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 </div>
 <p><code>fc_planets</code> can be plotted (in gray scale for fuzzy datasets)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -747,9 +771,9 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 </div>
 <p><code>fc_planets</code> can be saved or loaded in a file</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">save</span>(<span class="at">filename =</span> <span class="st">"./fc_planets.rds"</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>fcnew <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(<span class="st">"./fc_planets.rds"</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>fcnew</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">save</span>(<span class="at">filename =</span> <span class="st">"./fc_planets.rds"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>fcnew <span class="ot">&lt;-</span> FormalContext<span class="sc">$</span><span class="fu">new</span>(<span class="st">"./fc_planets.rds"</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>fcnew</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>FormalContext with 9 objects and 7 attributes.
          small  medium  large  near  far  moon  no_moon  
@@ -774,18 +798,18 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 <p>Example:</p>
 <p>To compute <span class="math inline">\{{\rm Mars}, {\rm Earth}\}^{\uparrow}</span>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>set_objects <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>objects)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>set_objects<span class="sc">$</span><span class="fu">assign</span>(<span class="at">Mars =</span> <span class="dv">1</span>, <span class="at">Earth =</span> <span class="dv">1</span>)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">intent</span>(set_objects)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>set_objects <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>objects)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>set_objects<span class="sc">$</span><span class="fu">assign</span>(<span class="at">Mars =</span> <span class="dv">1</span>, <span class="at">Earth =</span> <span class="dv">1</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">intent</span>(set_objects)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{small, near, moon}</code></pre>
 </div>
 </div>
 <p>To compute <span class="math inline">\{{\rm medium}, {\rm far}\}^{\downarrow}</span>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>set_attributes <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>set_attributes<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">extent</span>(set_attributes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>set_attributes <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>set_attributes<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">extent</span>(set_attributes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{Uranus, Neptune}</code></pre>
 </div>
@@ -797,11 +821,11 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 <h3 class="anchored" data-anchor-id="closures">Closures</h3>
 <p>To compute <span class="math inline">\{{\rm medium}\}^{\downarrow\uparrow}</span>:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the closure of S</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>set_attributes1 <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>set_attributes1<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>MyClosure <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">closure</span>(set_attributes1)</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>MyClosure</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the closure of S</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>set_attributes1 <span class="ot">&lt;-</span> Set<span class="sc">$</span><span class="fu">new</span>(fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>set_attributes1<span class="sc">$</span><span class="fu">assign</span>(<span class="at">medium =</span> <span class="dv">1</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>MyClosure <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">closure</span>(set_attributes1)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>MyClosure</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{medium, far, moon}</code></pre>
 </div>
@@ -809,25 +833,25 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 <p>This means that all planets which have the attributes <em>medium</em> have <em>far</em> and <em>moon</em> in common.</p>
 <p>The function <code>$is_closed()</code> allows us to know if a set of attributes is closed.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>set_attributes2 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>set_attributes2<span class="sc">$</span><span class="fu">assign</span>(<span class="at">moon =</span> <span class="dv">1</span>, <span class="at">large =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>set_attributes2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>set_attributes2 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>set_attributes2<span class="sc">$</span><span class="fu">assign</span>(<span class="at">moon =</span> <span class="dv">1</span>, <span class="at">large =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>set_attributes2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{large, far, moon}</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>set_attributes3 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>set_attributes3<span class="sc">$</span><span class="fu">assign</span>(<span class="at">small =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>set_attributes3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>set_attributes3 <span class="ot">&lt;-</span>  Set<span class="sc">$</span><span class="fu">new</span>(<span class="at">attributes =</span> fc_planets<span class="sc">$</span>attributes)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>set_attributes3<span class="sc">$</span><span class="fu">assign</span>(<span class="at">small =</span> <span class="dv">1</span>, <span class="at">far =</span> <span class="dv">1</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>set_attributes3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{small, far}</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is it closed?</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">is_closed</span>(set_attributes3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
@@ -955,7 +979,7 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 </div>
 <p><strong>Note</strong>: concepts for your .tex documents:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="computing-concepts" class="level3">
@@ -963,8 +987,8 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 <p>We use the function <code>$find_concepts()</code></p>
 <p>Computing all the concepts from formal context of planets:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A set of 12 concepts:
 1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
@@ -980,8 +1004,8 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 11: ({Earth, Mars}, {small, near, moon})
 12: ({}, {small, medium, large, near, far, moon, no_moon})</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First 6 concepts</span></span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fc_planets<span class="sc">$</span>concepts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First 6 concepts</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fc_planets<span class="sc">$</span>concepts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A set of 6 concepts:
 1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
@@ -991,22 +1015,22 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 5: ({Uranus, Neptune}, {medium, far, moon})
 6: ({Mercury, Venus, Earth, Mars, Pluto}, {small})</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The first concept</span></span>
-<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>firstconcept <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">1</span>]</span>
-<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>firstconcept</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The first concept</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>firstconcept <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">1</span>]</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>firstconcept</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A set of 1 concepts:
 1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A subset of concepts</span></span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts[<span class="dv">3</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A subset of concepts</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts[<span class="dv">3</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A set of 2 concepts:
 1: ({Jupiter, Saturn, Uranus, Neptune, Pluto}, {far, moon})
 2: ({Jupiter, Saturn}, {large, far, moon})</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the Hasse diagram of the concept lattice</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the Hasse diagram of the concept lattice</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1024,14 +1048,14 @@ $Pluto$ &amp; $\times$ &amp;  &amp;  &amp;  &amp; $\times$ &amp; $\times$ &amp;
 <p><code>find_implications()</code>: the function to extract the canonical basis of implications and the concept lattice using the NextClosure algorithm</p>
 <p>It stores both a <code>ConceptLattice</code> and an <code>ImplicationSet</code> objects internally in the <code>FormalContext</code> variable.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="manipulating" class="level3">
 <h3 class="anchored" data-anchor-id="manipulating">Manipulating</h3>
 <p>The computed implications are:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Implication set with 10 implications.
 Rule 1: {no_moon} -&gt; {small, near}
@@ -1048,12 +1072,12 @@ Rule 10: {small, medium, far, moon} -&gt; {large, near, no_moon}</code></pre>
 </div>
 <p>Implications can be read by sub-setting (the same that in R language for vector, etc.):</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Implication set with 1 implications.
 Rule 1: {near} -&gt; {small}</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Implication set with 4 implications.
 Rule 1: {no_moon} -&gt; {small, near}
@@ -1061,7 +1085,7 @@ Rule 2: {far} -&gt; {moon}
 Rule 3: {near} -&gt; {small}
 Rule 4: {large} -&gt; {far, moon}</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>,<span class="dv">3</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">4</span>,<span class="dv">3</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Implication set with 5 implications.
 Rule 1: {no_moon} -&gt; {small, near}
@@ -1077,12 +1101,12 @@ Rule 5: {near} -&gt; {small}</code></pre>
 <li><p>the number of attributes for each implication is computed using <code>fc_planets$implications$size()</code></p></li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">cardinality</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">cardinality</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 10</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
-<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>sizes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>sizes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      LHS RHS
  [1,]   1   2
@@ -1096,7 +1120,7 @@ Rule 5: {near} -&gt; {small}</code></pre>
  [9,]   4   3
 [10,]   4   3</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>LHS RHS 
 2.5 2.3 </code></pre>
@@ -1104,7 +1128,7 @@ Rule 5: {near} -&gt; {small}</code></pre>
 </div>
 <p><strong>Help</strong>: … for your .tex documents:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">to_latex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>\begin{longtable*}{rrcl}
 1: &amp;\left\{\mathrm{no\_moon}\right\}&amp;\ensuremath{\Rightarrow}&amp;\left\{\mathrm{small}, \mathrm{near}\right\}\\
@@ -1125,22 +1149,22 @@ Rule 5: {near} -&gt; {small}</code></pre>
 <h3 class="anchored" data-anchor-id="redudancy">Redudancy</h3>
 <p><strong>Simplification Logic</strong> is used to remove redundancy in a <em>logic style</em>, that is, applying some rules to the formulas (the implications)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
-<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span>
-<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">apply_rules</span>(</span>
-<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">rules =</span> <span class="fu">c</span>(<span class="st">"composition"</span>,</span>
-<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">"generalization"</span>,</span>
-<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"simplification"</span>))</span>
-<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a><span class="co"># sizes &lt;- fc_planets$implications$size()</span></span>
-<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a><span class="co"># colMeans(sizes)</span></span>
-<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Simplified implications</span></span>
-<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span>
-<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Which equivalence rules are present?</span></span>
-<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry_names</span>()</span>
-<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry</span>(<span class="st">"simplification"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>sizes <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">size</span>()</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colMeans</span>(sizes)</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">apply_rules</span>(</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">rules =</span> <span class="fu">c</span>(<span class="st">"composition"</span>,</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">"generalization"</span>,</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"simplification"</span>))</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a><span class="co"># sizes &lt;- fc_planets$implications$size()</span></span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a><span class="co"># colMeans(sizes)</span></span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Simplified implications</span></span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>implications</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Which equivalence rules are present?</span></span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry_names</span>()</span>
+<span id="cb53-16"><a href="#cb53-16" aria-hidden="true" tabindex="-1"></a>equivalencesRegistry<span class="sc">$</span><span class="fu">get_entry</span>(<span class="st">"simplification"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><a href="https://neuroimaginador.github.io/fcaR/articles/extending_equivalence.html">Adding new rules to manipulate implications</a></p>
 </section>
@@ -1149,13 +1173,13 @@ Rule 5: {near} -&gt; {small}</code></pre>
 <p>We can see if an <code>ImplicationSet</code> holds in a <code>FormalContext</code> by using the <code>%holds_in%</code> operator.</p>
 <p>For instance, we can check that the first implication so far in the Duquenne-Guigues basis holds in the planets formal context:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications[<span class="dv">1</span>]</span>
-<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>imp1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications[<span class="dv">1</span>]</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>imp1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Implication set with 1 implications.
 Rule 1: {no_moon} -&gt; {small, near}</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="sc">%holds_in%</span> fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>imp1 <span class="sc">%holds_in%</span> fc_planets</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
@@ -1292,7 +1316,7 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 </span></p>
 <p>We use the function: <code>$support()</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb79"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb82"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] 1.0000000 0.7777778 0.5555556 0.2222222 0.2222222 0.5555556 0.3333333
  [8] 0.1111111 0.4444444 0.2222222 0.2222222 0.0000000</code></pre>
@@ -1306,7 +1330,7 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <p><code>$sublattice()</code>: find a sublattice of the complete lattice</p>
 <p>For instance: Computing a sublattice of those concepts with support greater than the threshold</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb81"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>A set of 12 concepts:
 1: ({Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto}, {})
@@ -1324,19 +1348,19 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb83"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using support</span></span>
-<span id="cb83-2"><a href="#cb83-2" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">which</span>(fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>() <span class="sc">&gt;</span> <span class="fl">0.5</span>)</span>
-<span id="cb83-3"><a href="#cb83-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
-<span id="cb83-4"><a href="#cb83-4" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
-<span id="cb83-5"><a href="#cb83-5" aria-hidden="true" tabindex="-1"></a>sublattice</span>
-<span id="cb83-6"><a href="#cb83-6" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span>
-<span id="cb83-7"><a href="#cb83-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb83-8"><a href="#cb83-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using indexes</span></span>
-<span id="cb83-9"><a href="#cb83-9" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>) <span class="co"># concepts 8, 9 and 10</span></span>
-<span id="cb83-10"><a href="#cb83-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
-<span id="cb83-11"><a href="#cb83-11" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
-<span id="cb83-12"><a href="#cb83-12" aria-hidden="true" tabindex="-1"></a>sublattice</span>
-<span id="cb83-13"><a href="#cb83-13" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb86"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using support</span></span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">which</span>(fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">support</span>() <span class="sc">&gt;</span> <span class="fl">0.5</span>)</span>
+<span id="cb86-3"><a href="#cb86-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
+<span id="cb86-4"><a href="#cb86-4" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
+<span id="cb86-5"><a href="#cb86-5" aria-hidden="true" tabindex="-1"></a>sublattice</span>
+<span id="cb86-6"><a href="#cb86-6" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span>
+<span id="cb86-7"><a href="#cb86-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb86-8"><a href="#cb86-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute index of interesting concepts - using indexes</span></span>
+<span id="cb86-9"><a href="#cb86-9" aria-hidden="true" tabindex="-1"></a>idx <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>) <span class="co"># concepts 8, 9 and 10</span></span>
+<span id="cb86-10"><a href="#cb86-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the sublattice</span></span>
+<span id="cb86-11"><a href="#cb86-11" aria-hidden="true" tabindex="-1"></a>sublattice <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">sublattice</span>(idx)</span>
+<span id="cb86-12"><a href="#cb86-12" aria-hidden="true" tabindex="-1"></a>sublattice</span>
+<span id="cb86-13"><a href="#cb86-13" aria-hidden="true" tabindex="-1"></a>sublattice<span class="sc">$</span><span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="hierarchy" class="level3">
@@ -1345,24 +1369,24 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <p>Given a concept, we can compute all its subconcepts and all its superconcepts.</p>
 <p>For instance, find all the subconcepts and superconcepts of the concept number 5 in the list of concepts.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb84"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span>]</span>
-<span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a>C</span>
-<span id="cb84-3"><a href="#cb84-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Its subconcepts:</span></span>
-<span id="cb84-4"><a href="#cb84-4" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">subconcepts</span>(C)</span>
-<span id="cb84-5"><a href="#cb84-5" aria-hidden="true" tabindex="-1"></a><span class="co"># And its superconcepts:</span></span>
-<span id="cb84-6"><a href="#cb84-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">superconcepts</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span>]</span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a>C</span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Its subconcepts:</span></span>
+<span id="cb87-4"><a href="#cb87-4" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">subconcepts</span>(C)</span>
+<span id="cb87-5"><a href="#cb87-5" aria-hidden="true" tabindex="-1"></a><span class="co"># And its superconcepts:</span></span>
+<span id="cb87-6"><a href="#cb87-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">superconcepts</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The same, for supremum and infimum of a set of concetps.</p>
 <p>To find the supremum and the infimum of the concepts 5,6,7.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb85"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A list of concepts</span></span>
-<span id="cb85-2"><a href="#cb85-2" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span><span class="sc">:</span><span class="dv">7</span>]</span>
-<span id="cb85-3"><a href="#cb85-3" aria-hidden="true" tabindex="-1"></a>C</span>
-<span id="cb85-4"><a href="#cb85-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb85-5"><a href="#cb85-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Supremum of the concepts in C</span></span>
-<span id="cb85-6"><a href="#cb85-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">supremum</span>(C)</span>
-<span id="cb85-7"><a href="#cb85-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Infimum of the concepts in C</span></span>
-<span id="cb85-8"><a href="#cb85-8" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">infimum</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb88"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A list of concepts</span></span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>C <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>concepts[<span class="dv">5</span><span class="sc">:</span><span class="dv">7</span>]</span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a>C</span>
+<span id="cb88-4"><a href="#cb88-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb88-5"><a href="#cb88-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Supremum of the concepts in C</span></span>
+<span id="cb88-6"><a href="#cb88-6" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">supremum</span>(C)</span>
+<span id="cb88-7"><a href="#cb88-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Infimum of the concepts in C</span></span>
+<span id="cb88-8"><a href="#cb88-8" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">infimum</span>(C)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="notable-elements" class="level3">
@@ -1370,8 +1394,8 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <p>In a complete lattice, an element is called supremum-irreducible or join-irreducible if it cannot be written as the supremum of other elements and infimum-irreducible or meet-irreducible if it can not be expressed as the infimum of other elements.</p>
 <p>The irreducible elements with respect to join (supremum) and meet (infimum) can be computed for a given concept lattice:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb86"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">join_irreducibles</span>()</span>
-<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">meet_irreducibles</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">join_irreducibles</span>()</span>
+<span id="cb89-2"><a href="#cb89-2" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span>concepts<span class="sc">$</span><span class="fu">meet_irreducibles</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="clarification-reduction" class="level3">
@@ -1380,9 +1404,9 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <p><code>clarify()</code>, which removes duplicated attributes and objects (columns and rows in the original matrix)</p>
 <p><code>reduce()</code>, which uses closures to remove dependent attributes, but only on binary formal contexts</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb87"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We clone the context just to keep a copy</span></span>
-<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
-<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">clarify</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb90"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We clone the context just to keep a copy</span></span>
+<span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb90-3"><a href="#cb90-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">clarify</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>FormalContext with 5 objects and 7 attributes.
                    small  medium  large  near  far  moon  no_moon  
@@ -1392,7 +1416,7 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
  [Jupiter, Saturn]                  X           X     X            
  [Uranus, Neptune]           X                  X     X            </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">reduce</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb92"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">reduce</span>(<span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>FormalContext with 5 objects and 7 attributes.
                    small  medium  large  near  far  moon  no_moon  
@@ -1411,9 +1435,9 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <p><code>standardize()</code> is the function to compute the standard context.</p>
 <p>Note: objects are now named J1, J2… and attributes are M1, M2…, from join and meet</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
-<span id="cb91-2"><a href="#cb91-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
-<span id="cb91-3"><a href="#cb91-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">standardize</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb94"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a>fc_planetscopy <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">find_concepts</span>()</span>
+<span id="cb94-3"><a href="#cb94-3" aria-hidden="true" tabindex="-1"></a>fc_planetscopy<span class="sc">$</span><span class="fu">standardize</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>FormalContext with 5 objects and 7 attributes.
     M1  M2  M3  M4  M5  M6  M7  
@@ -1429,16 +1453,16 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <h3 class="anchored" data-anchor-id="entailment">Entailment</h3>
 <p>Imp1 <code>%entails%</code> Imp2 - Imp2 can be derived (logical consequence) of Imp1</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span>
-<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a>imps <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications</span>
-<span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a>imps2 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">clone</span>()</span>
-<span id="cb93-4"><a href="#cb93-4" aria-hidden="true" tabindex="-1"></a>imps2<span class="sc">$</span><span class="fu">apply_rules</span>(<span class="fu">c</span>(<span class="st">"simp"</span>, <span class="st">"rsimp"</span>))</span>
-<span id="cb93-5"><a href="#cb93-5" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%entails%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb96"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a>fc_planets<span class="sc">$</span><span class="fu">find_implications</span>()</span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>imps <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications</span>
+<span id="cb96-3"><a href="#cb96-3" aria-hidden="true" tabindex="-1"></a>imps2 <span class="ot">&lt;-</span> fc_planets<span class="sc">$</span>implications<span class="sc">$</span><span class="fu">clone</span>()</span>
+<span id="cb96-4"><a href="#cb96-4" aria-hidden="true" tabindex="-1"></a>imps2<span class="sc">$</span><span class="fu">apply_rules</span>(<span class="fu">c</span>(<span class="st">"simp"</span>, <span class="st">"rsimp"</span>))</span>
+<span id="cb96-5"><a href="#cb96-5" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%entails%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
 [1,] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE  TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb95"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a>imps2 <span class="sc">%entails%</span> imps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb98"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a>imps2 <span class="sc">%entails%</span> imps</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
 [1,] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE  TRUE</code></pre>
@@ -1449,11 +1473,11 @@ supp(\langle A, B\rangle)=\frac{|A|}{|G|}
 <h3 class="anchored" data-anchor-id="equivalence">Equivalence</h3>
 <p>Imp1 <code>%~%</code> Imp2 - Are Imp1 and Imp2 equivalent?</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb97"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb100"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb99"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb102"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb102-1"><a href="#cb102-1" aria-hidden="true" tabindex="-1"></a>imps <span class="sc">%~%</span> imps2[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
@@ -1555,7 +1579,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/fca-malaga\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
