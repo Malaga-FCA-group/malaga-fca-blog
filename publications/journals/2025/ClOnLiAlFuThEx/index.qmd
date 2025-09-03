@@ -1,0 +1,67 @@
+---
+title: 'Close-by-One-like algorithms in the fuzzy setting: Theory and experimentation'
+author:
+- <a href='/people/staff/dominlopez/' style='color:rgb(100,0,50);'>Domingo López Rodríguez</a>
+- <a href='/people/staff/manuojeda/' style='color:rgb(100,0,50);'>Manuel Ojeda Hernández</a>
+- <a href='/people/staff/amora/' style='color:rgb(100,0,50);'>Ángel Mora</a>
+- <a href='/people/staff/cbejines/' style='color:rgb(100,0,50);'>Carlos Bejines</a>
+date: '2025'
+categories:
+- Formal concept analysis
+- Imprecise information
+slug: 2025/ClOnLiAlFuThEx
+details: Fuzzy Sets and Systems vol. 520, pages 109574.
+doi: 10.1016/j.fss.2025.109574
+keywords: Formal concept analysis, Close-by-One, Algorithms, Comparison, Performance,
+  Fuzzy
+project: 2023-valid
+listing:
+- id: funding
+  contents: funding.yml
+  type: default
+  sort: date desc
+---
+
+
+
+# Abstract
+
+
+In Fuzzy Formal Concept Analysis (FFCA), concept lattices are computed by scaling the problem and applying ordinary FCA algorithms. In this paper, the CbO family of algorithms is extended to work natively in the fuzzy setting, they are proved to be correct and output the whole set of formal concepts, which makes them mathematically equivalent to the scaling approach. However, experimental results demonstrate the performance improvement of these methods compared to scaling. The paper also discusses a new fuzzy strategy based on blacklisting redundant truth values to enhance the performance of algorithms by taking advantage of the structure of the residuated lattice.
+
+
+
+# Funding
+::: {.callout-note appearance='minimal' collapse=false}
+## Projects funding this work
+
+:::{#funding}
+:::
+:::
+
+
+
+
+
+
+# Citation
+Please, cite this work as:
+
+
+<a name=bib-LOPEZRODRIGUEZ2025109574></a>[[Lóp+25]](#cite-LOPEZRODRIGUEZ2025109574) D. López-Rodríguez, M. Ojeda-Hernández, Á. Mora, et al. “Close-by-One-like algorithms in the fuzzy setting: Theory and experimentation”. In: _Fuzzy Sets and Systems_ 520 (2025), p. 109574. ISSN: 0165-0114. DOI: [https://doi.org/10.1016/j.fss.2025.109574](https://doi.org/https%3A%2F%2Fdoi.org%2F10.1016%2Fj.fss.2025.109574). URL: [https://www.sciencedirect.com/science/article/pii/S0165011425003136](https://www.sciencedirect.com/science/article/pii/S0165011425003136).
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## BibTeX
+
+@Article{LOPEZRODRIGUEZ2025109574,<br>&nbsp;&nbsp;&nbsp;&nbsp;  title = {Close-by-One-like algorithms in the fuzzy setting: Theory and experimentation},<br>&nbsp;&nbsp;&nbsp;&nbsp;  journal = {Fuzzy Sets and Systems},<br>&nbsp;&nbsp;&nbsp;&nbsp;  volume = {520},<br>&nbsp;&nbsp;&nbsp;&nbsp;  pages = {109574},<br>&nbsp;&nbsp;&nbsp;&nbsp;  year = {2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;  issn = {0165-0114},<br>&nbsp;&nbsp;&nbsp;&nbsp;  doi = {https://doi.org/10.1016/j.fss.2025.109574},<br>&nbsp;&nbsp;&nbsp;&nbsp;  url = {https://www.sciencedirect.com/science/article/pii/S0165011425003136},<br>&nbsp;&nbsp;&nbsp;&nbsp;  author = {Domingo L{\a'o}pez-Rodr{\a'\i}guez and Manuel Ojeda-Hern{\a'a}ndez and {\a'A}ngel Mora and Carlos Bejines},<br>&nbsp;&nbsp;&nbsp;&nbsp;  keywords = {Formal concept analysis, Close-by-One, Algorithms, Comparison, Performance, Fuzzy},<br>&nbsp;&nbsp;&nbsp;&nbsp;  abstract = {In Fuzzy Formal Concept Analysis (FFCA), concept lattices are computed by scaling the problem and applying ordinary FCA algorithms. In this paper, the CbO family of algorithms is extended to work natively in the fuzzy setting, they are proved to be correct and output the whole set of formal concepts, which makes them mathematically equivalent to the scaling approach. However, experimental results demonstrate the performance improvement of these methods compared to scaling. The paper also discusses a new fuzzy strategy based on blacklisting redundant truth values to enhance the performance of algorithms by taking advantage of the structure of the residuated lattice.},<br>}
+
+:::
+
+
+
+
+
+
+
+

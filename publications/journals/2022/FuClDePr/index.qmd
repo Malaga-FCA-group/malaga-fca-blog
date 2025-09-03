@@ -107,4 +107,6 @@ The following is a non-exhaustive list of papers that cite this work:
 
 <a name=bib-Ojeda_Hern_ndez_20231></a>[[4]](#cite-Ojeda_Hern_ndez_20231) M. Ojeda-Hernández, I. P. Cabrera, P. Cordero, et al. “On the Commutative Diagrams Among Galois Connections Involved in Closure Structures”. In: _Formal Concept Analysis_. Springer Nature Switzerland, 2023, p. 49–63. ISBN: 9783031359491. DOI: [10.1007/978-3-031-35949-1_4](https://doi.org/10.1007%2F978-3-031-35949-1_4). URL: [http://dx.doi.org/10.1007/978-3-031-35949-1_4](http://dx.doi.org/10.1007/978-3-031-35949-1_4).
 
+<a name=bib-Zhong_2025></a>[[5]](#cite-Zhong_2025) Y. Zhong, S. Lin, and J. Chang. “Characterizations of M-fuzzifying topological operators and its applications”. In: _Filomat_ 39.3 (2025), p. 905–919. ISSN: 2406-0933. DOI: [10.2298/fil2503905z](https://doi.org/10.2298%2Ffil2503905z). URL: [http://dx.doi.org/10.2298/fil2503905z](http://dx.doi.org/10.2298/fil2503905z).
+
 
